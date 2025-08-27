@@ -178,5 +178,14 @@
     "LibraryVersion": "1.0.6",
     "AMLEdition": "AMLEd2",
     "ID": "9d2e9dc4-56c2-4caa-b855-18556ed00988"
+  },
+  {
+    "ClassName": "deepness",
+    "CaexPath": "HSPF_MasterClass_AttributeTypeLib_SubseaExtension/deepness",
+    "BasePath": null,
+    "LibraryName": "HSPF_MasterClass_AttributeTypeLib_SubseaExtension",
+    "LibraryVersion": "1.0.51",
+    "AMLEdition": "AMLEd2",
+    "ID": "05ce6627-fcad-4c24-8d54-7c86e6a9104d"
   }
 ]
