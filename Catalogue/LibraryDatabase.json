@@ -1,0 +1,482 @@
+{
+  "Libraries": [
+    {
+      "CAEXType": "RoleClassLib",
+      "Libraries": [
+        {
+          "Name": "AutomationMLBaseRoleClassLib",
+          "Versions": [
+            {
+              "Version": "2.12.0",
+              "CAEXVersion": "3.0",
+              "AMLEdition": "AMLEd2",
+              "IsArchived": false,
+              "Description": "Automation Markup Language base role class library",
+              "DownloadLink": null,
+              "DownloadLinks": [
+                "https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/AutomationML_Base.Geometry_Libraries_AMLEd2_2.12.0.aml"
+              ],
+              "Sources": null,
+              "Signature": "MEQCIF6vRQn9s8BfNh7i8RJNWlx6YxQSQ6oT6eoe07NAE/4CAiAZnstoqYhYHvVmaahBvh7kxI9dAVD7LgZsA/5VfL\u002BXWg==",
+              "PublicKey": null,
+              "Revision": null
+            },
+            {
+              "Version": "2.11.0",
+              "CAEXVersion": "3.0",
+              "AMLEdition": "AMLEd2",
+              "IsArchived": false,
+              "Description": "Automation Markup Language base role class library",
+              "DownloadLink": null,
+              "DownloadLinks": [
+                "https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/AutomationML_Base_Libraries_AMLEd2_2.11.0.aml"
+              ],
+              "Sources": null,
+              "Signature": "MEQCIDC9/nvBUKvUiG0SJA4wrzUxTydwCWgynBnAmsFf\u002BRvCAiBR6rPX6J/Zb96mA7nszC/9HnUkXbEy1/H/CfZRuOrWDQ==",
+              "PublicKey": null,
+              "Revision": null
+            }
+          ]
+        },
+        {
+          "Name": "AutomationMLLogicRoleClassLib",
+          "Versions": [
+            {
+              "Version": "1.1.0",
+              "CAEXVersion": "3.0",
+              "AMLEdition": "AMLEd2",
+              "IsArchived": false,
+              "Description": "AutomationMLLogicRoleClassLib specifies all logic related role classes.",
+              "DownloadLink": null,
+              "DownloadLinks": [
+                "https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/AutomationML_Base.Logic_Libraries_AMLEd2_1.1.0.aml"
+              ],
+              "Sources": null,
+              "Signature": "MEQCIES4z/rTv0LdkDuCluyvrAPaDg\u002BaCXC9hFFA/yxOzHXpAiBxBTTd4hjqTdD78t91g439jHuwcXMqOs64Ki4w3baOPA==",
+              "PublicKey": null,
+              "Revision": null
+            }
+          ]
+        },
+        {
+          "Name": "CommunicationRoleClassLib",
+          "Versions": [
+            {
+              "Version": "2.4.0",
+              "CAEXVersion": "3.0",
+              "AMLEdition": "AMLEd2",
+              "IsArchived": false,
+              "Description": "standard role classes required for the modelling of core communication concepts",
+              "DownloadLink": null,
+              "DownloadLinks": [
+                "https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/AutomationML_Communication_Libraries_AMLEd2_2.4.0.aml"
+              ],
+              "Sources": null,
+              "Signature": "MEUCIBZahkok7XLySrOssKLgbcFeHrcPXw1k3fG7VXpCMqZHAiEA4XAj57/saZkZxWu\u002Bay3ewi\u002Bb8xLL1yX5nDdwq3a/Feo=",
+              "PublicKey": null,
+              "Revision": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "CAEXType": "InterfaceClassLib",
+      "Libraries": [
+        {
+          "Name": "AutomationMLInterfaceClassLib",
+          "Versions": [
+            {
+              "Version": "2.12.0",
+              "CAEXVersion": "3.0",
+              "AMLEdition": "AMLEd2",
+              "IsArchived": false,
+              "Description": "Standard Automation Markup Language Interface Class Library",
+              "DownloadLink": null,
+              "DownloadLinks": [
+                "https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/AutomationML_Base.Geometry_Libraries_AMLEd2_2.12.0.aml"
+              ],
+              "Sources": null,
+              "Signature": "MEUCIQDQZYNMlWcV0uFvcF4IiqArq/p2IMf89SrtO3qNqDYYCAIgGfLfqIzlwyFWoPoxklNeO/C2adEKPasRBdPIx7Q/o0A=",
+              "PublicKey": null,
+              "Revision": null
+            },
+            {
+              "Version": "2.11.0",
+              "CAEXVersion": "3.0",
+              "AMLEdition": "AMLEd2",
+              "IsArchived": false,
+              "Description": "Standard Automation Markup Language Interface Class Library",
+              "DownloadLink": null,
+              "DownloadLinks": [
+                "https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/AutomationML_Base_Libraries_AMLEd2_2.11.0.aml"
+              ],
+              "Sources": null,
+              "Signature": "MEUCIHgI3xAYUGtIpMJeoUdNcWUBkU6w1von5XhocSS646PvAiEAhQDnkkk9pO2juUxWFCiXhj36ltZECCzrO0Zxw4Bwi6Q=",
+              "PublicKey": null,
+              "Revision": null
+            }
+          ]
+        },
+        {
+          "Name": "AutomationMLLogicInterfaceClassLib",
+          "Versions": [
+            {
+              "Version": "1.1.0",
+              "CAEXVersion": "3.0",
+              "AMLEdition": "AMLEd2",
+              "IsArchived": false,
+              "Description": "AutomationMLLogicInterfaceClassLib specifies all logic related interface classes for referencing AML logic XML documents.",
+              "DownloadLink": null,
+              "DownloadLinks": [
+                "https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/AutomationML_Base.Logic_Libraries_AMLEd2_1.1.0.aml"
+              ],
+              "Sources": null,
+              "Signature": "MEYCIQC5iB4BjURsWMyHoF\u002BZnOS77AvJlm4nYdiK1tEOLAXgKwIhAMAriJdc9dMFL89Yu9WlwQy193eOylhHFHvCNWgrIf4W",
+              "PublicKey": null,
+              "Revision": null
+            }
+          ]
+        },
+        {
+          "Name": "AutomationMLPLCopenXMLInterfaceClassLib",
+          "Versions": [
+            {
+              "Version": "1.1.0",
+              "CAEXVersion": "3.0",
+              "AMLEdition": "AMLEd2",
+              "IsArchived": false,
+              "Description": "AutomationMLPLCopenXMLInterfaceClassLib specifies the logic related interface class for referencing IEC 61131-10 documents",
+              "DownloadLink": null,
+              "DownloadLinks": [
+                "https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/AutomationML_Base.Logic_Libraries_AMLEd2_1.1.0.aml"
+              ],
+              "Sources": null,
+              "Signature": "MEYCIQD56cRBG0yPf6ifiuYctAUWk2jpHX2ZfO4BSjdBLPprnAIhAPvk7XSkrM1MPdeK6ZPobKXGQVS8uHZ3EdV//Arnglck",
+              "PublicKey": null,
+              "Revision": null
+            }
+          ]
+        },
+        {
+          "Name": "CommunicationInterfaceClassLib",
+          "Versions": [
+            {
+              "Version": "2.4.0",
+              "CAEXVersion": "3.0",
+              "AMLEdition": "AMLEd2",
+              "IsArchived": false,
+              "Description": "AutomationML Communication Interface Class Library",
+              "DownloadLink": null,
+              "DownloadLinks": [
+                "https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/AutomationML_Communication_Libraries_AMLEd2_2.4.0.aml"
+              ],
+              "Sources": null,
+              "Signature": "MEQCIFEnBpiTYs33tZP7hxRy0VsXqDNiiTjoeUdXeFMWQUNNAiB\u002B3PiRI0S7h7osYswfi1XTVhEq2sjmtjOQMf1346dBdw==",
+              "PublicKey": null,
+              "Revision": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "CAEXType": "AttributeTypeLib",
+      "Libraries": [
+        {
+          "Name": "AutomationMLBaseAttributeTypeLib",
+          "Versions": [
+            {
+              "Version": "2.12.0",
+              "CAEXVersion": "3.0",
+              "AMLEdition": "AMLEd2",
+              "IsArchived": false,
+              "Description": "Standard Automation Markup Language Attribute Type Library",
+              "DownloadLink": null,
+              "DownloadLinks": [
+                "https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/AutomationML_Base.Geometry_Libraries_AMLEd2_2.12.0.aml"
+              ],
+              "Sources": null,
+              "Signature": "MEYCIQC0vGTU8huoC9em0Zypynx4JlzEPdLxhWg699itOY15TgIhAOBUgafWw47q\u002Bo7/OszF6vGznKjvkFYMpKFKqW7RUP7/",
+              "PublicKey": null,
+              "Revision": null
+            },
+            {
+              "Version": "2.11.0",
+              "CAEXVersion": "3.0",
+              "AMLEdition": "AMLEd2",
+              "IsArchived": false,
+              "Description": "Standard Automation Markup Language Attribute Type Library",
+              "DownloadLink": null,
+              "DownloadLinks": [
+                "https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/AutomationML_Base_Libraries_AMLEd2_2.11.0.aml"
+              ],
+              "Sources": null,
+              "Signature": "MEUCIB/6DdswdnFRYRah/fMDyX7iVDf5W7hojWCRq9/bONnoAiEAzKRTs9VxPyQC2v0n\u002BZJZ6NpT2xv2ScXWnSsQeoomZic=",
+              "PublicKey": null,
+              "Revision": null
+            }
+          ]
+        },
+        {
+          "Name": "AutomationML_Base.Logic_AttributeTypeLib",
+          "Versions": [
+            {
+              "Version": "1.0.0",
+              "CAEXVersion": "3.0",
+              "AMLEdition": "AMLEd2",
+              "IsArchived": false,
+              "Description": "AutomationML_Base.Logic_AttributeTypeLibspecifies all logic related attribute types for referencing AML logic XML documents.",
+              "DownloadLink": null,
+              "DownloadLinks": [
+                "https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/AutomationML_Base.Logic_Libraries_AMLEd2_1.1.0.aml"
+              ],
+              "Sources": null,
+              "Signature": "MEYCIQCwrgY7yKP5Fh5SiFX\u002B8cHaHLZCbvKe1ekJW5iXEpYQtQIhAOC2/NTM8UcplH0hHMhDaxqfdFn2uOTFnHYc752RNdLo",
+              "PublicKey": null,
+              "Revision": null
+            }
+          ]
+        },
+        {
+          "Name": "AutomationML_BasicProperties.General_AttributeTypeLib",
+          "Versions": [
+            {
+              "Version": "0.0.5",
+              "CAEXVersion": "3.0",
+              "AMLEdition": "AMLEd2",
+              "IsArchived": false,
+              "Description": "Attribute type library of general basic properties - for demonstration purposes (DEMO)",
+              "DownloadLink": null,
+              "DownloadLinks": [
+                "https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/AutomationML_BasicProperties_Libraries_AMLEd2_0.0.5.aml"
+              ],
+              "Sources": null,
+              "Signature": "MEQCIH7HEMmchFgeDoW0E9D19p74xI5Mi500H/40ah/tD8LbAiBo\u002BcRI1YF9MEiMaF0\u002B8OrSxUYnTilxyAmXj9yWQxFmmQ==",
+              "PublicKey": null,
+              "Revision": null
+            }
+          ]
+        },
+        {
+          "Name": "AutomationML_BasicProperties.Color_AttributeTypeLib",
+          "Versions": [
+            {
+              "Version": "0.0.5",
+              "CAEXVersion": "3.0",
+              "AMLEdition": "AMLEd2",
+              "IsArchived": false,
+              "Description": "Attribute type library of basic color attribute types - for demonstration purposes (DEMO)",
+              "DownloadLink": null,
+              "DownloadLinks": [
+                "https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/AutomationML_BasicProperties_Libraries_AMLEd2_0.0.5.aml"
+              ],
+              "Sources": null,
+              "Signature": "MEUCIQCmRTIlEH76AJJbjCi4QWQLBxSqVJBX58ScUhPU8S6uVwIgN2L4cvjnVavI3q4oX0/r1DnxjMYj0VJohyMkPK5cP8Q=",
+              "PublicKey": null,
+              "Revision": null
+            }
+          ]
+        },
+        {
+          "Name": "AutomationML_BasicProperties.Physics_AttributeTypeLib",
+          "Versions": [
+            {
+              "Version": "0.0.5",
+              "CAEXVersion": "3.0",
+              "AMLEdition": "AMLEd2",
+              "IsArchived": false,
+              "Description": "Attribute type library of basic physics attribute types - for demonstration purposes (DEMO",
+              "DownloadLink": null,
+              "DownloadLinks": [
+                "https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/AutomationML_BasicProperties_Libraries_AMLEd2_0.0.5.aml"
+              ],
+              "Sources": null,
+              "Signature": "MEYCIQD7CiL0QPMZWxGJ4v2\u002BBYCosYbbKvmRhOWCF2FPJYPQhwIhANHvOCFN5PdNY95c68PWzWuZQiPoI2YjZAamATIH9QYn",
+              "PublicKey": null,
+              "Revision": null
+            }
+          ]
+        },
+        {
+          "Name": "AutomationML_BasicProperties.Electrics_AttributeTypeLib",
+          "Versions": [
+            {
+              "Version": "0.0.5",
+              "CAEXVersion": "3.0",
+              "AMLEdition": "AMLEd2",
+              "IsArchived": false,
+              "Description": "Attribute type library of basic electric attribute types - (DEMO)",
+              "DownloadLink": null,
+              "DownloadLinks": [
+                "https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/AutomationML_BasicProperties_Libraries_AMLEd2_0.0.5.aml"
+              ],
+              "Sources": null,
+              "Signature": "MEYCIQDj2ndbb4BhjTrL3vcXaTuF4oc8l8IRQcMutjTaPs432QIhAKqjXTUG0exK14scX5cY7cIUZRcEr3rqF8r0daKCdwtJ",
+              "PublicKey": null,
+              "Revision": null
+            }
+          ]
+        },
+        {
+          "Name": "HSPF_MasterClass_AttributeTypeLib",
+          "Versions": [
+            {
+              "Version": "1.0.0",
+              "CAEXVersion": "3.0",
+              "AMLEdition": "AMLEd2",
+              "IsArchived": false,
+              "Description": "Eine experimentelle Attributtyplibrary",
+              "DownloadLink": null,
+              "DownloadLinks": [
+                "https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/HSPF_MasterClass_AttributeTypeLib_AMLEd2_1.0.0.aml"
+              ],
+              "Sources": null,
+              "Signature": "MEUCIQDNrAmTvX7xDRtiIKkmAl6prX8AnCs7iVwKWSOMTcSS3gIgN5SdPKq/cVNmI52Djk1TzQ4vMsua9UORzGyAP5/d6pY=",
+              "PublicKey": null,
+              "Revision": null
+            },
+            {
+              "Version": "1.0.1",
+              "CAEXVersion": "3.0",
+              "AMLEdition": "AMLEd2",
+              "IsArchived": false,
+              "Description": "Eine experimentelle Attributtyplibrary",
+              "DownloadLink": null,
+              "DownloadLinks": [
+                "https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/HSPF_MasterClass_AttributeTypeLib_AMLEd2_1.0.1.aml"
+              ],
+              "Sources": null,
+              "Signature": "MEUCIQCH2ceJiG0jpEj8UJ/jfgJ0kZ1wJkl5PH5sVqDWQGx9QwIgd6is5i0zkwVo2dtrLHoFLwxzuHRD3UKApwuJSSGzMiI=",
+              "PublicKey": null,
+              "Revision": null
+            },
+            {
+              "Version": "1.0.2",
+              "CAEXVersion": "3.0",
+              "AMLEdition": "AMLEd2",
+              "IsArchived": false,
+              "Description": "Eine experimentelle Attributtyplibrary",
+              "DownloadLink": null,
+              "DownloadLinks": [
+                "https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/HSPF_MasterClass_AttributeTypeLib_AMLEd2_1.0.2.aml"
+              ],
+              "Sources": null,
+              "Signature": "MEUCIQDyhm3kQc9JTsW9bPT069KN29NPGgV7R9VO\u002BZhW46/u7wIgAUB5qw97nO9ltRp6YIfMrXfcWk7AhK7UM68X6ogq\u002BXs=",
+              "PublicKey": null,
+              "Revision": null
+            },
+            {
+              "Version": "1.0.21",
+              "CAEXVersion": "3.0",
+              "AMLEdition": "AMLEd2",
+              "IsArchived": false,
+              "Description": "Eine experimentelle Attributtyplibrary",
+              "DownloadLink": null,
+              "DownloadLinks": [
+                "https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/HSPF_MasterClass_AttributeTypeLib_AMLEd2_1.0.21.aml"
+              ],
+              "Sources": null,
+              "Signature": "MEUCIQCh/ERXM5c5gh0xVQbk8rSWJ0tVhjhxlgWyKZKo/JZXIAIgUEQnP0fULEpJQVv1t7spPDDNKd6cAA9gDQ38udbImsU=",
+              "PublicKey": null,
+              "Revision": null
+            },
+            {
+              "Version": "1.1.0",
+              "CAEXVersion": "3.0",
+              "AMLEdition": "AMLEd2",
+              "IsArchived": false,
+              "Description": "Eine experimentelle Attributtyplibrary",
+              "DownloadLink": null,
+              "DownloadLinks": [
+                "https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/HSPF_MasterClass_AttributeTypeLib_AMLEd2_1.1.0.aml"
+              ],
+              "Sources": null,
+              "Signature": "MEQCIG3dwIJ9LHnsYmEtazdwz\u002BPc2mqeToA7K3IqsP24PfpjAiBbVETNmQDkLZh1MYrlX9F1wcJlJtfEzX8OWw3B2ciuaA==",
+              "PublicKey": null,
+              "Revision": null
+            },
+            {
+              "Version": "1.1.1",
+              "CAEXVersion": "3.0",
+              "AMLEdition": "AMLEd2",
+              "IsArchived": false,
+              "Description": "Eine experimentelle Attributtyplibrary",
+              "DownloadLink": null,
+              "DownloadLinks": [
+                "https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/HSPF_MasterClass_AttributeTypeLib_AMLEd2_1.1.1.aml"
+              ],
+              "Sources": null,
+              "Signature": "MEYCIQCPsEA0sFGRQCnkaajt5OPquVGjIWBbAVhIIWkQo/W84wIhAK1OO2RpT\u002BNcTxDeJblLXk11ElBvC95WbSU9Zyh/JxtP",
+              "PublicKey": null,
+              "Revision": {
+                "DownloadLink": null,
+                "DownloadLinks": [
+                  "https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/HSPF_MasterClass_AttributeTypeLib_AMLEd2_1.1.1.aml"
+                ],
+                "Signature": "MEUCIQCJKz9kGOCPTBunUbHbqRiOlm5bZKC29VZ1Iv5HMsot8wIgYQYf8AGwZGrxO\u002BE8nQcFiLnJmkTl\u002B8doo47tUZlrOYc=",
+                "Revision": null
+              }
+            },
+            {
+              "Version": "1.2.0",
+              "CAEXVersion": "3.0",
+              "AMLEdition": "AMLEd2",
+              "IsArchived": false,
+              "Description": "Eine experimentelle Attributtyplibrary",
+              "DownloadLink": null,
+              "DownloadLinks": [
+                "https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/HSPF_MasterClass_AttributeTypeLib_AMLEd2_1.2.0.aml"
+              ],
+              "Sources": null,
+              "Signature": "MEYCIQDSM3eqdJcAHC9naa8wWf7J\u002BhOXA8F8i8oQTwPLuLuhwgIhAIKhSN7IFMDRSQ0J8PMB5VUuBjgpNIxqVx9doHRMYa09",
+              "PublicKey": null,
+              "Revision": null
+            }
+          ]
+        },
+        {
+          "Name": "HSPF_MasterClass_AttributeTypeLib_SpaceExtensionExtension",
+          "Versions": [
+            {
+              "Version": "1.0.11",
+              "CAEXVersion": "3.0",
+              "AMLEdition": "AMLEd2",
+              "IsArchived": false,
+              "Description": null,
+              "DownloadLink": null,
+              "DownloadLinks": [
+                "https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/HSPF_MasterClass_AttributeTypeLib_SpaceExtensionExtension_AMLEd2_1.0.11.aml"
+              ],
+              "Sources": null,
+              "Signature": "MEQCIHHf1X4t/Oa12KXDnn6oB9iAkjVK7DtnIfBkR4Z3vzmAAiAVwffQzYldM8375QVYib116B/pI1KhbEjhcAsIIJCZJQ==",
+              "PublicKey": null,
+              "Revision": null
+            }
+          ]
+        },
+        {
+          "Name": "HSPF_MasterClass_AttributeTypeLib_SubseaExtension",
+          "Versions": [
+            {
+              "Version": "1.0.0",
+              "CAEXVersion": "3.0",
+              "AMLEdition": "AMLEd2",
+              "IsArchived": false,
+              "Description": null,
+              "DownloadLink": null,
+              "DownloadLinks": [
+                "https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/HSPF_MasterClass_AttributeTypeLib_SubseaExtension_AMLEd2_1.0.0.aml"
+              ],
+              "Sources": null,
+              "Signature": "MEUCIQDsZBjbuCnxn2NZZ1G4uPbvyaUpWBtlQpKEBo6tWOBVZAIgSHbzP4t99cB4\u002BuDaEfZv/w8Xjf6boegeO3gYA00IkPQ=",
+              "PublicKey": null,
+              "Revision": null
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "PublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEyk6uIUNugOojm3akdEAA4XoGGBEui0zPVhzkjR0RfprHFWrbPpFMfExaW2TaeChaegCmjE2boFph1aI1eNEPcQ=="
+}
