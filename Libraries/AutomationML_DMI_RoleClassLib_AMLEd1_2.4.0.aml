@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CAEXFile FileName="AutomationML_DMI_RoleClassLib_AMLEd1_2.4.0.aml" SchemaVersion="2.15" xsi:noNamespaceSchemaLocation="CAEX_ClassModel_V2.15.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <AdditionalInformation AutomationMLVersion="2.0" />
+  <AdditionalInformation>
+    <WriterHeader>
+      <WriterName>IEC SC65E WG 9</WriterName>
+      <WriterID>IEC SC65E WG 9</WriterID>
+      <WriterVendor>IEC</WriterVendor>
+      <WriterVendorURL>www.iec.ch</WriterVendorURL>
+      <WriterVersion>1.0</WriterVersion>
+      <WriterRelease>1.0.0</WriterRelease>
+      <LastWritingDateTime>2013-03-01</LastWritingDateTime>
+      <WriterProjectTitle>Automation Markup Language Standard Libraries</WriterProjectTitle>
+      <WriterProjectID>Automation Markup Language Standard Libraries</WriterProjectID>
+    </WriterHeader>
+  </AdditionalInformation>
+  <AdditionalInformation DocumentVersions="Recommendations" />
+  <AdditionalInformation>
+    <WriterHeader>
+      <WriterName>AutomationML Editor</WriterName>
+      <WriterID>916578CA-FE0D-474E-A4FC-9E1719892369</WriterID>
+      <WriterVendor>AutomationML e.V.</WriterVendor>
+      <WriterVendorURL>www.AutomationML.org</WriterVendorURL>
+      <WriterVersion>6.2.0.0</WriterVersion>
+      <WriterRelease>6.2.0.0</WriterRelease>
+      <LastWritingDateTime>2023-12-11T19:18:22.8920537</LastWritingDateTime>
+      <WriterProjectTitle>unspecified</WriterProjectTitle>
+      <WriterProjectID>unspecified</WriterProjectID>
+    </WriterHeader>
+  </AdditionalInformation>
+  <ExternalReference Path="https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/AutomationML_Base_Libraries_GeometryExtension_AMLEd1_2.2.1.aml" Alias="AutomationMLBaseRoleClassLib" />
+  <RoleClassLib Name="AutomationMLDMIRoleClassLib">
+    <Description>Automation Markup Language  Discrete Manufacturing Industry Role Class Library</Description>
+    <Version>2.4.0</Version>
+    <RoleClass Name="DiscManufacturingEquipment" RefBaseClassPath="AutomationMLBaseRoleClassLib@AutomationMLBaseRoleClassLib/AutomationMLBaseRole/Resource">
+      <RoleClass Name="Transport" RefBaseClassPath="DiscManufacturingEquipment" />
+      <RoleClass Name="Storage" RefBaseClassPath="DiscManufacturingEquipment" />
+      <RoleClass Name="Fixture" RefBaseClassPath="DiscManufacturingEquipment" />
+      <RoleClass Name="Gate" RefBaseClassPath="DiscManufacturingEquipment" />
+      <RoleClass Name="Robot" RefBaseClassPath="DiscManufacturingEquipment" />
+      <RoleClass Name="Tool" RefBaseClassPath="DiscManufacturingEquipment" />
+      <RoleClass Name="Carrier" RefBaseClassPath="DiscManufacturingEquipment" />
+      <RoleClass Name="Machine" RefBaseClassPath="DiscManufacturingEquipment" />
+      <RoleClass Name="StaticObject" RefBaseClassPath="DiscManufacturingEquipment" />
+    </RoleClass>
+  </RoleClassLib>
+</CAEXFile>
