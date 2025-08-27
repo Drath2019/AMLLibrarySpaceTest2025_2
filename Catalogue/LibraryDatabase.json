@@ -139,6 +139,26 @@
               "Revision": null
             }
           ]
+        },
+        {
+          "Name": "HSPF_MasterClass_AttributeTypeLib_SubseaExtension",
+          "Versions": [
+            {
+              "Version": "1.0.51",
+              "CAEXVersion": "3.0",
+              "AMLEdition": "AMLEd2",
+              "IsArchived": false,
+              "Description": null,
+              "DownloadLink": null,
+              "DownloadLinks": [
+                "https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/HSPF_MasterClass_AttributeTypeLib_SubseaExtension_AMLEd2_1.0.51.aml"
+              ],
+              "Sources": null,
+              "Signature": "MEUCIC33rXMj1Z90smIJEseRoOFemxGtmAjuUvGHcdTX3RT8AiEA17t/kg212UpN9NMe4t1kVYGud7yv6jPtgnzdxyZSNMc=",
+              "PublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEyk6uIUNugOojm3akdEAA4XoGGBEui0zPVhzkjR0RfprHFWrbPpFMfExaW2TaeChaegCmjE2boFph1aI1eNEPcQ==",
+              "Revision": null
+            }
+          ]
         }
       ]
     }
