@@ -1,0 +1,299 @@
+[
+  {
+    "ClassName": "AutomationMLBaseInterface",
+    "CaexPath": "AutomationMLInterfaceClassLib/AutomationMLBaseInterface",
+    "BasePath": null,
+    "LibraryName": "AutomationMLInterfaceClassLib",
+    "LibraryVersion": "2.12.0",
+    "AMLEdition": "AMLEd2",
+    "ID": "1080f36f-1bf2-4eb6-bba1-a83b8512fb18"
+  },
+  {
+    "ClassName": "AutomationMLBaseInterface",
+    "CaexPath": "AutomationMLInterfaceClassLib/AutomationMLBaseInterface",
+    "BasePath": null,
+    "LibraryName": "AutomationMLInterfaceClassLib",
+    "LibraryVersion": "2.11.0",
+    "AMLEdition": "AMLEd2",
+    "ID": "1080f36f-1bf2-4eb6-bba1-a83b8512fb18"
+  },
+  {
+    "ClassName": "Order",
+    "CaexPath": "AutomationMLInterfaceClassLib/AutomationMLBaseInterface/Order",
+    "BasePath": "AutomationMLInterfaceClassLib/AutomationMLBaseInterface",
+    "LibraryName": "AutomationMLInterfaceClassLib",
+    "LibraryVersion": "2.12.0",
+    "AMLEdition": "AMLEd2",
+    "ID": "ffc7f6d3-eb12-43bc-8608-9a03a31234e5"
+  },
+  {
+    "ClassName": "Order",
+    "CaexPath": "AutomationMLInterfaceClassLib/AutomationMLBaseInterface/Order",
+    "BasePath": "AutomationMLInterfaceClassLib/AutomationMLBaseInterface",
+    "LibraryName": "AutomationMLInterfaceClassLib",
+    "LibraryVersion": "2.11.0",
+    "AMLEdition": "AMLEd2",
+    "ID": "ffc7f6d3-eb12-43bc-8608-9a03a31234e5"
+  },
+  {
+    "ClassName": "Port",
+    "CaexPath": "AutomationMLInterfaceClassLib/AutomationMLBaseInterface/Port",
+    "BasePath": "AutomationMLInterfaceClassLib/AutomationMLBaseInterface",
+    "LibraryName": "AutomationMLInterfaceClassLib",
+    "LibraryVersion": "2.12.0",
+    "AMLEdition": "AMLEd2",
+    "ID": "6a4498cf-e793-4995-9cd9-4b4cd7f609a4"
+  },
+  {
+    "ClassName": "Port",
+    "CaexPath": "AutomationMLInterfaceClassLib/AutomationMLBaseInterface/Port",
+    "BasePath": "AutomationMLInterfaceClassLib/AutomationMLBaseInterface",
+    "LibraryName": "AutomationMLInterfaceClassLib",
+    "LibraryVersion": "2.11.0",
+    "AMLEdition": "AMLEd2",
+    "ID": "6a4498cf-e793-4995-9cd9-4b4cd7f609a4"
+  },
+  {
+    "ClassName": "PPRConnector",
+    "CaexPath": "AutomationMLInterfaceClassLib/AutomationMLBaseInterface/PPRConnector",
+    "BasePath": "AutomationMLInterfaceClassLib/AutomationMLBaseInterface",
+    "LibraryName": "AutomationMLInterfaceClassLib",
+    "LibraryVersion": "2.12.0",
+    "AMLEdition": "AMLEd2",
+    "ID": "ffce1c7e-12f3-4f69-bb12-db064641bfa1"
+  },
+  {
+    "ClassName": "PPRConnector",
+    "CaexPath": "AutomationMLInterfaceClassLib/AutomationMLBaseInterface/PPRConnector",
+    "BasePath": "AutomationMLInterfaceClassLib/AutomationMLBaseInterface",
+    "LibraryName": "AutomationMLInterfaceClassLib",
+    "LibraryVersion": "2.11.0",
+    "AMLEdition": "AMLEd2",
+    "ID": "ffce1c7e-12f3-4f69-bb12-db064641bfa1"
+  },
+  {
+    "ClassName": "ExternalDataConnector",
+    "CaexPath": "AutomationMLInterfaceClassLib/AutomationMLBaseInterface/ExternalDataConnector",
+    "BasePath": "AutomationMLInterfaceClassLib/AutomationMLBaseInterface",
+    "LibraryName": "AutomationMLInterfaceClassLib",
+    "LibraryVersion": "2.12.0",
+    "AMLEdition": "AMLEd2",
+    "ID": "daf4f0d5-60c7-4680-9de5-839c45943f84"
+  },
+  {
+    "ClassName": "ExternalDataConnector",
+    "CaexPath": "AutomationMLInterfaceClassLib/AutomationMLBaseInterface/ExternalDataConnector",
+    "BasePath": "AutomationMLInterfaceClassLib/AutomationMLBaseInterface",
+    "LibraryName": "AutomationMLInterfaceClassLib",
+    "LibraryVersion": "2.11.0",
+    "AMLEdition": "AMLEd2",
+    "ID": "daf4f0d5-60c7-4680-9de5-839c45943f84"
+  },
+  {
+    "ClassName": "COLLADAInterface",
+    "CaexPath": "AutomationMLInterfaceClassLib/AutomationMLBaseInterface/ExternalDataConnector/COLLADAInterface",
+    "BasePath": "AutomationMLInterfaceClassLib/AutomationMLBaseInterface/ExternalDataConnector",
+    "LibraryName": "AutomationMLInterfaceClassLib",
+    "LibraryVersion": "2.12.0",
+    "AMLEdition": "AMLEd2",
+    "ID": "8c7c8874-c710-4c29-b370-adea4fa74472"
+  },
+  {
+    "ClassName": "COLLADAInterface",
+    "CaexPath": "AutomationMLInterfaceClassLib/AutomationMLBaseInterface/ExternalDataConnector/COLLADAInterface",
+    "BasePath": "AutomationMLInterfaceClassLib/AutomationMLBaseInterface/ExternalDataConnector",
+    "LibraryName": "AutomationMLInterfaceClassLib",
+    "LibraryVersion": "2.11.0",
+    "AMLEdition": "AMLEd2",
+    "ID": "8c7c8874-c710-4c29-b370-adea4fa74472"
+  },
+  {
+    "ClassName": "PLCopenXMLInterface",
+    "CaexPath": "AutomationMLInterfaceClassLib/AutomationMLBaseInterface/ExternalDataConnector/PLCopenXMLInterface",
+    "BasePath": "AutomationMLInterfaceClassLib/AutomationMLBaseInterface/ExternalDataConnector",
+    "LibraryName": "AutomationMLInterfaceClassLib",
+    "LibraryVersion": "2.12.0",
+    "AMLEdition": "AMLEd2",
+    "ID": "e85a7f4d-0568-4071-99dd-251dd6762200"
+  },
+  {
+    "ClassName": "PLCopenXMLInterface",
+    "CaexPath": "AutomationMLInterfaceClassLib/AutomationMLBaseInterface/ExternalDataConnector/PLCopenXMLInterface",
+    "BasePath": "AutomationMLInterfaceClassLib/AutomationMLBaseInterface/ExternalDataConnector",
+    "LibraryName": "AutomationMLInterfaceClassLib",
+    "LibraryVersion": "2.11.0",
+    "AMLEdition": "AMLEd2",
+    "ID": "e85a7f4d-0568-4071-99dd-251dd6762200"
+  },
+  {
+    "ClassName": "ExternalDataReference",
+    "CaexPath": "AutomationMLInterfaceClassLib/AutomationMLBaseInterface/ExternalDataConnector/ExternalDataReference",
+    "BasePath": "AutomationMLInterfaceClassLib/AutomationMLBaseInterface/ExternalDataConnector",
+    "LibraryName": "AutomationMLInterfaceClassLib",
+    "LibraryVersion": "2.12.0",
+    "AMLEdition": "AMLEd2",
+    "ID": "cdf421ef-b928-4c17-8f82-a901704b39c3"
+  },
+  {
+    "ClassName": "ExternalDataReference",
+    "CaexPath": "AutomationMLInterfaceClassLib/AutomationMLBaseInterface/ExternalDataConnector/ExternalDataReference",
+    "BasePath": "AutomationMLInterfaceClassLib/AutomationMLBaseInterface/ExternalDataConnector",
+    "LibraryName": "AutomationMLInterfaceClassLib",
+    "LibraryVersion": "2.11.0",
+    "AMLEdition": "AMLEd2",
+    "ID": "cdf421ef-b928-4c17-8f82-a901704b39c3"
+  },
+  {
+    "ClassName": "Communication",
+    "CaexPath": "AutomationMLInterfaceClassLib/AutomationMLBaseInterface/Communication",
+    "BasePath": "AutomationMLInterfaceClassLib/AutomationMLBaseInterface",
+    "LibraryName": "AutomationMLInterfaceClassLib",
+    "LibraryVersion": "2.12.0",
+    "AMLEdition": "AMLEd2",
+    "ID": "4eeaf400-d298-4cc2-9f73-3579cad22fe2"
+  },
+  {
+    "ClassName": "Communication",
+    "CaexPath": "AutomationMLInterfaceClassLib/AutomationMLBaseInterface/Communication",
+    "BasePath": "AutomationMLInterfaceClassLib/AutomationMLBaseInterface",
+    "LibraryName": "AutomationMLInterfaceClassLib",
+    "LibraryVersion": "2.11.0",
+    "AMLEdition": "AMLEd2",
+    "ID": "4eeaf400-d298-4cc2-9f73-3579cad22fe2"
+  },
+  {
+    "ClassName": "SignalInterface",
+    "CaexPath": "AutomationMLInterfaceClassLib/AutomationMLBaseInterface/Communication/SignalInterface",
+    "BasePath": "AutomationMLInterfaceClassLib/AutomationMLBaseInterface/Communication",
+    "LibraryName": "AutomationMLInterfaceClassLib",
+    "LibraryVersion": "2.12.0",
+    "AMLEdition": "AMLEd2",
+    "ID": "18660ec2-09a2-4153-abe1-6613478719d2"
+  },
+  {
+    "ClassName": "SignalInterface",
+    "CaexPath": "AutomationMLInterfaceClassLib/AutomationMLBaseInterface/Communication/SignalInterface",
+    "BasePath": "AutomationMLInterfaceClassLib/AutomationMLBaseInterface/Communication",
+    "LibraryName": "AutomationMLInterfaceClassLib",
+    "LibraryVersion": "2.11.0",
+    "AMLEdition": "AMLEd2",
+    "ID": "18660ec2-09a2-4153-abe1-6613478719d2"
+  },
+  {
+    "ClassName": "AttachmentInterface",
+    "CaexPath": "AutomationMLInterfaceClassLib/AutomationMLBaseInterface/AttachmentInterface",
+    "BasePath": "AutomationMLInterfaceClassLib/AutomationMLBaseInterface",
+    "LibraryName": "AutomationMLInterfaceClassLib",
+    "LibraryVersion": "2.12.0",
+    "AMLEdition": "AMLEd2",
+    "ID": "f5c8be46-d99a-4b26-b6e9-7d1974cfcde3"
+  },
+  {
+    "ClassName": "LogicModelInterface",
+    "CaexPath": "AutomationMLLogicInterfaceClassLib/LogicModelInterface",
+    "BasePath": "AutomationMLBaseLibrariesAMLEd22_11_0@AutomationMLInterfaceClassLib/AutomationMLBaseInterface/ExternalDataConnector",
+    "LibraryName": "AutomationMLLogicInterfaceClassLib",
+    "LibraryVersion": "1.1.0",
+    "AMLEdition": "AMLEd2",
+    "ID": "123002eb-806e-4441-a5c3-b6c70e933a90"
+  },
+  {
+    "ClassName": "SequencingLogicModelInterface",
+    "CaexPath": "AutomationMLLogicInterfaceClassLib/SequencingLogicModelInterface",
+    "BasePath": "AutomationMLLogicInterfaceClassLib/LogicModelInterface",
+    "LibraryName": "AutomationMLLogicInterfaceClassLib",
+    "LibraryVersion": "1.1.0",
+    "AMLEdition": "AMLEd2",
+    "ID": "00fdbd8f-2446-4b16-ae34-5642ec08c898"
+  },
+  {
+    "ClassName": "BehaviourLogicModelInterface",
+    "CaexPath": "AutomationMLLogicInterfaceClassLib/BehaviourLogicModelInterface",
+    "BasePath": "AutomationMLLogicInterfaceClassLib/LogicModelInterface",
+    "LibraryName": "AutomationMLLogicInterfaceClassLib",
+    "LibraryVersion": "1.1.0",
+    "AMLEdition": "AMLEd2",
+    "ID": "8a7450ce-1f3a-4887-bfe0-9e2968a210f3"
+  },
+  {
+    "ClassName": "InterlockingLogicModelInterface",
+    "CaexPath": "AutomationMLLogicInterfaceClassLib/InterlockingLogicModelInterface",
+    "BasePath": "AutomationMLLogicInterfaceClassLib/LogicModelInterface",
+    "LibraryName": "AutomationMLLogicInterfaceClassLib",
+    "LibraryVersion": "1.1.0",
+    "AMLEdition": "AMLEd2",
+    "ID": "685ec08b-00da-496f-aa43-2f91952a197a"
+  },
+  {
+    "ClassName": "VariableInterface",
+    "CaexPath": "AutomationMLPLCopenXMLInterfaceClassLib/VariableInterface",
+    "BasePath": "AutomationMLBaseLibrariesAMLEd22_11_0@AutomationMLInterfaceClassLib/AutomationMLBaseInterface/ExternalDataConnector/PLCopenXMLInterface",
+    "LibraryName": "AutomationMLPLCopenXMLInterfaceClassLib",
+    "LibraryVersion": "1.1.0",
+    "AMLEdition": "AMLEd2",
+    "ID": "c4940b13-6860-4a38-8628-1d99e7a33167"
+  },
+  {
+    "ClassName": "VariableInterface",
+    "CaexPath": "AutomationMLLogicInterfaceClassLib/VariableInterface",
+    "BasePath": "AutomationMLLogicInterfaceClassLib/LogicModelElementInterface",
+    "LibraryName": "AutomationMLLogicInterfaceClassLib",
+    "LibraryVersion": "1.1.0",
+    "AMLEdition": "AMLEd2",
+    "ID": "b5645766-025f-467a-90ec-01e771a6f70d"
+  },
+  {
+    "ClassName": "LogicModelElementInterface",
+    "CaexPath": "AutomationMLLogicInterfaceClassLib/LogicModelElementInterface",
+    "BasePath": "AutomationMLBaseLibrariesAMLEd22_11_0@AutomationMLInterfaceClassLib/AutomationMLBaseInterface/ExternalDataConnector",
+    "LibraryName": "AutomationMLLogicInterfaceClassLib",
+    "LibraryVersion": "1.1.0",
+    "AMLEdition": "AMLEd2",
+    "ID": "643b9afb-12f5-48ec-b064-7b61823f8b10"
+  },
+  {
+    "ClassName": "InterlockingVariableInterface",
+    "CaexPath": "AutomationMLLogicInterfaceClassLib/InterlockingVariableInterface",
+    "BasePath": "AutomationMLLogicInterfaceClassLib/VariableInterface",
+    "LibraryName": "AutomationMLLogicInterfaceClassLib",
+    "LibraryVersion": "1.1.0",
+    "AMLEdition": "AMLEd2",
+    "ID": "10abb01c-7052-4190-99a0-012699df4c48"
+  },
+  {
+    "ClassName": "InterlockingConnector",
+    "CaexPath": "AutomationMLLogicInterfaceClassLib/InterlockingConnector",
+    "BasePath": "AutomationMLBaseLibrariesAMLEd22_11_0@AutomationMLInterfaceClassLib/AutomationMLBaseInterface",
+    "LibraryName": "AutomationMLLogicInterfaceClassLib",
+    "LibraryVersion": "1.1.0",
+    "AMLEdition": "AMLEd2",
+    "ID": "25112c8d-22d1-4069-b8c6-b16a9242459b"
+  },
+  {
+    "ClassName": "PhysicalEndPoint",
+    "CaexPath": "CommunicationInterfaceClassLib/PhysicalEndPoint",
+    "BasePath": "AutomationMLBaseLibraries@AutomationMLInterfaceClassLib/AutomationMLBaseInterface/Communication",
+    "LibraryName": "CommunicationInterfaceClassLib",
+    "LibraryVersion": "2.4.0",
+    "AMLEdition": "AMLEd2",
+    "ID": "ebfd409e-7e06-4dfd-8984-b10581b70ffc"
+  },
+  {
+    "ClassName": "LogicalEndPoint",
+    "CaexPath": "CommunicationInterfaceClassLib/LogicalEndPoint",
+    "BasePath": "AutomationMLBaseLibraries@AutomationMLInterfaceClassLib/AutomationMLBaseInterface/Communication",
+    "LibraryName": "CommunicationInterfaceClassLib",
+    "LibraryVersion": "2.4.0",
+    "AMLEdition": "AMLEd2",
+    "ID": "29276f79-6e7d-4a74-b0ad-92d1f9f1c447"
+  },
+  {
+    "ClassName": "DatagrammObject",
+    "CaexPath": "CommunicationInterfaceClassLib/DatagrammObject",
+    "BasePath": "AutomationMLBaseLibraries@AutomationMLInterfaceClassLib/AutomationMLBaseInterface/Communication",
+    "LibraryName": "CommunicationInterfaceClassLib",
+    "LibraryVersion": "2.4.0",
+    "AMLEdition": "AMLEd2",
+    "ID": "21afe9f2-3bdb-4ef3-9395-41bd90a1f378"
+  }
+]
