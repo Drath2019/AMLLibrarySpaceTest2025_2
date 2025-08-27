@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CAEXFile FileName="AutomationML_Logic_Libraries_AMLEd1_1.0.0.aml" SchemaVersion="2.15" xsi:noNamespaceSchemaLocation="CAEX_ClassModel_V2.15.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <AdditionalInformation AutomationMLVersion="2.0" />
+  <AdditionalInformation>
+    <WriterHeader>
+      <WriterName>IEC</WriterName>
+      <WriterID>IEC62714-4Ed1</WriterID>
+      <WriterVendor>IEC</WriterVendor>
+      <WriterVendorURL>www.iec.ch</WriterVendorURL>
+      <WriterVersion>1.0.0</WriterVersion>
+      <WriterRelease>1.0.0</WriterRelease>
+      <LastWritingDateTime>2023-12-11T14:09:32.7195372</LastWritingDateTime>
+      <WriterProjectTitle>IEC62714-4Ed1</WriterProjectTitle>
+      <WriterProjectID>IEC62714-4Ed1</WriterProjectID>
+    </WriterHeader>
+  </AdditionalInformation>
+  <AdditionalInformation DocumentVersions="Recommendations" />
+  <ExternalReference Path="https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/AutomationML_Base_Libraries_GeometryExtension_AMLEd1_2.2.1.aml" Alias="AMLBase" />
+  <ExternalReference Path="https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/AutomationML_Base.Logic_Libraries_AMLEd2_1.1.0.aml" Alias="AutomationMLBase.LogicLibrariesAMLEd21_1_0">
+    <Description>VersionRef</Description>
+    <Version>NewVersion</Version>
+  </ExternalReference>
+  <InterfaceClassLib Name="AutomationMLLogicInterfaceClassLib">
+    <Description>AutomationMLLogicInterfaceClassLib specifies all logic related interface classes for referencing AML logic XML documents.</Description>
+    <Version>1.0.0</Version>
+    <Revision>
+      <RevisionDate>2025-02-28T15:19:14.1061578+01:00</RevisionDate>
+      <NewVersion>AutomationMLBase.LogicLibrariesAMLEd21_1_0@AutomationMLLogicInterfaceClassLib</NewVersion>
+      <AuthorName>drath</AuthorName>
+    </Revision>
+    <InterfaceClass Name="LogicModelInterface" RefBaseClassPath="AMLBase@AutomationMLInterfaceClassLib/AutomationMLBaseInterface/ExternalDataConnector">
+      <Revision>
+        <RevisionDate>2025-02-28T15:19:14.1113258+01:00</RevisionDate>
+        <NewVersion>AutomationMLBase.LogicLibrariesAMLEd21_1_0@AutomationMLLogicInterfaceClassLib/LogicModelInterface</NewVersion>
+        <AuthorName>drath</AuthorName>
+      </Revision>
+    </InterfaceClass>
+    <InterfaceClass Name="SequencingLogicModelInterface" RefBaseClassPath="AutomationMLLogicInterfaceClassLib/LogicModelInterface">
+      <Revision>
+        <RevisionDate>2025-02-28T15:19:14.1160142+01:00</RevisionDate>
+        <NewVersion>AutomationMLBase.LogicLibrariesAMLEd21_1_0@AutomationMLLogicInterfaceClassLib/SequencingLogicModelInterface</NewVersion>
+        <AuthorName>drath</AuthorName>
+      </Revision>
+    </InterfaceClass>
+    <InterfaceClass Name="BehaviourLogicModelInterface" RefBaseClassPath="AutomationMLLogicInterfaceClassLib/LogicModelInterface">
+      <Revision>
+        <RevisionDate>2025-02-28T15:19:14.1211806+01:00</RevisionDate>
+        <NewVersion>AutomationMLBase.LogicLibrariesAMLEd21_1_0@AutomationMLLogicInterfaceClassLib/BehaviourLogicModelInterface</NewVersion>
+        <AuthorName>drath</AuthorName>
+      </Revision>
+    </InterfaceClass>
+    <InterfaceClass Name="InterlockingLogicModelInterface" RefBaseClassPath="AutomationMLLogicInterfaceClassLib/LogicModelInterface">
+      <Revision>
+        <RevisionDate>2025-02-28T15:19:14.1261817+01:00</RevisionDate>
+        <NewVersion>AutomationMLBase.LogicLibrariesAMLEd21_1_0@AutomationMLLogicInterfaceClassLib/InterlockingLogicModelInterface</NewVersion>
+        <AuthorName>drath</AuthorName>
+      </Revision>
+    </InterfaceClass>
+    <InterfaceClass Name="LogicModelElementInterface" RefBaseClassPath="AMLBase@AutomationMLInterfaceClassLib/AutomationMLBaseInterface/ExternalDataConnector">
+      <Revision>
+        <RevisionDate>2025-02-28T15:19:14.1306649+01:00</RevisionDate>
+        <NewVersion>AutomationMLBase.LogicLibrariesAMLEd21_1_0@AutomationMLLogicInterfaceClassLib/LogicModelElementInterface</NewVersion>
+        <AuthorName>drath</AuthorName>
+      </Revision>
+    </InterfaceClass>
+    <InterfaceClass Name="VariableInterface" RefBaseClassPath="AutomationMLLogicInterfaceClassLib/LogicModelElementInterface">
+      <Revision>
+        <RevisionDate>2025-02-28T15:19:14.1439012+01:00</RevisionDate>
+        <NewVersion>AutomationMLBase.LogicLibrariesAMLEd21_1_0@AutomationMLLogicInterfaceClassLib/VariableInterface</NewVersion>
+        <AuthorName>drath</AuthorName>
+      </Revision>
+      <Attribute Name="Direction" AttributeDataType="xs:string" />
+    </InterfaceClass>
+    <InterfaceClass Name="InterlockingVariableInterface" RefBaseClassPath="AutomationMLLogicInterfaceClassLib/VariableInterface">
+      <Revision>
+        <RevisionDate>2025-02-28T15:19:14.1487566+01:00</RevisionDate>
+        <NewVersion>AutomationMLBase.LogicLibrariesAMLEd21_1_0@AutomationMLLogicInterfaceClassLib/InterlockingVariableInterface</NewVersion>
+        <AuthorName>drath</AuthorName>
+      </Revision>
+      <Attribute Name="SafeConditionEquals" AttributeDataType="xs:boolean" />
+    </InterfaceClass>
+  </InterfaceClassLib>
+  <InterfaceClassLib Name="AutomationMLPLCopenXMLInterfaceClassLib">
+    <Description>AutomationMLPLCopenXMLInterfaceClassLib specifies the logic related interface class for referencing IEC 61131-10 documents</Description>
+    <Version>1.0.0</Version>
+    <Revision>
+      <RevisionDate>2025-02-28T15:19:14.1536186+01:00</RevisionDate>
+      <NewVersion>AutomationMLBase.LogicLibrariesAMLEd21_1_0@AutomationMLPLCopenXMLInterfaceClassLib</NewVersion>
+      <AuthorName>drath</AuthorName>
+    </Revision>
+    <InterfaceClass Name="VariableInterface" RefBaseClassPath="AMLBase@AutomationMLInterfaceClassLib/AutomationMLBaseInterface/ExternalDataConnector/PLCopenXMLInterface">
+      <Revision>
+        <RevisionDate>2025-02-28T15:19:14.1587518+01:00</RevisionDate>
+        <NewVersion>AutomationMLBase.LogicLibrariesAMLEd21_1_0@AutomationMLPLCopenXMLInterfaceClassLib/VariableInterface</NewVersion>
+        <AuthorName>drath</AuthorName>
+      </Revision>
+    </InterfaceClass>
+  </InterfaceClassLib>
+  <RoleClassLib Name="AutomationMLLogicRoleClassLib">
+    <Description>AutomationMLLogicRoleClassLib specifies all logic related role classes.</Description>
+    <Version>1.0.0</Version>
+    <Revision>
+      <RevisionDate>2025-02-28T15:19:14.056977+01:00</RevisionDate>
+      <NewVersion>AutomationMLBase.LogicLibrariesAMLEd21_1_0@AutomationMLLogicRoleClassLib</NewVersion>
+      <AuthorName>drath</AuthorName>
+    </Revision>
+    <RoleClass Name="InterlockingTargetGroup" RefBaseClassPath="AMLBase@AutomationMLBaseRoleClassLib/AutomationMLBaseRole/Group">
+      <Revision>
+        <RevisionDate>2025-02-28T15:19:14.0833691+01:00</RevisionDate>
+        <NewVersion>AutomationMLBase.LogicLibrariesAMLEd21_1_0@AutomationMLLogicRoleClassLib/InterlockingTargetGroup</NewVersion>
+        <AuthorName>drath</AuthorName>
+      </Revision>
+      <ExternalInterface Name="ConnectionInterlockingSourceGroup" ID="1d3bfa87-5538-40e2-b36a-6b31c76208db" RefBaseClassPath="AMLBase@AutomationMLInterfaceClassLib/AutomationMLBaseInterface/InterlockingConnector" />
+      <ExternalInterface Name="ReferenceInterlockingLogicModel" ID="b1fd5920-a553-4e68-b571-c672bf00592a" RefBaseClassPath="AutomationMLLogicInterfaceClassLib/InterlockingLogicModelInterface">
+        <Attribute Name="refURI" AttributeDataType="xs:anyURI" />
+      </ExternalInterface>
+    </RoleClass>
+    <RoleClass Name="InterlockingSourceGroup" RefBaseClassPath="AMLBase@AutomationMLBaseRoleClassLib/AutomationMLBaseRole/Group">
+      <Revision>
+        <RevisionDate>2025-02-28T15:19:14.0956229+01:00</RevisionDate>
+        <NewVersion>AutomationMLBase.LogicLibrariesAMLEd21_1_0@AutomationMLLogicRoleClassLib/InterlockingSourceGroup</NewVersion>
+        <AuthorName>drath</AuthorName>
+      </Revision>
+      <ExternalInterface Name="ConnectionInterlockingTargetGroup" ID="3cc169e6-1e34-4d50-907f-df361c9a6d03" RefBaseClassPath="AMLBase@AutomationMLInterfaceClassLib/AutomationMLBaseInterface/InterlockingConnector" />
+      <ExternalInterface Name="ReferenceInterlockingLogicModel" ID="59fcfe8e-7531-4f35-9b13-bd1eb9fecc88" RefBaseClassPath="AutomationMLLogicInterfaceClassLib/InterlockingLogicModelInterface">
+        <Attribute Name="refURI" AttributeDataType="xs:anyURI" />
+      </ExternalInterface>
+      <ExternalInterface Name="ReferenceInterlockingVariable" ID="09546c38-cca7-4eec-85b1-a5f33f11f8bd" RefBaseClassPath="AutomationMLLogicInterfaceClassLib/InterlockingVariableInterface">
+        <Attribute Name="refURI" AttributeDataType="xs:anyURI" />
+        <Attribute Name="Direction" AttributeDataType="xs:string" />
+        <Attribute Name="SafeConditionEquals" AttributeDataType="xs:boolean" />
+      </ExternalInterface>
+    </RoleClass>
+    <RoleClass Name="LogicModelObject" RefBaseClassPath="AMLBase@AutomationMLBaseRoleClassLib/AutomationMLBaseRole">
+      <Revision>
+        <RevisionDate>2025-02-28T15:19:14.1013587+01:00</RevisionDate>
+        <NewVersion>AutomationMLBase.LogicLibrariesAMLEd21_1_0@AutomationMLLogicRoleClassLib/LogicModelObject</NewVersion>
+        <AuthorName>drath</AuthorName>
+      </Revision>
+      <ExternalInterface Name="ReferenceSequence" ID="dbbb8615-3003-43ea-81e5-5b78e0654a79" RefBaseClassPath="AutomationMLLogicInterfaceClassLib/SequencingLogicModelInterface">
+        <Attribute Name="refURI" AttributeDataType="xs:anyURI" />
+      </ExternalInterface>
+      <ExternalInterface Name="ReferenceBehaviour" ID="b34a2b98-dd40-4d94-b5ad-110d46729650" RefBaseClassPath="AutomationMLLogicInterfaceClassLib/BehaviourLogicModelInterface">
+        <Attribute Name="refURI" AttributeDataType="xs:anyURI" />
+      </ExternalInterface>
+    </RoleClass>
+  </RoleClassLib>
+</CAEXFile>
