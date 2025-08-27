@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CAEXFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.dke.de/CAEX" SchemaVersion="3.0" FileName="AutomationML_ContinuousManufacturing_RoleClassLib_AMLEd2_1.1.0.aml" xsi:schemaLocation="http://www.dke.de/CAEX CAEX_ClassModel_V.3.0.xsd">
+  <SuperiorStandardVersion>AutomationML 2.1</SuperiorStandardVersion>
+  <SourceDocumentInformation OriginName="IEC SC65E WG 9" OriginID="IEC SC65E WG 9" OriginVersion="1.0" LastWritingDateTime="2013-03-01T00:00:00+01:00" OriginVendor="IEC" OriginVendorURL="www.iec.ch" OriginRelease="1.0.0" OriginProjectTitle="Automation Markup Language Standard Libraries" OriginProjectID="Automation Markup Language Standard Libraries" />
+  <ExternalReference Path="https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/AutomationML_Base_Libraries_AMLEd2_2.10.0.aml" Alias="AutomationMLBaseRoleClassLib" />
+  <RoleClassLib Name="AutomationMLCMIRoleClassLib">
+    <Description>Automation Markup Language Continuous Manufacturing Industry Role Class Library</Description>
+    <Version>1.1.0</Version>
+    <RoleClass Name="ContManufacturingEquipment" RefBaseClassPath="AutomationMLBaseRoleClassLib@AutomationMLBaseRoleClassLib/AutomationMLBaseRole/Resource" />
+  </RoleClassLib>
+</CAEXFile>
