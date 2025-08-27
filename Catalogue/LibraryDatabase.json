@@ -129,7 +129,14 @@
               "Sources": null,
               "Signature": "MEYCIQD2JYLQvNMGDxBaeM2XGOMdW/NccRfqqNhX0kvAwysuCQIhAI783iPgbxx6E86BmVrHDteFbLoxm1n7lK5NJoAc6XRW",
               "PublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEyk6uIUNugOojm3akdEAA4XoGGBEui0zPVhzkjR0RfprHFWrbPpFMfExaW2TaeChaegCmjE2boFph1aI1eNEPcQ==",
-              "Revision": null
+              "Revision": {
+                "DownloadLink": null,
+                "DownloadLinks": [
+                  "https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/HSPF_MasterClass_AttributeTypeLib_AMLEd2_1.0.2.aml"
+                ],
+                "Signature": "MEUCIQCljzG8KKf6pJH65zr7B/OL1zOapvxcTyUyceh1smdfXQIgXOKJ2wW1JbeyhAlF9yBGGo0XxM0fHomq5YOmJ7qPSZo=",
+                "Revision": null
+              }
             },
             {
               "Version": "1.0.21",
