@@ -1,0 +1,1898 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CAEXFile FileName="AutomationML_UnifiedAAS_ExampleVWSiD_AMLEd1_1.0.0.aml" SchemaVersion="2.15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="CAEX_ClassModel_V2.15.xsd">
+  <AdditionalInformation AutomationMLVersion="2.0" />
+  <AdditionalInformation>
+    <WriterHeader>
+      <WriterName>AutomationML Editor</WriterName>
+      <WriterID>916578CA-FE0D-474E-A4FC-9E1719892369</WriterID>
+      <WriterVendor>AutomationML e.V.</WriterVendor>
+      <WriterVendorURL>www.AutomationML.org</WriterVendorURL>
+      <WriterVersion>6.2.0.0</WriterVersion>
+      <WriterRelease>6.2.0.0</WriterRelease>
+      <LastWritingDateTime>2024-02-08T16:19:54.8432094</LastWritingDateTime>
+      <WriterProjectTitle>unspecified</WriterProjectTitle>
+      <WriterProjectID>unspecified</WriterProjectID>
+    </WriterHeader>
+  </AdditionalInformation>
+  <ExternalReference Path="https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/AutomationML_Base_Libraries_GeometryExtension_AMLEd1_2.2.1.aml" Alias="AutomationMLBaseLibraries" />
+  <ExternalReference Path="https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/AutomationML_BPR_ExternalReference_AMLEd1_1.0.1.aml" Alias="AutomationMLBPRExternalReference" />
+  <ExternalReference Path="https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/AutomationML_AssetAdministrationShell_Libraries_AMLEd1_1.0.0.aml" Alias="AutomationMLAssetAdministrationShellLibraries" />
+  <InstanceHierarchy Name="AssetAdministrationShellInstanceHierarchy">
+    <Version>0</Version>
+    <InternalElement Name="ExampleMotor" ID="6b5bb2c7-ebea-4f5b-a0ea-e70536f44b24">
+      <Attribute Name="identification">
+        <RefSemantic CorrespondingAttributePath="AAS:Identifiable/identification" />
+        <Attribute Name="idType">
+          <Value>IRI</Value>
+          <RefSemantic CorrespondingAttributePath="AAS:Identifier/idType" />
+        </Attribute>
+        <Attribute Name="id">
+          <Value>http://customer.com/aas/9175_7013_7091_9168</Value>
+          <RefSemantic CorrespondingAttributePath="AAS:Identifier/id" />
+        </Attribute>
+      </Attribute>
+      <Attribute Name="idShort">
+        <Value>ExampleMotor</Value>
+        <RefSemantic CorrespondingAttributePath="AAS:Referable/idShort" />
+      </Attribute>
+      <Attribute Name="category">
+        <Value>CONSTANT</Value>
+        <RefSemantic CorrespondingAttributePath="AAS:Referable/category" />
+      </Attribute>
+      <InternalElement Name="ServoDCMotor" ID="d2c490c9-20a0-4022-9e81-7f2cd1c0ebf3">
+        <Attribute Name="identification">
+          <RefSemantic CorrespondingAttributePath="AAS:Identifiable/identification" />
+          <Attribute Name="idType">
+            <Value>IRI</Value>
+            <RefSemantic CorrespondingAttributePath="AAS:Identifier/idType" />
+          </Attribute>
+          <Attribute Name="id">
+            <Value>http://customer.com/assets/KHBVZJSQKIY</Value>
+            <RefSemantic CorrespondingAttributePath="AAS:Identifier/id" />
+          </Attribute>
+        </Attribute>
+        <Attribute Name="idShort">
+          <Value>ServoDCMotor</Value>
+          <RefSemantic CorrespondingAttributePath="AAS:Referable/idShort" />
+        </Attribute>
+        <Attribute Name="category">
+          <RefSemantic CorrespondingAttributePath="AAS:Referable/category" />
+        </Attribute>
+        <Attribute Name="kind">
+          <Value>Instance</Value>
+          <RefSemantic CorrespondingAttributePath="AAS:Asset/kind" />
+        </Attribute>
+        <Attribute Name="assetIdentificationModelRef">
+          <Value>(Submodel)(local)[IRI]i40.customer.com/type/1/1/F13E8576F6488342</Value>
+          <RefSemantic CorrespondingAttributePath="AAS:Asset/assetIdentificationModel" />
+        </Attribute>
+        <RoleRequirements RefBaseRoleClassPath="AutomationMLAssetAdministrationShellLibraries@AssetAdministrationShellRoleClassLib/Asset" />
+      </InternalElement>
+      <InternalElement Name="Identification" ID="45595b09-5c84-4a61-94fd-e63b01d48153">
+        <Attribute Name="identification">
+          <RefSemantic CorrespondingAttributePath="AAS:Identifiable/identification" />
+          <Attribute Name="idType">
+            <Value>IRI</Value>
+            <RefSemantic CorrespondingAttributePath="AAS:Identifier/idType" />
+          </Attribute>
+          <Attribute Name="id">
+            <Value>http://i40.customer.com/type/1/1/F13E8576F6488342</Value>
+            <RefSemantic CorrespondingAttributePath="AAS:Identifier/id" />
+          </Attribute>
+        </Attribute>
+        <Attribute Name="idShort">
+          <Value>Identification</Value>
+          <RefSemantic CorrespondingAttributePath="AAS:Referable/idShort" />
+        </Attribute>
+        <Attribute Name="category">
+          <Value>CONSTANT</Value>
+          <RefSemantic CorrespondingAttributePath="AAS:Referable/category" />
+        </Attribute>
+        <Attribute Name="description">
+          <Value>Identification from Manufacturer</Value>
+          <RefSemantic CorrespondingAttributePath="AAS:Referable/description" />
+          <Attribute Name="aml-lang=EN">
+            <Value>Identification from Manufacturer</Value>
+          </Attribute>
+          <Attribute Name="aml-lang=DE">
+            <Value>Hersteller-Identifikation</Value>
+          </Attribute>
+        </Attribute>
+        <Attribute Name="kind">
+          <Value>Instance</Value>
+          <RefSemantic CorrespondingAttributePath="AAS:HasKind/kind" />
+        </Attribute>
+        <Attribute Name="semanticId">
+          <Value>(GlobalReference)(no-local)[IRDI]0173-1#01-ADN198#009</Value>
+          <RefSemantic CorrespondingAttributePath="AAS:HasSemantics/semanticId" />
+        </Attribute>
+        <InternalElement Name="Manufacturer" ID="d6964099-e1fa-4157-b9b6-68068d4024c4">
+          <Attribute Name="idShort">
+            <Value>Manufacturer</Value>
+            <RefSemantic CorrespondingAttributePath="AAS:Referable/idShort" />
+          </Attribute>
+          <Attribute Name="category">
+            <Value>CONSTANT</Value>
+            <RefSemantic CorrespondingAttributePath="AAS:Referable/category" />
+          </Attribute>
+          <Attribute Name="kind">
+            <Value>Instance</Value>
+            <RefSemantic CorrespondingAttributePath="AAS:HasKind/kind" />
+          </Attribute>
+          <Attribute Name="semanticId">
+            <Value>(GlobalReference)(no-local)[IRDI]0173-1#02-AAO677#002</Value>
+            <RefSemantic CorrespondingAttributePath="AAS:HasSemantics/semanticId" />
+          </Attribute>
+          <Attribute Name="value" AttributeDataType="xs:string">
+            <Value>CUSTOMER GmbH</Value>
+            <RefSemantic CorrespondingAttributePath="AAS:Property/value" />
+          </Attribute>
+          <RoleRequirements RefBaseRoleClassPath="AutomationMLAssetAdministrationShellLibraries@AssetAdministrationShellRoleClassLib/Property" />
+        </InternalElement>
+        <InternalElement Name="GLN" ID="66e4c721-d4fa-4e94-827b-dc4fd631ead9">
+          <Attribute Name="idShort">
+            <Value>GLN</Value>
+            <RefSemantic CorrespondingAttributePath="AAS:Referable/idShort" />
+          </Attribute>
+          <Attribute Name="category">
+            <Value>CONSTANT</Value>
+            <RefSemantic CorrespondingAttributePath="AAS:Referable/category" />
+          </Attribute>
+          <Attribute Name="kind">
+            <Value>Instance</Value>
+            <RefSemantic CorrespondingAttributePath="AAS:HasKind/kind" />
+          </Attribute>
+          <Attribute Name="semanticId">
+            <Value>(GlobalReference)(no-local)[IRDI]0173-1#02-AAY812#001</Value>
+            <RefSemantic CorrespondingAttributePath="AAS:HasSemantics/semanticId" />
+          </Attribute>
+          <Attribute Name="value" AttributeDataType="xs:integer">
+            <Value>10101010</Value>
+            <RefSemantic CorrespondingAttributePath="AAS:Property/value" />
+          </Attribute>
+          <RoleRequirements RefBaseRoleClassPath="AutomationMLAssetAdministrationShellLibraries@AssetAdministrationShellRoleClassLib/Property" />
+        </InternalElement>
+        <InternalElement Name="ProductDesignation" ID="e32a4692-dbe6-4b13-858b-0a4e7071fd9d">
+          <Attribute Name="idShort">
+            <Value>ProductDesignation</Value>
+            <RefSemantic CorrespondingAttributePath="AAS:Referable/idShort" />
+          </Attribute>
+          <Attribute Name="category">
+            <Value>CONSTANT</Value>
+            <RefSemantic CorrespondingAttributePath="AAS:Referable/category" />
+          </Attribute>
+          <Attribute Name="kind">
+            <Value>Instance</Value>
+            <RefSemantic CorrespondingAttributePath="AAS:HasKind/kind" />
+          </Attribute>
+          <Attribute Name="semanticId">
+            <Value>(GlobalReference)(no-local)[IRDI]0173-1#02-AAW338#001</Value>
+            <RefSemantic CorrespondingAttributePath="AAS:HasSemantics/semanticId" />
+          </Attribute>
+          <Attribute Name="value" AttributeDataType="xs:langString">
+            <Value>I40 Capable Servo Motor (EN)</Value>
+            <RefSemantic CorrespondingAttributePath="AAS:Property/value" />
+          </Attribute>
+          <RoleRequirements RefBaseRoleClassPath="AutomationMLAssetAdministrationShellLibraries@AssetAdministrationShellRoleClassLib/Property" />
+        </InternalElement>
+        <InternalElement Name="SerialNumber" ID="dd9ba565-175f-41df-b98a-903e80f7212b">
+          <Attribute Name="idShort">
+            <Value>SerialNumber</Value>
+            <RefSemantic CorrespondingAttributePath="AAS:Referable/idShort" />
+          </Attribute>
+          <Attribute Name="category">
+            <Value>CONSTANT</Value>
+            <RefSemantic CorrespondingAttributePath="AAS:Referable/category" />
+          </Attribute>
+          <Attribute Name="kind">
+            <Value>Instance</Value>
+            <RefSemantic CorrespondingAttributePath="AAS:HasKind/kind" />
+          </Attribute>
+          <Attribute Name="semanticId">
+            <Value>(GlobalReference)(no-local)[IRDI]0173-1#02-AAM556#002</Value>
+            <RefSemantic CorrespondingAttributePath="AAS:HasSemantics/semanticId" />
+          </Attribute>
+          <Attribute Name="value" AttributeDataType="xs:string">
+            <Value>P12345678I40</Value>
+            <RefSemantic CorrespondingAttributePath="AAS:Property/value" />
+          </Attribute>
+          <RoleRequirements RefBaseRoleClassPath="AutomationMLAssetAdministrationShellLibraries@AssetAdministrationShellRoleClassLib/Property" />
+        </InternalElement>
+        <RoleRequirements RefBaseRoleClassPath="AutomationMLAssetAdministrationShellLibraries@AssetAdministrationShellRoleClassLib/Submodel" />
+      </InternalElement>
+      <InternalElement Name="TechnicalData" ID="7c75c54e-f414-4282-863c-798a8858349b">
+        <Attribute Name="identification">
+          <RefSemantic CorrespondingAttributePath="AAS:Identifiable/identification" />
+          <Attribute Name="idType">
+            <Value>IRI</Value>
+            <RefSemantic CorrespondingAttributePath="AAS:Identifier/idType" />
+          </Attribute>
+          <Attribute Name="id">
+            <Value>http.//i40.customer.com/type/1/1/7A7104BDAB57E184</Value>
+            <RefSemantic CorrespondingAttributePath="AAS:Identifier/id" />
+          </Attribute>
+        </Attribute>
+        <Attribute Name="idShort">
+          <Value>TechnicalData</Value>
+          <RefSemantic CorrespondingAttributePath="AAS:Referable/idShort" />
+        </Attribute>
+        <Attribute Name="category">
+          <Value>CONSTANT</Value>
+          <RefSemantic CorrespondingAttributePath="AAS:Referable/category" />
+        </Attribute>
+        <Attribute Name="kind">
+          <Value>Instance</Value>
+          <RefSemantic CorrespondingAttributePath="AAS:HasKind/kind" />
+        </Attribute>
+        <Attribute Name="semanticId">
+          <Value>(GlobalReference)(no-local)[IRDI]0173-1#01-AFZ615#016</Value>
+          <RefSemantic CorrespondingAttributePath="AAS:HasSemantics/semanticId" />
+        </Attribute>
+        <InternalElement Name="MaxRotationSpeed" ID="59aad534-0d4b-469d-83c3-4fbdb09b55f9">
+          <Attribute Name="idShort">
+            <Value>MaxRotationSpeed</Value>
+            <RefSemantic CorrespondingAttributePath="AAS:Referable/idShort" />
+          </Attribute>
+          <Attribute Name="category">
+            <Value>PARAMETER</Value>
+            <RefSemantic CorrespondingAttributePath="AAS:Referable/category" />
+          </Attribute>
+          <Attribute Name="kind">
+            <Value>Instance</Value>
+            <RefSemantic CorrespondingAttributePath="AAS:HasKind/kind" />
+          </Attribute>
+          <Attribute Name="semanticId">
+            <Value>(ConceptDescription)(local)[IRDI]0173-1#02-BAA120#008</Value>
+            <RefSemantic CorrespondingAttributePath="AAS:HasSemantics/semanticId" />
+          </Attribute>
+          <Attribute Name="value" AttributeDataType="xs:integer">
+            <Value>5000</Value>
+            <RefSemantic CorrespondingAttributePath="AAS:Property/value" />
+          </Attribute>
+          <RoleRequirements RefBaseRoleClassPath="AutomationMLAssetAdministrationShellLibraries@AssetAdministrationShellRoleClassLib/Property" />
+        </InternalElement>
+        <InternalElement Name="MaxTorque" ID="cdb9f75b-da92-484d-a6dd-c024c46d58c8">
+          <Attribute Name="idShort">
+            <Value>MaxTorque</Value>
+            <RefSemantic CorrespondingAttributePath="AAS:Referable/idShort" />
+          </Attribute>
+          <Attribute Name="category">
+            <Value>PARAMETER</Value>
+            <RefSemantic CorrespondingAttributePath="AAS:Referable/category" />
+          </Attribute>
+          <Attribute Name="kind">
+            <Value>Instance</Value>
+            <RefSemantic CorrespondingAttributePath="AAS:HasKind/kind" />
+          </Attribute>
+          <Attribute Name="semanticId">
+            <Value>(ConceptDescription)(local)[IRDI]0173-1#02-BAE098#004</Value>
+            <RefSemantic CorrespondingAttributePath="AAS:HasSemantics/semanticId" />
+          </Attribute>
+          <Attribute Name="value" AttributeDataType="xs:float">
+            <Value>200</Value>
+            <RefSemantic CorrespondingAttributePath="AAS:Property/value" />
+          </Attribute>
+          <RoleRequirements RefBaseRoleClassPath="AutomationMLAssetAdministrationShellLibraries@AssetAdministrationShellRoleClassLib/Property" />
+        </InternalElement>
+        <InternalElement Name="CoolingType" ID="92153ec4-89db-4f31-ae67-57dd1ce9633c">
+          <Attribute Name="idShort">
+            <Value>CoolingType</Value>
+            <RefSemantic CorrespondingAttributePath="AAS:Referable/idShort" />
+          </Attribute>
+          <Attribute Name="category">
+            <Value>PARAMETER</Value>
+            <RefSemantic CorrespondingAttributePath="AAS:Referable/category" />
+          </Attribute>
+          <Attribute Name="description">
+            <Value>open circuit, external cooling</Value>
+            <RefSemantic CorrespondingAttributePath="AAS:Referable/description" />
+            <Attribute Name="aml-lang=EN">
+              <Value>open circuit, external cooling</Value>
+            </Attribute>
+          </Attribute>
+          <Attribute Name="kind">
+            <Value>Instance</Value>
+            <RefSemantic CorrespondingAttributePath="AAS:HasKind/kind" />
+          </Attribute>
+          <Attribute Name="semanticId">
+            <Value>(ConceptDescription)(local)[IRDI]0173-1#02-BAE122#006</Value>
+            <RefSemantic CorrespondingAttributePath="AAS:HasSemantics/semanticId" />
+          </Attribute>
+          <Attribute Name="value" AttributeDataType="xs:string">
+            <Value>BAB657</Value>
+            <RefSemantic CorrespondingAttributePath="AAS:Property/value" />
+          </Attribute>
+          <Attribute Name="valueId">
+            <Value>(ConceptDescription)(local)[IRDI]0173-1#07-BAB657#003 </Value>
+            <RefSemantic CorrespondingAttributePath="AAS:Property/valueId" />
+          </Attribute>
+          <RoleRequirements RefBaseRoleClassPath="AutomationMLAssetAdministrationShellLibraries@AssetAdministrationShellRoleClassLib/Property" />
+        </InternalElement>
+        <RoleRequirements RefBaseRoleClassPath="AutomationMLAssetAdministrationShellLibraries@AssetAdministrationShellRoleClassLib/Submodel" />
+      </InternalElement>
+      <InternalElement Name="OperationalData" ID="e2bcafde-ccac-4c73-8df3-9afef6b6b328">
+        <Attribute Name="identification">
+          <RefSemantic CorrespondingAttributePath="AAS:Identifiable/identification" />
+          <Attribute Name="idType">
+            <Value>IRI</Value>
+            <RefSemantic CorrespondingAttributePath="AAS:Identifier/idType" />
+          </Attribute>
+          <Attribute Name="id">
+            <Value>http://i40.customer.com/instance/1/1/AC69B1CB44F07935</Value>
+            <RefSemantic CorrespondingAttributePath="AAS:Identifier/id" />
+          </Attribute>
+        </Attribute>
+        <Attribute Name="idShort">
+          <Value>OperationalData</Value>
+          <RefSemantic CorrespondingAttributePath="AAS:Referable/idShort" />
+        </Attribute>
+        <Attribute Name="category">
+          <Value>VARIABLE</Value>
+          <RefSemantic CorrespondingAttributePath="AAS:Referable/category" />
+        </Attribute>
+        <Attribute Name="kind">
+          <Value>Instance</Value>
+          <RefSemantic CorrespondingAttributePath="AAS:HasKind/kind" />
+        </Attribute>
+        <Attribute Name="semanticId">
+          <Value>(GlobalReference)(no-local)[IRDI]0173-1#01-AFZ615#016</Value>
+          <RefSemantic CorrespondingAttributePath="AAS:HasSemantics/semanticId" />
+        </Attribute>
+        <InternalElement Name="RotationSpeed" ID="5baaac73-517c-46ab-949d-02111e1322f8">
+          <Attribute Name="idShort">
+            <Value>RotationSpeed</Value>
+            <RefSemantic CorrespondingAttributePath="AAS:Referable/idShort" />
+          </Attribute>
+          <Attribute Name="category">
+            <Value>VARIABLE</Value>
+            <RefSemantic CorrespondingAttributePath="AAS:Referable/category" />
+          </Attribute>
+          <Attribute Name="kind">
+            <Value>Instance</Value>
+            <RefSemantic CorrespondingAttributePath="AAS:HasKind/kind" />
+          </Attribute>
+          <Attribute Name="semanticId">
+            <Value>(ConceptDescription)(local)[IRI]http://customer.com/cd/1/1/18EBD56F6B43D895</Value>
+            <RefSemantic CorrespondingAttributePath="AAS:HasSemantics/semanticId" />
+          </Attribute>
+          <Attribute Name="value" AttributeDataType="xs:integer">
+            <Value>4370</Value>
+            <RefSemantic CorrespondingAttributePath="AAS:Property/value" />
+          </Attribute>
+          <RoleRequirements RefBaseRoleClassPath="AutomationMLAssetAdministrationShellLibraries@AssetAdministrationShellRoleClassLib/Property" />
+        </InternalElement>
+        <InternalElement Name="Torque" ID="3d5d996e-e90b-4e7c-8ade-906f91daad87">
+          <Attribute Name="idShort">
+            <Value>Torque</Value>
+            <RefSemantic CorrespondingAttributePath="AAS:Referable/idShort" />
+          </Attribute>
+          <Attribute Name="category">
+            <Value>VARIABLE</Value>
+            <RefSemantic CorrespondingAttributePath="AAS:Referable/category" />
+          </Attribute>
+          <Attribute Name="kind">
+            <Value>Instance</Value>
+            <RefSemantic CorrespondingAttributePath="AAS:HasKind/kind" />
+          </Attribute>
+          <Attribute Name="semanticId">
+            <Value>(ConceptDescription)(local)[IRI]http://customer.com/cd/1/1/18EBD56F6B43D896</Value>
+            <RefSemantic CorrespondingAttributePath="AAS:HasSemantics/semanticId" />
+          </Attribute>
+          <Attribute Name="value" AttributeDataType="xs:float">
+            <Value>117.4</Value>
+            <RefSemantic CorrespondingAttributePath="AAS:Property/value" />
+          </Attribute>
+          <RoleRequirements RefBaseRoleClassPath="AutomationMLAssetAdministrationShellLibraries@AssetAdministrationShellRoleClassLib/Property" />
+        </InternalElement>
+        <RoleRequirements RefBaseRoleClassPath="AutomationMLAssetAdministrationShellLibraries@AssetAdministrationShellRoleClassLib/Submodel" />
+      </InternalElement>
+      <InternalElement Name="Documentation" ID="68fff696-8788-4704-aa0a-1170458fff61">
+        <Attribute Name="identification">
+          <RefSemantic CorrespondingAttributePath="AAS:Identifiable/identification" />
+          <Attribute Name="idType">
+            <Value>IRI</Value>
+            <RefSemantic CorrespondingAttributePath="AAS:Identifier/idType" />
+          </Attribute>
+          <Attribute Name="id">
+            <Value>http://i40.customer.com/type/1/1/1A7B62B529F19152</Value>
+            <RefSemantic CorrespondingAttributePath="AAS:Identifier/id" />
+          </Attribute>
+        </Attribute>
+        <Attribute Name="idShort">
+          <Value>Documentation</Value>
+          <RefSemantic CorrespondingAttributePath="AAS:Referable/idShort" />
+        </Attribute>
+        <Attribute Name="category">
+          <Value>CONSTANT</Value>
+          <RefSemantic CorrespondingAttributePath="AAS:Referable/category" />
+        </Attribute>
+        <Attribute Name="kind">
+          <Value>Instance</Value>
+          <RefSemantic CorrespondingAttributePath="AAS:HasKind/kind" />
+        </Attribute>
+        <InternalElement Name="OperatingManual" ID="cf717765-bbad-44e3-ac5f-d16415c8609d">
+          <Attribute Name="idShort">
+            <Value>OperatingManual</Value>
+            <RefSemantic CorrespondingAttributePath="AAS:Referable/idShort" />
+          </Attribute>
+          <Attribute Name="category">
+            <RefSemantic CorrespondingAttributePath="AAS:Referable/category" />
+          </Attribute>
+          <Attribute Name="kind">
+            <Value>Instance</Value>
+            <RefSemantic CorrespondingAttributePath="AAS:HasKind/kind" />
+          </Attribute>
+          <Attribute Name="semanticId">
+            <Value>(ConceptDescription)(local)[IRI]www.vdi2770.com/blatt1/Entwurf/Okt18/cd/Document</Value>
+            <RefSemantic CorrespondingAttributePath="AAS:HasSemantics/semanticId" />
+          </Attribute>
+          <Attribute Name="ordered" AttributeDataType="xs:boolean">
+            <Value>false</Value>
+            <RefSemantic CorrespondingAttributePath="AAS:SubmodelElementCollection/ordered" />
+          </Attribute>
+          <Attribute Name="allowDuplicates" AttributeDataType="xs:boolean">
+            <Value>false</Value>
+            <RefSemantic CorrespondingAttributePath="AAS:SubmodelElementCollection/allowDuplicates" />
+          </Attribute>
+          <InternalElement Name="DocumentId" ID="f152af3c-893d-427e-b498-94b1324c1316">
+            <Attribute Name="idShort">
+              <Value>DocumentId</Value>
+              <RefSemantic CorrespondingAttributePath="AAS:Referable/idShort" />
+            </Attribute>
+            <Attribute Name="category">
+              <Value>CONSTANT</Value>
+              <RefSemantic CorrespondingAttributePath="AAS:Referable/category" />
+            </Attribute>
+            <Attribute Name="kind">
+              <Value>Instance</Value>
+              <RefSemantic CorrespondingAttributePath="AAS:HasKind/kind" />
+            </Attribute>
+            <Attribute Name="semanticId">
+              <Value>(ConceptDescription)(local)[IRI]www.vdi2770.com/blatt1/Entwurf/Okt18/cd/DocumentId/Val</Value>
+              <RefSemantic CorrespondingAttributePath="AAS:HasSemantics/semanticId" />
+            </Attribute>
+            <Attribute Name="value" AttributeDataType="xs:string">
+              <Value>3 608 870 A47</Value>
+              <RefSemantic CorrespondingAttributePath="AAS:Property/value" />
+            </Attribute>
+            <RoleRequirements RefBaseRoleClassPath="AutomationMLAssetAdministrationShellLibraries@AssetAdministrationShellRoleClassLib/Property" />
+          </InternalElement>
+          <InternalElement Name="DocumentClassId" ID="011501d8-8691-405d-9c1d-f2e012ce4fb2">
+            <Attribute Name="idShort">
+              <Value>DocumentClassId</Value>
+              <RefSemantic CorrespondingAttributePath="AAS:Referable/idShort" />
+            </Attribute>
+            <Attribute Name="kind">
+              <Value>Instance</Value>
+              <RefSemantic CorrespondingAttributePath="AAS:HasKind/kind" />
+            </Attribute>
+            <Attribute Name="semanticId">
+              <Value>(ConceptDescription)(local)[IRI]www.vdi2770.com/blatt1/Entwurf/Okt18/cd/DocumentClassification/ClassId</Value>
+              <RefSemantic CorrespondingAttributePath="AAS:HasSemantics/semanticId" />
+            </Attribute>
+            <Attribute Name="value" AttributeDataType="xs:string">
+              <Value>03-02</Value>
+              <RefSemantic CorrespondingAttributePath="AAS:Property/value" />
+            </Attribute>
+            <RoleRequirements RefBaseRoleClassPath="AutomationMLAssetAdministrationShellLibraries@AssetAdministrationShellRoleClassLib/Property" />
+          </InternalElement>
+          <InternalElement Name="DocumentClassName" ID="a40f15a7-3412-459d-a431-61873e763349">
+            <Attribute Name="idShort">
+              <Value>DocumentClassName</Value>
+              <RefSemantic CorrespondingAttributePath="AAS:Referable/idShort" />
+            </Attribute>
+            <Attribute Name="kind">
+              <Value>Instance</Value>
+              <RefSemantic CorrespondingAttributePath="AAS:HasKind/kind" />
+            </Attribute>
+            <Attribute Name="semanticId">
+              <Value>(ConceptDescription)(local)[IRI]www.vdi2770.com/blatt1/Entwurf/Okt18/cd/DocumentClassification/ClassName</Value>
+              <RefSemantic CorrespondingAttributePath="AAS:HasSemantics/semanticId" />
+            </Attribute>
+            <Attribute Name="value" AttributeDataType="xs:langString">
+              <Value>Operation (EN) Bedienung (DE)</Value>
+              <RefSemantic CorrespondingAttributePath="AAS:Property/value" />
+            </Attribute>
+            <RoleRequirements RefBaseRoleClassPath="AutomationMLAssetAdministrationShellLibraries@AssetAdministrationShellRoleClassLib/Property" />
+          </InternalElement>
+          <InternalElement Name="DocumentClassificationSystem" ID="4f5eda0f-e5a7-4f6f-b2ac-319a0a5c3623">
+            <Attribute Name="idShort">
+              <Value>DocumentClassificationSystem</Value>
+              <RefSemantic CorrespondingAttributePath="AAS:Referable/idShort" />
+            </Attribute>
+            <Attribute Name="kind">
+              <Value>Instance</Value>
+              <RefSemantic CorrespondingAttributePath="AAS:HasKind/kind" />
+            </Attribute>
+            <Attribute Name="semanticId">
+              <Value>(ConceptDescription)(local)[IRI]www.vdi2770.com/blatt1/Entwurf/Okt18/cd/DocumentClassification/ClassificationSystem</Value>
+              <RefSemantic CorrespondingAttributePath="AAS:HasSemantics/semanticId" />
+            </Attribute>
+            <Attribute Name="value" AttributeDataType="xs:string">
+              <Value>VDI2770:2018</Value>
+              <RefSemantic CorrespondingAttributePath="AAS:Property/value" />
+            </Attribute>
+            <RoleRequirements RefBaseRoleClassPath="AutomationMLAssetAdministrationShellLibraries@AssetAdministrationShellRoleClassLib/Property" />
+          </InternalElement>
+          <InternalElement Name="OrganizationName" ID="7739277a-339c-4181-aaf8-c614d4a7aab4">
+            <Attribute Name="idShort">
+              <Value>OrganizationName</Value>
+              <RefSemantic CorrespondingAttributePath="AAS:Referable/idShort" />
+            </Attribute>
+            <Attribute Name="kind">
+              <Value>Instance</Value>
+              <RefSemantic CorrespondingAttributePath="AAS:HasKind/kind" />
+            </Attribute>
+            <Attribute Name="semanticId">
+              <Value>(ConceptDescription)(local)[IRI]www.vdi2770.com/blatt1/Entwurf/Okt18/cd/Organization/OrganizationName</Value>
+              <RefSemantic CorrespondingAttributePath="AAS:HasSemantics/semanticId" />
+            </Attribute>
+            <Attribute Name="value" AttributeDataType="xs:string">
+              <Value>CUSTOMER</Value>
+              <RefSemantic CorrespondingAttributePath="AAS:Property/value" />
+            </Attribute>
+            <RoleRequirements RefBaseRoleClassPath="AutomationMLAssetAdministrationShellLibraries@AssetAdministrationShellRoleClassLib/Property" />
+          </InternalElement>
+          <InternalElement Name="OrganizationOfficialName" ID="352d1bf8-0b38-4da3-9c43-31811f5e2543">
+            <Attribute Name="idShort">
+              <Value>OrganizationOfficialName</Value>
+              <RefSemantic CorrespondingAttributePath="AAS:Referable/idShort" />
+            </Attribute>
+            <Attribute Name="kind">
+              <Value>Instance</Value>
+              <RefSemantic CorrespondingAttributePath="AAS:HasKind/kind" />
+            </Attribute>
+            <Attribute Name="semanticId">
+              <Value>(ConceptDescription)(local)[IRI]www.vdi2770.com/blatt1/Entwurf/Okt18/cd/Organization/OrganizationOfficialName</Value>
+              <RefSemantic CorrespondingAttributePath="AAS:HasSemantics/semanticId" />
+            </Attribute>
+            <Attribute Name="value" AttributeDataType="xs:string">
+              <Value>CUSTOMER GmbH</Value>
+              <RefSemantic CorrespondingAttributePath="AAS:Property/value" />
+            </Attribute>
+            <RoleRequirements RefBaseRoleClassPath="AutomationMLAssetAdministrationShellLibraries@AssetAdministrationShellRoleClassLib/Property" />
+          </InternalElement>
+          <InternalElement Name="Title" ID="7e80d2c5-06db-48bb-84e7-748204dac24f">
+            <Attribute Name="idShort">
+              <Value>Title</Value>
+              <RefSemantic CorrespondingAttributePath="AAS:Referable/idShort" />
+            </Attribute>
+            <Attribute Name="kind">
+              <Value>Instance</Value>
+              <RefSemantic CorrespondingAttributePath="AAS:HasKind/kind" />
+            </Attribute>
+            <Attribute Name="semanticId">
+              <Value>(ConceptDescription)(local)[IRI]www.vdi2770.com/blatt1/Entwurf/Okt18/cd/Description/Title</Value>
+              <RefSemantic CorrespondingAttributePath="AAS:HasSemantics/semanticId" />
+            </Attribute>
+            <Attribute Name="value" AttributeDataType="xs:langString">
+              <Value>Operating Manual</Value>
+              <RefSemantic CorrespondingAttributePath="AAS:Property/value" />
+            </Attribute>
+            <RoleRequirements RefBaseRoleClassPath="AutomationMLAssetAdministrationShellLibraries@AssetAdministrationShellRoleClassLib/Property" />
+          </InternalElement>
+          <InternalElement Name="Language" ID="2e6dbc49-9f76-4ef2-baed-02963f8fd669">
+            <Attribute Name="idShort">
+              <Value>Language</Value>
+              <RefSemantic CorrespondingAttributePath="AAS:Referable/idShort" />
+            </Attribute>
+            <Attribute Name="kind">
+              <Value>Instance</Value>
+              <RefSemantic CorrespondingAttributePath="AAS:HasKind/kind" />
+            </Attribute>
+            <Attribute Name="semanticId">
+              <Value>(ConceptDescription)(local)[IRI]www.vdi2770.com/blatt1/Entwurf/Okt18/cd/DocumentVersion/Language</Value>
+              <RefSemantic CorrespondingAttributePath="AAS:HasSemantics/semanticId" />
+            </Attribute>
+            <Attribute Name="value" AttributeDataType="xs:string">
+              <Value>en-US</Value>
+              <RefSemantic CorrespondingAttributePath="AAS:Property/value" />
+            </Attribute>
+            <RoleRequirements RefBaseRoleClassPath="AutomationMLAssetAdministrationShellLibraries@AssetAdministrationShellRoleClassLib/Property" />
+          </InternalElement>
+          <InternalElement Name="DigitalFile_PDF" ID="8c5c0be3-d34f-4e57-85cd-875a9af7c9c0">
+            <Attribute Name="idShort">
+              <Value>DigitalFile_PDF</Value>
+              <RefSemantic CorrespondingAttributePath="AAS:Referable/idShort" />
+            </Attribute>
+            <Attribute Name="category">
+              <Value>PARAMETER</Value>
+              <RefSemantic CorrespondingAttributePath="AAS:Referable/category" />
+            </Attribute>
+            <Attribute Name="kind">
+              <Value>Instance</Value>
+              <RefSemantic CorrespondingAttributePath="AAS:HasKind/kind" />
+            </Attribute>
+            <Attribute Name="semanticId">
+              <Value>(ConceptDescription)(local)[IRI]www.vdi2770.com/blatt1/Entwurf/Okt18/cd/StoredDocumentRepresentation/DigitalFile</Value>
+              <RefSemantic CorrespondingAttributePath="AAS:HasSemantics/semanticId" />
+            </Attribute>
+            <ExternalInterface Name="FileDataReference" ID="6d99169c-c2e8-4666-8355-ef8720cecb0e" RefBaseClassPath="AutomationMLAssetAdministrationShellLibraries@AssetAdministrationShellInterfaceClassLib/FileDataReference">
+              <Attribute Name="MIMEType" AttributeDataType="xs:string">
+                <Value>application/pdf</Value>
+              </Attribute>
+              <Attribute Name="refURI" AttributeDataType="xs:anyURI">
+                <Value>/aasx/OperatingManual.pdf</Value>
+              </Attribute>
+            </ExternalInterface>
+            <RoleRequirements RefBaseRoleClassPath="AutomationMLAssetAdministrationShellLibraries@AssetAdministrationShellRoleClassLib/File" />
+          </InternalElement>
+          <RoleRequirements RefBaseRoleClassPath="AutomationMLAssetAdministrationShellLibraries@AssetAdministrationShellRoleClassLib/SubmodelElementCollection" />
+        </InternalElement>
+        <RoleRequirements RefBaseRoleClassPath="AutomationMLAssetAdministrationShellLibraries@AssetAdministrationShellRoleClassLib/Submodel" />
+      </InternalElement>
+      <InternalElement Name="Operations" ID="226d41de-b71f-48d4-bab2-0642fab400ff">
+        <Attribute Name="identification">
+          <RefSemantic CorrespondingAttributePath="AAS:Identifiable/identification" />
+          <Attribute Name="idType">
+            <Value>IRI</Value>
+            <RefSemantic CorrespondingAttributePath="AAS:Identifier/idType" />
+          </Attribute>
+          <Attribute Name="id">
+            <Value>http://i40.customer.com/instance/1/1/AC69B1CB44F07935</Value>
+            <RefSemantic CorrespondingAttributePath="AAS:Identifier/id" />
+          </Attribute>
+        </Attribute>
+        <Attribute Name="idShort">
+          <Value>OperationalData</Value>
+          <RefSemantic CorrespondingAttributePath="AAS:Referable/idShort" />
+        </Attribute>
+        <Attribute Name="category">
+          <Value>VARIABLE</Value>
+          <RefSemantic CorrespondingAttributePath="AAS:Referable/category" />
+        </Attribute>
+        <Attribute Name="kind">
+          <Value>Instance</Value>
+          <RefSemantic CorrespondingAttributePath="AAS:HasKind/kind" />
+        </Attribute>
+        <Attribute Name="semanticId">
+          <Value>(GlobalReference)(no-local)[IRDI]0173-1#01-AFZ615#016</Value>
+          <RefSemantic CorrespondingAttributePath="AAS:HasSemantics/semanticId" />
+        </Attribute>
+        <InternalElement Name="SelectProgram" ID="0bd6f74c-4f27-4c00-983e-3ce5913a44f3">
+          <InternalElement Name="InputVariables" ID="2a1d9e77-08c3-476f-942e-66992e9acc8a">
+            <InternalElement Name="ProgramNumber" ID="3e7bffbe-9804-466b-9c40-4de61fe66c11">
+              <RoleRequirements RefBaseRoleClassPath="AutomationMLAssetAdministrationShellLibraries@AssetAdministrationShellRoleClassLib/Property">
+                <Attribute Name="idShort" AttributeDataType="xs:string">
+                  <Description>Identifying string of the element within its name space. Constraint AASd-001: In case of a referable element not being an identifiable element this id is mandatory and used for referring to the element in its name space. Constraint AASd-002: idShort shall only feature letters, digits, underscore ("_"); starting mandatory with a letter. Constraint AASd-003: idShort shall be matched case-insensitive. Note: In case of an identifiable element idShort is optional but recommended to be defined. It can be used for unique reference in its name space and thus allows better usability and a more performant implementation. In this case it is similar to the “BrowserPath” in OPC UA.</Description>
+                  <RefSemantic CorrespondingAttributePath="AAS:Referable/idShort" />
+                </Attribute>
+                <Attribute Name="category" AttributeDataType="xs:string">
+                  <Description>The category is a value that gives further meta information w.r.t. to the class of the element. It affects the expected existence of attributes and the applicability of constraints.</Description>
+                  <Value></Value>
+                  <RefSemantic CorrespondingAttributePath="AAS:Referable/category" />
+                </Attribute>
+                <Attribute Name="description" AttributeDataType="xs:string">
+                  <Description>Description or comments on the element. The description can be provided in several languages.</Description>
+                  <RefSemantic CorrespondingAttributePath="AAS:Referable/description" />
+                  <Attribute Name="aml-lang=EN" />
+                  <Attribute Name="aml-lang=DE" />
+                </Attribute>
+                <Attribute Name="dataSpecification" AttributeDataType="xs:string">
+                  <Description>Global reference to the data specification template used by the element.</Description>
+                  <Value></Value>
+                  <RefSemantic CorrespondingAttributePath="AAS:HasDataSpecification/dataSpecification" />
+                </Attribute>
+                <Attribute Name="kind" AttributeDataType="xs:string">
+                  <Description>Kind of the element: either template or instance.</Description>
+                  <DefaultValue>Instance</DefaultValue>
+                  <Value>Instance</Value>
+                  <RefSemantic CorrespondingAttributePath="AAS:HasKind/kind" />
+                  <Constraint Name="Kind">
+                    <NominalScaledType>
+                      <RequiredValue>Instance</RequiredValue>
+                      <RequiredValue>Type</RequiredValue>
+                    </NominalScaledType>
+                  </Constraint>
+                </Attribute>
+                <Attribute Name="semanticId" AttributeDataType="xs:string">
+                  <Description>Description or comments on the element. The description can be provided in several languages. This attribute has the name of the label and has a value with the label written in the default language. The individual languages are modelled as child attributes. The names of the child attributes are the prefix “aml-lang=” with the expression of the language in compliance with RFC5646. At it, the values of the child attributes are the labels within the respective language.</Description>
+                  <Value></Value>
+                  <RefSemantic CorrespondingAttributePath="AAS:HasSemantics/semanticId" />
+                </Attribute>
+                <Attribute Name="qualifier:[TYPE]=[VALUE]" AttributeDataType="xs:string">
+                  <Description>A qualifier is a type-value-pair that makes additional statements w.r.t. the value of the element. [TYPE] is the value of the attribute type and [VALUE] is the value of the attribute value.</Description>
+                  <RefSemantic CorrespondingAttributePath="AAS:Qualifiable/qualifier" />
+                  <Attribute Name="type" AttributeDataType="xs:string">
+                    <Description>The type describes the type of the qualifier that is applied to the element.</Description>
+                    <Value></Value>
+                    <RefSemantic CorrespondingAttributePath="AAS:Qualifier/type" />
+                  </Attribute>
+                  <Attribute Name="value" AttributeDataType="xs:string">
+                    <Description>The qualifier value is the value of the qualifier. Constraint AASd-006: if both, the value and the valueId are present then the value needs to be identical to the value of the referenced coded value in valueId.</Description>
+                    <Value></Value>
+                    <RefSemantic CorrespondingAttributePath="AAS:Qualifier/value" />
+                  </Attribute>
+                  <Attribute Name="valueId" AttributeDataType="xs:string">
+                    <Description>Reference to the global unqiue id of a coded value.</Description>
+                    <Value></Value>
+                    <RefSemantic CorrespondingAttributePath="AAS:Qualifier/valueId" />
+                  </Attribute>
+                </Attribute>
+                <Attribute Name="value" AttributeDataType="xs:string">
+                  <Description>The value of the property instance. </Description>
+                  <RefSemantic CorrespondingAttributePath="AAS:Property/value" />
+                </Attribute>
+                <Attribute Name="valueId" AttributeDataType="xs:string">
+                  <Description>Reference to the global unique id if a coded value.</Description>
+                  <RefSemantic CorrespondingAttributePath="AAS:Property/valueId" />
+                </Attribute>
+              </RoleRequirements>
+            </InternalElement>
+            <RoleRequirements RefBaseRoleClassPath="AutomationMLAssetAdministrationShellLibraries@AssetAdministrationShellRoleClassLib/OperationInputVariables" />
+          </InternalElement>
+          <InternalElement Name="OutputVariables" ID="c10d327e-c393-4a76-8738-658b70ae883a">
+            <InternalElement Name="Result" ID="64eaaaa1-0682-48ef-a028-02bbbe4c1083">
+              <RoleRequirements RefBaseRoleClassPath="AutomationMLAssetAdministrationShellLibraries@AssetAdministrationShellRoleClassLib/Property">
+                <Attribute Name="idShort" AttributeDataType="xs:string">
+                  <Description>Identifying string of the element within its name space. Constraint AASd-001: In case of a referable element not being an identifiable element this id is mandatory and used for referring to the element in its name space. Constraint AASd-002: idShort shall only feature letters, digits, underscore ("_"); starting mandatory with a letter. Constraint AASd-003: idShort shall be matched case-insensitive. Note: In case of an identifiable element idShort is optional but recommended to be defined. It can be used for unique reference in its name space and thus allows better usability and a more performant implementation. In this case it is similar to the “BrowserPath” in OPC UA.</Description>
+                  <RefSemantic CorrespondingAttributePath="AAS:Referable/idShort" />
+                </Attribute>
+                <Attribute Name="category" AttributeDataType="xs:string">
+                  <Description>The category is a value that gives further meta information w.r.t. to the class of the element. It affects the expected existence of attributes and the applicability of constraints.</Description>
+                  <Value></Value>
+                  <RefSemantic CorrespondingAttributePath="AAS:Referable/category" />
+                </Attribute>
+                <Attribute Name="description" AttributeDataType="xs:string">
+                  <Description>Description or comments on the element. The description can be provided in several languages.</Description>
+                  <RefSemantic CorrespondingAttributePath="AAS:Referable/description" />
+                  <Attribute Name="aml-lang=EN" />
+                  <Attribute Name="aml-lang=DE" />
+                </Attribute>
+                <Attribute Name="dataSpecification" AttributeDataType="xs:string">
+                  <Description>Global reference to the data specification template used by the element.</Description>
+                  <Value></Value>
+                  <RefSemantic CorrespondingAttributePath="AAS:HasDataSpecification/dataSpecification" />
+                </Attribute>
+                <Attribute Name="kind" AttributeDataType="xs:string">
+                  <Description>Kind of the element: either template or instance.</Description>
+                  <DefaultValue>Instance</DefaultValue>
+                  <Value>Instance</Value>
+                  <RefSemantic CorrespondingAttributePath="AAS:HasKind/kind" />
+                  <Constraint Name="Kind">
+                    <NominalScaledType>
+                      <RequiredValue>Instance</RequiredValue>
+                      <RequiredValue>Type</RequiredValue>
+                    </NominalScaledType>
+                  </Constraint>
+                </Attribute>
+                <Attribute Name="semanticId" AttributeDataType="xs:string">
+                  <Description>Description or comments on the element. The description can be provided in several languages. This attribute has the name of the label and has a value with the label written in the default language. The individual languages are modelled as child attributes. The names of the child attributes are the prefix “aml-lang=” with the expression of the language in compliance with RFC5646. At it, the values of the child attributes are the labels within the respective language.</Description>
+                  <Value></Value>
+                  <RefSemantic CorrespondingAttributePath="AAS:HasSemantics/semanticId" />
+                </Attribute>
+                <Attribute Name="qualifier:[TYPE]=[VALUE]" AttributeDataType="xs:string">
+                  <Description>A qualifier is a type-value-pair that makes additional statements w.r.t. the value of the element. [TYPE] is the value of the attribute type and [VALUE] is the value of the attribute value.</Description>
+                  <RefSemantic CorrespondingAttributePath="AAS:Qualifiable/qualifier" />
+                  <Attribute Name="type" AttributeDataType="xs:string">
+                    <Description>The type describes the type of the qualifier that is applied to the element.</Description>
+                    <Value></Value>
+                    <RefSemantic CorrespondingAttributePath="AAS:Qualifier/type" />
+                  </Attribute>
+                  <Attribute Name="value" AttributeDataType="xs:string">
+                    <Description>The qualifier value is the value of the qualifier. Constraint AASd-006: if both, the value and the valueId are present then the value needs to be identical to the value of the referenced coded value in valueId.</Description>
+                    <Value></Value>
+                    <RefSemantic CorrespondingAttributePath="AAS:Qualifier/value" />
+                  </Attribute>
+                  <Attribute Name="valueId" AttributeDataType="xs:string">
+                    <Description>Reference to the global unqiue id of a coded value.</Description>
+                    <Value></Value>
+                    <RefSemantic CorrespondingAttributePath="AAS:Qualifier/valueId" />
+                  </Attribute>
+                </Attribute>
+                <Attribute Name="value" AttributeDataType="xs:string">
+                  <Description>The value of the property instance. </Description>
+                  <RefSemantic CorrespondingAttributePath="AAS:Property/value" />
+                </Attribute>
+                <Attribute Name="valueId" AttributeDataType="xs:string">
+                  <Description>Reference to the global unique id if a coded value.</Description>
+                  <RefSemantic CorrespondingAttributePath="AAS:Property/valueId" />
+                </Attribute>
+              </RoleRequirements>
+            </InternalElement>
+            <SupportedRoleClass RefRoleClassPath="AutomationMLAssetAdministrationShellLibraries@AssetAdministrationShellRoleClassLib/OperationOutputVariables" />
+          </InternalElement>
+          <RoleRequirements RefBaseRoleClassPath="AutomationMLAssetAdministrationShellLibraries@AssetAdministrationShellRoleClassLib/Operation">
+            <Attribute Name="idShort" AttributeDataType="xs:string">
+              <Description>Identifying string of the element within its name space. Constraint AASd-001: In case of a referable element not being an identifiable element this id is mandatory and used for referring to the element in its name space. Constraint AASd-002: idShort shall only feature letters, digits, underscore ("_"); starting mandatory with a letter. Constraint AASd-003: idShort shall be matched case-insensitive. Note: In case of an identifiable element idShort is optional but recommended to be defined. It can be used for unique reference in its name space and thus allows better usability and a more performant implementation. In this case it is similar to the “BrowserPath” in OPC UA.</Description>
+              <RefSemantic CorrespondingAttributePath="AAS:Referable/idShort" />
+            </Attribute>
+            <Attribute Name="category" AttributeDataType="xs:string">
+              <Description>The category is a value that gives further meta information w.r.t. to the class of the element. It affects the expected existence of attributes and the applicability of constraints.</Description>
+              <Value></Value>
+              <RefSemantic CorrespondingAttributePath="AAS:Referable/category" />
+            </Attribute>
+            <Attribute Name="description" AttributeDataType="xs:string">
+              <Description>Description or comments on the element. The description can be provided in several languages.</Description>
+              <RefSemantic CorrespondingAttributePath="AAS:Referable/description" />
+              <Attribute Name="aml-lang=EN" />
+              <Attribute Name="aml-lang=DE" />
+            </Attribute>
+            <Attribute Name="dataSpecification" AttributeDataType="xs:string">
+              <Description>Global reference to the data specification template used by the element.</Description>
+              <Value></Value>
+              <RefSemantic CorrespondingAttributePath="AAS:HasDataSpecification/dataSpecification" />
+            </Attribute>
+            <Attribute Name="kind" AttributeDataType="xs:string">
+              <Description>Kind of the element: either template or instance.</Description>
+              <DefaultValue>Instance</DefaultValue>
+              <Value>Instance</Value>
+              <RefSemantic CorrespondingAttributePath="AAS:HasKind/kind" />
+              <Constraint Name="Kind">
+                <NominalScaledType>
+                  <RequiredValue>Instance</RequiredValue>
+                  <RequiredValue>Type</RequiredValue>
+                </NominalScaledType>
+              </Constraint>
+            </Attribute>
+            <Attribute Name="semanticId" AttributeDataType="xs:string">
+              <Description>Description or comments on the element. The description can be provided in several languages. This attribute has the name of the label and has a value with the label written in the default language. The individual languages are modelled as child attributes. The names of the child attributes are the prefix “aml-lang=” with the expression of the language in compliance with RFC5646. At it, the values of the child attributes are the labels within the respective language.</Description>
+              <Value></Value>
+              <RefSemantic CorrespondingAttributePath="AAS:HasSemantics/semanticId" />
+            </Attribute>
+            <Attribute Name="qualifier:[TYPE]=[VALUE]" AttributeDataType="xs:string">
+              <Description>A qualifier is a type-value-pair that makes additional statements w.r.t. the value of the element. [TYPE] is the value of the attribute type and [VALUE] is the value of the attribute value.</Description>
+              <RefSemantic CorrespondingAttributePath="AAS:Qualifiable/qualifier" />
+              <Attribute Name="type" AttributeDataType="xs:string">
+                <Description>The type describes the type of the qualifier that is applied to the element.</Description>
+                <Value></Value>
+                <RefSemantic CorrespondingAttributePath="AAS:Qualifier/type" />
+              </Attribute>
+              <Attribute Name="value" AttributeDataType="xs:string">
+                <Description>The qualifier value is the value of the qualifier. Constraint AASd-006: if both, the value and the valueId are present then the value needs to be identical to the value of the referenced coded value in valueId.</Description>
+                <Value></Value>
+                <RefSemantic CorrespondingAttributePath="AAS:Qualifier/value" />
+              </Attribute>
+              <Attribute Name="valueId" AttributeDataType="xs:string">
+                <Description>Reference to the global unqiue id of a coded value.</Description>
+                <Value></Value>
+                <RefSemantic CorrespondingAttributePath="AAS:Qualifier/valueId" />
+              </Attribute>
+            </Attribute>
+          </RoleRequirements>
+        </InternalElement>
+        <RoleRequirements RefBaseRoleClassPath="AutomationMLAssetAdministrationShellLibraries@AssetAdministrationShellRoleClassLib/Submodel" />
+      </InternalElement>
+      <RoleRequirements RefBaseRoleClassPath="AutomationMLAssetAdministrationShellLibraries@AssetAdministrationShellRoleClassLib/AssetAdministrationShell" />
+    </InternalElement>
+  </InstanceHierarchy>
+  <InstanceHierarchy Name="AssetAdministrationShellConceptDescriptions">
+    <Version>0</Version>
+    <InternalElement Name="Document__URI_www_vdi2770_com_blatt1_Entwurf_Okt18_cd_Document" ID="06b4113b-6679-4abd-8d05-997ac5b4b715">
+      <Attribute Name="identification">
+        <RefSemantic CorrespondingAttributePath="AAS:Identifiable/identification" />
+        <Attribute Name="idType">
+          <Value>IRI</Value>
+          <RefSemantic CorrespondingAttributePath="AAS:Identifier/idType" />
+        </Attribute>
+        <Attribute Name="id">
+          <Value>www.vdi2770.com/blatt1/Entwurf/Okt18/cd/Document</Value>
+          <RefSemantic CorrespondingAttributePath="AAS:Identifier/id" />
+        </Attribute>
+      </Attribute>
+      <Attribute Name="idShort">
+        <Value>Document</Value>
+        <RefSemantic CorrespondingAttributePath="AAS:Referable/idShort" />
+      </Attribute>
+      <Attribute Name="hasDataSpecification">
+        <Value>(GlobalReference)(no-local)[IRI]http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360</Value>
+        <RefSemantic CorrespondingAttributePath="AAS:ConceptDescription/dataSpecification" />
+      </Attribute>
+      <InternalElement Name="EmbeddedDataSpecification" ID="46c5b4ad-a529-4925-aad4-3153bb615f9a" RefBaseSystemUnitPath="AutomationMLAssetAdministrationShellLibraries@AssetAdministrationShellDataSpecificationTemplates/DataSpecificationIEC61360Template/DataSpecificationIEC61360">
+        <Attribute Name="shortName">
+          <Value>Document</Value>
+          <RefSemantic CorrespondingAttributePath="IEC:DataSpecificationIEC61360/shortName" />
+        </Attribute>
+        <Attribute Name="unit">
+          <RefSemantic CorrespondingAttributePath="IEC:DataSpecificationIEC61360/unit" />
+        </Attribute>
+        <Attribute Name="sourceOfDefinition">
+          <Value>[ISO 15519-1:2010]</Value>
+          <RefSemantic CorrespondingAttributePath="IEC:DataSpecificationIEC61360/sourceOfDefinition" />
+          <Attribute Name="aml-lang=DE">
+            <Value>[ISO 15519-1:2010]</Value>
+          </Attribute>
+        </Attribute>
+        <Attribute Name="dataType">
+          <Value>ENTITY</Value>
+          <RefSemantic CorrespondingAttributePath="IEC:DataSpecificationIEC61360/dataType" />
+        </Attribute>
+        <Attribute Name="definition">
+          <Value>Feste und geordnete Menge von für die Verwendung durch Personen bestimmte Informationen, die verwaltet und als Einheit zwischen Benutzern und System ausgetauscht werden kann.</Value>
+          <RefSemantic CorrespondingAttributePath="IEC:DataSpecificationIEC61360/definition" />
+          <Attribute Name="aml-lang=DE">
+            <Value>Feste und geordnete Menge von für die Verwendung durch Personen bestimmte Informationen, die verwaltet und als Einheit zwischen Benutzern und System ausgetauscht werden kann.</Value>
+          </Attribute>
+        </Attribute>
+        <RoleRequirements RefBaseRoleClassPath="AutomationMLAssetAdministrationShellLibraries@AssetAdministrationShellRoleClassLib/DataSpecificationContent" />
+      </InternalElement>
+      <RoleRequirements RefBaseRoleClassPath="AutomationMLAssetAdministrationShellLibraries@AssetAdministrationShellRoleClassLib/ConceptDescription" />
+    </InternalElement>
+    <InternalElement Name="DocumentId__URI_www_vdi2770_com_blatt1_Entwurf_Okt18_cd_DocumentId_Val" ID="86ee9067-e344-431c-a02e-888ed75611d8">
+      <Attribute Name="identification">
+        <RefSemantic CorrespondingAttributePath="AAS:Identifiable/identification" />
+        <Attribute Name="idType">
+          <Value>IRI</Value>
+          <RefSemantic CorrespondingAttributePath="AAS:Identifier/idType" />
+        </Attribute>
+        <Attribute Name="id">
+          <Value>www.vdi2770.com/blatt1/Entwurf/Okt18/cd/DocumentId/Val</Value>
+          <RefSemantic CorrespondingAttributePath="AAS:Identifier/id" />
+        </Attribute>
+      </Attribute>
+      <Attribute Name="idShort">
+        <Value>DocumentIdValue</Value>
+        <RefSemantic CorrespondingAttributePath="AAS:Referable/idShort" />
+      </Attribute>
+      <Attribute Name="category">
+        <Value>CONSTANT</Value>
+        <RefSemantic CorrespondingAttributePath="AAS:Referable/category" />
+      </Attribute>
+      <Attribute Name="hasDataSpecification">
+        <Value>(GlobalReference)(no-local)[IRI]http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360</Value>
+        <RefSemantic CorrespondingAttributePath="AAS:ConceptDescription/dataSpecification" />
+      </Attribute>
+      <InternalElement Name="EmbeddedDataSpecification" ID="6f887cac-fd62-4580-86fc-d01d61d5359f" RefBaseSystemUnitPath="AutomationMLAssetAdministrationShellLibraries@AssetAdministrationShellDataSpecificationTemplates/DataSpecificationIEC61360Template/DataSpecificationIEC61360">
+        <Attribute Name="shortName">
+          <Value>DocumentId</Value>
+          <RefSemantic CorrespondingAttributePath="IEC:DataSpecificationIEC61360/shortName" />
+        </Attribute>
+        <Attribute Name="unit">
+          <RefSemantic CorrespondingAttributePath="IEC:DataSpecificationIEC61360/unit" />
+        </Attribute>
+        <Attribute Name="sourceOfDefinition">
+          <RefSemantic CorrespondingAttributePath="IEC:DataSpecificationIEC61360/sourceOfDefinition" />
+          <Attribute Name="aml-lang=" />
+        </Attribute>
+        <Attribute Name="dataType">
+          <Value>STRING</Value>
+          <RefSemantic CorrespondingAttributePath="IEC:DataSpecificationIEC61360/dataType" />
+        </Attribute>
+        <Attribute Name="definition">
+          <Value>die eigentliche Identifikationsnummer</Value>
+          <RefSemantic CorrespondingAttributePath="IEC:DataSpecificationIEC61360/definition" />
+          <Attribute Name="aml-lang=DE">
+            <Value>die eigentliche Identifikationsnummer</Value>
+          </Attribute>
+        </Attribute>
+        <RoleRequirements RefBaseRoleClassPath="AutomationMLAssetAdministrationShellLibraries@AssetAdministrationShellRoleClassLib/DataSpecificationContent" />
+      </InternalElement>
+      <RoleRequirements RefBaseRoleClassPath="AutomationMLAssetAdministrationShellLibraries@AssetAdministrationShellRoleClassLib/ConceptDescription" />
+    </InternalElement>
+    <InternalElement Name="DocumentClassId__URI_www_vdi2770_com_blatt1_Entwurf_Okt18_cd_DocumentClassification_ClassId" ID="bdb52663-52b7-4442-bb55-a6232b849b2e">
+      <Attribute Name="identification">
+        <RefSemantic CorrespondingAttributePath="AAS:Identifiable/identification" />
+        <Attribute Name="idType">
+          <Value>IRI</Value>
+          <RefSemantic CorrespondingAttributePath="AAS:Identifier/idType" />
+        </Attribute>
+        <Attribute Name="id">
+          <Value>www.vdi2770.com/blatt1/Entwurf/Okt18/cd/DocumentClassification/ClassId</Value>
+          <RefSemantic CorrespondingAttributePath="AAS:Identifier/id" />
+        </Attribute>
+      </Attribute>
+      <Attribute Name="idShort">
+        <Value>DocumentClassId</Value>
+        <RefSemantic CorrespondingAttributePath="AAS:Referable/idShort" />
+      </Attribute>
+      <Attribute Name="category">
+        <Value>CONSTANT</Value>
+        <RefSemantic CorrespondingAttributePath="AAS:Referable/category" />
+      </Attribute>
+      <Attribute Name="hasDataSpecification">
+        <Value>(GlobalReference)(no-local)[IRI]http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360</Value>
+        <RefSemantic CorrespondingAttributePath="AAS:ConceptDescription/dataSpecification" />
+      </Attribute>
+      <InternalElement Name="EmbeddedDataSpecification" ID="489218e7-4cb6-4ef3-916d-d6ee3dd75a78" RefBaseSystemUnitPath="AutomationMLAssetAdministrationShellLibraries@AssetAdministrationShellDataSpecificationTemplates/DataSpecificationIEC61360Template/DataSpecificationIEC61360">
+        <Attribute Name="shortName">
+          <Value>DocumentClassId</Value>
+          <RefSemantic CorrespondingAttributePath="IEC:DataSpecificationIEC61360/shortName" />
+        </Attribute>
+        <Attribute Name="unit">
+          <RefSemantic CorrespondingAttributePath="IEC:DataSpecificationIEC61360/unit" />
+        </Attribute>
+        <Attribute Name="dataType">
+          <Value>STRING</Value>
+          <RefSemantic CorrespondingAttributePath="IEC:DataSpecificationIEC61360/dataType" />
+        </Attribute>
+        <Attribute Name="definition">
+          <Value>Eindeutige ID der Klasse in einer Klassifikation.</Value>
+          <RefSemantic CorrespondingAttributePath="IEC:DataSpecificationIEC61360/definition" />
+          <Attribute Name="aml-lang=DE">
+            <Value>Eindeutige ID der Klasse in einer Klassifikation.</Value>
+          </Attribute>
+        </Attribute>
+        <RoleRequirements RefBaseRoleClassPath="AutomationMLAssetAdministrationShellLibraries@AssetAdministrationShellRoleClassLib/DataSpecificationContent" />
+      </InternalElement>
+      <RoleRequirements RefBaseRoleClassPath="AutomationMLAssetAdministrationShellLibraries@AssetAdministrationShellRoleClassLib/ConceptDescription" />
+    </InternalElement>
+    <InternalElement Name="DocumentClassName__URI_www_vdi2770_com_blatt1_Entwurf_Okt18_cd_DocumentClassification_ClassName" ID="f67bfa5a-0864-408b-820f-8516445aabb1">
+      <Attribute Name="identification">
+        <RefSemantic CorrespondingAttributePath="AAS:Identifiable/identification" />
+        <Attribute Name="idType">
+          <Value>IRI</Value>
+          <RefSemantic CorrespondingAttributePath="AAS:Identifier/idType" />
+        </Attribute>
+        <Attribute Name="id">
+          <Value>www.vdi2770.com/blatt1/Entwurf/Okt18/cd/DocumentClassification/ClassName</Value>
+          <RefSemantic CorrespondingAttributePath="AAS:Identifier/id" />
+        </Attribute>
+      </Attribute>
+      <Attribute Name="idShort">
+        <Value>DocumentClassName</Value>
+        <RefSemantic CorrespondingAttributePath="AAS:Referable/idShort" />
+      </Attribute>
+      <Attribute Name="category">
+        <Value>CONSTANT</Value>
+        <RefSemantic CorrespondingAttributePath="AAS:Referable/category" />
+      </Attribute>
+      <Attribute Name="hasDataSpecification">
+        <Value>(GlobalReference)(no-local)[IRI]http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360</Value>
+        <RefSemantic CorrespondingAttributePath="AAS:ConceptDescription/dataSpecification" />
+      </Attribute>
+      <InternalElement Name="EmbeddedDataSpecification" ID="2faa37a4-f185-40af-9784-cc709d08435b" RefBaseSystemUnitPath="AutomationMLAssetAdministrationShellLibraries@AssetAdministrationShellDataSpecificationTemplates/DataSpecificationIEC61360Template/DataSpecificationIEC61360">
+        <Attribute Name="shortName">
+          <Value>DocumentClassName</Value>
+          <RefSemantic CorrespondingAttributePath="IEC:DataSpecificationIEC61360/shortName" />
+        </Attribute>
+        <Attribute Name="unit">
+          <RefSemantic CorrespondingAttributePath="IEC:DataSpecificationIEC61360/unit" />
+        </Attribute>
+        <Attribute Name="dataType">
+          <Value>STRING_TRANSLATABLE</Value>
+          <RefSemantic CorrespondingAttributePath="IEC:DataSpecificationIEC61360/dataType" />
+        </Attribute>
+        <Attribute Name="definition">
+          <Value>Liste von sprachabhängigen Namen zur ClassId. </Value>
+          <RefSemantic CorrespondingAttributePath="IEC:DataSpecificationIEC61360/definition" />
+          <Attribute Name="aml-lang=DE">
+            <Value>Liste von sprachabhängigen Namen zur ClassId. </Value>
+          </Attribute>
+        </Attribute>
+        <RoleRequirements RefBaseRoleClassPath="AutomationMLAssetAdministrationShellLibraries@AssetAdministrationShellRoleClassLib/DataSpecificationContent" />
+      </InternalElement>
+      <RoleRequirements RefBaseRoleClassPath="AutomationMLAssetAdministrationShellLibraries@AssetAdministrationShellRoleClassLib/ConceptDescription" />
+    </InternalElement>
+    <InternalElement Name="DocumentClassificationSystem__URI_www_vdi2770_com_blatt1_Entwurf_Okt18_cd_DocumentClassification_ClassificationSystem" ID="ef224659-8fef-485c-b549-c0638d2e69b4">
+      <Attribute Name="identification">
+        <RefSemantic CorrespondingAttributePath="AAS:Identifiable/identification" />
+        <Attribute Name="idType">
+          <Value>IRI</Value>
+          <RefSemantic CorrespondingAttributePath="AAS:Identifier/idType" />
+        </Attribute>
+        <Attribute Name="id">
+          <Value>www.vdi2770.com/blatt1/Entwurf/Okt18/cd/DocumentClassification/ClassificationSystem</Value>
+          <RefSemantic CorrespondingAttributePath="AAS:Identifier/id" />
+        </Attribute>
+      </Attribute>
+      <Attribute Name="idShort">
+        <Value>DocumentClassificationSystem</Value>
+        <RefSemantic CorrespondingAttributePath="AAS:Referable/idShort" />
+      </Attribute>
+      <Attribute Name="category">
+        <Value>CONSTANT</Value>
+        <RefSemantic CorrespondingAttributePath="AAS:Referable/category" />
+      </Attribute>
+      <Attribute Name="hasDataSpecification">
+        <Value>(GlobalReference)(no-local)[IRI]http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360</Value>
+        <RefSemantic CorrespondingAttributePath="AAS:ConceptDescription/dataSpecification" />
+      </Attribute>
+      <InternalElement Name="EmbeddedDataSpecification" ID="d304accd-8658-4433-a59e-b3a138635142" RefBaseSystemUnitPath="AutomationMLAssetAdministrationShellLibraries@AssetAdministrationShellDataSpecificationTemplates/DataSpecificationIEC61360Template/DataSpecificationIEC61360">
+        <Attribute Name="preferredName">
+          <Value>Classification System</Value>
+          <RefSemantic CorrespondingAttributePath="IEC:DataSpecificationIEC61360/preferredName" />
+          <Attribute Name="aml-lang=EN">
+            <Value>Classification System</Value>
+          </Attribute>
+          <Attribute Name="aml-lang=DE">
+            <Value>Klassifikationssystem</Value>
+          </Attribute>
+        </Attribute>
+        <Attribute Name="shortName">
+          <Value>DocumentClassificationSystem</Value>
+          <RefSemantic CorrespondingAttributePath="IEC:DataSpecificationIEC61360/shortName" />
+        </Attribute>
+        <Attribute Name="unit">
+          <RefSemantic CorrespondingAttributePath="IEC:DataSpecificationIEC61360/unit" />
+        </Attribute>
+        <Attribute Name="dataType">
+          <Value>STRING</Value>
+          <RefSemantic CorrespondingAttributePath="IEC:DataSpecificationIEC61360/dataType" />
+        </Attribute>
+        <Attribute Name="definition">
+          <Value>Eindeutige Kennung für ein Klassifikationssystem. Für Klassifikationen nach VDI 2770 muss "VDI2770:2018" verwenden werden.</Value>
+          <RefSemantic CorrespondingAttributePath="IEC:DataSpecificationIEC61360/definition" />
+          <Attribute Name="aml-lang=DE">
+            <Value>Eindeutige Kennung für ein Klassifikationssystem. Für Klassifikationen nach VDI 2770 muss "VDI2770:2018" verwenden werden.</Value>
+          </Attribute>
+        </Attribute>
+        <RoleRequirements RefBaseRoleClassPath="AutomationMLAssetAdministrationShellLibraries@AssetAdministrationShellRoleClassLib/DataSpecificationContent" />
+      </InternalElement>
+      <RoleRequirements RefBaseRoleClassPath="AutomationMLAssetAdministrationShellLibraries@AssetAdministrationShellRoleClassLib/ConceptDescription" />
+    </InternalElement>
+    <InternalElement Name="OrganizationName__URI_www_vdi2770_com_blatt1_Entwurf_Okt18_cd_Organization_OrganizationName" ID="b1462079-4d9a-4c21-9433-857e388abc90">
+      <Attribute Name="identification">
+        <RefSemantic CorrespondingAttributePath="AAS:Identifiable/identification" />
+        <Attribute Name="idType">
+          <Value>IRI</Value>
+          <RefSemantic CorrespondingAttributePath="AAS:Identifier/idType" />
+        </Attribute>
+        <Attribute Name="id">
+          <Value>www.vdi2770.com/blatt1/Entwurf/Okt18/cd/Organization/OrganizationName</Value>
+          <RefSemantic CorrespondingAttributePath="AAS:Identifier/id" />
+        </Attribute>
+      </Attribute>
+      <Attribute Name="idShort">
+        <Value>OrganizationName</Value>
+        <RefSemantic CorrespondingAttributePath="AAS:Referable/idShort" />
+      </Attribute>
+      <Attribute Name="category">
+        <Value>CONSTANT</Value>
+        <RefSemantic CorrespondingAttributePath="AAS:Referable/category" />
+      </Attribute>
+      <Attribute Name="hasDataSpecification">
+        <Value>(GlobalReference)(no-local)[IRI]http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360</Value>
+        <RefSemantic CorrespondingAttributePath="AAS:ConceptDescription/dataSpecification" />
+      </Attribute>
+      <InternalElement Name="EmbeddedDataSpecification" ID="ae724f57-cf34-42c6-ae7b-247e44dcff16" RefBaseSystemUnitPath="AutomationMLAssetAdministrationShellLibraries@AssetAdministrationShellDataSpecificationTemplates/DataSpecificationIEC61360Template/DataSpecificationIEC61360">
+        <Attribute Name="preferredName">
+          <Value>gebräuchliche Bezeichnung für Organisation</Value>
+          <RefSemantic CorrespondingAttributePath="IEC:DataSpecificationIEC61360/preferredName" />
+          <Attribute Name="aml-lang=DE">
+            <Value>gebräuchliche Bezeichnung für Organisation</Value>
+          </Attribute>
+          <Attribute Name="aml-lang=EN">
+            <Value>organization name</Value>
+          </Attribute>
+        </Attribute>
+        <Attribute Name="shortName">
+          <Value>OrganizationName</Value>
+          <RefSemantic CorrespondingAttributePath="IEC:DataSpecificationIEC61360/shortName" />
+        </Attribute>
+        <Attribute Name="unit">
+          <RefSemantic CorrespondingAttributePath="IEC:DataSpecificationIEC61360/unit" />
+        </Attribute>
+        <Attribute Name="dataType">
+          <Value>STRING</Value>
+          <RefSemantic CorrespondingAttributePath="IEC:DataSpecificationIEC61360/dataType" />
+        </Attribute>
+        <Attribute Name="definition">
+          <Value>Die gebräuchliche Bezeichnung für die Organisation.</Value>
+          <RefSemantic CorrespondingAttributePath="IEC:DataSpecificationIEC61360/definition" />
+          <Attribute Name="aml-lang=DE">
+            <Value>Die gebräuchliche Bezeichnung für die Organisation.</Value>
+          </Attribute>
+        </Attribute>
+        <RoleRequirements RefBaseRoleClassPath="AutomationMLAssetAdministrationShellLibraries@AssetAdministrationShellRoleClassLib/DataSpecificationContent" />
+      </InternalElement>
+      <RoleRequirements RefBaseRoleClassPath="AutomationMLAssetAdministrationShellLibraries@AssetAdministrationShellRoleClassLib/ConceptDescription" />
+    </InternalElement>
+    <InternalElement Name="OrganizationOfficialName__URI_www_vdi2770_com_blatt1_Entwurf_Okt18_cd_Organization_OrganizationOfficialName" ID="3c1163bc-6b30-41e1-beeb-8882d8716513">
+      <Attribute Name="identification">
+        <RefSemantic CorrespondingAttributePath="AAS:Identifiable/identification" />
+        <Attribute Name="idType">
+          <Value>IRI</Value>
+          <RefSemantic CorrespondingAttributePath="AAS:Identifier/idType" />
+        </Attribute>
+        <Attribute Name="id">
+          <Value>www.vdi2770.com/blatt1/Entwurf/Okt18/cd/Organization/OrganizationOfficialName</Value>
+          <RefSemantic CorrespondingAttributePath="AAS:Identifier/id" />
+        </Attribute>
+      </Attribute>
+      <Attribute Name="idShort">
+        <Value>OrganizationOfficialName</Value>
+        <RefSemantic CorrespondingAttributePath="AAS:Referable/idShort" />
+      </Attribute>
+      <Attribute Name="category">
+        <Value>CONSTANT</Value>
+        <RefSemantic CorrespondingAttributePath="AAS:Referable/category" />
+      </Attribute>
+      <Attribute Name="isCaseOf">
+        <Value>(ConceptDescription)(local)[IRDI]0173-1#02-AAO677#002</Value>
+        <RefSemantic CorrespondingAttributePath="AAS:ConceptDescription/isCaseOf" />
+      </Attribute>
+      <Attribute Name="hasDataSpecification">
+        <Value>(GlobalReference)(no-local)[IRI]http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360</Value>
+        <RefSemantic CorrespondingAttributePath="AAS:ConceptDescription/dataSpecification" />
+      </Attribute>
+      <InternalElement Name="EmbeddedDataSpecification" ID="3a4abc63-f4fe-4a68-87fc-c4ffac7eef76" RefBaseSystemUnitPath="AutomationMLAssetAdministrationShellLibraries@AssetAdministrationShellDataSpecificationTemplates/DataSpecificationIEC61360Template/DataSpecificationIEC61360">
+        <Attribute Name="preferredName">
+          <Value>offizieller Name der Organisation</Value>
+          <RefSemantic CorrespondingAttributePath="IEC:DataSpecificationIEC61360/preferredName" />
+          <Attribute Name="aml-lang=DE">
+            <Value>offizieller Name der Organisation</Value>
+          </Attribute>
+          <Attribute Name="aml-lang=EN">
+            <Value>official name of the organization</Value>
+          </Attribute>
+        </Attribute>
+        <Attribute Name="shortName">
+          <Value>OrganizationOfficialName</Value>
+          <RefSemantic CorrespondingAttributePath="IEC:DataSpecificationIEC61360/shortName" />
+        </Attribute>
+        <Attribute Name="unit">
+          <RefSemantic CorrespondingAttributePath="IEC:DataSpecificationIEC61360/unit" />
+        </Attribute>
+        <Attribute Name="dataType">
+          <Value>STRING</Value>
+          <RefSemantic CorrespondingAttributePath="IEC:DataSpecificationIEC61360/dataType" />
+        </Attribute>
+        <Attribute Name="definition">
+          <Value>Der offizielle Namen der Organisation.</Value>
+          <RefSemantic CorrespondingAttributePath="IEC:DataSpecificationIEC61360/definition" />
+          <Attribute Name="aml-lang=DE">
+            <Value>Der offizielle Namen der Organisation.</Value>
+          </Attribute>
+        </Attribute>
+        <RoleRequirements RefBaseRoleClassPath="AutomationMLAssetAdministrationShellLibraries@AssetAdministrationShellRoleClassLib/DataSpecificationContent" />
+      </InternalElement>
+      <RoleRequirements RefBaseRoleClassPath="AutomationMLAssetAdministrationShellLibraries@AssetAdministrationShellRoleClassLib/ConceptDescription" />
+    </InternalElement>
+    <InternalElement Name="DocumentVersion__URI_www_vdi2770_com_blatt1_Entwurf_Okt18_cd_DocumentVersion" ID="8d30d85c-c439-4825-84ff-4b09ddf8154e">
+      <Attribute Name="identification">
+        <RefSemantic CorrespondingAttributePath="AAS:Identifiable/identification" />
+        <Attribute Name="idType">
+          <Value>IRI</Value>
+          <RefSemantic CorrespondingAttributePath="AAS:Identifier/idType" />
+        </Attribute>
+        <Attribute Name="id">
+          <Value>www.vdi2770.com/blatt1/Entwurf/Okt18/cd/DocumentVersion</Value>
+          <RefSemantic CorrespondingAttributePath="AAS:Identifier/id" />
+        </Attribute>
+      </Attribute>
+      <Attribute Name="idShort">
+        <Value>DocumentVersion</Value>
+        <RefSemantic CorrespondingAttributePath="AAS:Referable/idShort" />
+      </Attribute>
+      <Attribute Name="hasDataSpecification">
+        <Value>(GlobalReference)(no-local)[IRI]www.admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360</Value>
+        <RefSemantic CorrespondingAttributePath="AAS:ConceptDescription/dataSpecification" />
+      </Attribute>
+      <InternalElement Name="EmbeddedDataSpecification" ID="dc856867-37a5-4830-9499-9e7790c4f443" RefBaseSystemUnitPath="AutomationMLAssetAdministrationShellLibraries@AssetAdministrationShellDataSpecificationTemplates/DataSpecificationIEC61360Template/DataSpecificationIEC61360">
+        <Attribute Name="preferredName">
+          <Value>Version des Dokuments</Value>
+          <RefSemantic CorrespondingAttributePath="IEC:DataSpecificationIEC61360/preferredName" />
+          <Attribute Name="aml-lang=DE">
+            <Value>Version des Dokuments</Value>
+          </Attribute>
+        </Attribute>
+        <Attribute Name="shortName">
+          <Value>DocumentVersion</Value>
+          <RefSemantic CorrespondingAttributePath="IEC:DataSpecificationIEC61360/shortName" />
+        </Attribute>
+        <Attribute Name="unit">
+          <RefSemantic CorrespondingAttributePath="IEC:DataSpecificationIEC61360/unit" />
+        </Attribute>
+        <Attribute Name="dataType">
+          <RefSemantic CorrespondingAttributePath="IEC:DataSpecificationIEC61360/dataType" />
+        </Attribute>
+        <Attribute Name="definition">
+          <Value>Zu jedem Dokument muss eine Menge von mindestens einer Dokumentenversion existieren. Es können auch mehrere Dokumentenversionen ausgeliefert werden.</Value>
+          <RefSemantic CorrespondingAttributePath="IEC:DataSpecificationIEC61360/definition" />
+          <Attribute Name="aml-lang=DE">
+            <Value>Zu jedem Dokument muss eine Menge von mindestens einer Dokumentenversion existieren. Es können auch mehrere Dokumentenversionen ausgeliefert werden.</Value>
+          </Attribute>
+        </Attribute>
+        <RoleRequirements RefBaseRoleClassPath="AutomationMLAssetAdministrationShellLibraries@AssetAdministrationShellRoleClassLib/DataSpecificationContent" />
+      </InternalElement>
+      <RoleRequirements RefBaseRoleClassPath="AutomationMLAssetAdministrationShellLibraries@AssetAdministrationShellRoleClassLib/ConceptDescription" />
+    </InternalElement>
+    <InternalElement Name="Language__URI_www_vdi2770_com_blatt1_Entwurf_Okt18_cd_DocumentVersion_Language" ID="4e28a160-322e-47df-b1b4-aed84e30b0be">
+      <Attribute Name="identification">
+        <RefSemantic CorrespondingAttributePath="AAS:Identifiable/identification" />
+        <Attribute Name="idType">
+          <Value>IRI</Value>
+          <RefSemantic CorrespondingAttributePath="AAS:Identifier/idType" />
+        </Attribute>
+        <Attribute Name="id">
+          <Value>www.vdi2770.com/blatt1/Entwurf/Okt18/cd/DocumentVersion/Language</Value>
+          <RefSemantic CorrespondingAttributePath="AAS:Identifier/id" />
+        </Attribute>
+      </Attribute>
+      <Attribute Name="idShort">
+        <Value>Language</Value>
+        <RefSemantic CorrespondingAttributePath="AAS:Referable/idShort" />
+      </Attribute>
+      <Attribute Name="category">
+        <Value>CONSTANT</Value>
+        <RefSemantic CorrespondingAttributePath="AAS:Referable/category" />
+      </Attribute>
+      <Attribute Name="hasDataSpecification">
+        <Value>(GlobalReference)(no-local)[IRI]http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360</Value>
+        <RefSemantic CorrespondingAttributePath="AAS:ConceptDescription/dataSpecification" />
+      </Attribute>
+      <InternalElement Name="EmbeddedDataSpecification" ID="d7cbf133-5315-42a1-aaa4-7570b26550fc" RefBaseSystemUnitPath="AutomationMLAssetAdministrationShellLibraries@AssetAdministrationShellDataSpecificationTemplates/DataSpecificationIEC61360Template/DataSpecificationIEC61360">
+        <Attribute Name="preferredName">
+          <Value>Language</Value>
+          <RefSemantic CorrespondingAttributePath="IEC:DataSpecificationIEC61360/preferredName" />
+          <Attribute Name="aml-lang=EN">
+            <Value>Language</Value>
+          </Attribute>
+          <Attribute Name="aml-lang=DE">
+            <Value>Sprache</Value>
+          </Attribute>
+        </Attribute>
+        <Attribute Name="shortName">
+          <Value>Language</Value>
+          <RefSemantic CorrespondingAttributePath="IEC:DataSpecificationIEC61360/shortName" />
+        </Attribute>
+        <Attribute Name="unit">
+          <RefSemantic CorrespondingAttributePath="IEC:DataSpecificationIEC61360/unit" />
+        </Attribute>
+        <Attribute Name="dataType">
+          <Value>STRING</Value>
+          <RefSemantic CorrespondingAttributePath="IEC:DataSpecificationIEC61360/dataType" />
+        </Attribute>
+        <Attribute Name="definition">
+          <Value>Eine Liste der im Dokument verwendeten Sprachen.</Value>
+          <RefSemantic CorrespondingAttributePath="IEC:DataSpecificationIEC61360/definition" />
+          <Attribute Name="aml-lang=DE">
+            <Value>Eine Liste der im Dokument verwendeten Sprachen.</Value>
+          </Attribute>
+        </Attribute>
+        <RoleRequirements RefBaseRoleClassPath="AutomationMLAssetAdministrationShellLibraries@AssetAdministrationShellRoleClassLib/DataSpecificationContent" />
+      </InternalElement>
+      <RoleRequirements RefBaseRoleClassPath="AutomationMLAssetAdministrationShellLibraries@AssetAdministrationShellRoleClassLib/ConceptDescription" />
+    </InternalElement>
+    <InternalElement Name="Title__URI_www_vdi2770_com_blatt1_Entwurf_Okt18_cd_Description_Title" ID="afa076b5-48d5-4587-a034-a6d424e6a609">
+      <Attribute Name="identification">
+        <RefSemantic CorrespondingAttributePath="AAS:Identifiable/identification" />
+        <Attribute Name="idType">
+          <Value>IRI</Value>
+          <RefSemantic CorrespondingAttributePath="AAS:Identifier/idType" />
+        </Attribute>
+        <Attribute Name="id">
+          <Value>www.vdi2770.com/blatt1/Entwurf/Okt18/cd/Description/Title</Value>
+          <RefSemantic CorrespondingAttributePath="AAS:Identifier/id" />
+        </Attribute>
+      </Attribute>
+      <Attribute Name="idShort">
+        <Value>Title</Value>
+        <RefSemantic CorrespondingAttributePath="AAS:Referable/idShort" />
+      </Attribute>
+      <Attribute Name="category">
+        <Value>CONSTANT</Value>
+        <RefSemantic CorrespondingAttributePath="AAS:Referable/category" />
+      </Attribute>
+      <Attribute Name="hasDataSpecification">
+        <Value>(GlobalReference)(no-local)[IRI]http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360</Value>
+        <RefSemantic CorrespondingAttributePath="AAS:ConceptDescription/dataSpecification" />
+      </Attribute>
+      <InternalElement Name="EmbeddedDataSpecification" ID="3d17b735-6697-407a-8f7c-37008a92cceb" RefBaseSystemUnitPath="AutomationMLAssetAdministrationShellLibraries@AssetAdministrationShellDataSpecificationTemplates/DataSpecificationIEC61360Template/DataSpecificationIEC61360">
+        <Attribute Name="preferredName">
+          <Value>Title</Value>
+          <RefSemantic CorrespondingAttributePath="IEC:DataSpecificationIEC61360/preferredName" />
+          <Attribute Name="aml-lang=EN">
+            <Value>Title</Value>
+          </Attribute>
+          <Attribute Name="aml-lang=DE">
+            <Value>Titel</Value>
+          </Attribute>
+        </Attribute>
+        <Attribute Name="shortName">
+          <Value>Title</Value>
+          <RefSemantic CorrespondingAttributePath="IEC:DataSpecificationIEC61360/shortName" />
+        </Attribute>
+        <Attribute Name="unit">
+          <RefSemantic CorrespondingAttributePath="IEC:DataSpecificationIEC61360/unit" />
+        </Attribute>
+        <Attribute Name="dataType">
+          <Value>STRING_TRANSLATABLE</Value>
+          <RefSemantic CorrespondingAttributePath="IEC:DataSpecificationIEC61360/dataType" />
+        </Attribute>
+        <Attribute Name="definition">
+          <Value>Sprachabhängiger Titel des Dokuments.</Value>
+          <RefSemantic CorrespondingAttributePath="IEC:DataSpecificationIEC61360/definition" />
+          <Attribute Name="aml-lang=DE">
+            <Value>Sprachabhängiger Titel des Dokuments.</Value>
+          </Attribute>
+        </Attribute>
+        <RoleRequirements RefBaseRoleClassPath="AutomationMLAssetAdministrationShellLibraries@AssetAdministrationShellRoleClassLib/DataSpecificationContent" />
+      </InternalElement>
+      <RoleRequirements RefBaseRoleClassPath="AutomationMLAssetAdministrationShellLibraries@AssetAdministrationShellRoleClassLib/ConceptDescription" />
+    </InternalElement>
+    <InternalElement Name="SetDate__URI_www_vdi2770_com_blatt1_Entwurf_Okt18_cd_LifeCycleStatus_SetDate" ID="cb80e082-a8a3-461b-99db-b99d9f441560">
+      <Attribute Name="identification">
+        <RefSemantic CorrespondingAttributePath="AAS:Identifiable/identification" />
+        <Attribute Name="idType">
+          <Value>IRI</Value>
+          <RefSemantic CorrespondingAttributePath="AAS:Identifier/idType" />
+        </Attribute>
+        <Attribute Name="id">
+          <Value>www.vdi2770.com/blatt1/Entwurf/Okt18/cd/LifeCycleStatus/SetDate</Value>
+          <RefSemantic CorrespondingAttributePath="AAS:Identifier/id" />
+        </Attribute>
+      </Attribute>
+      <Attribute Name="idShort">
+        <Value>Date</Value>
+        <RefSemantic CorrespondingAttributePath="AAS:Referable/idShort" />
+      </Attribute>
+      <Attribute Name="hasDataSpecification">
+        <Value>(GlobalReference)(no-local)[IRI]www.admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360</Value>
+        <RefSemantic CorrespondingAttributePath="AAS:ConceptDescription/dataSpecification" />
+      </Attribute>
+      <InternalElement Name="EmbeddedDataSpecification" ID="ab0806e9-3c12-4f81-b60e-0892f922cd74" RefBaseSystemUnitPath="AutomationMLAssetAdministrationShellLibraries@AssetAdministrationShellDataSpecificationTemplates/DataSpecificationIEC61360Template/DataSpecificationIEC61360">
+        <Attribute Name="shortName">
+          <Value>SetDate</Value>
+          <RefSemantic CorrespondingAttributePath="IEC:DataSpecificationIEC61360/shortName" />
+        </Attribute>
+        <Attribute Name="unit">
+          <RefSemantic CorrespondingAttributePath="IEC:DataSpecificationIEC61360/unit" />
+        </Attribute>
+        <Attribute Name="dataType">
+          <Value>DATE</Value>
+          <RefSemantic CorrespondingAttributePath="IEC:DataSpecificationIEC61360/dataType" />
+        </Attribute>
+        <Attribute Name="definition">
+          <Value>Datum und Uhrzeit, an dem der Status festgelegt wurde. Es muss das Datumsformat „YYYY-MM-dd“ verwendet werden (Y = Jahr, M = Monat, d = Tag, siehe ISO 8601).</Value>
+          <RefSemantic CorrespondingAttributePath="IEC:DataSpecificationIEC61360/definition" />
+          <Attribute Name="aml-lang=DE">
+            <Value>Datum und Uhrzeit, an dem der Status festgelegt wurde. Es muss das Datumsformat „YYYY-MM-dd“ verwendet werden (Y = Jahr, M = Monat, d = Tag, siehe ISO 8601).</Value>
+          </Attribute>
+        </Attribute>
+        <RoleRequirements RefBaseRoleClassPath="AutomationMLAssetAdministrationShellLibraries@AssetAdministrationShellRoleClassLib/DataSpecificationContent" />
+      </InternalElement>
+      <RoleRequirements RefBaseRoleClassPath="AutomationMLAssetAdministrationShellLibraries@AssetAdministrationShellRoleClassLib/ConceptDescription" />
+    </InternalElement>
+    <InternalElement Name="DocumentVersionId__URI_www_vdi2770_com_blatt1_Entwurf_Okt18_cd_DocumentVersionId_Val" ID="6aa33760-97d0-453f-8e16-082326fe4b70">
+      <Attribute Name="identification">
+        <RefSemantic CorrespondingAttributePath="AAS:Identifiable/identification" />
+        <Attribute Name="idType">
+          <Value>IRI</Value>
+          <RefSemantic CorrespondingAttributePath="AAS:Identifier/idType" />
+        </Attribute>
+        <Attribute Name="id">
+          <Value>www.vdi2770.com/blatt1/Entwurf/Okt18/cd/DocumentVersionId/Val</Value>
+          <RefSemantic CorrespondingAttributePath="AAS:Identifier/id" />
+        </Attribute>
+      </Attribute>
+      <Attribute Name="idShort">
+        <Value>DocumentVersionIdValue</Value>
+        <RefSemantic CorrespondingAttributePath="AAS:Referable/idShort" />
+      </Attribute>
+      <Attribute Name="hasDataSpecification">
+        <Value>(GlobalReference)(no-local)[IRI]www.admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360</Value>
+        <RefSemantic CorrespondingAttributePath="AAS:ConceptDescription/dataSpecification" />
+      </Attribute>
+      <InternalElement Name="EmbeddedDataSpecification" ID="dc76425b-6b2e-48da-a5e9-0afdaf3e7a08" RefBaseSystemUnitPath="AutomationMLAssetAdministrationShellLibraries@AssetAdministrationShellDataSpecificationTemplates/DataSpecificationIEC61360Template/DataSpecificationIEC61360">
+        <Attribute Name="shortName">
+          <Value>DocumentVersionId</Value>
+          <RefSemantic CorrespondingAttributePath="IEC:DataSpecificationIEC61360/shortName" />
+        </Attribute>
+        <Attribute Name="unit">
+          <RefSemantic CorrespondingAttributePath="IEC:DataSpecificationIEC61360/unit" />
+        </Attribute>
+        <Attribute Name="dataType">
+          <Value>STRING</Value>
+          <RefSemantic CorrespondingAttributePath="IEC:DataSpecificationIEC61360/dataType" />
+        </Attribute>
+        <Attribute Name="definition">
+          <Value>Verschiedene Versionen eines Dokuments müssen eindeutig identifizierbar sein. Die DocumentVersionId stellt eine innerhalb einer Domäne eindeutige Versionsidentifikationsnummer dar.</Value>
+          <RefSemantic CorrespondingAttributePath="IEC:DataSpecificationIEC61360/definition" />
+          <Attribute Name="aml-lang=DE">
+            <Value>Verschiedene Versionen eines Dokuments müssen eindeutig identifizierbar sein. Die DocumentVersionId stellt eine innerhalb einer Domäne eindeutige Versionsidentifikationsnummer dar.</Value>
+          </Attribute>
+        </Attribute>
+        <RoleRequirements RefBaseRoleClassPath="AutomationMLAssetAdministrationShellLibraries@AssetAdministrationShellRoleClassLib/DataSpecificationContent" />
+      </InternalElement>
+      <RoleRequirements RefBaseRoleClassPath="AutomationMLAssetAdministrationShellLibraries@AssetAdministrationShellRoleClassLib/ConceptDescription" />
+    </InternalElement>
+    <InternalElement Name="DigitalFile__URI_www_vdi2770_com_blatt1_Entwurf_Okt18_cd_StoredDocumentRepresentation_DigitalFile" ID="d27235b5-a1bd-4832-8abe-84f3cb21d962">
+      <Attribute Name="identification">
+        <RefSemantic CorrespondingAttributePath="AAS:Identifiable/identification" />
+        <Attribute Name="idType">
+          <Value>IRI</Value>
+          <RefSemantic CorrespondingAttributePath="AAS:Identifier/idType" />
+        </Attribute>
+        <Attribute Name="id">
+          <Value>www.vdi2770.com/blatt1/Entwurf/Okt18/cd/StoredDocumentRepresentation/DigitalFile</Value>
+          <RefSemantic CorrespondingAttributePath="AAS:Identifier/id" />
+        </Attribute>
+      </Attribute>
+      <Attribute Name="idShort">
+        <Value>DigitalFile</Value>
+        <RefSemantic CorrespondingAttributePath="AAS:Referable/idShort" />
+      </Attribute>
+      <Attribute Name="hasDataSpecification">
+        <Value>(GlobalReference)(no-local)[IRI]http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360</Value>
+        <RefSemantic CorrespondingAttributePath="AAS:ConceptDescription/dataSpecification" />
+      </Attribute>
+      <InternalElement Name="EmbeddedDataSpecification" ID="4e500b50-bdaa-450f-81f6-0ba77b8b199a" RefBaseSystemUnitPath="AutomationMLAssetAdministrationShellLibraries@AssetAdministrationShellDataSpecificationTemplates/DataSpecificationIEC61360Template/DataSpecificationIEC61360">
+        <Attribute Name="shortName">
+          <Value>DigitalFile</Value>
+          <RefSemantic CorrespondingAttributePath="IEC:DataSpecificationIEC61360/shortName" />
+        </Attribute>
+        <Attribute Name="unit">
+          <RefSemantic CorrespondingAttributePath="IEC:DataSpecificationIEC61360/unit" />
+        </Attribute>
+        <Attribute Name="dataType">
+          <Value>FILE</Value>
+          <RefSemantic CorrespondingAttributePath="IEC:DataSpecificationIEC61360/dataType" />
+        </Attribute>
+        <Attribute Name="definition">
+          <Value>Eine Datei, die die DocumentVersion repräsentiert. Neben der obligatorischen PDF/A Datei können weitere Dateien angegeben werden.</Value>
+          <RefSemantic CorrespondingAttributePath="IEC:DataSpecificationIEC61360/definition" />
+          <Attribute Name="aml-lang=DE">
+            <Value>Eine Datei, die die DocumentVersion repräsentiert. Neben der obligatorischen PDF/A Datei können weitere Dateien angegeben werden.</Value>
+          </Attribute>
+        </Attribute>
+        <RoleRequirements RefBaseRoleClassPath="AutomationMLAssetAdministrationShellLibraries@AssetAdministrationShellRoleClassLib/DataSpecificationContent" />
+      </InternalElement>
+      <RoleRequirements RefBaseRoleClassPath="AutomationMLAssetAdministrationShellLibraries@AssetAdministrationShellRoleClassLib/ConceptDescription" />
+    </InternalElement>
+    <InternalElement Name="MaxRotationSpeed__IRDI_0173-1_02-BAA120_008" ID="cbdc9f25-7e81-4d23-8561-5358b35fd45e">
+      <Attribute Name="identification">
+        <RefSemantic CorrespondingAttributePath="AAS:Identifiable/identification" />
+        <Attribute Name="idType">
+          <Value>IRDI</Value>
+          <RefSemantic CorrespondingAttributePath="AAS:Identifier/idType" />
+        </Attribute>
+        <Attribute Name="id">
+          <Value>0173-1#02-BAA120#008</Value>
+          <RefSemantic CorrespondingAttributePath="AAS:Identifier/id" />
+        </Attribute>
+      </Attribute>
+      <Attribute Name="administration">
+        <RefSemantic CorrespondingAttributePath="AAS:Identifiable/administration" />
+        <Attribute Name="version">
+          <RefSemantic CorrespondingAttributePath="AAS:AdministrativeInformation/version" />
+        </Attribute>
+        <Attribute Name="revision">
+          <Value>2</Value>
+          <RefSemantic CorrespondingAttributePath="AAS:AdministrativeInformation/revision" />
+        </Attribute>
+      </Attribute>
+      <Attribute Name="idShort">
+        <Value>MaxRotationSpeed</Value>
+        <RefSemantic CorrespondingAttributePath="AAS:Referable/idShort" />
+      </Attribute>
+      <Attribute Name="category">
+        <Value>PROPERTY</Value>
+        <RefSemantic CorrespondingAttributePath="AAS:Referable/category" />
+      </Attribute>
+      <Attribute Name="isCaseOf">
+        <RefSemantic CorrespondingAttributePath="AAS:ConceptDescription/isCaseOf" />
+      </Attribute>
+      <Attribute Name="hasDataSpecification">
+        <RefSemantic CorrespondingAttributePath="AAS:ConceptDescription/dataSpecification" />
+      </Attribute>
+      <InternalElement Name="EmbeddedDataSpecification" ID="81b88f57-8b23-4529-ad12-ffe481881c28" RefBaseSystemUnitPath="AutomationMLAssetAdministrationShellLibraries@AssetAdministrationShellDataSpecificationTemplates/DataSpecificationIEC61360Template/DataSpecificationIEC61360">
+        <Attribute Name="preferredName">
+          <Value>max. Drehzahl</Value>
+          <RefSemantic CorrespondingAttributePath="IEC:DataSpecificationIEC61360/preferredName" />
+          <Attribute Name="aml-lang=de">
+            <Value>max. Drehzahl</Value>
+          </Attribute>
+          <Attribute Name="aml-lang=en">
+            <Value>Max. rotation speed</Value>
+          </Attribute>
+        </Attribute>
+        <Attribute Name="shortName">
+          <RefSemantic CorrespondingAttributePath="IEC:DataSpecificationIEC61360/shortName" />
+        </Attribute>
+        <Attribute Name="unit">
+          <Value>1/min</Value>
+          <RefSemantic CorrespondingAttributePath="IEC:DataSpecificationIEC61360/unit" />
+        </Attribute>
+        <Attribute Name="unitId">
+          <Value>(GlobalReference)(no-local)[IRDI]0173-1#05-AAA650#002</Value>
+          <RefSemantic CorrespondingAttributePath="IEC:DataSpecificationIEC61360/unitId" />
+        </Attribute>
+        <Attribute Name="dataType">
+          <Value>INTEGER_MEASURE</Value>
+          <RefSemantic CorrespondingAttributePath="IEC:DataSpecificationIEC61360/dataType" />
+        </Attribute>
+        <Attribute Name="definition">
+          <Value>Höchste zulässige Drehzahl, mit welcher der Motor oder die Speiseinheit betrieben werden darf</Value>
+          <RefSemantic CorrespondingAttributePath="IEC:DataSpecificationIEC61360/definition" />
+          <Attribute Name="aml-lang=de">
+            <Value>Höchste zulässige Drehzahl, mit welcher der Motor oder die Speiseinheit betrieben werden darf</Value>
+          </Attribute>
+          <Attribute Name="aml-lang=en">
+            <Value>Greatest permissible rotation speed with which the motor or feeding unit may be operated</Value>
+          </Attribute>
+        </Attribute>
+        <RoleRequirements RefBaseRoleClassPath="AutomationMLAssetAdministrationShellLibraries@AssetAdministrationShellRoleClassLib/DataSpecificationContent" />
+      </InternalElement>
+      <RoleRequirements RefBaseRoleClassPath="AutomationMLAssetAdministrationShellLibraries@AssetAdministrationShellRoleClassLib/ConceptDescription" />
+    </InternalElement>
+    <InternalElement Name="MaxTorque__IRDI_0173-1_02-BAE098_004" ID="7b8a5bf5-09ce-4228-9079-49586d7a81c2">
+      <Attribute Name="identification">
+        <RefSemantic CorrespondingAttributePath="AAS:Identifiable/identification" />
+        <Attribute Name="idType">
+          <Value>IRDI</Value>
+          <RefSemantic CorrespondingAttributePath="AAS:Identifier/idType" />
+        </Attribute>
+        <Attribute Name="id">
+          <Value>0173-1#02-BAE098#004</Value>
+          <RefSemantic CorrespondingAttributePath="AAS:Identifier/id" />
+        </Attribute>
+      </Attribute>
+      <Attribute Name="idShort">
+        <Value>MaxTorque</Value>
+        <RefSemantic CorrespondingAttributePath="AAS:Referable/idShort" />
+      </Attribute>
+      <Attribute Name="category">
+        <Value>PROPERTY</Value>
+        <RefSemantic CorrespondingAttributePath="AAS:Referable/category" />
+      </Attribute>
+      <Attribute Name="hasDataSpecification">
+        <RefSemantic CorrespondingAttributePath="AAS:ConceptDescription/dataSpecification" />
+      </Attribute>
+      <InternalElement Name="EmbeddedDataSpecification" ID="1cf999e8-8b86-41a6-8aae-256ea1b6612b" RefBaseSystemUnitPath="AutomationMLAssetAdministrationShellLibraries@AssetAdministrationShellDataSpecificationTemplates/DataSpecificationIEC61360Template/DataSpecificationIEC61360">
+        <Attribute Name="preferredName">
+          <Value>Max. torque</Value>
+          <RefSemantic CorrespondingAttributePath="IEC:DataSpecificationIEC61360/preferredName" />
+          <Attribute Name="aml-lang=EN">
+            <Value>Max. torque</Value>
+          </Attribute>
+        </Attribute>
+        <Attribute Name="shortName">
+          <RefSemantic CorrespondingAttributePath="IEC:DataSpecificationIEC61360/shortName" />
+        </Attribute>
+        <Attribute Name="unit">
+          <Value>Nm</Value>
+          <RefSemantic CorrespondingAttributePath="IEC:DataSpecificationIEC61360/unit" />
+        </Attribute>
+        <Attribute Name="unitId">
+          <Value>(GlobalReference)(no-local)[IRDI]0173-1#05-AAA212#003</Value>
+          <RefSemantic CorrespondingAttributePath="IEC:DataSpecificationIEC61360/unitId" />
+        </Attribute>
+        <Attribute Name="dataType">
+          <Value>REAL_MEASURE</Value>
+          <RefSemantic CorrespondingAttributePath="IEC:DataSpecificationIEC61360/dataType" />
+        </Attribute>
+        <Attribute Name="definition">
+          <Value>Greatest permissible mechanical torque which the motor can pass on at the drive shaft</Value>
+          <RefSemantic CorrespondingAttributePath="IEC:DataSpecificationIEC61360/definition" />
+          <Attribute Name="aml-lang=EN">
+            <Value>Greatest permissible mechanical torque which the motor can pass on at the drive shaft</Value>
+          </Attribute>
+          <Attribute Name="aml-lang=DE">
+            <Value>Größtes mechanisch zulässiges Drehmoment, welches der Motor an der Abtriebswelle abgeben kann</Value>
+          </Attribute>
+        </Attribute>
+        <RoleRequirements RefBaseRoleClassPath="AutomationMLAssetAdministrationShellLibraries@AssetAdministrationShellRoleClassLib/DataSpecificationContent" />
+      </InternalElement>
+      <RoleRequirements RefBaseRoleClassPath="AutomationMLAssetAdministrationShellLibraries@AssetAdministrationShellRoleClassLib/ConceptDescription" />
+    </InternalElement>
+    <InternalElement Name="RotationSpeed__URI_http_customer_com_cd_1_1_18EBD56F6B43D895" ID="8e67b9bf-52eb-49da-8efc-3f6c50f14db6">
+      <Attribute Name="identification">
+        <RefSemantic CorrespondingAttributePath="AAS:Identifiable/identification" />
+        <Attribute Name="idType">
+          <Value>IRI</Value>
+          <RefSemantic CorrespondingAttributePath="AAS:Identifier/idType" />
+        </Attribute>
+        <Attribute Name="id">
+          <Value>http://customer.com/cd/1/1/18EBD56F6B43D895</Value>
+          <RefSemantic CorrespondingAttributePath="AAS:Identifier/id" />
+        </Attribute>
+      </Attribute>
+      <Attribute Name="idShort">
+        <Value>RotationSpeed</Value>
+        <RefSemantic CorrespondingAttributePath="AAS:Referable/idShort" />
+      </Attribute>
+      <Attribute Name="category">
+        <Value>PROPERTY</Value>
+        <RefSemantic CorrespondingAttributePath="AAS:Referable/category" />
+      </Attribute>
+      <Attribute Name="hasDataSpecification">
+        <Value>(GlobalReference)(no-local)[IRI]http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360</Value>
+        <RefSemantic CorrespondingAttributePath="AAS:ConceptDescription/dataSpecification" />
+      </Attribute>
+      <InternalElement Name="EmbeddedDataSpecification" ID="03b21d8d-34c0-46e5-9a56-1d1baf988c3f" RefBaseSystemUnitPath="AutomationMLAssetAdministrationShellLibraries@AssetAdministrationShellDataSpecificationTemplates/DataSpecificationIEC61360Template/DataSpecificationIEC61360">
+        <Attribute Name="preferredName">
+          <Value>Aktuelle Drehzahl</Value>
+          <RefSemantic CorrespondingAttributePath="IEC:DataSpecificationIEC61360/preferredName" />
+          <Attribute Name="aml-lang=DE">
+            <Value>Aktuelle Drehzahl</Value>
+          </Attribute>
+          <Attribute Name="aml-lang=EN">
+            <Value>Actual rotation speed</Value>
+          </Attribute>
+        </Attribute>
+        <Attribute Name="shortName">
+          <Value>RotationSpeed</Value>
+          <RefSemantic CorrespondingAttributePath="IEC:DataSpecificationIEC61360/shortName" />
+        </Attribute>
+        <Attribute Name="unit">
+          <Value>1/min</Value>
+          <RefSemantic CorrespondingAttributePath="IEC:DataSpecificationIEC61360/unit" />
+        </Attribute>
+        <Attribute Name="unitId">
+          <Value>(GlobalReference)(no-local)[IRDI]0173-1#05-AAA650#002</Value>
+          <RefSemantic CorrespondingAttributePath="IEC:DataSpecificationIEC61360/unitId" />
+        </Attribute>
+        <Attribute Name="dataType">
+          <Value>INTEGER_MEASURE</Value>
+          <RefSemantic CorrespondingAttributePath="IEC:DataSpecificationIEC61360/dataType" />
+        </Attribute>
+        <Attribute Name="definition">
+          <Value>Aktuelle Drehzahl, mit welcher der Motor oder die Speiseinheit betrieben wird</Value>
+          <RefSemantic CorrespondingAttributePath="IEC:DataSpecificationIEC61360/definition" />
+          <Attribute Name="aml-lang=DE">
+            <Value>Aktuelle Drehzahl, mit welcher der Motor oder die Speiseinheit betrieben wird</Value>
+          </Attribute>
+          <Attribute Name="aml-lang=EN">
+            <Value>Actual rotation speed with which the motor or feeding unit is operated</Value>
+          </Attribute>
+        </Attribute>
+        <RoleRequirements RefBaseRoleClassPath="AutomationMLAssetAdministrationShellLibraries@AssetAdministrationShellRoleClassLib/DataSpecificationContent" />
+      </InternalElement>
+      <RoleRequirements RefBaseRoleClassPath="AutomationMLAssetAdministrationShellLibraries@AssetAdministrationShellRoleClassLib/ConceptDescription" />
+    </InternalElement>
+    <InternalElement Name="Torque__URI_http_customer_com_cd_1_1_18EBD56F6B43D896" ID="f72c1826-0b8e-45be-9afe-ff3c043bb602">
+      <Attribute Name="identification">
+        <RefSemantic CorrespondingAttributePath="AAS:Identifiable/identification" />
+        <Attribute Name="idType">
+          <Value>IRI</Value>
+          <RefSemantic CorrespondingAttributePath="AAS:Identifier/idType" />
+        </Attribute>
+        <Attribute Name="id">
+          <Value>http://customer.com/cd/1/1/18EBD56F6B43D896</Value>
+          <RefSemantic CorrespondingAttributePath="AAS:Identifier/id" />
+        </Attribute>
+      </Attribute>
+      <Attribute Name="idShort">
+        <Value>Torque</Value>
+        <RefSemantic CorrespondingAttributePath="AAS:Referable/idShort" />
+      </Attribute>
+      <Attribute Name="category">
+        <Value>PROPERTY</Value>
+        <RefSemantic CorrespondingAttributePath="AAS:Referable/category" />
+      </Attribute>
+      <Attribute Name="hasDataSpecification">
+        <Value>(GlobalReference)(no-local)[IRI]http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360</Value>
+        <RefSemantic CorrespondingAttributePath="AAS:ConceptDescription/dataSpecification" />
+      </Attribute>
+      <InternalElement Name="EmbeddedDataSpecification" ID="e9e5fdf4-ccdf-4542-8934-aee56fbe76cc" RefBaseSystemUnitPath="AutomationMLAssetAdministrationShellLibraries@AssetAdministrationShellDataSpecificationTemplates/DataSpecificationIEC61360Template/DataSpecificationIEC61360">
+        <Attribute Name="preferredName">
+          <Value>Drehmoment</Value>
+          <RefSemantic CorrespondingAttributePath="IEC:DataSpecificationIEC61360/preferredName" />
+          <Attribute Name="aml-lang=DE">
+            <Value>Drehmoment</Value>
+          </Attribute>
+          <Attribute Name="aml-lang=EN">
+            <Value>Torque</Value>
+          </Attribute>
+        </Attribute>
+        <Attribute Name="shortName">
+          <Value>Torque</Value>
+          <RefSemantic CorrespondingAttributePath="IEC:DataSpecificationIEC61360/shortName" />
+        </Attribute>
+        <Attribute Name="unit">
+          <Value>Nm</Value>
+          <RefSemantic CorrespondingAttributePath="IEC:DataSpecificationIEC61360/unit" />
+        </Attribute>
+        <Attribute Name="unitId">
+          <Value>(GlobalReference)(no-local)[IRDI]0173-1#05-AAA212#003</Value>
+          <RefSemantic CorrespondingAttributePath="IEC:DataSpecificationIEC61360/unitId" />
+        </Attribute>
+        <Attribute Name="dataType">
+          <Value>REAL_MEASURE</Value>
+          <RefSemantic CorrespondingAttributePath="IEC:DataSpecificationIEC61360/dataType" />
+        </Attribute>
+        <Attribute Name="definition">
+          <Value>Actual mechanical torque which the motor passes on at the drive shaft</Value>
+          <RefSemantic CorrespondingAttributePath="IEC:DataSpecificationIEC61360/definition" />
+          <Attribute Name="aml-lang=EN">
+            <Value>Actual mechanical torque which the motor passes on at the drive shaft</Value>
+          </Attribute>
+          <Attribute Name="aml-lang=DE">
+            <Value>Aktuelles Drehmoment, welches der Motor an der Abtriebswelle abgibt</Value>
+          </Attribute>
+        </Attribute>
+        <RoleRequirements RefBaseRoleClassPath="AutomationMLAssetAdministrationShellLibraries@AssetAdministrationShellRoleClassLib/DataSpecificationContent" />
+      </InternalElement>
+      <RoleRequirements RefBaseRoleClassPath="AutomationMLAssetAdministrationShellLibraries@AssetAdministrationShellRoleClassLib/ConceptDescription" />
+    </InternalElement>
+    <InternalElement Name="CoolingType__IRDI_0173-1_02-BAE122_006" ID="67c17a20-b270-4e2f-859f-c9a1a917f8ad">
+      <Attribute Name="identification">
+        <RefSemantic CorrespondingAttributePath="AAS:Identifiable/identification" />
+        <Attribute Name="idType">
+          <Value>IRDI</Value>
+          <RefSemantic CorrespondingAttributePath="AAS:Identifier/idType" />
+        </Attribute>
+        <Attribute Name="id">
+          <Value>0173-1#02-BAE122#006</Value>
+          <RefSemantic CorrespondingAttributePath="AAS:Identifier/id" />
+        </Attribute>
+      </Attribute>
+      <Attribute Name="idShort">
+        <Value>CoolingType</Value>
+        <RefSemantic CorrespondingAttributePath="AAS:Referable/idShort" />
+      </Attribute>
+      <Attribute Name="category">
+        <Value>PROPERTY</Value>
+        <RefSemantic CorrespondingAttributePath="AAS:Referable/category" />
+      </Attribute>
+      <Attribute Name="hasDataSpecification">
+        <Value>(GlobalReference)(no-local)[IRI]http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360</Value>
+        <RefSemantic CorrespondingAttributePath="AAS:ConceptDescription/dataSpecification" />
+      </Attribute>
+      <InternalElement Name="EmbeddedDataSpecification" ID="eb447103-035a-4045-8023-c6dc9e61dd61" RefBaseSystemUnitPath="AutomationMLAssetAdministrationShellLibraries@AssetAdministrationShellDataSpecificationTemplates/DataSpecificationIEC61360Template/DataSpecificationIEC61360">
+        <Attribute Name="preferredName">
+          <Value>Art der Kühlung</Value>
+          <RefSemantic CorrespondingAttributePath="IEC:DataSpecificationIEC61360/preferredName" />
+          <Attribute Name="aml-lang=DE">
+            <Value>Art der Kühlung</Value>
+          </Attribute>
+          <Attribute Name="aml-lang=EN">
+            <Value>Cooling type</Value>
+          </Attribute>
+        </Attribute>
+        <Attribute Name="shortName">
+          <RefSemantic CorrespondingAttributePath="IEC:DataSpecificationIEC61360/shortName" />
+        </Attribute>
+        <Attribute Name="unit">
+          <RefSemantic CorrespondingAttributePath="IEC:DataSpecificationIEC61360/unit" />
+        </Attribute>
+        <Attribute Name="dataType">
+          <Value>STRING</Value>
+          <RefSemantic CorrespondingAttributePath="IEC:DataSpecificationIEC61360/dataType" />
+        </Attribute>
+        <Attribute Name="definition">
+          <Value>Zusammenfassung verschiedener Kühlarten, um für Suchmerkmale zu einer begrenzten Auswahl zu kommen</Value>
+          <RefSemantic CorrespondingAttributePath="IEC:DataSpecificationIEC61360/definition" />
+          <Attribute Name="aml-lang=DE">
+            <Value>Zusammenfassung verschiedener Kühlarten, um für Suchmerkmale zu einer begrenzten Auswahl zu kommen</Value>
+          </Attribute>
+          <Attribute Name="aml-lang=EN">
+            <Value>Summary of various types of cooling, for use as search criteria that limit a selection</Value>
+          </Attribute>
+        </Attribute>
+        <RoleRequirements RefBaseRoleClassPath="AutomationMLAssetAdministrationShellLibraries@AssetAdministrationShellRoleClassLib/DataSpecificationContent" />
+      </InternalElement>
+      <RoleRequirements RefBaseRoleClassPath="AutomationMLAssetAdministrationShellLibraries@AssetAdministrationShellRoleClassLib/ConceptDescription" />
+    </InternalElement>
+    <InternalElement Name="BAB657__IRDI_0173-1_07-BAB657_003" ID="1319f7a2-eef9-4d93-8563-3158d1d5b159">
+      <Attribute Name="identification">
+        <RefSemantic CorrespondingAttributePath="AAS:Identifiable/identification" />
+        <Attribute Name="idType">
+          <Value>IRDI</Value>
+          <RefSemantic CorrespondingAttributePath="AAS:Identifier/idType" />
+        </Attribute>
+        <Attribute Name="id">
+          <Value>0173-1#07-BAB657#003</Value>
+          <RefSemantic CorrespondingAttributePath="AAS:Identifier/id" />
+        </Attribute>
+      </Attribute>
+      <Attribute Name="idShort">
+        <Value>BAB657</Value>
+        <RefSemantic CorrespondingAttributePath="AAS:Referable/idShort" />
+      </Attribute>
+      <Attribute Name="category">
+        <Value>VALUE</Value>
+        <RefSemantic CorrespondingAttributePath="AAS:Referable/category" />
+      </Attribute>
+      <Attribute Name="hasDataSpecification">
+        <Value>(GlobalReference)(no-local)[IRI]http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360</Value>
+        <RefSemantic CorrespondingAttributePath="AAS:ConceptDescription/dataSpecification" />
+      </Attribute>
+      <InternalElement Name="EmbeddedDataSpecification" ID="f5a3ccfb-2f4b-4450-acc3-af5bac47af66" RefBaseSystemUnitPath="AutomationMLAssetAdministrationShellLibraries@AssetAdministrationShellDataSpecificationTemplates/DataSpecificationIEC61360Template/DataSpecificationIEC61360">
+        <Attribute Name="preferredName">
+          <Value>open circuit, external cooling</Value>
+          <RefSemantic CorrespondingAttributePath="IEC:DataSpecificationIEC61360/preferredName" />
+          <Attribute Name="aml-lang=EN">
+            <Value>open circuit, external cooling</Value>
+          </Attribute>
+          <Attribute Name="aml-lang=DE">
+            <Value>offener Kreis, Fremdkühlung </Value>
+          </Attribute>
+        </Attribute>
+        <Attribute Name="shortName">
+          <RefSemantic CorrespondingAttributePath="IEC:DataSpecificationIEC61360/shortName" />
+        </Attribute>
+        <Attribute Name="unit">
+          <RefSemantic CorrespondingAttributePath="IEC:DataSpecificationIEC61360/unit" />
+        </Attribute>
+        <Attribute Name="dataType">
+          <Value>STRING</Value>
+          <RefSemantic CorrespondingAttributePath="IEC:DataSpecificationIEC61360/dataType" />
+        </Attribute>
+        <RoleRequirements RefBaseRoleClassPath="AutomationMLAssetAdministrationShellLibraries@AssetAdministrationShellRoleClassLib/DataSpecificationContent" />
+      </InternalElement>
+      <RoleRequirements RefBaseRoleClassPath="AutomationMLAssetAdministrationShellLibraries@AssetAdministrationShellRoleClassLib/ConceptDescription" />
+    </InternalElement>
+  </InstanceHierarchy>
+</CAEXFile>
