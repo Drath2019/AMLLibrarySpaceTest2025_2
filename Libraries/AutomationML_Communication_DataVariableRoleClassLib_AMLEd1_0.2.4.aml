@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CAEXFile FileName="AutomationML_Communication_DataVariableRoleClassLib_AMLEd1_0.2.4.aml" SchemaVersion="2.15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="CAEX_ClassModel_V2.15.xsd">
+  <AdditionalInformation AutomationMLVersion="2.0" />
+  <AdditionalInformation>
+    <WriterHeader>
+      <WriterName>AutomationML</WriterName>
+      <WriterID>AutomationML BPR</WriterID>
+      <WriterVendor>AutomationML</WriterVendor>
+      <WriterVendorURL>www.AutomationML.org</WriterVendorURL>
+      <WriterVersion>0.2.4</WriterVersion>
+      <WriterRelease>1.0.0</WriterRelease>
+      <LastWritingDateTime>2024-02-29T14:00:00</LastWritingDateTime>
+      <WriterProjectTitle>Best Practice Recommendations: DataVariable</WriterProjectTitle>
+      <WriterProjectID>BPR DatVar</WriterProjectID>
+    </WriterHeader>
+  </AdditionalInformation>
+  <ExternalReference Path="https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/AutomationML_Communication_Libraries_AMLEd1_1.0.0.aml" Alias="AutomationMLCommunicationLibraries" />
+  <RoleClassLib Name="DataVariableRoleClassLib">
+    <Version>0.2.4</Version>
+    <RoleClass Name="DataSource" RefBaseClassPath="AutomationMLCommunicationLibraries@CommunicationRoleClassLib/LogicalDevice">
+      <Version>0.1</Version>
+      <RoleClass Name="OPCUA-Server" RefBaseClassPath="DataVariableRoleClassLib/DataSource">
+        <Version>0.1</Version>
+        <Attribute Name="DiscoveryURL" AttributeDataType="xs:anyURI">
+          <Description>If this attribute is given all others except of the namespace table are obsolet.</Description>
+        </Attribute>
+        <Attribute Name="EndpointURL" AttributeDataType="xs:anyURI" />
+        <Attribute Name="TransportProfileURI" AttributeDataType="xs:anyURI" />
+        <Attribute Name="SecurityPolicy" />
+        <Attribute Name="MessageSecurityMode" />
+        <Attribute Name="UserToken" />
+        <Attribute Name="NameSpaceTable">
+          <Attribute Name="0" AttributeDataType="xs:anyURI">
+            <Value>http://opcfoundation.org/UA/</Value>
+          </Attribute>
+        </Attribute>
+      </RoleClass>
+      <RoleClass Name="iTOT-Client" RefBaseClassPath="DataVariableRoleClassLib/DataSource">
+        <Version>0.1</Version>
+        <Attribute Name="Host" />
+        <Attribute Name="Port" AttributeDataType="xs:unsignedInt" />
+        <Attribute Name="ReconnectTimeout" AttributeDataType="xs:double" Unit="sec" />
+        <Attribute Name="KeepAlive" AttributeDataType="xs:boolean">
+          <DefaultValue>FALSE</DefaultValue>
+        </Attribute>
+        <Attribute Name="NoDelay" AttributeDataType="xs:boolean">
+          <DefaultValue>FALSE</DefaultValue>
+        </Attribute>
+        <Attribute Name="PLCType">
+          <Description>(S7-1200)</Description>
+        </Attribute>
+        <Attribute Name="Priority" AttributeDataType="xs:unsignedInt" />
+        <Attribute Name="QueueSize" AttributeDataType="xs:unsignedInt" />
+        <Attribute Name="WriteQueueSize" AttributeDataType="xs:unsignedInt" Unit="Bytes" />
+        <RoleClass Name="iTOT-DataBlock" RefBaseClassPath="DataVariableRoleClassLib/DataSource">
+          <Version>0.1</Version>
+          <Attribute Name="DBName" />
+          <Attribute Name="Type">
+            <Constraint Name="InputOrOutput">
+              <NominalScaledType>
+                <RequiredValue>Input</RequiredValue>
+                <RequiredValue>Output</RequiredValue>
+              </NominalScaledType>
+            </Constraint>
+          </Attribute>
+          <Attribute Name="RegisterNumber" AttributeDataType="xs:unsignedInt">
+            <Description>Optional</Description>
+          </Attribute>
+          <Attribute Name="LocalEventList">
+            <Description>optional</Description>
+          </Attribute>
+          <Attribute Name="DBBaustein" AttributeDataType="xs:unsignedInt">
+            <Description>Optional</Description>
+          </Attribute>
+          <Attribute Name="RefDataSource" />
+        </RoleClass>
+      </RoleClass>
+      <RoleClass Name="CanBus" RefBaseClassPath="DataVariableRoleClassLib/DataSource">
+        <Version>0.1</Version>
+        <Attribute Name="DeviceName" />
+        <Attribute Name="Baudrate" />
+      </RoleClass>
+      <RoleClass Name="ProfinetHost" RefBaseClassPath="DataVariableRoleClassLib/DataSource">
+        <Version>0.1</Version>
+      </RoleClass>
+      <RoleClass Name="ModbusTCPHost" RefBaseClassPath="DataVariableRoleClassLib/DataSource">
+        <Version>0.1</Version>
+      </RoleClass>
+      <RoleClass Name="IOLink" RefBaseClassPath="DataVariableRoleClassLib/DataSource">
+        <Version>0.1</Version>
+      </RoleClass>
+      <RoleClass Name="EthernetIP" RefBaseClassPath="DataVariableRoleClassLib/DataSource">
+        <Version>0.1</Version>
+      </RoleClass>
+      <RoleClass Name="MTConnect" RefBaseClassPath="DataVariableRoleClassLib/DataSource">
+        <Version>0.1</Version>
+      </RoleClass>
+      <RoleClass Name="CCLink" RefBaseClassPath="DataVariableRoleClassLib/DataSource">
+        <Version>0.1</Version>
+      </RoleClass>
+    </RoleClass>
+  </RoleClassLib>
+</CAEXFile>
