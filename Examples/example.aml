@@ -1,0 +1,1106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CAEXFile FileName="example.aml" SchemaVersion="2.15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="CAEX_ClassModel_V2.15.xsd">
+  <AdditionalInformation AutomationMLVersion="2.0" />
+  <AdditionalInformation>
+    <WriterHeader>
+      <WriterName>AutomationML Editor</WriterName>
+      <WriterID>916578CA-FE0D-474E-A4FC-9E1719892369</WriterID>
+      <WriterVendor>AutomationML e.V.</WriterVendor>
+      <WriterVendorURL>www.AutomationML.org</WriterVendorURL>
+      <WriterVersion>6.2.0.0</WriterVersion>
+      <WriterRelease>6.2.0.0</WriterRelease>
+      <LastWritingDateTime>2024-01-18T16:24:22.4207758</LastWritingDateTime>
+      <WriterProjectTitle>AR_Drive Configurations_v1_0_0.pdf</WriterProjectTitle>
+      <WriterProjectID>AR DRIVE MCAD, V1.0.0</WriterProjectID>
+    </WriterHeader>
+  </AdditionalInformation>
+  <ExternalReference Path="https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/AutomationML_Base_Libraries_GeometryExtension_AMLEd1_2.2.1.aml" Alias="AutomationMLBaseLibraries" />
+  <ExternalReference Path="https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/AutomationML_DriveConfigurations_Libraries_AMLEd1_1.0.0.aml" Alias="DriveConfiguration" />
+  <InstanceHierarchy Name="SingleAxisBaseModel">
+    <Version>1.0.0</Version>
+    <InternalElement Name="Axis" ID="637a1343-3858-4586-b75b-e58f61ee8d56">
+      <ExternalInterface Name="MotorSideAssignment" ID="081fe484-c3a1-40a7-b2e8-24f3ce5dba3b" RefBaseClassPath="DriveConfiguration@DriveConfigurationInterfaceClassLib/PowerTrainTopologyAssignment/MotorSideAssignment">
+        <Description>The reference to the transmission that is used between the load mechanism and the motor which is directly connected to the load mechanism.  At maximum one transmission can be assigned to directly to a load mechanism. It is not required to reference to a transmission.</Description>
+      </ExternalInterface>
+      <ExternalInterface Name="BaseLoadAssignment" ID="486e2418-41b5-4aca-baa3-ed8f0a5a8a53" RefBaseClassPath="DriveConfiguration@DriveConfigurationInterfaceClassLib/BaseLoadAssignment">
+        <Description>The reference to the load that describes the objects conveyed by the load mechanims. At maximum one load can be assigned to a load mechanism. It is not required to reference to a load.</Description>
+      </ExternalInterface>
+      <ExternalInterface Name="MotionPatternAssignment" ID="6daedb27-25e3-418d-9aa0-533046989094" RefBaseClassPath="DriveConfiguration@DriveConfigurationInterfaceClassLib/MotionPatternAssignment">
+        <Description>The reference to the motion pattern that is executd. At maximum one motion pattern can be assigned to a load mechanism. It is not required to reference to a motion pattern.</Description>
+      </ExternalInterface>
+      <InternalLink Name="InternalLink" RefPartnerSideA="637a1343-3858-4586-b75b-e58f61ee8d56:BaseLoadAssignment" RefPartnerSideB="31d713fc-fa56-40c8-8835-83d03a847adf:LoadMechanismAssignment" />
+      <InternalLink Name="InternalLink1" RefPartnerSideA="637a1343-3858-4586-b75b-e58f61ee8d56:MotionPatternAssignment" RefPartnerSideB="6805500f-1670-4326-bdba-a86abe57fa3a:LoadMechanismAssignment" />
+      <RoleRequirements RefBaseRoleClassPath="DriveConfiguration@DriveConfigurationRoleClassLib/AbstractLoadMechanism/BallScrew">
+        <Attribute Name="InertiaMomentOfMotorEnd" AttributeDataType="xs:double" Unit="kg*cm²">
+          <Description>Additional inertia moment of machine elements at the motor output axis conversion that are not included in the configuration yet.</Description>
+        </Attribute>
+        <Attribute Name="OverallMachineEfficiency" AttributeDataType="xs:double">
+          <Description>The total efficiency of the machine.</Description>
+        </Attribute>
+        <Attribute Name="FrictionalTorque" AttributeDataType="xs:double" Unit="NU">
+          <Description>The friction torque acting to the machine with load side axis (transfer mechanism latter part) conversion.</Description>
+        </Attribute>
+        <Attribute Name="Lead" AttributeDataType="xs:double" Unit="MTR">
+          <Description>The amount of linear movement of the table when turning the screw once. </Description>
+        </Attribute>
+        <Attribute Name="CoefficientOfFriction" AttributeDataType="xs:double">
+          <Description>The friction value that is mostly applied to the movement of the table. 0 should be entered if the value is not relevant.</Description>
+        </Attribute>
+        <ExternalInterface Name="MotionPatternAssignment" ID="77d80a9e-a1e4-45e7-802c-c95d01d323f2" RefBaseClassPath="DriveConfiguration@DriveConfigurationInterfaceClassLib/MotionPatternAssignment">
+          <Description>The reference to the motion pattern that is executd. At maximum one motion pattern can be assigned to a load mechanism. It is not required to reference to a motion pattern.</Description>
+        </ExternalInterface>
+        <ExternalInterface Name="ApplicableLoadAssignment" ID="5c634fd9-6894-4967-b9aa-f13c1dd6fa4e" RefBaseClassPath="DriveConfiguration@DriveConfigurationInterfaceClassLib/AdditionalLoadAssignment">
+          <Description>The reference to an applicable load and a motion pattern section where that load applies to. A load mechanism can reference to several sets of applicable load an motion pattern section. Each reference shall have its own interface. </Description>
+        </ExternalInterface>
+        <ExternalInterface Name="TransmissionAssignment" ID="8a178185-19f3-4462-87b6-0338fd0ac503" RefBaseClassPath="DriveConfiguration@DriveConfigurationInterfaceClassLib/PowerTrainTopologyAssignment">
+          <Description>The reference to the transmission that is used between the load mechanism and the motor which is directly connected to the load mechanism.  At maximum one transmission can be assigned to directly to a load mechanism. It is not required to reference to a transmission.</Description>
+        </ExternalInterface>
+      </RoleRequirements>
+    </InternalElement>
+    <InternalElement Name="GearBox" ID="3fe0e04a-2550-41cd-9135-8dd1b66152ea">
+      <ExternalInterface Name="LoadSideTransmissionAssignment" ID="ce408476-debd-459c-98f1-a0b155118c4a" RefBaseClassPath="DriveConfiguration@DriveConfigurationInterfaceClassLib/PowerTrainTopologyAssignment/LoadSideAssignment">
+        <Description>The reference to the next transmission in the chain in the direction towards the load mechanism and the load. It shall be linked to an MotorSideTransmissionAssignment interface of another transmission or to a TransmissionAssignment interface of an load mechanism in case this transmission is the last one before the load. This interface is mandatory. There can be only one interface of this type.</Description>
+      </ExternalInterface>
+      <ExternalInterface Name="MotorSideTransmissionAssignment" ID="bb00f6b3-f6a1-4e1f-b632-eff01bdb9df9" RefBaseClassPath="DriveConfiguration@DriveConfigurationInterfaceClassLib/PowerTrainTopologyAssignment/MotorSideAssignment">
+        <Description>The reference to the next transmission in the chain in the direction towards the motor. It shall be linked to an LoadSideTransmissionAssignment interface of another transmission. This interface is not required if there is no other transmission between this one and the motor. There can be at maximum one interface of this type. </Description>
+      </ExternalInterface>
+      <InternalLink Name="Link" RefPartnerSideA="3fe0e04a-2550-41cd-9135-8dd1b66152ea:LoadSideTransmissionAssignment" RefPartnerSideB="637a1343-3858-4586-b75b-e58f61ee8d56:MotorSideAssignment" />
+      <InternalLink Name="InternalLink" RefPartnerSideA="3fe0e04a-2550-41cd-9135-8dd1b66152ea:MotorSideTransmissionAssignment" RefPartnerSideB="b27c66df-4489-4ef1-8ea7-1aadac47d6b7:LoadSideTransmissionAssignment" />
+      <RoleRequirements RefBaseRoleClassPath="DriveConfiguration@DriveConfigurationRoleClassLib/AbstractTransmission/GearBox">
+        <Attribute Name="ReductionRationLoadSide" AttributeDataType="xs:int" />
+        <Attribute Name="InertiaMomentLoadSide" AttributeDataType="xs:double" Unit="B32" />
+        <Attribute Name="LossTorque" AttributeDataType="xs:double" Unit="NU" />
+        <ExternalInterface Name="MotorSideTransmissionAssignment" ID="8bdcc856-35e3-4eb2-bd5a-30cc8a36ae52" RefBaseClassPath="DriveConfiguration@DriveConfigurationInterfaceClassLib/PowerTrainTopologyAssignment/MotorSideAssignment">
+          <Description>The reference to the next transmission in the chain in the direction towards the motor. It shall be linked to an LoadSideTransmissionAssignment interface of another transmission. This interface is not required if there is no other transmission between this one and the motor. There can be at maximum one interface of this type. </Description>
+        </ExternalInterface>
+      </RoleRequirements>
+    </InternalElement>
+    <InternalElement Name="Motor" ID="b27c66df-4489-4ef1-8ea7-1aadac47d6b7">
+      <ExternalInterface Name="LoadSideTransmissionAssignment" ID="5a47789f-d748-4566-a9f2-4772acaa1b49" RefBaseClassPath="DriveConfiguration@DriveConfigurationInterfaceClassLib/PowerTrainTopologyAssignment/LoadSideAssignment">
+        <Description>The reference to the next transmission in the chain in the direction towards the load mechanism and the load. It shall be linked to an MotorSideTransmissionAssignment interface of another transmission or to a TransmissionAssignment interface of an load mechanism in case this transmission is the last one before the load. This interface is mandatory. There can be only one interface of this type.</Description>
+      </ExternalInterface>
+      <SupportedRoleClass RefRoleClassPath="DriveConfiguration@DriveConfigurationRoleClassLib/AbstractMotor/RotaryMotor" />
+    </InternalElement>
+    <InternalElement Name="BaseLoad" ID="31d713fc-fa56-40c8-8835-83d03a847adf">
+      <ExternalInterface Name="LoadMechanismAssignment" ID="6805d8c3-286d-4707-ab17-e8b9ef00618f" RefBaseClassPath="DriveConfiguration@DriveConfigurationInterfaceClassLib/LoadMechanismAssignment">
+        <Description>The reference to the load mechanism that conveys this load. A load can be assigned to several load mechanism. Each assignment requires its own interface.</Description>
+      </ExternalInterface>
+      <SupportedRoleClass RefRoleClassPath="DriveConfiguration@DriveConfigurationRoleClassLib/BaseLoad" />
+      <RoleRequirements RefBaseRoleClassPath="DriveConfiguration@DriveConfigurationRoleClassLib/Load/Solid">
+        <Attribute Name="Mass" AttributeDataType="xs:double" Unit="KGM">
+          <Description>The mass of the load in kg.</Description>
+        </Attribute>
+        <Attribute Name="Thrustload" AttributeDataType="xs:double" Unit="NEW">
+          <Description>ToDo</Description>
+        </Attribute>
+        <Attribute Name="CounterWeight" AttributeDataType="xs:double" Unit="KGM">
+          <Description>The mass of an additonal counter weight in kg.</Description>
+        </Attribute>
+        <Attribute Name="Torque" AttributeDataType="xs:double" Unit="NU">
+          <Description>The torque of the load in Nm.</Description>
+        </Attribute>
+        <Attribute Name="DistanceToCenterOfRotation" AttributeDataType="xs:double" Unit="MTR">
+          <Description>The distance of the load to the center of the rotation. Only to be used with rotary movements.</Description>
+        </Attribute>
+        <Attribute Name="Inertia" AttributeDataType="xs:double" Unit="B32">
+          <Description>The inertia of the load</Description>
+        </Attribute>
+      </RoleRequirements>
+    </InternalElement>
+    <InternalElement Name="MotionPattern" ID="6805500f-1670-4326-bdba-a86abe57fa3a">
+      <ExternalInterface Name="LoadMechanismAssignment" ID="52e894bd-de9e-49c1-8216-f18ce10d5fbe" RefBaseClassPath="DriveConfiguration@DriveConfigurationInterfaceClassLib/LoadMechanismAssignment">
+        <Description>The reference to the load mechanism that moves according to this motion pattern. This interface shall be linked to an interface of the class "MotionPatternAssignment". A Motion Pattern can be executed by several load mechanisms. Each reference to a load mechanism requires its own interface.</Description>
+      </ExternalInterface>
+      <InternalElement Name="Section_1" ID="32289bd2-acdb-49ec-9948-d67157127972">
+        <Attribute Name="Index" AttributeDataType="xs:int">
+          <Description>Index of the section within the pattern. Starts counting from 0</Description>
+        </Attribute>
+        <RoleRequirements RefBaseRoleClassPath="DriveConfiguration@DriveConfigurationRoleClassLib/MotionPatternSection" />
+      </InternalElement>
+      <InternalElement Name="Section_2" ID="3336fe1e-2c75-41e7-a53a-be02d41eb0d9">
+        <Attribute Name="Index" AttributeDataType="xs:int">
+          <Description>Index of the section within the pattern. Starts counting from 0</Description>
+        </Attribute>
+        <ExternalInterface Name="AdditionalLoad" ID="d43aa2c4-9be1-4fda-a6a3-135a1fd4a4d9" RefBaseClassPath="DriveConfiguration@DriveConfigurationInterfaceClassLib/AdditionalLoadAssignment">
+          <Description>The reference to the load mechanism and the applicable load to be used for this section of the pattern. This interface shall be linked to a load mechanism as well as a applicable load. On the other side of the link interface of the same class. An applicable load can be used multiple times. Each usage shall have its own interface.</Description>
+        </ExternalInterface>
+        <InternalLink Name="InternalLink" RefPartnerSideA="3336fe1e-2c75-41e7-a53a-be02d41eb0d9:AdditionalLoad" RefPartnerSideB="04264293-c98a-4011-83e2-8df5ba49bcfe:MotionSectionAssignment" />
+        <RoleRequirements RefBaseRoleClassPath="DriveConfiguration@DriveConfigurationRoleClassLib/MotionPatternSection" />
+      </InternalElement>
+      <RoleRequirements RefBaseRoleClassPath="DriveConfiguration@DriveConfigurationRoleClassLib/MotionPattern">
+        <ExternalInterface Name="SizingResultAssignment" ID="ea4515d8-6a8c-4fa7-88a1-2c7c1b72e014">
+          <Description>The reference to the result of the capacity calculation. This interface shall be linked to an MotionPatternAssignment interface of an SizingResult object. A motion pattern can be linked to several result. For each link a separate interface shall be used. It's not required to have any interface.</Description>
+        </ExternalInterface>
+      </RoleRequirements>
+    </InternalElement>
+    <InternalElement Name="AdditionalLoad" ID="04264293-c98a-4011-83e2-8df5ba49bcfe">
+      <ExternalInterface Name="MotionSectionAssignment" ID="4c0d5033-4ebe-438b-aac9-93ba0834c01e" RefBaseClassPath="DriveConfiguration@DriveConfigurationInterfaceClassLib/MotionSectionAssignment">
+        <Description>Reference to the motion pattern section that this load applied to.</Description>
+      </ExternalInterface>
+      <SupportedRoleClass RefRoleClassPath="DriveConfiguration@DriveConfigurationRoleClassLib/AdditionalLoad" />
+      <RoleRequirements RefBaseRoleClassPath="DriveConfiguration@DriveConfigurationRoleClassLib/Load/Solid">
+        <Attribute Name="Thrustload" AttributeDataType="xs:double" Unit="NEW">
+          <Description>ToDo</Description>
+        </Attribute>
+        <Attribute Name="Torque" AttributeDataType="xs:double" Unit="NU">
+          <Description>The torque of the load in Nm.</Description>
+        </Attribute>
+        <Attribute Name="Inertia" AttributeDataType="xs:double" Unit="B32">
+          <Description>The inertia of the load</Description>
+        </Attribute>
+      </RoleRequirements>
+    </InternalElement>
+  </InstanceHierarchy>
+  <InstanceHierarchy Name="DetailedMotionPattern">
+    <Version>1.0.0</Version>
+    <InternalElement Name="Axis1" ID="0ee536f0-6ad5-4596-b602-d4a02d22ea97">
+      <ExternalInterface Name="MotionPatternAssignment" ID="2e9843b6-d69f-44d4-ae80-044fe6ad3dd3" RefBaseClassPath="DriveConfiguration@DriveConfigurationInterfaceClassLib/MotionPatternAssignment">
+        <Description>The reference to the motion pattern that is executd. At maximum one motion pattern can be assigned to a load mechanism. It is not required to reference to a motion pattern.</Description>
+      </ExternalInterface>
+      <SupportedRoleClass RefRoleClassPath="DriveConfiguration@DriveConfigurationRoleClassLib/AbstractLoadMechanism/BallScrew" />
+      <InternalLink Name="InternalLink" RefPartnerSideA="0ee536f0-6ad5-4596-b602-d4a02d22ea97:MotionPatternAssignment" RefPartnerSideB="0d2357e0-ccdf-4d07-8c47-55faf7dee45c:Axis1" />
+    </InternalElement>
+    <InternalElement Name="Axis2" ID="52166cd7-facc-4c4c-b369-e0b6d0b444ce">
+      <ExternalInterface Name="MotionPatternAssignment" ID="d0778a84-c621-4f66-aa32-226378a55efd" RefBaseClassPath="DriveConfiguration@DriveConfigurationInterfaceClassLib/MotionPatternAssignment">
+        <Description>The reference to the motion pattern that is executd. At maximum one motion pattern can be assigned to a load mechanism. It is not required to reference to a motion pattern.</Description>
+      </ExternalInterface>
+      <SupportedRoleClass RefRoleClassPath="DriveConfiguration@DriveConfigurationRoleClassLib/AbstractLoadMechanism/BallScrew" />
+    </InternalElement>
+    <InternalElement Name="MotionPattern" ID="0d2357e0-ccdf-4d07-8c47-55faf7dee45c">
+      <ExternalInterface Name="Axis1" ID="71e5faf0-24b4-4716-9144-7f322bc7bd69" RefBaseClassPath="DriveConfiguration@DriveConfigurationInterfaceClassLib/LoadMechanismAssignment">
+        <Description>The reference to the load mechanism that moves according to this motion pattern. This interface shall be linked to an interface of the class "MotionPatternAssignment". A Motion Pattern can be executed by several load mechanisms. Each reference to a load mechanism requires its own interface.</Description>
+      </ExternalInterface>
+      <InternalElement Name="Sec1" ID="2ba70d1c-6f4b-41f6-a5ee-834d7785e33c">
+        <Attribute Name="Quantity" AttributeDataType="xs:string">
+          <Description>The type of data that is provided. ToDo A list of possible values needs to be defined or declared as "free" text. This type shall only be used when no additional attributes are required. If a type requires additional attributes a derived class shall be defined.</Description>
+        </Attribute>
+        <Attribute Name="UnitOfData" AttributeDataType="xs:string">
+          <Description>The unit of the data in the designated column. </Description>
+        </Attribute>
+        <Attribute Name="UnitOfTime" AttributeDataType="xs:string">
+          <Description>The unit of the time.</Description>
+        </Attribute>
+        <Attribute Name="IsConstantInterval" AttributeDataType="xs:boolean">
+          <Description>Describes whether the time is provided in constant inverval steps or with individuals values.</Description>
+          <DefaultValue>false</DefaultValue>
+          <Value>false</Value>
+        </Attribute>
+        <Attribute Name="TimeConstantInterval" AttributeDataType="xs:double">
+          <Description>The constant time interval for the data. This value is only relevant f the IsConstantInterval is true. The unit set for this attribute shall be same the the value of the UnitOfTime data.</Description>
+        </Attribute>
+        <Attribute Name="Index" AttributeDataType="xs:int">
+          <Description>Index of the section within the pattern. Starts counting from 0</Description>
+          <Value>0</Value>
+        </Attribute>
+        <Attribute Name="DataColIndex" AttributeDataType="xs:string">
+          <Value>2</Value>
+        </Attribute>
+        <Attribute Name="TimeColIndex" AttributeDataType="xs:string">
+          <Value>1</Value>
+        </Attribute>
+        <Attribute Name="StartingRowIndex" AttributeDataType="xs:string">
+          <Value>3</Value>
+        </Attribute>
+        <ExternalInterface Name="CSVReference" ID="c1cb91e3-82cb-47b3-ace2-da35ff4b939e" RefBaseClassPath="DriveConfiguration@DriveConfigurationInterfaceClassLib/CSVReference">
+          <Description>The reference to a external file that contains the data of the time series in csv format.</Description>
+          <Attribute Name="refURI" AttributeDataType="xs:anyURI" />
+          <Attribute Name="MIMEType" AttributeDataType="xs:string" />
+        </ExternalInterface>
+        <SupportedRoleClass RefRoleClassPath="DriveConfiguration@DriveConfigurationRoleClassLib/TimeSeriesData/ColumnBasedStoredTimeSeriesData" />
+        <SupportedRoleClass RefRoleClassPath="DriveConfiguration@DriveConfigurationRoleClassLib/MotionPatternSection" />
+      </InternalElement>
+      <InternalElement Name="Sec2" ID="3a73aa84-9b80-4a91-bf28-4fdc28a9ff43">
+        <Attribute Name="Quantity" AttributeDataType="xs:string">
+          <Description>The type of data that is provided. ToDo A list of possible values needs to be defined or declared as "free" text. This type shall only be used when no additional attributes are required. If a type requires additional attributes a derived class shall be defined.</Description>
+          <Value>1</Value>
+        </Attribute>
+        <Attribute Name="UnitOfData" AttributeDataType="xs:string">
+          <Description>The unit of the data in the designated column. </Description>
+        </Attribute>
+        <Attribute Name="UnitOfTime" AttributeDataType="xs:string">
+          <Description>The unit of the time.</Description>
+        </Attribute>
+        <Attribute Name="IsConstantInterval" AttributeDataType="xs:boolean">
+          <Description>Describes whether the time is provided in constant inverval steps or with individuals values.</Description>
+          <DefaultValue>false</DefaultValue>
+          <Value>false</Value>
+        </Attribute>
+        <Attribute Name="TimeConstantInterval" AttributeDataType="xs:double">
+          <Description>The constant time interval for the data. This value is only relevant f the IsConstantInterval is true. The unit set for this attribute shall be same the the value of the UnitOfTime data.</Description>
+        </Attribute>
+        <Attribute Name="Index" AttributeDataType="xs:int">
+          <Description>Index of the section within the pattern. Starts counting from 0</Description>
+        </Attribute>
+        <Attribute Name="DataColIndex" AttributeDataType="xs:string">
+          <Value>3</Value>
+        </Attribute>
+        <Attribute Name="TimeColIndex" AttributeDataType="xs:string">
+          <Value>1</Value>
+        </Attribute>
+        <Attribute Name="StartingRowIndex" AttributeDataType="xs:string">
+          <Value>3</Value>
+        </Attribute>
+        <ExternalInterface Name="CSVReference" ID="e9dee6d2-db43-4ef4-a0db-7bdd71c1e6da" RefBaseClassPath="DriveConfiguration@DriveConfigurationInterfaceClassLib/CSVReference">
+          <Description>The reference to a external file that contains the data of the time series in csv format.</Description>
+          <Attribute Name="refURI" AttributeDataType="xs:anyURI" />
+          <Attribute Name="MIMEType" AttributeDataType="xs:string" />
+        </ExternalInterface>
+        <ExternalInterface Name="AdditionalLoadAssignment" ID="cfa6a340-92c1-43d4-8450-bef158ee5792" RefBaseClassPath="DriveConfiguration@DriveConfigurationInterfaceClassLib/AdditionalLoadAssignment">
+          <Description>The reference to the load mechanism and the applicable load to be used for this section of the pattern. This interface shall be linked to a load mechanism as well as a applicable load. On the other side of the link interface of the same class. An applicable load can be used multiple times. Each usage shall have its own interface.</Description>
+        </ExternalInterface>
+        <SupportedRoleClass RefRoleClassPath="DriveConfiguration@DriveConfigurationRoleClassLib/TimeSeriesData/ColumnBasedStoredTimeSeriesData" />
+        <SupportedRoleClass RefRoleClassPath="DriveConfiguration@DriveConfigurationRoleClassLib/MotionPatternSection" />
+        <InternalLink Name="InternalLink" RefPartnerSideA="3a73aa84-9b80-4a91-bf28-4fdc28a9ff43:AdditionalLoadAssignment" RefPartnerSideB="f890521d-b684-4b14-8a61-87d40676c1f0:MotionSectionAssignment" />
+      </InternalElement>
+      <RoleRequirements RefBaseRoleClassPath="DriveConfiguration@DriveConfigurationRoleClassLib/MotionPattern">
+        <ExternalInterface Name="LoadMechanismAssignment" ID="736d69af-4c1c-43da-b1cc-ac7eb97a9ab6" RefBaseClassPath="DriveConfiguration@DriveConfigurationInterfaceClassLib/LoadMechanismAssignment">
+          <Description>The reference to the load mechanism that moves according to this motion pattern. This interface shall be linked to an interface of the class "MotionPatternAssignment". A Motion Pattern can be executed by several load mechanisms. Each reference to a load mechanism requires its own interface.</Description>
+        </ExternalInterface>
+        <ExternalInterface Name="SizingResultAssignment" ID="b4cef04f-a0b8-466c-a617-404d32ebde48">
+          <Description>The reference to the result of the capacity calculation. This interface shall be linked to an MotionPatternAssignment interface of an SizingResult object. A motion pattern can be linked to several result. For each link a separate interface shall be used. It's not required to have any interface.</Description>
+        </ExternalInterface>
+      </RoleRequirements>
+    </InternalElement>
+    <InternalElement Name="Load1" ID="f890521d-b684-4b14-8a61-87d40676c1f0">
+      <Attribute Name="Mass" AttributeDataType="xs:double" Unit="KGM">
+        <Description>The mass of the load in kg.</Description>
+      </Attribute>
+      <ExternalInterface Name="MotionSectionAssignment" ID="e89835d8-8e0b-4bc0-ab93-ff00a34d9767" RefBaseClassPath="DriveConfiguration@DriveConfigurationInterfaceClassLib/MotionSectionAssignment">
+        <Description>Reference to the motion pattern section that this load applied to.</Description>
+      </ExternalInterface>
+      <SupportedRoleClass RefRoleClassPath="DriveConfiguration@DriveConfigurationRoleClassLib/Load/Solid" />
+      <SupportedRoleClass RefRoleClassPath="DriveConfiguration@DriveConfigurationRoleClassLib/AdditionalLoad" />
+    </InternalElement>
+    <InternalElement Name="Load2" ID="901d3e7b-8b28-46e0-9017-c0a17d573ace">
+      <Attribute Name="Mass" AttributeDataType="xs:double" Unit="KGM">
+        <Description>The mass of the load in kg.</Description>
+      </Attribute>
+      <ExternalInterface Name="MotionSectionAssignment" ID="112cac99-4e97-4555-b793-cdc4e157f93f" RefBaseClassPath="DriveConfiguration@DriveConfigurationInterfaceClassLib/MotionSectionAssignment">
+        <Description>Reference to the motion pattern section that this load applied to.</Description>
+      </ExternalInterface>
+      <ExternalInterface Name="MotionSectionAssignment1" ID="00b3aaef-d781-4d83-acc2-b3ba39deee29" RefBaseClassPath="DriveConfiguration@DriveConfigurationInterfaceClassLib/MotionSectionAssignment">
+        <Description>Reference to the motion pattern section that this load applied to.</Description>
+      </ExternalInterface>
+      <SupportedRoleClass RefRoleClassPath="DriveConfiguration@DriveConfigurationRoleClassLib/Load/Solid" />
+      <SupportedRoleClass RefRoleClassPath="DriveConfiguration@DriveConfigurationRoleClassLib/AdditionalLoad" />
+      <InternalLink Name="InternalLink" RefPartnerSideA="901d3e7b-8b28-46e0-9017-c0a17d573ace:MotionSectionAssignment" RefPartnerSideB="3a73aa84-9b80-4a91-bf28-4fdc28a9ff43:AdditionalLoadAssignment" />
+      <InternalLink Name="InternalLink1" RefPartnerSideA="901d3e7b-8b28-46e0-9017-c0a17d573ace:MotionSectionAssignment1" RefPartnerSideB="07d7e9c2-ce50-46e7-be26-f16236481ce3:AdditionalLoadAssignment" />
+    </InternalElement>
+    <InternalElement Name="MotionPattern2" ID="93ff77f4-5818-4e65-862f-0f3ef05ca613">
+      <ExternalInterface Name="LoadMechanismAssignment" ID="fe01c5d0-083a-459f-85f6-eefe2fc2da1b" RefBaseClassPath="DriveConfiguration@DriveConfigurationInterfaceClassLib/LoadMechanismAssignment">
+        <Description>The reference to the load mechanism that moves according to this motion pattern. This interface shall be linked to an interface of the class "MotionPatternAssignment". A Motion Pattern can be executed by several load mechanisms. Each reference to a load mechanism requires its own interface.</Description>
+      </ExternalInterface>
+      <InternalElement Name="Sec1" ID="07d7e9c2-ce50-46e7-be26-f16236481ce3">
+        <ExternalInterface Name="AdditionalLoadAssignment" ID="561a9658-c4bd-4500-9e69-dcb789346b72" RefBaseClassPath="DriveConfiguration@DriveConfigurationInterfaceClassLib/AdditionalLoadAssignment">
+          <Description>The reference to the load mechanism and the applicable load to be used for this section of the pattern. This interface shall be linked to a load mechanism as well as a applicable load. On the other side of the link interface of the same class. An applicable load can be used multiple times. Each usage shall have its own interface.</Description>
+        </ExternalInterface>
+        <SupportedRoleClass RefRoleClassPath="DriveConfiguration@DriveConfigurationRoleClassLib/MotionPatternSection" />
+      </InternalElement>
+      <InternalLink Name="InternalLink" RefPartnerSideA="93ff77f4-5818-4e65-862f-0f3ef05ca613:LoadMechanismAssignment" RefPartnerSideB="52166cd7-facc-4c4c-b369-e0b6d0b444ce:MotionPatternAssignment" />
+      <RoleRequirements RefBaseRoleClassPath="DriveConfiguration@DriveConfigurationRoleClassLib/MotionPattern" />
+    </InternalElement>
+  </InstanceHierarchy>
+  <InstanceHierarchy Name="LoadSample">
+    <Version>1.0.0</Version>
+    <InternalElement Name="Products" ID="65b3a2f6-1905-4d7f-a930-3ca976b46d1a">
+      <InternalElement Name="LargeBottle" ID="855e8b28-1781-4734-8163-77ddf0c2e10f">
+        <ExternalInterface Name="MotionSectionAssignment" ID="0dd745de-4d23-437b-a943-7d4b1ce244cc" RefBaseClassPath="DriveConfiguration@DriveConfigurationInterfaceClassLib/MotionSectionAssignment">
+          <Description>Reference to the motion pattern section that this load applied to.</Description>
+        </ExternalInterface>
+        <SupportedRoleClass RefRoleClassPath="AutomationMLBaseLibraries@AutomationMLBaseRoleClassLib/AutomationMLBaseRole/Product" />
+        <SupportedRoleClass RefRoleClassPath="DriveConfiguration@DriveConfigurationRoleClassLib/Load/Solid" />
+        <SupportedRoleClass RefRoleClassPath="DriveConfiguration@DriveConfigurationRoleClassLib/AdditionalLoad" />
+      </InternalElement>
+      <InternalElement Name="SmallBottle" ID="d6e2e95e-5f68-4254-abaf-e7cb438dc411">
+        <ExternalInterface Name="MotionSectionAssignment" ID="c447519a-5d29-4451-bd0c-190f46e0af81" RefBaseClassPath="DriveConfiguration@DriveConfigurationInterfaceClassLib/MotionSectionAssignment">
+          <Description>Reference to the motion pattern section that this load applied to.</Description>
+        </ExternalInterface>
+        <SupportedRoleClass RefRoleClassPath="AutomationMLBaseLibraries@AutomationMLBaseRoleClassLib/AutomationMLBaseRole/Product" />
+        <SupportedRoleClass RefRoleClassPath="DriveConfiguration@DriveConfigurationRoleClassLib/Load/Solid" />
+        <SupportedRoleClass RefRoleClassPath="DriveConfiguration@DriveConfigurationRoleClassLib/AdditionalLoad" />
+      </InternalElement>
+      <SupportedRoleClass RefRoleClassPath="AutomationMLBaseLibraries@AutomationMLBaseRoleClassLib/AutomationMLBaseRole/Structure/ProductStructure" />
+    </InternalElement>
+    <InternalElement Name="Resources" ID="226480e5-c2ea-4587-8cc1-5af26b8e4f9b">
+      <InternalElement Name="Gripper" ID="413a1acc-86af-49c9-88aa-30872eb0af86">
+        <ExternalInterface Name="LoadMechanismAssignment" ID="d9d8c235-d719-48da-a2b4-655719eb36e8" RefBaseClassPath="DriveConfiguration@DriveConfigurationInterfaceClassLib/LoadMechanismAssignment">
+          <Description>The reference to the load mechanism that conveys this load. A load can be assigned to several load mechanism. Each assignment requires its own interface.</Description>
+        </ExternalInterface>
+        <SupportedRoleClass RefRoleClassPath="AutomationMLBaseLibraries@AutomationMLBaseRoleClassLib/AutomationMLBaseRole/Resource" />
+        <SupportedRoleClass RefRoleClassPath="DriveConfiguration@DriveConfigurationRoleClassLib/Load/Solid" />
+        <SupportedRoleClass RefRoleClassPath="DriveConfiguration@DriveConfigurationRoleClassLib/BaseLoad" />
+      </InternalElement>
+      <SupportedRoleClass RefRoleClassPath="AutomationMLBaseLibraries@AutomationMLBaseRoleClassLib/AutomationMLBaseRole/Structure/ResourceStructure" />
+    </InternalElement>
+  </InstanceHierarchy>
+  <InstanceHierarchy Name="MultiAxisBaseModel(XY-Handling)">
+    <Version>1.0.0</Version>
+    <InternalElement Name="AxisXContainer" ID="b6c885aa-9caa-4f85-bfc2-39e9c345ae10">
+      <InternalElement Name="AxisX" ID="0f4ccf95-fae0-4b13-ab32-fb2c155ba6f3">
+        <ExternalInterface Name="Moves" ID="ebaa5977-34fb-41a5-884a-b0ddc7bd592b" />
+        <ExternalInterface Name="BaseLoadAssignment" ID="e0f39dbd-9db6-4c46-8749-e7fd090e265b" RefBaseClassPath="DriveConfiguration@DriveConfigurationInterfaceClassLib/BaseLoadAssignment" />
+        <RoleRequirements RefBaseRoleClassPath="DriveConfiguration@DriveConfigurationRoleClassLib/AbstractLoadMechanism/BallScrew">
+          <Attribute Name="InertiaMomentOfMotorEnd" AttributeDataType="xs:double" Unit="kg*cm²">
+            <Description>Additional inertia moment of machine elements at the motor output axis conversion that are not included in the configuration yet.</Description>
+          </Attribute>
+          <Attribute Name="OverallMachineEfficiency" AttributeDataType="xs:double">
+            <Description>The total efficiency of the machine.</Description>
+          </Attribute>
+          <Attribute Name="FrictionalTorque" AttributeDataType="xs:double" Unit="NU">
+            <Description>The friction torque acting to the machine with load side axis (transfer mechanism latter part) conversion.</Description>
+          </Attribute>
+          <Attribute Name="Lead" AttributeDataType="xs:double" Unit="MTR">
+            <Description>The amount of linear movement of the table when turning the screw once. </Description>
+          </Attribute>
+          <Attribute Name="CoefficientOfFriction" AttributeDataType="xs:double">
+            <Description>The friction value that is mostly applied to the movement of the table. 0 should be entered if the value is not relevant.</Description>
+          </Attribute>
+          <ExternalInterface Name="MotionPatternAssignment" ID="c8772a16-e8d1-4ee8-b958-164b0c98f734" RefBaseClassPath="DriveConfiguration@DriveConfigurationInterfaceClassLib/MotionPatternAssignment">
+            <Description>The reference to the motion pattern that is executd. At maximum one motion pattern can be assigned to a load mechanism. It is not required to reference to a motion pattern.</Description>
+          </ExternalInterface>
+          <ExternalInterface Name="ApplicableLoadAssignment" ID="f3a3ec98-5d10-4189-8bbb-e1adcac2c1c9" RefBaseClassPath="DriveConfiguration@DriveConfigurationInterfaceClassLib/AdditionalLoadAssignment">
+            <Description>The reference to an applicable load and a motion pattern section where that load applies to. A load mechanism can reference to several sets of applicable load an motion pattern section. Each reference shall have its own interface. </Description>
+          </ExternalInterface>
+          <ExternalInterface Name="TransmissionAssignment" ID="079918c9-d156-469f-aada-d902c351b646" RefBaseClassPath="DriveConfiguration@DriveConfigurationInterfaceClassLib/PowerTrainTopologyAssignment">
+            <Description>The reference to the transmission that is used between the load mechanism and the motor which is directly connected to the load mechanism.  At maximum one transmission can be assigned to directly to a load mechanism. It is not required to reference to a transmission.</Description>
+          </ExternalInterface>
+        </RoleRequirements>
+      </InternalElement>
+      <InternalElement Name="GearBox" ID="40fbe726-9489-4c4a-8012-3949372d5cbc">
+        <RoleRequirements RefBaseRoleClassPath="DriveConfiguration@DriveConfigurationRoleClassLib/AbstractTransmission/GearBox">
+          <Attribute Name="ReductionRationLoadSide" AttributeDataType="xs:int" />
+          <Attribute Name="InertiaMomentLoadSide" AttributeDataType="xs:double" Unit="B32" />
+          <Attribute Name="LossTorque" AttributeDataType="xs:double" Unit="NU" />
+          <ExternalInterface Name="MotorSideTransmissionAssignment" ID="ad36151a-2534-450f-bc50-2da18031e296" RefBaseClassPath="DriveConfiguration@DriveConfigurationInterfaceClassLib/PowerTrainTopologyAssignment/MotorSideAssignment">
+            <Description>The reference to the next transmission in the chain in the direction towards the motor. It shall be linked to an LoadSideTransmissionAssignment interface of another transmission. This interface is not required if there is no other transmission between this one and the motor. There can be at maximum one interface of this type. </Description>
+          </ExternalInterface>
+        </RoleRequirements>
+      </InternalElement>
+      <InternalElement Name="Motor" ID="318206cd-05d3-4b4b-9b5b-90f8b988e1b6">
+        <RoleRequirements RefBaseRoleClassPath="DriveConfiguration@DriveConfigurationRoleClassLib/AbstractMotor" />
+      </InternalElement>
+      <InternalElement Name="Table" ID="a34381cc-ae41-4e3d-93b8-bece77384f1d">
+        <ExternalInterface Name="LoadMechanismAssignment" ID="f63cf7d3-a6b5-4067-b25f-9d952e63f077" RefBaseClassPath="DriveConfiguration@DriveConfigurationInterfaceClassLib/LoadMechanismAssignment" />
+        <SupportedRoleClass RefRoleClassPath="DriveConfiguration@DriveConfigurationRoleClassLib/BaseLoad" />
+        <RoleRequirements RefBaseRoleClassPath="DriveConfiguration@DriveConfigurationRoleClassLib/Load/Solid">
+          <Attribute Name="Thrustload" AttributeDataType="xs:double" Unit="NEW">
+            <Description>ToDo</Description>
+          </Attribute>
+          <Attribute Name="Torque" AttributeDataType="xs:double" Unit="NU">
+            <Description>The torque of the load in Nm.</Description>
+          </Attribute>
+          <Attribute Name="Inertia" AttributeDataType="xs:double" Unit="B32">
+            <Description>The inertia of the load</Description>
+          </Attribute>
+        </RoleRequirements>
+      </InternalElement>
+      <InternalElement Name="MassOfAllComponentsOfAxisY" ID="7584fe0b-c468-46ce-b6e3-dac3d1e12fee" />
+      <InternalLink Name="InternalLink" RefPartnerSideA="0f4ccf95-fae0-4b13-ab32-fb2c155ba6f3:BaseLoadAssignment" RefPartnerSideB="a34381cc-ae41-4e3d-93b8-bece77384f1d:LoadMechanismAssignment" />
+      <RoleRequirements RefBaseRoleClassPath="AutomationMLBaseLibraries@AutomationMLBaseRoleClassLib/AutomationMLBaseRole/Structure" />
+    </InternalElement>
+    <InternalElement Name="AxisYContainer" ID="8cfb5128-580d-431c-9dcd-fcb4a1909824">
+      <InternalElement Name="AxisY" ID="dcd1c110-a769-46cb-a016-74a16f8d70e9">
+        <ExternalInterface Name="BaseLoadAssignment" ID="f5a606f2-549e-4fa2-9e19-3b3a30e1364c" RefBaseClassPath="DriveConfiguration@DriveConfigurationInterfaceClassLib/BaseLoadAssignment" />
+        <ExternalInterface Name="IsMoved" ID="d5b0a77e-1bfc-4882-8e2c-7e41491ecc3a" />
+        <InternalLink Name="InternalLink" RefPartnerSideA="dcd1c110-a769-46cb-a016-74a16f8d70e9:IsMoved" RefPartnerSideB="0f4ccf95-fae0-4b13-ab32-fb2c155ba6f3:Moves" />
+        <RoleRequirements RefBaseRoleClassPath="DriveConfiguration@DriveConfigurationRoleClassLib/AbstractLoadMechanism/BallScrew">
+          <Attribute Name="InertiaMomentOfMotorEnd" AttributeDataType="xs:double" Unit="kg*cm²">
+            <Description>Additional inertia moment of machine elements at the motor output axis conversion that are not included in the configuration yet.</Description>
+          </Attribute>
+          <Attribute Name="OverallMachineEfficiency" AttributeDataType="xs:double">
+            <Description>The total efficiency of the machine.</Description>
+          </Attribute>
+          <Attribute Name="FrictionalTorque" AttributeDataType="xs:double" Unit="NU">
+            <Description>The friction torque acting to the machine with load side axis (transfer mechanism latter part) conversion.</Description>
+          </Attribute>
+          <Attribute Name="Lead" AttributeDataType="xs:double" Unit="MTR">
+            <Description>The amount of linear movement of the table when turning the screw once. </Description>
+          </Attribute>
+          <Attribute Name="CoefficientOfFriction" AttributeDataType="xs:double">
+            <Description>The friction value that is mostly applied to the movement of the table. 0 should be entered if the value is not relevant.</Description>
+          </Attribute>
+          <ExternalInterface Name="MotionPatternAssignment" ID="96ede460-896a-4bba-ba10-02117e281f3b" RefBaseClassPath="DriveConfiguration@DriveConfigurationInterfaceClassLib/MotionPatternAssignment">
+            <Description>The reference to the motion pattern that is executd. At maximum one motion pattern can be assigned to a load mechanism. It is not required to reference to a motion pattern.</Description>
+          </ExternalInterface>
+          <ExternalInterface Name="ApplicableLoadAssignment" ID="0d216535-e806-4bfb-ba44-f048cb8e7c65" RefBaseClassPath="DriveConfiguration@DriveConfigurationInterfaceClassLib/AdditionalLoadAssignment">
+            <Description>The reference to an applicable load and a motion pattern section where that load applies to. A load mechanism can reference to several sets of applicable load an motion pattern section. Each reference shall have its own interface. </Description>
+          </ExternalInterface>
+          <ExternalInterface Name="TransmissionAssignment" ID="0dab50cc-efc8-4977-bbe9-997a6280b679" RefBaseClassPath="DriveConfiguration@DriveConfigurationInterfaceClassLib/PowerTrainTopologyAssignment">
+            <Description>The reference to the transmission that is used between the load mechanism and the motor which is directly connected to the load mechanism.  At maximum one transmission can be assigned to directly to a load mechanism. It is not required to reference to a transmission.</Description>
+          </ExternalInterface>
+        </RoleRequirements>
+      </InternalElement>
+      <InternalElement Name="GearBox" ID="c56fd6f4-89fe-42ea-bfce-2f0c3d04b54d">
+        <RoleRequirements RefBaseRoleClassPath="DriveConfiguration@DriveConfigurationRoleClassLib/AbstractTransmission/GearBox">
+          <Attribute Name="ReductionRationLoadSide" AttributeDataType="xs:int" />
+          <Attribute Name="InertiaMomentLoadSide" AttributeDataType="xs:double" Unit="B32" />
+          <Attribute Name="LossTorque" AttributeDataType="xs:double" Unit="NU" />
+          <ExternalInterface Name="MotorSideTransmissionAssignment" ID="3c18a9a7-e5f3-487a-85fd-d4b01aa195f8" RefBaseClassPath="DriveConfiguration@DriveConfigurationInterfaceClassLib/PowerTrainTopologyAssignment/MotorSideAssignment">
+            <Description>The reference to the next transmission in the chain in the direction towards the motor. It shall be linked to an LoadSideTransmissionAssignment interface of another transmission. This interface is not required if there is no other transmission between this one and the motor. There can be at maximum one interface of this type. </Description>
+          </ExternalInterface>
+        </RoleRequirements>
+      </InternalElement>
+      <InternalElement Name="Motor" ID="11c6ffb0-98c5-420e-85c0-b1ce87abe04c">
+        <RoleRequirements RefBaseRoleClassPath="DriveConfiguration@DriveConfigurationRoleClassLib/AbstractMotor" />
+      </InternalElement>
+      <InternalElement Name="Table" ID="862fa276-4134-4b52-9734-1bd912937493">
+        <ExternalInterface Name="LoadMechanismAssignment" ID="676814c0-9a96-49da-9e6f-57ded6426153" RefBaseClassPath="DriveConfiguration@DriveConfigurationInterfaceClassLib/LoadMechanismAssignment" />
+        <SupportedRoleClass RefRoleClassPath="DriveConfiguration@DriveConfigurationRoleClassLib/BaseLoad" />
+        <RoleRequirements RefBaseRoleClassPath="DriveConfiguration@DriveConfigurationRoleClassLib/Load/Solid">
+          <Attribute Name="Thrustload" AttributeDataType="xs:double" Unit="NEW">
+            <Description>ToDo</Description>
+          </Attribute>
+          <Attribute Name="Torque" AttributeDataType="xs:double" Unit="NU">
+            <Description>The torque of the load in Nm.</Description>
+          </Attribute>
+          <Attribute Name="Inertia" AttributeDataType="xs:double" Unit="B32">
+            <Description>The inertia of the load</Description>
+          </Attribute>
+        </RoleRequirements>
+      </InternalElement>
+      <InternalLink Name="Link" RefPartnerSideA="dcd1c110-a769-46cb-a016-74a16f8d70e9:BaseLoadAssignment" RefPartnerSideB="862fa276-4134-4b52-9734-1bd912937493:LoadMechanismAssignment" />
+      <RoleRequirements RefBaseRoleClassPath="AutomationMLBaseLibraries@AutomationMLBaseRoleClassLib/AutomationMLBaseRole/Structure" />
+    </InternalElement>
+  </InstanceHierarchy>
+  <InstanceHierarchy Name="SingleAxisExtendedModel">
+    <Version>1.0.0</Version>
+    <InternalElement Name="Axis" ID="9c935124-d8cd-49ee-b62d-158c6518332c">
+      <ExternalInterface Name="MotorSideAssignment" ID="992ec85b-b8dd-41ab-9ecb-e4d575460c46" RefBaseClassPath="DriveConfiguration@DriveConfigurationInterfaceClassLib/PowerTrainTopologyAssignment/MotorSideAssignment" />
+      <ExternalInterface Name="BaseLoadAssignment" ID="28769bd0-021a-4430-aa05-d46f81bc6efb" RefBaseClassPath="DriveConfiguration@DriveConfigurationInterfaceClassLib/BaseLoadAssignment">
+        <Description>The reference to the load that describes the objects conveyed by the load mechanims. At maximum one load can be assigned to a load mechanism. It is not required to reference to a load.</Description>
+      </ExternalInterface>
+      <ExternalInterface Name="MotionPatternAssignment" ID="ae7c46ed-8417-4c7c-b8d9-09cbc7c88421" RefBaseClassPath="DriveConfiguration@DriveConfigurationInterfaceClassLib/MotionPatternAssignment">
+        <Description>The reference to the motion pattern that is executd. At maximum one motion pattern can be assigned to a load mechanism. It is not required to reference to a motion pattern.</Description>
+      </ExternalInterface>
+      <InternalLink Name="InternalLink" RefPartnerSideA="9c935124-d8cd-49ee-b62d-158c6518332c:BaseLoadAssignment" RefPartnerSideB="730573fe-f409-45d7-bbed-6bdaa84ce2e0:LoadMechanismAssignment" />
+      <InternalLink Name="InternalLink1" RefPartnerSideA="9c935124-d8cd-49ee-b62d-158c6518332c:MotionPatternAssignment" RefPartnerSideB="05d8c02d-2766-4e8d-ab5a-8b45b8da12a0:LoadMechanismAssignment" />
+      <InternalLink Name="Link" RefPartnerSideA="9c935124-d8cd-49ee-b62d-158c6518332c:MotorSideAssignment" RefPartnerSideB="933e3f9e-f73d-47ed-92b9-44618276db73:LoadSideTransmissionAssignment" />
+      <RoleRequirements RefBaseRoleClassPath="DriveConfiguration@DriveConfigurationRoleClassLib/AbstractLoadMechanism/BallScrew">
+        <Attribute Name="InertiaMomentOfMotorEnd" AttributeDataType="xs:double" Unit="kg*cm²">
+          <Description>Additional inertia moment of machine elements at the motor output axis conversion that are not included in the configuration yet.</Description>
+        </Attribute>
+        <Attribute Name="OverallMachineEfficiency" AttributeDataType="xs:double">
+          <Description>The total efficiency of the machine.</Description>
+        </Attribute>
+        <Attribute Name="FrictionalTorque" AttributeDataType="xs:double" Unit="NU">
+          <Description>The friction torque acting to the machine with load side axis (transfer mechanism latter part) conversion.</Description>
+        </Attribute>
+        <Attribute Name="Lead" AttributeDataType="xs:double" Unit="MTR">
+          <Description>The amount of linear movement of the table when turning the screw once. </Description>
+        </Attribute>
+        <Attribute Name="CoefficientOfFriction" AttributeDataType="xs:double">
+          <Description>The friction value that is mostly applied to the movement of the table. 0 should be entered if the value is not relevant.</Description>
+        </Attribute>
+        <ExternalInterface Name="MotionPatternAssignment" ID="1412d5f1-01b7-4e3c-a095-24f226b80b10" RefBaseClassPath="DriveConfiguration@DriveConfigurationInterfaceClassLib/MotionPatternAssignment">
+          <Description>The reference to the motion pattern that is executd. At maximum one motion pattern can be assigned to a load mechanism. It is not required to reference to a motion pattern.</Description>
+        </ExternalInterface>
+        <ExternalInterface Name="ApplicableLoadAssignment" ID="f2218a4f-2d33-45bb-a027-3ce148f7ab67" RefBaseClassPath="DriveConfiguration@DriveConfigurationInterfaceClassLib/AdditionalLoadAssignment">
+          <Description>The reference to an applicable load and a motion pattern section where that load applies to. A load mechanism can reference to several sets of applicable load an motion pattern section. Each reference shall have its own interface. </Description>
+        </ExternalInterface>
+        <ExternalInterface Name="TransmissionAssignment" ID="601a5dbc-e48b-4496-bd70-37b8590caf91" RefBaseClassPath="DriveConfiguration@DriveConfigurationInterfaceClassLib/PowerTrainTopologyAssignment">
+          <Description>The reference to the transmission that is used between the load mechanism and the motor which is directly connected to the load mechanism.  At maximum one transmission can be assigned to directly to a load mechanism. It is not required to reference to a transmission.</Description>
+        </ExternalInterface>
+      </RoleRequirements>
+    </InternalElement>
+    <InternalElement Name="GearBox" ID="933e3f9e-f73d-47ed-92b9-44618276db73">
+      <ExternalInterface Name="LoadSideTransmissionAssignment" ID="dffdd2c3-16c2-4d4a-9642-03f66c2c8c18" RefBaseClassPath="DriveConfiguration@DriveConfigurationInterfaceClassLib/PowerTrainTopologyAssignment/LoadSideAssignment">
+        <Description>The reference to the next transmission in the chain in the direction towards the load mechanism and the load. It shall be linked to an MotorSideTransmissionAssignment interface of another transmission or to a TransmissionAssignment interface of an load mechanism in case this transmission is the last one before the load. This interface is mandatory. There can be only one interface of this type.</Description>
+      </ExternalInterface>
+      <ExternalInterface Name="MotorSideTransmissionAssignment" ID="402d5870-94d1-480f-94e3-6ab71b0bf0a0" RefBaseClassPath="DriveConfiguration@DriveConfigurationInterfaceClassLib/PowerTrainTopologyAssignment/MotorSideAssignment">
+        <Description>The reference to the next transmission in the chain in the direction towards the motor. It shall be linked to an LoadSideTransmissionAssignment interface of another transmission. This interface is not required if there is no other transmission between this one and the motor. There can be at maximum one interface of this type. </Description>
+      </ExternalInterface>
+      <ExternalInterface Name="MotorSide" ID="fdca8df3-60af-4c57-8ee9-5c3a39616c77" RefBaseClassPath="DriveConfiguration@DriveConfigurationExtensionInterfaceClassLib/RotaryMechanicDataInterface" />
+      <SupportedRoleClass RefRoleClassPath="DriveConfiguration@DriveConfigurationExtensionRoleClassLib/HasRotaryVirtualDialGauge" />
+      <InternalLink Name="InternalLink" RefPartnerSideA="933e3f9e-f73d-47ed-92b9-44618276db73:MotorSideTransmissionAssignment" RefPartnerSideB="7e98e3bc-ac63-4a60-8a5d-eb6b4c7c7b10:LoadSideTransmissionAssignment" />
+      <InternalLink Name="InternalLink1" RefPartnerSideA="933e3f9e-f73d-47ed-92b9-44618276db73:MotorSideTransmissionAssignment" RefPartnerSideB="933e3f9e-f73d-47ed-92b9-44618276db73:MotorSide" />
+      <RoleRequirements RefBaseRoleClassPath="DriveConfiguration@DriveConfigurationRoleClassLib/AbstractTransmission/GearBox">
+        <Attribute Name="ReductionRationLoadSide" AttributeDataType="xs:int" />
+        <Attribute Name="InertiaMomentLoadSide" AttributeDataType="xs:double" Unit="B32" />
+        <Attribute Name="LossTorque" AttributeDataType="xs:double" Unit="NU" />
+        <ExternalInterface Name="MotorSideTransmissionAssignment" ID="e1340f64-5889-44f3-b6a5-6e6e4d874738" RefBaseClassPath="DriveConfiguration@DriveConfigurationInterfaceClassLib/PowerTrainTopologyAssignment/MotorSideAssignment">
+          <Description>The reference to the next transmission in the chain in the direction towards the motor. It shall be linked to an LoadSideTransmissionAssignment interface of another transmission. This interface is not required if there is no other transmission between this one and the motor. There can be at maximum one interface of this type. </Description>
+        </ExternalInterface>
+      </RoleRequirements>
+    </InternalElement>
+    <InternalElement Name="Motor" ID="7e98e3bc-ac63-4a60-8a5d-eb6b4c7c7b10">
+      <ExternalInterface Name="LoadSideTransmissionAssignment" ID="a572a0a6-c861-4081-91ef-98e0e0243f6e" RefBaseClassPath="DriveConfiguration@DriveConfigurationInterfaceClassLib/PowerTrainTopologyAssignment/LoadSideAssignment">
+        <Description>The reference to the next transmission in the chain in the direction towards the load mechanism and the load. It shall be linked to an MotorSideTransmissionAssignment interface of another transmission or to a TransmissionAssignment interface of an load mechanism in case this transmission is the last one before the load. This interface is mandatory. There can be only one interface of this type.</Description>
+      </ExternalInterface>
+      <ExternalInterface Name="RotaryMechanicInterface" ID="45743729-b98f-433f-831a-66314f4e551f" RefBaseClassPath="DriveConfiguration@DriveConfigurationExtensionInterfaceClassLib/RotaryMechanicDataInterface" />
+      <SupportedRoleClass RefRoleClassPath="DriveConfiguration@DriveConfigurationRoleClassLib/AbstractMotor/RotaryMotor" />
+      <InternalLink Name="InternalLink" RefPartnerSideA="7e98e3bc-ac63-4a60-8a5d-eb6b4c7c7b10:RotaryMechanicInterface" RefPartnerSideB="8144d470-0b77-488a-9041-7bf65bf97a48:MotorSide" />
+      <InternalLink Name="InternalLink1" RefPartnerSideA="7e98e3bc-ac63-4a60-8a5d-eb6b4c7c7b10:LoadSideTransmissionAssignment" RefPartnerSideB="7e98e3bc-ac63-4a60-8a5d-eb6b4c7c7b10:RotaryMechanicInterface" />
+      <RoleRequirements RefBaseRoleClassPath="DriveConfiguration@DriveConfigurationExtensionRoleClassLib/HasRotaryVirtualDialGauge">
+        <ExternalInterface Name="LoadSide" ID="834cdad1-704c-48bb-950e-3f61bb59e76b" RefBaseClassPath="DriveConfiguration@DriveConfigurationExtensionInterfaceClassLib/RotaryMechanicDataInterface" />
+      </RoleRequirements>
+    </InternalElement>
+    <InternalElement Name="BaseLoad" ID="730573fe-f409-45d7-bbed-6bdaa84ce2e0">
+      <ExternalInterface Name="LoadMechanismAssignment" ID="850493fd-ff42-4040-ac46-5ea2c9fc7b8e" RefBaseClassPath="DriveConfiguration@DriveConfigurationInterfaceClassLib/LoadMechanismAssignment">
+        <Description>The reference to the load mechanism that conveys this load. A load can be assigned to several load mechanism. Each assignment requires its own interface.</Description>
+      </ExternalInterface>
+      <SupportedRoleClass RefRoleClassPath="DriveConfiguration@DriveConfigurationRoleClassLib/BaseLoad" />
+      <RoleRequirements RefBaseRoleClassPath="DriveConfiguration@DriveConfigurationRoleClassLib/Load/Solid">
+        <Attribute Name="Mass" AttributeDataType="xs:double" Unit="KGM">
+          <Description>The mass of the load in kg.</Description>
+        </Attribute>
+        <Attribute Name="Thrustload" AttributeDataType="xs:double" Unit="NEW">
+          <Description>ToDo</Description>
+        </Attribute>
+        <Attribute Name="CounterWeight" AttributeDataType="xs:double" Unit="KGM">
+          <Description>The mass of an additonal counter weight in kg.</Description>
+        </Attribute>
+        <Attribute Name="Torque" AttributeDataType="xs:double" Unit="NU">
+          <Description>The torque of the load in Nm.</Description>
+        </Attribute>
+        <Attribute Name="DistanceToCenterOfRotation" AttributeDataType="xs:double" Unit="MTR">
+          <Description>The distance of the load to the center of the rotation. Only to be used with rotary movements.</Description>
+        </Attribute>
+        <Attribute Name="Inertia" AttributeDataType="xs:double" Unit="B32">
+          <Description>The inertia of the load</Description>
+        </Attribute>
+      </RoleRequirements>
+    </InternalElement>
+    <InternalElement Name="MotionPattern" ID="05d8c02d-2766-4e8d-ab5a-8b45b8da12a0">
+      <ExternalInterface Name="LoadMechanismAssignment" ID="b9e401e7-8bc2-4ffb-941b-e6597e680f70" RefBaseClassPath="DriveConfiguration@DriveConfigurationInterfaceClassLib/LoadMechanismAssignment">
+        <Description>The reference to the load mechanism that moves according to this motion pattern. This interface shall be linked to an interface of the class "MotionPatternAssignment". A Motion Pattern can be executed by several load mechanisms. Each reference to a load mechanism requires its own interface.</Description>
+      </ExternalInterface>
+      <ExternalInterface Name="DialGaugeAssignment" ID="3f97ec1b-8086-4897-8caf-57f566635fb0" RefBaseClassPath="DriveConfiguration@DriveConfigurationExtensionInterfaceClassLib/RotaryMechanicDataInterface" />
+      <InternalElement Name="Section_1" ID="d74d0a11-f2cd-42ca-8b17-87cd447fa989">
+        <Attribute Name="Index" AttributeDataType="xs:int">
+          <Description>Index of the section within the pattern. Starts counting from 0</Description>
+        </Attribute>
+        <RoleRequirements RefBaseRoleClassPath="DriveConfiguration@DriveConfigurationRoleClassLib/MotionPatternSection" />
+      </InternalElement>
+      <InternalElement Name="Section_2" ID="36f6328e-53bf-4acf-99eb-d842c66eef0f">
+        <Attribute Name="Index" AttributeDataType="xs:int">
+          <Description>Index of the section within the pattern. Starts counting from 0</Description>
+        </Attribute>
+        <ExternalInterface Name="AdditionalLoadAssignment" ID="2e4dd702-b2af-4b6c-8369-7d317de7bd17" RefBaseClassPath="DriveConfiguration@DriveConfigurationInterfaceClassLib/AdditionalLoadAssignment">
+          <Description>The reference to the load mechanism and the applicable load to be used for this section of the pattern. This interface shall be linked to a load mechanism as well as a applicable load. On the other side of the link interface of the same class. An applicable load can be used multiple times. Each usage shall have its own interface.</Description>
+        </ExternalInterface>
+        <InternalLink Name="InternalLink" RefPartnerSideA="36f6328e-53bf-4acf-99eb-d842c66eef0f:AdditionalLoadAssignment" RefPartnerSideB="20f330b6-ccca-419a-9ffe-d7718e6e3053:MotionSectionAssignment" />
+        <RoleRequirements RefBaseRoleClassPath="DriveConfiguration@DriveConfigurationRoleClassLib/MotionPatternSection" />
+      </InternalElement>
+      <InternalLink Name="InternalLink" RefPartnerSideA="05d8c02d-2766-4e8d-ab5a-8b45b8da12a0:DialGaugeAssignment" RefPartnerSideB="8144d470-0b77-488a-9041-7bf65bf97a48:MotionPatternAssignment" />
+      <RoleRequirements RefBaseRoleClassPath="DriveConfiguration@DriveConfigurationRoleClassLib/MotionPattern">
+        <ExternalInterface Name="SizingResultAssignment" ID="66d07683-0d58-4557-8a17-7612357ff03f">
+          <Description>The reference to the result of the capacity calculation. This interface shall be linked to an MotionPatternAssignment interface of an SizingResult object. A motion pattern can be linked to several result. For each link a separate interface shall be used. It's not required to have any interface.</Description>
+        </ExternalInterface>
+      </RoleRequirements>
+    </InternalElement>
+    <InternalElement Name="AdditionalLoad" ID="20f330b6-ccca-419a-9ffe-d7718e6e3053">
+      <ExternalInterface Name="MotionSectionAssignment" ID="967a4a92-ed87-46be-ab4c-37218abaea76" RefBaseClassPath="DriveConfiguration@DriveConfigurationInterfaceClassLib/MotionSectionAssignment">
+        <Description>Reference to the motion pattern section that this load applied to.</Description>
+      </ExternalInterface>
+      <SupportedRoleClass RefRoleClassPath="DriveConfiguration@DriveConfigurationRoleClassLib/AdditionalLoad" />
+      <RoleRequirements RefBaseRoleClassPath="DriveConfiguration@DriveConfigurationRoleClassLib/Load/Solid">
+        <Attribute Name="Thrustload" AttributeDataType="xs:double" Unit="NEW">
+          <Description>ToDo</Description>
+        </Attribute>
+        <Attribute Name="Torque" AttributeDataType="xs:double" Unit="NU">
+          <Description>The torque of the load in Nm.</Description>
+        </Attribute>
+        <Attribute Name="Inertia" AttributeDataType="xs:double" Unit="B32">
+          <Description>The inertia of the load</Description>
+        </Attribute>
+      </RoleRequirements>
+    </InternalElement>
+    <InternalElement Name="MotorSizingResult" ID="8144d470-0b77-488a-9041-7bf65bf97a48">
+      <Attribute Name="Inertia" AttributeDataType="xs:string" />
+      <Attribute Name="AngularSpeed" AttributeDataType="xs:string" />
+      <Attribute Name="AngularAcceleration" AttributeDataType="xs:string" />
+      <ExternalInterface Name="MotorSide" ID="a3828d4c-1a3a-4283-ac79-9b39ab09bfc9" RefBaseClassPath="DriveConfiguration@DriveConfigurationExtensionInterfaceClassLib/RotaryMechanicDataInterface" />
+      <ExternalInterface Name="LoadSide" ID="787cd863-8aed-4797-9a7f-24d55a2faca6" RefBaseClassPath="DriveConfiguration@DriveConfigurationExtensionInterfaceClassLib/RotaryMechanicDataInterface" />
+      <ExternalInterface Name="MotionPatternAssignment" ID="ebe89538-dbd2-4745-81fd-1184cbe86805" RefBaseClassPath="DriveConfiguration@DriveConfigurationInterfaceClassLib/MotionPatternAssignment">
+        <Description>The reference to the motion pattern that is executd. At maximum one motion pattern can be assigned to a load mechanism. It is not required to reference to a motion pattern.</Description>
+      </ExternalInterface>
+      <InternalElement Name="AngularSpeed" ID="95c56367-71f9-4898-904c-9ca860dae769">
+        <Attribute Name="Quantity" AttributeDataType="xs:string">
+          <Description>The type of data that is provided. ToDo A list of possible values needs to be defined or declared as "free" text. This type shall only be used when no additional attributes are required. If a type requires additional attributes a derived class shall be defined.</Description>
+        </Attribute>
+        <Attribute Name="UnitOfData" AttributeDataType="xs:string">
+          <Description>The unit of the data in the designated column. </Description>
+        </Attribute>
+        <Attribute Name="UnitOfTime" AttributeDataType="xs:string">
+          <Description>The unit of the time.</Description>
+        </Attribute>
+        <Attribute Name="IsConstantInterval" AttributeDataType="xs:boolean">
+          <Description>Describes whether the time is provided in constant inverval steps or with individuals values.</Description>
+          <DefaultValue>false</DefaultValue>
+          <Value>false</Value>
+        </Attribute>
+        <Attribute Name="TimeConstantInterval" AttributeDataType="xs:double">
+          <Description>The constant time interval for the data. This value is only relevant f the IsConstantInterval is true. The unit set for this attribute shall be same the the value of the UnitOfTime data.</Description>
+        </Attribute>
+        <Attribute Name="DataColIndex " AttributeDataType="xs:string" />
+        <Attribute Name="TimeColIndex" AttributeDataType="xs:string" />
+        <Attribute Name="StartRowIndex" AttributeDataType="xs:string" />
+        <ExternalInterface Name="CSVReference" ID="0b1e4e53-d2b5-4ba2-b312-1148bb0f4930" RefBaseClassPath="DriveConfiguration@DriveConfigurationInterfaceClassLib/CSVReference">
+          <Description>The reference to a external file that contains the data of the time series in csv format.</Description>
+          <Attribute Name="refURI" AttributeDataType="xs:anyURI" />
+          <Attribute Name="MIMEType" AttributeDataType="xs:string" />
+        </ExternalInterface>
+        <SupportedRoleClass RefRoleClassPath="DriveConfiguration@DriveConfigurationRoleClassLib/TimeSeriesData/ColumnBasedStoredTimeSeriesData" />
+      </InternalElement>
+      <InternalElement Name="Torque" ID="48115fce-d837-498c-a45d-ceeac41b9d9c">
+        <Attribute Name="Quantity" AttributeDataType="xs:string">
+          <Description>The type of data that is provided. ToDo A list of possible values needs to be defined or declared as "free" text. This type shall only be used when no additional attributes are required. If a type requires additional attributes a derived class shall be defined.</Description>
+        </Attribute>
+        <Attribute Name="UnitOfData" AttributeDataType="xs:string">
+          <Description>The unit of the data in the designated column. </Description>
+        </Attribute>
+        <Attribute Name="UnitOfTime" AttributeDataType="xs:string">
+          <Description>The unit of the time.</Description>
+        </Attribute>
+        <Attribute Name="IsConstantInterval" AttributeDataType="xs:boolean">
+          <Description>Describes whether the time is provided in constant inverval steps or with individuals values.</Description>
+          <DefaultValue>false</DefaultValue>
+          <Value>false</Value>
+        </Attribute>
+        <Attribute Name="TimeConstantInterval" AttributeDataType="xs:double">
+          <Description>The constant time interval for the data. This value is only relevant f the IsConstantInterval is true. The unit set for this attribute shall be same the the value of the UnitOfTime data.</Description>
+        </Attribute>
+        <Attribute Name="DataColIndex " AttributeDataType="xs:string" />
+        <Attribute Name="TimeColIndex" AttributeDataType="xs:string" />
+        <Attribute Name="StartRowIndex" AttributeDataType="xs:string" />
+        <ExternalInterface Name="CSVReference" ID="4f98fa5d-407b-47a8-88e7-5d8195cc46c3" RefBaseClassPath="DriveConfiguration@DriveConfigurationInterfaceClassLib/CSVReference">
+          <Description>The reference to a external file that contains the data of the time series in csv format.</Description>
+          <Attribute Name="refURI" AttributeDataType="xs:anyURI" />
+          <Attribute Name="MIMEType" AttributeDataType="xs:string" />
+        </ExternalInterface>
+        <SupportedRoleClass RefRoleClassPath="DriveConfiguration@DriveConfigurationRoleClassLib/TimeSeriesData/ColumnBasedStoredTimeSeriesData" />
+      </InternalElement>
+      <InternalElement Name="MotorPower" ID="e38cab7e-d47a-4511-b20b-8edce75ed6a1">
+        <Attribute Name="Quantity" AttributeDataType="xs:string">
+          <Description>The type of data that is provided. ToDo A list of possible values needs to be defined or declared as "free" text. This type shall only be used when no additional attributes are required. If a type requires additional attributes a derived class shall be defined.</Description>
+        </Attribute>
+        <Attribute Name="UnitOfData" AttributeDataType="xs:string">
+          <Description>The unit of the data in the designated column. </Description>
+        </Attribute>
+        <Attribute Name="UnitOfTime" AttributeDataType="xs:string">
+          <Description>The unit of the time.</Description>
+        </Attribute>
+        <Attribute Name="IsConstantInterval" AttributeDataType="xs:boolean">
+          <Description>Describes whether the time is provided in constant inverval steps or with individuals values.</Description>
+          <DefaultValue>false</DefaultValue>
+          <Value>false</Value>
+        </Attribute>
+        <Attribute Name="TimeConstantInterval" AttributeDataType="xs:double">
+          <Description>The constant time interval for the data. This value is only relevant f the IsConstantInterval is true. The unit set for this attribute shall be same the the value of the UnitOfTime data.</Description>
+        </Attribute>
+        <Attribute Name="DataColIndex " AttributeDataType="xs:string" />
+        <Attribute Name="TimeColIndex" AttributeDataType="xs:string" />
+        <Attribute Name="StartRowIndex" AttributeDataType="xs:string" />
+        <ExternalInterface Name="CSVReference" ID="94f18b9b-8d29-4a46-a68c-39d4dd3a6150" RefBaseClassPath="DriveConfiguration@DriveConfigurationInterfaceClassLib/CSVReference">
+          <Description>The reference to a external file that contains the data of the time series in csv format.</Description>
+          <Attribute Name="refURI" AttributeDataType="xs:anyURI" />
+          <Attribute Name="MIMEType" AttributeDataType="xs:string" />
+        </ExternalInterface>
+        <SupportedRoleClass RefRoleClassPath="DriveConfiguration@DriveConfigurationRoleClassLib/TimeSeriesData/ColumnBasedStoredTimeSeriesData" />
+      </InternalElement>
+      <InternalElement Name="Inertia" ID="0c7d3610-9403-4e98-a7ab-66434552dddb">
+        <Attribute Name="Quantity" AttributeDataType="xs:string">
+          <Description>The type of data that is provided. ToDo A list of possible values needs to be defined or declared as "free" text. This type shall only be used when no additional attributes are required. If a type requires additional attributes a derived class shall be defined.</Description>
+        </Attribute>
+        <Attribute Name="UnitOfData" AttributeDataType="xs:string">
+          <Description>The unit of the data in the designated column. </Description>
+        </Attribute>
+        <Attribute Name="UnitOfTime" AttributeDataType="xs:string">
+          <Description>The unit of the time.</Description>
+        </Attribute>
+        <Attribute Name="IsConstantInterval" AttributeDataType="xs:boolean">
+          <Description>Describes whether the time is provided in constant inverval steps or with individuals values.</Description>
+          <DefaultValue>false</DefaultValue>
+          <Value>false</Value>
+        </Attribute>
+        <Attribute Name="TimeConstantInterval" AttributeDataType="xs:double">
+          <Description>The constant time interval for the data. This value is only relevant f the IsConstantInterval is true. The unit set for this attribute shall be same the the value of the UnitOfTime data.</Description>
+        </Attribute>
+        <Attribute Name="DataColIndex " AttributeDataType="xs:string" />
+        <Attribute Name="TimeColIndex" AttributeDataType="xs:string" />
+        <Attribute Name="StartRowIndex" AttributeDataType="xs:string" />
+        <ExternalInterface Name="CSVReference" ID="7ee898e6-3917-4238-8350-c4a781ad5fd9" RefBaseClassPath="DriveConfiguration@DriveConfigurationInterfaceClassLib/CSVReference">
+          <Description>The reference to a external file that contains the data of the time series in csv format.</Description>
+          <Attribute Name="refURI" AttributeDataType="xs:anyURI" />
+          <Attribute Name="MIMEType" AttributeDataType="xs:string" />
+        </ExternalInterface>
+        <SupportedRoleClass RefRoleClassPath="DriveConfiguration@DriveConfigurationRoleClassLib/TimeSeriesData/ColumnBasedStoredTimeSeriesData" />
+      </InternalElement>
+      <InternalLink Name="InternalLink" RefPartnerSideA="8144d470-0b77-488a-9041-7bf65bf97a48:LoadSide" RefPartnerSideB="933e3f9e-f73d-47ed-92b9-44618276db73:MotorSide" />
+      <RoleRequirements RefBaseRoleClassPath="DriveConfiguration@DriveConfigurationExtensionRoleClassLib/VirtualRotaryDialGauge">
+        <Attribute Name="AngularSpeed" AttributeDataType="xs:string" />
+        <Attribute Name="AngularJerk" AttributeDataType="xs:string" />
+        <Attribute Name="TorqueEff" AttributeDataType="xs:string" />
+      </RoleRequirements>
+    </InternalElement>
+  </InstanceHierarchy>
+  <InstanceHierarchy Name="VirtualRotaryDialGaugeSample">
+    <Version>1.0.0</Version>
+    <InternalElement Name="Motor" ID="e6b7d4ce-f4d2-4ebc-951d-bd5b64a3a528">
+      <ExternalInterface Name="LoadSide" ID="4ce4eb19-5bbe-404e-9843-53a27733fd92" RefBaseClassPath="DriveConfiguration@DriveConfigurationExtensionInterfaceClassLib/RotaryMechanicDataInterface" />
+      <ExternalInterface Name="LoadSideAssingment" ID="dc74e0ac-2ab1-4e83-9391-e76535367e57" RefBaseClassPath="DriveConfiguration@DriveConfigurationInterfaceClassLib/PowerTrainTopologyAssignment/LoadSideAssignment" />
+      <SupportedRoleClass RefRoleClassPath="DriveConfiguration@DriveConfigurationRoleClassLib/AbstractMotor/RotaryMotor" />
+      <SupportedRoleClass RefRoleClassPath="DriveConfiguration@DriveConfigurationExtensionRoleClassLib/HasRotaryVirtualDialGauge" />
+      <InternalLink Name="Link" RefPartnerSideA="e6b7d4ce-f4d2-4ebc-951d-bd5b64a3a528:LoadSideAssingment" RefPartnerSideB="35fc281b-e4f2-4b92-8aca-49c9cd708501:MotorSideAssignment" />
+      <InternalLink Name="InternalLink" RefPartnerSideA="e6b7d4ce-f4d2-4ebc-951d-bd5b64a3a528:LoadSide" RefPartnerSideB="e6b7d4ce-f4d2-4ebc-951d-bd5b64a3a528:LoadSideAssingment" />
+    </InternalElement>
+    <InternalElement Name="GearBox" ID="35fc281b-e4f2-4b92-8aca-49c9cd708501">
+      <ExternalInterface Name="MotorSide" ID="5776fcf3-5582-4066-90c5-b7b286e84e1a" RefBaseClassPath="DriveConfiguration@DriveConfigurationExtensionInterfaceClassLib/RotaryMechanicDataInterface" />
+      <ExternalInterface Name="MotorSideAssignment" ID="8c2338ac-2ca3-4e6b-848d-609e3c1ce609" RefBaseClassPath="DriveConfiguration@DriveConfigurationInterfaceClassLib/PowerTrainTopologyAssignment/MotorSideAssignment" />
+      <SupportedRoleClass RefRoleClassPath="DriveConfiguration@DriveConfigurationRoleClassLib/AbstractTransmission/GearBox" />
+      <SupportedRoleClass RefRoleClassPath="DriveConfiguration@DriveConfigurationExtensionRoleClassLib/HasRotaryVirtualDialGauge" />
+      <InternalLink Name="InternalLink" RefPartnerSideA="35fc281b-e4f2-4b92-8aca-49c9cd708501:MotorSide" RefPartnerSideB="35fc281b-e4f2-4b92-8aca-49c9cd708501:MotorSideAssignment" />
+    </InternalElement>
+    <InternalElement Name="CapacitySelectionResult" ID="41139fe2-2d8a-4c30-8d7d-0fef642c3564">
+      <ExternalInterface Name="LoadSide" ID="0eb1db93-3d54-4c6d-a1c6-d73d3e8af95a" RefBaseClassPath="DriveConfiguration@DriveConfigurationExtensionInterfaceClassLib/RotaryMechanicDataInterface" />
+      <ExternalInterface Name="MotorSide" ID="8b7bbf1a-39e1-428c-8acc-d39101619053" RefBaseClassPath="DriveConfiguration@DriveConfigurationExtensionInterfaceClassLib/RotaryMechanicDataInterface" />
+      <SupportedRoleClass RefRoleClassPath="DriveConfiguration@DriveConfigurationExtensionRoleClassLib/VirtualRotaryDialGauge" />
+      <InternalLink Name="InternalLink" RefPartnerSideA="41139fe2-2d8a-4c30-8d7d-0fef642c3564:LoadSide" RefPartnerSideB="35fc281b-e4f2-4b92-8aca-49c9cd708501:MotorSide" />
+      <InternalLink Name="InternalLink1" RefPartnerSideA="41139fe2-2d8a-4c30-8d7d-0fef642c3564:MotorSide" RefPartnerSideB="e6b7d4ce-f4d2-4ebc-951d-bd5b64a3a528:LoadSide" />
+    </InternalElement>
+  </InstanceHierarchy>
+  <InstanceHierarchy Name="CompleteSingleAxisSample">
+    <Version>1.0.1</Version>
+    <InternalElement Name="ELGC-BS-KF-80-500-16P" ID="810382b0-8c4b-4df2-a0f5-6bfa0dc26908">
+      <Attribute Name="Comment" AttributeDataType="xs:string">
+        <Description>A comment to provide additional information for this load mechanism.</Description>
+        <Value></Value>
+      </Attribute>
+      <Attribute Name="InertiaMomentOfMotorEnd" AttributeDataType="xs:double" Unit="kg*cm²">
+        <Description>Additional inertia moment of machine elements at the motor output axis conversion that are not included in the configuration yet.</Description>
+      </Attribute>
+      <Attribute Name="InertiaMomentOfMachineEnd" AttributeDataType="xs:double" Unit="kg*cm²">
+        <Description>Additional inertia moment of machine elements at the load output axis conversion that are not included in the configuration yet.</Description>
+      </Attribute>
+      <Attribute Name="OverallMachineEfficiency" AttributeDataType="xs:double">
+        <Description>The total efficiency of the machine.</Description>
+      </Attribute>
+      <Attribute Name="FrictionalForce" AttributeDataType="xs:double" Unit="NEW">
+        <Description>The friction force acting to the machine with load side output axis (transfer mechanism latter part) conversion.</Description>
+      </Attribute>
+      <Attribute Name="FrictionalTorque" AttributeDataType="xs:double" Unit="NU">
+        <Description>The friction torque acting to the machine with load side axis (transfer mechanism latter part) conversion.</Description>
+      </Attribute>
+      <Attribute Name="MotorSideLoadResistanceTorque" AttributeDataType="xs:double" Unit="NU">
+        <Description>Setting of the resistance torque applied to the machine from outside with motor output axis conversion.</Description>
+      </Attribute>
+      <Attribute Name="CoefficientOfFriction" AttributeDataType="xs:double">
+        <Description>The friction value that is mostly applied to the movement of the table. 0 should be entered if the value is not relevant.</Description>
+      </Attribute>
+      <Attribute Name="TransferAmountPerLoadRevolution" AttributeDataType="xs:double" Unit="ToDo mm/rev">
+        <Description>The linear transfer amount of the load per rotation of the motor.</Description>
+      </Attribute>
+      <ExternalInterface Name="MotionPojectAssingment" ID="97717350-33b8-4b2a-aa8b-114487947b29" RefBaseClassPath="DriveConfiguration@DriveConfigurationInterfaceClassLib/MotionProjectAssingment">
+        <Description>The reference to the project that the load mechanism belongs to. A load mechanism can belong to maximum one project. It is not required to be assigned to a project.</Description>
+      </ExternalInterface>
+      <ExternalInterface Name="MotionPatternAssignment" ID="2ab339b5-c380-441a-9d52-cec38532e7ba" RefBaseClassPath="DriveConfiguration@DriveConfigurationInterfaceClassLib/MotionPatternAssignment">
+        <Description>The reference to the motion pattern that is executd. At maximum one motion pattern can be assigned to a load mechanism. It is not required to reference to a motion pattern.</Description>
+      </ExternalInterface>
+      <ExternalInterface Name="BaseLoadAssignment" ID="80af710f-3ae3-457f-adac-50395dabc3df" RefBaseClassPath="DriveConfiguration@DriveConfigurationInterfaceClassLib/BaseLoadAssignment">
+        <Description>The reference to the load that describes the objects conveyed by the load mechanims. At maximum one load can be assigned to a load mechanism. It is not required to reference to a load.</Description>
+      </ExternalInterface>
+      <ExternalInterface Name="AdditionalLoadAssignment" ID="53051037-5c51-4d5e-a276-96ba2164a3a2" RefBaseClassPath="DriveConfiguration@DriveConfigurationInterfaceClassLib/AdditionalLoadAssignment">
+        <Description>The reference to an applicable load and a motion pattern section where that load applies to. A load mechanism can reference to several sets of applicable load an motion pattern section. Each reference shall have its own interface. </Description>
+      </ExternalInterface>
+      <ExternalInterface Name="AxisGroupAssignment" ID="95ada225-c491-4747-aaa2-a656baa73192" RefBaseClassPath="DriveConfiguration@DriveConfigurationInterfaceClassLib/AxisGroupAssignment">
+        <Description>The reference to an axis group that the load mechanism belongs to. A load mechanism can belong to maximum one axis group. It is not required to be assigned to a axis group.</Description>
+      </ExternalInterface>
+      <ExternalInterface Name="RotaryMechanicDataInterface" ID="a3a1c26b-ddfe-4fe3-a504-8910aab0f1ab" RefBaseClassPath="DriveConfiguration@DriveConfigurationExtensionInterfaceClassLib/RotaryMechanicDataInterface" />
+      <ExternalInterface Name="LinearMechanicDataInterface" ID="6ae1cb8b-e98a-4fe8-9b73-2bb1e3050d97" RefBaseClassPath="DriveConfiguration@DriveConfigurationExtensionInterfaceClassLib/LinearMechanicDataInterface" />
+      <ExternalInterface Name="LoadSide" ID="825963ba-b897-400e-9b67-789ec2d7ee67" RefBaseClassPath="DriveConfiguration@DriveConfigurationInterfaceClassLib/PowerTrainTopologyAssignment/LoadSideAssignment">
+        <Description>The reference to the next transmission in the chain in the direction towards the load mechanism and the load. It shall be linked to an MotorSideTransmissionAssignment interface of another transmission or to a TransmissionAssignment interface of an load mechanism in case this transmission is the last one before the load. This interface is mandatory. There can be only one interface of this type.</Description>
+      </ExternalInterface>
+      <ExternalInterface Name="MotorSide" ID="18866a35-57c5-4278-bb77-2dd125dbfe05" RefBaseClassPath="DriveConfiguration@DriveConfigurationInterfaceClassLib/PowerTrainTopologyAssignment/MotorSideAssignment">
+        <Description>The reference to the next transmission in the chain in the direction towards the motor. It shall be linked to an LoadSideTransmissionAssignment interface of another transmission. This interface is not required if there is no other transmission between this one and the motor. There can be at maximum one interface of this type. </Description>
+      </ExternalInterface>
+      <SupportedRoleClass RefRoleClassPath="DriveConfiguration@DriveConfigurationRoleClassLib/AbstractLoadMechanism/GenericLinear" />
+      <SupportedRoleClass RefRoleClassPath="DriveConfiguration@DriveConfigurationExtensionRoleClassLib/HasLinearVirtualDialgauge" />
+      <InternalLink Name="InternalLink" RefPartnerSideA="810382b0-8c4b-4df2-a0f5-6bfa0dc26908:MotionPatternAssignment" RefPartnerSideB="aa31c7a3-cc14-4bc8-a576-1d8e7b631f9d:LoadMechanismAssignment" />
+      <InternalLink Name="InternalLink3" RefPartnerSideA="810382b0-8c4b-4df2-a0f5-6bfa0dc26908:MotorSide" RefPartnerSideB="f2cf9aaa-0a09-42af-a64b-f09f416129e2:LoadSide" />
+      <InternalLink Name="InternalLink4" RefPartnerSideA="810382b0-8c4b-4df2-a0f5-6bfa0dc26908:MotorSide" RefPartnerSideB="810382b0-8c4b-4df2-a0f5-6bfa0dc26908:RotaryMechanicDataInterface" />
+      <InternalLink Name="InternalLink5" RefPartnerSideA="810382b0-8c4b-4df2-a0f5-6bfa0dc26908:LoadSide" RefPartnerSideB="810382b0-8c4b-4df2-a0f5-6bfa0dc26908:LinearMechanicDataInterface" />
+      <InternalLink Name="InternalLink6" RefPartnerSideA="810382b0-8c4b-4df2-a0f5-6bfa0dc26908:BaseLoadAssignment" RefPartnerSideB="779124e8-5e2d-4c76-b34a-1b8461011267:LoadMechanismAssignment" />
+      <RoleRequirements RefBaseRoleClassPath="DriveConfiguration@DriveConfigurationExtensionRoleClassLib/HasRotaryVirtualDialGauge">
+        <ExternalInterface Name="LoadSide" ID="e79436a5-b68e-4ac6-af09-20857e36dbe0" />
+      </RoleRequirements>
+    </InternalElement>
+    <InternalElement Name="EAMM-U87-T46-60P-114" ID="f2cf9aaa-0a09-42af-a64b-f09f416129e2">
+      <Attribute Name="InertiaMoment" AttributeDataType="xs:double" />
+      <Attribute Name="ReductionRatioMotorSide" AttributeDataType="xs:int">
+        <Description></Description>
+      </Attribute>
+      <Attribute Name="ReductionRationLoadSide" AttributeDataType="xs:int" />
+      <Attribute Name="InertiaMomentMotorSide" AttributeDataType="xs:double" Unit="B32" />
+      <Attribute Name="InertiaMomentLoadSide" AttributeDataType="xs:double" Unit="B32" />
+      <Attribute Name="OverallMachineEfficiency" AttributeDataType="xs:string" />
+      <Attribute Name="LossTorque" AttributeDataType="xs:double" Unit="NU" />
+      <ExternalInterface Name="LoadSide" ID="1c7fd47e-f2b0-4d8d-9d88-e35ac0776e78" RefBaseClassPath="DriveConfiguration@DriveConfigurationInterfaceClassLib/PowerTrainTopologyAssignment/LoadSideAssignment">
+        <Description>The reference to the next transmission in the chain in the direction towards the load mechanism and the load. It shall be linked to an MotorSideTransmissionAssignment interface of another transmission or to a TransmissionAssignment interface of an load mechanism in case this transmission is the last one before the load. This interface is mandatory. There can be only one interface of this type.</Description>
+      </ExternalInterface>
+      <ExternalInterface Name="MotorSide" ID="d8c45e26-d5e5-47f0-9d5f-ec7f3df09a9a" RefBaseClassPath="DriveConfiguration@DriveConfigurationInterfaceClassLib/PowerTrainTopologyAssignment/MotorSideAssignment">
+        <Description>The reference to the next transmission in the chain in the direction towards the motor. It shall be linked to an LoadSideTransmissionAssignment interface of another transmission. This interface is not required if there is no other transmission between this one and the motor. There can be at maximum one interface of this type. </Description>
+      </ExternalInterface>
+      <ExternalInterface Name="RotaryMechanicDataInterface" ID="db49246f-1dab-48f1-9084-3f9d512a8dbf" RefBaseClassPath="DriveConfiguration@DriveConfigurationExtensionInterfaceClassLib/RotaryMechanicDataInterface" />
+      <ExternalInterface Name="RotaryMechanicDataInterface1" ID="c0f89972-2fdc-4c65-b92a-9f9351e21c1d" RefBaseClassPath="DriveConfiguration@DriveConfigurationExtensionInterfaceClassLib/RotaryMechanicDataInterface" />
+      <SupportedRoleClass RefRoleClassPath="DriveConfiguration@DriveConfigurationExtensionRoleClassLib/HasRotaryVirtualDialGauge" />
+      <InternalLink Name="InternalLink2" RefPartnerSideA="f2cf9aaa-0a09-42af-a64b-f09f416129e2:MotorSide" RefPartnerSideB="1e6f6d45-37f8-4203-b527-e33cb02b5314:LoadSide" />
+      <InternalLink Name="InternalLink" RefPartnerSideA="f2cf9aaa-0a09-42af-a64b-f09f416129e2:RotaryMechanicDataInterface" RefPartnerSideB="f2cf9aaa-0a09-42af-a64b-f09f416129e2:LoadSide" />
+      <InternalLink Name="InternalLink3" RefPartnerSideA="f2cf9aaa-0a09-42af-a64b-f09f416129e2:MotorSide" RefPartnerSideB="f2cf9aaa-0a09-42af-a64b-f09f416129e2:RotaryMechanicDataInterface1" />
+      <RoleRequirements RefBaseRoleClassPath="DriveConfiguration@DriveConfigurationRoleClassLib/AbstractTransmission/GenericTransmission">
+        <Attribute Name="ReductionRationLoadSide" AttributeDataType="xs:int" />
+        <Attribute Name="InertiaMomentLoadSide" AttributeDataType="xs:double" Unit="B32" />
+        <Attribute Name="LossTorque" AttributeDataType="xs:double" Unit="NU" />
+        <ExternalInterface Name="MotorSideTransmissionAssignment" ID="bae7dfda-de7b-4838-a5ec-3cd9f8eef190" RefBaseClassPath="DriveConfiguration@DriveConfigurationInterfaceClassLib/PowerTrainTopologyAssignment/MotorSideAssignment">
+          <Description>The reference to the next transmission in the chain in the direction towards the motor. It shall be linked to an LoadSideTransmissionAssignment interface of another transmission. This interface is not required if there is no other transmission between this one and the motor. There can be at maximum one interface of this type. </Description>
+        </ExternalInterface>
+      </RoleRequirements>
+    </InternalElement>
+    <InternalElement Name="EMME-AS-60-S-LS-AM1" ID="1e6f6d45-37f8-4203-b527-e33cb02b5314">
+      <ExternalInterface Name="LoadSide" ID="2705af90-c46a-45e4-af76-90b3a83dc4b1" RefBaseClassPath="DriveConfiguration@DriveConfigurationInterfaceClassLib/PowerTrainTopologyAssignment/LoadSideAssignment">
+        <Description>The reference to the next transmission in the chain in the direction towards the load mechanism and the load. It shall be linked to an MotorSideTransmissionAssignment interface of another transmission or to a TransmissionAssignment interface of an load mechanism in case this transmission is the last one before the load. This interface is mandatory. There can be only one interface of this type.</Description>
+      </ExternalInterface>
+      <ExternalInterface Name="RotaryMechanicDataInterface" ID="273d41db-2a6b-43a6-abb7-60f69bb70845" RefBaseClassPath="DriveConfiguration@DriveConfigurationExtensionInterfaceClassLib/RotaryMechanicDataInterface" />
+      <SupportedRoleClass RefRoleClassPath="DriveConfiguration@DriveConfigurationRoleClassLib/AbstractMotor/RotaryMotor" />
+      <InternalLink Name="Link" RefPartnerSideA="1e6f6d45-37f8-4203-b527-e33cb02b5314:LoadSide" RefPartnerSideB="f2cf9aaa-0a09-42af-a64b-f09f416129e2:MotorSide" />
+      <InternalLink Name="InternalLink1" RefPartnerSideA="1e6f6d45-37f8-4203-b527-e33cb02b5314:LoadSide" RefPartnerSideB="f2cf9aaa-0a09-42af-a64b-f09f416129e2:MotorSide" />
+      <InternalLink Name="InternalLink" RefPartnerSideA="1e6f6d45-37f8-4203-b527-e33cb02b5314:RotaryMechanicDataInterface" RefPartnerSideB="1e6f6d45-37f8-4203-b527-e33cb02b5314:LoadSide" />
+      <RoleRequirements RefBaseRoleClassPath="DriveConfiguration@DriveConfigurationExtensionRoleClassLib/HasRotaryVirtualDialGauge">
+        <ExternalInterface Name="LoadSide" ID="d63d5b03-6e42-44d5-8b65-ca465d6c7b6d" />
+      </RoleRequirements>
+    </InternalElement>
+    <InternalElement Name="MotionPattern" ID="aa31c7a3-cc14-4bc8-a576-1d8e7b631f9d">
+      <ExternalInterface Name="LoadMechanismAssignment" ID="e81741e5-d9d5-4bd5-bc37-2f79cd615590" RefBaseClassPath="DriveConfiguration@DriveConfigurationInterfaceClassLib/LoadMechanismAssignment">
+        <Description>The reference to the load mechanism that moves according to this motion pattern. This interface shall be linked to an interface of the class "MotionPatternAssignment". A Motion Pattern can be executed by several load mechanisms. Each reference to a load mechanism requires its own interface.</Description>
+      </ExternalInterface>
+      <InternalElement Name="Section1" ID="20aca3ef-942f-49e8-ad3f-833864bd45f0">
+        <Attribute Name="Index" AttributeDataType="xs:int">
+          <Description>Index of the section within the pattern. Starts counting from 0</Description>
+        </Attribute>
+        <ExternalInterface Name="AdditionalLoad" ID="fa3b3589-8ea1-4746-aa86-42beaf827929" RefBaseClassPath="DriveConfiguration@DriveConfigurationInterfaceClassLib/AdditionalLoadAssignment">
+          <Description>The reference to the load mechanism and the applicable load to be used for this section of the pattern. This interface shall be linked to a load mechanism as well as a applicable load. On the other side of the link interface of the same class. An applicable load can be used multiple times. Each usage shall have its own interface.</Description>
+        </ExternalInterface>
+        <InternalLink Name="InternalLink" RefPartnerSideA="20aca3ef-942f-49e8-ad3f-833864bd45f0:AdditionalLoad" RefPartnerSideB="821a27be-6de9-40a5-a134-3724e0224567:MotionSectionAssignment" />
+        <RoleRequirements RefBaseRoleClassPath="DriveConfiguration@DriveConfigurationRoleClassLib/MotionPatternSection">
+          <Attribute Name="Index" AttributeDataType="xs:int">
+            <Description>Index of the section within the pattern. Starts counting from 0</Description>
+          </Attribute>
+        </RoleRequirements>
+      </InternalElement>
+      <InternalElement Name="Section2" ID="7df473b8-f227-4683-9776-8b4c978bbe3f">
+        <Attribute Name="Index" AttributeDataType="xs:int">
+          <Description>Index of the section within the pattern. Starts counting from 0</Description>
+        </Attribute>
+        <RoleRequirements RefBaseRoleClassPath="DriveConfiguration@DriveConfigurationRoleClassLib/MotionPatternSection">
+          <Attribute Name="Index" AttributeDataType="xs:int">
+            <Description>Index of the section within the pattern. Starts counting from 0</Description>
+          </Attribute>
+          <ExternalInterface Name="AdditionalLoad" ID="e99f2dce-aaff-4f8f-8436-23e63181d1ed" RefBaseClassPath="DriveConfiguration@DriveConfigurationInterfaceClassLib/AdditionalLoadAssignment">
+            <Description>The reference to the load mechanism and the applicable load to be used for this section of the pattern. This interface shall be linked to a load mechanism as well as a applicable load. On the other side of the link interface of the same class. An applicable load can be used multiple times. Each usage shall have its own interface.</Description>
+          </ExternalInterface>
+        </RoleRequirements>
+      </InternalElement>
+      <RoleRequirements RefBaseRoleClassPath="DriveConfiguration@DriveConfigurationRoleClassLib/MotionPattern">
+        <ExternalInterface Name="LoadMechanismAssignment" ID="1b6b1a8d-1ad1-431d-b050-6c68b485a29a" RefBaseClassPath="DriveConfiguration@DriveConfigurationInterfaceClassLib/LoadMechanismAssignment">
+          <Description>The reference to the load mechanism that moves according to this motion pattern. This interface shall be linked to an interface of the class "MotionPatternAssignment". A Motion Pattern can be executed by several load mechanisms. Each reference to a load mechanism requires its own interface.</Description>
+        </ExternalInterface>
+      </RoleRequirements>
+    </InternalElement>
+    <InternalElement Name="BaseLoad" ID="779124e8-5e2d-4c76-b34a-1b8461011267">
+      <ExternalInterface Name="LoadMechanismAssignment" ID="65315a00-bc37-4881-ad3c-1675e2da9e77" RefBaseClassPath="DriveConfiguration@DriveConfigurationInterfaceClassLib/LoadMechanismAssignment">
+        <Description>The reference to the load mechanism that conveys this load. A load can be assigned to several load mechanism. Each assignment requires its own interface.</Description>
+      </ExternalInterface>
+      <ExternalInterface Name="LinearMechanicDataInterface" ID="e25f0172-86ad-437d-8bd0-aa4454364239" RefBaseClassPath="DriveConfiguration@DriveConfigurationExtensionInterfaceClassLib/LinearMechanicDataInterface" />
+      <SupportedRoleClass RefRoleClassPath="DriveConfiguration@DriveConfigurationExtensionRoleClassLib/HasLinearVirtualDialgauge" />
+      <InternalLink Name="InternalLink" RefPartnerSideA="779124e8-5e2d-4c76-b34a-1b8461011267:LoadMechanismAssignment" RefPartnerSideB="779124e8-5e2d-4c76-b34a-1b8461011267:LinearMechanicDataInterface" />
+      <RoleRequirements RefBaseRoleClassPath="DriveConfiguration@DriveConfigurationRoleClassLib/Load" />
+    </InternalElement>
+    <InternalElement Name="AdditionalLoad" ID="821a27be-6de9-40a5-a134-3724e0224567">
+      <ExternalInterface Name="MotionSectionAssignment" ID="2e6dd265-7c07-4824-8732-0135d64dc574" RefBaseClassPath="DriveConfiguration@DriveConfigurationInterfaceClassLib/MotionSectionAssignment">
+        <Description>Reference to the motion pattern section that this load applied to.</Description>
+      </ExternalInterface>
+      <RoleRequirements RefBaseRoleClassPath="DriveConfiguration@DriveConfigurationRoleClassLib/AdditionalLoad">
+        <ExternalInterface Name="MotionSectionAssignment" ID="51a4620b-08ee-4a55-ae4c-4523aa577cc5" RefBaseClassPath="DriveConfiguration@DriveConfigurationInterfaceClassLib/MotionSectionAssignment">
+          <Description>Reference to the motion pattern section that this load applied to.</Description>
+        </ExternalInterface>
+      </RoleRequirements>
+    </InternalElement>
+    <InternalElement Name="DialGaugeRotary" ID="90d598f9-fe10-423a-b0bd-ab1ee85a2470">
+      <Attribute Name="Inertia" AttributeDataType="xs:double">
+        <Value>0.0008</Value>
+      </Attribute>
+      <Attribute Name="AngularSpeedMax" AttributeDataType="xs:double" />
+      <Attribute Name="AngularSpeedEff" AttributeDataType="xs:double">
+        <Value>281.78</Value>
+      </Attribute>
+      <Attribute Name="AngularAccelerationMax" AttributeDataType="xs:double">
+        <Value>3074.97</Value>
+      </Attribute>
+      <Attribute Name="AngularDecelarationMax" AttributeDataType="xs:double">
+        <Value>3074.97</Value>
+      </Attribute>
+      <Attribute Name="AngularJerkMax" AttributeDataType="xs:double" Unit="rad/s3">
+        <Value>568118</Value>
+      </Attribute>
+      <Attribute Name="TorqueMax" AttributeDataType="xs:double">
+        <Value>4.83</Value>
+      </Attribute>
+      <Attribute Name="TorqueEff" AttributeDataType="xs:double">
+        <Value>2.5</Value>
+      </Attribute>
+      <ExternalInterface Name="MotorSide" ID="473162a5-0684-4e8f-a3a4-e4cb94072d6e" RefBaseClassPath="DriveConfiguration@DriveConfigurationExtensionInterfaceClassLib/RotaryMechanicDataInterface" />
+      <ExternalInterface Name="LoadSide" ID="0ee2206e-52cf-409f-9943-338a8965c915" RefBaseClassPath="DriveConfiguration@DriveConfigurationExtensionInterfaceClassLib/RotaryMechanicDataInterface" />
+      <InternalElement Name="PowerTransmissionDataTorque" ID="748034c5-e3a8-4b91-9386-3069da083816">
+        <Attribute Name="Quantity" AttributeDataType="xs:string">
+          <Description>The type of data that is provided. ToDo A list of possible values needs to be defined or declared as "free" text. This type shall only be used when no additional attributes are required. If a type requires additional attributes a derived class shall be defined.</Description>
+          <Value>Torque</Value>
+        </Attribute>
+        <Attribute Name="UnitOfData" AttributeDataType="xs:string" Unit="Nm">
+          <Description>The unit of the data in the designated column. </Description>
+        </Attribute>
+        <Attribute Name="UnitOfTime" AttributeDataType="xs:string" Unit="sec">
+          <Description>The unit of the time.</Description>
+        </Attribute>
+        <Attribute Name="IsConstantInterval" AttributeDataType="xs:boolean">
+          <Description>Describes whether the time is provided in constant inverval steps or with individuals values.</Description>
+          <DefaultValue>false</DefaultValue>
+          <Value>false</Value>
+        </Attribute>
+        <Attribute Name="TimeConstantInterval" AttributeDataType="xs:double">
+          <Description>The constant time interval for the data. This value is only relevant f the IsConstantInterval is true. The unit set for this attribute shall be same the the value of the UnitOfTime data.</Description>
+        </Attribute>
+        <Attribute Name="ColumnTime" AttributeDataType="xs:string">
+          <Value>0</Value>
+        </Attribute>
+        <Attribute Name="ColumnValue" AttributeDataType="xs:string">
+          <Value>1</Value>
+        </Attribute>
+        <Attribute Name="DataColIndex " AttributeDataType="xs:string" />
+        <Attribute Name="TimeColIndex" AttributeDataType="xs:string" />
+        <Attribute Name="StartRowIndex" AttributeDataType="xs:string" />
+        <ExternalInterface Name="CSVReference" ID="c6409076-cdda-434f-bce7-14deee5c9afd" RefBaseClassPath="DriveConfiguration@DriveConfigurationInterfaceClassLib/CSVReference">
+          <Description>The reference to a external file that contains the data of the time series in csv format.</Description>
+          <Attribute Name="refURI" AttributeDataType="xs:anyURI">
+            <Value>DialGaugeAxisMotorSideEGC.csv</Value>
+          </Attribute>
+          <Attribute Name="MIMEType" AttributeDataType="xs:string" />
+        </ExternalInterface>
+        <SupportedRoleClass RefRoleClassPath="DriveConfiguration@DriveConfigurationRoleClassLib/TimeSeriesData/ColumnBasedStoredTimeSeriesData" />
+      </InternalElement>
+      <InternalElement Name="PowerTransmissionDataAngularSpeed" ID="1759e7b3-4e32-4437-8aaa-993921f90771">
+        <Attribute Name="Quantity" AttributeDataType="xs:string">
+          <Description>The type of data that is provided. ToDo A list of possible values needs to be defined or declared as "free" text. This type shall only be used when no additional attributes are required. If a type requires additional attributes a derived class shall be defined.</Description>
+          <Value>AngularSpeed</Value>
+        </Attribute>
+        <Attribute Name="UnitOfData" AttributeDataType="xs:string" Unit="rad/s">
+          <Description>The unit of the data in the designated column. </Description>
+        </Attribute>
+        <Attribute Name="UnitOfTime" AttributeDataType="xs:string" Unit="sec">
+          <Description>The unit of the time.</Description>
+        </Attribute>
+        <Attribute Name="IsConstantInterval" AttributeDataType="xs:boolean">
+          <Description>Describes whether the time is provided in constant inverval steps or with individuals values.</Description>
+          <DefaultValue>false</DefaultValue>
+          <Value>false</Value>
+        </Attribute>
+        <Attribute Name="TimeConstantInterval" AttributeDataType="xs:double">
+          <Description>The constant time interval for the data. This value is only relevant f the IsConstantInterval is true. The unit set for this attribute shall be same the the value of the UnitOfTime data.</Description>
+        </Attribute>
+        <Attribute Name="ColumnTime" AttributeDataType="xs:string">
+          <Value>0</Value>
+        </Attribute>
+        <Attribute Name="ColumnValue" AttributeDataType="xs:string">
+          <Value>2</Value>
+        </Attribute>
+        <Attribute Name="DataColIndex " AttributeDataType="xs:string" />
+        <Attribute Name="TimeColIndex" AttributeDataType="xs:string" />
+        <Attribute Name="StartRowIndex" AttributeDataType="xs:string" />
+        <ExternalInterface Name="CSVReference" ID="e0e0434b-d20c-40e6-93e9-b66a418ccadd" RefBaseClassPath="DriveConfiguration@DriveConfigurationInterfaceClassLib/CSVReference">
+          <Description>The reference to a external file that contains the data of the time series in csv format.</Description>
+          <Attribute Name="refURI" AttributeDataType="xs:anyURI">
+            <Value>DialGaugeAxisMotorSideEGC.csv</Value>
+          </Attribute>
+          <Attribute Name="MIMEType" AttributeDataType="xs:string" />
+        </ExternalInterface>
+        <SupportedRoleClass RefRoleClassPath="DriveConfiguration@DriveConfigurationRoleClassLib/TimeSeriesData/ColumnBasedStoredTimeSeriesData" />
+      </InternalElement>
+      <InternalLink Name="InternalLink" RefPartnerSideA="90d598f9-fe10-423a-b0bd-ab1ee85a2470:LoadSide" RefPartnerSideB="810382b0-8c4b-4df2-a0f5-6bfa0dc26908:RotaryMechanicDataInterface" />
+      <InternalLink Name="InternalLink1" RefPartnerSideA="90d598f9-fe10-423a-b0bd-ab1ee85a2470:MotorSide" RefPartnerSideB="f2cf9aaa-0a09-42af-a64b-f09f416129e2:RotaryMechanicDataInterface" />
+      <RoleRequirements RefBaseRoleClassPath="DriveConfiguration@DriveConfigurationExtensionRoleClassLib/VirtualRotaryDialGauge">
+        <Attribute Name="Inertia" AttributeDataType="xs:double" />
+        <Attribute Name="AngularSpeedMax" AttributeDataType="xs:double" />
+        <Attribute Name="AngularSpeedEff" AttributeDataType="xs:double" />
+        <Attribute Name="AngularAccelerationMax" AttributeDataType="xs:double" />
+        <Attribute Name="AngularDecelarationMax" AttributeDataType="xs:double" />
+        <Attribute Name="AngularJerkMax" AttributeDataType="xs:double" />
+        <Attribute Name="TorqueMax" AttributeDataType="xs:double" />
+        <Attribute Name="TorqueEff" AttributeDataType="xs:double" />
+        <ExternalInterface Name="LoadSide" ID="2c60a830-0cf6-4751-8c15-02b200153db8" />
+        <ExternalInterface Name="MotorSide" ID="c5954905-9156-41a5-a591-4e81b2495198" />
+        <ExternalInterface Name="ExternalDataReference" ID="c862dbe3-6ef1-42db-9d2b-ab7257469c99">
+          <Attribute Name="refURI" AttributeDataType="xs:anyURI" />
+          <Attribute Name="MIMEType" AttributeDataType="xs:string" />
+        </ExternalInterface>
+      </RoleRequirements>
+    </InternalElement>
+    <InternalElement Name="DialGaugeLinear" ID="73f00995-234e-4d90-b371-270804988d68">
+      <Attribute Name="Mass" AttributeDataType="xs:double" />
+      <Attribute Name="SpeedMax" AttributeDataType="xs:double" />
+      <Attribute Name="SpeedEff" AttributeDataType="xs:double" />
+      <Attribute Name="Acceleration" AttributeDataType="xs:double" />
+      <Attribute Name="Deceleration" AttributeDataType="xs:double" />
+      <Attribute Name="Jerk" AttributeDataType="xs:double" />
+      <Attribute Name="Force" AttributeDataType="xs:double" />
+      <Attribute Name="ForceEff" AttributeDataType="xs:double" />
+      <ExternalInterface Name="MotorSide" ID="3612c538-2f88-45ae-ab7f-4de1d933a129" RefBaseClassPath="DriveConfiguration@DriveConfigurationExtensionInterfaceClassLib/LinearMechanicDataInterface" />
+      <ExternalInterface Name="LoadSide" ID="ccd2d740-53d5-498f-b5c4-d13bf76e8054" RefBaseClassPath="DriveConfiguration@DriveConfigurationExtensionInterfaceClassLib/LinearMechanicDataInterface" />
+      <InternalElement Name="PowerTransmissionData" ID="f5395aae-7493-41a3-bcc4-9b82db084dfa">
+        <Attribute Name="Quantity" AttributeDataType="xs:string">
+          <Description>The type of data that is provided. ToDo A list of possible values needs to be defined or declared as "free" text. This type shall only be used when no additional attributes are required. If a type requires additional attributes a derived class shall be defined.</Description>
+        </Attribute>
+        <Attribute Name="UnitOfData" AttributeDataType="xs:string">
+          <Description>The unit of the data in the designated column. </Description>
+        </Attribute>
+        <Attribute Name="UnitOfTime" AttributeDataType="xs:string">
+          <Description>The unit of the time.</Description>
+        </Attribute>
+        <Attribute Name="IsConstantInterval" AttributeDataType="xs:boolean">
+          <Description>Describes whether the time is provided in constant inverval steps or with individuals values.</Description>
+          <DefaultValue>false</DefaultValue>
+          <Value>false</Value>
+        </Attribute>
+        <Attribute Name="TimeConstantInterval" AttributeDataType="xs:double">
+          <Description>The constant time interval for the data. This value is only relevant f the IsConstantInterval is true. The unit set for this attribute shall be same the the value of the UnitOfTime data.</Description>
+        </Attribute>
+        <Attribute Name="DataColIndex " AttributeDataType="xs:string" />
+        <Attribute Name="TimeColIndex" AttributeDataType="xs:string" />
+        <Attribute Name="StartRowIndex" AttributeDataType="xs:string" />
+        <ExternalInterface Name="CSVReference" ID="40f4e611-98f5-4d1a-b9eb-0473e5145d93" RefBaseClassPath="DriveConfiguration@DriveConfigurationInterfaceClassLib/CSVReference">
+          <Description>The reference to a external file that contains the data of the time series in csv format.</Description>
+          <Attribute Name="refURI" AttributeDataType="xs:anyURI">
+            <Value>DialGaugeAxisLoadSideEGC.csv</Value>
+          </Attribute>
+          <Attribute Name="MIMEType" AttributeDataType="xs:string" />
+        </ExternalInterface>
+        <SupportedRoleClass RefRoleClassPath="DriveConfiguration@DriveConfigurationRoleClassLib/TimeSeriesData/ColumnBasedStoredTimeSeriesData" />
+      </InternalElement>
+      <InternalLink Name="InternalLink" RefPartnerSideA="73f00995-234e-4d90-b371-270804988d68:MotorSide" RefPartnerSideB="810382b0-8c4b-4df2-a0f5-6bfa0dc26908:LinearMechanicDataInterface" />
+      <InternalLink Name="InternalLink1" RefPartnerSideA="73f00995-234e-4d90-b371-270804988d68:LoadSide" RefPartnerSideB="779124e8-5e2d-4c76-b34a-1b8461011267:LinearMechanicDataInterface" />
+      <RoleRequirements RefBaseRoleClassPath="DriveConfiguration@DriveConfigurationExtensionRoleClassLib/VirtualLinearDialGauge">
+        <Attribute Name="Mass" AttributeDataType="xs:double" />
+        <Attribute Name="SpeedMax" AttributeDataType="xs:double" />
+        <Attribute Name="SpeedEff" AttributeDataType="xs:double" />
+        <Attribute Name="Acceleration" AttributeDataType="xs:double" />
+        <Attribute Name="Deceleration" AttributeDataType="xs:double" />
+        <Attribute Name="Jerk" AttributeDataType="xs:double" />
+        <Attribute Name="Force" AttributeDataType="xs:double" />
+        <Attribute Name="ForceEff" AttributeDataType="xs:double" />
+        <ExternalInterface Name="LoadSide" ID="3e2d2c46-a63f-4935-bb56-18b82444c8c9" />
+        <ExternalInterface Name="MotorSide" ID="7a2edcab-9260-45b1-bb06-fe801a50c9bf" />
+        <ExternalInterface Name="ExternalDataReference" ID="aa948ba0-a8b2-4eed-9e80-b31a356c1dbd">
+          <Attribute Name="refURI" AttributeDataType="xs:anyURI" />
+          <Attribute Name="MIMEType" AttributeDataType="xs:string" />
+        </ExternalInterface>
+      </RoleRequirements>
+    </InternalElement>
+  </InstanceHierarchy>
+</CAEXFile>
