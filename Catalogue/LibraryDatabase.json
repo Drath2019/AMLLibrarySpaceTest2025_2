@@ -122,35 +122,6 @@
               "Signature": "MEUCIQDMvOWSHtwdqcLuspExESJx\u002BIwidxhBsAghlppLJqXqRAIgR0hUC5iepBqoOK\u002Bfnzt/fLtwLst9z9nznz7Kn/8mtFI=",
               "PublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEyk6uIUNugOojm3akdEAA4XoGGBEui0zPVhzkjR0RfprHFWrbPpFMfExaW2TaeChaegCmjE2boFph1aI1eNEPcQ==",
               "Revision": null
-            },
-            {
-              "Version": "1.0.2",
-              "CAEXVersion": "3.0",
-              "AMLEdition": "AMLEd2",
-              "IsArchived": false,
-              "Description": "Eine experimentelle Attributtyplibrary",
-              "DownloadLink": null,
-              "DownloadLinks": [
-                "https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/HSPF_MasterClass_AttributeTypeLib_AMLEd2_1.0.2.aml"
-              ],
-              "Sources": null,
-              "Signature": "MEUCIBV6\u002BFUKbfHEK5l9ZpYvgqlRmbsfvS8YNtOFqYvPXhqpAiEAoFvrZIXynNu7zxCeyLZmx8J9BavpxIk7nGeAqh90JaI=",
-              "PublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEyk6uIUNugOojm3akdEAA4XoGGBEui0zPVhzkjR0RfprHFWrbPpFMfExaW2TaeChaegCmjE2boFph1aI1eNEPcQ==",
-              "Revision": {
-                "DownloadLink": null,
-                "DownloadLinks": [
-                  "https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/HSPF_MasterClass_AttributeTypeLib_AMLEd2_1.0.2.aml"
-                ],
-                "Signature": "MEYCIQDRxdaUTbNlz0Mb8NYVN2bHUyuLP31UvjbBtxSAQ76PoAIhAJjqXNMq1qwbE7vTOaA5T2XlcBO3BHw6DfsZ7nENO3Z1",
-                "Revision": {
-                  "DownloadLink": null,
-                  "DownloadLinks": [
-                    "https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/HSPF_MasterClass_AttributeTypeLib_AMLEd2_1.0.2.aml"
-                  ],
-                  "Signature": "MEQCIA\u002B5AxVDI3wNRxv/HwpHmyrL3QYJy2bqSoF1fW5VY0lwAiBMXQv7Yb7WmLKI/ZjUwZ\u002BuxL3s4MwRHKHiLUnB7GSaxg==",
-                  "Revision": null
-                }
-              }
             }
           ]
         }
