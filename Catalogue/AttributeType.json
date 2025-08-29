@@ -1,113 +1,5 @@
 [
   {
-    "ClassName": "electricCurrent",
-    "CaexPath": "AutomationML_BasicProperties.Electrics_AttributeTypeLib/electricCurrent",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.Electrics_AttributeTypeLib",
-    "LibraryVersion": "0.0.5",
-    "AMLEdition": "AMLEd2",
-    "ID": "0dd9f98d-8053-4977-82d8-fd79505001b5"
-  },
-  {
-    "ClassName": "color",
-    "CaexPath": "AutomationML_BasicProperties.Color_AttributeTypeLib/color",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.Color_AttributeTypeLib",
-    "LibraryVersion": "0.0.5",
-    "AMLEdition": "AMLEd2",
-    "ID": "76e133b5-839f-43d2-b195-8681e34af95f"
-  },
-  {
-    "ClassName": "dimension",
-    "CaexPath": "AutomationML_BasicProperties.General_AttributeTypeLib/dimension",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.General_AttributeTypeLib",
-    "LibraryVersion": "0.0.5",
-    "AMLEdition": "AMLEd2",
-    "ID": "af8e216c-2ab4-4127-a211-bd79c3ded400"
-  },
-  {
-    "ClassName": "length",
-    "CaexPath": "AutomationML_BasicProperties.General_AttributeTypeLib/length",
-    "BasePath": "AutomationML_BasicProperties.General_AttributeTypeLib/dimension",
-    "LibraryName": "AutomationML_BasicProperties.General_AttributeTypeLib",
-    "LibraryVersion": "0.0.5",
-    "AMLEdition": "AMLEd2",
-    "ID": "4b627153-c241-4df2-9fc6-016ac31e3b86"
-  },
-  {
-    "ClassName": "width",
-    "CaexPath": "AutomationML_BasicProperties.General_AttributeTypeLib/width",
-    "BasePath": "AutomationML_BasicProperties.General_AttributeTypeLib/dimension",
-    "LibraryName": "AutomationML_BasicProperties.General_AttributeTypeLib",
-    "LibraryVersion": "0.0.5",
-    "AMLEdition": "AMLEd2",
-    "ID": "d07e2dd9-9441-4941-9472-ce724d125718"
-  },
-  {
-    "ClassName": "height",
-    "CaexPath": "AutomationML_BasicProperties.General_AttributeTypeLib/height",
-    "BasePath": "AutomationML_BasicProperties.General_AttributeTypeLib/dimension",
-    "LibraryName": "AutomationML_BasicProperties.General_AttributeTypeLib",
-    "LibraryVersion": "0.0.5",
-    "AMLEdition": "AMLEd2",
-    "ID": "dc4295b5-8c1f-41da-aedc-910d69cb910c"
-  },
-  {
-    "ClassName": "volume",
-    "CaexPath": "AutomationML_BasicProperties.General_AttributeTypeLib/volume",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.General_AttributeTypeLib",
-    "LibraryVersion": "0.0.5",
-    "AMLEdition": "AMLEd2",
-    "ID": "adbf5614-aa39-4b6f-ab36-4bc4c0003816"
-  },
-  {
-    "ClassName": "diameter",
-    "CaexPath": "AutomationML_BasicProperties.General_AttributeTypeLib/diameter",
-    "BasePath": "AutomationML_BasicProperties.General_AttributeTypeLib/dimension",
-    "LibraryName": "AutomationML_BasicProperties.General_AttributeTypeLib",
-    "LibraryVersion": "0.0.5",
-    "AMLEdition": "AMLEd2",
-    "ID": "8f944874-a415-4333-96be-52bb923a1c1e"
-  },
-  {
-    "ClassName": "innerDiameter",
-    "CaexPath": "AutomationML_BasicProperties.General_AttributeTypeLib/innerDiameter",
-    "BasePath": "AutomationML_BasicProperties.General_AttributeTypeLib/diameter",
-    "LibraryName": "AutomationML_BasicProperties.General_AttributeTypeLib",
-    "LibraryVersion": "0.0.5",
-    "AMLEdition": "AMLEd2",
-    "ID": "c1b87b91-3000-4ea9-819f-7be94e0caa6e"
-  },
-  {
-    "ClassName": "outerDiameter",
-    "CaexPath": "AutomationML_BasicProperties.General_AttributeTypeLib/outerDiameter",
-    "BasePath": "AutomationML_BasicProperties.General_AttributeTypeLib/diameter",
-    "LibraryName": "AutomationML_BasicProperties.General_AttributeTypeLib",
-    "LibraryVersion": "0.0.5",
-    "AMLEdition": "AMLEd2",
-    "ID": "59cf3916-3c18-4e20-ac94-da0d6b85f53e"
-  },
-  {
-    "ClassName": "range",
-    "CaexPath": "AutomationML_BasicProperties.General_AttributeTypeLib/range",
-    "BasePath": "AutomationML_BasicProperties.General_AttributeTypeLib/dimension",
-    "LibraryName": "AutomationML_BasicProperties.General_AttributeTypeLib",
-    "LibraryVersion": "0.0.5",
-    "AMLEdition": "AMLEd2",
-    "ID": "ceea7ec9-88e7-442b-b174-4dbfe5dd268f"
-  },
-  {
-    "ClassName": "distance",
-    "CaexPath": "AutomationML_BasicProperties.General_AttributeTypeLib/distance",
-    "BasePath": "AutomationML_BasicProperties.General_AttributeTypeLib/dimension",
-    "LibraryName": "AutomationML_BasicProperties.General_AttributeTypeLib",
-    "LibraryVersion": "0.0.5",
-    "AMLEdition": "AMLEd2",
-    "ID": "1932b62f-f31e-4332-87a0-2f77e1af2999"
-  },
-  {
     "ClassName": "speed",
     "CaexPath": "AutomationML_BasicProperties.Physics_AttributeTypeLib/speed",
     "BasePath": null,
@@ -225,6 +117,96 @@
     "ID": "307c0099-18ed-4202-8d86-3dbfea2975af"
   },
   {
+    "ClassName": "color",
+    "CaexPath": "AutomationML_BasicProperties.Color_AttributeTypeLib/color",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.Color_AttributeTypeLib",
+    "LibraryVersion": "0.0.5",
+    "AMLEdition": "AMLEd2",
+    "ID": "76e133b5-839f-43d2-b195-8681e34af95f"
+  },
+  {
+    "ClassName": "RAL",
+    "CaexPath": "AutomationML_BasicProperties.Color_AttributeTypeLib/RAL",
+    "BasePath": "AutomationML_BasicProperties.Color_AttributeTypeLib/color",
+    "LibraryName": "AutomationML_BasicProperties.Color_AttributeTypeLib",
+    "LibraryVersion": "0.0.5",
+    "AMLEdition": "AMLEd2",
+    "ID": "1917d508-35a2-4d37-80a2-981c4abfd7bf"
+  },
+  {
+    "ClassName": "RGB",
+    "CaexPath": "AutomationML_BasicProperties.Color_AttributeTypeLib/RGB",
+    "BasePath": "AutomationML_BasicProperties.Color_AttributeTypeLib/color",
+    "LibraryName": "AutomationML_BasicProperties.Color_AttributeTypeLib",
+    "LibraryVersion": "0.0.5",
+    "AMLEdition": "AMLEd2",
+    "ID": "738ae261-331e-4534-837f-7a70c051068b"
+  },
+  {
+    "ClassName": "CMYK",
+    "CaexPath": "AutomationML_BasicProperties.Color_AttributeTypeLib/CMYK",
+    "BasePath": "AutomationML_BasicProperties.Color_AttributeTypeLib/color",
+    "LibraryName": "AutomationML_BasicProperties.Color_AttributeTypeLib",
+    "LibraryVersion": "0.0.5",
+    "AMLEdition": "AMLEd2",
+    "ID": "f0fb949b-4b8f-400c-b5a8-665128e53868"
+  },
+  {
+    "ClassName": "electricCurrent",
+    "CaexPath": "AutomationML_BasicProperties.Electrics_AttributeTypeLib/electricCurrent",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.Electrics_AttributeTypeLib",
+    "LibraryVersion": "0.0.5",
+    "AMLEdition": "AMLEd2",
+    "ID": "0dd9f98d-8053-4977-82d8-fd79505001b5"
+  },
+  {
+    "ClassName": "voltage",
+    "CaexPath": "AutomationML_BasicProperties.Electrics_AttributeTypeLib/voltage",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.Electrics_AttributeTypeLib",
+    "LibraryVersion": "0.0.5",
+    "AMLEdition": "AMLEd2",
+    "ID": "d6d4770d-87d9-4d9c-9a8b-863c706ad86a"
+  },
+  {
+    "ClassName": "resistance",
+    "CaexPath": "AutomationML_BasicProperties.Electrics_AttributeTypeLib/resistance",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.Electrics_AttributeTypeLib",
+    "LibraryVersion": "0.0.5",
+    "AMLEdition": "AMLEd2",
+    "ID": "1c770ac0-9256-4ac9-a365-b47c94f43634"
+  },
+  {
+    "ClassName": "capacity",
+    "CaexPath": "AutomationML_BasicProperties.Electrics_AttributeTypeLib/capacity",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.Electrics_AttributeTypeLib",
+    "LibraryVersion": "0.0.5",
+    "AMLEdition": "AMLEd2",
+    "ID": "c075762b-c45a-46a5-ad5c-d1cf04ddda32"
+  },
+  {
+    "ClassName": "magneticFieldStrength",
+    "CaexPath": "AutomationML_BasicProperties.Electrics_AttributeTypeLib/magneticFieldStrength",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.Electrics_AttributeTypeLib",
+    "LibraryVersion": "0.0.5",
+    "AMLEdition": "AMLEd2",
+    "ID": "55469615-1870-4652-8ce5-1dce4da259b1"
+  },
+  {
+    "ClassName": "electricFieldStrength",
+    "CaexPath": "AutomationML_BasicProperties.Electrics_AttributeTypeLib/electricFieldStrength",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.Electrics_AttributeTypeLib",
+    "LibraryVersion": "0.0.5",
+    "AMLEdition": "AMLEd2",
+    "ID": "d200d1fc-79d4-48b4-9786-7bf37b8bef17"
+  },
+  {
     "ClassName": "wavelength",
     "CaexPath": "AutomationML_BasicProperties.Physics_AttributeTypeLib/wavelength",
     "BasePath": null,
@@ -279,76 +261,94 @@
     "ID": "da90ed61-f752-4f09-8001-62c1391ebcf7"
   },
   {
-    "ClassName": "voltage",
-    "CaexPath": "AutomationML_BasicProperties.Electrics_AttributeTypeLib/voltage",
+    "ClassName": "dimension",
+    "CaexPath": "AutomationML_BasicProperties.General_AttributeTypeLib/dimension",
     "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.Electrics_AttributeTypeLib",
+    "LibraryName": "AutomationML_BasicProperties.General_AttributeTypeLib",
     "LibraryVersion": "0.0.5",
     "AMLEdition": "AMLEd2",
-    "ID": "d6d4770d-87d9-4d9c-9a8b-863c706ad86a"
+    "ID": "af8e216c-2ab4-4127-a211-bd79c3ded400"
   },
   {
-    "ClassName": "resistance",
-    "CaexPath": "AutomationML_BasicProperties.Electrics_AttributeTypeLib/resistance",
+    "ClassName": "length",
+    "CaexPath": "AutomationML_BasicProperties.General_AttributeTypeLib/length",
+    "BasePath": "AutomationML_BasicProperties.General_AttributeTypeLib/dimension",
+    "LibraryName": "AutomationML_BasicProperties.General_AttributeTypeLib",
+    "LibraryVersion": "0.0.5",
+    "AMLEdition": "AMLEd2",
+    "ID": "4b627153-c241-4df2-9fc6-016ac31e3b86"
+  },
+  {
+    "ClassName": "width",
+    "CaexPath": "AutomationML_BasicProperties.General_AttributeTypeLib/width",
+    "BasePath": "AutomationML_BasicProperties.General_AttributeTypeLib/dimension",
+    "LibraryName": "AutomationML_BasicProperties.General_AttributeTypeLib",
+    "LibraryVersion": "0.0.5",
+    "AMLEdition": "AMLEd2",
+    "ID": "d07e2dd9-9441-4941-9472-ce724d125718"
+  },
+  {
+    "ClassName": "height",
+    "CaexPath": "AutomationML_BasicProperties.General_AttributeTypeLib/height",
+    "BasePath": "AutomationML_BasicProperties.General_AttributeTypeLib/dimension",
+    "LibraryName": "AutomationML_BasicProperties.General_AttributeTypeLib",
+    "LibraryVersion": "0.0.5",
+    "AMLEdition": "AMLEd2",
+    "ID": "dc4295b5-8c1f-41da-aedc-910d69cb910c"
+  },
+  {
+    "ClassName": "volume",
+    "CaexPath": "AutomationML_BasicProperties.General_AttributeTypeLib/volume",
     "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.Electrics_AttributeTypeLib",
+    "LibraryName": "AutomationML_BasicProperties.General_AttributeTypeLib",
     "LibraryVersion": "0.0.5",
     "AMLEdition": "AMLEd2",
-    "ID": "1c770ac0-9256-4ac9-a365-b47c94f43634"
+    "ID": "adbf5614-aa39-4b6f-ab36-4bc4c0003816"
   },
   {
-    "ClassName": "capacity",
-    "CaexPath": "AutomationML_BasicProperties.Electrics_AttributeTypeLib/capacity",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.Electrics_AttributeTypeLib",
+    "ClassName": "diameter",
+    "CaexPath": "AutomationML_BasicProperties.General_AttributeTypeLib/diameter",
+    "BasePath": "AutomationML_BasicProperties.General_AttributeTypeLib/dimension",
+    "LibraryName": "AutomationML_BasicProperties.General_AttributeTypeLib",
     "LibraryVersion": "0.0.5",
     "AMLEdition": "AMLEd2",
-    "ID": "c075762b-c45a-46a5-ad5c-d1cf04ddda32"
+    "ID": "8f944874-a415-4333-96be-52bb923a1c1e"
   },
   {
-    "ClassName": "magneticFieldStrength",
-    "CaexPath": "AutomationML_BasicProperties.Electrics_AttributeTypeLib/magneticFieldStrength",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.Electrics_AttributeTypeLib",
+    "ClassName": "innerDiameter",
+    "CaexPath": "AutomationML_BasicProperties.General_AttributeTypeLib/innerDiameter",
+    "BasePath": "AutomationML_BasicProperties.General_AttributeTypeLib/diameter",
+    "LibraryName": "AutomationML_BasicProperties.General_AttributeTypeLib",
     "LibraryVersion": "0.0.5",
     "AMLEdition": "AMLEd2",
-    "ID": "55469615-1870-4652-8ce5-1dce4da259b1"
+    "ID": "c1b87b91-3000-4ea9-819f-7be94e0caa6e"
   },
   {
-    "ClassName": "electricFieldStrength",
-    "CaexPath": "AutomationML_BasicProperties.Electrics_AttributeTypeLib/electricFieldStrength",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.Electrics_AttributeTypeLib",
+    "ClassName": "outerDiameter",
+    "CaexPath": "AutomationML_BasicProperties.General_AttributeTypeLib/outerDiameter",
+    "BasePath": "AutomationML_BasicProperties.General_AttributeTypeLib/diameter",
+    "LibraryName": "AutomationML_BasicProperties.General_AttributeTypeLib",
     "LibraryVersion": "0.0.5",
     "AMLEdition": "AMLEd2",
-    "ID": "d200d1fc-79d4-48b4-9786-7bf37b8bef17"
+    "ID": "59cf3916-3c18-4e20-ac94-da0d6b85f53e"
   },
   {
-    "ClassName": "RAL",
-    "CaexPath": "AutomationML_BasicProperties.Color_AttributeTypeLib/RAL",
-    "BasePath": "AutomationML_BasicProperties.Color_AttributeTypeLib/color",
-    "LibraryName": "AutomationML_BasicProperties.Color_AttributeTypeLib",
+    "ClassName": "range",
+    "CaexPath": "AutomationML_BasicProperties.General_AttributeTypeLib/range",
+    "BasePath": "AutomationML_BasicProperties.General_AttributeTypeLib/dimension",
+    "LibraryName": "AutomationML_BasicProperties.General_AttributeTypeLib",
     "LibraryVersion": "0.0.5",
     "AMLEdition": "AMLEd2",
-    "ID": "1917d508-35a2-4d37-80a2-981c4abfd7bf"
+    "ID": "ceea7ec9-88e7-442b-b174-4dbfe5dd268f"
   },
   {
-    "ClassName": "RGB",
-    "CaexPath": "AutomationML_BasicProperties.Color_AttributeTypeLib/RGB",
-    "BasePath": "AutomationML_BasicProperties.Color_AttributeTypeLib/color",
-    "LibraryName": "AutomationML_BasicProperties.Color_AttributeTypeLib",
+    "ClassName": "distance",
+    "CaexPath": "AutomationML_BasicProperties.General_AttributeTypeLib/distance",
+    "BasePath": "AutomationML_BasicProperties.General_AttributeTypeLib/dimension",
+    "LibraryName": "AutomationML_BasicProperties.General_AttributeTypeLib",
     "LibraryVersion": "0.0.5",
     "AMLEdition": "AMLEd2",
-    "ID": "738ae261-331e-4534-837f-7a70c051068b"
-  },
-  {
-    "ClassName": "CMYK",
-    "CaexPath": "AutomationML_BasicProperties.Color_AttributeTypeLib/CMYK",
-    "BasePath": "AutomationML_BasicProperties.Color_AttributeTypeLib/color",
-    "LibraryName": "AutomationML_BasicProperties.Color_AttributeTypeLib",
-    "LibraryVersion": "0.0.5",
-    "AMLEdition": "AMLEd2",
-    "ID": "f0fb949b-4b8f-400c-b5a8-665128e53868"
+    "ID": "1932b62f-f31e-4332-87a0-2f77e1af2999"
   },
   {
     "ClassName": "laenge-Typ",
