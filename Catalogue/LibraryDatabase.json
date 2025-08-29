@@ -231,6 +231,28 @@
               "Sources": null,
               "Signature": "MEQCIFcgwOFtqCvIiAMVNk3\u002BWgzt5cJB2EHC6Zi6FEazIzS0AiBhqPr8xegnDp4bbzvszKRYXKpjlFqLcn5sws8NSqXZog==",
               "PublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEyk6uIUNugOojm3akdEAA4XoGGBEui0zPVhzkjR0RfprHFWrbPpFMfExaW2TaeChaegCmjE2boFph1aI1eNEPcQ==",
+              "Revision": {
+                "DownloadLink": null,
+                "DownloadLinks": [
+                  "https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/HSPF_MasterClass_AttributeTypeLib_AMLEd2_1.1.0.aml"
+                ],
+                "Signature": "MEYCIQDCIH0uoXAt6yMgAXtqxKVMGh/1\u002B6x0vnzQzDie1RbPawIhANCPuuib9uB9D4cKU/UtiAjE5\u002BNj384gh6w5WMNomHD5",
+                "Revision": null
+              }
+            },
+            {
+              "Version": "1.1.1",
+              "CAEXVersion": "3.0",
+              "AMLEdition": "AMLEd2",
+              "IsArchived": false,
+              "Description": "Eine experimentelle Attributtyplibrary",
+              "DownloadLink": null,
+              "DownloadLinks": [
+                "https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/HSPF_MasterClass_AttributeTypeLib_AMLEd2_1.1.1.aml"
+              ],
+              "Sources": null,
+              "Signature": "MEQCIAfJIgAH\u002BxyY/pG2IZFMhonN77QI\u002BgC34Fc875RDZAKnAiA\u002B8MAcMPNm6LaoAaLF7Jy5YqjN/UXiQ7g2LH7ZMxd6rw==",
+              "PublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEyk6uIUNugOojm3akdEAA4XoGGBEui0zPVhzkjR0RfprHFWrbPpFMfExaW2TaeChaegCmjE2boFph1aI1eNEPcQ==",
               "Revision": null
             }
           ]
