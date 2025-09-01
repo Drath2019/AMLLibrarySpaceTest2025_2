@@ -1,1 +1,11 @@
-[]
+[
+  {
+    "ClassName": "Robot1",
+    "CaexPath": "HSPF_MasterClass_SystemUnitClassLib/Robot1",
+    "BasePath": null,
+    "LibraryName": "HSPF_MasterClass_SystemUnitClassLib",
+    "LibraryVersion": "1.0.0",
+    "AMLEdition": "AMLEd2",
+    "ID": "09e85016-0596-4607-951b-c4c6e8f5279e"
+  }
+]
