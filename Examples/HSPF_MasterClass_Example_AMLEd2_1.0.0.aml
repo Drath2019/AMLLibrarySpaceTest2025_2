@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CAEXFile SchemaVersion="3.0" FileName="HSPF_MasterClass_Example_AMLEd2_1.0.0.aml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.dke.de/CAEX">
+  <SuperiorStandardVersion>AutomationML 2.1</SuperiorStandardVersion>
+  <SourceDocumentInformation OriginName="AutomationML Editor" OriginID="916578CA-FE0D-474E-A4FC-9E1719892369" OriginVersion="6.4.2.15" LastWritingDateTime="2025-09-01T10:43:37.5819004+02:00" OriginProjectID="unspecified" OriginProjectTitle="unspecified" OriginRelease="6.4.2.15" OriginVendor="AutomationML e.V." OriginVendorURL="www.AutomationML.org" />
+  <ExternalReference Path="https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries%2FHSPF_MasterClass_Libraries_AMLEd2_1.3.0.aml" Alias="HSPFMasterClassLibrariesAMLEd21_3_0" />
+  <InstanceHierarchy Name="Station" ID="ad70493e-5009-4ab5-aa79-d935da586a28">
+    <Version>1.0.0</Version>
+    <InternalElement Name="Cell" ID="d8c2f23a-f96c-44f3-a377-1791f5eaee78">
+      <Attribute Name="laenge-Typ" AttributeDataType="xs:string" RefAttributeType="HSPFMasterClassLibrariesAMLEd21_3_0@HSPF_MasterClass_AttributeTypeLib/laenge-Typ" />
+      <InternalElement Name="Robot1" ID="7f9e1e89-4a2a-4dbc-bce7-a4e59671e3c4" RefBaseSystemUnitPath="HSPFMasterClassLibrariesAMLEd21_3_0@HSPF_MasterClass_SystemUnitClassLib/Robot1">
+        <Attribute Name="laenge-Typ" AttributeDataType="xs:string" RefAttributeType="HSPFMasterClassLibrariesAMLEd21_3_0@HSPF_MasterClass_AttributeTypeLib/laenge-Typ" />
+        <ExternalInterface Name="USB" ID="58033e1b-8abb-4ea8-9215-6be8f3d5ae10" RefBaseClassPath="HSPFMasterClassLibrariesAMLEd21_3_0@HSPF_MasterClass_InterfaceClassLib/USB" />
+        <ExternalInterface Name="USB2" ID="bef031e5-4deb-4ffa-aced-26a2df8b6502" RefBaseClassPath="HSPFMasterClassLibrariesAMLEd21_3_0@HSPF_MasterClass_InterfaceClassLib/USB" />
+        <RoleRequirements RefBaseRoleClassPath="HSPFMasterClassLibrariesAMLEd21_3_0@HSPF_MasterClass_RoleClassLib/Robot" />
+      </InternalElement>
+      <InternalElement Name="R2" ID="7d2cfb87-fa9a-4b8b-a845-5cda52cffe32" RefBaseSystemUnitPath="HSPFMasterClassLibrariesAMLEd21_3_0@HSPF_MasterClass_SystemUnitClassLib/Robot1">
+        <Attribute Name="laenge-Typ" AttributeDataType="xs:string" RefAttributeType="HSPFMasterClassLibrariesAMLEd21_3_0@HSPF_MasterClass_AttributeTypeLib/laenge-Typ" />
+        <ExternalInterface Name="USB" ID="8d81025b-7678-4a19-9dcf-e5c54a81d02d" RefBaseClassPath="HSPFMasterClassLibrariesAMLEd21_3_0@HSPF_MasterClass_InterfaceClassLib/USB" />
+        <ExternalInterface Name="USB2" ID="3daddda7-ee6c-4a84-841a-25ac611f89ed" RefBaseClassPath="HSPFMasterClassLibrariesAMLEd21_3_0@HSPF_MasterClass_InterfaceClassLib/USB" />
+        <RoleRequirements RefBaseRoleClassPath="HSPFMasterClassLibrariesAMLEd21_3_0@HSPF_MasterClass_RoleClassLib/Robot" />
+      </InternalElement>
+      <InternalElement Name="R3" ID="08e1a275-98a7-4aa9-852b-da24b3f737e7" RefBaseSystemUnitPath="HSPFMasterClassLibrariesAMLEd21_3_0@HSPF_MasterClass_SystemUnitClassLib/Robot1">
+        <Attribute Name="laenge-Typ" AttributeDataType="xs:string" RefAttributeType="HSPFMasterClassLibrariesAMLEd21_3_0@HSPF_MasterClass_AttributeTypeLib/laenge-Typ" />
+        <ExternalInterface Name="USB" ID="afb5b5d5-f6c0-48e6-82d7-bcaf7a007269" RefBaseClassPath="HSPFMasterClassLibrariesAMLEd21_3_0@HSPF_MasterClass_InterfaceClassLib/USB" />
+        <ExternalInterface Name="USB2" ID="da698da1-2e12-4872-90a3-5a99ecbd7134" RefBaseClassPath="HSPFMasterClassLibrariesAMLEd21_3_0@HSPF_MasterClass_InterfaceClassLib/USB" />
+        <RoleRequirements RefBaseRoleClassPath="HSPFMasterClassLibrariesAMLEd21_3_0@HSPF_MasterClass_RoleClassLib/Robot" />
+      </InternalElement>
+      <InternalLink RefPartnerSideA="bef031e5-4deb-4ffa-aced-26a2df8b6502" RefPartnerSideB="8d81025b-7678-4a19-9dcf-e5c54a81d02d" Name="Link" />
+      <InternalLink RefPartnerSideA="3daddda7-ee6c-4a84-841a-25ac611f89ed" RefPartnerSideB="afb5b5d5-f6c0-48e6-82d7-bcaf7a007269" Name="Link1" />
+    </InternalElement>
+  </InstanceHierarchy>
+</CAEXFile>
