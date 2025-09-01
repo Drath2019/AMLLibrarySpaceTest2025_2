@@ -275,6 +275,28 @@
               "Sources": null,
               "Signature": "MEUCIQDmlRa8vT6G11onRnkRapqGcyPOMF8VY7tLTqxTLUvTpAIgHkv0q52cUbc6LcM/jZkqm\u002Bko1cOQ2jUnTo55OWN3wf0=",
               "PublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEyk6uIUNugOojm3akdEAA4XoGGBEui0zPVhzkjR0RfprHFWrbPpFMfExaW2TaeChaegCmjE2boFph1aI1eNEPcQ==",
+              "Revision": {
+                "DownloadLink": null,
+                "DownloadLinks": [
+                  "https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/HSPF_MasterClass_Libraries_AMLEd2_1.2.0.aml"
+                ],
+                "Signature": "MEYCIQCD6AbsFSc3pjyyj8nCFxn26YUKmbMHtEnQDD2CqDRlugIhAPNKKHuCI1b81HpwhaAviluMFriJFIdR6JpnmQnowW2b",
+                "Revision": null
+              }
+            },
+            {
+              "Version": "1.3.0",
+              "CAEXVersion": "3.0",
+              "AMLEdition": "AMLEd2",
+              "IsArchived": false,
+              "Description": "Eine experimentelle Attributtyplibrary",
+              "DownloadLink": null,
+              "DownloadLinks": [
+                "https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/HSPF_MasterClass_Libraries_AMLEd2_1.0.0.aml"
+              ],
+              "Sources": null,
+              "Signature": "MEYCIQCTdwdwTbHwMYz2uKef5HbWJQ1/fKzNxCm6WpDSNfLKOwIhAMX6kuV2QQLZv9Hcaw7bR0EwQ03pl9vxSRiGGMV3qcqt",
+              "PublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEyk6uIUNugOojm3akdEAA4XoGGBEui0zPVhzkjR0RfprHFWrbPpFMfExaW2TaeChaegCmjE2boFph1aI1eNEPcQ==",
               "Revision": null
             }
           ]
@@ -320,6 +342,28 @@
               "Sources": null,
               "Signature": "MEUCIDRbCUliPTkUMHm4wRUhDncahs2qq6rJ5hX/191MB5\u002BMAiEAoq/WaS\u002Be1QFJJPGXlusZndHWY/YWZ/Yjp\u002BMzyI6Jqkw=",
               "PublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEyk6uIUNugOojm3akdEAA4XoGGBEui0zPVhzkjR0RfprHFWrbPpFMfExaW2TaeChaegCmjE2boFph1aI1eNEPcQ==",
+              "Revision": {
+                "DownloadLink": null,
+                "DownloadLinks": [
+                  "https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/HSPF_MasterClass_Libraries_AMLEd2_1.2.0.aml"
+                ],
+                "Signature": "MEUCIQDvWAmkpiUtoEsuhC41cD/B0nlaOMV8TfbfxZ/1ZUYncgIgcTwLur5OgmB3Z29kdoJpUCrM9OM8v3SJ/urE5sn3hNc=",
+                "Revision": null
+              }
+            },
+            {
+              "Version": "1.1.0",
+              "CAEXVersion": "3.0",
+              "AMLEdition": "AMLEd2",
+              "IsArchived": false,
+              "Description": null,
+              "DownloadLink": null,
+              "DownloadLinks": [
+                "https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/HSPF_MasterClass_Libraries_AMLEd2_1.0.0.aml"
+              ],
+              "Sources": null,
+              "Signature": "MEUCIQChim3HnQ3m3mHWp6eGU\u002Bj0rk3ARvafd4HUWwp/24DZVwIgWF5FyV20j3ZG1SgciQFCG5ayzzRmiAHeq3SqACc65W0=",
+              "PublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEyk6uIUNugOojm3akdEAA4XoGGBEui0zPVhzkjR0RfprHFWrbPpFMfExaW2TaeChaegCmjE2boFph1aI1eNEPcQ==",
               "Revision": null
             }
           ]
@@ -344,6 +388,53 @@
               ],
               "Sources": null,
               "Signature": "MEUCIQC8\u002BkbGGKlrfM9pGBA1h5KGbobkHspWPgH0xW9imheI0gIgYzIAF3SnD5JDdRB0838aNXuaBQLkas/Xtvb1unyyLKA=",
+              "PublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEyk6uIUNugOojm3akdEAA4XoGGBEui0zPVhzkjR0RfprHFWrbPpFMfExaW2TaeChaegCmjE2boFph1aI1eNEPcQ==",
+              "Revision": {
+                "DownloadLink": null,
+                "DownloadLinks": [
+                  "https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/HSPF_MasterClass_Libraries_AMLEd2_1.2.0.aml"
+                ],
+                "Signature": "MEUCIQDUvhBCZWLebkYNMqXj6cjS\u002BgqMO03EFy5bqkw2alnq0QIga6BVTWijZq6q0rC8AMh\u002BbWZt1Y3VFic9ofTpi1c6eLg=",
+                "Revision": null
+              }
+            },
+            {
+              "Version": "1.1.0",
+              "CAEXVersion": "3.0",
+              "AMLEdition": "AMLEd2",
+              "IsArchived": false,
+              "Description": null,
+              "DownloadLink": null,
+              "DownloadLinks": [
+                "https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/HSPF_MasterClass_Libraries_AMLEd2_1.0.0.aml"
+              ],
+              "Sources": null,
+              "Signature": "MEYCIQDFX1uPLBGBmX0c7oEIUHNcp13DEyRRKFj0Oc5/LZ\u002BFEwIhALJvwdoHwAPcdDgGNEOgUAMVihl4HvqfU\u002BBySAuOUsEt",
+              "PublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEyk6uIUNugOojm3akdEAA4XoGGBEui0zPVhzkjR0RfprHFWrbPpFMfExaW2TaeChaegCmjE2boFph1aI1eNEPcQ==",
+              "Revision": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "CAEXType": "SystemUnitClassLib",
+      "Libraries": [
+        {
+          "Name": "HSPF_MasterClass_SystemUnitClassLib",
+          "Versions": [
+            {
+              "Version": "1.0.0",
+              "CAEXVersion": "3.0",
+              "AMLEdition": "AMLEd2",
+              "IsArchived": false,
+              "Description": null,
+              "DownloadLink": null,
+              "DownloadLinks": [
+                "https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/HSPF_MasterClass_Libraries_AMLEd2_1.0.0.aml"
+              ],
+              "Sources": null,
+              "Signature": "MEUCIFgBzUwoQoZVweX52G\u002BKAmQgLduLWwoZFq/j/5z5EgBYAiEA1Lzeq1m\u002BGoTs\u002Bd3wswHWJPmSPPC4DcRKDc7UNCFH2MI=",
               "PublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEyk6uIUNugOojm3akdEAA4XoGGBEui0zPVhzkjR0RfprHFWrbPpFMfExaW2TaeChaegCmjE2boFph1aI1eNEPcQ==",
               "Revision": null
             }
