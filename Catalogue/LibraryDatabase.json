@@ -127,7 +127,14 @@
                   "https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/HSPF_MasterClass_AttributeTypeLib_AMLEd2_1.0.1.aml"
                 ],
                 "Signature": "MEUCIHObLlwC4Vz035q6BL3OXJzhNIbhXseXHU/bP5RkIOr1AiEAlZdboONPTgvASuY/8mzp0CxkPjscgs8huH4Yrxwj4Ak=",
-                "Revision": null
+                "Revision": {
+                  "DownloadLink": null,
+                  "DownloadLinks": [
+                    "https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/HSPF_MasterClass_AttributeTypeLib_AMLEd2_1.0.1.aml"
+                  ],
+                  "Signature": "MEUCIBBfNNVxntlamtReAggHCKn4JbLGTbDQJRC6sorNoE1SAiEA3RhpIxm3Egkrf1edxHJ4AlhpsYFHw7PfvbuQAR/4Wb4=",
+                  "Revision": null
+                }
               }
             },
             {
@@ -142,6 +149,21 @@
               ],
               "Sources": null,
               "Signature": "MEUCICpRx/1IpXvbIbRbswARVAnuAtylpJWdYWm3tvkSaDM7AiEAtq98ACpaSP\u002BB3/PiKxI23\u002BKGdBSYhFpAb2K4/Sp2HoQ=",
+              "PublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEyk6uIUNugOojm3akdEAA4XoGGBEui0zPVhzkjR0RfprHFWrbPpFMfExaW2TaeChaegCmjE2boFph1aI1eNEPcQ==",
+              "Revision": null
+            },
+            {
+              "Version": "1.0.2",
+              "CAEXVersion": "3.0",
+              "AMLEdition": "AMLEd2",
+              "IsArchived": false,
+              "Description": "Eine experimentelle Attributtyplibrary",
+              "DownloadLink": null,
+              "DownloadLinks": [
+                "https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/HSPF_MasterClass_AttributeTypeLib_AMLEd2_1.0.2.aml"
+              ],
+              "Sources": null,
+              "Signature": "MEUCIQCvdYNiaNYzqho5VwVaX0Xl06sYb5XqkiwsZsa/ICmn6gIgY4zisVie3\u002BmrglHs5npcPH6\u002B7YWLIdzJcHt\u002B8RGGYL4=",
               "PublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEyk6uIUNugOojm3akdEAA4XoGGBEui0zPVhzkjR0RfprHFWrbPpFMfExaW2TaeChaegCmjE2boFph1aI1eNEPcQ==",
               "Revision": null
             }
