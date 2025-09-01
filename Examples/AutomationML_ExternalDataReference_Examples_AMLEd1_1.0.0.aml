@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CAEXFile FileName="AutomationML_ExternalDataReference_Examples_AMLEd1_1.0.0.aml" SchemaVersion="2.15" xsi:noNamespaceSchemaLocation="CAEX_ClassModel_V2.15.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <AdditionalInformation AutomationMLVersion="2.0" />
+  <AdditionalInformation>
+    <WriterHeader>
+      <WriterName>AutomationML Editor</WriterName>
+      <WriterID>916578CA-FE0D-474E-A4FC-9E1719892369</WriterID>
+      <WriterVendor>AutomationML e.V.</WriterVendor>
+      <WriterVendorURL>www.AutomationML.org</WriterVendorURL>
+      <WriterVersion>6.2.0.0</WriterVersion>
+      <WriterRelease>6.2.0.0</WriterRelease>
+      <LastWritingDateTime>2024-02-08T16:37:37.2932145</LastWritingDateTime>
+      <WriterProjectTitle>unspecified</WriterProjectTitle>
+      <WriterProjectID>unspecified</WriterProjectID>
+    </WriterHeader>
+  </AdditionalInformation>
+  <ExternalReference Path="https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/AutomationML_Base_Libraries_AMLEd1_2.2.0.aml" Alias="AutomationMLBaseLibraries" />
+  <ExternalReference Path="https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/AutomationML_BPR_ExternalReference_AMLEd1_1.0.1.aml" Alias="AutomationMLBPRExternalReference" />
+  <ExternalReference Path="https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/AutomationML_DMI_RoleClassLib_AMLEd1_2.4.0.aml" Alias="AutomationMLDMIRoleClassLib" />
+  <ExternalReference Path="https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/AutomationML_CS_RoleClassLib_AMLEd1_2.3.0.aml" Alias="AutomationMLCSRoleClassLib" />
+  <ExternalReference Path="https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/AutomationML_BMI_RoleClassLib_AMLEd1_1.1.0.aml" Alias="AutomationMLBMIRoleClassLib" />
+  <ExternalReference Path="https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/AutomationML_CMI_RoleClassLib_AMLEd1_1.1.0.aml" Alias="AutomationMLCMIRoleClassLib" />
+  <ExternalReference Path="https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/AutomationML_DMI_RoleClassLib_Extenstion_AMLEd1_2.7.0.aml" Alias="AutomationMLDMIRoleClassLibExtension" />
+  <InstanceHierarchy Name="DocumentationExample">
+    <Version>1.0.0</Version>
+    <InternalElement Name="Enterprise" ID="545ac16b-a3aa-4981-8337-f94ade016fc5">
+      <InternalElement Name="Site" ID="1bb990c6-9cf5-4c03-abb0-c01474e56ad0">
+        <InternalElement Name="ProductionArea_1" ID="3acb2c07-8368-48f0-b344-138a6c645fae">
+          <InternalElement Name="ProductionLine_15" ID="786cec15-924f-49db-a3e6-7da24836a814">
+            <InternalElement Name="WorkCell_156" ID="c00c2f19-872a-4c8b-a321-da9d7f5abc5b">
+              <InternalElement Name="Tool_Example_1" ID="be3646cf-2f2a-43d3-a1fc-3012c6828ab5">
+                <InternalElement Name="Tool-Documentation_A_Bedienungsanleitung" ID="554baab0-30ba-4e53-8932-14ec25cce921">
+                  <Attribute Name="aml-DocLang" AttributeDataType="xs:string">
+                    <Value>de-DE</Value>
+                  </Attribute>
+                  <ExternalInterface Name="DocumentLink" RefBaseClassPath="AutomationMLBPRExternalReference@AutomationMLBPRInterfaceClassLib/ExternalDataReference" ID="0a5ec13b-949e-4ac1-894b-0875d96fa204">
+                    <Attribute Name="MIMEType" AttributeDataType="xs:string">
+                      <Value>application/pdf</Value>
+                    </Attribute>
+                    <Attribute Name="refURI" AttributeDataType="xs:anyURI">
+                      <Value>./Tool-User-Manual_1234.pdf</Value>
+                    </Attribute>
+                  </ExternalInterface>
+                  <RoleRequirements RefBaseRoleClassPath="AutomationMLBPRExternalReference@AutomationMLBPRRoleClassLib/ExternalData/UserManual" />
+                </InternalElement>
+                <InternalElement Name="Tool-Documentation_B_Stueckliste" ID="3ccc2762-d560-4c35-8f89-ff2316516a6f">
+                  <Attribute Name="aml-DocLang" AttributeDataType="xs:string">
+                    <Value>de-DE</Value>
+                  </Attribute>
+                  <ExternalInterface Name="Link" RefBaseClassPath="AutomationMLBPRExternalReference@AutomationMLBPRInterfaceClassLib/ExternalDataReference" ID="d7941629-03ac-4b95-8c24-e0f76853aa0a">
+                    <Attribute Name="MIMEType" AttributeDataType="xs:string">
+                      <Value>application/pdf</Value>
+                    </Attribute>
+                    <Attribute Name="refURI" AttributeDataType="xs:anyURI">
+                      <Value>./BoM_german_771-5.pdf</Value>
+                    </Attribute>
+                  </ExternalInterface>
+                  <RoleRequirements RefBaseRoleClassPath="AutomationMLBPRExternalReference@AutomationMLBPRRoleClassLib/ExternalData/BillOfMaterial" />
+                </InternalElement>
+                <InternalElement Name="Tool-Documentation_C_BillOfMaterial" ID="ff682cfc-93a5-4145-9f7c-595d24d05088">
+                  <Attribute Name="aml-DocLang" AttributeDataType="xs:string">
+                    <Value>en-US</Value>
+                  </Attribute>
+                  <ExternalInterface Name="Document" RefBaseClassPath="AutomationMLBPRExternalReference@AutomationMLBPRInterfaceClassLib/ExternalDataReference" ID="9ccffc16-9ef7-4a4b-b518-0933997e3efa">
+                    <Attribute Name="MIMEType" AttributeDataType="xs:string">
+                      <Value>application/msword</Value>
+                    </Attribute>
+                    <Attribute Name="refURI" AttributeDataType="xs:anyURI">
+                      <Value>./BoM_EN_781.doc</Value>
+                    </Attribute>
+                  </ExternalInterface>
+                  <RoleRequirements RefBaseRoleClassPath="AutomationMLBPRExternalReference@AutomationMLBPRRoleClassLib/ExternalData/BillOfMaterial" />
+                </InternalElement>
+                <RoleRequirements RefBaseRoleClassPath="AutomationMLDMIRoleClassLib@AutomationMLDMIRoleClassLib/DiscManufacturingEquipment/Tool" />
+              </InternalElement>
+              <InternalElement Name="Tool_Example_2" ID="15248e57-3220-4a2b-9865-f20467c5b4da">
+                <InternalElement Name="Tool-Docu_D_Bedienungsanleitung" ID="628b1ce7-15b9-4210-ba73-eb53146f046b">
+                  <Attribute Name="aml-DocLang" AttributeDataType="xs:string">
+                    <Value>de-DE</Value>
+                  </Attribute>
+                  <ExternalInterface Name="DocumentLink" RefBaseClassPath="AutomationMLBPRExternalReference@AutomationMLBPRInterfaceClassLib/ExternalDataReference" ID="bdb1ffd5-7149-4f68-91d8-69419bcbf4f7">
+                    <Attribute Name="MIMEType" AttributeDataType="xs:string">
+                      <Value>application/pdf</Value>
+                    </Attribute>
+                    <Attribute Name="refURI" AttributeDataType="xs:anyURI">
+                      <Value>./Tool-Manual_456.pdf</Value>
+                    </Attribute>
+                  </ExternalInterface>
+                  <ExternalInterface Name="Document" RefBaseClassPath="AutomationMLBPRExternalReference@AutomationMLBPRInterfaceClassLib/ExternalDataReference" ID="a8053735-9d89-447d-b9a3-8f70aabebd79">
+                    <Attribute Name="MIMEType" AttributeDataType="xs:string">
+                      <Value>application/msword</Value>
+                    </Attribute>
+                    <Attribute Name="refURI" AttributeDataType="xs:anyURI">
+                      <Value>./Tool-Manual_568.doc</Value>
+                    </Attribute>
+                  </ExternalInterface>
+                  <RoleRequirements RefBaseRoleClassPath="AutomationMLBPRExternalReference@AutomationMLBPRRoleClassLib/ExternalData/UserManual" />
+                </InternalElement>
+                <RoleRequirements RefBaseRoleClassPath="AutomationMLDMIRoleClassLib@AutomationMLDMIRoleClassLib/DiscManufacturingEquipment/Tool" />
+              </InternalElement>
+              <InternalElement Name="Tool_Example_3" ID="827cbadb-cbc0-4796-93d3-ea43a6f843d6">
+                <InternalElement Name="Lang-mixed_Tool-Docu_E_Manual" ID="a7c2ae0e-93a1-4bf0-bf10-16c06e2eb179">
+                  <Attribute Name="aml-DocLang" AttributeDataType="xs:string">
+                    <RefSemantic CorrespondingAttributePath="ListType" />
+                    <Attribute Name="item1" AttributeDataType="xs:string">
+                      <Value>en-US</Value>
+                    </Attribute>
+                    <Attribute Name="item2" AttributeDataType="xs:string">
+                      <Value>de-DE</Value>
+                    </Attribute>
+                  </Attribute>
+                  <ExternalInterface Name="Document" RefBaseClassPath="AutomationMLBPRExternalReference@AutomationMLBPRInterfaceClassLib/ExternalDataReference" ID="bc30b4a2-32c9-434b-9ffa-52b18068824f">
+                    <Attribute Name="MIMEType" AttributeDataType="xs:string">
+                      <Value>application/pdf</Value>
+                    </Attribute>
+                    <Attribute Name="refURI" AttributeDataType="xs:anyURI">
+                      <Value>./Manual_AB3882.pdf</Value>
+                    </Attribute>
+                  </ExternalInterface>
+                  <RoleRequirements RefBaseRoleClassPath="AutomationMLBPRExternalReference@AutomationMLBPRRoleClassLib/ExternalData/UserManual" />
+                </InternalElement>
+                <RoleRequirements RefBaseRoleClassPath="AutomationMLDMIRoleClassLib@AutomationMLDMIRoleClassLib/DiscManufacturingEquipment/Tool" />
+              </InternalElement>
+              <InternalElement Name="Tool_Example_4" ID="44f7fcf7-bbdb-4158-a50d-53ef6ef6f2e6">
+                <InternalElement Name="mixed_Documentation_F" ID="4dd5f1f7-fc7f-4658-a853-df2d0e2186cd">
+                  <Attribute Name="aml-DocLang" AttributeDataType="xs:string">
+                    <Value>en-US</Value>
+                  </Attribute>
+                  <ExternalInterface Name="Document" RefBaseClassPath="AutomationMLBPRExternalReference@AutomationMLBPRInterfaceClassLib/ExternalDataReference" ID="82c199be-76a6-49a1-a5d5-d8246518d67b">
+                    <Attribute Name="MIMEType" AttributeDataType="xs:string">
+                      <Value>application/msword</Value>
+                    </Attribute>
+                    <Attribute Name="refURI" AttributeDataType="xs:anyURI">
+                      <Value>./BoM_Manual_english.doc</Value>
+                    </Attribute>
+                  </ExternalInterface>
+                  <SupportedRoleClass RefRoleClassPath="AutomationMLBPRExternalReference@AutomationMLBPRRoleClassLib/ExternalData/UserManual" />
+                  <RoleRequirements RefBaseRoleClassPath="AutomationMLBPRExternalReference@AutomationMLBPRRoleClassLib/ExternalData/BillOfMaterial" />
+                </InternalElement>
+                <RoleRequirements RefBaseRoleClassPath="AutomationMLDMIRoleClassLib@AutomationMLDMIRoleClassLib/DiscManufacturingEquipment/Tool" />
+              </InternalElement>
+              <RoleRequirements RefBaseRoleClassPath="AutomationMLDMIRoleClassLibExtension@AutomationMLExtendedRoleClassLib/WorkCell" />
+            </InternalElement>
+            <RoleRequirements RefBaseRoleClassPath="AutomationMLDMIRoleClassLibExtension@AutomationMLExtendedRoleClassLib/ProductionLine" />
+          </InternalElement>
+          <RoleRequirements RefBaseRoleClassPath="AutomationMLDMIRoleClassLibExtension@AutomationMLExtendedRoleClassLib/Area" />
+        </InternalElement>
+        <RoleRequirements RefBaseRoleClassPath="AutomationMLDMIRoleClassLibExtension@AutomationMLExtendedRoleClassLib/Site" />
+      </InternalElement>
+      <RoleRequirements RefBaseRoleClassPath="AutomationMLDMIRoleClassLibExtension@AutomationMLExtendedRoleClassLib/Enterprise" />
+    </InternalElement>
+  </InstanceHierarchy>
+</CAEXFile>
