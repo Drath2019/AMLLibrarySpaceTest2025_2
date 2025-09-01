@@ -7,5 +7,14 @@
     "LibraryVersion": "1.0.0",
     "AMLEdition": "AMLEd2",
     "ID": "a36d9681-9093-4533-9189-60e2b41f91b7"
+  },
+  {
+    "ClassName": "Robot",
+    "CaexPath": "HSPF_MasterClass_RoleClassLib/Robot",
+    "BasePath": "AutomationMLBaseLibrariesAMLEd22_11_0@AutomationMLBaseRoleClassLib/AutomationMLBaseRole/Resource",
+    "LibraryName": "HSPF_MasterClass_RoleClassLib",
+    "LibraryVersion": "1.1.0",
+    "AMLEdition": "AMLEd2",
+    "ID": "a36d9681-9093-4533-9189-60e2b41f91b7"
   }
 ]
