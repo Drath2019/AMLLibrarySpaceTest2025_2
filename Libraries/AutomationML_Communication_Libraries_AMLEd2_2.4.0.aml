@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CAEXFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.dke.de/CAEX" SchemaVersion="3.0" FileName="AutomationML_Communication_Libraries_AMLEd2_2.4.0.aml" xsi:schemaLocation="http://www.dke.de/CAEX CAEX_ClassModel_V.3.0.xsd">
+  <AdditionalInformation AutomationMLVersion="2.0" />
+  <SuperiorStandardVersion>AutomationML 2.1</SuperiorStandardVersion>
+  <SourceDocumentInformation OriginName="Communication_Libraries" OriginID="31db5955-bdce-4178-a719-06b7633f6dc8" OriginVersion="2.4.0" LastWritingDateTime="2025-03-14T14:42:41.5126576+01:00" OriginProjectID="" OriginProjectTitle="" OriginRelease="2.4.0" OriginVendorURL="https://automationml.org/AutomationML_Communication_Libraries_AMLEd2_2.4.0.aml" />
+  <ExternalReference Path="https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/AutomationML_Base_Libraries_AMLEd2_2.11.0.aml" Alias="AutomationMLBaseLibraries" />
+  <ExternalReference Path="https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/AutomationML_Communication_Libraries_AMLEd1_1.0.0.aml" Alias="AutomationMLCommunicationLibrariesAMLEd11_0_0">
+    <Description>VersionRef</Description>
+    <Version>OldVersion</Version>
+  </ExternalReference>
+  <InterfaceClassLib Name="CommunicationInterfaceClassLib" ID="800425b3-9164-4294-81ee-61143c316a03">
+    <Description>AutomationML Communication Interface Class Library</Description>
+    <Version>2.4.0</Version>
+    <Revision>
+      <RevisionDate>2025-03-14T14:42:41.4826798+01:00</RevisionDate>
+      <OldVersion>AutomationMLCommunicationLibrariesAMLEd11_0_0@CommunicationInterfaceClassLib</OldVersion>
+      <AuthorName>mri</AuthorName>
+    </Revision>
+    <InterfaceClass Name="PhysicalEndPoint" RefBaseClassPath="AutomationMLBaseLibraries@AutomationMLInterfaceClassLib/AutomationMLBaseInterface/Communication" ID="ebfd409e-7e06-4dfd-8984-b10581b70ffc">
+      <Description>interface type to be used for modelling physical end points, e.g. physical sockets</Description>
+      <Version>2.4.0</Version>
+      <Revision>
+        <RevisionDate>2025-03-14T14:42:41.4872233+01:00</RevisionDate>
+        <OldVersion>AutomationMLCommunicationLibrariesAMLEd11_0_0@CommunicationInterfaceClassLib/PhysicalEndPoint</OldVersion>
+        <AuthorName>mri</AuthorName>
+      </Revision>
+    </InterfaceClass>
+    <InterfaceClass Name="LogicalEndPoint" RefBaseClassPath="AutomationMLBaseLibraries@AutomationMLInterfaceClassLib/AutomationMLBaseInterface/Communication" ID="29276f79-6e7d-4a74-b0ad-92d1f9f1c447">
+      <Description>interface type to be used for modelling logical end points</Description>
+      <Version>2.4.0</Version>
+      <Revision>
+        <RevisionDate>2025-03-14T14:42:41.4911165+01:00</RevisionDate>
+        <OldVersion>AutomationMLCommunicationLibrariesAMLEd11_0_0@CommunicationInterfaceClassLib/LogicalEndPoint</OldVersion>
+        <AuthorName>mri</AuthorName>
+      </Revision>
+    </InterfaceClass>
+    <InterfaceClass Name="DatagrammObject" RefBaseClassPath="AutomationMLBaseLibraries@AutomationMLInterfaceClassLib/AutomationMLBaseInterface/Communication" ID="21afe9f2-3bdb-4ef3-9395-41bd90a1f378">
+      <Description>interface type to be used for modelling parts of a communication package exchanged via a logical connection between logical devices</Description>
+      <Version>2.4.0</Version>
+      <Revision>
+        <RevisionDate>2025-03-14T14:42:41.495546+01:00</RevisionDate>
+        <OldVersion>AutomationMLCommunicationLibrariesAMLEd11_0_0@CommunicationInterfaceClassLib/DatagrammObject</OldVersion>
+        <AuthorName>mri</AuthorName>
+      </Revision>
+    </InterfaceClass>
+  </InterfaceClassLib>
+  <RoleClassLib Name="CommunicationRoleClassLib" ID="8e6e9fae-8bb6-4878-af82-4cdc62ffeda9">
+    <Description>standard role classes required for the modelling of core communication concepts</Description>
+    <Version>2.4.0</Version>
+    <Revision>
+      <RevisionDate>2025-03-14T14:42:41.3691479+01:00</RevisionDate>
+      <OldVersion>AutomationMLCommunicationLibrariesAMLEd11_0_0@CommunicationRoleClassLib</OldVersion>
+      <AuthorName>mri</AuthorName>
+    </Revision>
+    <RoleClass Name="PhysicalDevice" RefBaseClassPath="AutomationMLBaseLibraries@AutomationMLBaseRoleClassLib/AutomationMLBaseRole/Resource" ID="f7e7bbe7-19f4-4b34-8371-ac76f32adac7">
+      <Description>role type for objects that represent physical devices </Description>
+      <Version>2.4.0</Version>
+      <Revision>
+        <RevisionDate>2025-03-14T14:42:41.3797099+01:00</RevisionDate>
+        <OldVersion>AutomationMLCommunicationLibrariesAMLEd11_0_0@CommunicationRoleClassLib/PhysicalDevice</OldVersion>
+        <AuthorName>mri</AuthorName>
+      </Revision>
+      <RoleClass Name="PhysicalEndpointlist" RefBaseClassPath="AutomationMLBaseLibraries@AutomationMLBaseRoleClassLib/AutomationMLBaseRole" ID="3286b2fd-64f2-4faa-8ce3-a1f24654f190">
+        <Description>role describing the hierarchy element collecting physical interfaces of a physical device</Description>
+        <Version>2.4.0</Version>
+        <Revision>
+          <RevisionDate>2025-03-14T14:42:41.4480099+01:00</RevisionDate>
+          <OldVersion>AutomationMLCommunicationLibrariesAMLEd11_0_0@CommunicationRoleClassLib/PhysicalDevice/PhysicalEndpointlist</OldVersion>
+          <AuthorName>mri</AuthorName>
+        </Revision>
+      </RoleClass>
+    </RoleClass>
+    <RoleClass Name="PhysicalConnection" RefBaseClassPath="AutomationMLBaseLibraries@AutomationMLBaseRoleClassLib/AutomationMLBaseRole/Resource" ID="0883918c-786e-4a54-8a59-ef8321df20a0">
+      <Description>role type describing hierarchy element collecting physical interfaces</Description>
+      <Version>2.4.0</Version>
+      <Revision>
+        <RevisionDate>2025-03-14T14:42:41.4550219+01:00</RevisionDate>
+        <OldVersion>AutomationMLCommunicationLibrariesAMLEd11_0_0@CommunicationRoleClassLib/PhysicalConnection</OldVersion>
+        <AuthorName>mri</AuthorName>
+      </Revision>
+    </RoleClass>
+    <RoleClass Name="PhysicalNetwork" RefBaseClassPath="AutomationMLBaseLibraries@AutomationMLBaseRoleClassLib/AutomationMLBaseRole/Resource" ID="ea2a667e-c961-4e32-89d1-26b3b6622bec">
+      <Description>role type describing the network of physical connections</Description>
+      <Version>2.4.0</Version>
+      <Revision>
+        <RevisionDate>2025-03-14T14:42:41.458479+01:00</RevisionDate>
+        <OldVersion>AutomationMLCommunicationLibrariesAMLEd11_0_0@CommunicationRoleClassLib/PhysicalNetwork</OldVersion>
+        <AuthorName>mri</AuthorName>
+      </Revision>
+    </RoleClass>
+    <RoleClass Name="LogicalDevice" RefBaseClassPath="AutomationMLBaseLibraries@AutomationMLBaseRoleClassLib/AutomationMLBaseRole/Resource" ID="02fa5b49-7617-4fdd-8adb-200969f472ff">
+      <Description>role type for objects that represent logical devices</Description>
+      <Version>2.4.0</Version>
+      <Revision>
+        <RevisionDate>2025-03-14T14:42:41.4616971+01:00</RevisionDate>
+        <OldVersion>AutomationMLCommunicationLibrariesAMLEd11_0_0@CommunicationRoleClassLib/LogicalDevice</OldVersion>
+        <AuthorName>mri</AuthorName>
+      </Revision>
+      <RoleClass Name="LogicalEndpointlist" RefBaseClassPath="AutomationMLBaseLibraries@AutomationMLBaseRoleClassLib/AutomationMLBaseRole" ID="920e447c-686b-4d96-9537-a1dd9cbbce32">
+        <Description>models a hierarchy element collecting logical interfaces of a logical device</Description>
+        <Version>2.4.0</Version>
+        <Revision>
+          <RevisionDate>2025-03-14T14:42:41.4649357+01:00</RevisionDate>
+          <OldVersion>AutomationMLCommunicationLibrariesAMLEd11_0_0@CommunicationRoleClassLib/LogicalDevice/LogicalEndpointlist</OldVersion>
+          <AuthorName>mri</AuthorName>
+        </Revision>
+      </RoleClass>
+    </RoleClass>
+    <RoleClass Name="LogicalConnection" RefBaseClassPath="AutomationMLBaseLibraries@AutomationMLBaseRoleClassLib/AutomationMLBaseRole/Resource" ID="e7928d33-5e39-4433-a513-fc71caca7929">
+      <Description>abstract role type describing a logical connection between logical interfaces of logical devices</Description>
+      <Version>2.4.0</Version>
+      <Revision>
+        <RevisionDate>2025-03-14T14:42:41.4690663+01:00</RevisionDate>
+        <OldVersion>AutomationMLCommunicationLibrariesAMLEd11_0_0@CommunicationRoleClassLib/LogicalConnection</OldVersion>
+        <AuthorName>mri</AuthorName>
+      </Revision>
+    </RoleClass>
+    <RoleClass Name="LogicalNetwork" RefBaseClassPath="AutomationMLBaseLibraries@AutomationMLBaseRoleClassLib/AutomationMLBaseRole/Resource" ID="5a2ee5dd-83eb-4b47-9b70-c096315392d1">
+      <Description>role type describing the network of logical connections</Description>
+      <Version>2.4.0</Version>
+      <Revision>
+        <RevisionDate>2025-03-14T14:42:41.472918+01:00</RevisionDate>
+        <OldVersion>AutomationMLCommunicationLibrariesAMLEd11_0_0@CommunicationRoleClassLib/LogicalNetwork</OldVersion>
+        <AuthorName>mri</AuthorName>
+      </Revision>
+    </RoleClass>
+    <RoleClass Name="CommunicationPackage" RefBaseClassPath="AutomationMLBaseLibraries@AutomationMLBaseRoleClassLib/AutomationMLBaseRole" ID="13b07bdd-19d1-4481-baa8-d847efdc0307">
+      <Description>role type for objects that represent communication packages</Description>
+      <Version>2.4.0</Version>
+      <Revision>
+        <RevisionDate>2025-03-14T14:42:41.4787312+01:00</RevisionDate>
+        <OldVersion>AutomationMLCommunicationLibrariesAMLEd11_0_0@CommunicationRoleClassLib/CommunicationPackage</OldVersion>
+        <AuthorName>mri</AuthorName>
+      </Revision>
+    </RoleClass>
+  </RoleClassLib>
+</CAEXFile>
