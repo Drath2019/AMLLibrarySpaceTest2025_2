@@ -7,14 +7,5 @@
     "LibraryVersion": "1.0.0",
     "AMLEdition": "AMLEd2",
     "ID": "3274946f-a1fc-4f41-9765-6939d8b01c4a"
-  },
-  {
-    "ClassName": "USB",
-    "CaexPath": "HSPF_MasterClass_InterfaceClassLib/USB",
-    "BasePath": "AutomationMLBaseLibrariesAMLEd22_11_0@AutomationMLInterfaceClassLib/AutomationMLBaseInterface/Communication/SignalInterface",
-    "LibraryName": "HSPF_MasterClass_InterfaceClassLib",
-    "LibraryVersion": "1.1.0",
-    "AMLEdition": "AMLEd2",
-    "ID": "3274946f-a1fc-4f41-9765-6939d8b01c4a"
   }
 ]
