@@ -1,0 +1,90 @@
+{
+  "Libraries": [
+    {
+      "CAEXType": "AttributeTypeLib",
+      "Libraries": [
+        {
+          "Name": "AutomationML_BasicProperties.General_AttributeTypeLib",
+          "Versions": [
+            {
+              "Version": "0.0.5",
+              "CAEXVersion": "3.0",
+              "AMLEdition": "AMLEd2",
+              "IsArchived": false,
+              "Description": "Attribute type library of general basic properties - for demonstration purposes (DEMO)",
+              "DownloadLink": null,
+              "DownloadLinks": [
+                "https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/AutomationML_BasicProperties_Libraries_AMLEd2_0.0.5.aml"
+              ],
+              "Sources": null,
+              "Signature": "MEQCIC4dBrcuhS5IArVL0yNTXjGkJDv7ZFq\u002BxCuXaWGoQRyCAiB8ZEBO8dELsdBIhnpPs2fxOSIHfgvltOJm1BlgTzHgrg==",
+              "PublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEyk6uIUNugOojm3akdEAA4XoGGBEui0zPVhzkjR0RfprHFWrbPpFMfExaW2TaeChaegCmjE2boFph1aI1eNEPcQ==",
+              "Revision": null
+            }
+          ]
+        },
+        {
+          "Name": "AutomationML_BasicProperties.Color_AttributeTypeLib",
+          "Versions": [
+            {
+              "Version": "0.0.5",
+              "CAEXVersion": "3.0",
+              "AMLEdition": "AMLEd2",
+              "IsArchived": false,
+              "Description": "Attribute type library of basic color attribute types - for demonstration purposes (DEMO)",
+              "DownloadLink": null,
+              "DownloadLinks": [
+                "https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/AutomationML_BasicProperties_Libraries_AMLEd2_0.0.5.aml"
+              ],
+              "Sources": null,
+              "Signature": "MEQCIAL8C67tIzrHVrQIZYi9vz41JG6aJ4ReMFRD3NIoZ3xLAiBkX\u002BPVH9G\u002Bj1DgvQFUZSI7DswfdG8SqlrM4uzj8K58tQ==",
+              "PublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEyk6uIUNugOojm3akdEAA4XoGGBEui0zPVhzkjR0RfprHFWrbPpFMfExaW2TaeChaegCmjE2boFph1aI1eNEPcQ==",
+              "Revision": null
+            }
+          ]
+        },
+        {
+          "Name": "AutomationML_BasicProperties.Physics_AttributeTypeLib",
+          "Versions": [
+            {
+              "Version": "0.0.5",
+              "CAEXVersion": "3.0",
+              "AMLEdition": "AMLEd2",
+              "IsArchived": false,
+              "Description": "Attribute type library of basic physics attribute types - for demonstration purposes (DEMO",
+              "DownloadLink": null,
+              "DownloadLinks": [
+                "https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/AutomationML_BasicProperties_Libraries_AMLEd2_0.0.5.aml"
+              ],
+              "Sources": null,
+              "Signature": "MEUCIDQ2tUGnd0G79oZcVjwr2LeXugpNk1UZcGZF5qHJVBa/AiEAm884mvAWF67wpwN/V//CvvrxJXZmKmB7Or1H9w3P5DU=",
+              "PublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEyk6uIUNugOojm3akdEAA4XoGGBEui0zPVhzkjR0RfprHFWrbPpFMfExaW2TaeChaegCmjE2boFph1aI1eNEPcQ==",
+              "Revision": null
+            }
+          ]
+        },
+        {
+          "Name": "AutomationML_BasicProperties.Electrics_AttributeTypeLib",
+          "Versions": [
+            {
+              "Version": "0.0.5",
+              "CAEXVersion": "3.0",
+              "AMLEdition": "AMLEd2",
+              "IsArchived": false,
+              "Description": "Attribute type library of basic electric attribute types - (DEMO)",
+              "DownloadLink": null,
+              "DownloadLinks": [
+                "https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/AutomationML_BasicProperties_Libraries_AMLEd2_0.0.5.aml"
+              ],
+              "Sources": null,
+              "Signature": "MEQCIGk01Re1jFc\u002ByKhZRZYnNqjZc55zAH41RQGcrDSjF7gRAiB8IrR/ZkvhMwgFy2as6NZMxRCT9Qd9arl006RcDI\u002BCXg==",
+              "PublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEyk6uIUNugOojm3akdEAA4XoGGBEui0zPVhzkjR0RfprHFWrbPpFMfExaW2TaeChaegCmjE2boFph1aI1eNEPcQ==",
+              "Revision": null
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "PublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEyk6uIUNugOojm3akdEAA4XoGGBEui0zPVhzkjR0RfprHFWrbPpFMfExaW2TaeChaegCmjE2boFph1aI1eNEPcQ=="
+}
