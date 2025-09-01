@@ -7,25 +7,59 @@
     <Description>VersionRef</Description>
     <Version>OldVersion</Version>
   </ExternalReference>
+  <ExternalReference Path="https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/HSPF_MasterClass_Libraries_AMLEd2_1.3.0.aml" Alias="HSPFMasterClassLibrariesAMLEd21_3_0">
+    <Description>VersionRef</Description>
+    <Version>NewVersion</Version>
+  </ExternalReference>
   <InterfaceClassLib Name="HSPF_MasterClass_InterfaceClassLib" ID="0189e345-2a2a-4bba-a5ee-cb03a5337bc0">
     <Version>1.0.0</Version>
+    <Revision>
+      <RevisionDate>2025-09-01T10:28:42.4903135+02:00</RevisionDate>
+      <NewVersion>HSPFMasterClassLibrariesAMLEd21_3_0@HSPF_MasterClass_InterfaceClassLib</NewVersion>
+      <AuthorName>drath</AuthorName>
+    </Revision>
     <InterfaceClass Name="USB" ID="3274946f-a1fc-4f41-9765-6939d8b01c4a">
       <Description>asdf</Description>
       <Version>1.0.0</Version>
+      <Revision>
+        <RevisionDate>2025-09-01T10:28:42.4945175+02:00</RevisionDate>
+        <NewVersion>HSPFMasterClassLibrariesAMLEd21_3_0@HSPF_MasterClass_InterfaceClassLib/USB</NewVersion>
+        <AuthorName>drath</AuthorName>
+      </Revision>
     </InterfaceClass>
   </InterfaceClassLib>
   <RoleClassLib Name="HSPF_MasterClass_RoleClassLib" ID="95a01287-f2d7-4766-a2af-edf3fa82a667">
     <Version>1.0.0</Version>
+    <Revision>
+      <RevisionDate>2025-09-01T10:28:42.4705985+02:00</RevisionDate>
+      <NewVersion>HSPFMasterClassLibrariesAMLEd21_3_0@HSPF_MasterClass_RoleClassLib</NewVersion>
+      <AuthorName>drath</AuthorName>
+    </Revision>
     <RoleClass Name="Robot" ID="1838f047-ecf2-4d3b-a010-1a4ad8acc927">
       <Description>asdf</Description>
       <Version>1.0.0</Version>
+      <Revision>
+        <RevisionDate>2025-09-01T10:28:42.4754375+02:00</RevisionDate>
+        <NewVersion>HSPFMasterClassLibrariesAMLEd21_3_0@HSPF_MasterClass_RoleClassLib/Robot</NewVersion>
+        <AuthorName>drath</AuthorName>
+      </Revision>
     </RoleClass>
   </RoleClassLib>
   <SystemUnitClassLib Name="HSPF_MasterClass_SystemUnitClassLib" ID="131140da-4547-4f22-abe9-f3bad5133c60">
     <Version>1.0.0</Version>
+    <Revision>
+      <RevisionDate>2025-09-01T10:28:42.4516656+02:00</RevisionDate>
+      <NewVersion>HSPFMasterClassLibrariesAMLEd21_3_0@HSPF_MasterClass_SystemUnitClassLib</NewVersion>
+      <AuthorName>drath</AuthorName>
+    </Revision>
     <SystemUnitClass Name="Robot1" ID="09e85016-0596-4607-951b-c4c6e8f5279e">
       <Description>asdf</Description>
       <Version>1.0.0</Version>
+      <Revision>
+        <RevisionDate>2025-09-01T10:28:42.4648518+02:00</RevisionDate>
+        <NewVersion>HSPFMasterClassLibrariesAMLEd21_3_0@HSPF_MasterClass_SystemUnitClassLib/Robot1</NewVersion>
+        <AuthorName>drath</AuthorName>
+      </Revision>
       <Attribute Name="laenge-Typ" AttributeDataType="xs:string" RefAttributeType="HSPF_MasterClass_AttributeTypeLib/laenge-Typ" />
       <ExternalInterface Name="USB" ID="16931202-da11-4e0b-846b-8521a818700f" RefBaseClassPath="HSPF_MasterClass_InterfaceClassLib/USB" />
       <SupportedRoleClass RefRoleClassPath="HSPF_MasterClass_RoleClassLib/Robot" />
@@ -39,12 +73,22 @@
       <OldVersion>HSPFMasterClassAttributeTypeLibAMLEd21_1_0@HSPF_MasterClass_AttributeTypeLib</OldVersion>
       <AuthorName>drath</AuthorName>
     </Revision>
+    <Revision>
+      <RevisionDate>2025-09-01T10:28:42.4994934+02:00</RevisionDate>
+      <NewVersion>HSPFMasterClassLibrariesAMLEd21_3_0@HSPF_MasterClass_AttributeTypeLib</NewVersion>
+      <AuthorName>drath</AuthorName>
+    </Revision>
     <AttributeType Name="laenge-Typ" AttributeDataType="xs:string" ID="64b9aaef-c381-49b9-9f47-11ef8bc0eff9">
       <Description>eine geometrische Länge</Description>
       <Version>1.2.0</Version>
       <Revision>
         <RevisionDate>2025-09-01T10:23:48.36508+02:00</RevisionDate>
         <OldVersion>HSPFMasterClassAttributeTypeLibAMLEd21_1_0@HSPF_MasterClass_AttributeTypeLib/laenge-Typ</OldVersion>
+        <AuthorName>drath</AuthorName>
+      </Revision>
+      <Revision>
+        <RevisionDate>2025-09-01T10:28:42.504404+02:00</RevisionDate>
+        <NewVersion>HSPFMasterClassLibrariesAMLEd21_3_0@HSPF_MasterClass_AttributeTypeLib/laenge-Typ</NewVersion>
         <AuthorName>drath</AuthorName>
       </Revision>
     </AttributeType>
@@ -56,6 +100,11 @@
         <OldVersion>HSPFMasterClassAttributeTypeLibAMLEd21_1_0@HSPF_MasterClass_AttributeTypeLib/breite-Typ</OldVersion>
         <AuthorName>drath</AuthorName>
       </Revision>
+      <Revision>
+        <RevisionDate>2025-09-01T10:28:42.509583+02:00</RevisionDate>
+        <NewVersion>HSPFMasterClassLibrariesAMLEd21_3_0@HSPF_MasterClass_AttributeTypeLib/breite-Typ</NewVersion>
+        <AuthorName>drath</AuthorName>
+      </Revision>
     </AttributeType>
     <AttributeType Name="hoeheTyp" AttributeDataType="xs:string" ID="dde31796-c974-4621-9db8-918305b2eb44">
       <Description>eine geometrische Höhe</Description>
@@ -65,6 +114,11 @@
         <OldVersion>HSPFMasterClassAttributeTypeLibAMLEd21_1_0@HSPF_MasterClass_AttributeTypeLib/hoeheTyp</OldVersion>
         <AuthorName>drath</AuthorName>
       </Revision>
+      <Revision>
+        <RevisionDate>2025-09-01T10:28:42.5148318+02:00</RevisionDate>
+        <NewVersion>HSPFMasterClassLibrariesAMLEd21_3_0@HSPF_MasterClass_AttributeTypeLib/hoeheTyp</NewVersion>
+        <AuthorName>drath</AuthorName>
+      </Revision>
     </AttributeType>
     <AttributeType Name="vol" ID="3985f9bf-74d6-49ba-9c8d-0b81171b3bb1" AttributeDataType="xs:string">
       <Description>d</Description>
@@ -72,6 +126,11 @@
       <Revision>
         <RevisionDate>2025-09-01T10:23:48.3693787+02:00</RevisionDate>
         <OldVersion>HSPFMasterClassAttributeTypeLibAMLEd21_1_0@HSPF_MasterClass_AttributeTypeLib/vol</OldVersion>
+        <AuthorName>drath</AuthorName>
+      </Revision>
+      <Revision>
+        <RevisionDate>2025-09-01T10:28:42.5257205+02:00</RevisionDate>
+        <NewVersion>HSPFMasterClassLibrariesAMLEd21_3_0@HSPF_MasterClass_AttributeTypeLib/vol</NewVersion>
         <AuthorName>drath</AuthorName>
       </Revision>
     </AttributeType>
