@@ -1,86 +1,5 @@
 [
   {
-    "ClassName": "speed",
-    "CaexPath": "AutomationML_BasicProperties.Physics_AttributeTypeLib/speed",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.Physics_AttributeTypeLib",
-    "LibraryVersion": "0.0.5",
-    "AMLEdition": "AMLEd2",
-    "ID": "374968f9-ea70-4383-86f5-7f647a6c3db6"
-  },
-  {
-    "ClassName": "electricCurrent",
-    "CaexPath": "AutomationML_BasicProperties.Electrics_AttributeTypeLib/electricCurrent",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.Electrics_AttributeTypeLib",
-    "LibraryVersion": "0.0.5",
-    "AMLEdition": "AMLEd2",
-    "ID": "0dd9f98d-8053-4977-82d8-fd79505001b5"
-  },
-  {
-    "ClassName": "voltage",
-    "CaexPath": "AutomationML_BasicProperties.Electrics_AttributeTypeLib/voltage",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.Electrics_AttributeTypeLib",
-    "LibraryVersion": "0.0.5",
-    "AMLEdition": "AMLEd2",
-    "ID": "d6d4770d-87d9-4d9c-9a8b-863c706ad86a"
-  },
-  {
-    "ClassName": "resistance",
-    "CaexPath": "AutomationML_BasicProperties.Electrics_AttributeTypeLib/resistance",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.Electrics_AttributeTypeLib",
-    "LibraryVersion": "0.0.5",
-    "AMLEdition": "AMLEd2",
-    "ID": "1c770ac0-9256-4ac9-a365-b47c94f43634"
-  },
-  {
-    "ClassName": "capacity",
-    "CaexPath": "AutomationML_BasicProperties.Electrics_AttributeTypeLib/capacity",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.Electrics_AttributeTypeLib",
-    "LibraryVersion": "0.0.5",
-    "AMLEdition": "AMLEd2",
-    "ID": "c075762b-c45a-46a5-ad5c-d1cf04ddda32"
-  },
-  {
-    "ClassName": "magneticFieldStrength",
-    "CaexPath": "AutomationML_BasicProperties.Electrics_AttributeTypeLib/magneticFieldStrength",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.Electrics_AttributeTypeLib",
-    "LibraryVersion": "0.0.5",
-    "AMLEdition": "AMLEd2",
-    "ID": "55469615-1870-4652-8ce5-1dce4da259b1"
-  },
-  {
-    "ClassName": "electricFieldStrength",
-    "CaexPath": "AutomationML_BasicProperties.Electrics_AttributeTypeLib/electricFieldStrength",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.Electrics_AttributeTypeLib",
-    "LibraryVersion": "0.0.5",
-    "AMLEdition": "AMLEd2",
-    "ID": "d200d1fc-79d4-48b4-9786-7bf37b8bef17"
-  },
-  {
-    "ClassName": "velocity",
-    "CaexPath": "AutomationML_BasicProperties.Physics_AttributeTypeLib/velocity",
-    "BasePath": "AutomationML_BasicProperties.Physics_AttributeTypeLib/speed",
-    "LibraryName": "AutomationML_BasicProperties.Physics_AttributeTypeLib",
-    "LibraryVersion": "0.0.5",
-    "AMLEdition": "AMLEd2",
-    "ID": "a6e05a5b-ed15-4e55-9d05-16f16895517d"
-  },
-  {
-    "ClassName": "coordinate",
-    "CaexPath": "AutomationML_BasicProperties.Physics_AttributeTypeLib/coordinate",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.Physics_AttributeTypeLib",
-    "LibraryVersion": "0.0.5",
-    "AMLEdition": "AMLEd2",
-    "ID": "7f408b6c-3fc2-4eb3-b6ef-0e60f532af88"
-  },
-  {
     "ClassName": "color",
     "CaexPath": "AutomationML_BasicProperties.Color_AttributeTypeLib/color",
     "BasePath": null,
@@ -88,51 +7,6 @@
     "LibraryVersion": "0.0.5",
     "AMLEdition": "AMLEd2",
     "ID": "76e133b5-839f-43d2-b195-8681e34af95f"
-  },
-  {
-    "ClassName": "RAL",
-    "CaexPath": "AutomationML_BasicProperties.Color_AttributeTypeLib/RAL",
-    "BasePath": "AutomationML_BasicProperties.Color_AttributeTypeLib/color",
-    "LibraryName": "AutomationML_BasicProperties.Color_AttributeTypeLib",
-    "LibraryVersion": "0.0.5",
-    "AMLEdition": "AMLEd2",
-    "ID": "1917d508-35a2-4d37-80a2-981c4abfd7bf"
-  },
-  {
-    "ClassName": "RGB",
-    "CaexPath": "AutomationML_BasicProperties.Color_AttributeTypeLib/RGB",
-    "BasePath": "AutomationML_BasicProperties.Color_AttributeTypeLib/color",
-    "LibraryName": "AutomationML_BasicProperties.Color_AttributeTypeLib",
-    "LibraryVersion": "0.0.5",
-    "AMLEdition": "AMLEd2",
-    "ID": "738ae261-331e-4534-837f-7a70c051068b"
-  },
-  {
-    "ClassName": "CMYK",
-    "CaexPath": "AutomationML_BasicProperties.Color_AttributeTypeLib/CMYK",
-    "BasePath": "AutomationML_BasicProperties.Color_AttributeTypeLib/color",
-    "LibraryName": "AutomationML_BasicProperties.Color_AttributeTypeLib",
-    "LibraryVersion": "0.0.5",
-    "AMLEdition": "AMLEd2",
-    "ID": "f0fb949b-4b8f-400c-b5a8-665128e53868"
-  },
-  {
-    "ClassName": "point",
-    "CaexPath": "AutomationML_BasicProperties.Physics_AttributeTypeLib/point",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.Physics_AttributeTypeLib",
-    "LibraryVersion": "0.0.5",
-    "AMLEdition": "AMLEd2",
-    "ID": "4c71cf75-f583-4e3e-b75b-d06a531d3fdc"
-  },
-  {
-    "ClassName": "temperature",
-    "CaexPath": "AutomationML_BasicProperties.Physics_AttributeTypeLib/temperature",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.Physics_AttributeTypeLib",
-    "LibraryVersion": "0.0.5",
-    "AMLEdition": "AMLEd2",
-    "ID": "ae160881-21bc-406f-88d6-319ba60dbe66"
   },
   {
     "ClassName": "dimension",
@@ -223,6 +97,132 @@
     "LibraryVersion": "0.0.5",
     "AMLEdition": "AMLEd2",
     "ID": "1932b62f-f31e-4332-87a0-2f77e1af2999"
+  },
+  {
+    "ClassName": "RAL",
+    "CaexPath": "AutomationML_BasicProperties.Color_AttributeTypeLib/RAL",
+    "BasePath": "AutomationML_BasicProperties.Color_AttributeTypeLib/color",
+    "LibraryName": "AutomationML_BasicProperties.Color_AttributeTypeLib",
+    "LibraryVersion": "0.0.5",
+    "AMLEdition": "AMLEd2",
+    "ID": "1917d508-35a2-4d37-80a2-981c4abfd7bf"
+  },
+  {
+    "ClassName": "RGB",
+    "CaexPath": "AutomationML_BasicProperties.Color_AttributeTypeLib/RGB",
+    "BasePath": "AutomationML_BasicProperties.Color_AttributeTypeLib/color",
+    "LibraryName": "AutomationML_BasicProperties.Color_AttributeTypeLib",
+    "LibraryVersion": "0.0.5",
+    "AMLEdition": "AMLEd2",
+    "ID": "738ae261-331e-4534-837f-7a70c051068b"
+  },
+  {
+    "ClassName": "CMYK",
+    "CaexPath": "AutomationML_BasicProperties.Color_AttributeTypeLib/CMYK",
+    "BasePath": "AutomationML_BasicProperties.Color_AttributeTypeLib/color",
+    "LibraryName": "AutomationML_BasicProperties.Color_AttributeTypeLib",
+    "LibraryVersion": "0.0.5",
+    "AMLEdition": "AMLEd2",
+    "ID": "f0fb949b-4b8f-400c-b5a8-665128e53868"
+  },
+  {
+    "ClassName": "electricCurrent",
+    "CaexPath": "AutomationML_BasicProperties.Electrics_AttributeTypeLib/electricCurrent",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.Electrics_AttributeTypeLib",
+    "LibraryVersion": "0.0.5",
+    "AMLEdition": "AMLEd2",
+    "ID": "0dd9f98d-8053-4977-82d8-fd79505001b5"
+  },
+  {
+    "ClassName": "voltage",
+    "CaexPath": "AutomationML_BasicProperties.Electrics_AttributeTypeLib/voltage",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.Electrics_AttributeTypeLib",
+    "LibraryVersion": "0.0.5",
+    "AMLEdition": "AMLEd2",
+    "ID": "d6d4770d-87d9-4d9c-9a8b-863c706ad86a"
+  },
+  {
+    "ClassName": "resistance",
+    "CaexPath": "AutomationML_BasicProperties.Electrics_AttributeTypeLib/resistance",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.Electrics_AttributeTypeLib",
+    "LibraryVersion": "0.0.5",
+    "AMLEdition": "AMLEd2",
+    "ID": "1c770ac0-9256-4ac9-a365-b47c94f43634"
+  },
+  {
+    "ClassName": "capacity",
+    "CaexPath": "AutomationML_BasicProperties.Electrics_AttributeTypeLib/capacity",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.Electrics_AttributeTypeLib",
+    "LibraryVersion": "0.0.5",
+    "AMLEdition": "AMLEd2",
+    "ID": "c075762b-c45a-46a5-ad5c-d1cf04ddda32"
+  },
+  {
+    "ClassName": "magneticFieldStrength",
+    "CaexPath": "AutomationML_BasicProperties.Electrics_AttributeTypeLib/magneticFieldStrength",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.Electrics_AttributeTypeLib",
+    "LibraryVersion": "0.0.5",
+    "AMLEdition": "AMLEd2",
+    "ID": "55469615-1870-4652-8ce5-1dce4da259b1"
+  },
+  {
+    "ClassName": "electricFieldStrength",
+    "CaexPath": "AutomationML_BasicProperties.Electrics_AttributeTypeLib/electricFieldStrength",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.Electrics_AttributeTypeLib",
+    "LibraryVersion": "0.0.5",
+    "AMLEdition": "AMLEd2",
+    "ID": "d200d1fc-79d4-48b4-9786-7bf37b8bef17"
+  },
+  {
+    "ClassName": "speed",
+    "CaexPath": "AutomationML_BasicProperties.Physics_AttributeTypeLib/speed",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.Physics_AttributeTypeLib",
+    "LibraryVersion": "0.0.5",
+    "AMLEdition": "AMLEd2",
+    "ID": "374968f9-ea70-4383-86f5-7f647a6c3db6"
+  },
+  {
+    "ClassName": "velocity",
+    "CaexPath": "AutomationML_BasicProperties.Physics_AttributeTypeLib/velocity",
+    "BasePath": "AutomationML_BasicProperties.Physics_AttributeTypeLib/speed",
+    "LibraryName": "AutomationML_BasicProperties.Physics_AttributeTypeLib",
+    "LibraryVersion": "0.0.5",
+    "AMLEdition": "AMLEd2",
+    "ID": "a6e05a5b-ed15-4e55-9d05-16f16895517d"
+  },
+  {
+    "ClassName": "coordinate",
+    "CaexPath": "AutomationML_BasicProperties.Physics_AttributeTypeLib/coordinate",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.Physics_AttributeTypeLib",
+    "LibraryVersion": "0.0.5",
+    "AMLEdition": "AMLEd2",
+    "ID": "7f408b6c-3fc2-4eb3-b6ef-0e60f532af88"
+  },
+  {
+    "ClassName": "point",
+    "CaexPath": "AutomationML_BasicProperties.Physics_AttributeTypeLib/point",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.Physics_AttributeTypeLib",
+    "LibraryVersion": "0.0.5",
+    "AMLEdition": "AMLEd2",
+    "ID": "4c71cf75-f583-4e3e-b75b-d06a531d3fdc"
+  },
+  {
+    "ClassName": "temperature",
+    "CaexPath": "AutomationML_BasicProperties.Physics_AttributeTypeLib/temperature",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.Physics_AttributeTypeLib",
+    "LibraryVersion": "0.0.5",
+    "AMLEdition": "AMLEd2",
+    "ID": "ae160881-21bc-406f-88d6-319ba60dbe66"
   },
   {
     "ClassName": "force",
@@ -373,7 +373,25 @@
     "CaexPath": "HSPF_MasterClass_AttributeTypeLib/laenge-Typ",
     "BasePath": null,
     "LibraryName": "HSPF_MasterClass_AttributeTypeLib",
+    "LibraryVersion": "1.0.11",
+    "AMLEdition": "AMLEd2",
+    "ID": "64b9aaef-c381-49b9-9f47-11ef8bc0eff9"
+  },
+  {
+    "ClassName": "laenge-Typ",
+    "CaexPath": "HSPF_MasterClass_AttributeTypeLib/laenge-Typ",
+    "BasePath": null,
+    "LibraryName": "HSPF_MasterClass_AttributeTypeLib",
     "LibraryVersion": "1.0.2",
+    "AMLEdition": "AMLEd2",
+    "ID": "64b9aaef-c381-49b9-9f47-11ef8bc0eff9"
+  },
+  {
+    "ClassName": "laenge-Typ",
+    "CaexPath": "HSPF_MasterClass_AttributeTypeLib/laenge-Typ",
+    "BasePath": null,
+    "LibraryName": "HSPF_MasterClass_AttributeTypeLib",
+    "LibraryVersion": "1.0.21",
     "AMLEdition": "AMLEd2",
     "ID": "64b9aaef-c381-49b9-9f47-11ef8bc0eff9"
   },
@@ -400,34 +418,7 @@
     "CaexPath": "HSPF_MasterClass_AttributeTypeLib/laenge-Typ",
     "BasePath": null,
     "LibraryName": "HSPF_MasterClass_AttributeTypeLib",
-    "LibraryVersion": "1.0.21",
-    "AMLEdition": "AMLEd2",
-    "ID": "64b9aaef-c381-49b9-9f47-11ef8bc0eff9"
-  },
-  {
-    "ClassName": "laenge-Typ",
-    "CaexPath": "HSPF_MasterClass_AttributeTypeLib/laenge-Typ",
-    "BasePath": null,
-    "LibraryName": "HSPF_MasterClass_AttributeTypeLib",
-    "LibraryVersion": "1.0.11",
-    "AMLEdition": "AMLEd2",
-    "ID": "64b9aaef-c381-49b9-9f47-11ef8bc0eff9"
-  },
-  {
-    "ClassName": "laenge-Typ",
-    "CaexPath": "HSPF_MasterClass_AttributeTypeLib/laenge-Typ",
-    "BasePath": null,
-    "LibraryName": "HSPF_MasterClass_AttributeTypeLib",
     "LibraryVersion": "1.1.0",
-    "AMLEdition": "AMLEd2",
-    "ID": "64b9aaef-c381-49b9-9f47-11ef8bc0eff9"
-  },
-  {
-    "ClassName": "laenge-Typ",
-    "CaexPath": "HSPF_MasterClass_AttributeTypeLib/laenge-Typ",
-    "BasePath": null,
-    "LibraryName": "HSPF_MasterClass_AttributeTypeLib",
-    "LibraryVersion": "1.2.0",
     "AMLEdition": "AMLEd2",
     "ID": "64b9aaef-c381-49b9-9f47-11ef8bc0eff9"
   },
@@ -454,7 +445,25 @@
     "CaexPath": "HSPF_MasterClass_AttributeTypeLib/breite-Typ",
     "BasePath": null,
     "LibraryName": "HSPF_MasterClass_AttributeTypeLib",
+    "LibraryVersion": "1.0.11",
+    "AMLEdition": "AMLEd2",
+    "ID": "e2b689ce-1f3c-4aa3-b485-f9b8245b25d3"
+  },
+  {
+    "ClassName": "breite-Typ",
+    "CaexPath": "HSPF_MasterClass_AttributeTypeLib/breite-Typ",
+    "BasePath": null,
+    "LibraryName": "HSPF_MasterClass_AttributeTypeLib",
     "LibraryVersion": "1.0.2",
+    "AMLEdition": "AMLEd2",
+    "ID": "e2b689ce-1f3c-4aa3-b485-f9b8245b25d3"
+  },
+  {
+    "ClassName": "breite-Typ",
+    "CaexPath": "HSPF_MasterClass_AttributeTypeLib/breite-Typ",
+    "BasePath": null,
+    "LibraryName": "HSPF_MasterClass_AttributeTypeLib",
+    "LibraryVersion": "1.0.21",
     "AMLEdition": "AMLEd2",
     "ID": "e2b689ce-1f3c-4aa3-b485-f9b8245b25d3"
   },
@@ -481,34 +490,7 @@
     "CaexPath": "HSPF_MasterClass_AttributeTypeLib/breite-Typ",
     "BasePath": null,
     "LibraryName": "HSPF_MasterClass_AttributeTypeLib",
-    "LibraryVersion": "1.0.21",
-    "AMLEdition": "AMLEd2",
-    "ID": "e2b689ce-1f3c-4aa3-b485-f9b8245b25d3"
-  },
-  {
-    "ClassName": "breite-Typ",
-    "CaexPath": "HSPF_MasterClass_AttributeTypeLib/breite-Typ",
-    "BasePath": null,
-    "LibraryName": "HSPF_MasterClass_AttributeTypeLib",
-    "LibraryVersion": "1.0.11",
-    "AMLEdition": "AMLEd2",
-    "ID": "e2b689ce-1f3c-4aa3-b485-f9b8245b25d3"
-  },
-  {
-    "ClassName": "breite-Typ",
-    "CaexPath": "HSPF_MasterClass_AttributeTypeLib/breite-Typ",
-    "BasePath": null,
-    "LibraryName": "HSPF_MasterClass_AttributeTypeLib",
     "LibraryVersion": "1.1.0",
-    "AMLEdition": "AMLEd2",
-    "ID": "e2b689ce-1f3c-4aa3-b485-f9b8245b25d3"
-  },
-  {
-    "ClassName": "breite-Typ",
-    "CaexPath": "HSPF_MasterClass_AttributeTypeLib/breite-Typ",
-    "BasePath": null,
-    "LibraryName": "HSPF_MasterClass_AttributeTypeLib",
-    "LibraryVersion": "1.2.0",
     "AMLEdition": "AMLEd2",
     "ID": "e2b689ce-1f3c-4aa3-b485-f9b8245b25d3"
   },
@@ -535,7 +517,25 @@
     "CaexPath": "HSPF_MasterClass_AttributeTypeLib/hoeheTyp",
     "BasePath": null,
     "LibraryName": "HSPF_MasterClass_AttributeTypeLib",
+    "LibraryVersion": "1.0.11",
+    "AMLEdition": "AMLEd2",
+    "ID": "dde31796-c974-4621-9db8-918305b2eb44"
+  },
+  {
+    "ClassName": "hoeheTyp",
+    "CaexPath": "HSPF_MasterClass_AttributeTypeLib/hoeheTyp",
+    "BasePath": null,
+    "LibraryName": "HSPF_MasterClass_AttributeTypeLib",
     "LibraryVersion": "1.0.2",
+    "AMLEdition": "AMLEd2",
+    "ID": "dde31796-c974-4621-9db8-918305b2eb44"
+  },
+  {
+    "ClassName": "hoeheTyp",
+    "CaexPath": "HSPF_MasterClass_AttributeTypeLib/hoeheTyp",
+    "BasePath": null,
+    "LibraryName": "HSPF_MasterClass_AttributeTypeLib",
+    "LibraryVersion": "1.0.21",
     "AMLEdition": "AMLEd2",
     "ID": "dde31796-c974-4621-9db8-918305b2eb44"
   },
@@ -562,36 +562,18 @@
     "CaexPath": "HSPF_MasterClass_AttributeTypeLib/hoeheTyp",
     "BasePath": null,
     "LibraryName": "HSPF_MasterClass_AttributeTypeLib",
-    "LibraryVersion": "1.0.21",
-    "AMLEdition": "AMLEd2",
-    "ID": "dde31796-c974-4621-9db8-918305b2eb44"
-  },
-  {
-    "ClassName": "hoeheTyp",
-    "CaexPath": "HSPF_MasterClass_AttributeTypeLib/hoeheTyp",
-    "BasePath": null,
-    "LibraryName": "HSPF_MasterClass_AttributeTypeLib",
-    "LibraryVersion": "1.0.11",
-    "AMLEdition": "AMLEd2",
-    "ID": "dde31796-c974-4621-9db8-918305b2eb44"
-  },
-  {
-    "ClassName": "hoeheTyp",
-    "CaexPath": "HSPF_MasterClass_AttributeTypeLib/hoeheTyp",
-    "BasePath": null,
-    "LibraryName": "HSPF_MasterClass_AttributeTypeLib",
     "LibraryVersion": "1.1.0",
     "AMLEdition": "AMLEd2",
     "ID": "dde31796-c974-4621-9db8-918305b2eb44"
   },
   {
-    "ClassName": "hoeheTyp",
-    "CaexPath": "HSPF_MasterClass_AttributeTypeLib/hoeheTyp",
+    "ClassName": "vol",
+    "CaexPath": "HSPF_MasterClass_AttributeTypeLib/vol",
     "BasePath": null,
     "LibraryName": "HSPF_MasterClass_AttributeTypeLib",
-    "LibraryVersion": "1.2.0",
+    "LibraryVersion": "1.1.0",
     "AMLEdition": "AMLEd2",
-    "ID": "dde31796-c974-4621-9db8-918305b2eb44"
+    "ID": "3985f9bf-74d6-49ba-9c8d-0b81171b3bb1"
   },
   {
     "ClassName": "deepness",
@@ -601,23 +583,5 @@
     "LibraryVersion": "1.0.51",
     "AMLEdition": "AMLEd2",
     "ID": "ec676954-844d-4191-aaed-43f5d44af10f"
-  },
-  {
-    "ClassName": "vol",
-    "CaexPath": "HSPF_MasterClass_AttributeTypeLib/vol",
-    "BasePath": null,
-    "LibraryName": "HSPF_MasterClass_AttributeTypeLib",
-    "LibraryVersion": "1.1.0",
-    "AMLEdition": "AMLEd2",
-    "ID": "3985f9bf-74d6-49ba-9c8d-0b81171b3bb1"
-  },
-  {
-    "ClassName": "vol",
-    "CaexPath": "HSPF_MasterClass_AttributeTypeLib/vol",
-    "BasePath": null,
-    "LibraryName": "HSPF_MasterClass_AttributeTypeLib",
-    "LibraryVersion": "1.2.0",
-    "AMLEdition": "AMLEd2",
-    "ID": "3985f9bf-74d6-49ba-9c8d-0b81171b3bb1"
   }
 ]
