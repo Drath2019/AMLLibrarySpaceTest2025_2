@@ -193,7 +193,14 @@
                   "https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/HSPF_MasterClass_AttributeTypeLib_AMLEd2_1.0.5.aml"
                 ],
                 "Signature": "MEUCIQC70EijXsNM/Q3zjmcVDtM6fFNaJSljTaLQAsjjapKV3QIgK3kGXFLuczBQpMnIv9Cv/5sMB29xGafAaxDBjlCYyiY=",
-                "Revision": null
+                "Revision": {
+                  "DownloadLink": null,
+                  "DownloadLinks": [
+                    "https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/HSPF_MasterClass_AttributeTypeLib_AMLEd2_1.0.5.aml"
+                  ],
+                  "Signature": "MEUCIAV40ic9au5SpniQH/X3NjwggjfCNZ8RTRDEcM0Ux6liAiEA075X4ISKAfEghwNqjG8HtrUh6wWjGbJyGxUIJNR9oUI=",
+                  "Revision": null
+                }
               }
             },
             {
@@ -208,6 +215,21 @@
               ],
               "Sources": null,
               "Signature": "MEYCIQDZZ3fnruKqhiyAq2ItxKilMsu8z4jVaz3PdBuGsgKCQgIhAOh3YiLIpwDe9UzkFseLunlLU/YRgXUG/hgnWMJxegxY",
+              "PublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEyk6uIUNugOojm3akdEAA4XoGGBEui0zPVhzkjR0RfprHFWrbPpFMfExaW2TaeChaegCmjE2boFph1aI1eNEPcQ==",
+              "Revision": null
+            },
+            {
+              "Version": "1.0.6",
+              "CAEXVersion": "3.0",
+              "AMLEdition": "AMLEd2",
+              "IsArchived": false,
+              "Description": "Eine experimentelle Attributtyplibrary",
+              "DownloadLink": null,
+              "DownloadLinks": [
+                "https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/HSPF_MasterClass_AttributeTypeLib_AMLEd2_1.0.6.aml"
+              ],
+              "Sources": null,
+              "Signature": "MEUCIAnvwOgzWYCW8aSCK51E0njAlFx9hmjlfUsSdfLIRBCuAiEAm16tdjnl/wrzyeM1vvGrVipO90mz80nHEjYM5NiGlKk=",
               "PublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEyk6uIUNugOojm3akdEAA4XoGGBEui0zPVhzkjR0RfprHFWrbPpFMfExaW2TaeChaegCmjE2boFph1aI1eNEPcQ==",
               "Revision": null
             }
