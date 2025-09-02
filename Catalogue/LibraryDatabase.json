@@ -177,15 +177,8 @@
                 "DownloadLinks": [
                   "https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/HSPF_MasterClass_AttributeTypeLib_AMLEd2_1.0.5.aml"
                 ],
-                "Signature": "MEQCIEZoqKAt0YfJGT5ii3QxtdKYuQ2aYUG/eJIBAY/cwu\u002BtAiAm5iPEGM8V6yJ0Snlqs4m8eSwDTq4tsscq2uNwTytR0A==",
-                "Revision": {
-                  "DownloadLink": null,
-                  "DownloadLinks": [
-                    "https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/HSPF_MasterClass_AttributeTypeLib_AMLEd2_1.0.5.aml"
-                  ],
-                  "Signature": "MEYCIQCB2f7BGU7VjzhZ/1tAIyGGmz4Bre8aP900JNPNNqgz/AIhAInzhP70TvgXHrwYja1qn7rr9cH1FPHKC/g77ml7mA6I",
-                  "Revision": null
-                }
+                "Signature": "MEYCIQCB2f7BGU7VjzhZ/1tAIyGGmz4Bre8aP900JNPNNqgz/AIhAInzhP70TvgXHrwYja1qn7rr9cH1FPHKC/g77ml7mA6I",
+                "Revision": null
               }
             },
             {
@@ -215,21 +208,6 @@
               ],
               "Sources": null,
               "Signature": "MEYCIQC/aAtQ/yYyZyWE3VNlyahJY8WrXW5O7kwS3cnbMmhKGAIhAMI2Wtti\u002BevqX7O2CuTsrKHYiOQTXuGngquid7Lnm6gM",
-              "PublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEyk6uIUNugOojm3akdEAA4XoGGBEui0zPVhzkjR0RfprHFWrbPpFMfExaW2TaeChaegCmjE2boFph1aI1eNEPcQ==",
-              "Revision": null
-            },
-            {
-              "Version": "1.0.6",
-              "CAEXVersion": "3.0",
-              "AMLEdition": "AMLEd2",
-              "IsArchived": false,
-              "Description": "Eine experimentelle Attributtyplibrary",
-              "DownloadLink": null,
-              "DownloadLinks": [
-                "https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/HSPF_MasterClass_AttributeTypeLib_AMLEd2_1.0.6.aml"
-              ],
-              "Sources": null,
-              "Signature": "MEYCIQDwvZZw8oqbQCGuCtkfztWwOmMpAUz7LkqFZJ3styrx5QIhAIOc2YgiwitAgEE8CmAUBjWkvSigCTZK8LhhAa7y19fy",
               "PublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEyk6uIUNugOojm3akdEAA4XoGGBEui0zPVhzkjR0RfprHFWrbPpFMfExaW2TaeChaegCmjE2boFph1aI1eNEPcQ==",
               "Revision": null
             }
