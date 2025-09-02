@@ -105,7 +105,14 @@
                   "https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/HSPF_MasterClass_AttributeTypeLib_AMLEd2_1.0.0.aml"
                 ],
                 "Signature": "MEQCIB\u002BdBPQBfoQTI7/uo21ZkhlMmGpHkk62G0wytsdG6UPnAiBjY4cBZyymsazsnBF8YiuaTpoYGSdiFb9OPNvhxMJIMg==",
-                "Revision": null
+                "Revision": {
+                  "DownloadLink": null,
+                  "DownloadLinks": [
+                    "https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/HSPF_MasterClass_AttributeTypeLib_AMLEd2_1.0.0.aml"
+                  ],
+                  "Signature": "MEYCIQCuNV/cJh\u002BcKXgQrDeId8KFAzR90Oz1BkMs\u002BONtX4co3wIhAKddeLZTb4KyLPc96k8YxGmbfhlWxCDL0lRfTn1fvtCH",
+                  "Revision": null
+                }
               }
             },
             {
