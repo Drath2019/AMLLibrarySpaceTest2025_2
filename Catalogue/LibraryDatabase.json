@@ -107,6 +107,21 @@
                 "Signature": "MEQCIB\u002BdBPQBfoQTI7/uo21ZkhlMmGpHkk62G0wytsdG6UPnAiBjY4cBZyymsazsnBF8YiuaTpoYGSdiFb9OPNvhxMJIMg==",
                 "Revision": null
               }
+            },
+            {
+              "Version": "1.0.2",
+              "CAEXVersion": "3.0",
+              "AMLEdition": "AMLEd2",
+              "IsArchived": false,
+              "Description": "Eine experimentelle Attributtyplibrary",
+              "DownloadLink": null,
+              "DownloadLinks": [
+                "https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/HSPF_MasterClass_AttributeTypeLib_AMLEd2_1.0.2.aml"
+              ],
+              "Sources": null,
+              "Signature": "MEYCIQDRWSo8kGJul8PJJC/BCiPMIzFIFkbjA7N5f1LoZAWhDgIhAPD5GCPX5Ar3ZnhBCymtMVjYt5kctOL1MlTIdHddkOMv",
+              "PublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEyk6uIUNugOojm3akdEAA4XoGGBEui0zPVhzkjR0RfprHFWrbPpFMfExaW2TaeChaegCmjE2boFph1aI1eNEPcQ==",
+              "Revision": null
             }
           ]
         }
