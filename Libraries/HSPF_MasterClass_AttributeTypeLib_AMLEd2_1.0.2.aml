@@ -6,10 +6,6 @@
     <Description>VersionRef</Description>
     <Version>OldVersion</Version>
   </ExternalReference>
-  <ExternalReference Path="https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/HSPF_MasterClass_AttributeTypeLib_AMLEd2_1.0.5.aml" Alias="HSPFMasterClassAttributeTypeLibAMLEd21_0_5">
-    <Description>VersionRef</Description>
-    <Version>NewVersion</Version>
-  </ExternalReference>
   <ExternalReference Path="https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/HSPF_MasterClass_AttributeTypeLib_AMLEd2_1.0.21.aml" Alias="HSPFMasterClassAttributeTypeLibAMLEd21_0_21">
     <Description>VersionRef</Description>
     <Version>NewVersion</Version>
@@ -23,11 +19,6 @@
       <AuthorName>drath</AuthorName>
     </Revision>
     <Revision>
-      <RevisionDate>2025-09-02T22:51:54.7213422+02:00</RevisionDate>
-      <NewVersion>HSPFMasterClassAttributeTypeLibAMLEd21_0_5@HSPF_MasterClass_AttributeTypeLib</NewVersion>
-      <AuthorName>drath</AuthorName>
-    </Revision>
-    <Revision>
       <RevisionDate>2025-09-02T22:52:36.9967868+02:00</RevisionDate>
       <NewVersion>HSPFMasterClassAttributeTypeLibAMLEd21_0_21@HSPF_MasterClass_AttributeTypeLib</NewVersion>
       <AuthorName>drath</AuthorName>
@@ -38,11 +29,6 @@
       <Revision>
         <RevisionDate>2025-09-02T22:49:58.3921333+02:00</RevisionDate>
         <OldVersion>HSPFMasterClassAttributeTypeLibAMLEd21_0_1@HSPF_MasterClass_AttributeTypeLib/laenge-Typ</OldVersion>
-        <AuthorName>drath</AuthorName>
-      </Revision>
-      <Revision>
-        <RevisionDate>2025-09-02T22:51:54.7353927+02:00</RevisionDate>
-        <NewVersion>HSPFMasterClassAttributeTypeLibAMLEd21_0_5@HSPF_MasterClass_AttributeTypeLib/laenge-Typ</NewVersion>
         <AuthorName>drath</AuthorName>
       </Revision>
       <Revision>
@@ -60,11 +46,6 @@
         <AuthorName>drath</AuthorName>
       </Revision>
       <Revision>
-        <RevisionDate>2025-09-02T22:51:54.7414553+02:00</RevisionDate>
-        <NewVersion>HSPFMasterClassAttributeTypeLibAMLEd21_0_5@HSPF_MasterClass_AttributeTypeLib/breite-Typ</NewVersion>
-        <AuthorName>drath</AuthorName>
-      </Revision>
-      <Revision>
         <RevisionDate>2025-09-02T22:52:37.0110299+02:00</RevisionDate>
         <NewVersion>HSPFMasterClassAttributeTypeLibAMLEd21_0_21@HSPF_MasterClass_AttributeTypeLib/breite-Typ</NewVersion>
         <AuthorName>drath</AuthorName>
@@ -76,11 +57,6 @@
       <Revision>
         <RevisionDate>2025-09-02T22:49:58.3952772+02:00</RevisionDate>
         <OldVersion>HSPFMasterClassAttributeTypeLibAMLEd21_0_1@HSPF_MasterClass_AttributeTypeLib/hoeheTyp</OldVersion>
-        <AuthorName>drath</AuthorName>
-      </Revision>
-      <Revision>
-        <RevisionDate>2025-09-02T22:51:54.7500364+02:00</RevisionDate>
-        <NewVersion>HSPFMasterClassAttributeTypeLibAMLEd21_0_5@HSPF_MasterClass_AttributeTypeLib/hoeheTyp</NewVersion>
         <AuthorName>drath</AuthorName>
       </Revision>
       <Revision>
