@@ -547,5 +547,14 @@
     "LibraryVersion": "1.0.6",
     "AMLEdition": "AMLEd2",
     "ID": "23665839-fd6c-4f20-aaca-6b81a44cae78"
+  },
+  {
+    "ClassName": "laengeDKE",
+    "CaexPath": "DKE_Basis-Merkmale.Geometrie_AttributeTypeLib/laengeDKE",
+    "BasePath": null,
+    "LibraryName": "DKE_Basis-Merkmale.Geometrie_AttributeTypeLib",
+    "LibraryVersion": "1.0.0",
+    "AMLEdition": "AMLEd2",
+    "ID": "d1b50d6e-48a3-43dd-88ad-f3fc6f7c2585"
   }
 ]
