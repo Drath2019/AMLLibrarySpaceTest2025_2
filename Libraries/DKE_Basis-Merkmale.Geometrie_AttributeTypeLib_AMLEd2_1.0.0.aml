@@ -2,11 +2,25 @@
 <CAEXFile SchemaVersion="3.0" FileName="DKE_Basis-Merkmale.Geometrie_AttributeTypeLib_AMLEd2_1.0.0.aml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.dke.de/CAEX" xsi:schemaLocation="http://www.dke.de/CAEX CAEX_ClassModel_V.3.0.xsd">
   <SuperiorStandardVersion>AutomationML 2.1</SuperiorStandardVersion>
   <SourceDocumentInformation OriginName="Basis-Merkmale.Geometrie_AttributeTypeLib" OriginID="a84d63a4-6baa-4153-8fdd-aa41b369ca45" OriginVersion="1.0.0" LastWritingDateTime="2025-09-19T08:26:41.6294329+02:00" OriginProjectID="" OriginProjectTitle="" OriginRelease="1.0.0" OriginVendor="DKE" OriginVendorURL="DKE_Basis-Merkmale.Geometrie_AttributeTypeLib_AMLEd2_1.0.0.aml" />
+  <ExternalReference Path="https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/DKE_Basis-Merkmale.Geometrie_AttributeTypeLib_AMLEd2_1.0.1.aml" Alias="DKEBasis-Merkmale.GeometrieAttributeTypeLibAMLEd21_0_1">
+    <Description>VersionRef</Description>
+    <Version>NewVersion</Version>
+  </ExternalReference>
   <AttributeTypeLib Name="DKE_Basis-Merkmale.Geometrie_AttributeTypeLib" ID="39abd65a-bb51-435b-a925-7db9dfbeefd9">
     <Version>1.0.0</Version>
+    <Revision>
+      <RevisionDate>2025-09-19T08:30:41.3338391+02:00</RevisionDate>
+      <NewVersion>DKEBasis-Merkmale.GeometrieAttributeTypeLibAMLEd21_0_1@DKE_Basis-Merkmale.Geometrie_AttributeTypeLib</NewVersion>
+      <AuthorName>drath</AuthorName>
+    </Revision>
     <AttributeType Name="laengeDKE" ID="d1b50d6e-48a3-43dd-88ad-f3fc6f7c2585" AttributeDataType="xs:double" Unit="mm">
       <Description>Das ist die Länge nach DIN xxx</Description>
       <Version>1.0.0</Version>
+      <Revision>
+        <RevisionDate>2025-09-19T08:30:41.3431218+02:00</RevisionDate>
+        <NewVersion>DKEBasis-Merkmale.GeometrieAttributeTypeLibAMLEd21_0_1@DKE_Basis-Merkmale.Geometrie_AttributeTypeLib/laengeDKE</NewVersion>
+        <AuthorName>drath</AuthorName>
+      </Revision>
       <RefSemantic CorrespondingAttributePath="IRDI://IEC-CDD-Laenge" />
       <RefSemantic CorrespondingAttributePath="ECLASS-Laenge" />
     </AttributeType>
