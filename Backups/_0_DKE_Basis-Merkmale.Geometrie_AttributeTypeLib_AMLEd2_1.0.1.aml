@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CAEXFile SchemaVersion="3.0" FileName="DKE_Basis-Merkmale.Geometrie_AttributeTypeLib_AMLEd2_1.0.1.aml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.dke.de/CAEX" xsi:schemaLocation="http://www.dke.de/CAEX CAEX_ClassModel_V.3.0.xsd">
+  <SuperiorStandardVersion>AutomationML 2.1</SuperiorStandardVersion>
+  <SourceDocumentInformation OriginName="Basis-Merkmale.Geometrie_AttributeTypeLib" OriginID="2aea7be7-5a3d-4aa5-8137-9bc9bfc1cd81" OriginVersion="1.0.1" LastWritingDateTime="2025-09-19T08:29:20.9431581+02:00" OriginProjectID="" OriginProjectTitle="" OriginRelease="1.0.1" OriginVendor="DKE" OriginVendorURL="DKE_Basis-Merkmale.Geometrie_AttributeTypeLib_AMLEd2_1.0.1.aml" />
+  <ExternalReference Path="https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/DKE_Basis-Merkmale.Geometrie_AttributeTypeLib_AMLEd2_1.0.0.aml" Alias="DKEBasis-Merkmale.GeometrieAttributeTypeLibAMLEd21_0_0">
+    <Description>VersionRef</Description>
+    <Version>OldVersion</Version>
+  </ExternalReference>
+  <AttributeTypeLib Name="DKE_Basis-Merkmale.Geometrie_AttributeTypeLib" ID="39abd65a-bb51-435b-a925-7db9dfbeefd9">
+    <Version>1.0.1</Version>
+    <Revision>
+      <RevisionDate>2025-09-19T08:29:20.9291461+02:00</RevisionDate>
+      <OldVersion>DKEBasis-Merkmale.GeometrieAttributeTypeLibAMLEd21_0_0@DKE_Basis-Merkmale.Geometrie_AttributeTypeLib</OldVersion>
+      <AuthorName>drath</AuthorName>
+    </Revision>
+    <AttributeType Name="laengeDKE" ID="d1b50d6e-48a3-43dd-88ad-f3fc6f7c2585" AttributeDataType="xs:double" Unit="mm">
+      <Description>Das ist die Länge nach DIN xxx</Description>
+      <Version>1.0.1</Version>
+      <Revision>
+        <RevisionDate>2025-09-19T08:29:20.9356995+02:00</RevisionDate>
+        <OldVersion>DKEBasis-Merkmale.GeometrieAttributeTypeLibAMLEd21_0_0@DKE_Basis-Merkmale.Geometrie_AttributeTypeLib/laengeDKE</OldVersion>
+        <AuthorName>drath</AuthorName>
+      </Revision>
+      <RefSemantic CorrespondingAttributePath="IRDI://IEC-CDD-Laenge" />
+      <RefSemantic CorrespondingAttributePath="ECLASS-Laenge" />
+    </AttributeType>
+    <AttributeType Name="breiteDKE" ID="45b483e1-88b4-4ab6-8a2d-6a13783fa042" AttributeDataType="xs:string">
+      <Description>das ist die Breite nach DIN YYY</Description>
+      <Version>1.0.0</Version>
+    </AttributeType>
+  </AttributeTypeLib>
+</CAEXFile>
