@@ -259,21 +259,6 @@
                 "Signature": "MEQCIFwlM5I/bmh1QwwXfaS0mHICDxsDR6\u002BG\u002BNGHnfGmeNFKAiAEWprVn267PWfIq6UdB\u002B4dZIAheT03n/THg0NHbBWFBw==",
                 "Revision": null
               }
-            },
-            {
-              "Version": "1.0.1",
-              "CAEXVersion": "3.0",
-              "AMLEdition": "AMLEd2",
-              "IsArchived": false,
-              "Description": null,
-              "DownloadLink": null,
-              "DownloadLinks": [
-                "https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/DKE_Basis-Merkmale.Geometrie_AttributeTypeLib_AMLEd2_1.0.1.aml"
-              ],
-              "Sources": null,
-              "Signature": "MEUCIQCcTJZD/JYYV\u002BFHQ5Oogi8OwX2zAvEGmpXAzgzYimeITgIgYYS6BhDKFVhmPR7fYSEQI7\u002BKPrOPqyIg1lyO78EK7hc=",
-              "PublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEyk6uIUNugOojm3akdEAA4XoGGBEui0zPVhzkjR0RfprHFWrbPpFMfExaW2TaeChaegCmjE2boFph1aI1eNEPcQ==",
-              "Revision": null
             }
           ]
         }
