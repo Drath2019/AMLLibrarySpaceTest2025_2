@@ -556,23 +556,5 @@
     "LibraryVersion": "1.0.0",
     "AMLEdition": "AMLEd2",
     "ID": "d1b50d6e-48a3-43dd-88ad-f3fc6f7c2585"
-  },
-  {
-    "ClassName": "laengeDKE",
-    "CaexPath": "DKE_Basis-Merkmale.Geometrie_AttributeTypeLib/laengeDKE",
-    "BasePath": null,
-    "LibraryName": "DKE_Basis-Merkmale.Geometrie_AttributeTypeLib",
-    "LibraryVersion": "1.0.1",
-    "AMLEdition": "AMLEd2",
-    "ID": "d1b50d6e-48a3-43dd-88ad-f3fc6f7c2585"
-  },
-  {
-    "ClassName": "breiteDKE",
-    "CaexPath": "DKE_Basis-Merkmale.Geometrie_AttributeTypeLib/breiteDKE",
-    "BasePath": null,
-    "LibraryName": "DKE_Basis-Merkmale.Geometrie_AttributeTypeLib",
-    "LibraryVersion": "1.0.1",
-    "AMLEdition": "AMLEd2",
-    "ID": "45b483e1-88b4-4ab6-8a2d-6a13783fa042"
   }
 ]
