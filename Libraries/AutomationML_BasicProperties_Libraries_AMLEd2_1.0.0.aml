@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CAEXFile SchemaVersion="3.0" FileName="AutomationML_BasicProperties_Libraries_AMLEd2_1.0.0.aml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.dke.de/CAEX" xsi:schemaLocation="http://www.dke.de/CAEX CAEX_ClassModel_V.3.0.xsd">
+  <SuperiorStandardVersion>AutomationML 2.1</SuperiorStandardVersion>
+  <SourceDocumentInformation OriginName="BasicProperties_Libraries" OriginID="eb74c8f8-754b-45f4-823a-c4178a52431b" OriginVersion="1.0.0" LastWritingDateTime="2026-01-04T14:07:04.1504791+01:00" OriginProjectID="" OriginProjectTitle="" OriginRelease="1.0.0" OriginVendor="AutomationML" OriginVendorURL="AutomationML_BasicProperties_Libraries_AMLEd2_1.0.0.aml" />
+  <AttributeTypeLib Name="AutomationML_BasicProperties.identification_AttributeTypeLib" ID="b1b257f6-627f-4ef2-9701-1490ac4fe880">
+    <Description>This AttributeTypeLib contains fundamental, domain-independent identification attributes that uniquely describe an asset or object across its lifecycle. The attributes are universally applicable and independent of organizational, system-specific, or process-related contexts.</Description>
+    <Version>1.0.0</Version>
+    <AttributeType Name="id" AttributeDataType="xs:string" ID="3358e218-b893-4ba7-aafc-fb7b5e493acb">
+      <Description>Identifier used to distinguish an object within a defined scope.</Description>
+      <Version>1.0.0</Version>
+    </AttributeType>
+    <AttributeType Name="idShort" AttributeDataType="xs:string" ID="8defc9da-86a1-48a9-a139-d49ea42aaa80">
+      <Description>Short identifier of the asset or object intended for human readable usage.</Description>
+      <Version>1.0.0</Version>
+    </AttributeType>
+    <AttributeType Name="semanticId" AttributeDataType="xs:string" ID="3804f0c7-f80c-461f-930e-5d519f385ec5">
+      <Description>Semantic identifier referencing a concept definition in a semantic model.</Description>
+      <Version>1.0.0</Version>
+    </AttributeType>
+    <AttributeType Name="globalAssetId" AttributeDataType="xs:string" ID="f7932ea2-b7ee-427c-8848-3deb1a156f87">
+      <Description>Globally unique identifier of the asset or object.</Description>
+      <Version>1.0.0</Version>
+    </AttributeType>
+    <AttributeType Name="manufacturerName" AttributeDataType="xs:string" ID="5d973f74-2fb0-4b28-a517-b5bed8f77205">
+      <Description>Official name of the manufacturer.</Description>
+      <Version>1.0.0</Version>
+    </AttributeType>
+    <AttributeType Name="manufacturerProductDesignation" AttributeDataType="xs:string" ID="81a61bac-b168-4a55-84c7-5251c2526611">
+      <Description>Manufacturer specific product designation or model name.</Description>
+      <Version>1.0.0</Version>
+    </AttributeType>
+    <AttributeType Name="partNumber" AttributeDataType="xs:string" ID="4778e1b2-d9ec-4945-b5ed-4abd807e2d7e">
+      <Description>Part identifier assigned to a component or product.</Description>
+      <Version>1.0.0</Version>
+    </AttributeType>
+    <AttributeType Name="serialNumber" AttributeDataType="xs:string" ID="81d2caa2-36ca-40f2-bc19-a266f691bf33">
+      <Description>Unique serial number of an individual asset instance.</Description>
+      <Version>1.0.0</Version>
+    </AttributeType>
+  </AttributeTypeLib>
+  <AttributeTypeLib Name="AutomationML_BasicProperties.physicalProperties_AttributeTypeLib" ID="9a6deb93-041b-491c-9f7d-cef5e098e098">
+    <Description>This AttributeTypeLib defines fundamental, domain-neutral physical and geometric properties that are generally applicable to technical assets. The contained attributes represent basic quantities such as mass, geometry, and selected fundamental physical quantities, without assuming any specific engineering domain or application context.</Description>
+    <Version>1.0.0</Version>
+    <AttributeType Name="mass" AttributeDataType="xs:double" Unit="kg" ID="7f4ee139-ca49-4dbf-9de4-2f6330d8683a">
+      <Description>Mass of the object.</Description>
+      <Version>1.0.0</Version>
+    </AttributeType>
+    <AttributeType Name="overallLength" AttributeDataType="xs:double" Unit="m" ID="0c01bfd5-4006-46b7-98aa-89c0cd8016e2">
+      <Description>Overall length of the object.</Description>
+      <Version>1.0.0</Version>
+    </AttributeType>
+    <AttributeType Name="overallWidth" AttributeDataType="xs:double" Unit="m" ID="8b6fe5b7-1f67-46b6-b0c3-81a2468b5f8b">
+      <Description>Overall width of the object.</Description>
+      <Version>1.0.0</Version>
+    </AttributeType>
+    <AttributeType Name="overallHeight" AttributeDataType="xs:double" Unit="m" ID="5eed6c00-4955-40de-b8b8-c3c168b45ee2">
+      <Description>Overall height of the object.</Description>
+      <Version>1.0.0</Version>
+    </AttributeType>
+    <AttributeType Name="volume" AttributeDataType="xs:double" Unit="m^3" ID="cb904de1-28c4-4282-8206-358bdcb0af5d">
+      <Description>Geometric volume of the object.</Description>
+      <Version>1.0.0</Version>
+    </AttributeType>
+    <AttributeType Name="density" AttributeDataType="xs:double" Unit="kg/m^3" ID="fc167316-6cbf-4bb5-9b17-fb2ce85dac9c">
+      <Description>Average mass density of the object.</Description>
+      <Version>1.0.0</Version>
+    </AttributeType>
+    <AttributeType Name="surfaceArea" AttributeDataType="xs:double" Unit="m^2" ID="2eda386d-466e-4527-a0b2-6308e4df2e0e">
+      <Description>Total outer surface area of the object.</Description>
+      <Version>1.0.0</Version>
+    </AttributeType>
+    <AttributeType Name="footprintArea" AttributeDataType="xs:double" Unit="m^2" ID="a5f05e71-404e-400e-a802-f6b135fcd431">
+      <Description>Projected base area of the object.</Description>
+      <Version>1.0.0</Version>
+    </AttributeType>
+    <AttributeType Name="frequency" AttributeDataType="xs:double" Unit="Hz" ID="6650816f-3b7c-480c-ba91-557cd31af4cb">
+      <Description>Frequency as a physical quantity.</Description>
+      <Version>1.0.0</Version>
+    </AttributeType>
+    <AttributeType Name="force" AttributeDataType="xs:double" Unit="N" ID="2e34b2e2-c3df-4040-985f-d50429300884">
+      <Description>Physical quantity representing the magnitude of a force.</Description>
+      <Version>1.0.0</Version>
+    </AttributeType>
+    <AttributeType Name="wavelength" AttributeDataType="xs:double" Unit="m" ID="ed9dffee-161b-43a5-831a-7c7377fd48a1">
+      <Description>Physical quantity describing the spatial period of a wave.</Description>
+      <Version>1.0.0</Version>
+    </AttributeType>
+  </AttributeTypeLib>
+  <AttributeTypeLib Name="AutomationML_BasicProperties.environmentalConditions_AttributeTypeLib" ID="06f4930e-5650-4d3d-9594-bce2beabbea4">
+    <Description>This AttributeTypeLib contains basic environmental boundary conditions that define the general permissible operating and storage environment of an asset. The attributes are limited to universally relevant environmental constraints and exclude domain-specific, normative, or application-dependent environmental requirements.</Description>
+    <Version>1.0.0</Version>
+    <AttributeType Name="operatingTemperatureMin" AttributeDataType="xs:double" Unit="°C" ID="6f5d1a57-0896-4ebd-863e-48ba46955571">
+      <Description>Minimum permissible operating temperature.</Description>
+      <Version>1.0.0</Version>
+    </AttributeType>
+    <AttributeType Name="operatingTemperatureMax" AttributeDataType="xs:double" Unit="°C" ID="09616d9e-73f2-4d62-8a25-f7eaba353b68">
+      <Description>Maximum permissible operating temperature.</Description>
+      <Version>1.0.0</Version>
+    </AttributeType>
+    <AttributeType Name="storageTemperatureMin" AttributeDataType="xs:double" Unit="°C" ID="f4a4a279-5cb9-4c6d-9306-d07fcf26c59b">
+      <Description>Minimum permissible storage temperature.</Description>
+      <Version>1.0.0</Version>
+    </AttributeType>
+    <AttributeType Name="storageTemperatureMax" AttributeDataType="xs:double" Unit="°C" ID="b84c6b31-68bf-45bb-ad5a-8041af29f2cb">
+      <Description>Maximum permissible storage temperature.</Description>
+      <Version>1.0.0</Version>
+    </AttributeType>
+    <AttributeType Name="relativeHumidityMin" AttributeDataType="xs:double" Unit="%" ID="f6359b1a-4f41-4a85-842d-81cd4946fcb1">
+      <Description>Minimum permissible relative humidity.</Description>
+      <Version>1.0.0</Version>
+    </AttributeType>
+    <AttributeType Name="relativeHumidityMax" AttributeDataType="xs:double" Unit="%" ID="0e09869a-536c-4f47-a3aa-74d192cfd02b">
+      <Description>Maximum permissible relative humidity.</Description>
+      <Version>1.0.0</Version>
+    </AttributeType>
+  </AttributeTypeLib>
+  <AttributeTypeLib Name="AutomationML_BasicProperties.energyAndConsumption_AttributeTypeLib" ID="946c2b0c-0498-4766-86e4-ea2d9900c9fe">
+    <Description>This AttributeTypeLib defines energy- and power-related attributes that describe the power demand and energy demand of an asset under specified conditions. The attributes are formulated to be domain-neutral and applicable independent of the underlying energy carrier or technical implementation.</Description>
+    <Version>1.0.0</Version>
+    <AttributeType Name="ratedPower" AttributeDataType="xs:double" Unit="W" ID="c2a8582f-cfe3-4afc-b6d1-82c19b670e84">
+      <Description>Rated power value representing a characteristic power level of an asset.</Description>
+      <Version>1.0.0</Version>
+    </AttributeType>
+    <AttributeType Name="powerDemandNominal" AttributeDataType="xs:double" Unit="W" ID="fcdc65e0-9324-463a-a4b2-467a7d7f6c3f">
+      <Description>Nominal power demand defined for a specified reference condition.</Description>
+      <Version>1.0.0</Version>
+    </AttributeType>
+    <AttributeType Name="powerDemandMin" AttributeDataType="xs:double" Unit="W" ID="2fbff1f1-49ad-465b-abf3-9bf5f1f163dd">
+      <Description>Lowest power demand value observed or specified for the asset.</Description>
+      <Version>1.0.0</Version>
+    </AttributeType>
+    <AttributeType Name="powerDemandMax" AttributeDataType="xs:double" Unit="W" ID="cfcecbcc-f029-4d9c-95f5-a26d394a30af">
+      <Description>Highest power demand value observed or specified for the asset.</Description>
+      <Version>1.0.0</Version>
+    </AttributeType>
+    <AttributeType Name="powerDemandIdle" AttributeDataType="xs:double" Unit="W" ID="797f704c-4124-439d-ae93-94efb710416e">
+      <Description>Power demand value associated with a defined low activity state.</Description>
+      <Version>1.0.0</Version>
+    </AttributeType>
+    <AttributeType Name="powerDemandStandby" AttributeDataType="xs:double" Unit="W" ID="1bcae9d2-c428-484e-8477-80ddbe6637e0">
+      <Description>Power demand value associated with a defined readiness state.</Description>
+      <Version>1.0.0</Version>
+    </AttributeType>
+    <AttributeType Name="averagePowerDemand" AttributeDataType="xs:double" Unit="W" ID="99e71377-ab33-434b-b934-3dde1bbdb32f">
+      <Description>Average power demand calculated over a defined measurement interval.</Description>
+      <Version>1.0.0</Version>
+    </AttributeType>
+    <AttributeType Name="peakPowerDemand" AttributeDataType="xs:double" Unit="W" ID="aa85106c-f92f-4610-9d3b-ab9dc475380b">
+      <Description>Maximum power demand observed within a defined measurement interval.</Description>
+      <Version>1.0.0</Version>
+    </AttributeType>
+    <AttributeType Name="energyDemandPerCycle" AttributeDataType="xs:double" Unit="J" ID="6240c183-9043-4fd2-854d-a67ca47f05ef">
+      <Description>Energy demand associated with one repetition of a defined process or sequence.</Description>
+      <Version>1.0.0</Version>
+    </AttributeType>
+    <AttributeType Name="energyDemandPerHour" AttributeDataType="xs:double" Unit="J" ID="74e9e8cf-a72c-46e2-b146-ae967e62174c">
+      <Description>Energy demand accumulated over a one hour interval.</Description>
+      <Version>1.0.0</Version>
+    </AttributeType>
+    <AttributeType Name="energyDemandPerDay" AttributeDataType="xs:double" Unit="J" ID="df75f411-0a1a-4b19-ac89-4120a6d2da99">
+      <Description>Energy demand accumulated over a one day interval.</Description>
+      <Version>1.0.0</Version>
+    </AttributeType>
+    <AttributeType Name="energyDemandPerYear" AttributeDataType="xs:double" Unit="J" ID="d885da3f-405d-4a1a-a1ae-6f3212d8fee0">
+      <Description>Energy demand accumulated over a one year interval.</Description>
+      <Version>1.0.0</Version>
+    </AttributeType>
+    <AttributeType Name="energyEfficiencyClass" AttributeDataType="xs:string" ID="91a9e21c-1e89-44d7-aa78-959bd6d9b918">
+      <Description>Classification indicating energy efficiency according to a defined scheme.</Description>
+      <Version>1.0.0</Version>
+    </AttributeType>
+    <AttributeType Name="energyMeteringSupported" AttributeDataType="xs:boolean" ID="735218ca-c284-4a6c-9333-dce1f94fd667">
+      <Description>Indicator whether energy measurement functionality is available.</Description>
+      <Version>1.0.0</Version>
+    </AttributeType>
+  </AttributeTypeLib>
+  <AttributeTypeLib Name="AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib" ID="2b1ba376-74dc-44cd-aa7c-60813d11b4d9">
+    <Description>This AttributeTypeLib defines attributes related to reliability, availability, and expected lifetime characteristics of an asset.
+
+The attributes describe statistical properties and time-based expectations of asset behavior under defined conditions. They are formulated in a domain-neutral manner and do not assume a specific engineering discipline, organizational structure, or maintenance implementation.
+
+The contained attributes provide a generic semantic basis for expressing reliability- and lifetime-related information. Domain-specific interpretations, operational contexts, or maintenance concepts may be introduced by referencing or extending these attributes in dedicated Domain Extension Libraries.</Description>
+    <Version>1.0.0</Version>
+    <AttributeType Name="designLifetime" AttributeDataType="xs:double" Unit="h" ID="47db6c63-eff5-41fe-a11e-5f014275eb5d">
+      <Description>Intended lifetime defined for a specified set of conditions.</Description>
+      <Version>1.0.0</Version>
+    </AttributeType>
+    <AttributeType Name="meanTimeBetweenFailures" AttributeDataType="xs:double" Unit="h" ID="ca31add5-ca43-4566-99d4-927fb5a426fe">
+      <Description>Statistical mean time interval between consecutive failure events.</Description>
+      <Version>1.0.0</Version>
+    </AttributeType>
+    <AttributeType Name="meanTimeToRepair" AttributeDataType="xs:double" Unit="h" ID="867a8d4f-a01c-4258-8fd3-6d2d838421ce">
+      <Description>Statistical mean duration required to perform a repair action.</Description>
+      <Version>1.0.0</Version>
+    </AttributeType>
+    <AttributeType Name="meanTimeToRestore" AttributeDataType="xs:double" Unit="h" ID="975bad7e-af52-4759-8871-d72cbfcd764a">
+      <Description>Statistical mean duration required to restore functionality after a failure.</Description>
+      <Version>1.0.0</Version>
+    </AttributeType>
+    <AttributeType Name="failureRate" AttributeDataType="xs:double" Unit="1/h" ID="e25a8bb5-fdfd-4f2a-949b-40c7c4b3eff9">
+      <Description>Rate at which failure events occur over a defined time interval.</Description>
+      <Version>1.0.0</Version>
+    </AttributeType>
+    <AttributeType Name="availability" AttributeDataType="xs:double" Unit="%" ID="2a3082df-f918-4ee7-bd9b-5507d3238825">
+      <Description>Ratio of available time to total time over a defined observation period.</Description>
+      <Version>1.0.0</Version>
+    </AttributeType>
+    <AttributeType Name="reliability" AttributeDataType="xs:double" Unit="%" ID="17c0e861-8830-47f9-b6fa-eba01c712515">
+      <Description>Probability of correct operation over a defined time interval.</Description>
+      <Version>1.0.0</Version>
+    </AttributeType>
+    <AttributeType Name="redundancyLevel" AttributeDataType="xs:integer" ID="8fb66270-4415-4df2-a417-c81fbdddb8d9" Unit="1">
+      <Description>Number of parallel or redundant elements present.</Description>
+      <Version>1.0.0</Version>
+    </AttributeType>
+  </AttributeTypeLib>
+  <AttributeTypeLib Name="AutomationML_BasicProperties.appearance_AttributeTypeLib" ID="07cc2214-37d2-44ab-bd93-5691aaca5dc3">
+    <Description>This AttributeTypeLib defines appearance-related attributes that describe the visual and externally perceivable properties of an asset, such as color, finish, markings, and variants. The attributes are descriptive, domain-neutral, and independent of functional or technical behavior.</Description>
+    <Version>1.0.0</Version>
+    <AttributeType Name="color" AttributeDataType="xs:string" ID="daf161c4-35be-4d8e-9763-b3fc79bd3d12">
+      <Description>Primary color designation.</Description>
+      <Version>1.0.0</Version>
+    </AttributeType>
+    <AttributeType Name="secondaryColor" AttributeDataType="xs:string" ID="35194361-91a4-4c07-8482-5f4c1dd7b715">
+      <Description>Secondary or accent color designation.</Description>
+      <Version>1.0.0</Version>
+    </AttributeType>
+    <AttributeType Name="surfaceFinish" AttributeDataType="xs:string" ID="e091b64d-0071-4900-9edf-b3d32942310b">
+      <Description>Description of the surface finish.</Description>
+      <Version>1.0.0</Version>
+    </AttributeType>
+    <AttributeType Name="surfaceTexture" AttributeDataType="xs:string" ID="886a7ffe-36b1-48c3-b54c-ba957e54babc">
+      <Description>Description of the surface texture or roughness.</Description>
+      <Version>1.0.0</Version>
+    </AttributeType>
+    <AttributeType Name="materialAppearance" AttributeDataType="xs:string" ID="4858c504-2da5-41ae-af52-ca08e29e548b">
+      <Description>Visual appearance of the material, for example matte, glossy, metallic, or translucent.</Description>
+      <Version>1.0.0</Version>
+    </AttributeType>
+    <AttributeType Name="coatingType" AttributeDataType="xs:string" ID="efad251b-6f6c-40ac-9b99-443e1fb05398">
+      <Description>Description of the type of coating applied.</Description>
+      <Version>1.0.0</Version>
+    </AttributeType>
+    <AttributeType Name="labeling" AttributeDataType="xs:string" ID="778bc2b8-40dc-4a65-bb65-ba01f3433ae9">
+      <Description>Description of applied labels or markings.</Description>
+      <Version>1.0.0</Version>
+    </AttributeType>
+    <AttributeType Name="branding" AttributeDataType="xs:string" ID="d97848e4-82b6-4209-85bb-f55e5da2374a">
+      <Description>Description of branding or logo information.</Description>
+      <Version>1.0.0</Version>
+    </AttributeType>
+    <AttributeType Name="symbolMarking" AttributeDataType="xs:string" ID="3f6bab5e-4aad-48f0-a6f3-eae231e606cc">
+      <Description>Description of applied symbols or pictograms.</Description>
+      <Version>1.0.0</Version>
+    </AttributeType>
+    <AttributeType Name="illuminationColor" AttributeDataType="xs:string" ID="cd181b18-8bc9-4142-80ae-36363a9e4452">
+      <Description>Color designation for an illumination element.</Description>
+      <Version>1.0.0</Version>
+    </AttributeType>
+    <AttributeType Name="appearanceVariant" AttributeDataType="xs:string" ID="95cce0cd-fbb6-480b-8a45-9ad08e18c828">
+      <Description>Variant of the asset appearance differing in color, finish, or markings.</Description>
+      <Version>1.0.0</Version>
+    </AttributeType>
+    <AttributeType Name="visibilityClass" AttributeDataType="xs:string" ID="f18ab5e9-68f2-451d-a29c-0b4c948f2426">
+      <Description>Classification describing visibility characteristics.</Description>
+      <Version>1.0.0</Version>
+    </AttributeType>
+  </AttributeTypeLib>
+  <AttributeTypeLib Name="AutomationML_BasicProperties.kinematics_AttributeTypeLib" ID="2feb0463-2003-4e29-85cf-48b4f937c53e">
+    <Description>This AttributeTypeLib defines kinematic attributes that describe motion-related properties and states of an asset in a defined reference frame. The attributes are optional, generic, and domain-neutral, intended for use when motion description is relevant.</Description>
+    <Version>1.0.0</Version>
+    <AttributeType Name="position" AttributeDataType="xs:string" ID="854cca65-9d26-4910-a5e3-6c52edabc01a">
+      <Description>Position of an object relative to a reference frame.</Description>
+      <Version>1.0.0</Version>
+    </AttributeType>
+    <AttributeType Name="orientation" AttributeDataType="xs:string" ID="aa0fd634-2fe7-4799-a696-b848d4d49031">
+      <Description>Orientation of an object relative to a reference frame.</Description>
+      <Version>1.0.0</Version>
+    </AttributeType>
+    <AttributeType Name="linearVelocity" AttributeDataType="xs:double" Unit="m/s" ID="7b1f7180-532f-4c94-85cb-a38ec867f81c">
+      <Description>Magnitude of linear velocity as a physical quantity.</Description>
+      <Version>1.0.0</Version>
+    </AttributeType>
+    <AttributeType Name="linearAcceleration" AttributeDataType="xs:double" Unit="m/s^2" ID="2a91335c-8247-4079-ae2b-f34cae236310">
+      <Description>Magnitude of linear acceleration as a physical quantity.</Description>
+      <Version>1.0.0</Version>
+    </AttributeType>
+    <AttributeType Name="angularVelocity" AttributeDataType="xs:double" Unit="rad/s" ID="49f7a4fc-5143-431e-b5f4-fb7cbe00c08e">
+      <Description>Magnitude of angular velocity as a physical quantity.</Description>
+      <Version>1.0.0</Version>
+    </AttributeType>
+    <AttributeType Name="angularAcceleration" AttributeDataType="xs:double" Unit="rad/s^2" ID="707e9380-cdd1-4d35-aa2f-8485b9ac198c">
+      <Description>Magnitude of angular acceleration as a physical quantity.</Description>
+      <Version>1.0.0</Version>
+    </AttributeType>
+    <AttributeType Name="displacement" AttributeDataType="xs:double" Unit="m" ID="596ae1ed-78d3-43a8-a1b5-f9020f6b0afd">
+      <Description>Linear displacement expressed as a length value.</Description>
+      <Version>1.0.0</Version>
+    </AttributeType>
+    <AttributeType Name="rotationAngle" AttributeDataType="xs:double" Unit="rad" ID="5aaeeded-4a37-45b5-abff-9ec74c8f39bf">
+      <Description>Angular displacement expressed as an angle value.</Description>
+      <Version>1.0.0</Version>
+    </AttributeType>
+    <AttributeType Name="motionState" AttributeDataType="xs:string" ID="8abb9554-34b9-4714-96b1-4865d4574123">
+      <Description>Textual descriptor of the current motion state.</Description>
+      <Version>1.0.0</Version>
+    </AttributeType>
+    <AttributeType Name="referenceFrame" AttributeDataType="xs:string" ID="22f8d891-c459-435b-b550-17b4aaf7bb6c">
+      <Description>Identifier or descriptor of a reference frame.</Description>
+      <Version>1.0.0</Version>
+    </AttributeType>
+  </AttributeTypeLib>
+</CAEXFile>
