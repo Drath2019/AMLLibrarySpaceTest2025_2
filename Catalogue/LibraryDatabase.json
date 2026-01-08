@@ -283,6 +283,26 @@
               "Revision": null
             }
           ]
+        },
+        {
+          "Name": "AutomationML_DomainExtension.electrics_AttributeTypeLib",
+          "Versions": [
+            {
+              "Version": "1.0.0",
+              "CAEXVersion": "3.0",
+              "AMLEdition": "AMLEd2",
+              "IsArchived": false,
+              "Description": "This AttributeTypeLib defines domain-specific electrical properties for the description of electrical operating limits, network characteristics, passive electrical parameters, and insulation behavior of assets.\nThe attributes cover impedance-related quantities, capacitance, inductance, insulation resistance, dielectric strength, and operational currents relevant for electrical safety and design verification.\nContext-dependent attributes such as electrical load case are used to unambiguously interpret the electrical quantities.\nThe defined attributes are intended exclusively for the electrics domain and are not part of the domain-neutral Basic Properties libraries.",
+              "DownloadLink": null,
+              "DownloadLinks": [
+                "https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/AutomationML_DomainExtension.electrics_AttributeTypeLib_AMLEd2_1.0.0.aml"
+              ],
+              "Sources": null,
+              "Signature": "MEYCIQDK2/00urWCDFS2miAbsEAayTKShnpIsp\u002BAj65mrjHpigIhAIH/XImF0sQzDRiXM5SjsmajobsQKtHvebNf285Caf2A",
+              "PublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEyk6uIUNugOojm3akdEAA4XoGGBEui0zPVhzkjR0RfprHFWrbPpFMfExaW2TaeChaegCmjE2boFph1aI1eNEPcQ==",
+              "Revision": null
+            }
+          ]
         }
       ]
     }
