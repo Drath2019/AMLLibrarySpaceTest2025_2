@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CAEXFile SchemaVersion="3.0" FileName="AutomationML_DomainExtension.electrics_AttributeTypeLib_AMLEd2_1.0.0.aml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.dke.de/CAEX" xsi:schemaLocation="http://www.dke.de/CAEX CAEX_ClassModel_V.3.0.xsd">
+  <SuperiorStandardVersion>AutomationML 2.1</SuperiorStandardVersion>
+  <SourceDocumentInformation OriginName="DomainExtension.electrics_AttributeTypeLib" OriginID="70b93074-2c51-4fd7-9031-e8856f8a33b7" OriginVersion="1.0.0" LastWritingDateTime="2026-01-08T09:27:12.160556+01:00" OriginProjectID="" OriginProjectTitle="" OriginRelease="1.0.0" OriginVendor="AutomationML" OriginVendorURL="AutomationML_DomainExtension.electrics_AttributeTypeLib_AMLEd2_1.0.0.aml" />
+  <AttributeTypeLib Name="AutomationML_DomainExtension.electrics_AttributeTypeLib" ID="fa5e6629-5d0a-4253-8aa9-2a75b829b0f8">
+    <Description>This AttributeTypeLib defines domain-specific electrical properties for the description of electrical operating limits, network characteristics, passive electrical parameters, and insulation behavior of assets.
+The attributes cover impedance-related quantities, capacitance, inductance, insulation resistance, dielectric strength, and operational currents relevant for electrical safety and design verification.
+Context-dependent attributes such as electrical load case are used to unambiguously interpret the electrical quantities.
+The defined attributes are intended exclusively for the electrics domain and are not part of the domain-neutral Basic Properties libraries.</Description>
+    <Version>1.0.0</Version>
+    <AttributeType Name="electricalLoadCase" AttributeDataType="xs:string" ID="80cd14c2-d582-45fe-9492-48f5d2886621">
+      <Description>Identifier or description of the electrical load case to which the specified electrical properties apply.</Description>
+      <Version>1.0.0</Version>
+    </AttributeType>
+    <AttributeType Name="phaseCount" AttributeDataType="xs:integer" ID="f2f331f6-8d94-4c12-af64-829465168305" Unit="1">
+      <Description>Number of electrical phases used to supply the asset.</Description>
+      <Version>1.0.0</Version>
+    </AttributeType>
+    <AttributeType Name="powerFactor" AttributeDataType="xs:double" Unit="1" ID="651da632-b0ec-4936-b992-e00e88ddfc75">
+      <Description>Electrical power factor representing the ratio of active power to apparent power under the specified electrical load case.</Description>
+      <Version>1.0.0</Version>
+    </AttributeType>
+    <AttributeType Name="impedance" AttributeDataType="xs:double" Unit="Ohm" ID="1608fe20-8b89-455c-bac9-cc4eef715258">
+      <Description>Electrical impedance of the asset under defined conditions. The applicable conditions shall include frequency, either explicitly or via the referenced electrical load case.</Description>
+      <Version>1.0.0</Version>
+    </AttributeType>
+    <AttributeType Name="resistance" AttributeDataType="xs:double" Unit="Ohm" ID="e9c8c746-8ef1-4da6-adcc-06ecda64c3f4">
+      <Description>Electrical resistance of the asset under defined conditions.</Description>
+      <Version>1.0.0</Version>
+    </AttributeType>
+    <AttributeType Name="capacitance" AttributeDataType="xs:double" Unit="F" ID="0c2604ab-bf31-4915-a1f4-09a43e7a2bb5">
+      <Description>Electrical capacitance of the asset under defined conditions.</Description>
+      <Version>1.0.0</Version>
+    </AttributeType>
+    <AttributeType Name="inductance" AttributeDataType="xs:double" Unit="H" ID="bc424155-4209-4ed6-9d17-ab487c50f6ba">
+      <Description>Electrical inductance of the asset under defined conditions.</Description>
+      <Version>1.0.0</Version>
+    </AttributeType>
+    <AttributeType Name="insulationResistance" AttributeDataType="xs:double" Unit="Ohm" ID="1db4a9eb-66c7-4de0-8b47-1e72a66088f3">
+      <Description>Electrical insulation resistance of the asset under defined test conditions.</Description>
+      <Version>1.0.0</Version>
+    </AttributeType>
+    <AttributeType Name="dielectricStrength" AttributeDataType="xs:double" Unit="V/m" ID="5ce1e351-8c74-4697-aae9-cd4bc5c4b4b5">
+      <Description>Dielectric strength of insulating materials used in the asset under defined test conditions.</Description>
+      <Version>1.0.0</Version>
+    </AttributeType>
+    <AttributeType Name="shortCircuitCurrent" AttributeDataType="xs:double" Unit="A" ID="1ab4a372-42fa-4b90-8e19-cf0c248e1ae0">
+      <Description>Prospective short-circuit current associated with the asset under defined conditions.</Description>
+      <Version>1.0.0</Version>
+    </AttributeType>
+    <AttributeType Name="leakageCurrent" AttributeDataType="xs:double" Unit="A" ID="9cc1aec3-ab6b-4691-8e69-0cfe45d4b919">
+      <Description>Electrical leakage current occurring under defined operating conditions.</Description>
+      <Version>1.0.0</Version>
+    </AttributeType>
+    <AttributeType Name="maximumVoltage" AttributeDataType="xs:double" Unit="V" ID="b926be28-8d43-490d-8ff4-b197a2c9f7e7">
+      <Description>Maximum permissible electrical voltage of the asset under defined conditions.</Description>
+      <Version>1.0.0</Version>
+    </AttributeType>
+    <AttributeType Name="maximumCurrent" AttributeDataType="xs:double" Unit="A" ID="10581962-bb33-4a3e-bf4d-5acf880fa1a3">
+      <Description>Maximum permissible electrical current of the asset under defined conditions.</Description>
+      <Version>1.0.0</Version>
+    </AttributeType>
+  </AttributeTypeLib>
+</CAEXFile>
