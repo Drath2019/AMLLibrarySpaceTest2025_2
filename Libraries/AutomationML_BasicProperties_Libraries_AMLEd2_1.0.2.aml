@@ -1,0 +1,1259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CAEXFile SchemaVersion="3.0" FileName="AutomationML_BasicProperties_Libraries_AMLEd2_1.0.2.aml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.dke.de/CAEX" xsi:schemaLocation="http://www.dke.de/CAEX CAEX_ClassModel_V.3.0.xsd">
+  <SuperiorStandardVersion>AutomationML 2.1</SuperiorStandardVersion>
+  <SourceDocumentInformation OriginName="BasicProperties_Libraries" OriginID="879ff4cd-0578-43a2-9083-98f294cac3a2" OriginVersion="1.0.2" LastWritingDateTime="2026-01-10T12:52:27.999249+01:00" OriginProjectID="" OriginProjectTitle="" OriginRelease="1.0.2" OriginVendor="AutomationML" OriginVendorURL="AutomationML_BasicProperties_Libraries_AMLEd2_1.0.2.aml" />
+  <ExternalReference Path="https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/AutomationML_BasicProperties_Libraries_AMLEd2_1.0.1.aml" Alias="AutomationMLBasicPropertiesLibrariesAMLEd21_0_1">
+    <Description>VersionRef</Description>
+    <Version>OldVersion</Version>
+  </ExternalReference>
+  <AttributeTypeLib Name="AutomationML_BasicProperties.identification_AttributeTypeLib" ID="b1b257f6-627f-4ef2-9701-1490ac4fe880">
+    <Description>This AttributeTypeLib contains fundamental, domain-independent identification attributes that uniquely describe an asset or object across its lifecycle. The attributes are universally applicable and independent of organizational, system-specific, or process-related contexts.</Description>
+    <Version>1.0.2</Version>
+    <Revision>
+      <RevisionDate>2026-01-10T12:52:27.3578749+01:00</RevisionDate>
+      <OldVersion>AutomationMLBasicPropertiesLibrariesAMLEd21_0_1@AutomationML_BasicProperties.identification_AttributeTypeLib</OldVersion>
+      <AuthorName>enisc</AuthorName>
+    </Revision>
+    <AttributeType Name="id" AttributeDataType="xs:string" ID="3358e218-b893-4ba7-aafc-fb7b5e493acb">
+      <Description>Identifier used to distinguish an object within a defined scope.</Description>
+      <Version>1.0.2</Version>
+      <Revision>
+        <RevisionDate>2026-01-10T12:52:27.3642509+01:00</RevisionDate>
+        <OldVersion>AutomationMLBasicPropertiesLibrariesAMLEd21_0_1@AutomationML_BasicProperties.identification_AttributeTypeLib/id</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+    </AttributeType>
+    <AttributeType Name="idShort" AttributeDataType="xs:string" ID="8defc9da-86a1-48a9-a139-d49ea42aaa80">
+      <Description>Short identifier of the asset or object intended for human readable usage.</Description>
+      <Version>1.0.2</Version>
+      <Revision>
+        <RevisionDate>2026-01-10T12:52:27.3675301+01:00</RevisionDate>
+        <OldVersion>AutomationMLBasicPropertiesLibrariesAMLEd21_0_1@AutomationML_BasicProperties.identification_AttributeTypeLib/idShort</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+    </AttributeType>
+    <AttributeType Name="semanticId" AttributeDataType="xs:string" ID="3804f0c7-f80c-461f-930e-5d519f385ec5">
+      <Description>Semantic identifier referencing a concept definition in a semantic model.</Description>
+      <Version>1.0.2</Version>
+      <Revision>
+        <RevisionDate>2026-01-10T12:52:27.3699627+01:00</RevisionDate>
+        <OldVersion>AutomationMLBasicPropertiesLibrariesAMLEd21_0_1@AutomationML_BasicProperties.identification_AttributeTypeLib/semanticId</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+    </AttributeType>
+    <AttributeType Name="globalAssetId" AttributeDataType="xs:string" ID="f7932ea2-b7ee-427c-8848-3deb1a156f87">
+      <Description>Globally unique identifier of the asset or object.</Description>
+      <Version>1.0.2</Version>
+      <Revision>
+        <RevisionDate>2026-01-10T12:52:27.3738754+01:00</RevisionDate>
+        <OldVersion>AutomationMLBasicPropertiesLibrariesAMLEd21_0_1@AutomationML_BasicProperties.identification_AttributeTypeLib/globalAssetId</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+    </AttributeType>
+    <AttributeType Name="manufacturerName" AttributeDataType="xs:string" ID="5d973f74-2fb0-4b28-a517-b5bed8f77205">
+      <Description>Official name of the manufacturer.</Description>
+      <Version>1.0.2</Version>
+      <Revision>
+        <RevisionDate>2026-01-10T12:52:27.3771834+01:00</RevisionDate>
+        <OldVersion>AutomationMLBasicPropertiesLibrariesAMLEd21_0_1@AutomationML_BasicProperties.identification_AttributeTypeLib/manufacturerName</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+    </AttributeType>
+    <AttributeType Name="manufacturerProductDesignation" AttributeDataType="xs:string" ID="81a61bac-b168-4a55-84c7-5251c2526611">
+      <Description>Manufacturer specific product designation or model name.</Description>
+      <Version>1.0.2</Version>
+      <Revision>
+        <RevisionDate>2026-01-10T12:52:27.3780219+01:00</RevisionDate>
+        <OldVersion>AutomationMLBasicPropertiesLibrariesAMLEd21_0_1@AutomationML_BasicProperties.identification_AttributeTypeLib/manufacturerProductDesignation</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+    </AttributeType>
+    <AttributeType Name="partNumber" AttributeDataType="xs:string" ID="4778e1b2-d9ec-4945-b5ed-4abd807e2d7e">
+      <Description>Part identifier assigned to a component or product.</Description>
+      <Version>1.0.2</Version>
+      <Revision>
+        <RevisionDate>2026-01-10T12:52:27.3790615+01:00</RevisionDate>
+        <OldVersion>AutomationMLBasicPropertiesLibrariesAMLEd21_0_1@AutomationML_BasicProperties.identification_AttributeTypeLib/partNumber</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+    </AttributeType>
+    <AttributeType Name="serialNumber" AttributeDataType="xs:string" ID="81d2caa2-36ca-40f2-bc19-a266f691bf33">
+      <Description>Unique serial number of an individual asset instance.</Description>
+      <Version>1.0.2</Version>
+      <Revision>
+        <RevisionDate>2026-01-10T12:52:27.3803443+01:00</RevisionDate>
+        <OldVersion>AutomationMLBasicPropertiesLibrariesAMLEd21_0_1@AutomationML_BasicProperties.identification_AttributeTypeLib/serialNumber</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+    </AttributeType>
+    <AttributeType Name="assetName" AttributeDataType="xs:string" ID="0e86de95-264f-47b5-8cf4-768fb63b5b32">
+      <Description>Human readable name of the asset used for identification purposes.</Description>
+      <Version>1.0.1</Version>
+      <Revision>
+        <RevisionDate>2026-01-10T12:52:27.387806+01:00</RevisionDate>
+        <OldVersion>AutomationMLBasicPropertiesLibrariesAMLEd21_0_1@AutomationML_BasicProperties.identification_AttributeTypeLib/assetName</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+    </AttributeType>
+    <AttributeType Name="assetDescription" AttributeDataType="xs:string" ID="a27318ed-7cfa-4200-af27-dc8780c79a17">
+      <Description>Short textual description of the asset for identification and documentation.</Description>
+      <Version>1.0.1</Version>
+      <Revision>
+        <RevisionDate>2026-01-10T12:52:27.3910226+01:00</RevisionDate>
+        <OldVersion>AutomationMLBasicPropertiesLibrariesAMLEd21_0_1@AutomationML_BasicProperties.identification_AttributeTypeLib/assetDescription</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+    </AttributeType>
+    <AttributeType Name="assetTag" AttributeDataType="xs:string" ID="f91ad2f6-80fe-42b7-a06a-88904d57e1ae">
+      <Description>Tag or label assigned to the asset for identification within a physical or digital environment.</Description>
+      <Version>1.0.1</Version>
+      <Revision>
+        <RevisionDate>2026-01-10T12:52:27.3922361+01:00</RevisionDate>
+        <OldVersion>AutomationMLBasicPropertiesLibrariesAMLEd21_0_1@AutomationML_BasicProperties.identification_AttributeTypeLib/assetTag</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+    </AttributeType>
+    <AttributeType Name="inventoryNumber" AttributeDataType="xs:string" ID="d70da3d9-f7b0-4b10-ab05-656508d7acdd">
+      <Description>Inventory identifier used to register the asset within an inventory system.</Description>
+      <Version>1.0.1</Version>
+      <Revision>
+        <RevisionDate>2026-01-10T12:52:27.3952498+01:00</RevisionDate>
+        <OldVersion>AutomationMLBasicPropertiesLibrariesAMLEd21_0_1@AutomationML_BasicProperties.identification_AttributeTypeLib/inventoryNumber</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+    </AttributeType>
+    <AttributeType Name="batchNumber" AttributeDataType="xs:string" ID="6c173289-65ec-48f0-8da5-460fa0d80eae">
+      <Description>Batch or lot identifier assigned during manufacturing.</Description>
+      <Version>1.0.1</Version>
+      <Revision>
+        <RevisionDate>2026-01-10T12:52:27.3965893+01:00</RevisionDate>
+        <OldVersion>AutomationMLBasicPropertiesLibrariesAMLEd21_0_1@AutomationML_BasicProperties.identification_AttributeTypeLib/batchNumber</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+    </AttributeType>
+    <AttributeType Name="productionOrderId" AttributeDataType="xs:string" ID="cb3756da-c6c3-43b2-8e3b-269f79ebf663">
+      <Description>Identifier of the production order under which the asset was manufactured.</Description>
+      <Version>1.0.1</Version>
+      <Revision>
+        <RevisionDate>2026-01-10T12:52:27.3977948+01:00</RevisionDate>
+        <OldVersion>AutomationMLBasicPropertiesLibrariesAMLEd21_0_1@AutomationML_BasicProperties.identification_AttributeTypeLib/productionOrderId</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+    </AttributeType>
+    <AttributeType Name="supplierName" AttributeDataType="xs:string" ID="dd9c7427-f756-4500-9bcf-ca3323661cda">
+      <Description>Name of the supplier or distributor providing the asset.</Description>
+      <Version>1.0.1</Version>
+      <Revision>
+        <RevisionDate>2026-01-10T12:52:27.3989458+01:00</RevisionDate>
+        <OldVersion>AutomationMLBasicPropertiesLibrariesAMLEd21_0_1@AutomationML_BasicProperties.identification_AttributeTypeLib/supplierName</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+    </AttributeType>
+    <AttributeType Name="supplierId" AttributeDataType="xs:string" ID="cc61aca4-4851-4474-a1a0-c533cf89cbc1">
+      <Description>Identifier of the supplier or distributor organization.</Description>
+      <Version>1.0.1</Version>
+      <Revision>
+        <RevisionDate>2026-01-10T12:52:27.400926+01:00</RevisionDate>
+        <OldVersion>AutomationMLBasicPropertiesLibrariesAMLEd21_0_1@AutomationML_BasicProperties.identification_AttributeTypeLib/supplierId</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+    </AttributeType>
+    <AttributeType Name="referenceDesignation" AttributeDataType="xs:string" ID="309a7aba-f330-4096-b140-a14023898fbc">
+      <Description>Reference designation used to identify the asset within a technical system or documentation.</Description>
+      <Version>1.0.1</Version>
+      <Revision>
+        <RevisionDate>2026-01-10T12:52:27.4024524+01:00</RevisionDate>
+        <OldVersion>AutomationMLBasicPropertiesLibrariesAMLEd21_0_1@AutomationML_BasicProperties.identification_AttributeTypeLib/referenceDesignation</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+    </AttributeType>
+    <AttributeType Name="externalReferenceId" AttributeDataType="xs:string" ID="662b6b1b-53ca-49d4-8833-58d83b478cc7">
+      <Description>External identifier referencing the asset in another system or registry.</Description>
+      <Version>1.0.1</Version>
+      <Revision>
+        <RevisionDate>2026-01-10T12:52:27.4037838+01:00</RevisionDate>
+        <OldVersion>AutomationMLBasicPropertiesLibrariesAMLEd21_0_1@AutomationML_BasicProperties.identification_AttributeTypeLib/externalReferenceId</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+    </AttributeType>
+    <AttributeType Name="assetCategory" AttributeDataType="xs:string" ID="8b0ea124-c5cf-4c24-8b9d-564915298e08">
+      <Description>General category used to group assets of a similar kind for identification and overview purposes.</Description>
+      <Version>1.0.1</Version>
+      <Revision>
+        <RevisionDate>2026-01-10T12:52:27.4053273+01:00</RevisionDate>
+        <OldVersion>AutomationMLBasicPropertiesLibrariesAMLEd21_0_1@AutomationML_BasicProperties.identification_AttributeTypeLib/assetCategory</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+    </AttributeType>
+    <AttributeType Name="assetTypeCode" AttributeDataType="xs:string" ID="438d4304-584f-4051-b9e1-6736baaf0b63">
+      <Description>Code used to identify the asset type according to an internal or external type catalogue.</Description>
+      <Version>1.0.1</Version>
+      <Revision>
+        <RevisionDate>2026-01-10T12:52:27.4067445+01:00</RevisionDate>
+        <OldVersion>AutomationMLBasicPropertiesLibrariesAMLEd21_0_1@AutomationML_BasicProperties.identification_AttributeTypeLib/assetTypeCode</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+    </AttributeType>
+    <AttributeType Name="modelIdentifier" AttributeDataType="xs:string" ID="f00e5cb4-3057-4e9a-8b00-b78adfb2a02e">
+      <Description>Identifier of the asset model independent of a specific instance.</Description>
+      <Version>1.0.1</Version>
+      <Revision>
+        <RevisionDate>2026-01-10T12:52:27.4083904+01:00</RevisionDate>
+        <OldVersion>AutomationMLBasicPropertiesLibrariesAMLEd21_0_1@AutomationML_BasicProperties.identification_AttributeTypeLib/modelIdentifier</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+    </AttributeType>
+    <AttributeType Name="variantIdentifier" AttributeDataType="xs:string" ID="a26f5ba6-d614-40ea-9958-869c6c0346aa">
+      <Description>Identifier distinguishing a specific variant of an asset model.</Description>
+      <Version>1.0.1</Version>
+      <Revision>
+        <RevisionDate>2026-01-10T12:52:27.4106771+01:00</RevisionDate>
+        <OldVersion>AutomationMLBasicPropertiesLibrariesAMLEd21_0_1@AutomationML_BasicProperties.identification_AttributeTypeLib/variantIdentifier</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+    </AttributeType>
+    <AttributeType Name="configurationIdentifier" AttributeDataType="xs:string" ID="e290a6f3-30a2-41af-9fe7-45ece4f89fb2">
+      <Description>Identifier referencing a defined configuration of the asset at the time of manufacture.</Description>
+      <Version>1.0.1</Version>
+      <Revision>
+        <RevisionDate>2026-01-10T12:52:27.4128612+01:00</RevisionDate>
+        <OldVersion>AutomationMLBasicPropertiesLibrariesAMLEd21_0_1@AutomationML_BasicProperties.identification_AttributeTypeLib/configurationIdentifier</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+    </AttributeType>
+    <AttributeType Name="drawingNumber" AttributeDataType="xs:string" ID="452c5730-a517-4120-bc5f-da1415d90928">
+      <Description>Identifier of a technical drawing or schematic used to define the asset.</Description>
+      <Version>1.0.1</Version>
+      <Revision>
+        <RevisionDate>2026-01-10T12:52:27.4146828+01:00</RevisionDate>
+        <OldVersion>AutomationMLBasicPropertiesLibrariesAMLEd21_0_1@AutomationML_BasicProperties.identification_AttributeTypeLib/drawingNumber</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+    </AttributeType>
+    <AttributeType Name="catalogueNumber" AttributeDataType="xs:string" ID="3e54eb0b-4e76-41f6-91e2-844a7803dfa1">
+      <Description>Catalogue identifier under which the asset is listed by a manufacturer or supplier.</Description>
+      <Version>1.0.1</Version>
+      <Revision>
+        <RevisionDate>2026-01-10T12:52:27.4164186+01:00</RevisionDate>
+        <OldVersion>AutomationMLBasicPropertiesLibrariesAMLEd21_0_1@AutomationML_BasicProperties.identification_AttributeTypeLib/catalogueNumber</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+    </AttributeType>
+    <AttributeType Name="labelText" AttributeDataType="xs:string" ID="9f4c8ef4-1255-4dc9-93f0-21365276a5d7">
+      <Description>Text printed or engraved on the asset label for identification purposes.</Description>
+      <Version>1.0.1</Version>
+      <Revision>
+        <RevisionDate>2026-01-10T12:52:27.4184086+01:00</RevisionDate>
+        <OldVersion>AutomationMLBasicPropertiesLibrariesAMLEd21_0_1@AutomationML_BasicProperties.identification_AttributeTypeLib/labelText</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+    </AttributeType>
+    <AttributeType Name="qrCodeReference" AttributeDataType="xs:string" ID="fe128c2d-549f-4b24-8021-7d7ade3fbd92">
+      <Description>Reference encoded in a QR code attached to the asset for identification.</Description>
+      <Version>1.0.1</Version>
+      <Revision>
+        <RevisionDate>2026-01-10T12:52:27.4206307+01:00</RevisionDate>
+        <OldVersion>AutomationMLBasicPropertiesLibrariesAMLEd21_0_1@AutomationML_BasicProperties.identification_AttributeTypeLib/qrCodeReference</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+    </AttributeType>
+    <AttributeType Name="rfidIdentifier" AttributeDataType="xs:string" ID="26f40b42-6a05-4f2a-853c-f9216f8d95d0">
+      <Description>Identifier stored on an RFID tag used to identify the asset.</Description>
+      <Version>1.0.1</Version>
+      <Revision>
+        <RevisionDate>2026-01-10T12:52:27.4265774+01:00</RevisionDate>
+        <OldVersion>AutomationMLBasicPropertiesLibrariesAMLEd21_0_1@AutomationML_BasicProperties.identification_AttributeTypeLib/rfidIdentifier</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+    </AttributeType>
+  </AttributeTypeLib>
+  <AttributeTypeLib Name="AutomationML_BasicProperties.physicalProperties_AttributeTypeLib" ID="9a6deb93-041b-491c-9f7d-cef5e098e098">
+    <Description>This AttributeTypeLib defines fundamental, domain-neutral physical and geometric properties that are generally applicable to technical assets. The contained attributes represent basic quantities such as mass, geometry, and selected fundamental physical quantities, without assuming any specific engineering domain or application context.</Description>
+    <Version>1.0.2</Version>
+    <Revision>
+      <RevisionDate>2026-01-10T12:52:27.4289393+01:00</RevisionDate>
+      <OldVersion>AutomationMLBasicPropertiesLibrariesAMLEd21_0_1@AutomationML_BasicProperties.physicalProperties_AttributeTypeLib</OldVersion>
+      <AuthorName>enisc</AuthorName>
+    </Revision>
+    <AttributeType Name="length" ID="ceefcf5d-3c99-432e-aee9-aff4755eba20" AttributeDataType="xs:double" Unit="m">
+      <Description>Length of the object along its primary dimension.</Description>
+      <Version>1.0.2</Version>
+      <Revision>
+        <RevisionDate>2026-01-10T12:52:27.4320593+01:00</RevisionDate>
+        <OldVersion>AutomationMLBasicPropertiesLibrariesAMLEd21_0_1@AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/length</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+      <SourceObjectInformation OriginID="INTERNATIONAL BUREAU OF WEIGHTS AND MEASURES (BIPM). The International System of Units (SI). 9th edition 2019" />
+      <RefSemantic CorrespondingAttributePath="0112/2///62720#UAA726#002" />
+      <RefSemantic CorrespondingAttributePath="0173-1#05-AAA551#005" />
+    </AttributeType>
+    <AttributeType Name="overallLength" AttributeDataType="xs:double" Unit="m" ID="0c01bfd5-4006-46b7-98aa-89c0cd8016e2">
+      <Description>Overall length of the object.</Description>
+      <Version>1.0.2</Version>
+      <Revision>
+        <RevisionDate>2026-01-10T12:52:27.4384625+01:00</RevisionDate>
+        <OldVersion>AutomationMLBasicPropertiesLibrariesAMLEd21_0_1@AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/overallLength</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+    </AttributeType>
+    <AttributeType Name="overallWidth" AttributeDataType="xs:double" Unit="m" ID="8b6fe5b7-1f67-46b6-b0c3-81a2468b5f8b">
+      <Description>Overall width of the object.</Description>
+      <Version>1.0.2</Version>
+      <Revision>
+        <RevisionDate>2026-01-10T12:52:27.4412858+01:00</RevisionDate>
+        <OldVersion>AutomationMLBasicPropertiesLibrariesAMLEd21_0_1@AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/overallWidth</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+    </AttributeType>
+    <AttributeType Name="overallHeight" AttributeDataType="xs:double" Unit="m" ID="5eed6c00-4955-40de-b8b8-c3c168b45ee2">
+      <Description>Overall height of the object.</Description>
+      <Version>1.0.2</Version>
+      <Revision>
+        <RevisionDate>2026-01-10T12:52:27.4436647+01:00</RevisionDate>
+        <OldVersion>AutomationMLBasicPropertiesLibrariesAMLEd21_0_1@AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/overallHeight</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+    </AttributeType>
+    <AttributeType Name="time" ID="7abe1b56-40c9-4295-b8d8-798dcf490200" AttributeDataType="xs:double" Unit="s">
+      <Description>Time duration associated with an object, process, or state.</Description>
+      <Version>1.0.2</Version>
+      <Revision>
+        <RevisionDate>2026-01-10T12:52:27.4462568+01:00</RevisionDate>
+        <OldVersion>AutomationMLBasicPropertiesLibrariesAMLEd21_0_1@AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/time</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+      <SourceObjectInformation OriginID="INTERNATIONAL BUREAU OF WEIGHTS AND MEASURES (BIPM). The International System of Units (SI). 9th edition 2019" />
+      <RefSemantic CorrespondingAttributePath="0112/2///62720#UAA972#002" />
+      <RefSemantic CorrespondingAttributePath="0173-1#05-AAA203#005" />
+    </AttributeType>
+    <AttributeType Name="mass" ID="ceb8416c-887c-442d-9913-5de67408cb9d" AttributeDataType="xs:double" Unit="kg">
+      <Description>Mass of the object.</Description>
+      <Version>1.0.2</Version>
+      <Revision>
+        <RevisionDate>2026-01-10T12:52:27.4488241+01:00</RevisionDate>
+        <OldVersion>AutomationMLBasicPropertiesLibrariesAMLEd21_0_1@AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/mass</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+      <SourceObjectInformation OriginID="INTERNATIONAL BUREAU OF WEIGHTS AND MEASURES (BIPM). The International System of Units (SI). 9th edition 2019" />
+      <RefSemantic CorrespondingAttributePath="0112/2///62720#UAA594#002" />
+      <RefSemantic CorrespondingAttributePath="0173-1#05-AAA731#005" />
+    </AttributeType>
+    <AttributeType Name="volume" AttributeDataType="xs:double" Unit="m^3" ID="cb904de1-28c4-4282-8206-358bdcb0af5d">
+      <Description>Geometric volume of the object.</Description>
+      <Version>1.0.2</Version>
+      <Revision>
+        <RevisionDate>2026-01-10T12:52:27.4514308+01:00</RevisionDate>
+        <OldVersion>AutomationMLBasicPropertiesLibrariesAMLEd21_0_1@AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/volume</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+    </AttributeType>
+    <AttributeType Name="density" AttributeDataType="xs:double" Unit="kg/m^3" ID="fc167316-6cbf-4bb5-9b17-fb2ce85dac9c">
+      <Description>Average mass density of the object.</Description>
+      <Version>1.0.2</Version>
+      <Revision>
+        <RevisionDate>2026-01-10T12:52:27.4539303+01:00</RevisionDate>
+        <OldVersion>AutomationMLBasicPropertiesLibrariesAMLEd21_0_1@AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/density</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+    </AttributeType>
+    <AttributeType Name="surfaceArea" AttributeDataType="xs:double" Unit="m^2" ID="2eda386d-466e-4527-a0b2-6308e4df2e0e">
+      <Description>Total outer surface area of the object.</Description>
+      <Version>1.0.2</Version>
+      <Revision>
+        <RevisionDate>2026-01-10T12:52:27.4567131+01:00</RevisionDate>
+        <OldVersion>AutomationMLBasicPropertiesLibrariesAMLEd21_0_1@AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/surfaceArea</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+    </AttributeType>
+    <AttributeType Name="footprintArea" AttributeDataType="xs:double" Unit="m^2" ID="a5f05e71-404e-400e-a802-f6b135fcd431">
+      <Description>Projected base area of the object.</Description>
+      <Version>1.0.2</Version>
+      <Revision>
+        <RevisionDate>2026-01-10T12:52:27.4595058+01:00</RevisionDate>
+        <OldVersion>AutomationMLBasicPropertiesLibrariesAMLEd21_0_1@AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/footprintArea</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+    </AttributeType>
+    <AttributeType Name="wavelength" AttributeDataType="xs:double" Unit="m" ID="ed9dffee-161b-43a5-831a-7c7377fd48a1">
+      <Description>Physical quantity describing the spatial period of a wave.</Description>
+      <Version>1.0.2</Version>
+      <Revision>
+        <RevisionDate>2026-01-10T12:52:27.4625319+01:00</RevisionDate>
+        <OldVersion>AutomationMLBasicPropertiesLibrariesAMLEd21_0_1@AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/wavelength</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+    </AttributeType>
+    <AttributeType Name="thermodynamicTemperature" ID="dc8b5ebd-326b-482a-acab-35fac712529f" AttributeDataType="xs:double" Unit="K">
+      <Description>Thermodynamic temperature of the object or a defined part of the object.</Description>
+      <Version>1.0.2</Version>
+      <Revision>
+        <RevisionDate>2026-01-10T12:52:27.4652836+01:00</RevisionDate>
+        <OldVersion>AutomationMLBasicPropertiesLibrariesAMLEd21_0_1@AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/thermodynamicTemperature</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+      <SourceObjectInformation OriginID="INTERNATIONAL BUREAU OF WEIGHTS AND MEASURES (BIPM). The International System of Units (SI). 9th edition 2019" />
+      <RefSemantic CorrespondingAttributePath="0112/2///62720#UAA185#002" />
+      <RefSemantic CorrespondingAttributePath="0173-1#05-AAA064#006" />
+    </AttributeType>
+    <AttributeType Name="amountOfSubstance" ID="55340bc2-e800-41d8-922c-f4b9663f02c8" AttributeDataType="xs:double" Unit="mol">
+      <Description>Amount of substance associated with the object or a defined material portion.</Description>
+      <Version>1.0.2</Version>
+      <Revision>
+        <RevisionDate>2026-01-10T12:52:27.4827089+01:00</RevisionDate>
+        <OldVersion>AutomationMLBasicPropertiesLibrariesAMLEd21_0_1@AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/amountOfSubstance</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+      <SourceObjectInformation OriginID="INTERNATIONAL BUREAU OF WEIGHTS AND MEASURES (BIPM). The International System of Units (SI). 9th edition 2019" />
+      <RefSemantic CorrespondingAttributePath="0112/2///62720#UAA882#002" />
+      <RefSemantic CorrespondingAttributePath="0173-1#05-AAA103#004" />
+    </AttributeType>
+    <AttributeType Name="luminousIntensity" ID="804d0ef9-6c3b-4196-ab0d-ea8a4b5dd516" AttributeDataType="xs:double" Unit="cd">
+      <Description>Luminous intensity emitted by the object in a given direction.</Description>
+      <Version>1.0.2</Version>
+      <Revision>
+        <RevisionDate>2026-01-10T12:52:27.4907239+01:00</RevisionDate>
+        <OldVersion>AutomationMLBasicPropertiesLibrariesAMLEd21_0_1@AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/luminousIntensity</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+      <SourceObjectInformation OriginID="INTERNATIONAL BUREAU OF WEIGHTS AND MEASURES (BIPM). The International System of Units (SI). 9th edition 2019" />
+      <RefSemantic CorrespondingAttributePath="0112/2///62720#UAA370#002" />
+      <RefSemantic CorrespondingAttributePath="0173-1#05-AAA045#005" />
+    </AttributeType>
+    <AttributeType Name="luminousFlux" AttributeDataType="xs:double" Unit="lm" ID="13bea2e1-3ef4-4b93-8778-d52d4cffc672">
+      <Description>Total luminous flux emitted by the object.</Description>
+      <Version>1.0.2</Version>
+      <Revision>
+        <RevisionDate>2026-01-10T12:52:27.4942658+01:00</RevisionDate>
+        <OldVersion>AutomationMLBasicPropertiesLibrariesAMLEd21_0_1@AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/luminousFlux</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+      <SourceObjectInformation OriginID="INTERNATIONAL BUREAU OF WEIGHTS AND MEASURES (BIPM). The International System of Units (SI). 9th edition 2019" />
+      <RefSemantic CorrespondingAttributePath="0112/2///62720#UAA718#001" />
+      <RefSemantic CorrespondingAttributePath="0173-1#05-AAA601#005" />
+    </AttributeType>
+    <AttributeType Name="planeAngle" AttributeDataType="xs:double" Unit="rad" ID="f8f2a4e1-06ee-42e2-aaee-b98b12ddeaf9">
+      <Description>Plane angle describing an angular relationship or orientation.</Description>
+      <Version>1.0.2</Version>
+      <Revision>
+        <RevisionDate>2026-01-10T12:52:27.4976585+01:00</RevisionDate>
+        <OldVersion>AutomationMLBasicPropertiesLibrariesAMLEd21_0_1@AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/planeAngle</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+      <SourceObjectInformation OriginID="INTERNATIONAL BUREAU OF WEIGHTS AND MEASURES (BIPM). The International System of Units (SI). 9th edition 2019" />
+      <RefSemantic CorrespondingAttributePath="0112/2///62720#UAA966" />
+      <RefSemantic CorrespondingAttributePath="0173-1#05-AAA012#005" />
+    </AttributeType>
+    <AttributeType Name="solidAngle" AttributeDataType="xs:double" Unit="sr" ID="34b70b0f-2481-4c2c-b5fe-e351e0abc92f">
+      <Description>Solid angle associated with emission, reception, or geometric relations.</Description>
+      <Version>1.0.2</Version>
+      <Revision>
+        <RevisionDate>2026-01-10T12:52:27.5015417+01:00</RevisionDate>
+        <OldVersion>AutomationMLBasicPropertiesLibrariesAMLEd21_0_1@AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/solidAngle</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+      <SourceObjectInformation OriginID="INTERNATIONAL BUREAU OF WEIGHTS AND MEASURES (BIPM). The International System of Units (SI). 9th edition 2019" />
+      <RefSemantic CorrespondingAttributePath="0112/2///62720#UAA986" />
+      <RefSemantic CorrespondingAttributePath="0173-1#05-AAA515#005" />
+    </AttributeType>
+    <AttributeType Name="frequency" AttributeDataType="xs:double" Unit="Hz" ID="ab33ca2e-6a35-474e-8362-aecd3059a25b">
+      <Description>Frequency of a periodic phenomenon associated with the object.</Description>
+      <Version>1.0.2</Version>
+      <Revision>
+        <RevisionDate>2026-01-10T12:52:27.5071154+01:00</RevisionDate>
+        <OldVersion>AutomationMLBasicPropertiesLibrariesAMLEd21_0_1@AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/frequency</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+      <SourceObjectInformation OriginID="INTERNATIONAL BUREAU OF WEIGHTS AND MEASURES (BIPM). The International System of Units (SI). 9th edition 2019" />
+      <RefSemantic CorrespondingAttributePath="0112/2///62720#UAA170#001" />
+      <RefSemantic CorrespondingAttributePath="0173-1#05-AAA351#005" />
+    </AttributeType>
+    <AttributeType Name="force" AttributeDataType="xs:double" Unit="N" ID="d15491aa-f394-40c0-bf43-644d93049140">
+      <Description>Force acting on or generated by the object.</Description>
+      <Version>1.0.2</Version>
+      <Revision>
+        <RevisionDate>2026-01-10T12:52:27.5104873+01:00</RevisionDate>
+        <OldVersion>AutomationMLBasicPropertiesLibrariesAMLEd21_0_1@AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/force</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+      <SourceObjectInformation OriginID="INTERNATIONAL BUREAU OF WEIGHTS AND MEASURES (BIPM). The International System of Units (SI). 9th edition 2019" />
+      <RefSemantic CorrespondingAttributePath="0112/2///62720#UAA235#001" />
+      <RefSemantic CorrespondingAttributePath="0173-1#05-AAA561#005" />
+    </AttributeType>
+    <AttributeType Name="energy" AttributeDataType="xs:double" Unit="J" ID="e60cdad5-74b3-4c9a-be25-e81eef078f45">
+      <Description>Energy associated with the object or a defined process involving the object.</Description>
+      <Version>1.0.2</Version>
+      <Revision>
+        <RevisionDate>2026-01-10T12:52:27.5137302+01:00</RevisionDate>
+        <OldVersion>AutomationMLBasicPropertiesLibrariesAMLEd21_0_1@AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/energy</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+      <SourceObjectInformation OriginID="INTERNATIONAL BUREAU OF WEIGHTS AND MEASURES (BIPM). The International System of Units (SI). 9th edition 2019" />
+      <RefSemantic CorrespondingAttributePath="0112/2///62720#UAA172#001" />
+      <RefSemantic CorrespondingAttributePath="0173-1#05-AAA029#005" />
+    </AttributeType>
+    <AttributeType Name="pressure" AttributeDataType="xs:double" Unit="Pa" ID="af286a0e-b89e-44c6-8a2c-aeebea6f30f3">
+      <Description>Pressure exerted by or applied to the object.</Description>
+      <Version>1.0.2</Version>
+      <Revision>
+        <RevisionDate>2026-01-10T12:52:27.5169164+01:00</RevisionDate>
+        <OldVersion>AutomationMLBasicPropertiesLibrariesAMLEd21_0_1@AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/pressure</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+      <SourceObjectInformation OriginID="INTERNATIONAL BUREAU OF WEIGHTS AND MEASURES (BIPM). The International System of Units (SI). 9th edition 2019" />
+      <RefSemantic CorrespondingAttributePath="0112/2///62720#UAA258#001" />
+      <RefSemantic CorrespondingAttributePath="0173-1#05-AAA015#005" />
+    </AttributeType>
+    <AttributeType Name="power" AttributeDataType="xs:double" Unit="W" ID="ec58785a-9471-452d-b58e-541f5b7509c0">
+      <Description>Power associated with the object or a defined operational state.</Description>
+      <Version>1.0.2</Version>
+      <Revision>
+        <RevisionDate>2026-01-10T12:52:27.5215888+01:00</RevisionDate>
+        <OldVersion>AutomationMLBasicPropertiesLibrariesAMLEd21_0_1@AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/power</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+      <SourceObjectInformation OriginID="INTERNATIONAL BUREAU OF WEIGHTS AND MEASURES (BIPM). The International System of Units (SI). 9th edition 2019" />
+      <RefSemantic CorrespondingAttributePath="0112/2///62720#UAA306#002" />
+      <RefSemantic CorrespondingAttributePath="0173-1#05-AAA282#005" />
+    </AttributeType>
+    <AttributeType Name="celsiusTemperature" ID="ac97aa9a-dba6-4931-94ad-7ada987fe703" AttributeDataType="xs:double" Unit="°C">
+      <Description>Temperature of the object expressed on the Celsius scale.</Description>
+      <Version>1.0.2</Version>
+      <Revision>
+        <RevisionDate>2026-01-10T12:52:27.5253235+01:00</RevisionDate>
+        <OldVersion>AutomationMLBasicPropertiesLibrariesAMLEd21_0_1@AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/celsiusTemperature</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+    </AttributeType>
+    <AttributeType Name="illuminance" AttributeDataType="xs:double" Unit="lx" ID="89647aab-98c8-408f-94c7-cd5b90c36654">
+      <Description>Illuminance provided by the object on a reference surface.</Description>
+      <Version>1.0.2</Version>
+      <Revision>
+        <RevisionDate>2026-01-10T12:52:27.5301113+01:00</RevisionDate>
+        <OldVersion>AutomationMLBasicPropertiesLibrariesAMLEd21_0_1@AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/illuminance</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+      <SourceObjectInformation OriginID="INTERNATIONAL BUREAU OF WEIGHTS AND MEASURES (BIPM). The International System of Units (SI). 9th edition 2019" />
+      <RefSemantic CorrespondingAttributePath="0112/2///62720#UAA723#002" />
+      <RefSemantic CorrespondingAttributePath="0173-1#05-AAA541#005" />
+    </AttributeType>
+    <AttributeType Name="activityReferredToRadionuclide" AttributeDataType="xs:double" Unit="Bq" ID="f8159186-448a-4deb-96f8-fb14ec701ca2">
+      <Description>Activity of a radionuclide associated with the object.</Description>
+      <Version>1.0.2</Version>
+      <Revision>
+        <RevisionDate>2026-01-10T12:52:27.5355168+01:00</RevisionDate>
+        <OldVersion>AutomationMLBasicPropertiesLibrariesAMLEd21_0_1@AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/activityReferredToRadionuclide</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+      <SourceObjectInformation OriginID="INTERNATIONAL BUREAU OF WEIGHTS AND MEASURES (BIPM). The International System of Units (SI). 9th edition 2019" />
+      <RefSemantic CorrespondingAttributePath="0112/2///62720#UAA111" />
+      <RefSemantic CorrespondingAttributePath="0173-1#05-AAA308#005" />
+    </AttributeType>
+    <AttributeType Name="absorbedDose" AttributeDataType="xs:double" Unit="Gy" ID="9db4e500-9bb1-484e-a5cb-364721479b52">
+      <Description>Absorbed radiation dose associated with the object or a defined material volume.</Description>
+      <Version>1.0.2</Version>
+      <Revision>
+        <RevisionDate>2026-01-10T12:52:27.5436684+01:00</RevisionDate>
+        <OldVersion>AutomationMLBasicPropertiesLibrariesAMLEd21_0_1@AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/absorbedDose</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+      <SourceObjectInformation OriginID="INTERNATIONAL BUREAU OF WEIGHTS AND MEASURES (BIPM). The International System of Units (SI). 9th edition 2019" />
+      <RefSemantic CorrespondingAttributePath="0112/2///62720#UAA163" />
+      <RefSemantic CorrespondingAttributePath="0173-1#05-AAA232#005" />
+    </AttributeType>
+    <AttributeType Name="doseEquivalent" AttributeDataType="xs:double" Unit="Sv" ID="c18101ac-0084-40c3-9e49-b08aa2532827">
+      <Description>Dose equivalent associated with radiation exposure of the object or material.</Description>
+      <Version>1.0.2</Version>
+      <Revision>
+        <RevisionDate>2026-01-10T12:52:27.5536704+01:00</RevisionDate>
+        <OldVersion>AutomationMLBasicPropertiesLibrariesAMLEd21_0_1@AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/doseEquivalent</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+      <SourceObjectInformation OriginID="INTERNATIONAL BUREAU OF WEIGHTS AND MEASURES (BIPM). The International System of Units (SI). 9th edition 2019" />
+      <RefSemantic CorrespondingAttributePath="0112/2///62720#UAA284" />
+      <RefSemantic CorrespondingAttributePath="0173-1#05-AAA713#005" />
+    </AttributeType>
+    <AttributeType Name="catalyticActivity" ID="3f19ca36-dcbd-477e-a6aa-0b97e5159675" AttributeDataType="xs:double" Unit="kat">
+      <Description>Catalytic activity associated with the object or a defined catalytic process.</Description>
+      <Version>1.0.2</Version>
+      <Revision>
+        <RevisionDate>2026-01-10T12:52:27.5571803+01:00</RevisionDate>
+        <OldVersion>AutomationMLBasicPropertiesLibrariesAMLEd21_0_1@AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/catalyticActivity</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+      <SourceObjectInformation OriginID="INTERNATIONAL BUREAU OF WEIGHTS AND MEASURES (BIPM). The International System of Units (SI). 9th edition 2019" />
+    </AttributeType>
+  </AttributeTypeLib>
+  <AttributeTypeLib Name="AutomationML_BasicProperties.environmentalConditions_AttributeTypeLib" ID="06f4930e-5650-4d3d-9594-bce2beabbea4">
+    <Description>This AttributeTypeLib contains basic environmental boundary conditions that define the general permissible operating and storage environment of an asset. The attributes are limited to universally relevant environmental constraints and exclude domain-specific, normative, or application-dependent environmental requirements.</Description>
+    <Version>1.0.2</Version>
+    <Revision>
+      <RevisionDate>2026-01-10T12:52:27.5636163+01:00</RevisionDate>
+      <OldVersion>AutomationMLBasicPropertiesLibrariesAMLEd21_0_1@AutomationML_BasicProperties.environmentalConditions_AttributeTypeLib</OldVersion>
+      <AuthorName>enisc</AuthorName>
+    </Revision>
+    <AttributeType Name="operatingTemperatureMin" AttributeDataType="xs:double" Unit="°C" ID="6f5d1a57-0896-4ebd-863e-48ba46955571">
+      <Description>Minimum permissible operating temperature.</Description>
+      <Version>1.0.2</Version>
+      <Revision>
+        <RevisionDate>2026-01-10T12:52:27.5673174+01:00</RevisionDate>
+        <OldVersion>AutomationMLBasicPropertiesLibrariesAMLEd21_0_1@AutomationML_BasicProperties.environmentalConditions_AttributeTypeLib/operatingTemperatureMin</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+    </AttributeType>
+    <AttributeType Name="operatingTemperatureMax" AttributeDataType="xs:double" Unit="°C" ID="09616d9e-73f2-4d62-8a25-f7eaba353b68">
+      <Description>Maximum permissible operating temperature.</Description>
+      <Version>1.0.2</Version>
+      <Revision>
+        <RevisionDate>2026-01-10T12:52:27.5723335+01:00</RevisionDate>
+        <OldVersion>AutomationMLBasicPropertiesLibrariesAMLEd21_0_1@AutomationML_BasicProperties.environmentalConditions_AttributeTypeLib/operatingTemperatureMax</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+    </AttributeType>
+    <AttributeType Name="storageTemperatureMin" AttributeDataType="xs:double" Unit="°C" ID="f4a4a279-5cb9-4c6d-9306-d07fcf26c59b">
+      <Description>Minimum permissible storage temperature.</Description>
+      <Version>1.0.2</Version>
+      <Revision>
+        <RevisionDate>2026-01-10T12:52:27.5772775+01:00</RevisionDate>
+        <OldVersion>AutomationMLBasicPropertiesLibrariesAMLEd21_0_1@AutomationML_BasicProperties.environmentalConditions_AttributeTypeLib/storageTemperatureMin</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+    </AttributeType>
+    <AttributeType Name="storageTemperatureMax" AttributeDataType="xs:double" Unit="°C" ID="b84c6b31-68bf-45bb-ad5a-8041af29f2cb">
+      <Description>Maximum permissible storage temperature.</Description>
+      <Version>1.0.2</Version>
+      <Revision>
+        <RevisionDate>2026-01-10T12:52:27.5840802+01:00</RevisionDate>
+        <OldVersion>AutomationMLBasicPropertiesLibrariesAMLEd21_0_1@AutomationML_BasicProperties.environmentalConditions_AttributeTypeLib/storageTemperatureMax</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+    </AttributeType>
+    <AttributeType Name="relativeHumidityMin" AttributeDataType="xs:double" Unit="%" ID="f6359b1a-4f41-4a85-842d-81cd4946fcb1">
+      <Description>Minimum permissible relative humidity.</Description>
+      <Version>1.0.2</Version>
+      <Revision>
+        <RevisionDate>2026-01-10T12:52:27.5887866+01:00</RevisionDate>
+        <OldVersion>AutomationMLBasicPropertiesLibrariesAMLEd21_0_1@AutomationML_BasicProperties.environmentalConditions_AttributeTypeLib/relativeHumidityMin</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+    </AttributeType>
+    <AttributeType Name="relativeHumidityMax" AttributeDataType="xs:double" Unit="%" ID="0e09869a-536c-4f47-a3aa-74d192cfd02b">
+      <Description>Maximum permissible relative humidity.</Description>
+      <Version>1.0.2</Version>
+      <Revision>
+        <RevisionDate>2026-01-10T12:52:27.5978817+01:00</RevisionDate>
+        <OldVersion>AutomationMLBasicPropertiesLibrariesAMLEd21_0_1@AutomationML_BasicProperties.environmentalConditions_AttributeTypeLib/relativeHumidityMax</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+    </AttributeType>
+  </AttributeTypeLib>
+  <AttributeTypeLib Name="AutomationML_BasicProperties.electricalProperties_AttributeTypeLib" ID="946c2b0c-0498-4766-86e4-ea2d9900c9fe">
+    <Description>This AttributeTypeLib defines fundamental, domain-neutral electrical and energy-related properties of an asset.
+The contained attributes represent measurable electrical quantities (such as electric charge, electric potential difference, capacitance, resistance, conductance, magnetic flux, magnetic flux density, and inductance) as well as generic power demand and energy demand characteristics.
+All attributes are formulated independent of a specific engineering discipline, energy carrier, device class, control concept, or organizational context, and are intended to provide a common semantic basis for describing electrical behavior and consumption-related characteristics.</Description>
+    <Version>1.0.2</Version>
+    <Revision>
+      <RevisionDate>2026-01-10T12:52:27.6036266+01:00</RevisionDate>
+      <OldVersion>AutomationMLBasicPropertiesLibrariesAMLEd21_0_1@AutomationML_BasicProperties.electricalProperties_AttributeTypeLib</OldVersion>
+      <AuthorName>enisc</AuthorName>
+    </Revision>
+    <AttributeType Name="ratedPower" AttributeDataType="xs:double" Unit="W" ID="c2a8582f-cfe3-4afc-b6d1-82c19b670e84">
+      <Description>Rated power value representing a characteristic power level of an asset.</Description>
+      <Version>1.0.2</Version>
+      <Revision>
+        <RevisionDate>2026-01-10T12:52:27.6075386+01:00</RevisionDate>
+        <OldVersion>AutomationMLBasicPropertiesLibrariesAMLEd21_0_1@AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/ratedPower</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+    </AttributeType>
+    <AttributeType Name="powerDemandNominal" AttributeDataType="xs:double" Unit="W" ID="fcdc65e0-9324-463a-a4b2-467a7d7f6c3f">
+      <Description>Nominal power demand defined for a specified reference condition.</Description>
+      <Version>1.0.2</Version>
+      <Revision>
+        <RevisionDate>2026-01-10T12:52:27.6116155+01:00</RevisionDate>
+        <OldVersion>AutomationMLBasicPropertiesLibrariesAMLEd21_0_1@AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/powerDemandNominal</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+    </AttributeType>
+    <AttributeType Name="powerDemandMin" AttributeDataType="xs:double" Unit="W" ID="2fbff1f1-49ad-465b-abf3-9bf5f1f163dd">
+      <Description>Lowest power demand value observed or specified for the asset.</Description>
+      <Version>1.0.2</Version>
+      <Revision>
+        <RevisionDate>2026-01-10T12:52:27.6168016+01:00</RevisionDate>
+        <OldVersion>AutomationMLBasicPropertiesLibrariesAMLEd21_0_1@AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/powerDemandMin</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+    </AttributeType>
+    <AttributeType Name="powerDemandMax" AttributeDataType="xs:double" Unit="W" ID="cfcecbcc-f029-4d9c-95f5-a26d394a30af">
+      <Description>Highest power demand value observed or specified for the asset.</Description>
+      <Version>1.0.2</Version>
+      <Revision>
+        <RevisionDate>2026-01-10T12:52:27.6208631+01:00</RevisionDate>
+        <OldVersion>AutomationMLBasicPropertiesLibrariesAMLEd21_0_1@AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/powerDemandMax</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+    </AttributeType>
+    <AttributeType Name="averagePowerDemand" AttributeDataType="xs:double" Unit="W" ID="99e71377-ab33-434b-b934-3dde1bbdb32f">
+      <Description>Average power demand calculated over a defined measurement interval.</Description>
+      <Version>1.0.2</Version>
+      <Revision>
+        <RevisionDate>2026-01-10T12:52:27.6253218+01:00</RevisionDate>
+        <OldVersion>AutomationMLBasicPropertiesLibrariesAMLEd21_0_1@AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/averagePowerDemand</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+    </AttributeType>
+    <AttributeType Name="peakPowerDemand" AttributeDataType="xs:double" Unit="W" ID="aa85106c-f92f-4610-9d3b-ab9dc475380b">
+      <Description>Maximum power demand observed within a defined measurement interval.</Description>
+      <Version>1.0.2</Version>
+      <Revision>
+        <RevisionDate>2026-01-10T12:52:27.6313136+01:00</RevisionDate>
+        <OldVersion>AutomationMLBasicPropertiesLibrariesAMLEd21_0_1@AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/peakPowerDemand</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+    </AttributeType>
+    <AttributeType Name="energyDemandPerHour" AttributeDataType="xs:double" Unit="kWh" ID="74e9e8cf-a72c-46e2-b146-ae967e62174c">
+      <Description>Energy consumption accumulated over a one hour measurement interval.</Description>
+      <Version>1.0.2</Version>
+      <Revision>
+        <RevisionDate>2026-01-10T12:52:27.6367657+01:00</RevisionDate>
+        <OldVersion>AutomationMLBasicPropertiesLibrariesAMLEd21_0_1@AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/energyDemandPerHour</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+    </AttributeType>
+    <AttributeType Name="energyDemandPerDay" AttributeDataType="xs:double" Unit="kWh" ID="df75f411-0a1a-4b19-ac89-4120a6d2da99">
+      <Description>Energy consumption accumulated over a one day measurement interval.</Description>
+      <Version>1.0.2</Version>
+      <Revision>
+        <RevisionDate>2026-01-10T12:52:27.6410753+01:00</RevisionDate>
+        <OldVersion>AutomationMLBasicPropertiesLibrariesAMLEd21_0_1@AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/energyDemandPerDay</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+    </AttributeType>
+    <AttributeType Name="energyDemandPerYear" AttributeDataType="xs:double" Unit="kWh" ID="d885da3f-405d-4a1a-a1ae-6f3212d8fee0">
+      <Description>Energy consumption accumulated over a one year measurement interval.</Description>
+      <Version>1.0.2</Version>
+      <Revision>
+        <RevisionDate>2026-01-10T12:52:27.6450019+01:00</RevisionDate>
+        <OldVersion>AutomationMLBasicPropertiesLibrariesAMLEd21_0_1@AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/energyDemandPerYear</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+    </AttributeType>
+    <AttributeType Name="electricCharge" AttributeDataType="xs:double" Unit="C" ID="8ea8be25-e050-4823-bc7c-f8b21063eae8">
+      <Description>Electric charge associated with the object.</Description>
+      <Version>1.0.2</Version>
+      <Revision>
+        <RevisionDate>2026-01-10T12:52:27.6494127+01:00</RevisionDate>
+        <OldVersion>AutomationMLBasicPropertiesLibrariesAMLEd21_0_1@AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/electricCharge</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+      <SourceObjectInformation OriginID="INTERNATIONAL BUREAU OF WEIGHTS AND MEASURES (BIPM). The International System of Units (SI). 9th edition 2019" />
+      <RefSemantic CorrespondingAttributePath="0112/2///62720#UAA130#001" />
+      <RefSemantic CorrespondingAttributePath="0173-1#05-AAA397#005" />
+    </AttributeType>
+    <AttributeType Name="electricPotentialDifference" AttributeDataType="xs:double" Unit="V" ID="29bc195d-f7fb-4245-a168-77bdc1c9c0c3">
+      <Description>Electric potential difference associated with the object or between defined terminals.</Description>
+      <Version>1.0.2</Version>
+      <Revision>
+        <RevisionDate>2026-01-10T12:52:27.6573431+01:00</RevisionDate>
+        <OldVersion>AutomationMLBasicPropertiesLibrariesAMLEd21_0_1@AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/electricPotentialDifference</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+      <SourceObjectInformation OriginID="INTERNATIONAL BUREAU OF WEIGHTS AND MEASURES (BIPM). The International System of Units (SI). 9th edition 2019" />
+      <RefSemantic CorrespondingAttributePath="0112/2///62720#UAA296#002" />
+      <RefSemantic CorrespondingAttributePath="0173-1#05-AAA153#005" />
+    </AttributeType>
+    <AttributeType Name="capacitance" AttributeDataType="xs:double" Unit="F" ID="30883e1c-3eb9-44be-9270-8e76a1c9d8c1">
+      <Description>Electrical capacitance of the object or a defined component.</Description>
+      <Version>1.0.2</Version>
+      <Revision>
+        <RevisionDate>2026-01-10T12:52:27.6648271+01:00</RevisionDate>
+        <OldVersion>AutomationMLBasicPropertiesLibrariesAMLEd21_0_1@AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/capacitance</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+      <SourceObjectInformation OriginID="INTERNATIONAL BUREAU OF WEIGHTS AND MEASURES (BIPM). The International System of Units (SI). 9th edition 2019" />
+      <RefSemantic CorrespondingAttributePath="0112/2///62720#UAA144#002" />
+      <RefSemantic CorrespondingAttributePath="0173-1#05-AAA540#005" />
+    </AttributeType>
+    <AttributeType Name="electricResistance" AttributeDataType="xs:double" Unit="Ω" ID="c858c81f-f169-4521-989f-a5576b0d495e">
+      <Description>Electrical resistance of the object or a defined conductive path.</Description>
+      <Version>1.0.2</Version>
+      <Revision>
+        <RevisionDate>2026-01-10T12:52:27.6735686+01:00</RevisionDate>
+        <OldVersion>AutomationMLBasicPropertiesLibrariesAMLEd21_0_1@AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/electricResistance</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+      <SourceObjectInformation OriginID="INTERNATIONAL BUREAU OF WEIGHTS AND MEASURES (BIPM). The International System of Units (SI). 9th edition 2019" />
+      <RefSemantic CorrespondingAttributePath="0112/2///62720#UAA017#002" />
+      <RefSemantic CorrespondingAttributePath="0173-1#05-AAA049#005" />
+    </AttributeType>
+    <AttributeType Name="electricConductance" AttributeDataType="xs:double" Unit="S" ID="2910e227-3d0a-4a6f-96ad-c585db44e749">
+      <Description>Electrical conductance of the object or a defined conductive path.</Description>
+      <Version>1.0.2</Version>
+      <Revision>
+        <RevisionDate>2026-01-10T12:52:27.6793499+01:00</RevisionDate>
+        <OldVersion>AutomationMLBasicPropertiesLibrariesAMLEd21_0_1@AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/electricConductance</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+      <SourceObjectInformation OriginID="INTERNATIONAL BUREAU OF WEIGHTS AND MEASURES (BIPM). The International System of Units (SI). 9th edition 2019" />
+      <RefSemantic CorrespondingAttributePath="0112/2///62720#UAA277#002" />
+      <RefSemantic CorrespondingAttributePath="0173-1#05-AAA674#005" />
+    </AttributeType>
+    <AttributeType Name="magneticFlux" AttributeDataType="xs:double" Unit="Wb" ID="48c0890a-1e98-45db-9a05-fabf75ba1c07">
+      <Description>Magnetic flux associated with the object.</Description>
+      <Version>1.0.2</Version>
+      <Revision>
+        <RevisionDate>2026-01-10T12:52:27.6842155+01:00</RevisionDate>
+        <OldVersion>AutomationMLBasicPropertiesLibrariesAMLEd21_0_1@AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/magneticFlux</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+      <SourceObjectInformation OriginID="INTERNATIONAL BUREAU OF WEIGHTS AND MEASURES (BIPM). The International System of Units (SI). 9th edition 2019" />
+      <RefSemantic CorrespondingAttributePath="0112/2///62720#UAA317#002" />
+      <RefSemantic CorrespondingAttributePath="0173-1#05-AAA384#005" />
+    </AttributeType>
+    <AttributeType Name="magneticFluxDensity" AttributeDataType="xs:double" Unit="T" ID="ab65f835-28a8-402f-8c6e-3a65cc72dafd">
+      <Description>Magnetic flux density associated with the object or a defined region.</Description>
+      <Version>1.0.2</Version>
+      <Revision>
+        <RevisionDate>2026-01-10T12:52:27.6885532+01:00</RevisionDate>
+        <OldVersion>AutomationMLBasicPropertiesLibrariesAMLEd21_0_1@AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/magneticFluxDensity</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+      <SourceObjectInformation OriginID="INTERNATIONAL BUREAU OF WEIGHTS AND MEASURES (BIPM). The International System of Units (SI). 9th edition 2019" />
+      <RefSemantic CorrespondingAttributePath="0112/2///62720#UAA285#002" />
+      <RefSemantic CorrespondingAttributePath="0173-1#05-AAA494#005" />
+    </AttributeType>
+    <AttributeType Name="inductance" AttributeDataType="xs:double" Unit="H" ID="5ec36a29-70e1-41c8-9a9d-4ef02ae85e7e">
+      <Description>Electrical inductance of the object or a defined inductive component.</Description>
+      <Version>1.0.2</Version>
+      <Revision>
+        <RevisionDate>2026-01-10T12:52:27.7002432+01:00</RevisionDate>
+        <OldVersion>AutomationMLBasicPropertiesLibrariesAMLEd21_0_1@AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/inductance</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+      <SourceObjectInformation OriginID="INTERNATIONAL BUREAU OF WEIGHTS AND MEASURES (BIPM). The International System of Units (SI). 9th edition 2019" />
+      <RefSemantic CorrespondingAttributePath="0112/2///62720#UAA165#001" />
+      <RefSemantic CorrespondingAttributePath="0173-1#05-AAA320#005" />
+    </AttributeType>
+  </AttributeTypeLib>
+  <AttributeTypeLib Name="AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib" ID="2b1ba376-74dc-44cd-aa7c-60813d11b4d9">
+    <Description>This AttributeTypeLib defines attributes related to reliability, availability, and expected lifetime characteristics of an asset.
+
+The attributes describe statistical properties and time-based expectations of asset behavior under defined conditions. They are formulated in a domain-neutral manner and do not assume a specific engineering discipline, organizational structure, or maintenance implementation.
+
+The contained attributes provide a generic semantic basis for expressing reliability- and lifetime-related information. Domain-specific interpretations, operational contexts, or maintenance concepts may be introduced by referencing or extending these attributes in dedicated Domain Extension Libraries.</Description>
+    <Version>1.0.2</Version>
+    <Revision>
+      <RevisionDate>2026-01-10T12:52:27.7052291+01:00</RevisionDate>
+      <OldVersion>AutomationMLBasicPropertiesLibrariesAMLEd21_0_1@AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib</OldVersion>
+      <AuthorName>enisc</AuthorName>
+    </Revision>
+    <AttributeType Name="designLifetime" AttributeDataType="xs:double" Unit="h" ID="47db6c63-eff5-41fe-a11e-5f014275eb5d">
+      <Description>Intended lifetime defined for a specified set of conditions.</Description>
+      <Version>1.0.2</Version>
+      <Revision>
+        <RevisionDate>2026-01-10T12:52:27.7116807+01:00</RevisionDate>
+        <OldVersion>AutomationMLBasicPropertiesLibrariesAMLEd21_0_1@AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib/designLifetime</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+    </AttributeType>
+    <AttributeType Name="meanTimeBetweenFailures" AttributeDataType="xs:double" Unit="h" ID="ca31add5-ca43-4566-99d4-927fb5a426fe">
+      <Description>Statistical mean time interval between consecutive failure events.</Description>
+      <Version>1.0.2</Version>
+      <Revision>
+        <RevisionDate>2026-01-10T12:52:27.7220522+01:00</RevisionDate>
+        <OldVersion>AutomationMLBasicPropertiesLibrariesAMLEd21_0_1@AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib/meanTimeBetweenFailures</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+    </AttributeType>
+    <AttributeType Name="meanTimeToRepair" AttributeDataType="xs:double" Unit="h" ID="867a8d4f-a01c-4258-8fd3-6d2d838421ce">
+      <Description>Statistical mean duration required to perform a repair action.</Description>
+      <Version>1.0.2</Version>
+      <Revision>
+        <RevisionDate>2026-01-10T12:52:27.7299806+01:00</RevisionDate>
+        <OldVersion>AutomationMLBasicPropertiesLibrariesAMLEd21_0_1@AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib/meanTimeToRepair</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+    </AttributeType>
+    <AttributeType Name="meanTimeToRestore" AttributeDataType="xs:double" Unit="h" ID="975bad7e-af52-4759-8871-d72cbfcd764a">
+      <Description>Statistical mean duration required to restore functionality after a failure.</Description>
+      <Version>1.0.2</Version>
+      <Revision>
+        <RevisionDate>2026-01-10T12:52:27.7366854+01:00</RevisionDate>
+        <OldVersion>AutomationMLBasicPropertiesLibrariesAMLEd21_0_1@AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib/meanTimeToRestore</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+    </AttributeType>
+    <AttributeType Name="failureRate" AttributeDataType="xs:double" Unit="1/h" ID="e25a8bb5-fdfd-4f2a-949b-40c7c4b3eff9">
+      <Description>Rate at which failure events occur over a defined time interval.</Description>
+      <Version>1.0.2</Version>
+      <Revision>
+        <RevisionDate>2026-01-10T12:52:27.7438953+01:00</RevisionDate>
+        <OldVersion>AutomationMLBasicPropertiesLibrariesAMLEd21_0_1@AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib/failureRate</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+    </AttributeType>
+    <AttributeType Name="availability" AttributeDataType="xs:double" Unit="%" ID="2a3082df-f918-4ee7-bd9b-5507d3238825">
+      <Description>Ratio of available time to total time over a defined observation period.</Description>
+      <Version>1.0.2</Version>
+      <Revision>
+        <RevisionDate>2026-01-10T12:52:27.748863+01:00</RevisionDate>
+        <OldVersion>AutomationMLBasicPropertiesLibrariesAMLEd21_0_1@AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib/availability</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+    </AttributeType>
+    <AttributeType Name="reliability" AttributeDataType="xs:double" Unit="%" ID="17c0e861-8830-47f9-b6fa-eba01c712515">
+      <Description>Probability of correct operation over a defined time interval.</Description>
+      <Version>1.0.2</Version>
+      <Revision>
+        <RevisionDate>2026-01-10T12:52:27.7556917+01:00</RevisionDate>
+        <OldVersion>AutomationMLBasicPropertiesLibrariesAMLEd21_0_1@AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib/reliability</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+    </AttributeType>
+    <AttributeType Name="redundancyLevel" AttributeDataType="xs:integer" ID="8fb66270-4415-4df2-a417-c81fbdddb8d9" Unit="1">
+      <Description>Number of parallel or redundant elements present.</Description>
+      <Version>1.0.2</Version>
+      <Revision>
+        <RevisionDate>2026-01-10T12:52:27.7637433+01:00</RevisionDate>
+        <OldVersion>AutomationMLBasicPropertiesLibrariesAMLEd21_0_1@AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib/redundancyLevel</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+    </AttributeType>
+  </AttributeTypeLib>
+  <AttributeTypeLib Name="AutomationML_BasicProperties.appearance_AttributeTypeLib" ID="07cc2214-37d2-44ab-bd93-5691aaca5dc3">
+    <Description>This AttributeTypeLib defines appearance-related attributes that describe the visual and externally perceivable properties of an asset, such as color, finish, markings, and variants. The attributes are descriptive, domain-neutral, and independent of functional or technical behavior.</Description>
+    <Version>1.0.2</Version>
+    <Revision>
+      <RevisionDate>2026-01-10T12:52:27.7707678+01:00</RevisionDate>
+      <OldVersion>AutomationMLBasicPropertiesLibrariesAMLEd21_0_1@AutomationML_BasicProperties.appearance_AttributeTypeLib</OldVersion>
+      <AuthorName>enisc</AuthorName>
+    </Revision>
+    <AttributeType Name="color" AttributeDataType="xs:string" ID="daf161c4-35be-4d8e-9763-b3fc79bd3d12">
+      <Description>Primary color designation.</Description>
+      <Version>1.0.2</Version>
+      <Revision>
+        <RevisionDate>2026-01-10T12:52:27.7782942+01:00</RevisionDate>
+        <OldVersion>AutomationMLBasicPropertiesLibrariesAMLEd21_0_1@AutomationML_BasicProperties.appearance_AttributeTypeLib/color</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+    </AttributeType>
+    <AttributeType Name="secondaryColor" AttributeDataType="xs:string" ID="35194361-91a4-4c07-8482-5f4c1dd7b715">
+      <Description>Secondary or accent color designation.</Description>
+      <Version>1.0.2</Version>
+      <Revision>
+        <RevisionDate>2026-01-10T12:52:27.7849595+01:00</RevisionDate>
+        <OldVersion>AutomationMLBasicPropertiesLibrariesAMLEd21_0_1@AutomationML_BasicProperties.appearance_AttributeTypeLib/secondaryColor</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+    </AttributeType>
+    <AttributeType Name="surfaceFinish" AttributeDataType="xs:string" ID="e091b64d-0071-4900-9edf-b3d32942310b">
+      <Description>Description of the surface finish.</Description>
+      <Version>1.0.2</Version>
+      <Revision>
+        <RevisionDate>2026-01-10T12:52:27.7919128+01:00</RevisionDate>
+        <OldVersion>AutomationMLBasicPropertiesLibrariesAMLEd21_0_1@AutomationML_BasicProperties.appearance_AttributeTypeLib/surfaceFinish</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+    </AttributeType>
+    <AttributeType Name="surfaceTexture" AttributeDataType="xs:string" ID="886a7ffe-36b1-48c3-b54c-ba957e54babc">
+      <Description>Description of the surface texture or roughness.</Description>
+      <Version>1.0.2</Version>
+      <Revision>
+        <RevisionDate>2026-01-10T12:52:27.7980926+01:00</RevisionDate>
+        <OldVersion>AutomationMLBasicPropertiesLibrariesAMLEd21_0_1@AutomationML_BasicProperties.appearance_AttributeTypeLib/surfaceTexture</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+    </AttributeType>
+    <AttributeType Name="materialAppearance" AttributeDataType="xs:string" ID="4858c504-2da5-41ae-af52-ca08e29e548b">
+      <Description>Visual appearance of the material, for example matte, glossy, metallic, or translucent.</Description>
+      <Version>1.0.2</Version>
+      <Revision>
+        <RevisionDate>2026-01-10T12:52:27.8059965+01:00</RevisionDate>
+        <OldVersion>AutomationMLBasicPropertiesLibrariesAMLEd21_0_1@AutomationML_BasicProperties.appearance_AttributeTypeLib/materialAppearance</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+    </AttributeType>
+    <AttributeType Name="coatingType" AttributeDataType="xs:string" ID="efad251b-6f6c-40ac-9b99-443e1fb05398">
+      <Description>Description of the type of coating applied.</Description>
+      <Version>1.0.2</Version>
+      <Revision>
+        <RevisionDate>2026-01-10T12:52:27.8139615+01:00</RevisionDate>
+        <OldVersion>AutomationMLBasicPropertiesLibrariesAMLEd21_0_1@AutomationML_BasicProperties.appearance_AttributeTypeLib/coatingType</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+    </AttributeType>
+    <AttributeType Name="labeling" AttributeDataType="xs:string" ID="778bc2b8-40dc-4a65-bb65-ba01f3433ae9">
+      <Description>Description of applied labels or markings.</Description>
+      <Version>1.0.2</Version>
+      <Revision>
+        <RevisionDate>2026-01-10T12:52:27.8200421+01:00</RevisionDate>
+        <OldVersion>AutomationMLBasicPropertiesLibrariesAMLEd21_0_1@AutomationML_BasicProperties.appearance_AttributeTypeLib/labeling</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+    </AttributeType>
+    <AttributeType Name="branding" AttributeDataType="xs:string" ID="d97848e4-82b6-4209-85bb-f55e5da2374a">
+      <Description>Description of branding or logo information.</Description>
+      <Version>1.0.2</Version>
+      <Revision>
+        <RevisionDate>2026-01-10T12:52:27.8285089+01:00</RevisionDate>
+        <OldVersion>AutomationMLBasicPropertiesLibrariesAMLEd21_0_1@AutomationML_BasicProperties.appearance_AttributeTypeLib/branding</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+    </AttributeType>
+    <AttributeType Name="symbolMarking" AttributeDataType="xs:string" ID="3f6bab5e-4aad-48f0-a6f3-eae231e606cc">
+      <Description>Description of applied symbols or pictograms.</Description>
+      <Version>1.0.2</Version>
+      <Revision>
+        <RevisionDate>2026-01-10T12:52:27.8352759+01:00</RevisionDate>
+        <OldVersion>AutomationMLBasicPropertiesLibrariesAMLEd21_0_1@AutomationML_BasicProperties.appearance_AttributeTypeLib/symbolMarking</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+    </AttributeType>
+    <AttributeType Name="illuminationColor" AttributeDataType="xs:string" ID="cd181b18-8bc9-4142-80ae-36363a9e4452">
+      <Description>Color designation for an illumination element.</Description>
+      <Version>1.0.2</Version>
+      <Revision>
+        <RevisionDate>2026-01-10T12:52:27.8430794+01:00</RevisionDate>
+        <OldVersion>AutomationMLBasicPropertiesLibrariesAMLEd21_0_1@AutomationML_BasicProperties.appearance_AttributeTypeLib/illuminationColor</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+    </AttributeType>
+    <AttributeType Name="appearanceVariant" AttributeDataType="xs:string" ID="95cce0cd-fbb6-480b-8a45-9ad08e18c828">
+      <Description>Variant of the asset appearance differing in color, finish, or markings.</Description>
+      <Version>1.0.2</Version>
+      <Revision>
+        <RevisionDate>2026-01-10T12:52:27.8505629+01:00</RevisionDate>
+        <OldVersion>AutomationMLBasicPropertiesLibrariesAMLEd21_0_1@AutomationML_BasicProperties.appearance_AttributeTypeLib/appearanceVariant</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+    </AttributeType>
+  </AttributeTypeLib>
+  <AttributeTypeLib Name="AutomationML_BasicProperties.kinematics_AttributeTypeLib" ID="2feb0463-2003-4e29-85cf-48b4f937c53e">
+    <Description>This AttributeTypeLib defines kinematic attributes that describe motion-related properties and states of an asset in a defined reference frame. The attributes are optional, generic, and domain-neutral, intended for use when motion description is relevant.</Description>
+    <Version>1.0.2</Version>
+    <Revision>
+      <RevisionDate>2026-01-10T12:52:27.8577359+01:00</RevisionDate>
+      <OldVersion>AutomationMLBasicPropertiesLibrariesAMLEd21_0_1@AutomationML_BasicProperties.kinematics_AttributeTypeLib</OldVersion>
+      <AuthorName>enisc</AuthorName>
+    </Revision>
+    <AttributeType Name="linearVelocity" AttributeDataType="xs:double" Unit="m/s" ID="7b1f7180-532f-4c94-85cb-a38ec867f81c">
+      <Description>Magnitude of linear velocity as a physical quantity.</Description>
+      <Version>1.0.2</Version>
+      <Revision>
+        <RevisionDate>2026-01-10T12:52:27.8654549+01:00</RevisionDate>
+        <OldVersion>AutomationMLBasicPropertiesLibrariesAMLEd21_0_1@AutomationML_BasicProperties.kinematics_AttributeTypeLib/linearVelocity</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+    </AttributeType>
+    <AttributeType Name="linearAcceleration" AttributeDataType="xs:double" Unit="m/s^2" ID="2a91335c-8247-4079-ae2b-f34cae236310">
+      <Description>Magnitude of linear acceleration as a physical quantity.</Description>
+      <Version>1.0.2</Version>
+      <Revision>
+        <RevisionDate>2026-01-10T12:52:27.8726393+01:00</RevisionDate>
+        <OldVersion>AutomationMLBasicPropertiesLibrariesAMLEd21_0_1@AutomationML_BasicProperties.kinematics_AttributeTypeLib/linearAcceleration</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+    </AttributeType>
+    <AttributeType Name="angularVelocity" AttributeDataType="xs:double" Unit="rad/s" ID="49f7a4fc-5143-431e-b5f4-fb7cbe00c08e">
+      <Description>Magnitude of angular velocity as a physical quantity.</Description>
+      <Version>1.0.2</Version>
+      <Revision>
+        <RevisionDate>2026-01-10T12:52:27.8810751+01:00</RevisionDate>
+        <OldVersion>AutomationMLBasicPropertiesLibrariesAMLEd21_0_1@AutomationML_BasicProperties.kinematics_AttributeTypeLib/angularVelocity</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+    </AttributeType>
+    <AttributeType Name="angularAcceleration" AttributeDataType="xs:double" Unit="rad/s^2" ID="707e9380-cdd1-4d35-aa2f-8485b9ac198c">
+      <Description>Magnitude of angular acceleration as a physical quantity.</Description>
+      <Version>1.0.2</Version>
+      <Revision>
+        <RevisionDate>2026-01-10T12:52:27.8882253+01:00</RevisionDate>
+        <OldVersion>AutomationMLBasicPropertiesLibrariesAMLEd21_0_1@AutomationML_BasicProperties.kinematics_AttributeTypeLib/angularAcceleration</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+    </AttributeType>
+    <AttributeType Name="displacement" AttributeDataType="xs:double" Unit="m" ID="596ae1ed-78d3-43a8-a1b5-f9020f6b0afd">
+      <Description>Linear displacement expressed as a length value.</Description>
+      <Version>1.0.2</Version>
+      <Revision>
+        <RevisionDate>2026-01-10T12:52:27.8973522+01:00</RevisionDate>
+        <OldVersion>AutomationMLBasicPropertiesLibrariesAMLEd21_0_1@AutomationML_BasicProperties.kinematics_AttributeTypeLib/displacement</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+    </AttributeType>
+    <AttributeType Name="rotationAngle" AttributeDataType="xs:double" Unit="rad" ID="5aaeeded-4a37-45b5-abff-9ec74c8f39bf">
+      <Description>Angular displacement expressed as an angle value.</Description>
+      <Version>1.0.2</Version>
+      <Revision>
+        <RevisionDate>2026-01-10T12:52:27.9051712+01:00</RevisionDate>
+        <OldVersion>AutomationMLBasicPropertiesLibrariesAMLEd21_0_1@AutomationML_BasicProperties.kinematics_AttributeTypeLib/rotationAngle</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+    </AttributeType>
+  </AttributeTypeLib>
+  <AttributeTypeLib Name="AutomationML_BasicProperties.constants_AttributeTypeLib" ID="1867cd46-2379-4048-8a24-6a8e2777b63b">
+    <Description>This AttributeTypeLib contains fundamental physical constants and conventional reference values used in science and engineering.
+The attributes represent fixed numerical values that are independent of a specific asset instance and are typically defined by international metrology (for example as SI defining constants) or widely accepted conventions.
+The contained constants are domain-neutral and may be referenced to support consistent calculations, unit realizations, and documentation across models and lifecycle phases without introducing application-specific semantics.</Description>
+    <Version>1.0.2</Version>
+    <Revision>
+      <RevisionDate>2026-01-10T12:52:27.9133646+01:00</RevisionDate>
+      <OldVersion>AutomationMLBasicPropertiesLibrariesAMLEd21_0_1@AutomationML_BasicProperties.constants_AttributeTypeLib</OldVersion>
+      <AuthorName>enisc</AuthorName>
+    </Revision>
+    <AttributeType Name="hyperfineTransitionFrequencyOfCs" AttributeDataType="xs:double" Unit="Hz" ID="3476c4ca-8f54-4ac1-8861-1d4eb403677a">
+      <Description>SI defining constant for the second. The fixed numerical value of the unperturbed ground-state hyperfine transition frequency of the caesium-133 atom ΔνCs is exactly 9 192 631 770 Hz. This constant defines the duration of 1 s as the time of 9 192 631 770 periods of that radiation.</Description>
+      <Version>1.0.2</Version>
+      <Revision>
+        <RevisionDate>2026-01-10T12:52:27.9227432+01:00</RevisionDate>
+        <OldVersion>AutomationMLBasicPropertiesLibrariesAMLEd21_0_1@AutomationML_BasicProperties.constants_AttributeTypeLib/hyperfineTransitionFrequencyOfCs</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+      <SourceObjectInformation OriginID="INTERNATIONAL BUREAU OF WEIGHTS AND MEASURES (BIPM). The International System of Units (SI). 9th edition 2019" />
+      <Value>9192631770</Value>
+    </AttributeType>
+    <AttributeType Name="speedOfLightInVacuum" AttributeDataType="xs:double" Unit="m/s" ID="174c0c1c-71bf-44f4-879a-b0e60ea3d66b">
+      <Description>SI defining constant for the metre. The fixed numerical value of the speed of light in vacuum c is exactly 299 792 458 m·s⁻¹. The metre is defined as the length of the path travelled by light in vacuum during 1 / 299 792 458 of a second.</Description>
+      <Version>1.0.2</Version>
+      <Revision>
+        <RevisionDate>2026-01-10T12:52:27.9321666+01:00</RevisionDate>
+        <OldVersion>AutomationMLBasicPropertiesLibrariesAMLEd21_0_1@AutomationML_BasicProperties.constants_AttributeTypeLib/speedOfLightInVacuum</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+      <SourceObjectInformation OriginID="INTERNATIONAL BUREAU OF WEIGHTS AND MEASURES (BIPM). The International System of Units (SI). 9th edition 2019" />
+      <Value>299792458</Value>
+    </AttributeType>
+    <AttributeType Name="planckConstant" AttributeDataType="xs:double" Unit="J*s" ID="1285d346-932e-4430-9aa5-06af61d02275">
+      <Description>SI defining constant for the kilogram via the relation E = hν. The fixed numerical value of the Planck constant h is exactly 6.626 070 15 × 10⁻³⁴ J·s, establishing a direct link between energy and frequency and enabling the realization of the kilogram through quantum electrical standards.</Description>
+      <Version>1.0.2</Version>
+      <Revision>
+        <RevisionDate>2026-01-10T12:52:27.9410116+01:00</RevisionDate>
+        <OldVersion>AutomationMLBasicPropertiesLibrariesAMLEd21_0_1@AutomationML_BasicProperties.constants_AttributeTypeLib/planckConstant</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+      <SourceObjectInformation OriginID="INTERNATIONAL BUREAU OF WEIGHTS AND MEASURES (BIPM). The International System of Units (SI). 9th edition 2019" />
+      <Value>6.62607015e-34</Value>
+    </AttributeType>
+    <AttributeType Name="elementaryCharge" AttributeDataType="xs:double" Unit="C" ID="cfea7ee3-4a5a-423f-b7aa-129b6456e523">
+      <Description>SI defining constant for the ampere. The fixed numerical value of the elementary charge e is exactly 1.602 176 634 × 10⁻¹⁹ C. The ampere is defined by fixing e, relating electric current to the rate of flow of elementary charges per second.</Description>
+      <Version>1.0.2</Version>
+      <Revision>
+        <RevisionDate>2026-01-10T12:52:27.9482719+01:00</RevisionDate>
+        <OldVersion>AutomationMLBasicPropertiesLibrariesAMLEd21_0_1@AutomationML_BasicProperties.constants_AttributeTypeLib/elementaryCharge</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+      <SourceObjectInformation OriginID="INTERNATIONAL BUREAU OF WEIGHTS AND MEASURES (BIPM). The International System of Units (SI). 9th edition 2019" />
+      <Value>1.602176634e-19</Value>
+    </AttributeType>
+    <AttributeType Name="boltzmannConstant" AttributeDataType="xs:double" Unit="J/K" ID="3e20af3a-49b0-4049-8e4c-b3f8c8cce818">
+      <Description>SI defining constant for the kelvin. The fixed numerical value of the Boltzmann constant k is exactly 1.380 649 × 10⁻²³ J·K⁻¹. This establishes temperature as proportional to the average kinetic energy of microscopic particles.</Description>
+      <Version>1.0.2</Version>
+      <Revision>
+        <RevisionDate>2026-01-10T12:52:27.957602+01:00</RevisionDate>
+        <OldVersion>AutomationMLBasicPropertiesLibrariesAMLEd21_0_1@AutomationML_BasicProperties.constants_AttributeTypeLib/boltzmannConstant</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+      <SourceObjectInformation OriginID="INTERNATIONAL BUREAU OF WEIGHTS AND MEASURES (BIPM). The International System of Units (SI). 9th edition 2019" />
+      <Value>1.380649e-23</Value>
+    </AttributeType>
+    <AttributeType Name="avogadroConstant" AttributeDataType="xs:double" Unit="mol^-1" ID="d193f26c-3eab-46bf-8e73-4692d09608b9">
+      <Description>SI defining constant for the mole. The fixed numerical value of the Avogadro constant NA is exactly 6.022 140 76 × 10²³ mol⁻¹, defining one mole as containing exactly 6.022 140 76 × 10²³ specified elementary entities such as atoms or molecules.</Description>
+      <Version>1.0.2</Version>
+      <Revision>
+        <RevisionDate>2026-01-10T12:52:27.9663514+01:00</RevisionDate>
+        <OldVersion>AutomationMLBasicPropertiesLibrariesAMLEd21_0_1@AutomationML_BasicProperties.constants_AttributeTypeLib/avogadroConstant</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+      <SourceObjectInformation OriginID="INTERNATIONAL BUREAU OF WEIGHTS AND MEASURES (BIPM). The International System of Units (SI). 9th edition 2019" />
+      <Value>6.02214076e23</Value>
+    </AttributeType>
+    <AttributeType Name="luminousEfficacy" AttributeDataType="xs:double" Unit="lm/W" ID="986fe702-1571-4f08-9199-4f19bb835995">
+      <Description>SI defining constant for the candela. The fixed numerical value of the luminous efficacy of monochromatic radiation of frequency 540 THz (Kcd) is exactly 683 lm·W⁻¹. This defines the candela in terms of optical power weighted by the photopic luminous efficiency function V(λ).</Description>
+      <Version>1.0.2</Version>
+      <Revision>
+        <RevisionDate>2026-01-10T12:52:27.9744079+01:00</RevisionDate>
+        <OldVersion>AutomationMLBasicPropertiesLibrariesAMLEd21_0_1@AutomationML_BasicProperties.constants_AttributeTypeLib/luminousEfficacy</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+      <SourceObjectInformation OriginID="INTERNATIONAL BUREAU OF WEIGHTS AND MEASURES (BIPM). The International System of Units (SI). 9th edition 2019" />
+      <Value>683</Value>
+    </AttributeType>
+    <AttributeType Name="gravitationalConstant" AttributeDataType="xs:double" Unit="m^3·kg^-1·s^-2" ID="d3f52e67-72b3-4549-9cdd-dbf836a7b04c">
+      <Description>Universal physical constant describing the strength of gravitation between masses in Newton's law of universal gravitation. Its value is experimentally determined.</Description>
+      <Version>1.0.2</Version>
+      <Revision>
+        <RevisionDate>2026-01-10T12:52:27.9811195+01:00</RevisionDate>
+        <OldVersion>AutomationMLBasicPropertiesLibrariesAMLEd21_0_1@AutomationML_BasicProperties.constants_AttributeTypeLib/gravitationalConstant</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+      <SourceObjectInformation OriginID="CODATA 2018, NIST — Recommended Values of the Fundamental Physical Constants. https://physics.nist.gov/constants" />
+      <Value>6.67430e-11</Value>
+    </AttributeType>
+    <AttributeType Name="standardGravity" AttributeDataType="xs:double" Unit="m·s^-2" ID="7c0cefa6-34e4-4b25-8532-5c5fc59fc060">
+      <Description>Standard acceleration due to gravity at Earth's surface, used as a conventional reference in metrology and engineering. Not an SI defining constant.</Description>
+      <Version>1.0.2</Version>
+      <Revision>
+        <RevisionDate>2026-01-10T12:52:27.9891233+01:00</RevisionDate>
+        <OldVersion>AutomationMLBasicPropertiesLibrariesAMLEd21_0_1@AutomationML_BasicProperties.constants_AttributeTypeLib/standardGravity</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+      <SourceObjectInformation OriginID="CODATA 2018, NIST — Recommended Values of the Fundamental Physical Constants. https://physics.nist.gov/constants" />
+      <Value>9.80665</Value>
+    </AttributeType>
+  </AttributeTypeLib>
+  <AttributeTypeLib Name="AutomationML_BasicProperties.commercialProperties_AttributeTypeLib">
+    <Description>
+This AttributeTypeLib defines fundamental, domain-neutral commercial attributes used to identify and reference commercial and procurement-related aspects of an asset.
+The contained attributes describe factual commercial information such as prices, currencies, contractual references, and procurement identifiers without implying accounting rules, valuation logic, or organizational processes.
+All attributes are formulated independent of a specific industry, enterprise structure, financial system, or business workflow and serve as optional reference information across the asset lifecycle.
+  </Description>
+    <Version>1.0.0</Version>
+    <AttributeType Name="purchasePrice" AttributeDataType="xs:double" ID="b9e09ee9-61b6-442d-b6e8-fd006e3cfc30" Unit="EUR">
+      <Description>Price paid for acquiring the asset as a stated monetary amount.</Description>
+      <Version>1.0.0</Version>
+    </AttributeType>
+    <AttributeType Name="purchaseCurrency" AttributeDataType="xs:string" ID="5dc1a25b-87bc-4ee7-8461-87e94b46561c">
+      <Description>Currency in which the purchase price is expressed.</Description>
+      <Version>1.0.0</Version>
+    </AttributeType>
+    <AttributeType Name="listPrice" AttributeDataType="xs:double" ID="aef03a10-ceba-4048-ac93-1bae113a198f" Unit="EUR">
+      <Description>List or catalogue price of the asset as stated by the manufacturer or supplier.</Description>
+      <Version>1.0.0</Version>
+    </AttributeType>
+    <AttributeType Name="priceDate" AttributeDataType="xs:date" ID="068604f5-a108-4de5-9fc9-00ba5f7f3047">
+      <Description>Date at which the referenced price information was valid.</Description>
+      <Version>1.0.0</Version>
+    </AttributeType>
+    <AttributeType Name="purchaseOrderId" AttributeDataType="xs:string" ID="033e0bd7-638a-42a4-8db5-36d12fa8ca22">
+      <Description>Identifier of the purchase order under which the asset was acquired.</Description>
+      <Version>1.0.0</Version>
+    </AttributeType>
+    <AttributeType Name="contractId" AttributeDataType="xs:string" ID="4ac6be18-ddf5-4f7f-9439-587519880b80">
+      <Description>Identifier referencing a commercial contract associated with the asset.</Description>
+      <Version>1.0.0</Version>
+    </AttributeType>
+    <AttributeType Name="invoiceNumber" AttributeDataType="xs:string" ID="d8aa8f81-e52b-4af2-8a16-76bd1f402c07">
+      <Description>Identifier of an invoice related to the acquisition of the asset.</Description>
+      <Version>1.0.0</Version>
+    </AttributeType>
+    <AttributeType Name="supplierReference" AttributeDataType="xs:string" ID="24fea210-33fa-43b9-9245-d72738f3573b">
+      <Description>Supplier-provided reference used for commercial identification of the asset.</Description>
+      <Version>1.0.0</Version>
+    </AttributeType>
+    <AttributeType Name="customerReference" AttributeDataType="xs:string" ID="e6817f03-85dd-4f8d-ae5b-920a54027e71">
+      <Description>Customer-provided reference used for commercial identification of the asset.</Description>
+      <Version>1.0.0</Version>
+    </AttributeType>
+    <AttributeType Name="deliveryDate" AttributeDataType="xs:date" ID="cc7e4e39-cad2-4d5b-a1eb-c33503eddb1c">
+      <Description>Date on which the asset was delivered according to commercial documentation.</Description>
+      <Version>1.0.0</Version>
+    </AttributeType>
+    <AttributeType Name="warrantyReference" AttributeDataType="xs:string" ID="e8f98043-a015-4933-8d29-05c64ccdcd90">
+      <Description>Reference identifier of a warranty agreement associated with the asset.</Description>
+      <Version>1.0.0</Version>
+    </AttributeType>
+    <AttributeType Name="commercialRemark" AttributeDataType="xs:string" ID="024909e8-e29a-46aa-ab7d-0c97430524e1">
+      <Description>Free-text remark for additional commercial or procurement-related information.</Description>
+      <Version>1.0.0</Version>
+    </AttributeType>
+  </AttributeTypeLib>
+</CAEXFile>
