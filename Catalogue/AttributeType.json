@@ -1,5 +1,194 @@
 [
   {
+    "ClassName": "color",
+    "CaexPath": "AutomationML_BasicProperties.Color_AttributeTypeLib/color",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.Color_AttributeTypeLib",
+    "LibraryVersion": "0.0.5",
+    "AMLEdition": "AMLEd2",
+    "ID": "76e133b5-839f-43d2-b195-8681e34af95f"
+  },
+  {
+    "ClassName": "color",
+    "CaexPath": "AutomationML_BasicProperties.appearance_AttributeTypeLib/color",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.appearance_AttributeTypeLib",
+    "LibraryVersion": "1.0.0",
+    "AMLEdition": "AMLEd2",
+    "ID": "daf161c4-35be-4d8e-9763-b3fc79bd3d12"
+  },
+  {
+    "ClassName": "color",
+    "CaexPath": "AutomationML_BasicProperties.appearance_AttributeTypeLib/color",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.appearance_AttributeTypeLib",
+    "LibraryVersion": "1.0.1",
+    "AMLEdition": "AMLEd2",
+    "ID": "daf161c4-35be-4d8e-9763-b3fc79bd3d12"
+  },
+  {
+    "ClassName": "color",
+    "CaexPath": "AutomationML_BasicProperties.appearance_AttributeTypeLib/color",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.appearance_AttributeTypeLib",
+    "LibraryVersion": "1.0.2",
+    "AMLEdition": "AMLEd2",
+    "ID": "daf161c4-35be-4d8e-9763-b3fc79bd3d12"
+  },
+  {
+    "ClassName": "color",
+    "CaexPath": "AutomationML_BasicProperties.appearance_AttributeTypeLib/color",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.appearance_AttributeTypeLib",
+    "LibraryVersion": "1.0.3",
+    "AMLEdition": "AMLEd2",
+    "ID": "daf161c4-35be-4d8e-9763-b3fc79bd3d12"
+  },
+  {
+    "ClassName": "RAL",
+    "CaexPath": "AutomationML_BasicProperties.Color_AttributeTypeLib/RAL",
+    "BasePath": "AutomationML_BasicProperties.Color_AttributeTypeLib/color",
+    "LibraryName": "AutomationML_BasicProperties.Color_AttributeTypeLib",
+    "LibraryVersion": "0.0.5",
+    "AMLEdition": "AMLEd2",
+    "ID": "1917d508-35a2-4d37-80a2-981c4abfd7bf"
+  },
+  {
+    "ClassName": "RGB",
+    "CaexPath": "AutomationML_BasicProperties.Color_AttributeTypeLib/RGB",
+    "BasePath": "AutomationML_BasicProperties.Color_AttributeTypeLib/color",
+    "LibraryName": "AutomationML_BasicProperties.Color_AttributeTypeLib",
+    "LibraryVersion": "0.0.5",
+    "AMLEdition": "AMLEd2",
+    "ID": "738ae261-331e-4534-837f-7a70c051068b"
+  },
+  {
+    "ClassName": "CMYK",
+    "CaexPath": "AutomationML_BasicProperties.Color_AttributeTypeLib/CMYK",
+    "BasePath": "AutomationML_BasicProperties.Color_AttributeTypeLib/color",
+    "LibraryName": "AutomationML_BasicProperties.Color_AttributeTypeLib",
+    "LibraryVersion": "0.0.5",
+    "AMLEdition": "AMLEd2",
+    "ID": "f0fb949b-4b8f-400c-b5a8-665128e53868"
+  },
+  {
+    "ClassName": "dimension",
+    "CaexPath": "AutomationML_BasicProperties.General_AttributeTypeLib/dimension",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.General_AttributeTypeLib",
+    "LibraryVersion": "0.0.5",
+    "AMLEdition": "AMLEd2",
+    "ID": "af8e216c-2ab4-4127-a211-bd79c3ded400"
+  },
+  {
+    "ClassName": "length",
+    "CaexPath": "AutomationML_BasicProperties.General_AttributeTypeLib/length",
+    "BasePath": "AutomationML_BasicProperties.General_AttributeTypeLib/dimension",
+    "LibraryName": "AutomationML_BasicProperties.General_AttributeTypeLib",
+    "LibraryVersion": "0.0.5",
+    "AMLEdition": "AMLEd2",
+    "ID": "4b627153-c241-4df2-9fc6-016ac31e3b86"
+  },
+  {
+    "ClassName": "length",
+    "CaexPath": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/length",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib",
+    "LibraryVersion": "1.0.0",
+    "AMLEdition": "AMLEd2",
+    "ID": "ceefcf5d-3c99-432e-aee9-aff4755eba20"
+  },
+  {
+    "ClassName": "length",
+    "CaexPath": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/length",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib",
+    "LibraryVersion": "1.0.1",
+    "AMLEdition": "AMLEd2",
+    "ID": "ceefcf5d-3c99-432e-aee9-aff4755eba20"
+  },
+  {
+    "ClassName": "length",
+    "CaexPath": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/length",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib",
+    "LibraryVersion": "1.0.2",
+    "AMLEdition": "AMLEd2",
+    "ID": "ceefcf5d-3c99-432e-aee9-aff4755eba20"
+  },
+  {
+    "ClassName": "length",
+    "CaexPath": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/length",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib",
+    "LibraryVersion": "1.0.3",
+    "AMLEdition": "AMLEd2",
+    "ID": "ceefcf5d-3c99-432e-aee9-aff4755eba20"
+  },
+  {
+    "ClassName": "width",
+    "CaexPath": "AutomationML_BasicProperties.General_AttributeTypeLib/width",
+    "BasePath": "AutomationML_BasicProperties.General_AttributeTypeLib/dimension",
+    "LibraryName": "AutomationML_BasicProperties.General_AttributeTypeLib",
+    "LibraryVersion": "0.0.5",
+    "AMLEdition": "AMLEd2",
+    "ID": "d07e2dd9-9441-4941-9472-ce724d125718"
+  },
+  {
+    "ClassName": "height",
+    "CaexPath": "AutomationML_BasicProperties.General_AttributeTypeLib/height",
+    "BasePath": "AutomationML_BasicProperties.General_AttributeTypeLib/dimension",
+    "LibraryName": "AutomationML_BasicProperties.General_AttributeTypeLib",
+    "LibraryVersion": "0.0.5",
+    "AMLEdition": "AMLEd2",
+    "ID": "dc4295b5-8c1f-41da-aedc-910d69cb910c"
+  },
+  {
+    "ClassName": "volume",
+    "CaexPath": "AutomationML_BasicProperties.General_AttributeTypeLib/volume",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.General_AttributeTypeLib",
+    "LibraryVersion": "0.0.5",
+    "AMLEdition": "AMLEd2",
+    "ID": "adbf5614-aa39-4b6f-ab36-4bc4c0003816"
+  },
+  {
+    "ClassName": "volume",
+    "CaexPath": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/volume",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib",
+    "LibraryVersion": "1.0.0",
+    "AMLEdition": "AMLEd2",
+    "ID": "cb904de1-28c4-4282-8206-358bdcb0af5d"
+  },
+  {
+    "ClassName": "volume",
+    "CaexPath": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/volume",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib",
+    "LibraryVersion": "1.0.1",
+    "AMLEdition": "AMLEd2",
+    "ID": "cb904de1-28c4-4282-8206-358bdcb0af5d"
+  },
+  {
+    "ClassName": "volume",
+    "CaexPath": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/volume",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib",
+    "LibraryVersion": "1.0.2",
+    "AMLEdition": "AMLEd2",
+    "ID": "cb904de1-28c4-4282-8206-358bdcb0af5d"
+  },
+  {
+    "ClassName": "volume",
+    "CaexPath": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/volume",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib",
+    "LibraryVersion": "1.0.3",
+    "AMLEdition": "AMLEd2",
+    "ID": "cb904de1-28c4-4282-8206-358bdcb0af5d"
+  },
+  {
     "ClassName": "speed",
     "CaexPath": "AutomationML_BasicProperties.Physics_AttributeTypeLib/speed",
     "BasePath": null,
@@ -88,51 +277,6 @@
     "LibraryVersion": "1.0.3",
     "AMLEdition": "AMLEd2",
     "ID": "d15491aa-f394-40c0-bf43-644d93049140"
-  },
-  {
-    "ClassName": "electricCurrent",
-    "CaexPath": "AutomationML_BasicProperties.Electrics_AttributeTypeLib/electricCurrent",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.Electrics_AttributeTypeLib",
-    "LibraryVersion": "0.0.5",
-    "AMLEdition": "AMLEd2",
-    "ID": "0dd9f98d-8053-4977-82d8-fd79505001b5"
-  },
-  {
-    "ClassName": "voltage",
-    "CaexPath": "AutomationML_BasicProperties.Electrics_AttributeTypeLib/voltage",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.Electrics_AttributeTypeLib",
-    "LibraryVersion": "0.0.5",
-    "AMLEdition": "AMLEd2",
-    "ID": "d6d4770d-87d9-4d9c-9a8b-863c706ad86a"
-  },
-  {
-    "ClassName": "voltage",
-    "CaexPath": "AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/voltage",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.electricalProperties_AttributeTypeLib",
-    "LibraryVersion": "1.0.3",
-    "AMLEdition": "AMLEd2",
-    "ID": "379fb214-3454-49ab-9635-d1cb46534c57"
-  },
-  {
-    "ClassName": "resistance",
-    "CaexPath": "AutomationML_BasicProperties.Electrics_AttributeTypeLib/resistance",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.Electrics_AttributeTypeLib",
-    "LibraryVersion": "0.0.5",
-    "AMLEdition": "AMLEd2",
-    "ID": "1c770ac0-9256-4ac9-a365-b47c94f43634"
-  },
-  {
-    "ClassName": "capacity",
-    "CaexPath": "AutomationML_BasicProperties.Electrics_AttributeTypeLib/capacity",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.Electrics_AttributeTypeLib",
-    "LibraryVersion": "0.0.5",
-    "AMLEdition": "AMLEd2",
-    "ID": "c075762b-c45a-46a5-ad5c-d1cf04ddda32"
   },
   {
     "ClassName": "mass",
@@ -270,121 +414,49 @@
     "ID": "ec58785a-9471-452d-b58e-541f5b7509c0"
   },
   {
-    "ClassName": "dimension",
-    "CaexPath": "AutomationML_BasicProperties.General_AttributeTypeLib/dimension",
+    "ClassName": "electricCurrent",
+    "CaexPath": "AutomationML_BasicProperties.Electrics_AttributeTypeLib/electricCurrent",
     "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.General_AttributeTypeLib",
+    "LibraryName": "AutomationML_BasicProperties.Electrics_AttributeTypeLib",
     "LibraryVersion": "0.0.5",
     "AMLEdition": "AMLEd2",
-    "ID": "af8e216c-2ab4-4127-a211-bd79c3ded400"
+    "ID": "0dd9f98d-8053-4977-82d8-fd79505001b5"
   },
   {
-    "ClassName": "length",
-    "CaexPath": "AutomationML_BasicProperties.General_AttributeTypeLib/length",
-    "BasePath": "AutomationML_BasicProperties.General_AttributeTypeLib/dimension",
-    "LibraryName": "AutomationML_BasicProperties.General_AttributeTypeLib",
+    "ClassName": "voltage",
+    "CaexPath": "AutomationML_BasicProperties.Electrics_AttributeTypeLib/voltage",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.Electrics_AttributeTypeLib",
     "LibraryVersion": "0.0.5",
     "AMLEdition": "AMLEd2",
-    "ID": "4b627153-c241-4df2-9fc6-016ac31e3b86"
+    "ID": "d6d4770d-87d9-4d9c-9a8b-863c706ad86a"
   },
   {
-    "ClassName": "length",
-    "CaexPath": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/length",
+    "ClassName": "voltage",
+    "CaexPath": "AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/voltage",
     "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib",
-    "LibraryVersion": "1.0.0",
-    "AMLEdition": "AMLEd2",
-    "ID": "ceefcf5d-3c99-432e-aee9-aff4755eba20"
-  },
-  {
-    "ClassName": "length",
-    "CaexPath": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/length",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib",
-    "LibraryVersion": "1.0.1",
-    "AMLEdition": "AMLEd2",
-    "ID": "ceefcf5d-3c99-432e-aee9-aff4755eba20"
-  },
-  {
-    "ClassName": "length",
-    "CaexPath": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/length",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib",
-    "LibraryVersion": "1.0.2",
-    "AMLEdition": "AMLEd2",
-    "ID": "ceefcf5d-3c99-432e-aee9-aff4755eba20"
-  },
-  {
-    "ClassName": "length",
-    "CaexPath": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/length",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib",
+    "LibraryName": "AutomationML_BasicProperties.electricalProperties_AttributeTypeLib",
     "LibraryVersion": "1.0.3",
     "AMLEdition": "AMLEd2",
-    "ID": "ceefcf5d-3c99-432e-aee9-aff4755eba20"
+    "ID": "379fb214-3454-49ab-9635-d1cb46534c57"
   },
   {
-    "ClassName": "width",
-    "CaexPath": "AutomationML_BasicProperties.General_AttributeTypeLib/width",
-    "BasePath": "AutomationML_BasicProperties.General_AttributeTypeLib/dimension",
-    "LibraryName": "AutomationML_BasicProperties.General_AttributeTypeLib",
+    "ClassName": "resistance",
+    "CaexPath": "AutomationML_BasicProperties.Electrics_AttributeTypeLib/resistance",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.Electrics_AttributeTypeLib",
     "LibraryVersion": "0.0.5",
     "AMLEdition": "AMLEd2",
-    "ID": "d07e2dd9-9441-4941-9472-ce724d125718"
+    "ID": "1c770ac0-9256-4ac9-a365-b47c94f43634"
   },
   {
-    "ClassName": "height",
-    "CaexPath": "AutomationML_BasicProperties.General_AttributeTypeLib/height",
-    "BasePath": "AutomationML_BasicProperties.General_AttributeTypeLib/dimension",
-    "LibraryName": "AutomationML_BasicProperties.General_AttributeTypeLib",
+    "ClassName": "capacity",
+    "CaexPath": "AutomationML_BasicProperties.Electrics_AttributeTypeLib/capacity",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.Electrics_AttributeTypeLib",
     "LibraryVersion": "0.0.5",
     "AMLEdition": "AMLEd2",
-    "ID": "dc4295b5-8c1f-41da-aedc-910d69cb910c"
-  },
-  {
-    "ClassName": "volume",
-    "CaexPath": "AutomationML_BasicProperties.General_AttributeTypeLib/volume",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.General_AttributeTypeLib",
-    "LibraryVersion": "0.0.5",
-    "AMLEdition": "AMLEd2",
-    "ID": "adbf5614-aa39-4b6f-ab36-4bc4c0003816"
-  },
-  {
-    "ClassName": "volume",
-    "CaexPath": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/volume",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib",
-    "LibraryVersion": "1.0.0",
-    "AMLEdition": "AMLEd2",
-    "ID": "cb904de1-28c4-4282-8206-358bdcb0af5d"
-  },
-  {
-    "ClassName": "volume",
-    "CaexPath": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/volume",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib",
-    "LibraryVersion": "1.0.1",
-    "AMLEdition": "AMLEd2",
-    "ID": "cb904de1-28c4-4282-8206-358bdcb0af5d"
-  },
-  {
-    "ClassName": "volume",
-    "CaexPath": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/volume",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib",
-    "LibraryVersion": "1.0.2",
-    "AMLEdition": "AMLEd2",
-    "ID": "cb904de1-28c4-4282-8206-358bdcb0af5d"
-  },
-  {
-    "ClassName": "volume",
-    "CaexPath": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/volume",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib",
-    "LibraryVersion": "1.0.3",
-    "AMLEdition": "AMLEd2",
-    "ID": "cb904de1-28c4-4282-8206-358bdcb0af5d"
+    "ID": "c075762b-c45a-46a5-ad5c-d1cf04ddda32"
   },
   {
     "ClassName": "magneticFieldStrength",
@@ -403,69 +475,6 @@
     "LibraryVersion": "0.0.5",
     "AMLEdition": "AMLEd2",
     "ID": "d200d1fc-79d4-48b4-9786-7bf37b8bef17"
-  },
-  {
-    "ClassName": "color",
-    "CaexPath": "AutomationML_BasicProperties.Color_AttributeTypeLib/color",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.Color_AttributeTypeLib",
-    "LibraryVersion": "0.0.5",
-    "AMLEdition": "AMLEd2",
-    "ID": "76e133b5-839f-43d2-b195-8681e34af95f"
-  },
-  {
-    "ClassName": "color",
-    "CaexPath": "AutomationML_BasicProperties.appearance_AttributeTypeLib/color",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.appearance_AttributeTypeLib",
-    "LibraryVersion": "1.0.0",
-    "AMLEdition": "AMLEd2",
-    "ID": "daf161c4-35be-4d8e-9763-b3fc79bd3d12"
-  },
-  {
-    "ClassName": "color",
-    "CaexPath": "AutomationML_BasicProperties.appearance_AttributeTypeLib/color",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.appearance_AttributeTypeLib",
-    "LibraryVersion": "1.0.1",
-    "AMLEdition": "AMLEd2",
-    "ID": "daf161c4-35be-4d8e-9763-b3fc79bd3d12"
-  },
-  {
-    "ClassName": "color",
-    "CaexPath": "AutomationML_BasicProperties.appearance_AttributeTypeLib/color",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.appearance_AttributeTypeLib",
-    "LibraryVersion": "1.0.2",
-    "AMLEdition": "AMLEd2",
-    "ID": "daf161c4-35be-4d8e-9763-b3fc79bd3d12"
-  },
-  {
-    "ClassName": "color",
-    "CaexPath": "AutomationML_BasicProperties.appearance_AttributeTypeLib/color",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.appearance_AttributeTypeLib",
-    "LibraryVersion": "1.0.3",
-    "AMLEdition": "AMLEd2",
-    "ID": "daf161c4-35be-4d8e-9763-b3fc79bd3d12"
-  },
-  {
-    "ClassName": "RAL",
-    "CaexPath": "AutomationML_BasicProperties.Color_AttributeTypeLib/RAL",
-    "BasePath": "AutomationML_BasicProperties.Color_AttributeTypeLib/color",
-    "LibraryName": "AutomationML_BasicProperties.Color_AttributeTypeLib",
-    "LibraryVersion": "0.0.5",
-    "AMLEdition": "AMLEd2",
-    "ID": "1917d508-35a2-4d37-80a2-981c4abfd7bf"
-  },
-  {
-    "ClassName": "RGB",
-    "CaexPath": "AutomationML_BasicProperties.Color_AttributeTypeLib/RGB",
-    "BasePath": "AutomationML_BasicProperties.Color_AttributeTypeLib/color",
-    "LibraryName": "AutomationML_BasicProperties.Color_AttributeTypeLib",
-    "LibraryVersion": "0.0.5",
-    "AMLEdition": "AMLEd2",
-    "ID": "738ae261-331e-4534-837f-7a70c051068b"
   },
   {
     "ClassName": "work",
@@ -630,6 +639,51 @@
     "ID": "49f7a4fc-5143-431e-b5f4-fb7cbe00c08e"
   },
   {
+    "ClassName": "diameter",
+    "CaexPath": "AutomationML_BasicProperties.General_AttributeTypeLib/diameter",
+    "BasePath": "AutomationML_BasicProperties.General_AttributeTypeLib/dimension",
+    "LibraryName": "AutomationML_BasicProperties.General_AttributeTypeLib",
+    "LibraryVersion": "0.0.5",
+    "AMLEdition": "AMLEd2",
+    "ID": "8f944874-a415-4333-96be-52bb923a1c1e"
+  },
+  {
+    "ClassName": "innerDiameter",
+    "CaexPath": "AutomationML_BasicProperties.General_AttributeTypeLib/innerDiameter",
+    "BasePath": "AutomationML_BasicProperties.General_AttributeTypeLib/diameter",
+    "LibraryName": "AutomationML_BasicProperties.General_AttributeTypeLib",
+    "LibraryVersion": "0.0.5",
+    "AMLEdition": "AMLEd2",
+    "ID": "c1b87b91-3000-4ea9-819f-7be94e0caa6e"
+  },
+  {
+    "ClassName": "outerDiameter",
+    "CaexPath": "AutomationML_BasicProperties.General_AttributeTypeLib/outerDiameter",
+    "BasePath": "AutomationML_BasicProperties.General_AttributeTypeLib/diameter",
+    "LibraryName": "AutomationML_BasicProperties.General_AttributeTypeLib",
+    "LibraryVersion": "0.0.5",
+    "AMLEdition": "AMLEd2",
+    "ID": "59cf3916-3c18-4e20-ac94-da0d6b85f53e"
+  },
+  {
+    "ClassName": "range",
+    "CaexPath": "AutomationML_BasicProperties.General_AttributeTypeLib/range",
+    "BasePath": "AutomationML_BasicProperties.General_AttributeTypeLib/dimension",
+    "LibraryName": "AutomationML_BasicProperties.General_AttributeTypeLib",
+    "LibraryVersion": "0.0.5",
+    "AMLEdition": "AMLEd2",
+    "ID": "ceea7ec9-88e7-442b-b174-4dbfe5dd268f"
+  },
+  {
+    "ClassName": "distance",
+    "CaexPath": "AutomationML_BasicProperties.General_AttributeTypeLib/distance",
+    "BasePath": "AutomationML_BasicProperties.General_AttributeTypeLib/dimension",
+    "LibraryName": "AutomationML_BasicProperties.General_AttributeTypeLib",
+    "LibraryVersion": "0.0.5",
+    "AMLEdition": "AMLEd2",
+    "ID": "1932b62f-f31e-4332-87a0-2f77e1af2999"
+  },
+  {
     "ClassName": "density",
     "CaexPath": "AutomationML_BasicProperties.Physics_AttributeTypeLib/density",
     "BasePath": null,
@@ -693,51 +747,6 @@
     "ID": "70300503-ebdd-47fe-bc4c-36b3a69f5d8a"
   },
   {
-    "ClassName": "diameter",
-    "CaexPath": "AutomationML_BasicProperties.General_AttributeTypeLib/diameter",
-    "BasePath": "AutomationML_BasicProperties.General_AttributeTypeLib/dimension",
-    "LibraryName": "AutomationML_BasicProperties.General_AttributeTypeLib",
-    "LibraryVersion": "0.0.5",
-    "AMLEdition": "AMLEd2",
-    "ID": "8f944874-a415-4333-96be-52bb923a1c1e"
-  },
-  {
-    "ClassName": "innerDiameter",
-    "CaexPath": "AutomationML_BasicProperties.General_AttributeTypeLib/innerDiameter",
-    "BasePath": "AutomationML_BasicProperties.General_AttributeTypeLib/diameter",
-    "LibraryName": "AutomationML_BasicProperties.General_AttributeTypeLib",
-    "LibraryVersion": "0.0.5",
-    "AMLEdition": "AMLEd2",
-    "ID": "c1b87b91-3000-4ea9-819f-7be94e0caa6e"
-  },
-  {
-    "ClassName": "outerDiameter",
-    "CaexPath": "AutomationML_BasicProperties.General_AttributeTypeLib/outerDiameter",
-    "BasePath": "AutomationML_BasicProperties.General_AttributeTypeLib/diameter",
-    "LibraryName": "AutomationML_BasicProperties.General_AttributeTypeLib",
-    "LibraryVersion": "0.0.5",
-    "AMLEdition": "AMLEd2",
-    "ID": "59cf3916-3c18-4e20-ac94-da0d6b85f53e"
-  },
-  {
-    "ClassName": "range",
-    "CaexPath": "AutomationML_BasicProperties.General_AttributeTypeLib/range",
-    "BasePath": "AutomationML_BasicProperties.General_AttributeTypeLib/dimension",
-    "LibraryName": "AutomationML_BasicProperties.General_AttributeTypeLib",
-    "LibraryVersion": "0.0.5",
-    "AMLEdition": "AMLEd2",
-    "ID": "ceea7ec9-88e7-442b-b174-4dbfe5dd268f"
-  },
-  {
-    "ClassName": "CMYK",
-    "CaexPath": "AutomationML_BasicProperties.Color_AttributeTypeLib/CMYK",
-    "BasePath": "AutomationML_BasicProperties.Color_AttributeTypeLib/color",
-    "LibraryName": "AutomationML_BasicProperties.Color_AttributeTypeLib",
-    "LibraryVersion": "0.0.5",
-    "AMLEdition": "AMLEd2",
-    "ID": "f0fb949b-4b8f-400c-b5a8-665128e53868"
-  },
-  {
     "ClassName": "gravityAcceleration",
     "CaexPath": "AutomationML_BasicProperties.Physics_AttributeTypeLib/gravityAcceleration",
     "BasePath": "AutomationML_BasicProperties.Physics_AttributeTypeLib/acceleration",
@@ -747,346 +756,499 @@
     "ID": "da90ed61-f752-4f09-8001-62c1391ebcf7"
   },
   {
-    "ClassName": "distance",
-    "CaexPath": "AutomationML_BasicProperties.General_AttributeTypeLib/distance",
-    "BasePath": "AutomationML_BasicProperties.General_AttributeTypeLib/dimension",
-    "LibraryName": "AutomationML_BasicProperties.General_AttributeTypeLib",
-    "LibraryVersion": "0.0.5",
-    "AMLEdition": "AMLEd2",
-    "ID": "1932b62f-f31e-4332-87a0-2f77e1af2999"
-  },
-  {
-    "ClassName": "laenge-Typ",
-    "CaexPath": "HSPF_MasterClass_AttributeTypeLib/laenge-Typ",
+    "ClassName": "id",
+    "CaexPath": "AutomationML_BasicProperties.identification_AttributeTypeLib/id",
     "BasePath": null,
-    "LibraryName": "HSPF_MasterClass_AttributeTypeLib",
+    "LibraryName": "AutomationML_BasicProperties.identification_AttributeTypeLib",
     "LibraryVersion": "1.0.0",
     "AMLEdition": "AMLEd2",
-    "ID": "64b9aaef-c381-49b9-9f47-11ef8bc0eff9"
+    "ID": "3358e218-b893-4ba7-aafc-fb7b5e493acb"
   },
   {
-    "ClassName": "laenge-Typ",
-    "CaexPath": "HSPF_MasterClass_AttributeTypeLib/laenge-Typ",
+    "ClassName": "id",
+    "CaexPath": "AutomationML_BasicProperties.identification_AttributeTypeLib/id",
     "BasePath": null,
-    "LibraryName": "HSPF_MasterClass_AttributeTypeLib",
+    "LibraryName": "AutomationML_BasicProperties.identification_AttributeTypeLib",
     "LibraryVersion": "1.0.1",
     "AMLEdition": "AMLEd2",
-    "ID": "64b9aaef-c381-49b9-9f47-11ef8bc0eff9"
+    "ID": "3358e218-b893-4ba7-aafc-fb7b5e493acb"
   },
   {
-    "ClassName": "laenge-Typ",
-    "CaexPath": "HSPF_MasterClass_AttributeTypeLib/laenge-Typ",
+    "ClassName": "id",
+    "CaexPath": "AutomationML_BasicProperties.identification_AttributeTypeLib/id",
     "BasePath": null,
-    "LibraryName": "HSPF_MasterClass_AttributeTypeLib",
+    "LibraryName": "AutomationML_BasicProperties.identification_AttributeTypeLib",
     "LibraryVersion": "1.0.2",
     "AMLEdition": "AMLEd2",
-    "ID": "64b9aaef-c381-49b9-9f47-11ef8bc0eff9"
+    "ID": "3358e218-b893-4ba7-aafc-fb7b5e493acb"
   },
   {
-    "ClassName": "laenge-Typ",
-    "CaexPath": "HSPF_MasterClass_AttributeTypeLib/laenge-Typ",
+    "ClassName": "id",
+    "CaexPath": "AutomationML_BasicProperties.identification_AttributeTypeLib/id",
     "BasePath": null,
-    "LibraryName": "HSPF_MasterClass_AttributeTypeLib",
-    "LibraryVersion": "1.0.21",
-    "AMLEdition": "AMLEd2",
-    "ID": "64b9aaef-c381-49b9-9f47-11ef8bc0eff9"
-  },
-  {
-    "ClassName": "laenge-Typ",
-    "CaexPath": "HSPF_MasterClass_AttributeTypeLib/laenge-Typ",
-    "BasePath": null,
-    "LibraryName": "HSPF_MasterClass_AttributeTypeLib",
-    "LibraryVersion": "1.0.5",
-    "AMLEdition": "AMLEd2",
-    "ID": "64b9aaef-c381-49b9-9f47-11ef8bc0eff9"
-  },
-  {
-    "ClassName": "laenge-Typ",
-    "CaexPath": "HSPF_MasterClass_AttributeTypeLib/laenge-Typ",
-    "BasePath": null,
-    "LibraryName": "HSPF_MasterClass_AttributeTypeLib",
-    "LibraryVersion": "1.0.51",
-    "AMLEdition": "AMLEd2",
-    "ID": "64b9aaef-c381-49b9-9f47-11ef8bc0eff9"
-  },
-  {
-    "ClassName": "laenge-Typ",
-    "CaexPath": "HSPF_MasterClass_AttributeTypeLib/laenge-Typ",
-    "BasePath": null,
-    "LibraryName": "HSPF_MasterClass_AttributeTypeLib",
-    "LibraryVersion": "1.0.6",
-    "AMLEdition": "AMLEd2",
-    "ID": "64b9aaef-c381-49b9-9f47-11ef8bc0eff9"
-  },
-  {
-    "ClassName": "breite-Typ",
-    "CaexPath": "HSPF_MasterClass_AttributeTypeLib/breite-Typ",
-    "BasePath": null,
-    "LibraryName": "HSPF_MasterClass_AttributeTypeLib",
-    "LibraryVersion": "1.0.0",
-    "AMLEdition": "AMLEd2",
-    "ID": "e2b689ce-1f3c-4aa3-b485-f9b8245b25d3"
-  },
-  {
-    "ClassName": "breite-Typ",
-    "CaexPath": "HSPF_MasterClass_AttributeTypeLib/breite-Typ",
-    "BasePath": null,
-    "LibraryName": "HSPF_MasterClass_AttributeTypeLib",
-    "LibraryVersion": "1.0.1",
-    "AMLEdition": "AMLEd2",
-    "ID": "e2b689ce-1f3c-4aa3-b485-f9b8245b25d3"
-  },
-  {
-    "ClassName": "breite-Typ",
-    "CaexPath": "HSPF_MasterClass_AttributeTypeLib/breite-Typ",
-    "BasePath": null,
-    "LibraryName": "HSPF_MasterClass_AttributeTypeLib",
-    "LibraryVersion": "1.0.2",
-    "AMLEdition": "AMLEd2",
-    "ID": "e2b689ce-1f3c-4aa3-b485-f9b8245b25d3"
-  },
-  {
-    "ClassName": "breite-Typ",
-    "CaexPath": "HSPF_MasterClass_AttributeTypeLib/breite-Typ",
-    "BasePath": null,
-    "LibraryName": "HSPF_MasterClass_AttributeTypeLib",
-    "LibraryVersion": "1.0.21",
-    "AMLEdition": "AMLEd2",
-    "ID": "e2b689ce-1f3c-4aa3-b485-f9b8245b25d3"
-  },
-  {
-    "ClassName": "breite-Typ",
-    "CaexPath": "HSPF_MasterClass_AttributeTypeLib/breite-Typ",
-    "BasePath": null,
-    "LibraryName": "HSPF_MasterClass_AttributeTypeLib",
-    "LibraryVersion": "1.0.5",
-    "AMLEdition": "AMLEd2",
-    "ID": "e2b689ce-1f3c-4aa3-b485-f9b8245b25d3"
-  },
-  {
-    "ClassName": "breite-Typ",
-    "CaexPath": "HSPF_MasterClass_AttributeTypeLib/breite-Typ",
-    "BasePath": null,
-    "LibraryName": "HSPF_MasterClass_AttributeTypeLib",
-    "LibraryVersion": "1.0.51",
-    "AMLEdition": "AMLEd2",
-    "ID": "e2b689ce-1f3c-4aa3-b485-f9b8245b25d3"
-  },
-  {
-    "ClassName": "breite-Typ",
-    "CaexPath": "HSPF_MasterClass_AttributeTypeLib/breite-Typ",
-    "BasePath": null,
-    "LibraryName": "HSPF_MasterClass_AttributeTypeLib",
-    "LibraryVersion": "1.0.6",
-    "AMLEdition": "AMLEd2",
-    "ID": "e2b689ce-1f3c-4aa3-b485-f9b8245b25d3"
-  },
-  {
-    "ClassName": "hoeheTyp",
-    "CaexPath": "HSPF_MasterClass_AttributeTypeLib/hoeheTyp",
-    "BasePath": null,
-    "LibraryName": "HSPF_MasterClass_AttributeTypeLib",
-    "LibraryVersion": "1.0.0",
-    "AMLEdition": "AMLEd2",
-    "ID": "dde31796-c974-4621-9db8-918305b2eb44"
-  },
-  {
-    "ClassName": "hoeheTyp",
-    "CaexPath": "HSPF_MasterClass_AttributeTypeLib/hoeheTyp",
-    "BasePath": null,
-    "LibraryName": "HSPF_MasterClass_AttributeTypeLib",
-    "LibraryVersion": "1.0.1",
-    "AMLEdition": "AMLEd2",
-    "ID": "dde31796-c974-4621-9db8-918305b2eb44"
-  },
-  {
-    "ClassName": "hoeheTyp",
-    "CaexPath": "HSPF_MasterClass_AttributeTypeLib/hoeheTyp",
-    "BasePath": null,
-    "LibraryName": "HSPF_MasterClass_AttributeTypeLib",
-    "LibraryVersion": "1.0.2",
-    "AMLEdition": "AMLEd2",
-    "ID": "dde31796-c974-4621-9db8-918305b2eb44"
-  },
-  {
-    "ClassName": "hoeheTyp",
-    "CaexPath": "HSPF_MasterClass_AttributeTypeLib/hoeheTyp",
-    "BasePath": null,
-    "LibraryName": "HSPF_MasterClass_AttributeTypeLib",
-    "LibraryVersion": "1.0.21",
-    "AMLEdition": "AMLEd2",
-    "ID": "dde31796-c974-4621-9db8-918305b2eb44"
-  },
-  {
-    "ClassName": "hoeheTyp",
-    "CaexPath": "HSPF_MasterClass_AttributeTypeLib/hoeheTyp",
-    "BasePath": null,
-    "LibraryName": "HSPF_MasterClass_AttributeTypeLib",
-    "LibraryVersion": "1.0.5",
-    "AMLEdition": "AMLEd2",
-    "ID": "dde31796-c974-4621-9db8-918305b2eb44"
-  },
-  {
-    "ClassName": "hoeheTyp",
-    "CaexPath": "HSPF_MasterClass_AttributeTypeLib/hoeheTyp",
-    "BasePath": null,
-    "LibraryName": "HSPF_MasterClass_AttributeTypeLib",
-    "LibraryVersion": "1.0.51",
-    "AMLEdition": "AMLEd2",
-    "ID": "dde31796-c974-4621-9db8-918305b2eb44"
-  },
-  {
-    "ClassName": "hoeheTyp",
-    "CaexPath": "HSPF_MasterClass_AttributeTypeLib/hoeheTyp",
-    "BasePath": null,
-    "LibraryName": "HSPF_MasterClass_AttributeTypeLib",
-    "LibraryVersion": "1.0.6",
-    "AMLEdition": "AMLEd2",
-    "ID": "dde31796-c974-4621-9db8-918305b2eb44"
-  },
-  {
-    "ClassName": "vol",
-    "CaexPath": "HSPF_MasterClass_AttributeTypeLib/vol",
-    "BasePath": null,
-    "LibraryName": "HSPF_MasterClass_AttributeTypeLib",
-    "LibraryVersion": "1.0.6",
-    "AMLEdition": "AMLEd2",
-    "ID": "23665839-fd6c-4f20-aaca-6b81a44cae78"
-  },
-  {
-    "ClassName": "laengeDKE",
-    "CaexPath": "DKE_Basis-Merkmale.Geometrie_AttributeTypeLib/laengeDKE",
-    "BasePath": null,
-    "LibraryName": "DKE_Basis-Merkmale.Geometrie_AttributeTypeLib",
-    "LibraryVersion": "1.0.0",
-    "AMLEdition": "AMLEd2",
-    "ID": "d1b50d6e-48a3-43dd-88ad-f3fc6f7c2585"
-  },
-  {
-    "ClassName": "laengeDKE",
-    "CaexPath": "DKE_Basis-Merkmale.Geometrie_AttributeTypeLib/laengeDKE",
-    "BasePath": null,
-    "LibraryName": "DKE_Basis-Merkmale.Geometrie_AttributeTypeLib",
-    "LibraryVersion": "1.0.1",
-    "AMLEdition": "AMLEd2",
-    "ID": "d1b50d6e-48a3-43dd-88ad-f3fc6f7c2585"
-  },
-  {
-    "ClassName": "breiteDKE",
-    "CaexPath": "DKE_Basis-Merkmale.Geometrie_AttributeTypeLib/breiteDKE",
-    "BasePath": null,
-    "LibraryName": "DKE_Basis-Merkmale.Geometrie_AttributeTypeLib",
-    "LibraryVersion": "1.0.1",
-    "AMLEdition": "AMLEd2",
-    "ID": "45b483e1-88b4-4ab6-8a2d-6a13783fa042"
-  },
-  {
-    "ClassName": "capacitance",
-    "CaexPath": "AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/capacitance",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.electricalProperties_AttributeTypeLib",
+    "LibraryName": "AutomationML_BasicProperties.identification_AttributeTypeLib",
     "LibraryVersion": "1.0.3",
     "AMLEdition": "AMLEd2",
-    "ID": "30883e1c-3eb9-44be-9270-8e76a1c9d8c1"
+    "ID": "3358e218-b893-4ba7-aafc-fb7b5e493acb"
   },
   {
-    "ClassName": "capacitance",
-    "CaexPath": "AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/capacitance",
+    "ClassName": "idShort",
+    "CaexPath": "AutomationML_BasicProperties.identification_AttributeTypeLib/idShort",
     "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.electricalProperties_AttributeTypeLib",
+    "LibraryName": "AutomationML_BasicProperties.identification_AttributeTypeLib",
     "LibraryVersion": "1.0.0",
     "AMLEdition": "AMLEd2",
-    "ID": "30883e1c-3eb9-44be-9270-8e76a1c9d8c1"
+    "ID": "8defc9da-86a1-48a9-a139-d49ea42aaa80"
   },
   {
-    "ClassName": "capacitance",
-    "CaexPath": "AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/capacitance",
+    "ClassName": "idShort",
+    "CaexPath": "AutomationML_BasicProperties.identification_AttributeTypeLib/idShort",
     "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.electricalProperties_AttributeTypeLib",
+    "LibraryName": "AutomationML_BasicProperties.identification_AttributeTypeLib",
     "LibraryVersion": "1.0.1",
     "AMLEdition": "AMLEd2",
-    "ID": "30883e1c-3eb9-44be-9270-8e76a1c9d8c1"
+    "ID": "8defc9da-86a1-48a9-a139-d49ea42aaa80"
   },
   {
-    "ClassName": "capacitance",
-    "CaexPath": "AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/capacitance",
+    "ClassName": "idShort",
+    "CaexPath": "AutomationML_BasicProperties.identification_AttributeTypeLib/idShort",
     "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.electricalProperties_AttributeTypeLib",
+    "LibraryName": "AutomationML_BasicProperties.identification_AttributeTypeLib",
     "LibraryVersion": "1.0.2",
     "AMLEdition": "AMLEd2",
-    "ID": "30883e1c-3eb9-44be-9270-8e76a1c9d8c1"
+    "ID": "8defc9da-86a1-48a9-a139-d49ea42aaa80"
   },
   {
-    "ClassName": "inductance",
-    "CaexPath": "AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/inductance",
+    "ClassName": "idShort",
+    "CaexPath": "AutomationML_BasicProperties.identification_AttributeTypeLib/idShort",
     "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.electricalProperties_AttributeTypeLib",
+    "LibraryName": "AutomationML_BasicProperties.identification_AttributeTypeLib",
     "LibraryVersion": "1.0.3",
     "AMLEdition": "AMLEd2",
-    "ID": "5ec36a29-70e1-41c8-9a9d-4ef02ae85e7e"
+    "ID": "8defc9da-86a1-48a9-a139-d49ea42aaa80"
   },
   {
-    "ClassName": "inductance",
-    "CaexPath": "AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/inductance",
+    "ClassName": "semanticId",
+    "CaexPath": "AutomationML_BasicProperties.identification_AttributeTypeLib/semanticId",
     "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.electricalProperties_AttributeTypeLib",
+    "LibraryName": "AutomationML_BasicProperties.identification_AttributeTypeLib",
     "LibraryVersion": "1.0.0",
     "AMLEdition": "AMLEd2",
-    "ID": "5ec36a29-70e1-41c8-9a9d-4ef02ae85e7e"
+    "ID": "3804f0c7-f80c-461f-930e-5d519f385ec5"
   },
   {
-    "ClassName": "inductance",
-    "CaexPath": "AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/inductance",
+    "ClassName": "semanticId",
+    "CaexPath": "AutomationML_BasicProperties.identification_AttributeTypeLib/semanticId",
     "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.electricalProperties_AttributeTypeLib",
+    "LibraryName": "AutomationML_BasicProperties.identification_AttributeTypeLib",
     "LibraryVersion": "1.0.1",
     "AMLEdition": "AMLEd2",
-    "ID": "5ec36a29-70e1-41c8-9a9d-4ef02ae85e7e"
+    "ID": "3804f0c7-f80c-461f-930e-5d519f385ec5"
   },
   {
-    "ClassName": "inductance",
-    "CaexPath": "AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/inductance",
+    "ClassName": "semanticId",
+    "CaexPath": "AutomationML_BasicProperties.identification_AttributeTypeLib/semanticId",
     "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.electricalProperties_AttributeTypeLib",
+    "LibraryName": "AutomationML_BasicProperties.identification_AttributeTypeLib",
     "LibraryVersion": "1.0.2",
     "AMLEdition": "AMLEd2",
-    "ID": "5ec36a29-70e1-41c8-9a9d-4ef02ae85e7e"
+    "ID": "3804f0c7-f80c-461f-930e-5d519f385ec5"
   },
   {
-    "ClassName": "linearVelocity",
-    "CaexPath": "AutomationML_BasicProperties.kinematics_AttributeTypeLib/linearVelocity",
+    "ClassName": "semanticId",
+    "CaexPath": "AutomationML_BasicProperties.identification_AttributeTypeLib/semanticId",
     "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.kinematics_AttributeTypeLib",
-    "LibraryVersion": "1.0.0",
-    "AMLEdition": "AMLEd2",
-    "ID": "7b1f7180-532f-4c94-85cb-a38ec867f81c"
-  },
-  {
-    "ClassName": "linearVelocity",
-    "CaexPath": "AutomationML_BasicProperties.kinematics_AttributeTypeLib/linearVelocity",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.kinematics_AttributeTypeLib",
-    "LibraryVersion": "1.0.1",
-    "AMLEdition": "AMLEd2",
-    "ID": "7b1f7180-532f-4c94-85cb-a38ec867f81c"
-  },
-  {
-    "ClassName": "linearVelocity",
-    "CaexPath": "AutomationML_BasicProperties.kinematics_AttributeTypeLib/linearVelocity",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.kinematics_AttributeTypeLib",
-    "LibraryVersion": "1.0.2",
-    "AMLEdition": "AMLEd2",
-    "ID": "7b1f7180-532f-4c94-85cb-a38ec867f81c"
-  },
-  {
-    "ClassName": "linearVelocity",
-    "CaexPath": "AutomationML_BasicProperties.kinematics_AttributeTypeLib/linearVelocity",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.kinematics_AttributeTypeLib",
+    "LibraryName": "AutomationML_BasicProperties.identification_AttributeTypeLib",
     "LibraryVersion": "1.0.3",
     "AMLEdition": "AMLEd2",
-    "ID": "7b1f7180-532f-4c94-85cb-a38ec867f81c"
+    "ID": "3804f0c7-f80c-461f-930e-5d519f385ec5"
+  },
+  {
+    "ClassName": "globalAssetId",
+    "CaexPath": "AutomationML_BasicProperties.identification_AttributeTypeLib/globalAssetId",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.identification_AttributeTypeLib",
+    "LibraryVersion": "1.0.0",
+    "AMLEdition": "AMLEd2",
+    "ID": "f7932ea2-b7ee-427c-8848-3deb1a156f87"
+  },
+  {
+    "ClassName": "globalAssetId",
+    "CaexPath": "AutomationML_BasicProperties.identification_AttributeTypeLib/globalAssetId",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.identification_AttributeTypeLib",
+    "LibraryVersion": "1.0.1",
+    "AMLEdition": "AMLEd2",
+    "ID": "f7932ea2-b7ee-427c-8848-3deb1a156f87"
+  },
+  {
+    "ClassName": "globalAssetId",
+    "CaexPath": "AutomationML_BasicProperties.identification_AttributeTypeLib/globalAssetId",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.identification_AttributeTypeLib",
+    "LibraryVersion": "1.0.2",
+    "AMLEdition": "AMLEd2",
+    "ID": "f7932ea2-b7ee-427c-8848-3deb1a156f87"
+  },
+  {
+    "ClassName": "globalAssetId",
+    "CaexPath": "AutomationML_BasicProperties.identification_AttributeTypeLib/globalAssetId",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.identification_AttributeTypeLib",
+    "LibraryVersion": "1.0.3",
+    "AMLEdition": "AMLEd2",
+    "ID": "f7932ea2-b7ee-427c-8848-3deb1a156f87"
+  },
+  {
+    "ClassName": "manufacturerName",
+    "CaexPath": "AutomationML_BasicProperties.identification_AttributeTypeLib/manufacturerName",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.identification_AttributeTypeLib",
+    "LibraryVersion": "1.0.0",
+    "AMLEdition": "AMLEd2",
+    "ID": "5d973f74-2fb0-4b28-a517-b5bed8f77205"
+  },
+  {
+    "ClassName": "manufacturerName",
+    "CaexPath": "AutomationML_BasicProperties.identification_AttributeTypeLib/manufacturerName",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.identification_AttributeTypeLib",
+    "LibraryVersion": "1.0.1",
+    "AMLEdition": "AMLEd2",
+    "ID": "5d973f74-2fb0-4b28-a517-b5bed8f77205"
+  },
+  {
+    "ClassName": "manufacturerName",
+    "CaexPath": "AutomationML_BasicProperties.identification_AttributeTypeLib/manufacturerName",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.identification_AttributeTypeLib",
+    "LibraryVersion": "1.0.2",
+    "AMLEdition": "AMLEd2",
+    "ID": "5d973f74-2fb0-4b28-a517-b5bed8f77205"
+  },
+  {
+    "ClassName": "manufacturerName",
+    "CaexPath": "AutomationML_BasicProperties.identification_AttributeTypeLib/manufacturerName",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.identification_AttributeTypeLib",
+    "LibraryVersion": "1.0.3",
+    "AMLEdition": "AMLEd2",
+    "ID": "5d973f74-2fb0-4b28-a517-b5bed8f77205"
+  },
+  {
+    "ClassName": "manufacturerProductDesignation",
+    "CaexPath": "AutomationML_BasicProperties.identification_AttributeTypeLib/manufacturerProductDesignation",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.identification_AttributeTypeLib",
+    "LibraryVersion": "1.0.0",
+    "AMLEdition": "AMLEd2",
+    "ID": "81a61bac-b168-4a55-84c7-5251c2526611"
+  },
+  {
+    "ClassName": "manufacturerProductDesignation",
+    "CaexPath": "AutomationML_BasicProperties.identification_AttributeTypeLib/manufacturerProductDesignation",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.identification_AttributeTypeLib",
+    "LibraryVersion": "1.0.1",
+    "AMLEdition": "AMLEd2",
+    "ID": "81a61bac-b168-4a55-84c7-5251c2526611"
+  },
+  {
+    "ClassName": "manufacturerProductDesignation",
+    "CaexPath": "AutomationML_BasicProperties.identification_AttributeTypeLib/manufacturerProductDesignation",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.identification_AttributeTypeLib",
+    "LibraryVersion": "1.0.2",
+    "AMLEdition": "AMLEd2",
+    "ID": "81a61bac-b168-4a55-84c7-5251c2526611"
+  },
+  {
+    "ClassName": "manufacturerProductDesignation",
+    "CaexPath": "AutomationML_BasicProperties.identification_AttributeTypeLib/manufacturerProductDesignation",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.identification_AttributeTypeLib",
+    "LibraryVersion": "1.0.3",
+    "AMLEdition": "AMLEd2",
+    "ID": "81a61bac-b168-4a55-84c7-5251c2526611"
+  },
+  {
+    "ClassName": "partNumber",
+    "CaexPath": "AutomationML_BasicProperties.identification_AttributeTypeLib/partNumber",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.identification_AttributeTypeLib",
+    "LibraryVersion": "1.0.0",
+    "AMLEdition": "AMLEd2",
+    "ID": "4778e1b2-d9ec-4945-b5ed-4abd807e2d7e"
+  },
+  {
+    "ClassName": "partNumber",
+    "CaexPath": "AutomationML_BasicProperties.identification_AttributeTypeLib/partNumber",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.identification_AttributeTypeLib",
+    "LibraryVersion": "1.0.1",
+    "AMLEdition": "AMLEd2",
+    "ID": "4778e1b2-d9ec-4945-b5ed-4abd807e2d7e"
+  },
+  {
+    "ClassName": "partNumber",
+    "CaexPath": "AutomationML_BasicProperties.identification_AttributeTypeLib/partNumber",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.identification_AttributeTypeLib",
+    "LibraryVersion": "1.0.2",
+    "AMLEdition": "AMLEd2",
+    "ID": "4778e1b2-d9ec-4945-b5ed-4abd807e2d7e"
+  },
+  {
+    "ClassName": "partNumber",
+    "CaexPath": "AutomationML_BasicProperties.identification_AttributeTypeLib/partNumber",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.identification_AttributeTypeLib",
+    "LibraryVersion": "1.0.3",
+    "AMLEdition": "AMLEd2",
+    "ID": "4778e1b2-d9ec-4945-b5ed-4abd807e2d7e"
+  },
+  {
+    "ClassName": "serialNumber",
+    "CaexPath": "AutomationML_BasicProperties.identification_AttributeTypeLib/serialNumber",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.identification_AttributeTypeLib",
+    "LibraryVersion": "1.0.0",
+    "AMLEdition": "AMLEd2",
+    "ID": "81d2caa2-36ca-40f2-bc19-a266f691bf33"
+  },
+  {
+    "ClassName": "serialNumber",
+    "CaexPath": "AutomationML_BasicProperties.identification_AttributeTypeLib/serialNumber",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.identification_AttributeTypeLib",
+    "LibraryVersion": "1.0.1",
+    "AMLEdition": "AMLEd2",
+    "ID": "81d2caa2-36ca-40f2-bc19-a266f691bf33"
+  },
+  {
+    "ClassName": "serialNumber",
+    "CaexPath": "AutomationML_BasicProperties.identification_AttributeTypeLib/serialNumber",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.identification_AttributeTypeLib",
+    "LibraryVersion": "1.0.2",
+    "AMLEdition": "AMLEd2",
+    "ID": "81d2caa2-36ca-40f2-bc19-a266f691bf33"
+  },
+  {
+    "ClassName": "serialNumber",
+    "CaexPath": "AutomationML_BasicProperties.identification_AttributeTypeLib/serialNumber",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.identification_AttributeTypeLib",
+    "LibraryVersion": "1.0.3",
+    "AMLEdition": "AMLEd2",
+    "ID": "81d2caa2-36ca-40f2-bc19-a266f691bf33"
+  },
+  {
+    "ClassName": "overallLength",
+    "CaexPath": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/overallLength",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib",
+    "LibraryVersion": "1.0.0",
+    "AMLEdition": "AMLEd2",
+    "ID": "0c01bfd5-4006-46b7-98aa-89c0cd8016e2"
+  },
+  {
+    "ClassName": "overallLength",
+    "CaexPath": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/overallLength",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib",
+    "LibraryVersion": "1.0.1",
+    "AMLEdition": "AMLEd2",
+    "ID": "0c01bfd5-4006-46b7-98aa-89c0cd8016e2"
+  },
+  {
+    "ClassName": "overallLength",
+    "CaexPath": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/overallLength",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib",
+    "LibraryVersion": "1.0.2",
+    "AMLEdition": "AMLEd2",
+    "ID": "0c01bfd5-4006-46b7-98aa-89c0cd8016e2"
+  },
+  {
+    "ClassName": "overallLength",
+    "CaexPath": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/overallLength",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib",
+    "LibraryVersion": "1.0.3",
+    "AMLEdition": "AMLEd2",
+    "ID": "0c01bfd5-4006-46b7-98aa-89c0cd8016e2"
+  },
+  {
+    "ClassName": "overallWidth",
+    "CaexPath": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/overallWidth",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib",
+    "LibraryVersion": "1.0.0",
+    "AMLEdition": "AMLEd2",
+    "ID": "8b6fe5b7-1f67-46b6-b0c3-81a2468b5f8b"
+  },
+  {
+    "ClassName": "overallWidth",
+    "CaexPath": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/overallWidth",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib",
+    "LibraryVersion": "1.0.1",
+    "AMLEdition": "AMLEd2",
+    "ID": "8b6fe5b7-1f67-46b6-b0c3-81a2468b5f8b"
+  },
+  {
+    "ClassName": "overallWidth",
+    "CaexPath": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/overallWidth",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib",
+    "LibraryVersion": "1.0.2",
+    "AMLEdition": "AMLEd2",
+    "ID": "8b6fe5b7-1f67-46b6-b0c3-81a2468b5f8b"
+  },
+  {
+    "ClassName": "overallWidth",
+    "CaexPath": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/overallWidth",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib",
+    "LibraryVersion": "1.0.3",
+    "AMLEdition": "AMLEd2",
+    "ID": "8b6fe5b7-1f67-46b6-b0c3-81a2468b5f8b"
+  },
+  {
+    "ClassName": "ratedPower",
+    "CaexPath": "AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/ratedPower",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.electricalProperties_AttributeTypeLib",
+    "LibraryVersion": "1.0.0",
+    "AMLEdition": "AMLEd2",
+    "ID": "c2a8582f-cfe3-4afc-b6d1-82c19b670e84"
+  },
+  {
+    "ClassName": "ratedPower",
+    "CaexPath": "AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/ratedPower",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.electricalProperties_AttributeTypeLib",
+    "LibraryVersion": "1.0.1",
+    "AMLEdition": "AMLEd2",
+    "ID": "c2a8582f-cfe3-4afc-b6d1-82c19b670e84"
+  },
+  {
+    "ClassName": "ratedPower",
+    "CaexPath": "AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/ratedPower",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.electricalProperties_AttributeTypeLib",
+    "LibraryVersion": "1.0.2",
+    "AMLEdition": "AMLEd2",
+    "ID": "c2a8582f-cfe3-4afc-b6d1-82c19b670e84"
+  },
+  {
+    "ClassName": "designLifetime",
+    "CaexPath": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib/designLifetime",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib",
+    "LibraryVersion": "1.0.0",
+    "AMLEdition": "AMLEd2",
+    "ID": "47db6c63-eff5-41fe-a11e-5f014275eb5d"
+  },
+  {
+    "ClassName": "designLifetime",
+    "CaexPath": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib/designLifetime",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib",
+    "LibraryVersion": "1.0.1",
+    "AMLEdition": "AMLEd2",
+    "ID": "47db6c63-eff5-41fe-a11e-5f014275eb5d"
+  },
+  {
+    "ClassName": "designLifetime",
+    "CaexPath": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib/designLifetime",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib",
+    "LibraryVersion": "1.0.2",
+    "AMLEdition": "AMLEd2",
+    "ID": "47db6c63-eff5-41fe-a11e-5f014275eb5d"
+  },
+  {
+    "ClassName": "designLifetime",
+    "CaexPath": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib/designLifetime",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib",
+    "LibraryVersion": "1.0.3",
+    "AMLEdition": "AMLEd2",
+    "ID": "47db6c63-eff5-41fe-a11e-5f014275eb5d"
+  },
+  {
+    "ClassName": "meanTimeBetweenFailures",
+    "CaexPath": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib/meanTimeBetweenFailures",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib",
+    "LibraryVersion": "1.0.0",
+    "AMLEdition": "AMLEd2",
+    "ID": "ca31add5-ca43-4566-99d4-927fb5a426fe"
+  },
+  {
+    "ClassName": "meanTimeBetweenFailures",
+    "CaexPath": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib/meanTimeBetweenFailures",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib",
+    "LibraryVersion": "1.0.1",
+    "AMLEdition": "AMLEd2",
+    "ID": "ca31add5-ca43-4566-99d4-927fb5a426fe"
+  },
+  {
+    "ClassName": "meanTimeBetweenFailures",
+    "CaexPath": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib/meanTimeBetweenFailures",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib",
+    "LibraryVersion": "1.0.2",
+    "AMLEdition": "AMLEd2",
+    "ID": "ca31add5-ca43-4566-99d4-927fb5a426fe"
+  },
+  {
+    "ClassName": "meanTimeBetweenFailures",
+    "CaexPath": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib/meanTimeBetweenFailures",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib",
+    "LibraryVersion": "1.0.3",
+    "AMLEdition": "AMLEd2",
+    "ID": "ca31add5-ca43-4566-99d4-927fb5a426fe"
+  },
+  {
+    "ClassName": "meanTimeToRepair",
+    "CaexPath": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib/meanTimeToRepair",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib",
+    "LibraryVersion": "1.0.0",
+    "AMLEdition": "AMLEd2",
+    "ID": "867a8d4f-a01c-4258-8fd3-6d2d838421ce"
+  },
+  {
+    "ClassName": "meanTimeToRepair",
+    "CaexPath": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib/meanTimeToRepair",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib",
+    "LibraryVersion": "1.0.1",
+    "AMLEdition": "AMLEd2",
+    "ID": "867a8d4f-a01c-4258-8fd3-6d2d838421ce"
+  },
+  {
+    "ClassName": "meanTimeToRepair",
+    "CaexPath": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib/meanTimeToRepair",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib",
+    "LibraryVersion": "1.0.2",
+    "AMLEdition": "AMLEd2",
+    "ID": "867a8d4f-a01c-4258-8fd3-6d2d838421ce"
+  },
+  {
+    "ClassName": "meanTimeToRepair",
+    "CaexPath": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib/meanTimeToRepair",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib",
+    "LibraryVersion": "1.0.3",
+    "AMLEdition": "AMLEd2",
+    "ID": "867a8d4f-a01c-4258-8fd3-6d2d838421ce"
   },
   {
     "ClassName": "operatingTemperatureMin",
@@ -1143,186 +1305,6 @@
     "ID": "09616d9e-73f2-4d62-8a25-f7eaba353b68"
   },
   {
-    "ClassName": "designLifetime",
-    "CaexPath": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib/designLifetime",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib",
-    "LibraryVersion": "1.0.0",
-    "AMLEdition": "AMLEd2",
-    "ID": "47db6c63-eff5-41fe-a11e-5f014275eb5d"
-  },
-  {
-    "ClassName": "designLifetime",
-    "CaexPath": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib/designLifetime",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib",
-    "LibraryVersion": "1.0.1",
-    "AMLEdition": "AMLEd2",
-    "ID": "47db6c63-eff5-41fe-a11e-5f014275eb5d"
-  },
-  {
-    "ClassName": "designLifetime",
-    "CaexPath": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib/designLifetime",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib",
-    "LibraryVersion": "1.0.2",
-    "AMLEdition": "AMLEd2",
-    "ID": "47db6c63-eff5-41fe-a11e-5f014275eb5d"
-  },
-  {
-    "ClassName": "designLifetime",
-    "CaexPath": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib/designLifetime",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib",
-    "LibraryVersion": "1.0.3",
-    "AMLEdition": "AMLEd2",
-    "ID": "47db6c63-eff5-41fe-a11e-5f014275eb5d"
-  },
-  {
-    "ClassName": "meanTimeBetweenFailures",
-    "CaexPath": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib/meanTimeBetweenFailures",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib",
-    "LibraryVersion": "1.0.0",
-    "AMLEdition": "AMLEd2",
-    "ID": "ca31add5-ca43-4566-99d4-927fb5a426fe"
-  },
-  {
-    "ClassName": "meanTimeBetweenFailures",
-    "CaexPath": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib/meanTimeBetweenFailures",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib",
-    "LibraryVersion": "1.0.1",
-    "AMLEdition": "AMLEd2",
-    "ID": "ca31add5-ca43-4566-99d4-927fb5a426fe"
-  },
-  {
-    "ClassName": "meanTimeBetweenFailures",
-    "CaexPath": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib/meanTimeBetweenFailures",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib",
-    "LibraryVersion": "1.0.2",
-    "AMLEdition": "AMLEd2",
-    "ID": "ca31add5-ca43-4566-99d4-927fb5a426fe"
-  },
-  {
-    "ClassName": "meanTimeBetweenFailures",
-    "CaexPath": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib/meanTimeBetweenFailures",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib",
-    "LibraryVersion": "1.0.3",
-    "AMLEdition": "AMLEd2",
-    "ID": "ca31add5-ca43-4566-99d4-927fb5a426fe"
-  },
-  {
-    "ClassName": "overallLength",
-    "CaexPath": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/overallLength",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib",
-    "LibraryVersion": "1.0.0",
-    "AMLEdition": "AMLEd2",
-    "ID": "0c01bfd5-4006-46b7-98aa-89c0cd8016e2"
-  },
-  {
-    "ClassName": "overallLength",
-    "CaexPath": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/overallLength",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib",
-    "LibraryVersion": "1.0.1",
-    "AMLEdition": "AMLEd2",
-    "ID": "0c01bfd5-4006-46b7-98aa-89c0cd8016e2"
-  },
-  {
-    "ClassName": "overallLength",
-    "CaexPath": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/overallLength",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib",
-    "LibraryVersion": "1.0.2",
-    "AMLEdition": "AMLEd2",
-    "ID": "0c01bfd5-4006-46b7-98aa-89c0cd8016e2"
-  },
-  {
-    "ClassName": "overallLength",
-    "CaexPath": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/overallLength",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib",
-    "LibraryVersion": "1.0.3",
-    "AMLEdition": "AMLEd2",
-    "ID": "0c01bfd5-4006-46b7-98aa-89c0cd8016e2"
-  },
-  {
-    "ClassName": "overallWidth",
-    "CaexPath": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/overallWidth",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib",
-    "LibraryVersion": "1.0.0",
-    "AMLEdition": "AMLEd2",
-    "ID": "8b6fe5b7-1f67-46b6-b0c3-81a2468b5f8b"
-  },
-  {
-    "ClassName": "overallWidth",
-    "CaexPath": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/overallWidth",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib",
-    "LibraryVersion": "1.0.1",
-    "AMLEdition": "AMLEd2",
-    "ID": "8b6fe5b7-1f67-46b6-b0c3-81a2468b5f8b"
-  },
-  {
-    "ClassName": "overallWidth",
-    "CaexPath": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/overallWidth",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib",
-    "LibraryVersion": "1.0.2",
-    "AMLEdition": "AMLEd2",
-    "ID": "8b6fe5b7-1f67-46b6-b0c3-81a2468b5f8b"
-  },
-  {
-    "ClassName": "overallWidth",
-    "CaexPath": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/overallWidth",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib",
-    "LibraryVersion": "1.0.3",
-    "AMLEdition": "AMLEd2",
-    "ID": "8b6fe5b7-1f67-46b6-b0c3-81a2468b5f8b"
-  },
-  {
-    "ClassName": "overallHeight",
-    "CaexPath": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/overallHeight",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib",
-    "LibraryVersion": "1.0.0",
-    "AMLEdition": "AMLEd2",
-    "ID": "5eed6c00-4955-40de-b8b8-c3c168b45ee2"
-  },
-  {
-    "ClassName": "overallHeight",
-    "CaexPath": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/overallHeight",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib",
-    "LibraryVersion": "1.0.1",
-    "AMLEdition": "AMLEd2",
-    "ID": "5eed6c00-4955-40de-b8b8-c3c168b45ee2"
-  },
-  {
-    "ClassName": "overallHeight",
-    "CaexPath": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/overallHeight",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib",
-    "LibraryVersion": "1.0.2",
-    "AMLEdition": "AMLEd2",
-    "ID": "5eed6c00-4955-40de-b8b8-c3c168b45ee2"
-  },
-  {
-    "ClassName": "overallHeight",
-    "CaexPath": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/overallHeight",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib",
-    "LibraryVersion": "1.0.3",
-    "AMLEdition": "AMLEd2",
-    "ID": "5eed6c00-4955-40de-b8b8-c3c168b45ee2"
-  },
-  {
     "ClassName": "hyperfineTransitionFrequencyOfCs",
     "CaexPath": "AutomationML_BasicProperties.constants_AttributeTypeLib/hyperfineTransitionFrequencyOfCs",
     "BasePath": null,
@@ -1393,573 +1375,6 @@
     "LibraryVersion": "1.0.3",
     "AMLEdition": "AMLEd2",
     "ID": "174c0c1c-71bf-44f4-879a-b0e60ea3d66b"
-  },
-  {
-    "ClassName": "planckConstant",
-    "CaexPath": "AutomationML_BasicProperties.constants_AttributeTypeLib/planckConstant",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.constants_AttributeTypeLib",
-    "LibraryVersion": "1.0.0",
-    "AMLEdition": "AMLEd2",
-    "ID": "1285d346-932e-4430-9aa5-06af61d02275"
-  },
-  {
-    "ClassName": "planckConstant",
-    "CaexPath": "AutomationML_BasicProperties.constants_AttributeTypeLib/planckConstant",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.constants_AttributeTypeLib",
-    "LibraryVersion": "1.0.1",
-    "AMLEdition": "AMLEd2",
-    "ID": "1285d346-932e-4430-9aa5-06af61d02275"
-  },
-  {
-    "ClassName": "planckConstant",
-    "CaexPath": "AutomationML_BasicProperties.constants_AttributeTypeLib/planckConstant",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.constants_AttributeTypeLib",
-    "LibraryVersion": "1.0.2",
-    "AMLEdition": "AMLEd2",
-    "ID": "1285d346-932e-4430-9aa5-06af61d02275"
-  },
-  {
-    "ClassName": "planckConstant",
-    "CaexPath": "AutomationML_BasicProperties.constants_AttributeTypeLib/planckConstant",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.constants_AttributeTypeLib",
-    "LibraryVersion": "1.0.3",
-    "AMLEdition": "AMLEd2",
-    "ID": "1285d346-932e-4430-9aa5-06af61d02275"
-  },
-  {
-    "ClassName": "elementaryCharge",
-    "CaexPath": "AutomationML_BasicProperties.constants_AttributeTypeLib/elementaryCharge",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.constants_AttributeTypeLib",
-    "LibraryVersion": "1.0.0",
-    "AMLEdition": "AMLEd2",
-    "ID": "cfea7ee3-4a5a-423f-b7aa-129b6456e523"
-  },
-  {
-    "ClassName": "elementaryCharge",
-    "CaexPath": "AutomationML_BasicProperties.constants_AttributeTypeLib/elementaryCharge",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.constants_AttributeTypeLib",
-    "LibraryVersion": "1.0.1",
-    "AMLEdition": "AMLEd2",
-    "ID": "cfea7ee3-4a5a-423f-b7aa-129b6456e523"
-  },
-  {
-    "ClassName": "elementaryCharge",
-    "CaexPath": "AutomationML_BasicProperties.constants_AttributeTypeLib/elementaryCharge",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.constants_AttributeTypeLib",
-    "LibraryVersion": "1.0.2",
-    "AMLEdition": "AMLEd2",
-    "ID": "cfea7ee3-4a5a-423f-b7aa-129b6456e523"
-  },
-  {
-    "ClassName": "elementaryCharge",
-    "CaexPath": "AutomationML_BasicProperties.constants_AttributeTypeLib/elementaryCharge",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.constants_AttributeTypeLib",
-    "LibraryVersion": "1.0.3",
-    "AMLEdition": "AMLEd2",
-    "ID": "cfea7ee3-4a5a-423f-b7aa-129b6456e523"
-  },
-  {
-    "ClassName": "boltzmannConstant",
-    "CaexPath": "AutomationML_BasicProperties.constants_AttributeTypeLib/boltzmannConstant",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.constants_AttributeTypeLib",
-    "LibraryVersion": "1.0.0",
-    "AMLEdition": "AMLEd2",
-    "ID": "3e20af3a-49b0-4049-8e4c-b3f8c8cce818"
-  },
-  {
-    "ClassName": "boltzmannConstant",
-    "CaexPath": "AutomationML_BasicProperties.constants_AttributeTypeLib/boltzmannConstant",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.constants_AttributeTypeLib",
-    "LibraryVersion": "1.0.1",
-    "AMLEdition": "AMLEd2",
-    "ID": "3e20af3a-49b0-4049-8e4c-b3f8c8cce818"
-  },
-  {
-    "ClassName": "boltzmannConstant",
-    "CaexPath": "AutomationML_BasicProperties.constants_AttributeTypeLib/boltzmannConstant",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.constants_AttributeTypeLib",
-    "LibraryVersion": "1.0.2",
-    "AMLEdition": "AMLEd2",
-    "ID": "3e20af3a-49b0-4049-8e4c-b3f8c8cce818"
-  },
-  {
-    "ClassName": "boltzmannConstant",
-    "CaexPath": "AutomationML_BasicProperties.constants_AttributeTypeLib/boltzmannConstant",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.constants_AttributeTypeLib",
-    "LibraryVersion": "1.0.3",
-    "AMLEdition": "AMLEd2",
-    "ID": "3e20af3a-49b0-4049-8e4c-b3f8c8cce818"
-  },
-  {
-    "ClassName": "id",
-    "CaexPath": "AutomationML_BasicProperties.identification_AttributeTypeLib/id",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.identification_AttributeTypeLib",
-    "LibraryVersion": "1.0.0",
-    "AMLEdition": "AMLEd2",
-    "ID": "3358e218-b893-4ba7-aafc-fb7b5e493acb"
-  },
-  {
-    "ClassName": "id",
-    "CaexPath": "AutomationML_BasicProperties.identification_AttributeTypeLib/id",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.identification_AttributeTypeLib",
-    "LibraryVersion": "1.0.1",
-    "AMLEdition": "AMLEd2",
-    "ID": "3358e218-b893-4ba7-aafc-fb7b5e493acb"
-  },
-  {
-    "ClassName": "id",
-    "CaexPath": "AutomationML_BasicProperties.identification_AttributeTypeLib/id",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.identification_AttributeTypeLib",
-    "LibraryVersion": "1.0.2",
-    "AMLEdition": "AMLEd2",
-    "ID": "3358e218-b893-4ba7-aafc-fb7b5e493acb"
-  },
-  {
-    "ClassName": "id",
-    "CaexPath": "AutomationML_BasicProperties.identification_AttributeTypeLib/id",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.identification_AttributeTypeLib",
-    "LibraryVersion": "1.0.3",
-    "AMLEdition": "AMLEd2",
-    "ID": "3358e218-b893-4ba7-aafc-fb7b5e493acb"
-  },
-  {
-    "ClassName": "idShort",
-    "CaexPath": "AutomationML_BasicProperties.identification_AttributeTypeLib/idShort",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.identification_AttributeTypeLib",
-    "LibraryVersion": "1.0.0",
-    "AMLEdition": "AMLEd2",
-    "ID": "8defc9da-86a1-48a9-a139-d49ea42aaa80"
-  },
-  {
-    "ClassName": "idShort",
-    "CaexPath": "AutomationML_BasicProperties.identification_AttributeTypeLib/idShort",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.identification_AttributeTypeLib",
-    "LibraryVersion": "1.0.1",
-    "AMLEdition": "AMLEd2",
-    "ID": "8defc9da-86a1-48a9-a139-d49ea42aaa80"
-  },
-  {
-    "ClassName": "idShort",
-    "CaexPath": "AutomationML_BasicProperties.identification_AttributeTypeLib/idShort",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.identification_AttributeTypeLib",
-    "LibraryVersion": "1.0.2",
-    "AMLEdition": "AMLEd2",
-    "ID": "8defc9da-86a1-48a9-a139-d49ea42aaa80"
-  },
-  {
-    "ClassName": "idShort",
-    "CaexPath": "AutomationML_BasicProperties.identification_AttributeTypeLib/idShort",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.identification_AttributeTypeLib",
-    "LibraryVersion": "1.0.3",
-    "AMLEdition": "AMLEd2",
-    "ID": "8defc9da-86a1-48a9-a139-d49ea42aaa80"
-  },
-  {
-    "ClassName": "semanticId",
-    "CaexPath": "AutomationML_BasicProperties.identification_AttributeTypeLib/semanticId",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.identification_AttributeTypeLib",
-    "LibraryVersion": "1.0.0",
-    "AMLEdition": "AMLEd2",
-    "ID": "3804f0c7-f80c-461f-930e-5d519f385ec5"
-  },
-  {
-    "ClassName": "semanticId",
-    "CaexPath": "AutomationML_BasicProperties.identification_AttributeTypeLib/semanticId",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.identification_AttributeTypeLib",
-    "LibraryVersion": "1.0.1",
-    "AMLEdition": "AMLEd2",
-    "ID": "3804f0c7-f80c-461f-930e-5d519f385ec5"
-  },
-  {
-    "ClassName": "semanticId",
-    "CaexPath": "AutomationML_BasicProperties.identification_AttributeTypeLib/semanticId",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.identification_AttributeTypeLib",
-    "LibraryVersion": "1.0.2",
-    "AMLEdition": "AMLEd2",
-    "ID": "3804f0c7-f80c-461f-930e-5d519f385ec5"
-  },
-  {
-    "ClassName": "semanticId",
-    "CaexPath": "AutomationML_BasicProperties.identification_AttributeTypeLib/semanticId",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.identification_AttributeTypeLib",
-    "LibraryVersion": "1.0.3",
-    "AMLEdition": "AMLEd2",
-    "ID": "3804f0c7-f80c-461f-930e-5d519f385ec5"
-  },
-  {
-    "ClassName": "globalAssetId",
-    "CaexPath": "AutomationML_BasicProperties.identification_AttributeTypeLib/globalAssetId",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.identification_AttributeTypeLib",
-    "LibraryVersion": "1.0.0",
-    "AMLEdition": "AMLEd2",
-    "ID": "f7932ea2-b7ee-427c-8848-3deb1a156f87"
-  },
-  {
-    "ClassName": "globalAssetId",
-    "CaexPath": "AutomationML_BasicProperties.identification_AttributeTypeLib/globalAssetId",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.identification_AttributeTypeLib",
-    "LibraryVersion": "1.0.1",
-    "AMLEdition": "AMLEd2",
-    "ID": "f7932ea2-b7ee-427c-8848-3deb1a156f87"
-  },
-  {
-    "ClassName": "globalAssetId",
-    "CaexPath": "AutomationML_BasicProperties.identification_AttributeTypeLib/globalAssetId",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.identification_AttributeTypeLib",
-    "LibraryVersion": "1.0.2",
-    "AMLEdition": "AMLEd2",
-    "ID": "f7932ea2-b7ee-427c-8848-3deb1a156f87"
-  },
-  {
-    "ClassName": "globalAssetId",
-    "CaexPath": "AutomationML_BasicProperties.identification_AttributeTypeLib/globalAssetId",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.identification_AttributeTypeLib",
-    "LibraryVersion": "1.0.3",
-    "AMLEdition": "AMLEd2",
-    "ID": "f7932ea2-b7ee-427c-8848-3deb1a156f87"
-  },
-  {
-    "ClassName": "manufacturerName",
-    "CaexPath": "AutomationML_BasicProperties.identification_AttributeTypeLib/manufacturerName",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.identification_AttributeTypeLib",
-    "LibraryVersion": "1.0.0",
-    "AMLEdition": "AMLEd2",
-    "ID": "5d973f74-2fb0-4b28-a517-b5bed8f77205"
-  },
-  {
-    "ClassName": "manufacturerName",
-    "CaexPath": "AutomationML_BasicProperties.identification_AttributeTypeLib/manufacturerName",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.identification_AttributeTypeLib",
-    "LibraryVersion": "1.0.1",
-    "AMLEdition": "AMLEd2",
-    "ID": "5d973f74-2fb0-4b28-a517-b5bed8f77205"
-  },
-  {
-    "ClassName": "manufacturerName",
-    "CaexPath": "AutomationML_BasicProperties.identification_AttributeTypeLib/manufacturerName",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.identification_AttributeTypeLib",
-    "LibraryVersion": "1.0.2",
-    "AMLEdition": "AMLEd2",
-    "ID": "5d973f74-2fb0-4b28-a517-b5bed8f77205"
-  },
-  {
-    "ClassName": "manufacturerName",
-    "CaexPath": "AutomationML_BasicProperties.identification_AttributeTypeLib/manufacturerName",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.identification_AttributeTypeLib",
-    "LibraryVersion": "1.0.3",
-    "AMLEdition": "AMLEd2",
-    "ID": "5d973f74-2fb0-4b28-a517-b5bed8f77205"
-  },
-  {
-    "ClassName": "manufacturerProductDesignation",
-    "CaexPath": "AutomationML_BasicProperties.identification_AttributeTypeLib/manufacturerProductDesignation",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.identification_AttributeTypeLib",
-    "LibraryVersion": "1.0.0",
-    "AMLEdition": "AMLEd2",
-    "ID": "81a61bac-b168-4a55-84c7-5251c2526611"
-  },
-  {
-    "ClassName": "manufacturerProductDesignation",
-    "CaexPath": "AutomationML_BasicProperties.identification_AttributeTypeLib/manufacturerProductDesignation",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.identification_AttributeTypeLib",
-    "LibraryVersion": "1.0.1",
-    "AMLEdition": "AMLEd2",
-    "ID": "81a61bac-b168-4a55-84c7-5251c2526611"
-  },
-  {
-    "ClassName": "manufacturerProductDesignation",
-    "CaexPath": "AutomationML_BasicProperties.identification_AttributeTypeLib/manufacturerProductDesignation",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.identification_AttributeTypeLib",
-    "LibraryVersion": "1.0.2",
-    "AMLEdition": "AMLEd2",
-    "ID": "81a61bac-b168-4a55-84c7-5251c2526611"
-  },
-  {
-    "ClassName": "manufacturerProductDesignation",
-    "CaexPath": "AutomationML_BasicProperties.identification_AttributeTypeLib/manufacturerProductDesignation",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.identification_AttributeTypeLib",
-    "LibraryVersion": "1.0.3",
-    "AMLEdition": "AMLEd2",
-    "ID": "81a61bac-b168-4a55-84c7-5251c2526611"
-  },
-  {
-    "ClassName": "partNumber",
-    "CaexPath": "AutomationML_BasicProperties.identification_AttributeTypeLib/partNumber",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.identification_AttributeTypeLib",
-    "LibraryVersion": "1.0.0",
-    "AMLEdition": "AMLEd2",
-    "ID": "4778e1b2-d9ec-4945-b5ed-4abd807e2d7e"
-  },
-  {
-    "ClassName": "partNumber",
-    "CaexPath": "AutomationML_BasicProperties.identification_AttributeTypeLib/partNumber",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.identification_AttributeTypeLib",
-    "LibraryVersion": "1.0.1",
-    "AMLEdition": "AMLEd2",
-    "ID": "4778e1b2-d9ec-4945-b5ed-4abd807e2d7e"
-  },
-  {
-    "ClassName": "partNumber",
-    "CaexPath": "AutomationML_BasicProperties.identification_AttributeTypeLib/partNumber",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.identification_AttributeTypeLib",
-    "LibraryVersion": "1.0.2",
-    "AMLEdition": "AMLEd2",
-    "ID": "4778e1b2-d9ec-4945-b5ed-4abd807e2d7e"
-  },
-  {
-    "ClassName": "partNumber",
-    "CaexPath": "AutomationML_BasicProperties.identification_AttributeTypeLib/partNumber",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.identification_AttributeTypeLib",
-    "LibraryVersion": "1.0.3",
-    "AMLEdition": "AMLEd2",
-    "ID": "4778e1b2-d9ec-4945-b5ed-4abd807e2d7e"
-  },
-  {
-    "ClassName": "serialNumber",
-    "CaexPath": "AutomationML_BasicProperties.identification_AttributeTypeLib/serialNumber",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.identification_AttributeTypeLib",
-    "LibraryVersion": "1.0.0",
-    "AMLEdition": "AMLEd2",
-    "ID": "81d2caa2-36ca-40f2-bc19-a266f691bf33"
-  },
-  {
-    "ClassName": "serialNumber",
-    "CaexPath": "AutomationML_BasicProperties.identification_AttributeTypeLib/serialNumber",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.identification_AttributeTypeLib",
-    "LibraryVersion": "1.0.1",
-    "AMLEdition": "AMLEd2",
-    "ID": "81d2caa2-36ca-40f2-bc19-a266f691bf33"
-  },
-  {
-    "ClassName": "serialNumber",
-    "CaexPath": "AutomationML_BasicProperties.identification_AttributeTypeLib/serialNumber",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.identification_AttributeTypeLib",
-    "LibraryVersion": "1.0.2",
-    "AMLEdition": "AMLEd2",
-    "ID": "81d2caa2-36ca-40f2-bc19-a266f691bf33"
-  },
-  {
-    "ClassName": "serialNumber",
-    "CaexPath": "AutomationML_BasicProperties.identification_AttributeTypeLib/serialNumber",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.identification_AttributeTypeLib",
-    "LibraryVersion": "1.0.3",
-    "AMLEdition": "AMLEd2",
-    "ID": "81d2caa2-36ca-40f2-bc19-a266f691bf33"
-  },
-  {
-    "ClassName": "linearAcceleration",
-    "CaexPath": "AutomationML_BasicProperties.kinematics_AttributeTypeLib/linearAcceleration",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.kinematics_AttributeTypeLib",
-    "LibraryVersion": "1.0.0",
-    "AMLEdition": "AMLEd2",
-    "ID": "2a91335c-8247-4079-ae2b-f34cae236310"
-  },
-  {
-    "ClassName": "linearAcceleration",
-    "CaexPath": "AutomationML_BasicProperties.kinematics_AttributeTypeLib/linearAcceleration",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.kinematics_AttributeTypeLib",
-    "LibraryVersion": "1.0.1",
-    "AMLEdition": "AMLEd2",
-    "ID": "2a91335c-8247-4079-ae2b-f34cae236310"
-  },
-  {
-    "ClassName": "linearAcceleration",
-    "CaexPath": "AutomationML_BasicProperties.kinematics_AttributeTypeLib/linearAcceleration",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.kinematics_AttributeTypeLib",
-    "LibraryVersion": "1.0.2",
-    "AMLEdition": "AMLEd2",
-    "ID": "2a91335c-8247-4079-ae2b-f34cae236310"
-  },
-  {
-    "ClassName": "linearAcceleration",
-    "CaexPath": "AutomationML_BasicProperties.kinematics_AttributeTypeLib/linearAcceleration",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.kinematics_AttributeTypeLib",
-    "LibraryVersion": "1.0.3",
-    "AMLEdition": "AMLEd2",
-    "ID": "2a91335c-8247-4079-ae2b-f34cae236310"
-  },
-  {
-    "ClassName": "angularAcceleration",
-    "CaexPath": "AutomationML_BasicProperties.kinematics_AttributeTypeLib/angularAcceleration",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.kinematics_AttributeTypeLib",
-    "LibraryVersion": "1.0.0",
-    "AMLEdition": "AMLEd2",
-    "ID": "707e9380-cdd1-4d35-aa2f-8485b9ac198c"
-  },
-  {
-    "ClassName": "angularAcceleration",
-    "CaexPath": "AutomationML_BasicProperties.kinematics_AttributeTypeLib/angularAcceleration",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.kinematics_AttributeTypeLib",
-    "LibraryVersion": "1.0.1",
-    "AMLEdition": "AMLEd2",
-    "ID": "707e9380-cdd1-4d35-aa2f-8485b9ac198c"
-  },
-  {
-    "ClassName": "angularAcceleration",
-    "CaexPath": "AutomationML_BasicProperties.kinematics_AttributeTypeLib/angularAcceleration",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.kinematics_AttributeTypeLib",
-    "LibraryVersion": "1.0.2",
-    "AMLEdition": "AMLEd2",
-    "ID": "707e9380-cdd1-4d35-aa2f-8485b9ac198c"
-  },
-  {
-    "ClassName": "angularAcceleration",
-    "CaexPath": "AutomationML_BasicProperties.kinematics_AttributeTypeLib/angularAcceleration",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.kinematics_AttributeTypeLib",
-    "LibraryVersion": "1.0.3",
-    "AMLEdition": "AMLEd2",
-    "ID": "707e9380-cdd1-4d35-aa2f-8485b9ac198c"
-  },
-  {
-    "ClassName": "displacement",
-    "CaexPath": "AutomationML_BasicProperties.kinematics_AttributeTypeLib/displacement",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.kinematics_AttributeTypeLib",
-    "LibraryVersion": "1.0.0",
-    "AMLEdition": "AMLEd2",
-    "ID": "596ae1ed-78d3-43a8-a1b5-f9020f6b0afd"
-  },
-  {
-    "ClassName": "displacement",
-    "CaexPath": "AutomationML_BasicProperties.kinematics_AttributeTypeLib/displacement",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.kinematics_AttributeTypeLib",
-    "LibraryVersion": "1.0.1",
-    "AMLEdition": "AMLEd2",
-    "ID": "596ae1ed-78d3-43a8-a1b5-f9020f6b0afd"
-  },
-  {
-    "ClassName": "displacement",
-    "CaexPath": "AutomationML_BasicProperties.kinematics_AttributeTypeLib/displacement",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.kinematics_AttributeTypeLib",
-    "LibraryVersion": "1.0.2",
-    "AMLEdition": "AMLEd2",
-    "ID": "596ae1ed-78d3-43a8-a1b5-f9020f6b0afd"
-  },
-  {
-    "ClassName": "displacement",
-    "CaexPath": "AutomationML_BasicProperties.kinematics_AttributeTypeLib/displacement",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.kinematics_AttributeTypeLib",
-    "LibraryVersion": "1.0.3",
-    "AMLEdition": "AMLEd2",
-    "ID": "596ae1ed-78d3-43a8-a1b5-f9020f6b0afd"
-  },
-  {
-    "ClassName": "rotationAngle",
-    "CaexPath": "AutomationML_BasicProperties.kinematics_AttributeTypeLib/rotationAngle",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.kinematics_AttributeTypeLib",
-    "LibraryVersion": "1.0.0",
-    "AMLEdition": "AMLEd2",
-    "ID": "5aaeeded-4a37-45b5-abff-9ec74c8f39bf"
-  },
-  {
-    "ClassName": "rotationAngle",
-    "CaexPath": "AutomationML_BasicProperties.kinematics_AttributeTypeLib/rotationAngle",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.kinematics_AttributeTypeLib",
-    "LibraryVersion": "1.0.1",
-    "AMLEdition": "AMLEd2",
-    "ID": "5aaeeded-4a37-45b5-abff-9ec74c8f39bf"
-  },
-  {
-    "ClassName": "rotationAngle",
-    "CaexPath": "AutomationML_BasicProperties.kinematics_AttributeTypeLib/rotationAngle",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.kinematics_AttributeTypeLib",
-    "LibraryVersion": "1.0.2",
-    "AMLEdition": "AMLEd2",
-    "ID": "5aaeeded-4a37-45b5-abff-9ec74c8f39bf"
-  },
-  {
-    "ClassName": "rotationAngle",
-    "CaexPath": "AutomationML_BasicProperties.kinematics_AttributeTypeLib/rotationAngle",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.kinematics_AttributeTypeLib",
-    "LibraryVersion": "1.0.3",
-    "AMLEdition": "AMLEd2",
-    "ID": "5aaeeded-4a37-45b5-abff-9ec74c8f39bf"
-  },
-  {
-    "ClassName": "ratedPower",
-    "CaexPath": "AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/ratedPower",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.electricalProperties_AttributeTypeLib",
-    "LibraryVersion": "1.0.0",
-    "AMLEdition": "AMLEd2",
-    "ID": "c2a8582f-cfe3-4afc-b6d1-82c19b670e84"
-  },
-  {
-    "ClassName": "ratedPower",
-    "CaexPath": "AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/ratedPower",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.electricalProperties_AttributeTypeLib",
-    "LibraryVersion": "1.0.1",
-    "AMLEdition": "AMLEd2",
-    "ID": "c2a8582f-cfe3-4afc-b6d1-82c19b670e84"
-  },
-  {
-    "ClassName": "ratedPower",
-    "CaexPath": "AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/ratedPower",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.electricalProperties_AttributeTypeLib",
-    "LibraryVersion": "1.0.2",
-    "AMLEdition": "AMLEd2",
-    "ID": "c2a8582f-cfe3-4afc-b6d1-82c19b670e84"
   },
   {
     "ClassName": "powerDemandNominal",
@@ -2070,328 +1485,256 @@
     "ID": "99e71377-ab33-434b-b934-3dde1bbdb32f"
   },
   {
-    "ClassName": "secondaryColor",
-    "CaexPath": "AutomationML_BasicProperties.appearance_AttributeTypeLib/secondaryColor",
+    "ClassName": "linearVelocity",
+    "CaexPath": "AutomationML_BasicProperties.kinematics_AttributeTypeLib/linearVelocity",
     "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.appearance_AttributeTypeLib",
+    "LibraryName": "AutomationML_BasicProperties.kinematics_AttributeTypeLib",
     "LibraryVersion": "1.0.0",
     "AMLEdition": "AMLEd2",
-    "ID": "35194361-91a4-4c07-8482-5f4c1dd7b715"
+    "ID": "7b1f7180-532f-4c94-85cb-a38ec867f81c"
   },
   {
-    "ClassName": "secondaryColor",
-    "CaexPath": "AutomationML_BasicProperties.appearance_AttributeTypeLib/secondaryColor",
+    "ClassName": "linearVelocity",
+    "CaexPath": "AutomationML_BasicProperties.kinematics_AttributeTypeLib/linearVelocity",
     "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.appearance_AttributeTypeLib",
+    "LibraryName": "AutomationML_BasicProperties.kinematics_AttributeTypeLib",
     "LibraryVersion": "1.0.1",
     "AMLEdition": "AMLEd2",
-    "ID": "35194361-91a4-4c07-8482-5f4c1dd7b715"
+    "ID": "7b1f7180-532f-4c94-85cb-a38ec867f81c"
   },
   {
-    "ClassName": "secondaryColor",
-    "CaexPath": "AutomationML_BasicProperties.appearance_AttributeTypeLib/secondaryColor",
+    "ClassName": "linearVelocity",
+    "CaexPath": "AutomationML_BasicProperties.kinematics_AttributeTypeLib/linearVelocity",
     "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.appearance_AttributeTypeLib",
+    "LibraryName": "AutomationML_BasicProperties.kinematics_AttributeTypeLib",
     "LibraryVersion": "1.0.2",
     "AMLEdition": "AMLEd2",
-    "ID": "35194361-91a4-4c07-8482-5f4c1dd7b715"
+    "ID": "7b1f7180-532f-4c94-85cb-a38ec867f81c"
   },
   {
-    "ClassName": "secondaryColor",
-    "CaexPath": "AutomationML_BasicProperties.appearance_AttributeTypeLib/secondaryColor",
+    "ClassName": "linearVelocity",
+    "CaexPath": "AutomationML_BasicProperties.kinematics_AttributeTypeLib/linearVelocity",
     "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.appearance_AttributeTypeLib",
+    "LibraryName": "AutomationML_BasicProperties.kinematics_AttributeTypeLib",
     "LibraryVersion": "1.0.3",
     "AMLEdition": "AMLEd2",
-    "ID": "35194361-91a4-4c07-8482-5f4c1dd7b715"
+    "ID": "7b1f7180-532f-4c94-85cb-a38ec867f81c"
   },
   {
-    "ClassName": "surfaceFinish",
-    "CaexPath": "AutomationML_BasicProperties.appearance_AttributeTypeLib/surfaceFinish",
+    "ClassName": "linearAcceleration",
+    "CaexPath": "AutomationML_BasicProperties.kinematics_AttributeTypeLib/linearAcceleration",
     "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.appearance_AttributeTypeLib",
+    "LibraryName": "AutomationML_BasicProperties.kinematics_AttributeTypeLib",
     "LibraryVersion": "1.0.0",
     "AMLEdition": "AMLEd2",
-    "ID": "e091b64d-0071-4900-9edf-b3d32942310b"
+    "ID": "2a91335c-8247-4079-ae2b-f34cae236310"
   },
   {
-    "ClassName": "surfaceFinish",
-    "CaexPath": "AutomationML_BasicProperties.appearance_AttributeTypeLib/surfaceFinish",
+    "ClassName": "linearAcceleration",
+    "CaexPath": "AutomationML_BasicProperties.kinematics_AttributeTypeLib/linearAcceleration",
     "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.appearance_AttributeTypeLib",
+    "LibraryName": "AutomationML_BasicProperties.kinematics_AttributeTypeLib",
     "LibraryVersion": "1.0.1",
     "AMLEdition": "AMLEd2",
-    "ID": "e091b64d-0071-4900-9edf-b3d32942310b"
+    "ID": "2a91335c-8247-4079-ae2b-f34cae236310"
   },
   {
-    "ClassName": "surfaceFinish",
-    "CaexPath": "AutomationML_BasicProperties.appearance_AttributeTypeLib/surfaceFinish",
+    "ClassName": "linearAcceleration",
+    "CaexPath": "AutomationML_BasicProperties.kinematics_AttributeTypeLib/linearAcceleration",
     "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.appearance_AttributeTypeLib",
+    "LibraryName": "AutomationML_BasicProperties.kinematics_AttributeTypeLib",
     "LibraryVersion": "1.0.2",
     "AMLEdition": "AMLEd2",
-    "ID": "e091b64d-0071-4900-9edf-b3d32942310b"
+    "ID": "2a91335c-8247-4079-ae2b-f34cae236310"
   },
   {
-    "ClassName": "surfaceFinish",
-    "CaexPath": "AutomationML_BasicProperties.appearance_AttributeTypeLib/surfaceFinish",
+    "ClassName": "linearAcceleration",
+    "CaexPath": "AutomationML_BasicProperties.kinematics_AttributeTypeLib/linearAcceleration",
     "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.appearance_AttributeTypeLib",
+    "LibraryName": "AutomationML_BasicProperties.kinematics_AttributeTypeLib",
     "LibraryVersion": "1.0.3",
     "AMLEdition": "AMLEd2",
-    "ID": "e091b64d-0071-4900-9edf-b3d32942310b"
+    "ID": "2a91335c-8247-4079-ae2b-f34cae236310"
   },
   {
-    "ClassName": "surfaceTexture",
-    "CaexPath": "AutomationML_BasicProperties.appearance_AttributeTypeLib/surfaceTexture",
+    "ClassName": "meanTimeToRestore",
+    "CaexPath": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib/meanTimeToRestore",
     "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.appearance_AttributeTypeLib",
+    "LibraryName": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib",
     "LibraryVersion": "1.0.0",
     "AMLEdition": "AMLEd2",
-    "ID": "886a7ffe-36b1-48c3-b54c-ba957e54babc"
+    "ID": "975bad7e-af52-4759-8871-d72cbfcd764a"
   },
   {
-    "ClassName": "surfaceTexture",
-    "CaexPath": "AutomationML_BasicProperties.appearance_AttributeTypeLib/surfaceTexture",
+    "ClassName": "meanTimeToRestore",
+    "CaexPath": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib/meanTimeToRestore",
     "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.appearance_AttributeTypeLib",
+    "LibraryName": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib",
     "LibraryVersion": "1.0.1",
     "AMLEdition": "AMLEd2",
-    "ID": "886a7ffe-36b1-48c3-b54c-ba957e54babc"
+    "ID": "975bad7e-af52-4759-8871-d72cbfcd764a"
   },
   {
-    "ClassName": "surfaceTexture",
-    "CaexPath": "AutomationML_BasicProperties.appearance_AttributeTypeLib/surfaceTexture",
+    "ClassName": "meanTimeToRestore",
+    "CaexPath": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib/meanTimeToRestore",
     "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.appearance_AttributeTypeLib",
+    "LibraryName": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib",
     "LibraryVersion": "1.0.2",
     "AMLEdition": "AMLEd2",
-    "ID": "886a7ffe-36b1-48c3-b54c-ba957e54babc"
+    "ID": "975bad7e-af52-4759-8871-d72cbfcd764a"
   },
   {
-    "ClassName": "surfaceTexture",
-    "CaexPath": "AutomationML_BasicProperties.appearance_AttributeTypeLib/surfaceTexture",
+    "ClassName": "meanTimeToRestore",
+    "CaexPath": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib/meanTimeToRestore",
     "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.appearance_AttributeTypeLib",
+    "LibraryName": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib",
     "LibraryVersion": "1.0.3",
     "AMLEdition": "AMLEd2",
-    "ID": "886a7ffe-36b1-48c3-b54c-ba957e54babc"
+    "ID": "975bad7e-af52-4759-8871-d72cbfcd764a"
   },
   {
-    "ClassName": "materialAppearance",
-    "CaexPath": "AutomationML_BasicProperties.appearance_AttributeTypeLib/materialAppearance",
+    "ClassName": "failureRate",
+    "CaexPath": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib/failureRate",
     "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.appearance_AttributeTypeLib",
+    "LibraryName": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib",
     "LibraryVersion": "1.0.0",
     "AMLEdition": "AMLEd2",
-    "ID": "4858c504-2da5-41ae-af52-ca08e29e548b"
+    "ID": "e25a8bb5-fdfd-4f2a-949b-40c7c4b3eff9"
   },
   {
-    "ClassName": "materialAppearance",
-    "CaexPath": "AutomationML_BasicProperties.appearance_AttributeTypeLib/materialAppearance",
+    "ClassName": "failureRate",
+    "CaexPath": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib/failureRate",
     "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.appearance_AttributeTypeLib",
+    "LibraryName": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib",
     "LibraryVersion": "1.0.1",
     "AMLEdition": "AMLEd2",
-    "ID": "4858c504-2da5-41ae-af52-ca08e29e548b"
+    "ID": "e25a8bb5-fdfd-4f2a-949b-40c7c4b3eff9"
   },
   {
-    "ClassName": "materialAppearance",
-    "CaexPath": "AutomationML_BasicProperties.appearance_AttributeTypeLib/materialAppearance",
+    "ClassName": "failureRate",
+    "CaexPath": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib/failureRate",
     "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.appearance_AttributeTypeLib",
+    "LibraryName": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib",
     "LibraryVersion": "1.0.2",
     "AMLEdition": "AMLEd2",
-    "ID": "4858c504-2da5-41ae-af52-ca08e29e548b"
+    "ID": "e25a8bb5-fdfd-4f2a-949b-40c7c4b3eff9"
   },
   {
-    "ClassName": "materialAppearance",
-    "CaexPath": "AutomationML_BasicProperties.appearance_AttributeTypeLib/materialAppearance",
+    "ClassName": "failureRate",
+    "CaexPath": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib/failureRate",
     "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.appearance_AttributeTypeLib",
+    "LibraryName": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib",
     "LibraryVersion": "1.0.3",
     "AMLEdition": "AMLEd2",
-    "ID": "4858c504-2da5-41ae-af52-ca08e29e548b"
+    "ID": "e25a8bb5-fdfd-4f2a-949b-40c7c4b3eff9"
   },
   {
-    "ClassName": "coatingType",
-    "CaexPath": "AutomationML_BasicProperties.appearance_AttributeTypeLib/coatingType",
+    "ClassName": "overallHeight",
+    "CaexPath": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/overallHeight",
     "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.appearance_AttributeTypeLib",
+    "LibraryName": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib",
     "LibraryVersion": "1.0.0",
     "AMLEdition": "AMLEd2",
-    "ID": "efad251b-6f6c-40ac-9b99-443e1fb05398"
+    "ID": "5eed6c00-4955-40de-b8b8-c3c168b45ee2"
   },
   {
-    "ClassName": "coatingType",
-    "CaexPath": "AutomationML_BasicProperties.appearance_AttributeTypeLib/coatingType",
+    "ClassName": "overallHeight",
+    "CaexPath": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/overallHeight",
     "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.appearance_AttributeTypeLib",
+    "LibraryName": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib",
     "LibraryVersion": "1.0.1",
     "AMLEdition": "AMLEd2",
-    "ID": "efad251b-6f6c-40ac-9b99-443e1fb05398"
+    "ID": "5eed6c00-4955-40de-b8b8-c3c168b45ee2"
   },
   {
-    "ClassName": "coatingType",
-    "CaexPath": "AutomationML_BasicProperties.appearance_AttributeTypeLib/coatingType",
+    "ClassName": "overallHeight",
+    "CaexPath": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/overallHeight",
     "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.appearance_AttributeTypeLib",
+    "LibraryName": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib",
     "LibraryVersion": "1.0.2",
     "AMLEdition": "AMLEd2",
-    "ID": "efad251b-6f6c-40ac-9b99-443e1fb05398"
+    "ID": "5eed6c00-4955-40de-b8b8-c3c168b45ee2"
   },
   {
-    "ClassName": "coatingType",
-    "CaexPath": "AutomationML_BasicProperties.appearance_AttributeTypeLib/coatingType",
+    "ClassName": "overallHeight",
+    "CaexPath": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/overallHeight",
     "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.appearance_AttributeTypeLib",
+    "LibraryName": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib",
     "LibraryVersion": "1.0.3",
     "AMLEdition": "AMLEd2",
-    "ID": "efad251b-6f6c-40ac-9b99-443e1fb05398"
+    "ID": "5eed6c00-4955-40de-b8b8-c3c168b45ee2"
   },
   {
-    "ClassName": "labeling",
-    "CaexPath": "AutomationML_BasicProperties.appearance_AttributeTypeLib/labeling",
+    "ClassName": "time",
+    "CaexPath": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/time",
     "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.appearance_AttributeTypeLib",
+    "LibraryName": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib",
     "LibraryVersion": "1.0.0",
     "AMLEdition": "AMLEd2",
-    "ID": "778bc2b8-40dc-4a65-bb65-ba01f3433ae9"
+    "ID": "7abe1b56-40c9-4295-b8d8-798dcf490200"
   },
   {
-    "ClassName": "labeling",
-    "CaexPath": "AutomationML_BasicProperties.appearance_AttributeTypeLib/labeling",
+    "ClassName": "time",
+    "CaexPath": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/time",
     "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.appearance_AttributeTypeLib",
+    "LibraryName": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib",
     "LibraryVersion": "1.0.1",
     "AMLEdition": "AMLEd2",
-    "ID": "778bc2b8-40dc-4a65-bb65-ba01f3433ae9"
+    "ID": "7abe1b56-40c9-4295-b8d8-798dcf490200"
   },
   {
-    "ClassName": "labeling",
-    "CaexPath": "AutomationML_BasicProperties.appearance_AttributeTypeLib/labeling",
+    "ClassName": "time",
+    "CaexPath": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/time",
     "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.appearance_AttributeTypeLib",
+    "LibraryName": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib",
     "LibraryVersion": "1.0.2",
     "AMLEdition": "AMLEd2",
-    "ID": "778bc2b8-40dc-4a65-bb65-ba01f3433ae9"
+    "ID": "7abe1b56-40c9-4295-b8d8-798dcf490200"
   },
   {
-    "ClassName": "labeling",
-    "CaexPath": "AutomationML_BasicProperties.appearance_AttributeTypeLib/labeling",
+    "ClassName": "time",
+    "CaexPath": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/time",
     "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.appearance_AttributeTypeLib",
+    "LibraryName": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib",
     "LibraryVersion": "1.0.3",
     "AMLEdition": "AMLEd2",
-    "ID": "778bc2b8-40dc-4a65-bb65-ba01f3433ae9"
+    "ID": "7abe1b56-40c9-4295-b8d8-798dcf490200"
   },
   {
-    "ClassName": "branding",
-    "CaexPath": "AutomationML_BasicProperties.appearance_AttributeTypeLib/branding",
+    "ClassName": "surfaceArea",
+    "CaexPath": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/surfaceArea",
     "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.appearance_AttributeTypeLib",
+    "LibraryName": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib",
     "LibraryVersion": "1.0.0",
     "AMLEdition": "AMLEd2",
-    "ID": "d97848e4-82b6-4209-85bb-f55e5da2374a"
+    "ID": "2eda386d-466e-4527-a0b2-6308e4df2e0e"
   },
   {
-    "ClassName": "branding",
-    "CaexPath": "AutomationML_BasicProperties.appearance_AttributeTypeLib/branding",
+    "ClassName": "surfaceArea",
+    "CaexPath": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/surfaceArea",
     "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.appearance_AttributeTypeLib",
+    "LibraryName": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib",
     "LibraryVersion": "1.0.1",
     "AMLEdition": "AMLEd2",
-    "ID": "d97848e4-82b6-4209-85bb-f55e5da2374a"
+    "ID": "2eda386d-466e-4527-a0b2-6308e4df2e0e"
   },
   {
-    "ClassName": "branding",
-    "CaexPath": "AutomationML_BasicProperties.appearance_AttributeTypeLib/branding",
+    "ClassName": "surfaceArea",
+    "CaexPath": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/surfaceArea",
     "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.appearance_AttributeTypeLib",
+    "LibraryName": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib",
     "LibraryVersion": "1.0.2",
     "AMLEdition": "AMLEd2",
-    "ID": "d97848e4-82b6-4209-85bb-f55e5da2374a"
+    "ID": "2eda386d-466e-4527-a0b2-6308e4df2e0e"
   },
   {
-    "ClassName": "branding",
-    "CaexPath": "AutomationML_BasicProperties.appearance_AttributeTypeLib/branding",
+    "ClassName": "surfaceArea",
+    "CaexPath": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/surfaceArea",
     "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.appearance_AttributeTypeLib",
+    "LibraryName": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib",
     "LibraryVersion": "1.0.3",
     "AMLEdition": "AMLEd2",
-    "ID": "d97848e4-82b6-4209-85bb-f55e5da2374a"
-  },
-  {
-    "ClassName": "symbolMarking",
-    "CaexPath": "AutomationML_BasicProperties.appearance_AttributeTypeLib/symbolMarking",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.appearance_AttributeTypeLib",
-    "LibraryVersion": "1.0.0",
-    "AMLEdition": "AMLEd2",
-    "ID": "3f6bab5e-4aad-48f0-a6f3-eae231e606cc"
-  },
-  {
-    "ClassName": "symbolMarking",
-    "CaexPath": "AutomationML_BasicProperties.appearance_AttributeTypeLib/symbolMarking",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.appearance_AttributeTypeLib",
-    "LibraryVersion": "1.0.1",
-    "AMLEdition": "AMLEd2",
-    "ID": "3f6bab5e-4aad-48f0-a6f3-eae231e606cc"
-  },
-  {
-    "ClassName": "symbolMarking",
-    "CaexPath": "AutomationML_BasicProperties.appearance_AttributeTypeLib/symbolMarking",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.appearance_AttributeTypeLib",
-    "LibraryVersion": "1.0.2",
-    "AMLEdition": "AMLEd2",
-    "ID": "3f6bab5e-4aad-48f0-a6f3-eae231e606cc"
-  },
-  {
-    "ClassName": "symbolMarking",
-    "CaexPath": "AutomationML_BasicProperties.appearance_AttributeTypeLib/symbolMarking",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.appearance_AttributeTypeLib",
-    "LibraryVersion": "1.0.3",
-    "AMLEdition": "AMLEd2",
-    "ID": "3f6bab5e-4aad-48f0-a6f3-eae231e606cc"
-  },
-  {
-    "ClassName": "illuminationColor",
-    "CaexPath": "AutomationML_BasicProperties.appearance_AttributeTypeLib/illuminationColor",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.appearance_AttributeTypeLib",
-    "LibraryVersion": "1.0.0",
-    "AMLEdition": "AMLEd2",
-    "ID": "cd181b18-8bc9-4142-80ae-36363a9e4452"
-  },
-  {
-    "ClassName": "illuminationColor",
-    "CaexPath": "AutomationML_BasicProperties.appearance_AttributeTypeLib/illuminationColor",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.appearance_AttributeTypeLib",
-    "LibraryVersion": "1.0.1",
-    "AMLEdition": "AMLEd2",
-    "ID": "cd181b18-8bc9-4142-80ae-36363a9e4452"
-  },
-  {
-    "ClassName": "illuminationColor",
-    "CaexPath": "AutomationML_BasicProperties.appearance_AttributeTypeLib/illuminationColor",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.appearance_AttributeTypeLib",
-    "LibraryVersion": "1.0.2",
-    "AMLEdition": "AMLEd2",
-    "ID": "cd181b18-8bc9-4142-80ae-36363a9e4452"
-  },
-  {
-    "ClassName": "illuminationColor",
-    "CaexPath": "AutomationML_BasicProperties.appearance_AttributeTypeLib/illuminationColor",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.appearance_AttributeTypeLib",
-    "LibraryVersion": "1.0.3",
-    "AMLEdition": "AMLEd2",
-    "ID": "cd181b18-8bc9-4142-80ae-36363a9e4452"
+    "ID": "2eda386d-466e-4527-a0b2-6308e4df2e0e"
   },
   {
     "ClassName": "storageTemperatureMin",
@@ -2448,526 +1791,112 @@
     "ID": "b84c6b31-68bf-45bb-ad5a-8041af29f2cb"
   },
   {
-    "ClassName": "relativeHumidityMin",
-    "CaexPath": "AutomationML_BasicProperties.environmentalConditions_AttributeTypeLib/relativeHumidityMin",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.environmentalConditions_AttributeTypeLib",
-    "LibraryVersion": "1.0.0",
-    "AMLEdition": "AMLEd2",
-    "ID": "f6359b1a-4f41-4a85-842d-81cd4946fcb1"
-  },
-  {
-    "ClassName": "relativeHumidityMin",
-    "CaexPath": "AutomationML_BasicProperties.environmentalConditions_AttributeTypeLib/relativeHumidityMin",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.environmentalConditions_AttributeTypeLib",
-    "LibraryVersion": "1.0.1",
-    "AMLEdition": "AMLEd2",
-    "ID": "f6359b1a-4f41-4a85-842d-81cd4946fcb1"
-  },
-  {
-    "ClassName": "relativeHumidityMin",
-    "CaexPath": "AutomationML_BasicProperties.environmentalConditions_AttributeTypeLib/relativeHumidityMin",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.environmentalConditions_AttributeTypeLib",
-    "LibraryVersion": "1.0.2",
-    "AMLEdition": "AMLEd2",
-    "ID": "f6359b1a-4f41-4a85-842d-81cd4946fcb1"
-  },
-  {
-    "ClassName": "relativeHumidityMax",
-    "CaexPath": "AutomationML_BasicProperties.environmentalConditions_AttributeTypeLib/relativeHumidityMax",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.environmentalConditions_AttributeTypeLib",
-    "LibraryVersion": "1.0.0",
-    "AMLEdition": "AMLEd2",
-    "ID": "0e09869a-536c-4f47-a3aa-74d192cfd02b"
-  },
-  {
-    "ClassName": "relativeHumidityMax",
-    "CaexPath": "AutomationML_BasicProperties.environmentalConditions_AttributeTypeLib/relativeHumidityMax",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.environmentalConditions_AttributeTypeLib",
-    "LibraryVersion": "1.0.1",
-    "AMLEdition": "AMLEd2",
-    "ID": "0e09869a-536c-4f47-a3aa-74d192cfd02b"
-  },
-  {
-    "ClassName": "relativeHumidityMax",
-    "CaexPath": "AutomationML_BasicProperties.environmentalConditions_AttributeTypeLib/relativeHumidityMax",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.environmentalConditions_AttributeTypeLib",
-    "LibraryVersion": "1.0.2",
-    "AMLEdition": "AMLEd2",
-    "ID": "0e09869a-536c-4f47-a3aa-74d192cfd02b"
-  },
-  {
-    "ClassName": "meanTimeToRepair",
-    "CaexPath": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib/meanTimeToRepair",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib",
-    "LibraryVersion": "1.0.0",
-    "AMLEdition": "AMLEd2",
-    "ID": "867a8d4f-a01c-4258-8fd3-6d2d838421ce"
-  },
-  {
-    "ClassName": "meanTimeToRepair",
-    "CaexPath": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib/meanTimeToRepair",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib",
-    "LibraryVersion": "1.0.1",
-    "AMLEdition": "AMLEd2",
-    "ID": "867a8d4f-a01c-4258-8fd3-6d2d838421ce"
-  },
-  {
-    "ClassName": "meanTimeToRepair",
-    "CaexPath": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib/meanTimeToRepair",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib",
-    "LibraryVersion": "1.0.2",
-    "AMLEdition": "AMLEd2",
-    "ID": "867a8d4f-a01c-4258-8fd3-6d2d838421ce"
-  },
-  {
-    "ClassName": "meanTimeToRepair",
-    "CaexPath": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib/meanTimeToRepair",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib",
-    "LibraryVersion": "1.0.3",
-    "AMLEdition": "AMLEd2",
-    "ID": "867a8d4f-a01c-4258-8fd3-6d2d838421ce"
-  },
-  {
-    "ClassName": "meanTimeToRestore",
-    "CaexPath": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib/meanTimeToRestore",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib",
-    "LibraryVersion": "1.0.0",
-    "AMLEdition": "AMLEd2",
-    "ID": "975bad7e-af52-4759-8871-d72cbfcd764a"
-  },
-  {
-    "ClassName": "meanTimeToRestore",
-    "CaexPath": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib/meanTimeToRestore",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib",
-    "LibraryVersion": "1.0.1",
-    "AMLEdition": "AMLEd2",
-    "ID": "975bad7e-af52-4759-8871-d72cbfcd764a"
-  },
-  {
-    "ClassName": "meanTimeToRestore",
-    "CaexPath": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib/meanTimeToRestore",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib",
-    "LibraryVersion": "1.0.2",
-    "AMLEdition": "AMLEd2",
-    "ID": "975bad7e-af52-4759-8871-d72cbfcd764a"
-  },
-  {
-    "ClassName": "meanTimeToRestore",
-    "CaexPath": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib/meanTimeToRestore",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib",
-    "LibraryVersion": "1.0.3",
-    "AMLEdition": "AMLEd2",
-    "ID": "975bad7e-af52-4759-8871-d72cbfcd764a"
-  },
-  {
-    "ClassName": "failureRate",
-    "CaexPath": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib/failureRate",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib",
-    "LibraryVersion": "1.0.0",
-    "AMLEdition": "AMLEd2",
-    "ID": "e25a8bb5-fdfd-4f2a-949b-40c7c4b3eff9"
-  },
-  {
-    "ClassName": "failureRate",
-    "CaexPath": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib/failureRate",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib",
-    "LibraryVersion": "1.0.1",
-    "AMLEdition": "AMLEd2",
-    "ID": "e25a8bb5-fdfd-4f2a-949b-40c7c4b3eff9"
-  },
-  {
-    "ClassName": "failureRate",
-    "CaexPath": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib/failureRate",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib",
-    "LibraryVersion": "1.0.2",
-    "AMLEdition": "AMLEd2",
-    "ID": "e25a8bb5-fdfd-4f2a-949b-40c7c4b3eff9"
-  },
-  {
-    "ClassName": "failureRate",
-    "CaexPath": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib/failureRate",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib",
-    "LibraryVersion": "1.0.3",
-    "AMLEdition": "AMLEd2",
-    "ID": "e25a8bb5-fdfd-4f2a-949b-40c7c4b3eff9"
-  },
-  {
-    "ClassName": "availability",
-    "CaexPath": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib/availability",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib",
-    "LibraryVersion": "1.0.0",
-    "AMLEdition": "AMLEd2",
-    "ID": "2a3082df-f918-4ee7-bd9b-5507d3238825"
-  },
-  {
-    "ClassName": "availability",
-    "CaexPath": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib/availability",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib",
-    "LibraryVersion": "1.0.1",
-    "AMLEdition": "AMLEd2",
-    "ID": "2a3082df-f918-4ee7-bd9b-5507d3238825"
-  },
-  {
-    "ClassName": "availability",
-    "CaexPath": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib/availability",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib",
-    "LibraryVersion": "1.0.2",
-    "AMLEdition": "AMLEd2",
-    "ID": "2a3082df-f918-4ee7-bd9b-5507d3238825"
-  },
-  {
-    "ClassName": "availability",
-    "CaexPath": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib/availability",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib",
-    "LibraryVersion": "1.0.3",
-    "AMLEdition": "AMLEd2",
-    "ID": "2a3082df-f918-4ee7-bd9b-5507d3238825"
-  },
-  {
-    "ClassName": "reliability",
-    "CaexPath": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib/reliability",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib",
-    "LibraryVersion": "1.0.0",
-    "AMLEdition": "AMLEd2",
-    "ID": "17c0e861-8830-47f9-b6fa-eba01c712515"
-  },
-  {
-    "ClassName": "reliability",
-    "CaexPath": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib/reliability",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib",
-    "LibraryVersion": "1.0.1",
-    "AMLEdition": "AMLEd2",
-    "ID": "17c0e861-8830-47f9-b6fa-eba01c712515"
-  },
-  {
-    "ClassName": "reliability",
-    "CaexPath": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib/reliability",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib",
-    "LibraryVersion": "1.0.2",
-    "AMLEdition": "AMLEd2",
-    "ID": "17c0e861-8830-47f9-b6fa-eba01c712515"
-  },
-  {
-    "ClassName": "reliability",
-    "CaexPath": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib/reliability",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib",
-    "LibraryVersion": "1.0.3",
-    "AMLEdition": "AMLEd2",
-    "ID": "17c0e861-8830-47f9-b6fa-eba01c712515"
-  },
-  {
-    "ClassName": "redundancyLevel",
-    "CaexPath": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib/redundancyLevel",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib",
-    "LibraryVersion": "1.0.0",
-    "AMLEdition": "AMLEd2",
-    "ID": "8fb66270-4415-4df2-a417-c81fbdddb8d9"
-  },
-  {
-    "ClassName": "redundancyLevel",
-    "CaexPath": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib/redundancyLevel",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib",
-    "LibraryVersion": "1.0.1",
-    "AMLEdition": "AMLEd2",
-    "ID": "8fb66270-4415-4df2-a417-c81fbdddb8d9"
-  },
-  {
-    "ClassName": "redundancyLevel",
-    "CaexPath": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib/redundancyLevel",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib",
-    "LibraryVersion": "1.0.2",
-    "AMLEdition": "AMLEd2",
-    "ID": "8fb66270-4415-4df2-a417-c81fbdddb8d9"
-  },
-  {
-    "ClassName": "redundancyLevel",
-    "CaexPath": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib/redundancyLevel",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib",
-    "LibraryVersion": "1.0.3",
-    "AMLEdition": "AMLEd2",
-    "ID": "8fb66270-4415-4df2-a417-c81fbdddb8d9"
-  },
-  {
-    "ClassName": "time",
-    "CaexPath": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/time",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib",
-    "LibraryVersion": "1.0.0",
-    "AMLEdition": "AMLEd2",
-    "ID": "7abe1b56-40c9-4295-b8d8-798dcf490200"
-  },
-  {
-    "ClassName": "time",
-    "CaexPath": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/time",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib",
-    "LibraryVersion": "1.0.1",
-    "AMLEdition": "AMLEd2",
-    "ID": "7abe1b56-40c9-4295-b8d8-798dcf490200"
-  },
-  {
-    "ClassName": "time",
-    "CaexPath": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/time",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib",
-    "LibraryVersion": "1.0.2",
-    "AMLEdition": "AMLEd2",
-    "ID": "7abe1b56-40c9-4295-b8d8-798dcf490200"
-  },
-  {
-    "ClassName": "time",
-    "CaexPath": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/time",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib",
-    "LibraryVersion": "1.0.3",
-    "AMLEdition": "AMLEd2",
-    "ID": "7abe1b56-40c9-4295-b8d8-798dcf490200"
-  },
-  {
-    "ClassName": "surfaceArea",
-    "CaexPath": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/surfaceArea",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib",
-    "LibraryVersion": "1.0.0",
-    "AMLEdition": "AMLEd2",
-    "ID": "2eda386d-466e-4527-a0b2-6308e4df2e0e"
-  },
-  {
-    "ClassName": "surfaceArea",
-    "CaexPath": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/surfaceArea",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib",
-    "LibraryVersion": "1.0.1",
-    "AMLEdition": "AMLEd2",
-    "ID": "2eda386d-466e-4527-a0b2-6308e4df2e0e"
-  },
-  {
-    "ClassName": "surfaceArea",
-    "CaexPath": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/surfaceArea",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib",
-    "LibraryVersion": "1.0.2",
-    "AMLEdition": "AMLEd2",
-    "ID": "2eda386d-466e-4527-a0b2-6308e4df2e0e"
-  },
-  {
-    "ClassName": "surfaceArea",
-    "CaexPath": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/surfaceArea",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib",
-    "LibraryVersion": "1.0.3",
-    "AMLEdition": "AMLEd2",
-    "ID": "2eda386d-466e-4527-a0b2-6308e4df2e0e"
-  },
-  {
-    "ClassName": "footprintArea",
-    "CaexPath": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/footprintArea",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib",
-    "LibraryVersion": "1.0.0",
-    "AMLEdition": "AMLEd2",
-    "ID": "a5f05e71-404e-400e-a802-f6b135fcd431"
-  },
-  {
-    "ClassName": "footprintArea",
-    "CaexPath": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/footprintArea",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib",
-    "LibraryVersion": "1.0.1",
-    "AMLEdition": "AMLEd2",
-    "ID": "a5f05e71-404e-400e-a802-f6b135fcd431"
-  },
-  {
-    "ClassName": "footprintArea",
-    "CaexPath": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/footprintArea",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib",
-    "LibraryVersion": "1.0.2",
-    "AMLEdition": "AMLEd2",
-    "ID": "a5f05e71-404e-400e-a802-f6b135fcd431"
-  },
-  {
-    "ClassName": "footprintArea",
-    "CaexPath": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/footprintArea",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib",
-    "LibraryVersion": "1.0.3",
-    "AMLEdition": "AMLEd2",
-    "ID": "a5f05e71-404e-400e-a802-f6b135fcd431"
-  },
-  {
-    "ClassName": "avogadroConstant",
-    "CaexPath": "AutomationML_BasicProperties.constants_AttributeTypeLib/avogadroConstant",
+    "ClassName": "planckConstant",
+    "CaexPath": "AutomationML_BasicProperties.constants_AttributeTypeLib/planckConstant",
     "BasePath": null,
     "LibraryName": "AutomationML_BasicProperties.constants_AttributeTypeLib",
     "LibraryVersion": "1.0.0",
     "AMLEdition": "AMLEd2",
-    "ID": "d193f26c-3eab-46bf-8e73-4692d09608b9"
+    "ID": "1285d346-932e-4430-9aa5-06af61d02275"
   },
   {
-    "ClassName": "avogadroConstant",
-    "CaexPath": "AutomationML_BasicProperties.constants_AttributeTypeLib/avogadroConstant",
+    "ClassName": "planckConstant",
+    "CaexPath": "AutomationML_BasicProperties.constants_AttributeTypeLib/planckConstant",
     "BasePath": null,
     "LibraryName": "AutomationML_BasicProperties.constants_AttributeTypeLib",
     "LibraryVersion": "1.0.1",
     "AMLEdition": "AMLEd2",
-    "ID": "d193f26c-3eab-46bf-8e73-4692d09608b9"
+    "ID": "1285d346-932e-4430-9aa5-06af61d02275"
   },
   {
-    "ClassName": "avogadroConstant",
-    "CaexPath": "AutomationML_BasicProperties.constants_AttributeTypeLib/avogadroConstant",
+    "ClassName": "planckConstant",
+    "CaexPath": "AutomationML_BasicProperties.constants_AttributeTypeLib/planckConstant",
     "BasePath": null,
     "LibraryName": "AutomationML_BasicProperties.constants_AttributeTypeLib",
     "LibraryVersion": "1.0.2",
     "AMLEdition": "AMLEd2",
-    "ID": "d193f26c-3eab-46bf-8e73-4692d09608b9"
+    "ID": "1285d346-932e-4430-9aa5-06af61d02275"
   },
   {
-    "ClassName": "avogadroConstant",
-    "CaexPath": "AutomationML_BasicProperties.constants_AttributeTypeLib/avogadroConstant",
+    "ClassName": "planckConstant",
+    "CaexPath": "AutomationML_BasicProperties.constants_AttributeTypeLib/planckConstant",
     "BasePath": null,
     "LibraryName": "AutomationML_BasicProperties.constants_AttributeTypeLib",
     "LibraryVersion": "1.0.3",
     "AMLEdition": "AMLEd2",
-    "ID": "d193f26c-3eab-46bf-8e73-4692d09608b9"
+    "ID": "1285d346-932e-4430-9aa5-06af61d02275"
   },
   {
-    "ClassName": "luminousEfficacy",
-    "CaexPath": "AutomationML_BasicProperties.constants_AttributeTypeLib/luminousEfficacy",
+    "ClassName": "elementaryCharge",
+    "CaexPath": "AutomationML_BasicProperties.constants_AttributeTypeLib/elementaryCharge",
     "BasePath": null,
     "LibraryName": "AutomationML_BasicProperties.constants_AttributeTypeLib",
     "LibraryVersion": "1.0.0",
     "AMLEdition": "AMLEd2",
-    "ID": "986fe702-1571-4f08-9199-4f19bb835995"
+    "ID": "cfea7ee3-4a5a-423f-b7aa-129b6456e523"
   },
   {
-    "ClassName": "luminousEfficacy",
-    "CaexPath": "AutomationML_BasicProperties.constants_AttributeTypeLib/luminousEfficacy",
+    "ClassName": "elementaryCharge",
+    "CaexPath": "AutomationML_BasicProperties.constants_AttributeTypeLib/elementaryCharge",
     "BasePath": null,
     "LibraryName": "AutomationML_BasicProperties.constants_AttributeTypeLib",
     "LibraryVersion": "1.0.1",
     "AMLEdition": "AMLEd2",
-    "ID": "986fe702-1571-4f08-9199-4f19bb835995"
+    "ID": "cfea7ee3-4a5a-423f-b7aa-129b6456e523"
   },
   {
-    "ClassName": "luminousEfficacy",
-    "CaexPath": "AutomationML_BasicProperties.constants_AttributeTypeLib/luminousEfficacy",
+    "ClassName": "elementaryCharge",
+    "CaexPath": "AutomationML_BasicProperties.constants_AttributeTypeLib/elementaryCharge",
     "BasePath": null,
     "LibraryName": "AutomationML_BasicProperties.constants_AttributeTypeLib",
     "LibraryVersion": "1.0.2",
     "AMLEdition": "AMLEd2",
-    "ID": "986fe702-1571-4f08-9199-4f19bb835995"
+    "ID": "cfea7ee3-4a5a-423f-b7aa-129b6456e523"
   },
   {
-    "ClassName": "luminousEfficacy",
-    "CaexPath": "AutomationML_BasicProperties.constants_AttributeTypeLib/luminousEfficacy",
+    "ClassName": "elementaryCharge",
+    "CaexPath": "AutomationML_BasicProperties.constants_AttributeTypeLib/elementaryCharge",
     "BasePath": null,
     "LibraryName": "AutomationML_BasicProperties.constants_AttributeTypeLib",
     "LibraryVersion": "1.0.3",
     "AMLEdition": "AMLEd2",
-    "ID": "986fe702-1571-4f08-9199-4f19bb835995"
+    "ID": "cfea7ee3-4a5a-423f-b7aa-129b6456e523"
   },
   {
-    "ClassName": "gravitationalConstant",
-    "CaexPath": "AutomationML_BasicProperties.constants_AttributeTypeLib/gravitationalConstant",
+    "ClassName": "secondaryColor",
+    "CaexPath": "AutomationML_BasicProperties.appearance_AttributeTypeLib/secondaryColor",
     "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.constants_AttributeTypeLib",
+    "LibraryName": "AutomationML_BasicProperties.appearance_AttributeTypeLib",
     "LibraryVersion": "1.0.0",
     "AMLEdition": "AMLEd2",
-    "ID": "d3f52e67-72b3-4549-9cdd-dbf836a7b04c"
+    "ID": "35194361-91a4-4c07-8482-5f4c1dd7b715"
   },
   {
-    "ClassName": "gravitationalConstant",
-    "CaexPath": "AutomationML_BasicProperties.constants_AttributeTypeLib/gravitationalConstant",
+    "ClassName": "secondaryColor",
+    "CaexPath": "AutomationML_BasicProperties.appearance_AttributeTypeLib/secondaryColor",
     "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.constants_AttributeTypeLib",
+    "LibraryName": "AutomationML_BasicProperties.appearance_AttributeTypeLib",
     "LibraryVersion": "1.0.1",
     "AMLEdition": "AMLEd2",
-    "ID": "d3f52e67-72b3-4549-9cdd-dbf836a7b04c"
+    "ID": "35194361-91a4-4c07-8482-5f4c1dd7b715"
   },
   {
-    "ClassName": "gravitationalConstant",
-    "CaexPath": "AutomationML_BasicProperties.constants_AttributeTypeLib/gravitationalConstant",
+    "ClassName": "secondaryColor",
+    "CaexPath": "AutomationML_BasicProperties.appearance_AttributeTypeLib/secondaryColor",
     "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.constants_AttributeTypeLib",
+    "LibraryName": "AutomationML_BasicProperties.appearance_AttributeTypeLib",
     "LibraryVersion": "1.0.2",
     "AMLEdition": "AMLEd2",
-    "ID": "d3f52e67-72b3-4549-9cdd-dbf836a7b04c"
+    "ID": "35194361-91a4-4c07-8482-5f4c1dd7b715"
   },
   {
-    "ClassName": "gravitationalConstant",
-    "CaexPath": "AutomationML_BasicProperties.constants_AttributeTypeLib/gravitationalConstant",
+    "ClassName": "secondaryColor",
+    "CaexPath": "AutomationML_BasicProperties.appearance_AttributeTypeLib/secondaryColor",
     "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.constants_AttributeTypeLib",
+    "LibraryName": "AutomationML_BasicProperties.appearance_AttributeTypeLib",
     "LibraryVersion": "1.0.3",
     "AMLEdition": "AMLEd2",
-    "ID": "d3f52e67-72b3-4549-9cdd-dbf836a7b04c"
-  },
-  {
-    "ClassName": "standardGravity",
-    "CaexPath": "AutomationML_BasicProperties.constants_AttributeTypeLib/standardGravity",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.constants_AttributeTypeLib",
-    "LibraryVersion": "1.0.0",
-    "AMLEdition": "AMLEd2",
-    "ID": "7c0cefa6-34e4-4b25-8532-5c5fc59fc060"
-  },
-  {
-    "ClassName": "standardGravity",
-    "CaexPath": "AutomationML_BasicProperties.constants_AttributeTypeLib/standardGravity",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.constants_AttributeTypeLib",
-    "LibraryVersion": "1.0.1",
-    "AMLEdition": "AMLEd2",
-    "ID": "7c0cefa6-34e4-4b25-8532-5c5fc59fc060"
-  },
-  {
-    "ClassName": "standardGravity",
-    "CaexPath": "AutomationML_BasicProperties.constants_AttributeTypeLib/standardGravity",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.constants_AttributeTypeLib",
-    "LibraryVersion": "1.0.2",
-    "AMLEdition": "AMLEd2",
-    "ID": "7c0cefa6-34e4-4b25-8532-5c5fc59fc060"
-  },
-  {
-    "ClassName": "standardGravity",
-    "CaexPath": "AutomationML_BasicProperties.constants_AttributeTypeLib/standardGravity",
-    "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.constants_AttributeTypeLib",
-    "LibraryVersion": "1.0.3",
-    "AMLEdition": "AMLEd2",
-    "ID": "7c0cefa6-34e4-4b25-8532-5c5fc59fc060"
+    "ID": "35194361-91a4-4c07-8482-5f4c1dd7b715"
   },
   {
     "ClassName": "peakPowerDemand",
@@ -3150,76 +2079,256 @@
     "ID": "29bc195d-f7fb-4245-a168-77bdc1c9c0c3"
   },
   {
-    "ClassName": "electricResistance",
-    "CaexPath": "AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/electricResistance",
+    "ClassName": "angularAcceleration",
+    "CaexPath": "AutomationML_BasicProperties.kinematics_AttributeTypeLib/angularAcceleration",
     "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.electricalProperties_AttributeTypeLib",
+    "LibraryName": "AutomationML_BasicProperties.kinematics_AttributeTypeLib",
     "LibraryVersion": "1.0.0",
     "AMLEdition": "AMLEd2",
-    "ID": "c858c81f-f169-4521-989f-a5576b0d495e"
+    "ID": "707e9380-cdd1-4d35-aa2f-8485b9ac198c"
   },
   {
-    "ClassName": "electricResistance",
-    "CaexPath": "AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/electricResistance",
+    "ClassName": "angularAcceleration",
+    "CaexPath": "AutomationML_BasicProperties.kinematics_AttributeTypeLib/angularAcceleration",
     "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.electricalProperties_AttributeTypeLib",
+    "LibraryName": "AutomationML_BasicProperties.kinematics_AttributeTypeLib",
     "LibraryVersion": "1.0.1",
     "AMLEdition": "AMLEd2",
-    "ID": "c858c81f-f169-4521-989f-a5576b0d495e"
+    "ID": "707e9380-cdd1-4d35-aa2f-8485b9ac198c"
   },
   {
-    "ClassName": "electricResistance",
-    "CaexPath": "AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/electricResistance",
+    "ClassName": "angularAcceleration",
+    "CaexPath": "AutomationML_BasicProperties.kinematics_AttributeTypeLib/angularAcceleration",
     "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.electricalProperties_AttributeTypeLib",
+    "LibraryName": "AutomationML_BasicProperties.kinematics_AttributeTypeLib",
     "LibraryVersion": "1.0.2",
     "AMLEdition": "AMLEd2",
-    "ID": "c858c81f-f169-4521-989f-a5576b0d495e"
+    "ID": "707e9380-cdd1-4d35-aa2f-8485b9ac198c"
   },
   {
-    "ClassName": "electricResistance",
-    "CaexPath": "AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/electricResistance",
+    "ClassName": "angularAcceleration",
+    "CaexPath": "AutomationML_BasicProperties.kinematics_AttributeTypeLib/angularAcceleration",
     "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.electricalProperties_AttributeTypeLib",
+    "LibraryName": "AutomationML_BasicProperties.kinematics_AttributeTypeLib",
     "LibraryVersion": "1.0.3",
     "AMLEdition": "AMLEd2",
-    "ID": "c858c81f-f169-4521-989f-a5576b0d495e"
+    "ID": "707e9380-cdd1-4d35-aa2f-8485b9ac198c"
   },
   {
-    "ClassName": "appearanceVariant",
-    "CaexPath": "AutomationML_BasicProperties.appearance_AttributeTypeLib/appearanceVariant",
+    "ClassName": "displacement",
+    "CaexPath": "AutomationML_BasicProperties.kinematics_AttributeTypeLib/displacement",
     "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.appearance_AttributeTypeLib",
+    "LibraryName": "AutomationML_BasicProperties.kinematics_AttributeTypeLib",
     "LibraryVersion": "1.0.0",
     "AMLEdition": "AMLEd2",
-    "ID": "95cce0cd-fbb6-480b-8a45-9ad08e18c828"
+    "ID": "596ae1ed-78d3-43a8-a1b5-f9020f6b0afd"
   },
   {
-    "ClassName": "appearanceVariant",
-    "CaexPath": "AutomationML_BasicProperties.appearance_AttributeTypeLib/appearanceVariant",
+    "ClassName": "displacement",
+    "CaexPath": "AutomationML_BasicProperties.kinematics_AttributeTypeLib/displacement",
     "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.appearance_AttributeTypeLib",
+    "LibraryName": "AutomationML_BasicProperties.kinematics_AttributeTypeLib",
     "LibraryVersion": "1.0.1",
     "AMLEdition": "AMLEd2",
-    "ID": "95cce0cd-fbb6-480b-8a45-9ad08e18c828"
+    "ID": "596ae1ed-78d3-43a8-a1b5-f9020f6b0afd"
   },
   {
-    "ClassName": "appearanceVariant",
-    "CaexPath": "AutomationML_BasicProperties.appearance_AttributeTypeLib/appearanceVariant",
+    "ClassName": "displacement",
+    "CaexPath": "AutomationML_BasicProperties.kinematics_AttributeTypeLib/displacement",
     "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.appearance_AttributeTypeLib",
+    "LibraryName": "AutomationML_BasicProperties.kinematics_AttributeTypeLib",
     "LibraryVersion": "1.0.2",
     "AMLEdition": "AMLEd2",
-    "ID": "95cce0cd-fbb6-480b-8a45-9ad08e18c828"
+    "ID": "596ae1ed-78d3-43a8-a1b5-f9020f6b0afd"
   },
   {
-    "ClassName": "appearanceVariant",
-    "CaexPath": "AutomationML_BasicProperties.appearance_AttributeTypeLib/appearanceVariant",
+    "ClassName": "displacement",
+    "CaexPath": "AutomationML_BasicProperties.kinematics_AttributeTypeLib/displacement",
     "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.appearance_AttributeTypeLib",
+    "LibraryName": "AutomationML_BasicProperties.kinematics_AttributeTypeLib",
     "LibraryVersion": "1.0.3",
     "AMLEdition": "AMLEd2",
-    "ID": "95cce0cd-fbb6-480b-8a45-9ad08e18c828"
+    "ID": "596ae1ed-78d3-43a8-a1b5-f9020f6b0afd"
+  },
+  {
+    "ClassName": "rotationAngle",
+    "CaexPath": "AutomationML_BasicProperties.kinematics_AttributeTypeLib/rotationAngle",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.kinematics_AttributeTypeLib",
+    "LibraryVersion": "1.0.0",
+    "AMLEdition": "AMLEd2",
+    "ID": "5aaeeded-4a37-45b5-abff-9ec74c8f39bf"
+  },
+  {
+    "ClassName": "rotationAngle",
+    "CaexPath": "AutomationML_BasicProperties.kinematics_AttributeTypeLib/rotationAngle",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.kinematics_AttributeTypeLib",
+    "LibraryVersion": "1.0.1",
+    "AMLEdition": "AMLEd2",
+    "ID": "5aaeeded-4a37-45b5-abff-9ec74c8f39bf"
+  },
+  {
+    "ClassName": "rotationAngle",
+    "CaexPath": "AutomationML_BasicProperties.kinematics_AttributeTypeLib/rotationAngle",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.kinematics_AttributeTypeLib",
+    "LibraryVersion": "1.0.2",
+    "AMLEdition": "AMLEd2",
+    "ID": "5aaeeded-4a37-45b5-abff-9ec74c8f39bf"
+  },
+  {
+    "ClassName": "rotationAngle",
+    "CaexPath": "AutomationML_BasicProperties.kinematics_AttributeTypeLib/rotationAngle",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.kinematics_AttributeTypeLib",
+    "LibraryVersion": "1.0.3",
+    "AMLEdition": "AMLEd2",
+    "ID": "5aaeeded-4a37-45b5-abff-9ec74c8f39bf"
+  },
+  {
+    "ClassName": "availability",
+    "CaexPath": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib/availability",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib",
+    "LibraryVersion": "1.0.0",
+    "AMLEdition": "AMLEd2",
+    "ID": "2a3082df-f918-4ee7-bd9b-5507d3238825"
+  },
+  {
+    "ClassName": "availability",
+    "CaexPath": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib/availability",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib",
+    "LibraryVersion": "1.0.1",
+    "AMLEdition": "AMLEd2",
+    "ID": "2a3082df-f918-4ee7-bd9b-5507d3238825"
+  },
+  {
+    "ClassName": "availability",
+    "CaexPath": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib/availability",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib",
+    "LibraryVersion": "1.0.2",
+    "AMLEdition": "AMLEd2",
+    "ID": "2a3082df-f918-4ee7-bd9b-5507d3238825"
+  },
+  {
+    "ClassName": "availability",
+    "CaexPath": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib/availability",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib",
+    "LibraryVersion": "1.0.3",
+    "AMLEdition": "AMLEd2",
+    "ID": "2a3082df-f918-4ee7-bd9b-5507d3238825"
+  },
+  {
+    "ClassName": "reliability",
+    "CaexPath": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib/reliability",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib",
+    "LibraryVersion": "1.0.0",
+    "AMLEdition": "AMLEd2",
+    "ID": "17c0e861-8830-47f9-b6fa-eba01c712515"
+  },
+  {
+    "ClassName": "reliability",
+    "CaexPath": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib/reliability",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib",
+    "LibraryVersion": "1.0.1",
+    "AMLEdition": "AMLEd2",
+    "ID": "17c0e861-8830-47f9-b6fa-eba01c712515"
+  },
+  {
+    "ClassName": "reliability",
+    "CaexPath": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib/reliability",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib",
+    "LibraryVersion": "1.0.2",
+    "AMLEdition": "AMLEd2",
+    "ID": "17c0e861-8830-47f9-b6fa-eba01c712515"
+  },
+  {
+    "ClassName": "reliability",
+    "CaexPath": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib/reliability",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib",
+    "LibraryVersion": "1.0.3",
+    "AMLEdition": "AMLEd2",
+    "ID": "17c0e861-8830-47f9-b6fa-eba01c712515"
+  },
+  {
+    "ClassName": "redundancyLevel",
+    "CaexPath": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib/redundancyLevel",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib",
+    "LibraryVersion": "1.0.0",
+    "AMLEdition": "AMLEd2",
+    "ID": "8fb66270-4415-4df2-a417-c81fbdddb8d9"
+  },
+  {
+    "ClassName": "redundancyLevel",
+    "CaexPath": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib/redundancyLevel",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib",
+    "LibraryVersion": "1.0.1",
+    "AMLEdition": "AMLEd2",
+    "ID": "8fb66270-4415-4df2-a417-c81fbdddb8d9"
+  },
+  {
+    "ClassName": "redundancyLevel",
+    "CaexPath": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib/redundancyLevel",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib",
+    "LibraryVersion": "1.0.2",
+    "AMLEdition": "AMLEd2",
+    "ID": "8fb66270-4415-4df2-a417-c81fbdddb8d9"
+  },
+  {
+    "ClassName": "redundancyLevel",
+    "CaexPath": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib/redundancyLevel",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib",
+    "LibraryVersion": "1.0.3",
+    "AMLEdition": "AMLEd2",
+    "ID": "8fb66270-4415-4df2-a417-c81fbdddb8d9"
+  },
+  {
+    "ClassName": "footprintArea",
+    "CaexPath": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/footprintArea",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib",
+    "LibraryVersion": "1.0.0",
+    "AMLEdition": "AMLEd2",
+    "ID": "a5f05e71-404e-400e-a802-f6b135fcd431"
+  },
+  {
+    "ClassName": "footprintArea",
+    "CaexPath": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/footprintArea",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib",
+    "LibraryVersion": "1.0.1",
+    "AMLEdition": "AMLEd2",
+    "ID": "a5f05e71-404e-400e-a802-f6b135fcd431"
+  },
+  {
+    "ClassName": "footprintArea",
+    "CaexPath": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/footprintArea",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib",
+    "LibraryVersion": "1.0.2",
+    "AMLEdition": "AMLEd2",
+    "ID": "a5f05e71-404e-400e-a802-f6b135fcd431"
+  },
+  {
+    "ClassName": "footprintArea",
+    "CaexPath": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/footprintArea",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib",
+    "LibraryVersion": "1.0.3",
+    "AMLEdition": "AMLEd2",
+    "ID": "a5f05e71-404e-400e-a802-f6b135fcd431"
   },
   {
     "ClassName": "thermodynamicTemperature",
@@ -3438,112 +2547,562 @@
     "ID": "34b70b0f-2481-4c2c-b5fe-e351e0abc92f"
   },
   {
-    "ClassName": "electricConductance",
-    "CaexPath": "AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/electricConductance",
+    "ClassName": "boltzmannConstant",
+    "CaexPath": "AutomationML_BasicProperties.constants_AttributeTypeLib/boltzmannConstant",
     "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.electricalProperties_AttributeTypeLib",
+    "LibraryName": "AutomationML_BasicProperties.constants_AttributeTypeLib",
     "LibraryVersion": "1.0.0",
     "AMLEdition": "AMLEd2",
-    "ID": "2910e227-3d0a-4a6f-96ad-c585db44e749"
+    "ID": "3e20af3a-49b0-4049-8e4c-b3f8c8cce818"
   },
   {
-    "ClassName": "electricConductance",
-    "CaexPath": "AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/electricConductance",
+    "ClassName": "boltzmannConstant",
+    "CaexPath": "AutomationML_BasicProperties.constants_AttributeTypeLib/boltzmannConstant",
     "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.electricalProperties_AttributeTypeLib",
+    "LibraryName": "AutomationML_BasicProperties.constants_AttributeTypeLib",
     "LibraryVersion": "1.0.1",
     "AMLEdition": "AMLEd2",
-    "ID": "2910e227-3d0a-4a6f-96ad-c585db44e749"
+    "ID": "3e20af3a-49b0-4049-8e4c-b3f8c8cce818"
   },
   {
-    "ClassName": "electricConductance",
-    "CaexPath": "AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/electricConductance",
+    "ClassName": "boltzmannConstant",
+    "CaexPath": "AutomationML_BasicProperties.constants_AttributeTypeLib/boltzmannConstant",
     "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.electricalProperties_AttributeTypeLib",
+    "LibraryName": "AutomationML_BasicProperties.constants_AttributeTypeLib",
     "LibraryVersion": "1.0.2",
     "AMLEdition": "AMLEd2",
-    "ID": "2910e227-3d0a-4a6f-96ad-c585db44e749"
+    "ID": "3e20af3a-49b0-4049-8e4c-b3f8c8cce818"
   },
   {
-    "ClassName": "electricConductance",
-    "CaexPath": "AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/electricConductance",
+    "ClassName": "boltzmannConstant",
+    "CaexPath": "AutomationML_BasicProperties.constants_AttributeTypeLib/boltzmannConstant",
     "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.electricalProperties_AttributeTypeLib",
+    "LibraryName": "AutomationML_BasicProperties.constants_AttributeTypeLib",
     "LibraryVersion": "1.0.3",
     "AMLEdition": "AMLEd2",
-    "ID": "2910e227-3d0a-4a6f-96ad-c585db44e749"
+    "ID": "3e20af3a-49b0-4049-8e4c-b3f8c8cce818"
   },
   {
-    "ClassName": "magneticFlux",
-    "CaexPath": "AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/magneticFlux",
+    "ClassName": "avogadroConstant",
+    "CaexPath": "AutomationML_BasicProperties.constants_AttributeTypeLib/avogadroConstant",
     "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.electricalProperties_AttributeTypeLib",
+    "LibraryName": "AutomationML_BasicProperties.constants_AttributeTypeLib",
     "LibraryVersion": "1.0.0",
     "AMLEdition": "AMLEd2",
-    "ID": "48c0890a-1e98-45db-9a05-fabf75ba1c07"
+    "ID": "d193f26c-3eab-46bf-8e73-4692d09608b9"
   },
   {
-    "ClassName": "magneticFlux",
-    "CaexPath": "AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/magneticFlux",
+    "ClassName": "avogadroConstant",
+    "CaexPath": "AutomationML_BasicProperties.constants_AttributeTypeLib/avogadroConstant",
     "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.electricalProperties_AttributeTypeLib",
+    "LibraryName": "AutomationML_BasicProperties.constants_AttributeTypeLib",
     "LibraryVersion": "1.0.1",
     "AMLEdition": "AMLEd2",
-    "ID": "48c0890a-1e98-45db-9a05-fabf75ba1c07"
+    "ID": "d193f26c-3eab-46bf-8e73-4692d09608b9"
   },
   {
-    "ClassName": "magneticFlux",
-    "CaexPath": "AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/magneticFlux",
+    "ClassName": "avogadroConstant",
+    "CaexPath": "AutomationML_BasicProperties.constants_AttributeTypeLib/avogadroConstant",
     "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.electricalProperties_AttributeTypeLib",
+    "LibraryName": "AutomationML_BasicProperties.constants_AttributeTypeLib",
     "LibraryVersion": "1.0.2",
     "AMLEdition": "AMLEd2",
-    "ID": "48c0890a-1e98-45db-9a05-fabf75ba1c07"
+    "ID": "d193f26c-3eab-46bf-8e73-4692d09608b9"
   },
   {
-    "ClassName": "magneticFlux",
-    "CaexPath": "AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/magneticFlux",
+    "ClassName": "avogadroConstant",
+    "CaexPath": "AutomationML_BasicProperties.constants_AttributeTypeLib/avogadroConstant",
     "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.electricalProperties_AttributeTypeLib",
+    "LibraryName": "AutomationML_BasicProperties.constants_AttributeTypeLib",
     "LibraryVersion": "1.0.3",
     "AMLEdition": "AMLEd2",
-    "ID": "48c0890a-1e98-45db-9a05-fabf75ba1c07"
+    "ID": "d193f26c-3eab-46bf-8e73-4692d09608b9"
   },
   {
-    "ClassName": "magneticFluxDensity",
-    "CaexPath": "AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/magneticFluxDensity",
+    "ClassName": "luminousEfficacy",
+    "CaexPath": "AutomationML_BasicProperties.constants_AttributeTypeLib/luminousEfficacy",
     "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.electricalProperties_AttributeTypeLib",
+    "LibraryName": "AutomationML_BasicProperties.constants_AttributeTypeLib",
     "LibraryVersion": "1.0.0",
     "AMLEdition": "AMLEd2",
-    "ID": "ab65f835-28a8-402f-8c6e-3a65cc72dafd"
+    "ID": "986fe702-1571-4f08-9199-4f19bb835995"
   },
   {
-    "ClassName": "magneticFluxDensity",
-    "CaexPath": "AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/magneticFluxDensity",
+    "ClassName": "luminousEfficacy",
+    "CaexPath": "AutomationML_BasicProperties.constants_AttributeTypeLib/luminousEfficacy",
     "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.electricalProperties_AttributeTypeLib",
+    "LibraryName": "AutomationML_BasicProperties.constants_AttributeTypeLib",
     "LibraryVersion": "1.0.1",
     "AMLEdition": "AMLEd2",
-    "ID": "ab65f835-28a8-402f-8c6e-3a65cc72dafd"
+    "ID": "986fe702-1571-4f08-9199-4f19bb835995"
   },
   {
-    "ClassName": "magneticFluxDensity",
-    "CaexPath": "AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/magneticFluxDensity",
+    "ClassName": "luminousEfficacy",
+    "CaexPath": "AutomationML_BasicProperties.constants_AttributeTypeLib/luminousEfficacy",
     "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.electricalProperties_AttributeTypeLib",
+    "LibraryName": "AutomationML_BasicProperties.constants_AttributeTypeLib",
     "LibraryVersion": "1.0.2",
     "AMLEdition": "AMLEd2",
-    "ID": "ab65f835-28a8-402f-8c6e-3a65cc72dafd"
+    "ID": "986fe702-1571-4f08-9199-4f19bb835995"
   },
   {
-    "ClassName": "magneticFluxDensity",
-    "CaexPath": "AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/magneticFluxDensity",
+    "ClassName": "luminousEfficacy",
+    "CaexPath": "AutomationML_BasicProperties.constants_AttributeTypeLib/luminousEfficacy",
     "BasePath": null,
-    "LibraryName": "AutomationML_BasicProperties.electricalProperties_AttributeTypeLib",
+    "LibraryName": "AutomationML_BasicProperties.constants_AttributeTypeLib",
     "LibraryVersion": "1.0.3",
     "AMLEdition": "AMLEd2",
-    "ID": "ab65f835-28a8-402f-8c6e-3a65cc72dafd"
+    "ID": "986fe702-1571-4f08-9199-4f19bb835995"
+  },
+  {
+    "ClassName": "gravitationalConstant",
+    "CaexPath": "AutomationML_BasicProperties.constants_AttributeTypeLib/gravitationalConstant",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.constants_AttributeTypeLib",
+    "LibraryVersion": "1.0.0",
+    "AMLEdition": "AMLEd2",
+    "ID": "d3f52e67-72b3-4549-9cdd-dbf836a7b04c"
+  },
+  {
+    "ClassName": "gravitationalConstant",
+    "CaexPath": "AutomationML_BasicProperties.constants_AttributeTypeLib/gravitationalConstant",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.constants_AttributeTypeLib",
+    "LibraryVersion": "1.0.1",
+    "AMLEdition": "AMLEd2",
+    "ID": "d3f52e67-72b3-4549-9cdd-dbf836a7b04c"
+  },
+  {
+    "ClassName": "gravitationalConstant",
+    "CaexPath": "AutomationML_BasicProperties.constants_AttributeTypeLib/gravitationalConstant",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.constants_AttributeTypeLib",
+    "LibraryVersion": "1.0.2",
+    "AMLEdition": "AMLEd2",
+    "ID": "d3f52e67-72b3-4549-9cdd-dbf836a7b04c"
+  },
+  {
+    "ClassName": "gravitationalConstant",
+    "CaexPath": "AutomationML_BasicProperties.constants_AttributeTypeLib/gravitationalConstant",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.constants_AttributeTypeLib",
+    "LibraryVersion": "1.0.3",
+    "AMLEdition": "AMLEd2",
+    "ID": "d3f52e67-72b3-4549-9cdd-dbf836a7b04c"
+  },
+  {
+    "ClassName": "standardGravity",
+    "CaexPath": "AutomationML_BasicProperties.constants_AttributeTypeLib/standardGravity",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.constants_AttributeTypeLib",
+    "LibraryVersion": "1.0.0",
+    "AMLEdition": "AMLEd2",
+    "ID": "7c0cefa6-34e4-4b25-8532-5c5fc59fc060"
+  },
+  {
+    "ClassName": "standardGravity",
+    "CaexPath": "AutomationML_BasicProperties.constants_AttributeTypeLib/standardGravity",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.constants_AttributeTypeLib",
+    "LibraryVersion": "1.0.1",
+    "AMLEdition": "AMLEd2",
+    "ID": "7c0cefa6-34e4-4b25-8532-5c5fc59fc060"
+  },
+  {
+    "ClassName": "standardGravity",
+    "CaexPath": "AutomationML_BasicProperties.constants_AttributeTypeLib/standardGravity",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.constants_AttributeTypeLib",
+    "LibraryVersion": "1.0.2",
+    "AMLEdition": "AMLEd2",
+    "ID": "7c0cefa6-34e4-4b25-8532-5c5fc59fc060"
+  },
+  {
+    "ClassName": "standardGravity",
+    "CaexPath": "AutomationML_BasicProperties.constants_AttributeTypeLib/standardGravity",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.constants_AttributeTypeLib",
+    "LibraryVersion": "1.0.3",
+    "AMLEdition": "AMLEd2",
+    "ID": "7c0cefa6-34e4-4b25-8532-5c5fc59fc060"
+  },
+  {
+    "ClassName": "surfaceFinish",
+    "CaexPath": "AutomationML_BasicProperties.appearance_AttributeTypeLib/surfaceFinish",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.appearance_AttributeTypeLib",
+    "LibraryVersion": "1.0.0",
+    "AMLEdition": "AMLEd2",
+    "ID": "e091b64d-0071-4900-9edf-b3d32942310b"
+  },
+  {
+    "ClassName": "surfaceFinish",
+    "CaexPath": "AutomationML_BasicProperties.appearance_AttributeTypeLib/surfaceFinish",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.appearance_AttributeTypeLib",
+    "LibraryVersion": "1.0.1",
+    "AMLEdition": "AMLEd2",
+    "ID": "e091b64d-0071-4900-9edf-b3d32942310b"
+  },
+  {
+    "ClassName": "surfaceFinish",
+    "CaexPath": "AutomationML_BasicProperties.appearance_AttributeTypeLib/surfaceFinish",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.appearance_AttributeTypeLib",
+    "LibraryVersion": "1.0.2",
+    "AMLEdition": "AMLEd2",
+    "ID": "e091b64d-0071-4900-9edf-b3d32942310b"
+  },
+  {
+    "ClassName": "surfaceFinish",
+    "CaexPath": "AutomationML_BasicProperties.appearance_AttributeTypeLib/surfaceFinish",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.appearance_AttributeTypeLib",
+    "LibraryVersion": "1.0.3",
+    "AMLEdition": "AMLEd2",
+    "ID": "e091b64d-0071-4900-9edf-b3d32942310b"
+  },
+  {
+    "ClassName": "surfaceTexture",
+    "CaexPath": "AutomationML_BasicProperties.appearance_AttributeTypeLib/surfaceTexture",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.appearance_AttributeTypeLib",
+    "LibraryVersion": "1.0.0",
+    "AMLEdition": "AMLEd2",
+    "ID": "886a7ffe-36b1-48c3-b54c-ba957e54babc"
+  },
+  {
+    "ClassName": "surfaceTexture",
+    "CaexPath": "AutomationML_BasicProperties.appearance_AttributeTypeLib/surfaceTexture",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.appearance_AttributeTypeLib",
+    "LibraryVersion": "1.0.1",
+    "AMLEdition": "AMLEd2",
+    "ID": "886a7ffe-36b1-48c3-b54c-ba957e54babc"
+  },
+  {
+    "ClassName": "surfaceTexture",
+    "CaexPath": "AutomationML_BasicProperties.appearance_AttributeTypeLib/surfaceTexture",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.appearance_AttributeTypeLib",
+    "LibraryVersion": "1.0.2",
+    "AMLEdition": "AMLEd2",
+    "ID": "886a7ffe-36b1-48c3-b54c-ba957e54babc"
+  },
+  {
+    "ClassName": "surfaceTexture",
+    "CaexPath": "AutomationML_BasicProperties.appearance_AttributeTypeLib/surfaceTexture",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.appearance_AttributeTypeLib",
+    "LibraryVersion": "1.0.3",
+    "AMLEdition": "AMLEd2",
+    "ID": "886a7ffe-36b1-48c3-b54c-ba957e54babc"
+  },
+  {
+    "ClassName": "materialAppearance",
+    "CaexPath": "AutomationML_BasicProperties.appearance_AttributeTypeLib/materialAppearance",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.appearance_AttributeTypeLib",
+    "LibraryVersion": "1.0.0",
+    "AMLEdition": "AMLEd2",
+    "ID": "4858c504-2da5-41ae-af52-ca08e29e548b"
+  },
+  {
+    "ClassName": "materialAppearance",
+    "CaexPath": "AutomationML_BasicProperties.appearance_AttributeTypeLib/materialAppearance",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.appearance_AttributeTypeLib",
+    "LibraryVersion": "1.0.1",
+    "AMLEdition": "AMLEd2",
+    "ID": "4858c504-2da5-41ae-af52-ca08e29e548b"
+  },
+  {
+    "ClassName": "materialAppearance",
+    "CaexPath": "AutomationML_BasicProperties.appearance_AttributeTypeLib/materialAppearance",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.appearance_AttributeTypeLib",
+    "LibraryVersion": "1.0.2",
+    "AMLEdition": "AMLEd2",
+    "ID": "4858c504-2da5-41ae-af52-ca08e29e548b"
+  },
+  {
+    "ClassName": "materialAppearance",
+    "CaexPath": "AutomationML_BasicProperties.appearance_AttributeTypeLib/materialAppearance",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.appearance_AttributeTypeLib",
+    "LibraryVersion": "1.0.3",
+    "AMLEdition": "AMLEd2",
+    "ID": "4858c504-2da5-41ae-af52-ca08e29e548b"
+  },
+  {
+    "ClassName": "coatingType",
+    "CaexPath": "AutomationML_BasicProperties.appearance_AttributeTypeLib/coatingType",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.appearance_AttributeTypeLib",
+    "LibraryVersion": "1.0.0",
+    "AMLEdition": "AMLEd2",
+    "ID": "efad251b-6f6c-40ac-9b99-443e1fb05398"
+  },
+  {
+    "ClassName": "coatingType",
+    "CaexPath": "AutomationML_BasicProperties.appearance_AttributeTypeLib/coatingType",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.appearance_AttributeTypeLib",
+    "LibraryVersion": "1.0.1",
+    "AMLEdition": "AMLEd2",
+    "ID": "efad251b-6f6c-40ac-9b99-443e1fb05398"
+  },
+  {
+    "ClassName": "coatingType",
+    "CaexPath": "AutomationML_BasicProperties.appearance_AttributeTypeLib/coatingType",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.appearance_AttributeTypeLib",
+    "LibraryVersion": "1.0.2",
+    "AMLEdition": "AMLEd2",
+    "ID": "efad251b-6f6c-40ac-9b99-443e1fb05398"
+  },
+  {
+    "ClassName": "coatingType",
+    "CaexPath": "AutomationML_BasicProperties.appearance_AttributeTypeLib/coatingType",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.appearance_AttributeTypeLib",
+    "LibraryVersion": "1.0.3",
+    "AMLEdition": "AMLEd2",
+    "ID": "efad251b-6f6c-40ac-9b99-443e1fb05398"
+  },
+  {
+    "ClassName": "labeling",
+    "CaexPath": "AutomationML_BasicProperties.appearance_AttributeTypeLib/labeling",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.appearance_AttributeTypeLib",
+    "LibraryVersion": "1.0.0",
+    "AMLEdition": "AMLEd2",
+    "ID": "778bc2b8-40dc-4a65-bb65-ba01f3433ae9"
+  },
+  {
+    "ClassName": "labeling",
+    "CaexPath": "AutomationML_BasicProperties.appearance_AttributeTypeLib/labeling",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.appearance_AttributeTypeLib",
+    "LibraryVersion": "1.0.1",
+    "AMLEdition": "AMLEd2",
+    "ID": "778bc2b8-40dc-4a65-bb65-ba01f3433ae9"
+  },
+  {
+    "ClassName": "labeling",
+    "CaexPath": "AutomationML_BasicProperties.appearance_AttributeTypeLib/labeling",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.appearance_AttributeTypeLib",
+    "LibraryVersion": "1.0.2",
+    "AMLEdition": "AMLEd2",
+    "ID": "778bc2b8-40dc-4a65-bb65-ba01f3433ae9"
+  },
+  {
+    "ClassName": "labeling",
+    "CaexPath": "AutomationML_BasicProperties.appearance_AttributeTypeLib/labeling",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.appearance_AttributeTypeLib",
+    "LibraryVersion": "1.0.3",
+    "AMLEdition": "AMLEd2",
+    "ID": "778bc2b8-40dc-4a65-bb65-ba01f3433ae9"
+  },
+  {
+    "ClassName": "branding",
+    "CaexPath": "AutomationML_BasicProperties.appearance_AttributeTypeLib/branding",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.appearance_AttributeTypeLib",
+    "LibraryVersion": "1.0.0",
+    "AMLEdition": "AMLEd2",
+    "ID": "d97848e4-82b6-4209-85bb-f55e5da2374a"
+  },
+  {
+    "ClassName": "branding",
+    "CaexPath": "AutomationML_BasicProperties.appearance_AttributeTypeLib/branding",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.appearance_AttributeTypeLib",
+    "LibraryVersion": "1.0.1",
+    "AMLEdition": "AMLEd2",
+    "ID": "d97848e4-82b6-4209-85bb-f55e5da2374a"
+  },
+  {
+    "ClassName": "branding",
+    "CaexPath": "AutomationML_BasicProperties.appearance_AttributeTypeLib/branding",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.appearance_AttributeTypeLib",
+    "LibraryVersion": "1.0.2",
+    "AMLEdition": "AMLEd2",
+    "ID": "d97848e4-82b6-4209-85bb-f55e5da2374a"
+  },
+  {
+    "ClassName": "branding",
+    "CaexPath": "AutomationML_BasicProperties.appearance_AttributeTypeLib/branding",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.appearance_AttributeTypeLib",
+    "LibraryVersion": "1.0.3",
+    "AMLEdition": "AMLEd2",
+    "ID": "d97848e4-82b6-4209-85bb-f55e5da2374a"
+  },
+  {
+    "ClassName": "symbolMarking",
+    "CaexPath": "AutomationML_BasicProperties.appearance_AttributeTypeLib/symbolMarking",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.appearance_AttributeTypeLib",
+    "LibraryVersion": "1.0.0",
+    "AMLEdition": "AMLEd2",
+    "ID": "3f6bab5e-4aad-48f0-a6f3-eae231e606cc"
+  },
+  {
+    "ClassName": "symbolMarking",
+    "CaexPath": "AutomationML_BasicProperties.appearance_AttributeTypeLib/symbolMarking",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.appearance_AttributeTypeLib",
+    "LibraryVersion": "1.0.1",
+    "AMLEdition": "AMLEd2",
+    "ID": "3f6bab5e-4aad-48f0-a6f3-eae231e606cc"
+  },
+  {
+    "ClassName": "symbolMarking",
+    "CaexPath": "AutomationML_BasicProperties.appearance_AttributeTypeLib/symbolMarking",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.appearance_AttributeTypeLib",
+    "LibraryVersion": "1.0.2",
+    "AMLEdition": "AMLEd2",
+    "ID": "3f6bab5e-4aad-48f0-a6f3-eae231e606cc"
+  },
+  {
+    "ClassName": "symbolMarking",
+    "CaexPath": "AutomationML_BasicProperties.appearance_AttributeTypeLib/symbolMarking",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.appearance_AttributeTypeLib",
+    "LibraryVersion": "1.0.3",
+    "AMLEdition": "AMLEd2",
+    "ID": "3f6bab5e-4aad-48f0-a6f3-eae231e606cc"
+  },
+  {
+    "ClassName": "illuminationColor",
+    "CaexPath": "AutomationML_BasicProperties.appearance_AttributeTypeLib/illuminationColor",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.appearance_AttributeTypeLib",
+    "LibraryVersion": "1.0.0",
+    "AMLEdition": "AMLEd2",
+    "ID": "cd181b18-8bc9-4142-80ae-36363a9e4452"
+  },
+  {
+    "ClassName": "illuminationColor",
+    "CaexPath": "AutomationML_BasicProperties.appearance_AttributeTypeLib/illuminationColor",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.appearance_AttributeTypeLib",
+    "LibraryVersion": "1.0.1",
+    "AMLEdition": "AMLEd2",
+    "ID": "cd181b18-8bc9-4142-80ae-36363a9e4452"
+  },
+  {
+    "ClassName": "illuminationColor",
+    "CaexPath": "AutomationML_BasicProperties.appearance_AttributeTypeLib/illuminationColor",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.appearance_AttributeTypeLib",
+    "LibraryVersion": "1.0.2",
+    "AMLEdition": "AMLEd2",
+    "ID": "cd181b18-8bc9-4142-80ae-36363a9e4452"
+  },
+  {
+    "ClassName": "illuminationColor",
+    "CaexPath": "AutomationML_BasicProperties.appearance_AttributeTypeLib/illuminationColor",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.appearance_AttributeTypeLib",
+    "LibraryVersion": "1.0.3",
+    "AMLEdition": "AMLEd2",
+    "ID": "cd181b18-8bc9-4142-80ae-36363a9e4452"
+  },
+  {
+    "ClassName": "appearanceVariant",
+    "CaexPath": "AutomationML_BasicProperties.appearance_AttributeTypeLib/appearanceVariant",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.appearance_AttributeTypeLib",
+    "LibraryVersion": "1.0.0",
+    "AMLEdition": "AMLEd2",
+    "ID": "95cce0cd-fbb6-480b-8a45-9ad08e18c828"
+  },
+  {
+    "ClassName": "appearanceVariant",
+    "CaexPath": "AutomationML_BasicProperties.appearance_AttributeTypeLib/appearanceVariant",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.appearance_AttributeTypeLib",
+    "LibraryVersion": "1.0.1",
+    "AMLEdition": "AMLEd2",
+    "ID": "95cce0cd-fbb6-480b-8a45-9ad08e18c828"
+  },
+  {
+    "ClassName": "appearanceVariant",
+    "CaexPath": "AutomationML_BasicProperties.appearance_AttributeTypeLib/appearanceVariant",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.appearance_AttributeTypeLib",
+    "LibraryVersion": "1.0.2",
+    "AMLEdition": "AMLEd2",
+    "ID": "95cce0cd-fbb6-480b-8a45-9ad08e18c828"
+  },
+  {
+    "ClassName": "appearanceVariant",
+    "CaexPath": "AutomationML_BasicProperties.appearance_AttributeTypeLib/appearanceVariant",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.appearance_AttributeTypeLib",
+    "LibraryVersion": "1.0.3",
+    "AMLEdition": "AMLEd2",
+    "ID": "95cce0cd-fbb6-480b-8a45-9ad08e18c828"
+  },
+  {
+    "ClassName": "relativeHumidityMin",
+    "CaexPath": "AutomationML_BasicProperties.environmentalConditions_AttributeTypeLib/relativeHumidityMin",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.environmentalConditions_AttributeTypeLib",
+    "LibraryVersion": "1.0.0",
+    "AMLEdition": "AMLEd2",
+    "ID": "f6359b1a-4f41-4a85-842d-81cd4946fcb1"
+  },
+  {
+    "ClassName": "relativeHumidityMin",
+    "CaexPath": "AutomationML_BasicProperties.environmentalConditions_AttributeTypeLib/relativeHumidityMin",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.environmentalConditions_AttributeTypeLib",
+    "LibraryVersion": "1.0.1",
+    "AMLEdition": "AMLEd2",
+    "ID": "f6359b1a-4f41-4a85-842d-81cd4946fcb1"
+  },
+  {
+    "ClassName": "relativeHumidityMin",
+    "CaexPath": "AutomationML_BasicProperties.environmentalConditions_AttributeTypeLib/relativeHumidityMin",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.environmentalConditions_AttributeTypeLib",
+    "LibraryVersion": "1.0.2",
+    "AMLEdition": "AMLEd2",
+    "ID": "f6359b1a-4f41-4a85-842d-81cd4946fcb1"
+  },
+  {
+    "ClassName": "relativeHumidityMax",
+    "CaexPath": "AutomationML_BasicProperties.environmentalConditions_AttributeTypeLib/relativeHumidityMax",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.environmentalConditions_AttributeTypeLib",
+    "LibraryVersion": "1.0.0",
+    "AMLEdition": "AMLEd2",
+    "ID": "0e09869a-536c-4f47-a3aa-74d192cfd02b"
+  },
+  {
+    "ClassName": "relativeHumidityMax",
+    "CaexPath": "AutomationML_BasicProperties.environmentalConditions_AttributeTypeLib/relativeHumidityMax",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.environmentalConditions_AttributeTypeLib",
+    "LibraryVersion": "1.0.1",
+    "AMLEdition": "AMLEd2",
+    "ID": "0e09869a-536c-4f47-a3aa-74d192cfd02b"
+  },
+  {
+    "ClassName": "relativeHumidityMax",
+    "CaexPath": "AutomationML_BasicProperties.environmentalConditions_AttributeTypeLib/relativeHumidityMax",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.environmentalConditions_AttributeTypeLib",
+    "LibraryVersion": "1.0.2",
+    "AMLEdition": "AMLEd2",
+    "ID": "0e09869a-536c-4f47-a3aa-74d192cfd02b"
   },
   {
     "ClassName": "pressure",
@@ -3796,6 +3355,222 @@
     "LibraryVersion": "1.0.3",
     "AMLEdition": "AMLEd2",
     "ID": "3f19ca36-dcbd-477e-a6aa-0b97e5159675"
+  },
+  {
+    "ClassName": "capacitance",
+    "CaexPath": "AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/capacitance",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.electricalProperties_AttributeTypeLib",
+    "LibraryVersion": "1.0.0",
+    "AMLEdition": "AMLEd2",
+    "ID": "30883e1c-3eb9-44be-9270-8e76a1c9d8c1"
+  },
+  {
+    "ClassName": "capacitance",
+    "CaexPath": "AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/capacitance",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.electricalProperties_AttributeTypeLib",
+    "LibraryVersion": "1.0.1",
+    "AMLEdition": "AMLEd2",
+    "ID": "30883e1c-3eb9-44be-9270-8e76a1c9d8c1"
+  },
+  {
+    "ClassName": "capacitance",
+    "CaexPath": "AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/capacitance",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.electricalProperties_AttributeTypeLib",
+    "LibraryVersion": "1.0.2",
+    "AMLEdition": "AMLEd2",
+    "ID": "30883e1c-3eb9-44be-9270-8e76a1c9d8c1"
+  },
+  {
+    "ClassName": "capacitance",
+    "CaexPath": "AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/capacitance",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.electricalProperties_AttributeTypeLib",
+    "LibraryVersion": "1.0.3",
+    "AMLEdition": "AMLEd2",
+    "ID": "30883e1c-3eb9-44be-9270-8e76a1c9d8c1"
+  },
+  {
+    "ClassName": "electricResistance",
+    "CaexPath": "AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/electricResistance",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.electricalProperties_AttributeTypeLib",
+    "LibraryVersion": "1.0.0",
+    "AMLEdition": "AMLEd2",
+    "ID": "c858c81f-f169-4521-989f-a5576b0d495e"
+  },
+  {
+    "ClassName": "electricResistance",
+    "CaexPath": "AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/electricResistance",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.electricalProperties_AttributeTypeLib",
+    "LibraryVersion": "1.0.1",
+    "AMLEdition": "AMLEd2",
+    "ID": "c858c81f-f169-4521-989f-a5576b0d495e"
+  },
+  {
+    "ClassName": "electricResistance",
+    "CaexPath": "AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/electricResistance",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.electricalProperties_AttributeTypeLib",
+    "LibraryVersion": "1.0.2",
+    "AMLEdition": "AMLEd2",
+    "ID": "c858c81f-f169-4521-989f-a5576b0d495e"
+  },
+  {
+    "ClassName": "electricResistance",
+    "CaexPath": "AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/electricResistance",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.electricalProperties_AttributeTypeLib",
+    "LibraryVersion": "1.0.3",
+    "AMLEdition": "AMLEd2",
+    "ID": "c858c81f-f169-4521-989f-a5576b0d495e"
+  },
+  {
+    "ClassName": "electricConductance",
+    "CaexPath": "AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/electricConductance",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.electricalProperties_AttributeTypeLib",
+    "LibraryVersion": "1.0.0",
+    "AMLEdition": "AMLEd2",
+    "ID": "2910e227-3d0a-4a6f-96ad-c585db44e749"
+  },
+  {
+    "ClassName": "electricConductance",
+    "CaexPath": "AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/electricConductance",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.electricalProperties_AttributeTypeLib",
+    "LibraryVersion": "1.0.1",
+    "AMLEdition": "AMLEd2",
+    "ID": "2910e227-3d0a-4a6f-96ad-c585db44e749"
+  },
+  {
+    "ClassName": "electricConductance",
+    "CaexPath": "AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/electricConductance",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.electricalProperties_AttributeTypeLib",
+    "LibraryVersion": "1.0.2",
+    "AMLEdition": "AMLEd2",
+    "ID": "2910e227-3d0a-4a6f-96ad-c585db44e749"
+  },
+  {
+    "ClassName": "electricConductance",
+    "CaexPath": "AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/electricConductance",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.electricalProperties_AttributeTypeLib",
+    "LibraryVersion": "1.0.3",
+    "AMLEdition": "AMLEd2",
+    "ID": "2910e227-3d0a-4a6f-96ad-c585db44e749"
+  },
+  {
+    "ClassName": "magneticFlux",
+    "CaexPath": "AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/magneticFlux",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.electricalProperties_AttributeTypeLib",
+    "LibraryVersion": "1.0.0",
+    "AMLEdition": "AMLEd2",
+    "ID": "48c0890a-1e98-45db-9a05-fabf75ba1c07"
+  },
+  {
+    "ClassName": "magneticFlux",
+    "CaexPath": "AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/magneticFlux",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.electricalProperties_AttributeTypeLib",
+    "LibraryVersion": "1.0.1",
+    "AMLEdition": "AMLEd2",
+    "ID": "48c0890a-1e98-45db-9a05-fabf75ba1c07"
+  },
+  {
+    "ClassName": "magneticFlux",
+    "CaexPath": "AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/magneticFlux",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.electricalProperties_AttributeTypeLib",
+    "LibraryVersion": "1.0.2",
+    "AMLEdition": "AMLEd2",
+    "ID": "48c0890a-1e98-45db-9a05-fabf75ba1c07"
+  },
+  {
+    "ClassName": "magneticFlux",
+    "CaexPath": "AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/magneticFlux",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.electricalProperties_AttributeTypeLib",
+    "LibraryVersion": "1.0.3",
+    "AMLEdition": "AMLEd2",
+    "ID": "48c0890a-1e98-45db-9a05-fabf75ba1c07"
+  },
+  {
+    "ClassName": "magneticFluxDensity",
+    "CaexPath": "AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/magneticFluxDensity",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.electricalProperties_AttributeTypeLib",
+    "LibraryVersion": "1.0.0",
+    "AMLEdition": "AMLEd2",
+    "ID": "ab65f835-28a8-402f-8c6e-3a65cc72dafd"
+  },
+  {
+    "ClassName": "magneticFluxDensity",
+    "CaexPath": "AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/magneticFluxDensity",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.electricalProperties_AttributeTypeLib",
+    "LibraryVersion": "1.0.1",
+    "AMLEdition": "AMLEd2",
+    "ID": "ab65f835-28a8-402f-8c6e-3a65cc72dafd"
+  },
+  {
+    "ClassName": "magneticFluxDensity",
+    "CaexPath": "AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/magneticFluxDensity",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.electricalProperties_AttributeTypeLib",
+    "LibraryVersion": "1.0.2",
+    "AMLEdition": "AMLEd2",
+    "ID": "ab65f835-28a8-402f-8c6e-3a65cc72dafd"
+  },
+  {
+    "ClassName": "magneticFluxDensity",
+    "CaexPath": "AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/magneticFluxDensity",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.electricalProperties_AttributeTypeLib",
+    "LibraryVersion": "1.0.3",
+    "AMLEdition": "AMLEd2",
+    "ID": "ab65f835-28a8-402f-8c6e-3a65cc72dafd"
+  },
+  {
+    "ClassName": "inductance",
+    "CaexPath": "AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/inductance",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.electricalProperties_AttributeTypeLib",
+    "LibraryVersion": "1.0.0",
+    "AMLEdition": "AMLEd2",
+    "ID": "5ec36a29-70e1-41c8-9a9d-4ef02ae85e7e"
+  },
+  {
+    "ClassName": "inductance",
+    "CaexPath": "AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/inductance",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.electricalProperties_AttributeTypeLib",
+    "LibraryVersion": "1.0.1",
+    "AMLEdition": "AMLEd2",
+    "ID": "5ec36a29-70e1-41c8-9a9d-4ef02ae85e7e"
+  },
+  {
+    "ClassName": "inductance",
+    "CaexPath": "AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/inductance",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.electricalProperties_AttributeTypeLib",
+    "LibraryVersion": "1.0.2",
+    "AMLEdition": "AMLEd2",
+    "ID": "5ec36a29-70e1-41c8-9a9d-4ef02ae85e7e"
+  },
+  {
+    "ClassName": "inductance",
+    "CaexPath": "AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/inductance",
+    "BasePath": null,
+    "LibraryName": "AutomationML_BasicProperties.electricalProperties_AttributeTypeLib",
+    "LibraryVersion": "1.0.3",
+    "AMLEdition": "AMLEd2",
+    "ID": "5ec36a29-70e1-41c8-9a9d-4ef02ae85e7e"
   },
   {
     "ClassName": "assetName",
@@ -4534,5 +4309,230 @@
     "LibraryVersion": "1.0.3",
     "AMLEdition": "AMLEd2",
     "ID": "5d8eba78-b0f5-4d29-a610-1e06dcb71f39"
+  },
+  {
+    "ClassName": "laengeDKE",
+    "CaexPath": "DKE_Basis-Merkmale.Geometrie_AttributeTypeLib/laengeDKE",
+    "BasePath": null,
+    "LibraryName": "DKE_Basis-Merkmale.Geometrie_AttributeTypeLib",
+    "LibraryVersion": "1.0.0",
+    "AMLEdition": "AMLEd2",
+    "ID": "d1b50d6e-48a3-43dd-88ad-f3fc6f7c2585"
+  },
+  {
+    "ClassName": "laengeDKE",
+    "CaexPath": "DKE_Basis-Merkmale.Geometrie_AttributeTypeLib/laengeDKE",
+    "BasePath": null,
+    "LibraryName": "DKE_Basis-Merkmale.Geometrie_AttributeTypeLib",
+    "LibraryVersion": "1.0.1",
+    "AMLEdition": "AMLEd2",
+    "ID": "d1b50d6e-48a3-43dd-88ad-f3fc6f7c2585"
+  },
+  {
+    "ClassName": "breiteDKE",
+    "CaexPath": "DKE_Basis-Merkmale.Geometrie_AttributeTypeLib/breiteDKE",
+    "BasePath": null,
+    "LibraryName": "DKE_Basis-Merkmale.Geometrie_AttributeTypeLib",
+    "LibraryVersion": "1.0.1",
+    "AMLEdition": "AMLEd2",
+    "ID": "45b483e1-88b4-4ab6-8a2d-6a13783fa042"
+  },
+  {
+    "ClassName": "laenge-Typ",
+    "CaexPath": "HSPF_MasterClass_AttributeTypeLib/laenge-Typ",
+    "BasePath": null,
+    "LibraryName": "HSPF_MasterClass_AttributeTypeLib",
+    "LibraryVersion": "1.0.0",
+    "AMLEdition": "AMLEd2",
+    "ID": "64b9aaef-c381-49b9-9f47-11ef8bc0eff9"
+  },
+  {
+    "ClassName": "laenge-Typ",
+    "CaexPath": "HSPF_MasterClass_AttributeTypeLib/laenge-Typ",
+    "BasePath": null,
+    "LibraryName": "HSPF_MasterClass_AttributeTypeLib",
+    "LibraryVersion": "1.0.1",
+    "AMLEdition": "AMLEd2",
+    "ID": "64b9aaef-c381-49b9-9f47-11ef8bc0eff9"
+  },
+  {
+    "ClassName": "laenge-Typ",
+    "CaexPath": "HSPF_MasterClass_AttributeTypeLib/laenge-Typ",
+    "BasePath": null,
+    "LibraryName": "HSPF_MasterClass_AttributeTypeLib",
+    "LibraryVersion": "1.0.2",
+    "AMLEdition": "AMLEd2",
+    "ID": "64b9aaef-c381-49b9-9f47-11ef8bc0eff9"
+  },
+  {
+    "ClassName": "laenge-Typ",
+    "CaexPath": "HSPF_MasterClass_AttributeTypeLib/laenge-Typ",
+    "BasePath": null,
+    "LibraryName": "HSPF_MasterClass_AttributeTypeLib",
+    "LibraryVersion": "1.0.21",
+    "AMLEdition": "AMLEd2",
+    "ID": "64b9aaef-c381-49b9-9f47-11ef8bc0eff9"
+  },
+  {
+    "ClassName": "laenge-Typ",
+    "CaexPath": "HSPF_MasterClass_AttributeTypeLib/laenge-Typ",
+    "BasePath": null,
+    "LibraryName": "HSPF_MasterClass_AttributeTypeLib",
+    "LibraryVersion": "1.0.5",
+    "AMLEdition": "AMLEd2",
+    "ID": "64b9aaef-c381-49b9-9f47-11ef8bc0eff9"
+  },
+  {
+    "ClassName": "laenge-Typ",
+    "CaexPath": "HSPF_MasterClass_AttributeTypeLib/laenge-Typ",
+    "BasePath": null,
+    "LibraryName": "HSPF_MasterClass_AttributeTypeLib",
+    "LibraryVersion": "1.0.51",
+    "AMLEdition": "AMLEd2",
+    "ID": "64b9aaef-c381-49b9-9f47-11ef8bc0eff9"
+  },
+  {
+    "ClassName": "laenge-Typ",
+    "CaexPath": "HSPF_MasterClass_AttributeTypeLib/laenge-Typ",
+    "BasePath": null,
+    "LibraryName": "HSPF_MasterClass_AttributeTypeLib",
+    "LibraryVersion": "1.0.6",
+    "AMLEdition": "AMLEd2",
+    "ID": "64b9aaef-c381-49b9-9f47-11ef8bc0eff9"
+  },
+  {
+    "ClassName": "breite-Typ",
+    "CaexPath": "HSPF_MasterClass_AttributeTypeLib/breite-Typ",
+    "BasePath": null,
+    "LibraryName": "HSPF_MasterClass_AttributeTypeLib",
+    "LibraryVersion": "1.0.0",
+    "AMLEdition": "AMLEd2",
+    "ID": "e2b689ce-1f3c-4aa3-b485-f9b8245b25d3"
+  },
+  {
+    "ClassName": "breite-Typ",
+    "CaexPath": "HSPF_MasterClass_AttributeTypeLib/breite-Typ",
+    "BasePath": null,
+    "LibraryName": "HSPF_MasterClass_AttributeTypeLib",
+    "LibraryVersion": "1.0.1",
+    "AMLEdition": "AMLEd2",
+    "ID": "e2b689ce-1f3c-4aa3-b485-f9b8245b25d3"
+  },
+  {
+    "ClassName": "breite-Typ",
+    "CaexPath": "HSPF_MasterClass_AttributeTypeLib/breite-Typ",
+    "BasePath": null,
+    "LibraryName": "HSPF_MasterClass_AttributeTypeLib",
+    "LibraryVersion": "1.0.2",
+    "AMLEdition": "AMLEd2",
+    "ID": "e2b689ce-1f3c-4aa3-b485-f9b8245b25d3"
+  },
+  {
+    "ClassName": "breite-Typ",
+    "CaexPath": "HSPF_MasterClass_AttributeTypeLib/breite-Typ",
+    "BasePath": null,
+    "LibraryName": "HSPF_MasterClass_AttributeTypeLib",
+    "LibraryVersion": "1.0.21",
+    "AMLEdition": "AMLEd2",
+    "ID": "e2b689ce-1f3c-4aa3-b485-f9b8245b25d3"
+  },
+  {
+    "ClassName": "breite-Typ",
+    "CaexPath": "HSPF_MasterClass_AttributeTypeLib/breite-Typ",
+    "BasePath": null,
+    "LibraryName": "HSPF_MasterClass_AttributeTypeLib",
+    "LibraryVersion": "1.0.5",
+    "AMLEdition": "AMLEd2",
+    "ID": "e2b689ce-1f3c-4aa3-b485-f9b8245b25d3"
+  },
+  {
+    "ClassName": "breite-Typ",
+    "CaexPath": "HSPF_MasterClass_AttributeTypeLib/breite-Typ",
+    "BasePath": null,
+    "LibraryName": "HSPF_MasterClass_AttributeTypeLib",
+    "LibraryVersion": "1.0.51",
+    "AMLEdition": "AMLEd2",
+    "ID": "e2b689ce-1f3c-4aa3-b485-f9b8245b25d3"
+  },
+  {
+    "ClassName": "breite-Typ",
+    "CaexPath": "HSPF_MasterClass_AttributeTypeLib/breite-Typ",
+    "BasePath": null,
+    "LibraryName": "HSPF_MasterClass_AttributeTypeLib",
+    "LibraryVersion": "1.0.6",
+    "AMLEdition": "AMLEd2",
+    "ID": "e2b689ce-1f3c-4aa3-b485-f9b8245b25d3"
+  },
+  {
+    "ClassName": "hoeheTyp",
+    "CaexPath": "HSPF_MasterClass_AttributeTypeLib/hoeheTyp",
+    "BasePath": null,
+    "LibraryName": "HSPF_MasterClass_AttributeTypeLib",
+    "LibraryVersion": "1.0.0",
+    "AMLEdition": "AMLEd2",
+    "ID": "dde31796-c974-4621-9db8-918305b2eb44"
+  },
+  {
+    "ClassName": "hoeheTyp",
+    "CaexPath": "HSPF_MasterClass_AttributeTypeLib/hoeheTyp",
+    "BasePath": null,
+    "LibraryName": "HSPF_MasterClass_AttributeTypeLib",
+    "LibraryVersion": "1.0.1",
+    "AMLEdition": "AMLEd2",
+    "ID": "dde31796-c974-4621-9db8-918305b2eb44"
+  },
+  {
+    "ClassName": "hoeheTyp",
+    "CaexPath": "HSPF_MasterClass_AttributeTypeLib/hoeheTyp",
+    "BasePath": null,
+    "LibraryName": "HSPF_MasterClass_AttributeTypeLib",
+    "LibraryVersion": "1.0.2",
+    "AMLEdition": "AMLEd2",
+    "ID": "dde31796-c974-4621-9db8-918305b2eb44"
+  },
+  {
+    "ClassName": "hoeheTyp",
+    "CaexPath": "HSPF_MasterClass_AttributeTypeLib/hoeheTyp",
+    "BasePath": null,
+    "LibraryName": "HSPF_MasterClass_AttributeTypeLib",
+    "LibraryVersion": "1.0.21",
+    "AMLEdition": "AMLEd2",
+    "ID": "dde31796-c974-4621-9db8-918305b2eb44"
+  },
+  {
+    "ClassName": "hoeheTyp",
+    "CaexPath": "HSPF_MasterClass_AttributeTypeLib/hoeheTyp",
+    "BasePath": null,
+    "LibraryName": "HSPF_MasterClass_AttributeTypeLib",
+    "LibraryVersion": "1.0.5",
+    "AMLEdition": "AMLEd2",
+    "ID": "dde31796-c974-4621-9db8-918305b2eb44"
+  },
+  {
+    "ClassName": "hoeheTyp",
+    "CaexPath": "HSPF_MasterClass_AttributeTypeLib/hoeheTyp",
+    "BasePath": null,
+    "LibraryName": "HSPF_MasterClass_AttributeTypeLib",
+    "LibraryVersion": "1.0.51",
+    "AMLEdition": "AMLEd2",
+    "ID": "dde31796-c974-4621-9db8-918305b2eb44"
+  },
+  {
+    "ClassName": "hoeheTyp",
+    "CaexPath": "HSPF_MasterClass_AttributeTypeLib/hoeheTyp",
+    "BasePath": null,
+    "LibraryName": "HSPF_MasterClass_AttributeTypeLib",
+    "LibraryVersion": "1.0.6",
+    "AMLEdition": "AMLEd2",
+    "ID": "dde31796-c974-4621-9db8-918305b2eb44"
+  },
+  {
+    "ClassName": "vol",
+    "CaexPath": "HSPF_MasterClass_AttributeTypeLib/vol",
+    "BasePath": null,
+    "LibraryName": "HSPF_MasterClass_AttributeTypeLib",
+    "LibraryVersion": "1.0.6",
+    "AMLEdition": "AMLEd2",
+    "ID": "23665839-fd6c-4f20-aaca-6b81a44cae78"
   }
 ]
