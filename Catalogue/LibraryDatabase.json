@@ -342,6 +342,28 @@
               "Sources": null,
               "Signature": "MEUCIQD50UOF5iwXZfDZ8/9GVqvnP8OGveMBtkznldzbow69dAIgTDVksVnplJkylhTWlr7ufUTvvnVM2qIv5/dFIt81G6o=",
               "PublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEyk6uIUNugOojm3akdEAA4XoGGBEui0zPVhzkjR0RfprHFWrbPpFMfExaW2TaeChaegCmjE2boFph1aI1eNEPcQ==",
+              "Revision": {
+                "DownloadLink": null,
+                "DownloadLinks": [
+                  "https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/AutomationML_BasicProperties_Libraries_AMLEd2_1.0.1.aml"
+                ],
+                "Signature": "MEUCIQDib/yRucZEeObD9zoZaAgB69xf1pa810EFdcLhNFFibAIgSPyI\u002B/FWWSmccrGrBJ\u002BTrbL\u002BexhjG\u002BOWLzbgaLj7ACs=",
+                "Revision": null
+              }
+            },
+            {
+              "Version": "1.0.2",
+              "CAEXVersion": "3.0",
+              "AMLEdition": "AMLEd2",
+              "IsArchived": false,
+              "Description": "This AttributeTypeLib contains fundamental, domain-independent identification attributes that uniquely describe an asset or object across its lifecycle. The attributes are universally applicable and independent of organizational, system-specific, or process-related contexts.",
+              "DownloadLink": null,
+              "DownloadLinks": [
+                "https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/AutomationML_BasicProperties_Libraries_AMLEd2_1.0.2.aml"
+              ],
+              "Sources": null,
+              "Signature": "MEYCIQCg2z\u002B7J6PXbtNou\u002B6CFt9pHoFSwGtiFl/7ie5n9LoV7AIhAPr3gB/iKSVDrsVVZt79h3Ldmh2LzxwOU0MrHRq7ofOj",
+              "PublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEyk6uIUNugOojm3akdEAA4XoGGBEui0zPVhzkjR0RfprHFWrbPpFMfExaW2TaeChaegCmjE2boFph1aI1eNEPcQ==",
               "Revision": null
             }
           ]
@@ -383,6 +405,28 @@
               ],
               "Sources": null,
               "Signature": "MEYCIQDoQ/4m5wy4LZs\u002BYgiDxE/\u002BiXsvlP2yIFIHSYbRsdAa9AIhANtJbHfw/rxJ2dVMODhaOzoM/gPM/7e6iMAGj1GsqHu8",
+              "PublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEyk6uIUNugOojm3akdEAA4XoGGBEui0zPVhzkjR0RfprHFWrbPpFMfExaW2TaeChaegCmjE2boFph1aI1eNEPcQ==",
+              "Revision": {
+                "DownloadLink": null,
+                "DownloadLinks": [
+                  "https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/AutomationML_BasicProperties_Libraries_AMLEd2_1.0.1.aml"
+                ],
+                "Signature": "MEYCIQDMNYRJl9ouALjngbxdj1CnEUcBt6fy9cxRWODe8luo5QIhANiU31QQfNmYhn1rTwM2VHCwPlQuVVv4BXxV2xb5hYLC",
+                "Revision": null
+              }
+            },
+            {
+              "Version": "1.0.2",
+              "CAEXVersion": "3.0",
+              "AMLEdition": "AMLEd2",
+              "IsArchived": false,
+              "Description": "This AttributeTypeLib defines fundamental, domain-neutral physical and geometric properties that are generally applicable to technical assets. The contained attributes represent basic quantities such as mass, geometry, and selected fundamental physical quantities, without assuming any specific engineering domain or application context.",
+              "DownloadLink": null,
+              "DownloadLinks": [
+                "https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/AutomationML_BasicProperties_Libraries_AMLEd2_1.0.2.aml"
+              ],
+              "Sources": null,
+              "Signature": "MEUCICzbEyyqXGG2jps2TJW3YybTdqZxW4MFZCAfFeT3C/tkAiEAtxlBQus4D\u002BChoo4jNMHXmRgGV2HdxLlklKjlm3h1aYo=",
               "PublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEyk6uIUNugOojm3akdEAA4XoGGBEui0zPVhzkjR0RfprHFWrbPpFMfExaW2TaeChaegCmjE2boFph1aI1eNEPcQ==",
               "Revision": null
             }
@@ -426,6 +470,28 @@
               "Sources": null,
               "Signature": "MEUCIQCtqnwXlDNqW7KJTKMi/JgrgLcPLdQNKzIt5IXS8EY5uwIgAoXo4GAfrzUn2sKWBwOqUv0yuf2HlJE0Jjiq/R\u002BfdDo=",
               "PublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEyk6uIUNugOojm3akdEAA4XoGGBEui0zPVhzkjR0RfprHFWrbPpFMfExaW2TaeChaegCmjE2boFph1aI1eNEPcQ==",
+              "Revision": {
+                "DownloadLink": null,
+                "DownloadLinks": [
+                  "https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/AutomationML_BasicProperties_Libraries_AMLEd2_1.0.1.aml"
+                ],
+                "Signature": "MEQCIDvc9hfRzukFutm86y3VBMr2URNP6FQmPmSsSZyHL7X8AiAsng4zCJoQNFEErRi9F2grvYSEZcQQ/LkpWFu0hYpcgw==",
+                "Revision": null
+              }
+            },
+            {
+              "Version": "1.0.2",
+              "CAEXVersion": "3.0",
+              "AMLEdition": "AMLEd2",
+              "IsArchived": false,
+              "Description": "This AttributeTypeLib contains basic environmental boundary conditions that define the general permissible operating and storage environment of an asset. The attributes are limited to universally relevant environmental constraints and exclude domain-specific, normative, or application-dependent environmental requirements.",
+              "DownloadLink": null,
+              "DownloadLinks": [
+                "https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/AutomationML_BasicProperties_Libraries_AMLEd2_1.0.2.aml"
+              ],
+              "Sources": null,
+              "Signature": "MEQCIDCRcCinacBeW0OPJg4tLKSWZ5BEIwn2U2BcOQJoFr0eAiBdrCBqxc\u002Bnhvfp0x1IWpg7OeMZG1TlTzw703\u002BNzQi9QQ==",
+              "PublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEyk6uIUNugOojm3akdEAA4XoGGBEui0zPVhzkjR0RfprHFWrbPpFMfExaW2TaeChaegCmjE2boFph1aI1eNEPcQ==",
               "Revision": null
             }
           ]
@@ -467,6 +533,28 @@
               ],
               "Sources": null,
               "Signature": "MEUCIGMe2sb1S/d79oIdqtfRKugst3esgXSZ0ENrTvlZ0ObHAiEA7oXA7MBReGfVCfumdCnVNKlN0EdHpdVMQ/t7nUt1RNo=",
+              "PublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEyk6uIUNugOojm3akdEAA4XoGGBEui0zPVhzkjR0RfprHFWrbPpFMfExaW2TaeChaegCmjE2boFph1aI1eNEPcQ==",
+              "Revision": {
+                "DownloadLink": null,
+                "DownloadLinks": [
+                  "https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/AutomationML_BasicProperties_Libraries_AMLEd2_1.0.1.aml"
+                ],
+                "Signature": "MEYCIQCt78nmBYy6v3DaK8odfPfh8xYl8QFpfaBL7G7AYwZdEQIhAPXtbyxzkfoTXBOabihf7uQK4Xu0srbhbBatlvNjD\u002Bo0",
+                "Revision": null
+              }
+            },
+            {
+              "Version": "1.0.2",
+              "CAEXVersion": "3.0",
+              "AMLEdition": "AMLEd2",
+              "IsArchived": false,
+              "Description": "This AttributeTypeLib defines fundamental, domain-neutral electrical and energy-related properties of an asset.\nThe contained attributes represent measurable electrical quantities (such as electric charge, electric potential difference, capacitance, resistance, conductance, magnetic flux, magnetic flux density, and inductance) as well as generic power demand and energy demand characteristics.\nAll attributes are formulated independent of a specific engineering discipline, energy carrier, device class, control concept, or organizational context, and are intended to provide a common semantic basis for describing electrical behavior and consumption-related characteristics.",
+              "DownloadLink": null,
+              "DownloadLinks": [
+                "https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/AutomationML_BasicProperties_Libraries_AMLEd2_1.0.2.aml"
+              ],
+              "Sources": null,
+              "Signature": "MEYCIQDwAZQr5e0yGbDRnBR6fj3UGBRalHVZ5xisJQ\u002Bd1VwdmgIhALt0RR8bjgmPuMyt9ctM\u002B5Fgo79G4klpqTxg/BA30LT/",
               "PublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEyk6uIUNugOojm3akdEAA4XoGGBEui0zPVhzkjR0RfprHFWrbPpFMfExaW2TaeChaegCmjE2boFph1aI1eNEPcQ==",
               "Revision": null
             }
@@ -510,6 +598,28 @@
               "Sources": null,
               "Signature": "MEYCIQC1Xjor\u002BR6obQtfp9C5uBdCh\u002B0l6rVd5s/\u002B3RxMbVfrzwIhANiGKZqxd6mYG0tKmLZJxe8l0O8sWVImaqZ0kK6vnWmV",
               "PublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEyk6uIUNugOojm3akdEAA4XoGGBEui0zPVhzkjR0RfprHFWrbPpFMfExaW2TaeChaegCmjE2boFph1aI1eNEPcQ==",
+              "Revision": {
+                "DownloadLink": null,
+                "DownloadLinks": [
+                  "https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/AutomationML_BasicProperties_Libraries_AMLEd2_1.0.1.aml"
+                ],
+                "Signature": "MEUCIQCkUaJyTdbxC5Cogxky9Tah9/BjZCTxsMzKOCJWdBt2iAIgbJzbl\u002BwgnRznXw/dG1A4d4p3dLInchUf9SZRS7ANHr0=",
+                "Revision": null
+              }
+            },
+            {
+              "Version": "1.0.2",
+              "CAEXVersion": "3.0",
+              "AMLEdition": "AMLEd2",
+              "IsArchived": false,
+              "Description": "This AttributeTypeLib defines attributes related to reliability, availability, and expected lifetime characteristics of an asset.\n\nThe attributes describe statistical properties and time-based expectations of asset behavior under defined conditions. They are formulated in a domain-neutral manner and do not assume a specific engineering discipline, organizational structure, or maintenance implementation.\n\nThe contained attributes provide a generic semantic basis for expressing reliability- and lifetime-related information. Domain-specific interpretations, operational contexts, or maintenance concepts may be introduced by referencing or extending these attributes in dedicated Domain Extension Libraries.",
+              "DownloadLink": null,
+              "DownloadLinks": [
+                "https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/AutomationML_BasicProperties_Libraries_AMLEd2_1.0.2.aml"
+              ],
+              "Sources": null,
+              "Signature": "MEYCIQClLydJVHjvbrte1ntn6tGFAsLfG7gh/fEFRDhEa2MJMgIhAJ1bpA/kgjbCAP55ZdgBJP8cZL2PCNoQ7agM0Ly8SNPD",
+              "PublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEyk6uIUNugOojm3akdEAA4XoGGBEui0zPVhzkjR0RfprHFWrbPpFMfExaW2TaeChaegCmjE2boFph1aI1eNEPcQ==",
               "Revision": null
             }
           ]
@@ -551,6 +661,28 @@
               ],
               "Sources": null,
               "Signature": "MEYCIQDrS9jZzFydMkaLu4QvfolPenqG\u002BgvG16xCFeBITJiOsQIhAJo9jGCOikYoQMsSd7Y4jQP4qG7NTAjWwrzEdOyxFOi5",
+              "PublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEyk6uIUNugOojm3akdEAA4XoGGBEui0zPVhzkjR0RfprHFWrbPpFMfExaW2TaeChaegCmjE2boFph1aI1eNEPcQ==",
+              "Revision": {
+                "DownloadLink": null,
+                "DownloadLinks": [
+                  "https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/AutomationML_BasicProperties_Libraries_AMLEd2_1.0.1.aml"
+                ],
+                "Signature": "MEUCIGIdyluuvYXIEIzWlaZarGPPGpMkpICVUXy3\u002BiwZNqHiAiEA0qTD5FsHu8ioT1Bh0jAJCERmnwz4ZEzNFS6TgHkCMPM=",
+                "Revision": null
+              }
+            },
+            {
+              "Version": "1.0.2",
+              "CAEXVersion": "3.0",
+              "AMLEdition": "AMLEd2",
+              "IsArchived": false,
+              "Description": "This AttributeTypeLib defines appearance-related attributes that describe the visual and externally perceivable properties of an asset, such as color, finish, markings, and variants. The attributes are descriptive, domain-neutral, and independent of functional or technical behavior.",
+              "DownloadLink": null,
+              "DownloadLinks": [
+                "https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/AutomationML_BasicProperties_Libraries_AMLEd2_1.0.2.aml"
+              ],
+              "Sources": null,
+              "Signature": "MEQCIFk/17W0YYlO2eaJ30eP/C5cr\u002BhdpmmnEZEWLZCNHTrSAiB0CgsVbHc\u002Bsvi4PiTprGa38JgugUAT/wSteN7whgDiyw==",
               "PublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEyk6uIUNugOojm3akdEAA4XoGGBEui0zPVhzkjR0RfprHFWrbPpFMfExaW2TaeChaegCmjE2boFph1aI1eNEPcQ==",
               "Revision": null
             }
@@ -594,6 +726,28 @@
               "Sources": null,
               "Signature": "MEYCIQCR5bGtZh38BgxuezV3iQqWKJhWwuns3Yz3ZJ0usYNuEAIhANyt9sqkw0PLaeJVLSylynmItUbVzfcFLy9Q7unrRRqW",
               "PublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEyk6uIUNugOojm3akdEAA4XoGGBEui0zPVhzkjR0RfprHFWrbPpFMfExaW2TaeChaegCmjE2boFph1aI1eNEPcQ==",
+              "Revision": {
+                "DownloadLink": null,
+                "DownloadLinks": [
+                  "https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/AutomationML_BasicProperties_Libraries_AMLEd2_1.0.1.aml"
+                ],
+                "Signature": "MEUCICKUU/dxUWPIoH3rUH2eOlfoUJ9n9MdeJfBWMVhYRYfdAiEAlxbec8RASLRfAJAwPkEC57rxzTr7nuu3u/B/JZVuvfE=",
+                "Revision": null
+              }
+            },
+            {
+              "Version": "1.0.2",
+              "CAEXVersion": "3.0",
+              "AMLEdition": "AMLEd2",
+              "IsArchived": false,
+              "Description": "This AttributeTypeLib defines kinematic attributes that describe motion-related properties and states of an asset in a defined reference frame. The attributes are optional, generic, and domain-neutral, intended for use when motion description is relevant.",
+              "DownloadLink": null,
+              "DownloadLinks": [
+                "https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/AutomationML_BasicProperties_Libraries_AMLEd2_1.0.2.aml"
+              ],
+              "Sources": null,
+              "Signature": "MEUCIA7MWRpnVnF9FE5azycR7UsfEL3qkWjZhLVWd8mRHRIKAiEA3sKqhZ3nCNBDgbB3HGC8fayZ4gN4HiDfGFZ2s4\u002B5QS8=",
+              "PublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEyk6uIUNugOojm3akdEAA4XoGGBEui0zPVhzkjR0RfprHFWrbPpFMfExaW2TaeChaegCmjE2boFph1aI1eNEPcQ==",
               "Revision": null
             }
           ]
@@ -635,6 +789,48 @@
               ],
               "Sources": null,
               "Signature": "MEUCIQCkgGlXTiOE5VxCvSrOXTiO6gveYaFlDl/5715uziZdBAIgbctTg3ART082MIdm1ZHIX/Mhu5KADuMlJKTli3KJlxo=",
+              "PublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEyk6uIUNugOojm3akdEAA4XoGGBEui0zPVhzkjR0RfprHFWrbPpFMfExaW2TaeChaegCmjE2boFph1aI1eNEPcQ==",
+              "Revision": {
+                "DownloadLink": null,
+                "DownloadLinks": [
+                  "https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/AutomationML_BasicProperties_Libraries_AMLEd2_1.0.1.aml"
+                ],
+                "Signature": "MEUCIHOsIVtWGvb\u002BTcufWVaAfnsWq0Wacte8rTQGVTUk0o4zAiEAkRJVknD5ed5ZOh3VVWSjhd1vBDHnw7Buy9K/Bq74hiw=",
+                "Revision": null
+              }
+            },
+            {
+              "Version": "1.0.2",
+              "CAEXVersion": "3.0",
+              "AMLEdition": "AMLEd2",
+              "IsArchived": false,
+              "Description": "This AttributeTypeLib contains fundamental physical constants and conventional reference values used in science and engineering.\nThe attributes represent fixed numerical values that are independent of a specific asset instance and are typically defined by international metrology (for example as SI defining constants) or widely accepted conventions.\nThe contained constants are domain-neutral and may be referenced to support consistent calculations, unit realizations, and documentation across models and lifecycle phases without introducing application-specific semantics.",
+              "DownloadLink": null,
+              "DownloadLinks": [
+                "https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/AutomationML_BasicProperties_Libraries_AMLEd2_1.0.2.aml"
+              ],
+              "Sources": null,
+              "Signature": "MEUCIQDXF2iuy6MiqvskUdYRWow6XTzhQFKTAw0m1TvibFqCfAIgcaI37kAjx7UDZbwsx9eYZQACENfyJZklNUZEzFB/PQo=",
+              "PublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEyk6uIUNugOojm3akdEAA4XoGGBEui0zPVhzkjR0RfprHFWrbPpFMfExaW2TaeChaegCmjE2boFph1aI1eNEPcQ==",
+              "Revision": null
+            }
+          ]
+        },
+        {
+          "Name": "AutomationML_BasicProperties.commercialProperties_AttributeTypeLib",
+          "Versions": [
+            {
+              "Version": "1.0.0",
+              "CAEXVersion": "3.0",
+              "AMLEdition": "AMLEd2",
+              "IsArchived": false,
+              "Description": "\nThis AttributeTypeLib defines fundamental, domain-neutral commercial attributes used to identify and reference commercial and procurement-related aspects of an asset.\nThe contained attributes describe factual commercial information such as prices, currencies, contractual references, and procurement identifiers without implying accounting rules, valuation logic, or organizational processes.\nAll attributes are formulated independent of a specific industry, enterprise structure, financial system, or business workflow and serve as optional reference information across the asset lifecycle.\n  ",
+              "DownloadLink": null,
+              "DownloadLinks": [
+                "https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/AutomationML_BasicProperties_Libraries_AMLEd2_1.0.2.aml"
+              ],
+              "Sources": null,
+              "Signature": "MEUCIFV/ALeqCJP7eFfRWBBr4VE8JXdAFN2E/1p11c\u002BiMO9iAiEAnaa\u002BB9lffITeK8Pt7p6638b7q96KEHlMpG0uMz6Xudk=",
               "PublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEyk6uIUNugOojm3akdEAA4XoGGBEui0zPVhzkjR0RfprHFWrbPpFMfExaW2TaeChaegCmjE2boFph1aI1eNEPcQ==",
               "Revision": null
             }
