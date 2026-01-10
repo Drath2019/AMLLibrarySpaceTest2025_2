@@ -108,15 +108,6 @@
     "ID": "1c770ac0-9256-4ac9-a365-b47c94f43634"
   },
   {
-    "ClassName": "resistance",
-    "CaexPath": "AutomationML_DomainExtension.electrics_AttributeTypeLib/resistance",
-    "BasePath": null,
-    "LibraryName": "AutomationML_DomainExtension.electrics_AttributeTypeLib",
-    "LibraryVersion": "1.0.0",
-    "AMLEdition": "AMLEd2",
-    "ID": "e9c8c746-8ef1-4da6-adcc-06ecda64c3f4"
-  },
-  {
     "ClassName": "capacity",
     "CaexPath": "AutomationML_BasicProperties.Electrics_AttributeTypeLib/capacity",
     "BasePath": null,
@@ -882,51 +873,6 @@
     "ID": "45b483e1-88b4-4ab6-8a2d-6a13783fa042"
   },
   {
-    "ClassName": "electricalLoadCase",
-    "CaexPath": "AutomationML_DomainExtension.electrics_AttributeTypeLib/electricalLoadCase",
-    "BasePath": null,
-    "LibraryName": "AutomationML_DomainExtension.electrics_AttributeTypeLib",
-    "LibraryVersion": "1.0.0",
-    "AMLEdition": "AMLEd2",
-    "ID": "80cd14c2-d582-45fe-9492-48f5d2886621"
-  },
-  {
-    "ClassName": "phaseCount",
-    "CaexPath": "AutomationML_DomainExtension.electrics_AttributeTypeLib/phaseCount",
-    "BasePath": null,
-    "LibraryName": "AutomationML_DomainExtension.electrics_AttributeTypeLib",
-    "LibraryVersion": "1.0.0",
-    "AMLEdition": "AMLEd2",
-    "ID": "f2f331f6-8d94-4c12-af64-829465168305"
-  },
-  {
-    "ClassName": "powerFactor",
-    "CaexPath": "AutomationML_DomainExtension.electrics_AttributeTypeLib/powerFactor",
-    "BasePath": null,
-    "LibraryName": "AutomationML_DomainExtension.electrics_AttributeTypeLib",
-    "LibraryVersion": "1.0.0",
-    "AMLEdition": "AMLEd2",
-    "ID": "651da632-b0ec-4936-b992-e00e88ddfc75"
-  },
-  {
-    "ClassName": "impedance",
-    "CaexPath": "AutomationML_DomainExtension.electrics_AttributeTypeLib/impedance",
-    "BasePath": null,
-    "LibraryName": "AutomationML_DomainExtension.electrics_AttributeTypeLib",
-    "LibraryVersion": "1.0.0",
-    "AMLEdition": "AMLEd2",
-    "ID": "1608fe20-8b89-455c-bac9-cc4eef715258"
-  },
-  {
-    "ClassName": "capacitance",
-    "CaexPath": "AutomationML_DomainExtension.electrics_AttributeTypeLib/capacitance",
-    "BasePath": null,
-    "LibraryName": "AutomationML_DomainExtension.electrics_AttributeTypeLib",
-    "LibraryVersion": "1.0.0",
-    "AMLEdition": "AMLEd2",
-    "ID": "0c2604ab-bf31-4915-a1f4-09a43e7a2bb5"
-  },
-  {
     "ClassName": "capacitance",
     "CaexPath": "AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/capacitance",
     "BasePath": null,
@@ -955,15 +901,6 @@
   },
   {
     "ClassName": "inductance",
-    "CaexPath": "AutomationML_DomainExtension.electrics_AttributeTypeLib/inductance",
-    "BasePath": null,
-    "LibraryName": "AutomationML_DomainExtension.electrics_AttributeTypeLib",
-    "LibraryVersion": "1.0.0",
-    "AMLEdition": "AMLEd2",
-    "ID": "bc424155-4209-4ed6-9d17-ab487c50f6ba"
-  },
-  {
-    "ClassName": "inductance",
     "CaexPath": "AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/inductance",
     "BasePath": null,
     "LibraryName": "AutomationML_BasicProperties.electricalProperties_AttributeTypeLib",
@@ -988,60 +925,6 @@
     "LibraryVersion": "1.0.2",
     "AMLEdition": "AMLEd2",
     "ID": "5ec36a29-70e1-41c8-9a9d-4ef02ae85e7e"
-  },
-  {
-    "ClassName": "insulationResistance",
-    "CaexPath": "AutomationML_DomainExtension.electrics_AttributeTypeLib/insulationResistance",
-    "BasePath": null,
-    "LibraryName": "AutomationML_DomainExtension.electrics_AttributeTypeLib",
-    "LibraryVersion": "1.0.0",
-    "AMLEdition": "AMLEd2",
-    "ID": "1db4a9eb-66c7-4de0-8b47-1e72a66088f3"
-  },
-  {
-    "ClassName": "dielectricStrength",
-    "CaexPath": "AutomationML_DomainExtension.electrics_AttributeTypeLib/dielectricStrength",
-    "BasePath": null,
-    "LibraryName": "AutomationML_DomainExtension.electrics_AttributeTypeLib",
-    "LibraryVersion": "1.0.0",
-    "AMLEdition": "AMLEd2",
-    "ID": "5ce1e351-8c74-4697-aae9-cd4bc5c4b4b5"
-  },
-  {
-    "ClassName": "shortCircuitCurrent",
-    "CaexPath": "AutomationML_DomainExtension.electrics_AttributeTypeLib/shortCircuitCurrent",
-    "BasePath": null,
-    "LibraryName": "AutomationML_DomainExtension.electrics_AttributeTypeLib",
-    "LibraryVersion": "1.0.0",
-    "AMLEdition": "AMLEd2",
-    "ID": "1ab4a372-42fa-4b90-8e19-cf0c248e1ae0"
-  },
-  {
-    "ClassName": "leakageCurrent",
-    "CaexPath": "AutomationML_DomainExtension.electrics_AttributeTypeLib/leakageCurrent",
-    "BasePath": null,
-    "LibraryName": "AutomationML_DomainExtension.electrics_AttributeTypeLib",
-    "LibraryVersion": "1.0.0",
-    "AMLEdition": "AMLEd2",
-    "ID": "9cc1aec3-ab6b-4691-8e69-0cfe45d4b919"
-  },
-  {
-    "ClassName": "maximumVoltage",
-    "CaexPath": "AutomationML_DomainExtension.electrics_AttributeTypeLib/maximumVoltage",
-    "BasePath": null,
-    "LibraryName": "AutomationML_DomainExtension.electrics_AttributeTypeLib",
-    "LibraryVersion": "1.0.0",
-    "AMLEdition": "AMLEd2",
-    "ID": "b926be28-8d43-490d-8ff4-b197a2c9f7e7"
-  },
-  {
-    "ClassName": "maximumCurrent",
-    "CaexPath": "AutomationML_DomainExtension.electrics_AttributeTypeLib/maximumCurrent",
-    "BasePath": null,
-    "LibraryName": "AutomationML_DomainExtension.electrics_AttributeTypeLib",
-    "LibraryVersion": "1.0.0",
-    "AMLEdition": "AMLEd2",
-    "ID": "10581962-bb33-4a3e-bf4d-5acf880fa1a3"
   },
   {
     "ClassName": "linearVelocity",
