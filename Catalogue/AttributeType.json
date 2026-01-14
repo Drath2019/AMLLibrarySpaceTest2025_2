@@ -5650,5 +5650,50 @@
     "LibraryVersion": "1.0.4",
     "AMLEdition": "AMLEd2",
     "ID": "b377e1a5-f06e-4f4e-bbb9-5fbdeac41f59"
+  },
+  {
+    "ClassName": "colorRGB",
+    "CaexPath": "AutomationML_DomainExtension.colorSystems_AttributeTypeLib/colorRGB",
+    "BasePath": null,
+    "LibraryName": "AutomationML_DomainExtension.colorSystems_AttributeTypeLib",
+    "LibraryVersion": "1.0.0",
+    "AMLEdition": "AMLEd2",
+    "ID": "00d363a8-1532-41c4-bd24-e063d350c2d5"
+  },
+  {
+    "ClassName": "colorHEX",
+    "CaexPath": "AutomationML_DomainExtension.colorSystems_AttributeTypeLib/colorHEX",
+    "BasePath": null,
+    "LibraryName": "AutomationML_DomainExtension.colorSystems_AttributeTypeLib",
+    "LibraryVersion": "1.0.0",
+    "AMLEdition": "AMLEd2",
+    "ID": "7f00228a-4a7f-45f4-8787-a7554d0aa66d"
+  },
+  {
+    "ClassName": "colorCMYK",
+    "CaexPath": "AutomationML_DomainExtension.colorSystems_AttributeTypeLib/colorCMYK",
+    "BasePath": null,
+    "LibraryName": "AutomationML_DomainExtension.colorSystems_AttributeTypeLib",
+    "LibraryVersion": "1.0.0",
+    "AMLEdition": "AMLEd2",
+    "ID": "24654107-bd81-48b2-ae35-a0744d557b22"
+  },
+  {
+    "ClassName": "colorCIELAB",
+    "CaexPath": "AutomationML_DomainExtension.colorSystems_AttributeTypeLib/colorCIELAB",
+    "BasePath": null,
+    "LibraryName": "AutomationML_DomainExtension.colorSystems_AttributeTypeLib",
+    "LibraryVersion": "1.0.0",
+    "AMLEdition": "AMLEd2",
+    "ID": "e356a22a-e5c8-46e3-9932-897ab52aaf49"
+  },
+  {
+    "ClassName": "colorRAL",
+    "CaexPath": "AutomationML_DomainExtension.colorSystems_AttributeTypeLib/colorRAL",
+    "BasePath": null,
+    "LibraryName": "AutomationML_DomainExtension.colorSystems_AttributeTypeLib",
+    "LibraryVersion": "1.0.0",
+    "AMLEdition": "AMLEd2",
+    "ID": "ab47ea3d-738f-469a-bb94-74ea986bdba8"
   }
 ]
