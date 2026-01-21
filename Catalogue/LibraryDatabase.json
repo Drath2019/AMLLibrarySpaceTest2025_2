@@ -1248,6 +1248,28 @@
               "Sources": null,
               "Signature": "MEQCIACTqclNa3KzmCWooSh4NtnOL39r\u002B5W\u002BHXzNlTyTjh66AiBepovVwXc74UMnP\u002Bi1UE94TA\u002BtBvnwDXfPqoOt\u002B2YoLA==",
               "PublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEyk6uIUNugOojm3akdEAA4XoGGBEui0zPVhzkjR0RfprHFWrbPpFMfExaW2TaeChaegCmjE2boFph1aI1eNEPcQ==",
+              "Revision": {
+                "DownloadLink": null,
+                "DownloadLinks": [
+                  "https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/AutomationML_DomainExtension.electrics_AttributeTypeLib_AMLEd2_1.0.0.aml"
+                ],
+                "Signature": "MEQCIH04M6zD90hOJH2mvh5XCDxlQkNdVfx5/NbxMIJb2q65AiAEkYgf8emPV4C6Zr0k4iTjOwxvk/7u40ptWEpRk5dXuQ==",
+                "Revision": null
+              }
+            },
+            {
+              "Version": "1.0.1",
+              "CAEXVersion": "3.0",
+              "AMLEdition": "AMLEd2",
+              "IsArchived": false,
+              "Description": "This AttributeTypeLib defines electrics-domain-specific attributes for describing electrical supply configuration, operating conditions, test conditions, and limit values that require an explicit electrics context.\nThe attributes complement the domain-neutral Basic Properties by adding electrical application semantics such as load case referencing, rated and permissible limits, installation conditions, and verification parameters.\nWherever an attribute refines or contextualizes a domain-neutral electrical quantity, a semantic reference to the corresponding Basic Properties attribute is provided.",
+              "DownloadLink": null,
+              "DownloadLinks": [
+                "https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/AutomationML_DomainExtension.electrics_AttributeTypeLib_AMLEd2_1.0.1.aml"
+              ],
+              "Sources": null,
+              "Signature": "MEYCIQDcCj\u002BNPNg2bwmScZ\u002B/URn\u002BKsaS9vmXtyzP\u002BgOXBd31iQIhAO53lCtRFltfN\u002BMrh1bGSFApurcfILUvEgGOjlAW4SXL",
+              "PublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEyk6uIUNugOojm3akdEAA4XoGGBEui0zPVhzkjR0RfprHFWrbPpFMfExaW2TaeChaegCmjE2boFph1aI1eNEPcQ==",
               "Revision": null
             }
           ]
