@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CAEXFile SchemaVersion="3.0" FileName="AutomationML_DomainExtension.electrics_AttributeTypeLib_AMLEd2_1.0.1.aml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.dke.de/CAEX" xsi:schemaLocation="http://www.dke.de/CAEX CAEX_ClassModel_V.3.0.xsd">
+  <SuperiorStandardVersion>AutomationML 2.1</SuperiorStandardVersion>
+  <SourceDocumentInformation OriginName="DomainExtension.electrics_AttributeTypeLib" OriginID="d605cd7d-e522-43c1-b81b-79b13ff8de0f" OriginVersion="1.0.1" LastWritingDateTime="2026-01-21T11:23:11.9257246+01:00" OriginProjectID="" OriginProjectTitle="" OriginRelease="1.0.1" OriginVendor="AutomationML" OriginVendorURL="AutomationML_DomainExtension.electrics_AttributeTypeLib_AMLEd2_1.0.1.aml" />
+  <ExternalReference Path="https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/AutomationML_DomainExtension.electrics_AttributeTypeLib_AMLEd2_1.0.0.aml" Alias="AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_0_0">
+    <Description>VersionRef</Description>
+    <Version>OldVersion</Version>
+  </ExternalReference>
+  <AttributeTypeLib Name="AutomationML_DomainExtension.electrics_AttributeTypeLib" ID="d533165b-d88b-4260-97f2-c866b090ad9b">
+    <Description>This AttributeTypeLib defines electrics-domain-specific attributes for describing electrical supply configuration, operating conditions, test conditions, and limit values that require an explicit electrics context.
+The attributes complement the domain-neutral Basic Properties by adding electrical application semantics such as load case referencing, rated and permissible limits, installation conditions, and verification parameters.
+Wherever an attribute refines or contextualizes a domain-neutral electrical quantity, a semantic reference to the corresponding Basic Properties attribute is provided.</Description>
+    <Version>1.0.1</Version>
+    <Revision>
+      <RevisionDate>2026-01-21T11:23:11.5678127+01:00</RevisionDate>
+      <OldVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_0_0@AutomationML_DomainExtension.electrics_AttributeTypeLib</OldVersion>
+      <AuthorName>enisc</AuthorName>
+    </Revision>
+    <AttributeType Name="electricLoadCase" AttributeDataType="xs:string" ID="11565ca2-4fd0-402b-a75b-7e84f61a80c7">
+      <Description>Identifier or description of the electrical load case or operating scenario to which the specified electrics-domain attributes apply.</Description>
+      <Version>1.0.1</Version>
+      <Revision>
+        <RevisionDate>2026-01-21T11:23:11.5786369+01:00</RevisionDate>
+        <OldVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_0_0@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricLoadCase</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+    </AttributeType>
+    <AttributeType Name="electricOperatingCondition" AttributeDataType="xs:string" ID="1dea6dbc-f244-4999-8343-0c4b88d85b24">
+      <Description>Textual definition of the operating condition that is required to interpret the given electrical values, for example ambient temperature, duty cycle, installation method, or ventilation state.</Description>
+      <Version>1.0.1</Version>
+      <Revision>
+        <RevisionDate>2026-01-21T11:23:11.8522171+01:00</RevisionDate>
+        <OldVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_0_0@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricOperatingCondition</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+    </AttributeType>
+    <AttributeType Name="electricTestCondition" AttributeDataType="xs:string" ID="48a277e0-8177-4ce1-b0e7-c5f18167138c">
+      <Description>Textual definition of the test condition under which an electrical verification value was determined, for example test voltage, test duration, humidity, or measurement method.</Description>
+      <Version>1.0.1</Version>
+      <Revision>
+        <RevisionDate>2026-01-21T11:23:11.8529543+01:00</RevisionDate>
+        <OldVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_0_0@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricTestCondition</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+    </AttributeType>
+    <AttributeType Name="electricPhaseCount" AttributeDataType="xs:integer" Unit="1" ID="d4ee0697-3e03-4166-9c81-510395ab78d6">
+      <Description>Number of electrical phases used to supply the asset under the defined electrics context.</Description>
+      <Version>1.0.1</Version>
+      <Revision>
+        <RevisionDate>2026-01-21T11:23:11.8535523+01:00</RevisionDate>
+        <OldVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_0_0@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricPhaseCount</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+    </AttributeType>
+    <AttributeType Name="electricSupplyFrequency" AttributeDataType="xs:double" Unit="Hz" ID="9335184d-31c3-40c4-9076-1442945612df">
+      <Description>Supply frequency under which the electrical characteristics apply.</Description>
+      <Version>1.0.1</Version>
+      <Revision>
+        <RevisionDate>2026-01-21T11:23:11.8541914+01:00</RevisionDate>
+        <OldVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_0_0@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricSupplyFrequency</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+      <RefSemantic CorrespondingAttributePath="AMLID:ab33ca2e-6a35-474e-8362-aecd3059a25b" />
+    </AttributeType>
+    <AttributeType Name="electricPowerFactor" AttributeDataType="xs:double" Unit="1" ID="850dd4d0-ba7d-48e6-a59f-9ab1ac77b333">
+      <Description>Power factor of the asset under the defined electrical load case, representing the ratio of active power to apparent power.</Description>
+      <Version>1.0.1</Version>
+      <Revision>
+        <RevisionDate>2026-01-21T11:23:11.855077+01:00</RevisionDate>
+        <OldVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_0_0@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricPowerFactor</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+    </AttributeType>
+    <AttributeType Name="electricCurrentAtLoadCase" AttributeDataType="xs:double" Unit="A" ID="f0b20659-879f-4c64-a69c-553e8877f4e0">
+      <Description>Electric current under the referenced electrical load case.</Description>
+      <Version>1.0.1</Version>
+      <Revision>
+        <RevisionDate>2026-01-21T11:23:11.8558412+01:00</RevisionDate>
+        <OldVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_0_0@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricCurrentAtLoadCase</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+      <RefSemantic CorrespondingAttributePath="AMLID:5d8eba78-b0f5-4d29-a610-1e06dcb71f39" />
+    </AttributeType>
+    <AttributeType Name="electricResistanceAtLoadCase" AttributeDataType="xs:double" Unit="Ω" ID="79a22330-4939-4897-a68e-77c0c9485ac3">
+      <Description>Electrical resistance of a defined conductive path under the referenced electrical load case.</Description>
+      <Version>1.0.1</Version>
+      <Revision>
+        <RevisionDate>2026-01-21T11:23:11.8566612+01:00</RevisionDate>
+        <OldVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_0_0@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricResistanceAtLoadCase</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+      <RefSemantic CorrespondingAttributePath="AMLID:c858c81f-f169-4521-989f-a5576b0d495e" />
+    </AttributeType>
+    <AttributeType Name="electricConductanceAtLoadCase" AttributeDataType="xs:double" Unit="S" ID="2c1448f5-45dd-43fb-8518-cd4d529ae60a">
+      <Description>Electrical conductance of a defined conductive path under the referenced electrical load case.</Description>
+      <Version>1.0.1</Version>
+      <Revision>
+        <RevisionDate>2026-01-21T11:23:11.8575146+01:00</RevisionDate>
+        <OldVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_0_0@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricConductanceAtLoadCase</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+      <RefSemantic CorrespondingAttributePath="AMLID:2910e227-3d0a-4a6f-96ad-c585db44e749" />
+    </AttributeType>
+    <AttributeType Name="electricCapacitanceAtLoadCase" AttributeDataType="xs:double" Unit="F" ID="56d5da97-751d-44b4-964c-1173f2e572c9">
+      <Description>Electrical capacitance of a defined component under the referenced electrical load case.</Description>
+      <Version>1.0.1</Version>
+      <Revision>
+        <RevisionDate>2026-01-21T11:23:11.858458+01:00</RevisionDate>
+        <OldVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_0_0@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricCapacitanceAtLoadCase</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+      <RefSemantic CorrespondingAttributePath="AMLID:30883e1c-3eb9-44be-9270-8e76a1c9d8c1" />
+    </AttributeType>
+    <AttributeType Name="electricInductanceAtLoadCase" AttributeDataType="xs:double" Unit="H" ID="2b019c48-d669-4f80-916d-725b20765801">
+      <Description>Electrical inductance of a defined inductive component under the referenced electrical load case.</Description>
+      <Version>1.0.1</Version>
+      <Revision>
+        <RevisionDate>2026-01-21T11:23:11.8594374+01:00</RevisionDate>
+        <OldVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_0_0@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricInductanceAtLoadCase</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+      <RefSemantic CorrespondingAttributePath="AMLID:5ec36a29-70e1-41c8-9a9d-4ef02ae85e7e" />
+    </AttributeType>
+    <AttributeType Name="electricMagneticFluxAtLoadCase" AttributeDataType="xs:double" Unit="Wb" ID="8df82316-ea8b-4723-8876-3afd114c89c8">
+      <Description>Magnetic flux associated with the electrical state under the referenced electrical load case.</Description>
+      <Version>1.0.1</Version>
+      <Revision>
+        <RevisionDate>2026-01-21T11:23:11.8605549+01:00</RevisionDate>
+        <OldVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_0_0@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricMagneticFluxAtLoadCase</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+      <RefSemantic CorrespondingAttributePath="AMLID:48c0890a-1e98-45db-9a05-fabf75ba1c07" />
+    </AttributeType>
+    <AttributeType Name="electricMagneticFluxDensityAtLoadCase" AttributeDataType="xs:double" Unit="T" ID="059bdccb-a928-47bf-a83b-7fd9d8689c00">
+      <Description>Magnetic flux density associated with the electrical state under the referenced electrical load case.</Description>
+      <Version>1.0.1</Version>
+      <Revision>
+        <RevisionDate>2026-01-21T11:23:11.8617352+01:00</RevisionDate>
+        <OldVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_0_0@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricMagneticFluxDensityAtLoadCase</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+      <RefSemantic CorrespondingAttributePath="AMLID:ab65f835-28a8-402f-8c6e-3a65cc72dafd" />
+    </AttributeType>
+    <AttributeType Name="electricActivePowerAtLoadCase" AttributeDataType="xs:double" Unit="W" ID="44379469-4fde-4020-a880-a4d4b7bd3ed9">
+      <Description>Active power under the referenced electrical load case.</Description>
+      <Version>1.0.1</Version>
+      <Revision>
+        <RevisionDate>2026-01-21T11:23:11.8699765+01:00</RevisionDate>
+        <OldVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_0_0@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricActivePowerAtLoadCase</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+      <RefSemantic CorrespondingAttributePath="AMLID:ec58785a-9471-452d-b58e-541f5b7509c0" />
+    </AttributeType>
+    <AttributeType Name="electricEnergyAtLoadCase" AttributeDataType="xs:double" Unit="J" ID="2c511ee6-814b-44db-888e-f8af4fbd45e0">
+      <Description>Energy associated with the referenced electrical load case and the defined observation interval.</Description>
+      <Version>1.0.1</Version>
+      <Revision>
+        <RevisionDate>2026-01-21T11:23:11.871357+01:00</RevisionDate>
+        <OldVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_0_0@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricEnergyAtLoadCase</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+      <RefSemantic CorrespondingAttributePath="AMLID:e60cdad5-74b3-4c9a-be25-e81eef078f45" />
+    </AttributeType>
+    <AttributeType Name="electricRatedVoltage" AttributeDataType="xs:double" Unit="V" ID="9e3653ad-5845-47c1-a8f3-836c3863fd02">
+      <Description>Rated electric potential difference for which the asset is designed under stated conditions.</Description>
+      <Version>1.0.1</Version>
+      <Revision>
+        <RevisionDate>2026-01-21T11:23:11.8726829+01:00</RevisionDate>
+        <OldVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_0_0@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricRatedVoltage</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+      <RefSemantic CorrespondingAttributePath="AMLID:379fb214-3454-49ab-9635-d1cb46534c57" />
+    </AttributeType>
+    <AttributeType Name="electricRatedInputVoltage" AttributeDataType="xs:double" Unit="V" ID="320ad42a-46b9-4a4b-b4e6-03c40c11b11a">
+      <Description>Input voltage value specified by the manufacturer, determined under defined conditions, to which the asset may be connected for normal operation and on which product specific tests are based.</Description>
+      <Version>1.0.1</Version>
+      <Revision>
+        <RevisionDate>2026-01-21T11:23:11.8726829+01:00</RevisionDate>
+        <OldVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_0_0@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricRatedVoltage</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+      <RefSemantic CorrespondingAttributePath="AMLID:379fb214-3454-49ab-9635-d1cb46534c57" />
+      <RefSemantic CorrespondingAttributePath="0173-1#02-AAB070#009" />
+    </AttributeType>
+    <AttributeType Name="electricRatedCurrent" AttributeDataType="xs:double" Unit="A" ID="76e8bef5-b124-4d49-a0ba-84429d9d9256">
+      <Description>Rated electric current for which the asset is designed under stated conditions.</Description>
+      <Version>1.0.1</Version>
+      <Revision>
+        <RevisionDate>2026-01-21T11:23:11.8739597+01:00</RevisionDate>
+        <OldVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_0_0@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricRatedCurrent</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+      <RefSemantic CorrespondingAttributePath="AMLID:5d8eba78-b0f5-4d29-a610-1e06dcb71f39" />
+    </AttributeType>
+    <AttributeType Name="electricPermissibleVoltageMax" AttributeDataType="xs:double" Unit="V" ID="4def02ac-ca58-4605-ace2-2b7f844b4796">
+      <Description>Maximum permissible electric potential difference under the defined electrics operating condition.</Description>
+      <Version>1.0.1</Version>
+      <Revision>
+        <RevisionDate>2026-01-21T11:23:11.875427+01:00</RevisionDate>
+        <OldVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_0_0@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricPermissibleVoltageMax</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+      <RefSemantic CorrespondingAttributePath="AMLID:379fb214-3454-49ab-9635-d1cb46534c57" />
+    </AttributeType>
+    <AttributeType Name="electricPermissibleCurrentMax" AttributeDataType="xs:double" Unit="A" ID="5fdd95b4-d7b8-4936-b36b-436a6087522e">
+      <Description>Maximum permissible electric current under the defined electrics operating condition.</Description>
+      <Version>1.0.1</Version>
+      <Revision>
+        <RevisionDate>2026-01-21T11:23:11.8770244+01:00</RevisionDate>
+        <OldVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_0_0@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricPermissibleCurrentMax</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+      <RefSemantic CorrespondingAttributePath="AMLID:5d8eba78-b0f5-4d29-a610-1e06dcb71f39" />
+    </AttributeType>
+    <AttributeType Name="electricShortCircuitCurrentProspective" AttributeDataType="xs:double" Unit="A" ID="b5295973-31cb-4763-aa70-fddb086b7c46">
+      <Description>Prospective short-circuit current relevant for electrical design verification and protective coordination under the defined electrics context.</Description>
+      <Version>1.0.1</Version>
+      <Revision>
+        <RevisionDate>2026-01-21T11:23:11.8785822+01:00</RevisionDate>
+        <OldVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_0_0@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricShortCircuitCurrentProspective</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+      <RefSemantic CorrespondingAttributePath="AMLID:5d8eba78-b0f5-4d29-a610-1e06dcb71f39" />
+    </AttributeType>
+    <AttributeType Name="electricLeakageCurrent" AttributeDataType="xs:double" Unit="A" ID="8c074337-2a08-4e61-8ced-023ea816cc37">
+      <Description>Leakage current occurring under the defined electrics operating condition.</Description>
+      <Version>1.0.1</Version>
+      <Revision>
+        <RevisionDate>2026-01-21T11:23:11.8802503+01:00</RevisionDate>
+        <OldVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_0_0@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricLeakageCurrent</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+      <RefSemantic CorrespondingAttributePath="AMLID:5d8eba78-b0f5-4d29-a610-1e06dcb71f39" />
+    </AttributeType>
+    <AttributeType Name="electricInsulationResistance" AttributeDataType="xs:double" Unit="Ω" ID="6271f0ab-ec17-41df-b0e0-87beb0eedaa6">
+      <Description>Insulation resistance under the defined electrics test condition.</Description>
+      <Version>1.0.1</Version>
+      <Revision>
+        <RevisionDate>2026-01-21T11:23:11.8821595+01:00</RevisionDate>
+        <OldVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_0_0@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricInsulationResistance</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+      <RefSemantic CorrespondingAttributePath="AMLID:c858c81f-f169-4521-989f-a5576b0d495e" />
+    </AttributeType>
+    <AttributeType Name="electricDielectricStrength" AttributeDataType="xs:double" Unit="V/m" ID="3de36780-2899-40fe-b828-63690778c4a8">
+      <Description>Dielectric strength of insulating material under the defined electrics test condition.</Description>
+      <Version>1.0.1</Version>
+      <Revision>
+        <RevisionDate>2026-01-21T11:23:11.8842584+01:00</RevisionDate>
+        <OldVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_0_0@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricDielectricStrength</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+    </AttributeType>
+    <AttributeType Name="electricProtectiveConductorResistance" AttributeDataType="xs:double" Unit="Ω" ID="b1988883-76b8-4c29-b8be-370363bcb9dc">
+      <Description>Resistance of the protective conductor path under the defined electrics test condition, used for verifying protective earthing continuity.</Description>
+      <Version>1.0.1</Version>
+      <Revision>
+        <RevisionDate>2026-01-21T11:23:11.8861823+01:00</RevisionDate>
+        <OldVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_0_0@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricProtectiveConductorResistance</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+      <RefSemantic CorrespondingAttributePath="AMLID:c858c81f-f169-4521-989f-a5576b0d495e" />
+    </AttributeType>
+    <AttributeType Name="electricEarthContinuityResistance" AttributeDataType="xs:double" Unit="Ω" ID="25660a56-1670-42fd-ba4d-1a62f6b83af5">
+      <Description>Measured continuity resistance of the earthing path under the defined electrics test condition.</Description>
+      <Version>1.0.1</Version>
+      <Revision>
+        <RevisionDate>2026-01-21T11:23:11.8880215+01:00</RevisionDate>
+        <OldVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_0_0@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricEarthContinuityResistance</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+      <RefSemantic CorrespondingAttributePath="AMLID:c858c81f-f169-4521-989f-a5576b0d495e" />
+    </AttributeType>
+    <AttributeType Name="electricImpedanceMagnitudeAtLoadCase" AttributeDataType="xs:double" Unit="Ω" ID="653781cb-f941-4498-919f-b114c9b0a279">
+      <Description>Magnitude of electrical impedance under the referenced electrical load case. The interpretation requires frequency and measurement definition via the electrics context.</Description>
+      <Version>1.0.1</Version>
+      <Revision>
+        <RevisionDate>2026-01-21T11:23:11.8900037+01:00</RevisionDate>
+        <OldVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_0_0@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricImpedanceMagnitudeAtLoadCase</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+    </AttributeType>
+    <AttributeType Name="electricImpedancePhaseAngleAtLoadCase" AttributeDataType="xs:double" Unit="rad" ID="8118a35f-45b5-4c19-8560-ee19022045fb">
+      <Description>Phase angle of electrical impedance under the referenced electrical load case. The interpretation requires frequency and measurement definition via the electrics context.</Description>
+      <Version>1.0.1</Version>
+      <Revision>
+        <RevisionDate>2026-01-21T11:23:11.8918253+01:00</RevisionDate>
+        <OldVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_0_0@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricImpedancePhaseAngleAtLoadCase</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+      <RefSemantic CorrespondingAttributePath="AMLID:f8f2a4e1-06ee-42e2-aaee-b98b12ddeaf9" />
+    </AttributeType>
+    <AttributeType Name="electricResidualCurrentRated" AttributeDataType="xs:double" Unit="A" ID="14d9459c-0ae4-473a-9dc6-62348cebe309">
+      <Description>Rated residual operating current of a residual current protective device according to applicable electrical safety standards.
+  </Description>
+      <Version>1.0.1</Version>
+      <Revision>
+        <RevisionDate>2026-01-21T11:23:11.893831+01:00</RevisionDate>
+        <OldVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_0_0@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricResidualCurrentRated</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+      <RefSemantic CorrespondingAttributePath="AMLID:5d8eba78-b0f5-4d29-a610-1e06dcb71f39" />
+    </AttributeType>
+    <AttributeType Name="electricTrippingTimeResidualCurrent" AttributeDataType="xs:double" Unit="ms" ID="1b31fa2c-27a7-43d7-a74f-1a3883b2010e">
+      <Description>Maximum tripping time of a residual current protective device at rated residual current.
+  </Description>
+      <Version>1.0.1</Version>
+      <Revision>
+        <RevisionDate>2026-01-21T11:23:11.8956853+01:00</RevisionDate>
+        <OldVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_0_0@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricTrippingTimeResidualCurrent</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+      <RefSemantic CorrespondingAttributePath="AMLID:7abe1b56-40c9-4295-b8d8-798dcf490200" />
+    </AttributeType>
+    <AttributeType Name="electricTouchVoltagePermissible" AttributeDataType="xs:double" Unit="V" ID="680dacfb-d4b9-4044-b13c-8fc8d552b4f2">
+      <Description>Maximum permissible touch voltage under specified electrical fault conditions.
+  </Description>
+      <Version>1.0.1</Version>
+      <Revision>
+        <RevisionDate>2026-01-21T11:23:11.8978788+01:00</RevisionDate>
+        <OldVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_0_0@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricTouchVoltagePermissible</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+      <RefSemantic CorrespondingAttributePath="AMLID:379fb214-3454-49ab-9635-d1cb46534c57" />
+    </AttributeType>
+    <AttributeType Name="electricProspectiveFaultPower" AttributeDataType="xs:double" Unit="kVA" ID="35684eeb-63d1-4ab8-bb1e-98b77e074cee">
+      <Description>Prospective short circuit power available at a defined point in the electrical installation.
+  </Description>
+      <Version>1.0.1</Version>
+      <Revision>
+        <RevisionDate>2026-01-21T11:23:11.8999984+01:00</RevisionDate>
+        <OldVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_0_0@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricProspectiveFaultPower</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+      <RefSemantic CorrespondingAttributePath="AMLID:ec58785a-9471-452d-b58e-541f5b7509c0" />
+    </AttributeType>
+    <AttributeType Name="electricClearanceDistance" AttributeDataType="xs:double" Unit="mm" ID="5f6b2d7a-b60c-406a-86e3-5488961c26ae">
+      <Description>Minimum air clearance distance required between conductive parts to prevent electrical breakdown.
+  </Description>
+      <Version>1.0.1</Version>
+      <Revision>
+        <RevisionDate>2026-01-21T11:23:11.902129+01:00</RevisionDate>
+        <OldVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_0_0@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricClearanceDistance</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+      <RefSemantic CorrespondingAttributePath="AMLID:e8c6fce9-b1bd-4e51-8888-fc1a9eceabd7" />
+    </AttributeType>
+    <AttributeType Name="electricCreepageDistance" AttributeDataType="xs:double" Unit="mm" ID="56eb98d8-d7d4-445e-82d9-e838df3ccdbc">
+      <Description>Minimum creepage distance along the surface of insulating material to prevent electrical tracking.
+  </Description>
+      <Version>1.0.1</Version>
+      <Revision>
+        <RevisionDate>2026-01-21T11:23:11.9043751+01:00</RevisionDate>
+        <OldVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_0_0@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricCreepageDistance</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+      <RefSemantic CorrespondingAttributePath="AMLID:e8c6fce9-b1bd-4e51-8888-fc1a9eceabd7" />
+    </AttributeType>
+    <AttributeType Name="electricEarthingSystemType" AttributeDataType="xs:string" ID="b2a1d3e4-6a4b-4c9e-9f91-1d2a3b4c5d6e">
+      <Description>Type of earthing system such as TN, TT, or IT.</Description>
+      <Version>1.0.1</Version>
+      <Revision>
+        <RevisionDate>2026-01-21T11:23:11.9105612+01:00</RevisionDate>
+        <OldVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_0_0@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricEarthingSystemType</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+    </AttributeType>
+    <AttributeType Name="electricWindingConnectionType" AttributeDataType="xs:string" ID="c3d4e5f6-7b8c-4a9d-8e01-2f3a4b5c6d7e">
+      <Description>Connection type of electrical windings such as star or delta.</Description>
+      <Version>1.0.1</Version>
+      <Revision>
+        <RevisionDate>2026-01-21T11:23:11.9127835+01:00</RevisionDate>
+        <OldVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_0_0@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricWindingConnectionType</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+    </AttributeType>
+    <AttributeType Name="electricInsulationClass" AttributeDataType="xs:string" ID="d4e5f607-8c9d-4eaf-9012-3a4b5c6d7e8f">
+      <Description>Classification of the insulation system according to applicable standards.</Description>
+      <Version>1.0.1</Version>
+      <Revision>
+        <RevisionDate>2026-01-21T11:23:11.9154714+01:00</RevisionDate>
+        <OldVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_0_0@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricInsulationClass</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+    </AttributeType>
+    <AttributeType Name="electricProtectionClass" AttributeDataType="xs:string" ID="e5f60718-9dae-4fab-a123-4b5c6d7e8f90">
+      <Description>Electrical protection class assigned to the equipment.</Description>
+      <Version>1.0.1</Version>
+      <Revision>
+        <RevisionDate>2026-01-21T11:23:11.9179929+01:00</RevisionDate>
+        <OldVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_0_0@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricProtectionClass</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+    </AttributeType>
+    <AttributeType Name="electricEnclosureProtectionRating" AttributeDataType="xs:string" ID="f6071829-aebf-50bc-b234-5c6d7e8f9012">
+      <Description>Ingress protection rating of the enclosure according to relevant standards.</Description>
+      <Version>1.0.1</Version>
+      <Revision>
+        <RevisionDate>2026-01-21T11:23:11.9204416+01:00</RevisionDate>
+        <OldVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_0_0@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricEnclosureProtectionRating</OldVersion>
+        <AuthorName>enisc</AuthorName>
+      </Revision>
+    </AttributeType>
+  </AttributeTypeLib>
+</CAEXFile>
