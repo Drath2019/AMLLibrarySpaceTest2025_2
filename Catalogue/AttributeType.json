@@ -10233,15 +10233,6 @@
     "ID": "11565ca2-4fd0-402b-a75b-7e84f61a80c7"
   },
   {
-    "ClassName": "electricLoadCase",
-    "CaexPath": "AutomationML_DomainExtension.electrics_AttributeTypeLib/electricLoadCase",
-    "BasePath": null,
-    "LibraryName": "AutomationML_DomainExtension.electrics_AttributeTypeLib",
-    "LibraryVersion": "1.2.1",
-    "AMLEdition": "AMLEd2",
-    "ID": "11565ca2-4fd0-402b-a75b-7e84f61a80c7"
-  },
-  {
     "ClassName": "electricOperatingCondition",
     "CaexPath": "AutomationML_DomainExtension.electrics_AttributeTypeLib/electricOperatingCondition",
     "BasePath": null,
@@ -10265,15 +10256,6 @@
     "BasePath": null,
     "LibraryName": "AutomationML_DomainExtension.electrics_AttributeTypeLib",
     "LibraryVersion": "1.1.0",
-    "AMLEdition": "AMLEd2",
-    "ID": "1dea6dbc-f244-4999-8343-0c4b88d85b24"
-  },
-  {
-    "ClassName": "electricOperatingCondition",
-    "CaexPath": "AutomationML_DomainExtension.electrics_AttributeTypeLib/electricOperatingCondition",
-    "BasePath": null,
-    "LibraryName": "AutomationML_DomainExtension.electrics_AttributeTypeLib",
-    "LibraryVersion": "1.2.1",
     "AMLEdition": "AMLEd2",
     "ID": "1dea6dbc-f244-4999-8343-0c4b88d85b24"
   },
@@ -10305,15 +10287,6 @@
     "ID": "48a277e0-8177-4ce1-b0e7-c5f18167138c"
   },
   {
-    "ClassName": "electricTestCondition",
-    "CaexPath": "AutomationML_DomainExtension.electrics_AttributeTypeLib/electricTestCondition",
-    "BasePath": null,
-    "LibraryName": "AutomationML_DomainExtension.electrics_AttributeTypeLib",
-    "LibraryVersion": "1.2.1",
-    "AMLEdition": "AMLEd2",
-    "ID": "48a277e0-8177-4ce1-b0e7-c5f18167138c"
-  },
-  {
     "ClassName": "electricPhaseCount",
     "CaexPath": "AutomationML_DomainExtension.electrics_AttributeTypeLib/electricPhaseCount",
     "BasePath": null,
@@ -10337,15 +10310,6 @@
     "BasePath": null,
     "LibraryName": "AutomationML_DomainExtension.electrics_AttributeTypeLib",
     "LibraryVersion": "1.1.0",
-    "AMLEdition": "AMLEd2",
-    "ID": "d4ee0697-3e03-4166-9c81-510395ab78d6"
-  },
-  {
-    "ClassName": "electricPhaseCount",
-    "CaexPath": "AutomationML_DomainExtension.electrics_AttributeTypeLib/electricPhaseCount",
-    "BasePath": null,
-    "LibraryName": "AutomationML_DomainExtension.electrics_AttributeTypeLib",
-    "LibraryVersion": "1.2.1",
     "AMLEdition": "AMLEd2",
     "ID": "d4ee0697-3e03-4166-9c81-510395ab78d6"
   },
@@ -10377,15 +10341,6 @@
     "ID": "9335184d-31c3-40c4-9076-1442945612df"
   },
   {
-    "ClassName": "electricSupplyFrequency",
-    "CaexPath": "AutomationML_DomainExtension.electrics_AttributeTypeLib/electricSupplyFrequency",
-    "BasePath": "AutomationMLBasicPropertiesLibrariesAMLEd21_2_1@AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/frequency",
-    "LibraryName": "AutomationML_DomainExtension.electrics_AttributeTypeLib",
-    "LibraryVersion": "1.2.1",
-    "AMLEdition": "AMLEd2",
-    "ID": "9335184d-31c3-40c4-9076-1442945612df"
-  },
-  {
     "ClassName": "electricPowerFactor",
     "CaexPath": "AutomationML_DomainExtension.electrics_AttributeTypeLib/electricPowerFactor",
     "BasePath": null,
@@ -10409,15 +10364,6 @@
     "BasePath": null,
     "LibraryName": "AutomationML_DomainExtension.electrics_AttributeTypeLib",
     "LibraryVersion": "1.1.0",
-    "AMLEdition": "AMLEd2",
-    "ID": "850dd4d0-ba7d-48e6-a59f-9ab1ac77b333"
-  },
-  {
-    "ClassName": "electricPowerFactor",
-    "CaexPath": "AutomationML_DomainExtension.electrics_AttributeTypeLib/electricPowerFactor",
-    "BasePath": null,
-    "LibraryName": "AutomationML_DomainExtension.electrics_AttributeTypeLib",
-    "LibraryVersion": "1.2.1",
     "AMLEdition": "AMLEd2",
     "ID": "850dd4d0-ba7d-48e6-a59f-9ab1ac77b333"
   },
@@ -10449,15 +10395,6 @@
     "ID": "f0b20659-879f-4c64-a69c-553e8877f4e0"
   },
   {
-    "ClassName": "electricCurrentAtLoadCase",
-    "CaexPath": "AutomationML_DomainExtension.electrics_AttributeTypeLib/electricCurrentAtLoadCase",
-    "BasePath": "AutomationMLBasicPropertiesLibrariesAMLEd21_2_1@AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/current",
-    "LibraryName": "AutomationML_DomainExtension.electrics_AttributeTypeLib",
-    "LibraryVersion": "1.2.1",
-    "AMLEdition": "AMLEd2",
-    "ID": "f0b20659-879f-4c64-a69c-553e8877f4e0"
-  },
-  {
     "ClassName": "electricResistanceAtLoadCase",
     "CaexPath": "AutomationML_DomainExtension.electrics_AttributeTypeLib/electricResistanceAtLoadCase",
     "BasePath": null,
@@ -10481,15 +10418,6 @@
     "BasePath": "AutomationMLBasicPropertiesLibrariesAMLEd21_1_0@AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/electricResistance",
     "LibraryName": "AutomationML_DomainExtension.electrics_AttributeTypeLib",
     "LibraryVersion": "1.1.0",
-    "AMLEdition": "AMLEd2",
-    "ID": "79a22330-4939-4897-a68e-77c0c9485ac3"
-  },
-  {
-    "ClassName": "electricResistanceAtLoadCase",
-    "CaexPath": "AutomationML_DomainExtension.electrics_AttributeTypeLib/electricResistanceAtLoadCase",
-    "BasePath": "AutomationMLBasicPropertiesLibrariesAMLEd21_2_1@AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/electricResistance",
-    "LibraryName": "AutomationML_DomainExtension.electrics_AttributeTypeLib",
-    "LibraryVersion": "1.2.1",
     "AMLEdition": "AMLEd2",
     "ID": "79a22330-4939-4897-a68e-77c0c9485ac3"
   },
@@ -10521,15 +10449,6 @@
     "ID": "2c1448f5-45dd-43fb-8518-cd4d529ae60a"
   },
   {
-    "ClassName": "electricConductanceAtLoadCase",
-    "CaexPath": "AutomationML_DomainExtension.electrics_AttributeTypeLib/electricConductanceAtLoadCase",
-    "BasePath": "AutomationMLBasicPropertiesLibrariesAMLEd21_2_1@AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/electricConductance",
-    "LibraryName": "AutomationML_DomainExtension.electrics_AttributeTypeLib",
-    "LibraryVersion": "1.2.1",
-    "AMLEdition": "AMLEd2",
-    "ID": "2c1448f5-45dd-43fb-8518-cd4d529ae60a"
-  },
-  {
     "ClassName": "electricCapacitanceAtLoadCase",
     "CaexPath": "AutomationML_DomainExtension.electrics_AttributeTypeLib/electricCapacitanceAtLoadCase",
     "BasePath": null,
@@ -10553,15 +10472,6 @@
     "BasePath": "AutomationMLBasicPropertiesLibrariesAMLEd21_1_0@AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/capacitance",
     "LibraryName": "AutomationML_DomainExtension.electrics_AttributeTypeLib",
     "LibraryVersion": "1.1.0",
-    "AMLEdition": "AMLEd2",
-    "ID": "56d5da97-751d-44b4-964c-1173f2e572c9"
-  },
-  {
-    "ClassName": "electricCapacitanceAtLoadCase",
-    "CaexPath": "AutomationML_DomainExtension.electrics_AttributeTypeLib/electricCapacitanceAtLoadCase",
-    "BasePath": "AutomationMLBasicPropertiesLibrariesAMLEd21_2_1@AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/capacitance",
-    "LibraryName": "AutomationML_DomainExtension.electrics_AttributeTypeLib",
-    "LibraryVersion": "1.2.1",
     "AMLEdition": "AMLEd2",
     "ID": "56d5da97-751d-44b4-964c-1173f2e572c9"
   },
@@ -10593,15 +10503,6 @@
     "ID": "2b019c48-d669-4f80-916d-725b20765801"
   },
   {
-    "ClassName": "electricInductanceAtLoadCase",
-    "CaexPath": "AutomationML_DomainExtension.electrics_AttributeTypeLib/electricInductanceAtLoadCase",
-    "BasePath": "AutomationMLBasicPropertiesLibrariesAMLEd21_2_1@AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/inductance",
-    "LibraryName": "AutomationML_DomainExtension.electrics_AttributeTypeLib",
-    "LibraryVersion": "1.2.1",
-    "AMLEdition": "AMLEd2",
-    "ID": "2b019c48-d669-4f80-916d-725b20765801"
-  },
-  {
     "ClassName": "electricMagneticFluxAtLoadCase",
     "CaexPath": "AutomationML_DomainExtension.electrics_AttributeTypeLib/electricMagneticFluxAtLoadCase",
     "BasePath": null,
@@ -10625,15 +10526,6 @@
     "BasePath": "AutomationMLBasicPropertiesLibrariesAMLEd21_1_0@AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/magneticFlux",
     "LibraryName": "AutomationML_DomainExtension.electrics_AttributeTypeLib",
     "LibraryVersion": "1.1.0",
-    "AMLEdition": "AMLEd2",
-    "ID": "8df82316-ea8b-4723-8876-3afd114c89c8"
-  },
-  {
-    "ClassName": "electricMagneticFluxAtLoadCase",
-    "CaexPath": "AutomationML_DomainExtension.electrics_AttributeTypeLib/electricMagneticFluxAtLoadCase",
-    "BasePath": "AutomationMLBasicPropertiesLibrariesAMLEd21_2_1@AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/magneticFlux",
-    "LibraryName": "AutomationML_DomainExtension.electrics_AttributeTypeLib",
-    "LibraryVersion": "1.2.1",
     "AMLEdition": "AMLEd2",
     "ID": "8df82316-ea8b-4723-8876-3afd114c89c8"
   },
@@ -10665,15 +10557,6 @@
     "ID": "059bdccb-a928-47bf-a83b-7fd9d8689c00"
   },
   {
-    "ClassName": "electricMagneticFluxDensityAtLoadCase",
-    "CaexPath": "AutomationML_DomainExtension.electrics_AttributeTypeLib/electricMagneticFluxDensityAtLoadCase",
-    "BasePath": "AutomationMLBasicPropertiesLibrariesAMLEd21_2_1@AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/magneticFluxDensity",
-    "LibraryName": "AutomationML_DomainExtension.electrics_AttributeTypeLib",
-    "LibraryVersion": "1.2.1",
-    "AMLEdition": "AMLEd2",
-    "ID": "059bdccb-a928-47bf-a83b-7fd9d8689c00"
-  },
-  {
     "ClassName": "electricActivePowerAtLoadCase",
     "CaexPath": "AutomationML_DomainExtension.electrics_AttributeTypeLib/electricActivePowerAtLoadCase",
     "BasePath": null,
@@ -10697,15 +10580,6 @@
     "BasePath": "AutomationMLBasicPropertiesLibrariesAMLEd21_1_0@AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/power",
     "LibraryName": "AutomationML_DomainExtension.electrics_AttributeTypeLib",
     "LibraryVersion": "1.1.0",
-    "AMLEdition": "AMLEd2",
-    "ID": "44379469-4fde-4020-a880-a4d4b7bd3ed9"
-  },
-  {
-    "ClassName": "electricActivePowerAtLoadCase",
-    "CaexPath": "AutomationML_DomainExtension.electrics_AttributeTypeLib/electricActivePowerAtLoadCase",
-    "BasePath": "AutomationMLBasicPropertiesLibrariesAMLEd21_2_1@AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/power",
-    "LibraryName": "AutomationML_DomainExtension.electrics_AttributeTypeLib",
-    "LibraryVersion": "1.2.1",
     "AMLEdition": "AMLEd2",
     "ID": "44379469-4fde-4020-a880-a4d4b7bd3ed9"
   },
@@ -10737,15 +10611,6 @@
     "ID": "2c511ee6-814b-44db-888e-f8af4fbd45e0"
   },
   {
-    "ClassName": "electricEnergyAtLoadCase",
-    "CaexPath": "AutomationML_DomainExtension.electrics_AttributeTypeLib/electricEnergyAtLoadCase",
-    "BasePath": "AutomationMLBasicPropertiesLibrariesAMLEd21_2_1@AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/energy",
-    "LibraryName": "AutomationML_DomainExtension.electrics_AttributeTypeLib",
-    "LibraryVersion": "1.2.1",
-    "AMLEdition": "AMLEd2",
-    "ID": "2c511ee6-814b-44db-888e-f8af4fbd45e0"
-  },
-  {
     "ClassName": "electricRatedVoltage",
     "CaexPath": "AutomationML_DomainExtension.electrics_AttributeTypeLib/electricRatedVoltage",
     "BasePath": null,
@@ -10769,15 +10634,6 @@
     "BasePath": "AutomationMLBasicPropertiesLibrariesAMLEd21_1_0@AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/voltage",
     "LibraryName": "AutomationML_DomainExtension.electrics_AttributeTypeLib",
     "LibraryVersion": "1.1.0",
-    "AMLEdition": "AMLEd2",
-    "ID": "9e3653ad-5845-47c1-a8f3-836c3863fd02"
-  },
-  {
-    "ClassName": "electricRatedVoltage",
-    "CaexPath": "AutomationML_DomainExtension.electrics_AttributeTypeLib/electricRatedVoltage",
-    "BasePath": "AutomationMLBasicPropertiesLibrariesAMLEd21_2_1@AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/voltage",
-    "LibraryName": "AutomationML_DomainExtension.electrics_AttributeTypeLib",
-    "LibraryVersion": "1.2.1",
     "AMLEdition": "AMLEd2",
     "ID": "9e3653ad-5845-47c1-a8f3-836c3863fd02"
   },
@@ -10818,15 +10674,6 @@
     "ID": "c049b54d-c9df-4fde-aa6c-0b21e166d89e"
   },
   {
-    "ClassName": "electricRatedCurrent",
-    "CaexPath": "AutomationML_DomainExtension.electrics_AttributeTypeLib/electricRatedCurrent",
-    "BasePath": "AutomationMLBasicPropertiesLibrariesAMLEd21_2_1@AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/current",
-    "LibraryName": "AutomationML_DomainExtension.electrics_AttributeTypeLib",
-    "LibraryVersion": "1.2.1",
-    "AMLEdition": "AMLEd2",
-    "ID": "76e8bef5-b124-4d49-a0ba-84429d9d9256"
-  },
-  {
     "ClassName": "electricPermissibleVoltageMax",
     "CaexPath": "AutomationML_DomainExtension.electrics_AttributeTypeLib/electricPermissibleVoltageMax",
     "BasePath": null,
@@ -10850,15 +10697,6 @@
     "BasePath": "AutomationMLBasicPropertiesLibrariesAMLEd21_1_0@AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/voltage",
     "LibraryName": "AutomationML_DomainExtension.electrics_AttributeTypeLib",
     "LibraryVersion": "1.1.0",
-    "AMLEdition": "AMLEd2",
-    "ID": "4def02ac-ca58-4605-ace2-2b7f844b4796"
-  },
-  {
-    "ClassName": "electricPermissibleVoltageMax",
-    "CaexPath": "AutomationML_DomainExtension.electrics_AttributeTypeLib/electricPermissibleVoltageMax",
-    "BasePath": "AutomationMLBasicPropertiesLibrariesAMLEd21_2_1@AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/voltage",
-    "LibraryName": "AutomationML_DomainExtension.electrics_AttributeTypeLib",
-    "LibraryVersion": "1.2.1",
     "AMLEdition": "AMLEd2",
     "ID": "4def02ac-ca58-4605-ace2-2b7f844b4796"
   },
@@ -10890,15 +10728,6 @@
     "ID": "5fdd95b4-d7b8-4936-b36b-436a6087522e"
   },
   {
-    "ClassName": "electricPermissibleCurrentMax",
-    "CaexPath": "AutomationML_DomainExtension.electrics_AttributeTypeLib/electricPermissibleCurrentMax",
-    "BasePath": "AutomationMLBasicPropertiesLibrariesAMLEd21_2_1@AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/current",
-    "LibraryName": "AutomationML_DomainExtension.electrics_AttributeTypeLib",
-    "LibraryVersion": "1.2.1",
-    "AMLEdition": "AMLEd2",
-    "ID": "5fdd95b4-d7b8-4936-b36b-436a6087522e"
-  },
-  {
     "ClassName": "electricShortCircuitCurrentProspective",
     "CaexPath": "AutomationML_DomainExtension.electrics_AttributeTypeLib/electricShortCircuitCurrentProspective",
     "BasePath": null,
@@ -10926,15 +10755,6 @@
     "ID": "b5295973-31cb-4763-aa70-fddb086b7c46"
   },
   {
-    "ClassName": "electricShortCircuitCurrentProspective",
-    "CaexPath": "AutomationML_DomainExtension.electrics_AttributeTypeLib/electricShortCircuitCurrentProspective",
-    "BasePath": "AutomationMLBasicPropertiesLibrariesAMLEd21_2_1@AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/current",
-    "LibraryName": "AutomationML_DomainExtension.electrics_AttributeTypeLib",
-    "LibraryVersion": "1.2.1",
-    "AMLEdition": "AMLEd2",
-    "ID": "b5295973-31cb-4763-aa70-fddb086b7c46"
-  },
-  {
     "ClassName": "electricLeakageCurrent",
     "CaexPath": "AutomationML_DomainExtension.electrics_AttributeTypeLib/electricLeakageCurrent",
     "BasePath": null,
@@ -10958,15 +10778,6 @@
     "BasePath": "AutomationMLBasicPropertiesLibrariesAMLEd21_1_0@AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/current",
     "LibraryName": "AutomationML_DomainExtension.electrics_AttributeTypeLib",
     "LibraryVersion": "1.1.0",
-    "AMLEdition": "AMLEd2",
-    "ID": "8c074337-2a08-4e61-8ced-023ea816cc37"
-  },
-  {
-    "ClassName": "electricLeakageCurrent",
-    "CaexPath": "AutomationML_DomainExtension.electrics_AttributeTypeLib/electricLeakageCurrent",
-    "BasePath": "AutomationMLBasicPropertiesLibrariesAMLEd21_2_1@AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/current",
-    "LibraryName": "AutomationML_DomainExtension.electrics_AttributeTypeLib",
-    "LibraryVersion": "1.2.1",
     "AMLEdition": "AMLEd2",
     "ID": "8c074337-2a08-4e61-8ced-023ea816cc37"
   },
@@ -11007,15 +10818,6 @@
     "ID": "d3ad53da-8612-40e8-af71-459c2234a985"
   },
   {
-    "ClassName": "electricInsulationResistance",
-    "CaexPath": "AutomationML_DomainExtension.electrics_AttributeTypeLib/electricInsulationResistance",
-    "BasePath": "AutomationMLBasicPropertiesLibrariesAMLEd21_2_1@AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/electricResistance",
-    "LibraryName": "AutomationML_DomainExtension.electrics_AttributeTypeLib",
-    "LibraryVersion": "1.2.1",
-    "AMLEdition": "AMLEd2",
-    "ID": "6271f0ab-ec17-41df-b0e0-87beb0eedaa6"
-  },
-  {
     "ClassName": "electricDielectricStrength",
     "CaexPath": "AutomationML_DomainExtension.electrics_AttributeTypeLib/electricDielectricStrength",
     "BasePath": null,
@@ -11039,15 +10841,6 @@
     "BasePath": null,
     "LibraryName": "AutomationML_DomainExtension.electrics_AttributeTypeLib",
     "LibraryVersion": "1.1.0",
-    "AMLEdition": "AMLEd2",
-    "ID": "3de36780-2899-40fe-b828-63690778c4a8"
-  },
-  {
-    "ClassName": "electricDielectricStrength",
-    "CaexPath": "AutomationML_DomainExtension.electrics_AttributeTypeLib/electricDielectricStrength",
-    "BasePath": null,
-    "LibraryName": "AutomationML_DomainExtension.electrics_AttributeTypeLib",
-    "LibraryVersion": "1.2.1",
     "AMLEdition": "AMLEd2",
     "ID": "3de36780-2899-40fe-b828-63690778c4a8"
   },
@@ -11079,15 +10872,6 @@
     "ID": "b1988883-76b8-4c29-b8be-370363bcb9dc"
   },
   {
-    "ClassName": "electricProtectiveConductorResistance",
-    "CaexPath": "AutomationML_DomainExtension.electrics_AttributeTypeLib/electricProtectiveConductorResistance",
-    "BasePath": "AutomationMLBasicPropertiesLibrariesAMLEd21_2_1@AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/electricResistance",
-    "LibraryName": "AutomationML_DomainExtension.electrics_AttributeTypeLib",
-    "LibraryVersion": "1.2.1",
-    "AMLEdition": "AMLEd2",
-    "ID": "b1988883-76b8-4c29-b8be-370363bcb9dc"
-  },
-  {
     "ClassName": "electricEarthContinuityResistance",
     "CaexPath": "AutomationML_DomainExtension.electrics_AttributeTypeLib/electricEarthContinuityResistance",
     "BasePath": null,
@@ -11111,15 +10895,6 @@
     "BasePath": "AutomationMLBasicPropertiesLibrariesAMLEd21_1_0@AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/electricResistance",
     "LibraryName": "AutomationML_DomainExtension.electrics_AttributeTypeLib",
     "LibraryVersion": "1.1.0",
-    "AMLEdition": "AMLEd2",
-    "ID": "25660a56-1670-42fd-ba4d-1a62f6b83af5"
-  },
-  {
-    "ClassName": "electricEarthContinuityResistance",
-    "CaexPath": "AutomationML_DomainExtension.electrics_AttributeTypeLib/electricEarthContinuityResistance",
-    "BasePath": "AutomationMLBasicPropertiesLibrariesAMLEd21_2_1@AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/electricResistance",
-    "LibraryName": "AutomationML_DomainExtension.electrics_AttributeTypeLib",
-    "LibraryVersion": "1.2.1",
     "AMLEdition": "AMLEd2",
     "ID": "25660a56-1670-42fd-ba4d-1a62f6b83af5"
   },
@@ -11151,15 +10926,6 @@
     "ID": "653781cb-f941-4498-919f-b114c9b0a279"
   },
   {
-    "ClassName": "electricImpedanceMagnitudeAtLoadCase",
-    "CaexPath": "AutomationML_DomainExtension.electrics_AttributeTypeLib/electricImpedanceMagnitudeAtLoadCase",
-    "BasePath": null,
-    "LibraryName": "AutomationML_DomainExtension.electrics_AttributeTypeLib",
-    "LibraryVersion": "1.2.1",
-    "AMLEdition": "AMLEd2",
-    "ID": "653781cb-f941-4498-919f-b114c9b0a279"
-  },
-  {
     "ClassName": "electricImpedancePhaseAngleAtLoadCase",
     "CaexPath": "AutomationML_DomainExtension.electrics_AttributeTypeLib/electricImpedancePhaseAngleAtLoadCase",
     "BasePath": null,
@@ -11183,15 +10949,6 @@
     "BasePath": "AutomationMLBasicPropertiesLibrariesAMLEd21_1_0@AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/angularMeasure/planeAngle",
     "LibraryName": "AutomationML_DomainExtension.electrics_AttributeTypeLib",
     "LibraryVersion": "1.1.0",
-    "AMLEdition": "AMLEd2",
-    "ID": "8118a35f-45b5-4c19-8560-ee19022045fb"
-  },
-  {
-    "ClassName": "electricImpedancePhaseAngleAtLoadCase",
-    "CaexPath": "AutomationML_DomainExtension.electrics_AttributeTypeLib/electricImpedancePhaseAngleAtLoadCase",
-    "BasePath": "AutomationMLBasicPropertiesLibrariesAMLEd21_2_1@AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/planeAngle",
-    "LibraryName": "AutomationML_DomainExtension.electrics_AttributeTypeLib",
-    "LibraryVersion": "1.2.1",
     "AMLEdition": "AMLEd2",
     "ID": "8118a35f-45b5-4c19-8560-ee19022045fb"
   },
@@ -11223,15 +10980,6 @@
     "ID": "14d9459c-0ae4-473a-9dc6-62348cebe309"
   },
   {
-    "ClassName": "electricResidualCurrentRated",
-    "CaexPath": "AutomationML_DomainExtension.electrics_AttributeTypeLib/electricResidualCurrentRated",
-    "BasePath": "AutomationMLBasicPropertiesLibrariesAMLEd21_2_1@AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/current",
-    "LibraryName": "AutomationML_DomainExtension.electrics_AttributeTypeLib",
-    "LibraryVersion": "1.2.1",
-    "AMLEdition": "AMLEd2",
-    "ID": "14d9459c-0ae4-473a-9dc6-62348cebe309"
-  },
-  {
     "ClassName": "electricTrippingTimeResidualCurrent",
     "CaexPath": "AutomationML_DomainExtension.electrics_AttributeTypeLib/electricTrippingTimeResidualCurrent",
     "BasePath": null,
@@ -11255,15 +11003,6 @@
     "BasePath": "AutomationMLBasicPropertiesLibrariesAMLEd21_1_0@AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/timeDuration",
     "LibraryName": "AutomationML_DomainExtension.electrics_AttributeTypeLib",
     "LibraryVersion": "1.1.0",
-    "AMLEdition": "AMLEd2",
-    "ID": "1b31fa2c-27a7-43d7-a74f-1a3883b2010e"
-  },
-  {
-    "ClassName": "electricTrippingTimeResidualCurrent",
-    "CaexPath": "AutomationML_DomainExtension.electrics_AttributeTypeLib/electricTrippingTimeResidualCurrent",
-    "BasePath": "AutomationMLBasicPropertiesLibrariesAMLEd21_2_1@AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/timeDuration",
-    "LibraryName": "AutomationML_DomainExtension.electrics_AttributeTypeLib",
-    "LibraryVersion": "1.2.1",
     "AMLEdition": "AMLEd2",
     "ID": "1b31fa2c-27a7-43d7-a74f-1a3883b2010e"
   },
@@ -11295,15 +11034,6 @@
     "ID": "680dacfb-d4b9-4044-b13c-8fc8d552b4f2"
   },
   {
-    "ClassName": "electricTouchVoltagePermissible",
-    "CaexPath": "AutomationML_DomainExtension.electrics_AttributeTypeLib/electricTouchVoltagePermissible",
-    "BasePath": "AutomationMLBasicPropertiesLibrariesAMLEd21_2_1@AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/voltage",
-    "LibraryName": "AutomationML_DomainExtension.electrics_AttributeTypeLib",
-    "LibraryVersion": "1.2.1",
-    "AMLEdition": "AMLEd2",
-    "ID": "680dacfb-d4b9-4044-b13c-8fc8d552b4f2"
-  },
-  {
     "ClassName": "electricProspectiveFaultPower",
     "CaexPath": "AutomationML_DomainExtension.electrics_AttributeTypeLib/electricProspectiveFaultPower",
     "BasePath": null,
@@ -11327,15 +11057,6 @@
     "BasePath": "AutomationMLBasicPropertiesLibrariesAMLEd21_1_0@AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/power",
     "LibraryName": "AutomationML_DomainExtension.electrics_AttributeTypeLib",
     "LibraryVersion": "1.1.0",
-    "AMLEdition": "AMLEd2",
-    "ID": "35684eeb-63d1-4ab8-bb1e-98b77e074cee"
-  },
-  {
-    "ClassName": "electricProspectiveFaultPower",
-    "CaexPath": "AutomationML_DomainExtension.electrics_AttributeTypeLib/electricProspectiveFaultPower",
-    "BasePath": "AutomationMLBasicPropertiesLibrariesAMLEd21_2_1@AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/power",
-    "LibraryName": "AutomationML_DomainExtension.electrics_AttributeTypeLib",
-    "LibraryVersion": "1.2.1",
     "AMLEdition": "AMLEd2",
     "ID": "35684eeb-63d1-4ab8-bb1e-98b77e074cee"
   },
@@ -11367,15 +11088,6 @@
     "ID": "5f6b2d7a-b60c-406a-86e3-5488961c26ae"
   },
   {
-    "ClassName": "electricClearanceDistance",
-    "CaexPath": "AutomationML_DomainExtension.electrics_AttributeTypeLib/electricClearanceDistance",
-    "BasePath": "AutomationMLBasicPropertiesLibrariesAMLEd21_2_1@AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/distance",
-    "LibraryName": "AutomationML_DomainExtension.electrics_AttributeTypeLib",
-    "LibraryVersion": "1.2.1",
-    "AMLEdition": "AMLEd2",
-    "ID": "5f6b2d7a-b60c-406a-86e3-5488961c26ae"
-  },
-  {
     "ClassName": "electricCreepageDistance",
     "CaexPath": "AutomationML_DomainExtension.electrics_AttributeTypeLib/electricCreepageDistance",
     "BasePath": null,
@@ -11403,15 +11115,6 @@
     "ID": "56eb98d8-d7d4-445e-82d9-e838df3ccdbc"
   },
   {
-    "ClassName": "electricCreepageDistance",
-    "CaexPath": "AutomationML_DomainExtension.electrics_AttributeTypeLib/electricCreepageDistance",
-    "BasePath": "AutomationMLBasicPropertiesLibrariesAMLEd21_2_1@AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/distance",
-    "LibraryName": "AutomationML_DomainExtension.electrics_AttributeTypeLib",
-    "LibraryVersion": "1.2.1",
-    "AMLEdition": "AMLEd2",
-    "ID": "56eb98d8-d7d4-445e-82d9-e838df3ccdbc"
-  },
-  {
     "ClassName": "electricEarthingSystemType",
     "CaexPath": "AutomationML_DomainExtension.electrics_AttributeTypeLib/electricEarthingSystemType",
     "BasePath": null,
@@ -11435,15 +11138,6 @@
     "BasePath": null,
     "LibraryName": "AutomationML_DomainExtension.electrics_AttributeTypeLib",
     "LibraryVersion": "1.1.0",
-    "AMLEdition": "AMLEd2",
-    "ID": "b2a1d3e4-6a4b-4c9e-9f91-1d2a3b4c5d6e"
-  },
-  {
-    "ClassName": "electricEarthingSystemType",
-    "CaexPath": "AutomationML_DomainExtension.electrics_AttributeTypeLib/electricEarthingSystemType",
-    "BasePath": null,
-    "LibraryName": "AutomationML_DomainExtension.electrics_AttributeTypeLib",
-    "LibraryVersion": "1.2.1",
     "AMLEdition": "AMLEd2",
     "ID": "b2a1d3e4-6a4b-4c9e-9f91-1d2a3b4c5d6e"
   },
@@ -11475,15 +11169,6 @@
     "ID": "c3d4e5f6-7b8c-4a9d-8e01-2f3a4b5c6d7e"
   },
   {
-    "ClassName": "electricWindingConnectionType",
-    "CaexPath": "AutomationML_DomainExtension.electrics_AttributeTypeLib/electricWindingConnectionType",
-    "BasePath": null,
-    "LibraryName": "AutomationML_DomainExtension.electrics_AttributeTypeLib",
-    "LibraryVersion": "1.2.1",
-    "AMLEdition": "AMLEd2",
-    "ID": "c3d4e5f6-7b8c-4a9d-8e01-2f3a4b5c6d7e"
-  },
-  {
     "ClassName": "electricInsulationClass",
     "CaexPath": "AutomationML_DomainExtension.electrics_AttributeTypeLib/electricInsulationClass",
     "BasePath": null,
@@ -11507,15 +11192,6 @@
     "BasePath": null,
     "LibraryName": "AutomationML_DomainExtension.electrics_AttributeTypeLib",
     "LibraryVersion": "1.1.0",
-    "AMLEdition": "AMLEd2",
-    "ID": "d4e5f607-8c9d-4eaf-9012-3a4b5c6d7e8f"
-  },
-  {
-    "ClassName": "electricInsulationClass",
-    "CaexPath": "AutomationML_DomainExtension.electrics_AttributeTypeLib/electricInsulationClass",
-    "BasePath": null,
-    "LibraryName": "AutomationML_DomainExtension.electrics_AttributeTypeLib",
-    "LibraryVersion": "1.2.1",
     "AMLEdition": "AMLEd2",
     "ID": "d4e5f607-8c9d-4eaf-9012-3a4b5c6d7e8f"
   },
@@ -11543,15 +11219,6 @@
     "BasePath": null,
     "LibraryName": "AutomationML_DomainExtension.electrics_AttributeTypeLib",
     "LibraryVersion": "1.1.0",
-    "AMLEdition": "AMLEd2",
-    "ID": "e5f60718-9dae-4fab-a123-4b5c6d7e8f90"
-  },
-  {
-    "ClassName": "electricProtectionClass",
-    "CaexPath": "AutomationML_DomainExtension.electrics_AttributeTypeLib/electricProtectionClass",
-    "BasePath": null,
-    "LibraryName": "AutomationML_DomainExtension.electrics_AttributeTypeLib",
-    "LibraryVersion": "1.2.1",
     "AMLEdition": "AMLEd2",
     "ID": "e5f60718-9dae-4fab-a123-4b5c6d7e8f90"
   },
@@ -11583,15 +11250,6 @@
     "ID": "252d25b8-f355-4e8c-a763-ddf997072432"
   },
   {
-    "ClassName": "electricEnclosureProtectionRating",
-    "CaexPath": "AutomationML_DomainExtension.electrics_AttributeTypeLib/electricEnclosureProtectionRating",
-    "BasePath": null,
-    "LibraryName": "AutomationML_DomainExtension.electrics_AttributeTypeLib",
-    "LibraryVersion": "1.2.1",
-    "AMLEdition": "AMLEd2",
-    "ID": "252d25b8-f355-4e8c-a763-ddf997072432"
-  },
-  {
     "ClassName": "electricRatedInputVoltage",
     "CaexPath": "AutomationML_DomainExtension.electrics_AttributeTypeLib/electricRatedInputVoltage",
     "BasePath": null,
@@ -11606,15 +11264,6 @@
     "BasePath": "AutomationMLBasicPropertiesLibrariesAMLEd21_1_0@AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/voltage",
     "LibraryName": "AutomationML_DomainExtension.electrics_AttributeTypeLib",
     "LibraryVersion": "1.1.0",
-    "AMLEdition": "AMLEd2",
-    "ID": "320ad42a-46b9-4a4b-b4e6-03c40c11b11a"
-  },
-  {
-    "ClassName": "electricRatedInputVoltage",
-    "CaexPath": "AutomationML_DomainExtension.electrics_AttributeTypeLib/electricRatedInputVoltage",
-    "BasePath": "AutomationMLBasicPropertiesLibrariesAMLEd21_2_1@AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/voltage",
-    "LibraryName": "AutomationML_DomainExtension.electrics_AttributeTypeLib",
-    "LibraryVersion": "1.2.1",
     "AMLEdition": "AMLEd2",
     "ID": "320ad42a-46b9-4a4b-b4e6-03c40c11b11a"
   },
@@ -12789,29 +12438,11 @@
     "ID": "398c835f-2b30-453e-8398-a4640ee7db40"
   },
   {
-    "ClassName": "electricAmbientTemperatureCategoryLowerIEC60068_1",
-    "CaexPath": "AutomationML_DomainExtension.electrics_AttributeTypeLib/electricAmbientTemperatureCategoryLowerIEC60068_1",
-    "BasePath": "AutomationMLBasicPropertiesLibrariesAMLEd21_2_1@AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/celsiusTemperature",
-    "LibraryName": "AutomationML_DomainExtension.electrics_AttributeTypeLib",
-    "LibraryVersion": "1.2.1",
-    "AMLEdition": "AMLEd2",
-    "ID": "398c835f-2b30-453e-8398-a4640ee7db40"
-  },
-  {
     "ClassName": "electricAmbientTemperatureCategoryUpperIEC60068_1",
     "CaexPath": "AutomationML_DomainExtension.electrics_AttributeTypeLib/electricOperatingConditionContext/electricAmbientTemperatureCategoryUpperIEC60068_1",
     "BasePath": "AutomationMLBasicPropertiesLibrariesAMLEd21_1_0@AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/thermodynamicTemperature/celsiusTemperature",
     "LibraryName": "AutomationML_DomainExtension.electrics_AttributeTypeLib",
     "LibraryVersion": "1.1.0",
-    "AMLEdition": "AMLEd2",
-    "ID": "d138101f-fcc7-4bf9-ac79-a0b4f87d2c6a"
-  },
-  {
-    "ClassName": "electricAmbientTemperatureCategoryUpperIEC60068_1",
-    "CaexPath": "AutomationML_DomainExtension.electrics_AttributeTypeLib/electricAmbientTemperatureCategoryUpperIEC60068_1",
-    "BasePath": "AutomationMLBasicPropertiesLibrariesAMLEd21_2_1@AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/celsiusTemperature",
-    "LibraryName": "AutomationML_DomainExtension.electrics_AttributeTypeLib",
-    "LibraryVersion": "1.2.1",
     "AMLEdition": "AMLEd2",
     "ID": "d138101f-fcc7-4bf9-ac79-a0b4f87d2c6a"
   },
@@ -12843,29 +12474,11 @@
     "ID": "00ecd67d-1a1e-47e8-b97b-082e7e0ff81c"
   },
   {
-    "ClassName": "electricCableNumberOfConductors",
-    "CaexPath": "AutomationML_DomainExtension.electrics_AttributeTypeLib/electricCableNumberOfConductors",
-    "BasePath": null,
-    "LibraryName": "AutomationML_DomainExtension.electrics_AttributeTypeLib",
-    "LibraryVersion": "1.2.1",
-    "AMLEdition": "AMLEd2",
-    "ID": "00ecd67d-1a1e-47e8-b97b-082e7e0ff81c"
-  },
-  {
     "ClassName": "electricCableConductorMaterial",
     "CaexPath": "AutomationML_DomainExtension.electrics_AttributeTypeLib/electricCableContext/electricCableConductorMaterial",
     "BasePath": null,
     "LibraryName": "AutomationML_DomainExtension.electrics_AttributeTypeLib",
     "LibraryVersion": "1.1.0",
-    "AMLEdition": "AMLEd2",
-    "ID": "bb076348-bdff-47fb-9e48-84863f537482"
-  },
-  {
-    "ClassName": "electricCableConductorMaterial",
-    "CaexPath": "AutomationML_DomainExtension.electrics_AttributeTypeLib/electricCableConductorMaterial",
-    "BasePath": null,
-    "LibraryName": "AutomationML_DomainExtension.electrics_AttributeTypeLib",
-    "LibraryVersion": "1.2.1",
     "AMLEdition": "AMLEd2",
     "ID": "bb076348-bdff-47fb-9e48-84863f537482"
   },
@@ -12879,29 +12492,11 @@
     "ID": "ba602e4d-e4ca-456a-ab29-96c06681f5e9"
   },
   {
-    "ClassName": "electricCableInsulationMaterial",
-    "CaexPath": "AutomationML_DomainExtension.electrics_AttributeTypeLib/electricCableInsulationMaterial",
-    "BasePath": null,
-    "LibraryName": "AutomationML_DomainExtension.electrics_AttributeTypeLib",
-    "LibraryVersion": "1.2.1",
-    "AMLEdition": "AMLEd2",
-    "ID": "ba602e4d-e4ca-456a-ab29-96c06681f5e9"
-  },
-  {
     "ClassName": "electricCableSheathMaterial",
     "CaexPath": "AutomationML_DomainExtension.electrics_AttributeTypeLib/electricCableContext/electricCableSheathMaterial",
     "BasePath": null,
     "LibraryName": "AutomationML_DomainExtension.electrics_AttributeTypeLib",
     "LibraryVersion": "1.1.0",
-    "AMLEdition": "AMLEd2",
-    "ID": "8065fab3-79c3-4a78-93d9-cda214ebacb1"
-  },
-  {
-    "ClassName": "electricCableSheathMaterial",
-    "CaexPath": "AutomationML_DomainExtension.electrics_AttributeTypeLib/electricCableSheathMaterial",
-    "BasePath": null,
-    "LibraryName": "AutomationML_DomainExtension.electrics_AttributeTypeLib",
-    "LibraryVersion": "1.2.1",
     "AMLEdition": "AMLEd2",
     "ID": "8065fab3-79c3-4a78-93d9-cda214ebacb1"
   },
@@ -12915,29 +12510,11 @@
     "ID": "9a93173a-f33c-4ca8-8623-404eeffd194d"
   },
   {
-    "ClassName": "electricSheathColour",
-    "CaexPath": "AutomationML_DomainExtension.electrics_AttributeTypeLib/electricSheathColour",
-    "BasePath": "AutomationMLBasicPropertiesLibrariesAMLEd21_2_1@AutomationML_BasicProperties.appearance_AttributeTypeLib/color",
-    "LibraryName": "AutomationML_DomainExtension.electrics_AttributeTypeLib",
-    "LibraryVersion": "1.2.1",
-    "AMLEdition": "AMLEd2",
-    "ID": "9a93173a-f33c-4ca8-8623-404eeffd194d"
-  },
-  {
     "ClassName": "electricCableShieldMaterial",
     "CaexPath": "AutomationML_DomainExtension.electrics_AttributeTypeLib/electricCableContext/electricCableShieldMaterial",
     "BasePath": null,
     "LibraryName": "AutomationML_DomainExtension.electrics_AttributeTypeLib",
     "LibraryVersion": "1.1.0",
-    "AMLEdition": "AMLEd2",
-    "ID": "f8881c4f-8f54-4b60-9b45-2e5e738f71aa"
-  },
-  {
-    "ClassName": "electricCableShieldMaterial",
-    "CaexPath": "AutomationML_DomainExtension.electrics_AttributeTypeLib/electricCableShieldMaterial",
-    "BasePath": null,
-    "LibraryName": "AutomationML_DomainExtension.electrics_AttributeTypeLib",
-    "LibraryVersion": "1.2.1",
     "AMLEdition": "AMLEd2",
     "ID": "f8881c4f-8f54-4b60-9b45-2e5e738f71aa"
   },
@@ -12951,29 +12528,11 @@
     "ID": "48e2b053-b4d2-48f1-8410-728aff868a59"
   },
   {
-    "ClassName": "electricCableShieldCoverage",
-    "CaexPath": "AutomationML_DomainExtension.electrics_AttributeTypeLib/electricCableShieldCoverage",
-    "BasePath": null,
-    "LibraryName": "AutomationML_DomainExtension.electrics_AttributeTypeLib",
-    "LibraryVersion": "1.2.1",
-    "AMLEdition": "AMLEd2",
-    "ID": "48e2b053-b4d2-48f1-8410-728aff868a59"
-  },
-  {
     "ClassName": "electricCableOutsideDiameter",
     "CaexPath": "AutomationML_DomainExtension.electrics_AttributeTypeLib/electricCableContext/electricCableOutsideDiameter",
     "BasePath": "AutomationMLBasicPropertiesLibrariesAMLEd21_1_0@AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/circularMeasure/outerDiameter",
     "LibraryName": "AutomationML_DomainExtension.electrics_AttributeTypeLib",
     "LibraryVersion": "1.1.0",
-    "AMLEdition": "AMLEd2",
-    "ID": "9815b8ad-f59b-4c8b-b490-38af8db714e5"
-  },
-  {
-    "ClassName": "electricCableOutsideDiameter",
-    "CaexPath": "AutomationML_DomainExtension.electrics_AttributeTypeLib/electricCableOutsideDiameter",
-    "BasePath": "AutomationMLBasicPropertiesLibrariesAMLEd21_2_1@AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/outerDiameter",
-    "LibraryName": "AutomationML_DomainExtension.electrics_AttributeTypeLib",
-    "LibraryVersion": "1.2.1",
     "AMLEdition": "AMLEd2",
     "ID": "9815b8ad-f59b-4c8b-b490-38af8db714e5"
   },
@@ -12987,29 +12546,11 @@
     "ID": "fb833e67-448d-40d5-88c9-1cb314d62ade"
   },
   {
-    "ClassName": "electricCableLength",
-    "CaexPath": "AutomationML_DomainExtension.electrics_AttributeTypeLib/electricCableLength",
-    "BasePath": "AutomationMLBasicPropertiesLibrariesAMLEd21_2_1@AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/overallLength",
-    "LibraryName": "AutomationML_DomainExtension.electrics_AttributeTypeLib",
-    "LibraryVersion": "1.2.1",
-    "AMLEdition": "AMLEd2",
-    "ID": "fb833e67-448d-40d5-88c9-1cb314d62ade"
-  },
-  {
     "ClassName": "electricCableResistance",
     "CaexPath": "AutomationML_DomainExtension.electrics_AttributeTypeLib/electricCableContext/electricCableResistance",
     "BasePath": null,
     "LibraryName": "AutomationML_DomainExtension.electrics_AttributeTypeLib",
     "LibraryVersion": "1.1.0",
-    "AMLEdition": "AMLEd2",
-    "ID": "d5eb7b6a-06d7-4c68-84b5-2c8b8fc02736"
-  },
-  {
-    "ClassName": "electricCableResistance",
-    "CaexPath": "AutomationML_DomainExtension.electrics_AttributeTypeLib/electricCableResistance",
-    "BasePath": "AutomationMLBasicPropertiesLibrariesAMLEd21_2_1@AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/electricResistance",
-    "LibraryName": "AutomationML_DomainExtension.electrics_AttributeTypeLib",
-    "LibraryVersion": "1.2.1",
     "AMLEdition": "AMLEd2",
     "ID": "d5eb7b6a-06d7-4c68-84b5-2c8b8fc02736"
   },
@@ -13023,29 +12564,11 @@
     "ID": "60141aa7-fff0-431c-9734-d0cf697183c6"
   },
   {
-    "ClassName": "electricCableCapacitance",
-    "CaexPath": "AutomationML_DomainExtension.electrics_AttributeTypeLib/electricCableCapacitance",
-    "BasePath": "AutomationMLBasicPropertiesLibrariesAMLEd21_2_1@AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/capacitance",
-    "LibraryName": "AutomationML_DomainExtension.electrics_AttributeTypeLib",
-    "LibraryVersion": "1.2.1",
-    "AMLEdition": "AMLEd2",
-    "ID": "60141aa7-fff0-431c-9734-d0cf697183c6"
-  },
-  {
     "ClassName": "electricContactContext",
     "CaexPath": "AutomationML_DomainExtension.electrics_AttributeTypeLib/electricContactContext",
     "BasePath": null,
     "LibraryName": "AutomationML_DomainExtension.electrics_AttributeTypeLib",
     "LibraryVersion": "1.1.0",
-    "AMLEdition": "AMLEd2",
-    "ID": "8b0b010f-4545-4ed6-aa9b-f2d50e832a85"
-  },
-  {
-    "ClassName": "electricContactContext",
-    "CaexPath": "AutomationML_DomainExtension.electrics_AttributeTypeLib/electricContactContext",
-    "BasePath": null,
-    "LibraryName": "AutomationML_DomainExtension.electrics_AttributeTypeLib",
-    "LibraryVersion": "1.2.1",
     "AMLEdition": "AMLEd2",
     "ID": "8b0b010f-4545-4ed6-aa9b-f2d50e832a85"
   },
@@ -13059,29 +12582,11 @@
     "ID": "80a446bb-b463-48c0-aaff-5b9f64e7c4c0"
   },
   {
-    "ClassName": "electricContactMaterial",
-    "CaexPath": "AutomationML_DomainExtension.electrics_AttributeTypeLib/electricContactMaterial",
-    "BasePath": null,
-    "LibraryName": "AutomationML_DomainExtension.electrics_AttributeTypeLib",
-    "LibraryVersion": "1.2.1",
-    "AMLEdition": "AMLEd2",
-    "ID": "80a446bb-b463-48c0-aaff-5b9f64e7c4c0"
-  },
-  {
     "ClassName": "electricContactFinish",
     "CaexPath": "AutomationML_DomainExtension.electrics_AttributeTypeLib/electricContactContext/electricContactFinish",
     "BasePath": null,
     "LibraryName": "AutomationML_DomainExtension.electrics_AttributeTypeLib",
     "LibraryVersion": "1.1.0",
-    "AMLEdition": "AMLEd2",
-    "ID": "f93ecb7b-0269-4d3f-b56a-47bddab0cd55"
-  },
-  {
-    "ClassName": "electricContactFinish",
-    "CaexPath": "AutomationML_DomainExtension.electrics_AttributeTypeLib/electricContactFinish",
-    "BasePath": "AutomationMLBasicPropertiesLibrariesAMLEd21_2_1@AutomationML_BasicProperties.appearance_AttributeTypeLib/surfaceFinish",
-    "LibraryName": "AutomationML_DomainExtension.electrics_AttributeTypeLib",
-    "LibraryVersion": "1.2.1",
     "AMLEdition": "AMLEd2",
     "ID": "f93ecb7b-0269-4d3f-b56a-47bddab0cd55"
   },
@@ -13095,29 +12600,11 @@
     "ID": "e3ec9417-e808-4149-bf8b-7278c4d13aa3"
   },
   {
-    "ClassName": "electricContactCurrentMax",
-    "CaexPath": "AutomationML_DomainExtension.electrics_AttributeTypeLib/electricContactCurrentMax",
-    "BasePath": "AutomationMLBasicPropertiesLibrariesAMLEd21_2_1@AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/current",
-    "LibraryName": "AutomationML_DomainExtension.electrics_AttributeTypeLib",
-    "LibraryVersion": "1.2.1",
-    "AMLEdition": "AMLEd2",
-    "ID": "e3ec9417-e808-4149-bf8b-7278c4d13aa3"
-  },
-  {
     "ClassName": "electricContactFunctionType",
     "CaexPath": "AutomationML_DomainExtension.electrics_AttributeTypeLib/electricContactContext/electricContactFunctionType",
     "BasePath": null,
     "LibraryName": "AutomationML_DomainExtension.electrics_AttributeTypeLib",
     "LibraryVersion": "1.1.0",
-    "AMLEdition": "AMLEd2",
-    "ID": "9fbc6ea9-75c8-4ec5-a5e1-ce412cc4adc3"
-  },
-  {
-    "ClassName": "electricContactFunctionType",
-    "CaexPath": "AutomationML_DomainExtension.electrics_AttributeTypeLib/electricContactFunctionType",
-    "BasePath": null,
-    "LibraryName": "AutomationML_DomainExtension.electrics_AttributeTypeLib",
-    "LibraryVersion": "1.2.1",
     "AMLEdition": "AMLEd2",
     "ID": "9fbc6ea9-75c8-4ec5-a5e1-ce412cc4adc3"
   },
@@ -13131,29 +12618,11 @@
     "ID": "f04fe25f-582f-462b-8a11-c94cd7810c76"
   },
   {
-    "ClassName": "electricContactMaxPlugCycles",
-    "CaexPath": "AutomationML_DomainExtension.electrics_AttributeTypeLib/electricContactMaxPlugCycles",
-    "BasePath": null,
-    "LibraryName": "AutomationML_DomainExtension.electrics_AttributeTypeLib",
-    "LibraryVersion": "1.2.1",
-    "AMLEdition": "AMLEd2",
-    "ID": "f04fe25f-582f-462b-8a11-c94cd7810c76"
-  },
-  {
     "ClassName": "electricEnclosureContext",
     "CaexPath": "AutomationML_DomainExtension.electrics_AttributeTypeLib/electricEnclosureContext",
     "BasePath": null,
     "LibraryName": "AutomationML_DomainExtension.electrics_AttributeTypeLib",
     "LibraryVersion": "1.1.0",
-    "AMLEdition": "AMLEd2",
-    "ID": "29a3bfd6-3b0a-459d-9600-456a79cb6a75"
-  },
-  {
-    "ClassName": "electricEnclosureContext",
-    "CaexPath": "AutomationML_DomainExtension.electrics_AttributeTypeLib/electricEnclosureContext",
-    "BasePath": null,
-    "LibraryName": "AutomationML_DomainExtension.electrics_AttributeTypeLib",
-    "LibraryVersion": "1.2.1",
     "AMLEdition": "AMLEd2",
     "ID": "29a3bfd6-3b0a-459d-9600-456a79cb6a75"
   },
@@ -13163,15 +12632,6 @@
     "BasePath": null,
     "LibraryName": "AutomationML_DomainExtension.electrics_AttributeTypeLib",
     "LibraryVersion": "1.1.0",
-    "AMLEdition": "AMLEd2",
-    "ID": "c479d5e6-3979-4256-9db4-6d44c5a22c81"
-  },
-  {
-    "ClassName": "electricHousingMaterial",
-    "CaexPath": "AutomationML_DomainExtension.electrics_AttributeTypeLib/electricHousingMaterial",
-    "BasePath": null,
-    "LibraryName": "AutomationML_DomainExtension.electrics_AttributeTypeLib",
-    "LibraryVersion": "1.2.1",
     "AMLEdition": "AMLEd2",
     "ID": "c479d5e6-3979-4256-9db4-6d44c5a22c81"
   },
@@ -13271,114 +12731,6 @@
     "BasePath": "AutomationMLBasicPropertiesLibrariesAMLEd21_1_0@AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/voltage",
     "LibraryName": "AutomationML_DomainExtension.electrics_AttributeTypeLib",
     "LibraryVersion": "1.1.0",
-    "AMLEdition": "AMLEd2",
-    "ID": "176281c1-7be7-413b-953c-077c6e0ac515"
-  },
-  {
-    "ClassName": "electricTemperatureCategoryLowerIEC61076",
-    "CaexPath": "AutomationML_DomainExtension.electrics_AttributeTypeLib/electricTemperatureCategoryLowerIEC61076",
-    "BasePath": null,
-    "LibraryName": "AutomationML_DomainExtension.electrics_AttributeTypeLib",
-    "LibraryVersion": "1.2.1",
-    "AMLEdition": "AMLEd2",
-    "ID": "dd435f43-6e4f-40f6-9be0-b6f983187c2a"
-  },
-  {
-    "ClassName": "electricTemperatureCategoryUpperIEC61076",
-    "CaexPath": "AutomationML_DomainExtension.electrics_AttributeTypeLib/electricTemperatureCategoryUpperIEC61076",
-    "BasePath": null,
-    "LibraryName": "AutomationML_DomainExtension.electrics_AttributeTypeLib",
-    "LibraryVersion": "1.2.1",
-    "AMLEdition": "AMLEd2",
-    "ID": "f0e634c4-62ab-485e-a5dc-6972e697c663"
-  },
-  {
-    "ClassName": "electricRatedOperatingVoltageIEC61076",
-    "CaexPath": "AutomationML_DomainExtension.electrics_AttributeTypeLib/electricRatedOperatingVoltageIEC61076",
-    "BasePath": "AutomationML_DomainExtension.electrics_AttributeTypeLib/electricRatedVoltage",
-    "LibraryName": "AutomationML_DomainExtension.electrics_AttributeTypeLib",
-    "LibraryVersion": "1.2.1",
-    "AMLEdition": "AMLEd2",
-    "ID": "bad9b717-e4ed-49f9-83ee-9473d361cbad"
-  },
-  {
-    "ClassName": "electricRatedCurrentIEC61076",
-    "CaexPath": "AutomationML_DomainExtension.electrics_AttributeTypeLib/electricRatedCurrentIEC61076",
-    "BasePath": "AutomationML_DomainExtension.electrics_AttributeTypeLib/electricContactCurrentMax",
-    "LibraryName": "AutomationML_DomainExtension.electrics_AttributeTypeLib",
-    "LibraryVersion": "1.2.1",
-    "AMLEdition": "AMLEd2",
-    "ID": "c049b54d-c9df-4fde-aa6c-0b21e166d89e"
-  },
-  {
-    "ClassName": "electricContactResistanceIEC61076",
-    "CaexPath": "AutomationML_DomainExtension.electrics_AttributeTypeLib/electricContactResistanceIEC61076",
-    "BasePath": "AutomationMLBasicPropertiesLibrariesAMLEd21_2_1@AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/electricResistance",
-    "LibraryName": "AutomationML_DomainExtension.electrics_AttributeTypeLib",
-    "LibraryVersion": "1.2.1",
-    "AMLEdition": "AMLEd2",
-    "ID": "f5063f13-e255-4812-b520-30f1df25e486"
-  },
-  {
-    "ClassName": "electricInsulationResistanceIEC61076",
-    "CaexPath": "AutomationML_DomainExtension.electrics_AttributeTypeLib/electricInsulationResistanceIEC61076",
-    "BasePath": "AutomationML_DomainExtension.electrics_AttributeTypeLib/electricInsulationResistance",
-    "LibraryName": "AutomationML_DomainExtension.electrics_AttributeTypeLib",
-    "LibraryVersion": "1.2.1",
-    "AMLEdition": "AMLEd2",
-    "ID": "d3ad53da-8612-40e8-af71-459c2234a985"
-  },
-  {
-    "ClassName": "electricIPCodeIEC61076",
-    "CaexPath": "AutomationML_DomainExtension.electrics_AttributeTypeLib/electricIPCodeIEC61076",
-    "BasePath": "AutomationML_DomainExtension.electrics_AttributeTypeLib/electricEnclosureProtectionRating",
-    "LibraryName": "AutomationML_DomainExtension.electrics_AttributeTypeLib",
-    "LibraryVersion": "1.2.1",
-    "AMLEdition": "AMLEd2",
-    "ID": "9bc5f513-3571-4bd2-9e51-14e236e0a528"
-  },
-  {
-    "ClassName": "electricInsertionForceIEC61076",
-    "CaexPath": "AutomationML_DomainExtension.electrics_AttributeTypeLib/electricInsertionForceIEC61076",
-    "BasePath": "AutomationMLBasicPropertiesLibrariesAMLEd21_2_1@AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/force",
-    "LibraryName": "AutomationML_DomainExtension.electrics_AttributeTypeLib",
-    "LibraryVersion": "1.2.1",
-    "AMLEdition": "AMLEd2",
-    "ID": "fd92256f-47f1-4808-a228-3f98df30ad6c"
-  },
-  {
-    "ClassName": "electricWithdrawalForceIEC61076",
-    "CaexPath": "AutomationML_DomainExtension.electrics_AttributeTypeLib/electricWithdrawalForceIEC61076",
-    "BasePath": "AutomationMLBasicPropertiesLibrariesAMLEd21_2_1@AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/force",
-    "LibraryName": "AutomationML_DomainExtension.electrics_AttributeTypeLib",
-    "LibraryVersion": "1.2.1",
-    "AMLEdition": "AMLEd2",
-    "ID": "e8bfb98a-4672-48d8-8e92-b3fb33755782"
-  },
-  {
-    "ClassName": "electricMechanicalOperationsIEC61076",
-    "CaexPath": "AutomationML_DomainExtension.electrics_AttributeTypeLib/electricMechanicalOperationsIEC61076",
-    "BasePath": "AutomationML_DomainExtension.electrics_AttributeTypeLib/electricContactMaxPlugCycles",
-    "LibraryName": "AutomationML_DomainExtension.electrics_AttributeTypeLib",
-    "LibraryVersion": "1.2.1",
-    "AMLEdition": "AMLEd2",
-    "ID": "78ab2042-0e58-4676-ae5a-bd17791a50f4"
-  },
-  {
-    "ClassName": "electricPollutionDegreeIEC61076",
-    "CaexPath": "AutomationML_DomainExtension.electrics_AttributeTypeLib/electricPollutionDegreeIEC61076",
-    "BasePath": null,
-    "LibraryName": "AutomationML_DomainExtension.electrics_AttributeTypeLib",
-    "LibraryVersion": "1.2.1",
-    "AMLEdition": "AMLEd2",
-    "ID": "bf8af909-9e0c-44d1-93e7-2ef8647b8f3f"
-  },
-  {
-    "ClassName": "electricRatedImpulseVoltageIEC61076",
-    "CaexPath": "AutomationML_DomainExtension.electrics_AttributeTypeLib/electricRatedImpulseVoltageIEC61076",
-    "BasePath": "AutomationMLBasicPropertiesLibrariesAMLEd21_2_1@AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/voltage",
-    "LibraryName": "AutomationML_DomainExtension.electrics_AttributeTypeLib",
-    "LibraryVersion": "1.2.1",
     "AMLEdition": "AMLEd2",
     "ID": "176281c1-7be7-413b-953c-077c6e0ac515"
   }
