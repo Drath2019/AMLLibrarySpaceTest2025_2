@@ -7,6 +7,10 @@
     <Description>VersionRef</Description>
     <Version>OldVersion</Version>
   </ExternalReference>
+  <ExternalReference Path="https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/AutomationML_DomainExtension.electrics_AttributeTypeLib_AMLEd2_1.2.1.aml" Alias="AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_2_1">
+    <Description>VersionRef</Description>
+    <Version>NewVersion</Version>
+  </ExternalReference>
   <AttributeTypeLib Name="AutomationML_DomainExtension.electrics_AttributeTypeLib" ID="d533165b-d88b-4260-97f2-c866b090ad9b">
     <Description>This AttributeTypeLib defines electrics-domain-specific attributes for describing electrical supply configuration, operating conditions, test conditions, and limit values that require an explicit electrics context.
 The attributes complement the domain-neutral Basic Properties by adding electrical application semantics such as load case referencing, rated and permissible limits, installation conditions, and verification parameters.
@@ -17,6 +21,11 @@ Wherever an attribute refines or contextualizes a domain-neutral electrical quan
       <OldVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_1_0@AutomationML_DomainExtension.electrics_AttributeTypeLib</OldVersion>
       <AuthorName>enisc</AuthorName>
     </Revision>
+    <Revision>
+      <RevisionDate>2026-03-09T13:10:24.3102096+01:00</RevisionDate>
+      <NewVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_2_1@AutomationML_DomainExtension.electrics_AttributeTypeLib</NewVersion>
+      <AuthorName>drath</AuthorName>
+    </Revision>
     <AttributeType Name="electricEarthingSystemType" AttributeDataType="xs:string" ID="b2a1d3e4-6a4b-4c9e-9f91-1d2a3b4c5d6e">
       <Description>Type of earthing system such as TN, TT, or IT.</Description>
       <Version>1.2.0</Version>
@@ -24,6 +33,11 @@ Wherever an attribute refines or contextualizes a domain-neutral electrical quan
         <RevisionDate>2026-03-02T16:13:50.0854748+01:00</RevisionDate>
         <OldVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_1_0@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricEarthingSystemType</OldVersion>
         <AuthorName>enisc</AuthorName>
+      </Revision>
+      <Revision>
+        <RevisionDate>2026-03-09T13:10:24.710706+01:00</RevisionDate>
+        <NewVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_2_1@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricEarthingSystemType</NewVersion>
+        <AuthorName>drath</AuthorName>
       </Revision>
     </AttributeType>
     <AttributeType Name="electricWindingConnectionType" AttributeDataType="xs:string" ID="c3d4e5f6-7b8c-4a9d-8e01-2f3a4b5c6d7e">
@@ -34,6 +48,11 @@ Wherever an attribute refines or contextualizes a domain-neutral electrical quan
         <OldVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_1_0@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricWindingConnectionType</OldVersion>
         <AuthorName>enisc</AuthorName>
       </Revision>
+      <Revision>
+        <RevisionDate>2026-03-09T13:10:24.7243969+01:00</RevisionDate>
+        <NewVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_2_1@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricWindingConnectionType</NewVersion>
+        <AuthorName>drath</AuthorName>
+      </Revision>
     </AttributeType>
     <AttributeType Name="electricInsulationClass" AttributeDataType="xs:string" ID="d4e5f607-8c9d-4eaf-9012-3a4b5c6d7e8f">
       <Description>Classification of the insulation system according to applicable standards.</Description>
@@ -42,6 +61,11 @@ Wherever an attribute refines or contextualizes a domain-neutral electrical quan
         <RevisionDate>2026-03-02T16:13:50.4240915+01:00</RevisionDate>
         <OldVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_1_0@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricInsulationClass</OldVersion>
         <AuthorName>enisc</AuthorName>
+      </Revision>
+      <Revision>
+        <RevisionDate>2026-03-09T13:10:24.7322421+01:00</RevisionDate>
+        <NewVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_2_1@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricInsulationClass</NewVersion>
+        <AuthorName>drath</AuthorName>
       </Revision>
     </AttributeType>
     <AttributeType Name="electricProtectionClass" AttributeDataType="xs:string" ID="e5f60718-9dae-4fab-a123-4b5c6d7e8f90">
@@ -52,6 +76,11 @@ Wherever an attribute refines or contextualizes a domain-neutral electrical quan
         <OldVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_1_0@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricProtectionClass</OldVersion>
         <AuthorName>enisc</AuthorName>
       </Revision>
+      <Revision>
+        <RevisionDate>2026-03-09T13:10:24.7429292+01:00</RevisionDate>
+        <NewVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_2_1@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricProtectionClass</NewVersion>
+        <AuthorName>drath</AuthorName>
+      </Revision>
     </AttributeType>
     <AttributeType Name="electricResistanceAtLoadCase" AttributeDataType="xs:double" Unit="Ω" ID="79a22330-4939-4897-a68e-77c0c9485ac3" RefAttributeType="AutomationMLBasicPropertiesLibrariesAMLEd21_1_0@AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/electricResistance">
       <Description>Electrical resistance of a defined conductive path under the referenced electrical load case.</Description>
@@ -60,6 +89,11 @@ Wherever an attribute refines or contextualizes a domain-neutral electrical quan
         <RevisionDate>2026-03-02T16:13:50.4355868+01:00</RevisionDate>
         <OldVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_1_0@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricLoadCaseContext/electricResistanceAtLoadCase</OldVersion>
         <AuthorName>enisc</AuthorName>
+      </Revision>
+      <Revision>
+        <RevisionDate>2026-03-09T13:10:24.759235+01:00</RevisionDate>
+        <NewVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_2_1@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricResistanceAtLoadCase</NewVersion>
+        <AuthorName>drath</AuthorName>
       </Revision>
     </AttributeType>
     <AttributeType Name="electricCurrentAtLoadCase" AttributeDataType="xs:double" Unit="A" ID="f0b20659-879f-4c64-a69c-553e8877f4e0" RefAttributeType="AutomationMLBasicPropertiesLibrariesAMLEd21_1_0@AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/current">
@@ -70,6 +104,11 @@ Wherever an attribute refines or contextualizes a domain-neutral electrical quan
         <OldVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_1_0@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricLoadCaseContext/electricCurrentAtLoadCase</OldVersion>
         <AuthorName>enisc</AuthorName>
       </Revision>
+      <Revision>
+        <RevisionDate>2026-03-09T13:10:24.7688586+01:00</RevisionDate>
+        <NewVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_2_1@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricCurrentAtLoadCase</NewVersion>
+        <AuthorName>drath</AuthorName>
+      </Revision>
     </AttributeType>
     <AttributeType Name="electricConductanceAtLoadCase" AttributeDataType="xs:double" Unit="S" ID="2c1448f5-45dd-43fb-8518-cd4d529ae60a" RefAttributeType="AutomationMLBasicPropertiesLibrariesAMLEd21_1_0@AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/electricConductance">
       <Description>Electrical conductance of a defined conductive path under the referenced electrical load case.</Description>
@@ -78,6 +117,11 @@ Wherever an attribute refines or contextualizes a domain-neutral electrical quan
         <RevisionDate>2026-03-02T16:13:50.4373805+01:00</RevisionDate>
         <OldVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_1_0@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricLoadCaseContext/electricConductanceAtLoadCase</OldVersion>
         <AuthorName>enisc</AuthorName>
+      </Revision>
+      <Revision>
+        <RevisionDate>2026-03-09T13:10:24.778675+01:00</RevisionDate>
+        <NewVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_2_1@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricConductanceAtLoadCase</NewVersion>
+        <AuthorName>drath</AuthorName>
       </Revision>
     </AttributeType>
     <AttributeType Name="electricCapacitanceAtLoadCase" AttributeDataType="xs:double" Unit="F" ID="56d5da97-751d-44b4-964c-1173f2e572c9" RefAttributeType="AutomationMLBasicPropertiesLibrariesAMLEd21_1_0@AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/capacitance">
@@ -88,6 +132,11 @@ Wherever an attribute refines or contextualizes a domain-neutral electrical quan
         <OldVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_1_0@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricLoadCaseContext/electricCapacitanceAtLoadCase</OldVersion>
         <AuthorName>enisc</AuthorName>
       </Revision>
+      <Revision>
+        <RevisionDate>2026-03-09T13:10:24.7875836+01:00</RevisionDate>
+        <NewVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_2_1@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricCapacitanceAtLoadCase</NewVersion>
+        <AuthorName>drath</AuthorName>
+      </Revision>
     </AttributeType>
     <AttributeType Name="electricInductanceAtLoadCase" AttributeDataType="xs:double" Unit="H" ID="2b019c48-d669-4f80-916d-725b20765801" RefAttributeType="AutomationMLBasicPropertiesLibrariesAMLEd21_1_0@AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/inductance">
       <Description>Electrical inductance of a defined inductive component under the referenced electrical load case.</Description>
@@ -96,6 +145,11 @@ Wherever an attribute refines or contextualizes a domain-neutral electrical quan
         <RevisionDate>2026-03-02T16:13:50.4415346+01:00</RevisionDate>
         <OldVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_1_0@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricLoadCaseContext/electricInductanceAtLoadCase</OldVersion>
         <AuthorName>enisc</AuthorName>
+      </Revision>
+      <Revision>
+        <RevisionDate>2026-03-09T13:10:24.7992821+01:00</RevisionDate>
+        <NewVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_2_1@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricInductanceAtLoadCase</NewVersion>
+        <AuthorName>drath</AuthorName>
       </Revision>
     </AttributeType>
     <AttributeType Name="electricMagneticFluxAtLoadCase" AttributeDataType="xs:double" Unit="Wb" ID="8df82316-ea8b-4723-8876-3afd114c89c8" RefAttributeType="AutomationMLBasicPropertiesLibrariesAMLEd21_1_0@AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/magneticFlux">
@@ -106,6 +160,11 @@ Wherever an attribute refines or contextualizes a domain-neutral electrical quan
         <OldVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_1_0@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricLoadCaseContext/electricMagneticFluxAtLoadCase</OldVersion>
         <AuthorName>enisc</AuthorName>
       </Revision>
+      <Revision>
+        <RevisionDate>2026-03-09T13:10:24.8108846+01:00</RevisionDate>
+        <NewVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_2_1@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricMagneticFluxAtLoadCase</NewVersion>
+        <AuthorName>drath</AuthorName>
+      </Revision>
     </AttributeType>
     <AttributeType Name="electricLoadCase" AttributeDataType="xs:string" ID="11565ca2-4fd0-402b-a75b-7e84f61a80c7">
       <Description>Identifier or description of the electrical load case or operating scenario to which the specified electrics-domain attributes apply.</Description>
@@ -114,6 +173,11 @@ Wherever an attribute refines or contextualizes a domain-neutral electrical quan
         <RevisionDate>2026-03-02T16:13:50.4456902+01:00</RevisionDate>
         <OldVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_1_0@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricLoadCaseContext/electricLoadCase</OldVersion>
         <AuthorName>enisc</AuthorName>
+      </Revision>
+      <Revision>
+        <RevisionDate>2026-03-09T13:10:24.8217894+01:00</RevisionDate>
+        <NewVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_2_1@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricLoadCase</NewVersion>
+        <AuthorName>drath</AuthorName>
       </Revision>
     </AttributeType>
     <AttributeType Name="electricEnergyAtLoadCase" AttributeDataType="xs:double" Unit="J" ID="2c511ee6-814b-44db-888e-f8af4fbd45e0" RefAttributeType="AutomationMLBasicPropertiesLibrariesAMLEd21_1_0@AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/energy">
@@ -124,6 +188,11 @@ Wherever an attribute refines or contextualizes a domain-neutral electrical quan
         <OldVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_1_0@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricLoadCaseContext/electricEnergyAtLoadCase</OldVersion>
         <AuthorName>enisc</AuthorName>
       </Revision>
+      <Revision>
+        <RevisionDate>2026-03-09T13:10:24.8312845+01:00</RevisionDate>
+        <NewVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_2_1@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricEnergyAtLoadCase</NewVersion>
+        <AuthorName>drath</AuthorName>
+      </Revision>
     </AttributeType>
     <AttributeType Name="electricMagneticFluxDensityAtLoadCase" AttributeDataType="xs:double" Unit="T" ID="059bdccb-a928-47bf-a83b-7fd9d8689c00" RefAttributeType="AutomationMLBasicPropertiesLibrariesAMLEd21_1_0@AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/magneticFluxDensity">
       <Description>Magnetic flux density associated with the electrical state under the referenced electrical load case.</Description>
@@ -132,6 +201,11 @@ Wherever an attribute refines or contextualizes a domain-neutral electrical quan
         <RevisionDate>2026-03-02T16:13:50.4518708+01:00</RevisionDate>
         <OldVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_1_0@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricLoadCaseContext/electricMagneticFluxDensityAtLoadCase</OldVersion>
         <AuthorName>enisc</AuthorName>
+      </Revision>
+      <Revision>
+        <RevisionDate>2026-03-09T13:10:24.8432555+01:00</RevisionDate>
+        <NewVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_2_1@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricMagneticFluxDensityAtLoadCase</NewVersion>
+        <AuthorName>drath</AuthorName>
       </Revision>
     </AttributeType>
     <AttributeType Name="electricActivePowerAtLoadCase" AttributeDataType="xs:double" Unit="W" ID="44379469-4fde-4020-a880-a4d4b7bd3ed9" RefAttributeType="AutomationMLBasicPropertiesLibrariesAMLEd21_1_0@AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/power">
@@ -142,6 +216,11 @@ Wherever an attribute refines or contextualizes a domain-neutral electrical quan
         <OldVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_1_0@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricLoadCaseContext/electricActivePowerAtLoadCase</OldVersion>
         <AuthorName>enisc</AuthorName>
       </Revision>
+      <Revision>
+        <RevisionDate>2026-03-09T13:10:24.8517034+01:00</RevisionDate>
+        <NewVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_2_1@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricActivePowerAtLoadCase</NewVersion>
+        <AuthorName>drath</AuthorName>
+      </Revision>
     </AttributeType>
     <AttributeType Name="electricImpedanceMagnitudeAtLoadCase" AttributeDataType="xs:double" Unit="Ω" ID="653781cb-f941-4498-919f-b114c9b0a279">
       <Description>Magnitude of electrical impedance under the referenced electrical load case. The interpretation requires frequency and measurement definition via the electrics context.</Description>
@@ -150,6 +229,11 @@ Wherever an attribute refines or contextualizes a domain-neutral electrical quan
         <RevisionDate>2026-03-02T16:13:50.4585279+01:00</RevisionDate>
         <OldVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_1_0@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricLoadCaseContext/electricImpedanceMagnitudeAtLoadCase</OldVersion>
         <AuthorName>enisc</AuthorName>
+      </Revision>
+      <Revision>
+        <RevisionDate>2026-03-09T13:10:24.8611654+01:00</RevisionDate>
+        <NewVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_2_1@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricImpedanceMagnitudeAtLoadCase</NewVersion>
+        <AuthorName>drath</AuthorName>
       </Revision>
     </AttributeType>
     <AttributeType Name="electricImpedancePhaseAngleAtLoadCase" AttributeDataType="xs:double" Unit="rad" ID="8118a35f-45b5-4c19-8560-ee19022045fb" RefAttributeType="AutomationMLBasicPropertiesLibrariesAMLEd21_1_0@AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/planeAngle">
@@ -160,6 +244,11 @@ Wherever an attribute refines or contextualizes a domain-neutral electrical quan
         <OldVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_1_0@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricLoadCaseContext/electricImpedancePhaseAngleAtLoadCase</OldVersion>
         <AuthorName>enisc</AuthorName>
       </Revision>
+      <Revision>
+        <RevisionDate>2026-03-09T13:10:24.8694274+01:00</RevisionDate>
+        <NewVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_2_1@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricImpedancePhaseAngleAtLoadCase</NewVersion>
+        <AuthorName>drath</AuthorName>
+      </Revision>
     </AttributeType>
     <AttributeType Name="electricPowerFactor" AttributeDataType="xs:double" Unit="1" ID="850dd4d0-ba7d-48e6-a59f-9ab1ac77b333">
       <Description>Power factor of the asset under the defined electrical load case, representing the ratio of active power to apparent power.</Description>
@@ -168,6 +257,11 @@ Wherever an attribute refines or contextualizes a domain-neutral electrical quan
         <RevisionDate>2026-03-02T16:13:50.4632097+01:00</RevisionDate>
         <OldVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_1_0@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricLoadCaseContext/electricPowerFactor</OldVersion>
         <AuthorName>enisc</AuthorName>
+      </Revision>
+      <Revision>
+        <RevisionDate>2026-03-09T13:10:24.8791348+01:00</RevisionDate>
+        <NewVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_2_1@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricPowerFactor</NewVersion>
+        <AuthorName>drath</AuthorName>
       </Revision>
     </AttributeType>
     <AttributeType Name="electricSupplyFrequency" AttributeDataType="xs:double" Unit="Hz" ID="9335184d-31c3-40c4-9076-1442945612df" RefAttributeType="AutomationMLBasicPropertiesLibrariesAMLEd21_1_0@AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/frequency">
@@ -178,6 +272,11 @@ Wherever an attribute refines or contextualizes a domain-neutral electrical quan
         <OldVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_1_0@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricOperatingConditionContext/electricSupplyFrequency</OldVersion>
         <AuthorName>enisc</AuthorName>
       </Revision>
+      <Revision>
+        <RevisionDate>2026-03-09T13:10:24.8857491+01:00</RevisionDate>
+        <NewVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_2_1@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricSupplyFrequency</NewVersion>
+        <AuthorName>drath</AuthorName>
+      </Revision>
     </AttributeType>
     <AttributeType Name="electricRatedVoltage" AttributeDataType="xs:double" Unit="V" ID="9e3653ad-5845-47c1-a8f3-836c3863fd02" RefAttributeType="AutomationMLBasicPropertiesLibrariesAMLEd21_1_0@AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/voltage">
       <Description>Rated electric potential difference for which the asset is designed under stated conditions.</Description>
@@ -186,6 +285,11 @@ Wherever an attribute refines or contextualizes a domain-neutral electrical quan
         <RevisionDate>2026-03-02T16:13:50.4751274+01:00</RevisionDate>
         <OldVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_1_0@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricOperatingConditionContext/electricRatedVoltage</OldVersion>
         <AuthorName>enisc</AuthorName>
+      </Revision>
+      <Revision>
+        <RevisionDate>2026-03-09T13:10:24.8961445+01:00</RevisionDate>
+        <NewVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_2_1@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricRatedVoltage</NewVersion>
+        <AuthorName>drath</AuthorName>
       </Revision>
       <RefSemantic CorrespondingAttributePath="IRDI:0112/2///61360_4#AAH012#002" />
     </AttributeType>
@@ -197,6 +301,11 @@ Wherever an attribute refines or contextualizes a domain-neutral electrical quan
         <OldVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_1_0@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricOperatingConditionContext/electricOperatingCondition</OldVersion>
         <AuthorName>enisc</AuthorName>
       </Revision>
+      <Revision>
+        <RevisionDate>2026-03-09T13:10:24.9043626+01:00</RevisionDate>
+        <NewVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_2_1@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricOperatingCondition</NewVersion>
+        <AuthorName>drath</AuthorName>
+      </Revision>
     </AttributeType>
     <AttributeType Name="electricRatedCurrent" AttributeDataType="xs:double" Unit="A" ID="76e8bef5-b124-4d49-a0ba-84429d9d9256" RefAttributeType="AutomationMLBasicPropertiesLibrariesAMLEd21_1_0@AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/current">
       <Description>Rated electric current for which the asset is designed under stated conditions.</Description>
@@ -205,6 +314,11 @@ Wherever an attribute refines or contextualizes a domain-neutral electrical quan
         <RevisionDate>2026-03-02T16:13:50.4807253+01:00</RevisionDate>
         <OldVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_1_0@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricOperatingConditionContext/electricRatedCurrent</OldVersion>
         <AuthorName>enisc</AuthorName>
+      </Revision>
+      <Revision>
+        <RevisionDate>2026-03-09T13:10:24.915376+01:00</RevisionDate>
+        <NewVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_2_1@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricRatedCurrent</NewVersion>
+        <AuthorName>drath</AuthorName>
       </Revision>
     </AttributeType>
     <AttributeType Name="electricLeakageCurrent" AttributeDataType="xs:double" Unit="A" ID="8c074337-2a08-4e61-8ced-023ea816cc37" RefAttributeType="AutomationMLBasicPropertiesLibrariesAMLEd21_1_0@AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/current">
@@ -215,6 +329,11 @@ Wherever an attribute refines or contextualizes a domain-neutral electrical quan
         <OldVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_1_0@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricOperatingConditionContext/electricLeakageCurrent</OldVersion>
         <AuthorName>enisc</AuthorName>
       </Revision>
+      <Revision>
+        <RevisionDate>2026-03-09T13:10:24.9236711+01:00</RevisionDate>
+        <NewVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_2_1@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricLeakageCurrent</NewVersion>
+        <AuthorName>drath</AuthorName>
+      </Revision>
     </AttributeType>
     <AttributeType Name="electricRatedInputVoltage" AttributeDataType="xs:double" Unit="V" ID="320ad42a-46b9-4a4b-b4e6-03c40c11b11a" RefAttributeType="AutomationMLBasicPropertiesLibrariesAMLEd21_1_0@AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/voltage">
       <Description>Input voltage value specified by the manufacturer, determined under defined conditions, to which the asset may be connected for normal operation and on which product specific tests are based.</Description>
@@ -223,6 +342,11 @@ Wherever an attribute refines or contextualizes a domain-neutral electrical quan
         <RevisionDate>2026-03-02T16:13:50.4870857+01:00</RevisionDate>
         <OldVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_1_0@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricOperatingConditionContext/electricRatedInputVoltage</OldVersion>
         <AuthorName>enisc</AuthorName>
+      </Revision>
+      <Revision>
+        <RevisionDate>2026-03-09T13:10:24.933499+01:00</RevisionDate>
+        <NewVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_2_1@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricRatedInputVoltage</NewVersion>
+        <AuthorName>drath</AuthorName>
       </Revision>
       <RefSemantic CorrespondingAttributePath="0173-1#02-AAB070#009" />
     </AttributeType>
@@ -234,6 +358,11 @@ Wherever an attribute refines or contextualizes a domain-neutral electrical quan
         <OldVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_1_0@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricOperatingConditionContext/electricPermissibleVoltageMax</OldVersion>
         <AuthorName>enisc</AuthorName>
       </Revision>
+      <Revision>
+        <RevisionDate>2026-03-09T13:10:24.9461391+01:00</RevisionDate>
+        <NewVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_2_1@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricPermissibleVoltageMax</NewVersion>
+        <AuthorName>drath</AuthorName>
+      </Revision>
     </AttributeType>
     <AttributeType Name="electricPermissibleCurrentMax" AttributeDataType="xs:double" Unit="A" ID="5fdd95b4-d7b8-4936-b36b-436a6087522e" RefAttributeType="AutomationMLBasicPropertiesLibrariesAMLEd21_1_0@AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/current">
       <Description>Maximum permissible electric current under the defined electrics operating condition.</Description>
@@ -243,6 +372,11 @@ Wherever an attribute refines or contextualizes a domain-neutral electrical quan
         <OldVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_1_0@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricOperatingConditionContext/electricPermissibleCurrentMax</OldVersion>
         <AuthorName>enisc</AuthorName>
       </Revision>
+      <Revision>
+        <RevisionDate>2026-03-09T13:10:24.9602645+01:00</RevisionDate>
+        <NewVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_2_1@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricPermissibleCurrentMax</NewVersion>
+        <AuthorName>drath</AuthorName>
+      </Revision>
     </AttributeType>
     <AttributeType Name="electricShortCircuitCurrentProspective" AttributeDataType="xs:double" Unit="A" ID="b5295973-31cb-4763-aa70-fddb086b7c46" RefAttributeType="AutomationMLBasicPropertiesLibrariesAMLEd21_1_0@AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/current">
       <Description>Prospective short-circuit current relevant for electrical design verification and protective coordination under the defined electrics context.</Description>
@@ -251,6 +385,11 @@ Wherever an attribute refines or contextualizes a domain-neutral electrical quan
         <RevisionDate>2026-03-02T16:13:50.496311+01:00</RevisionDate>
         <OldVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_1_0@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricOperatingConditionContext/electricShortCircuitCurrentProspective</OldVersion>
         <AuthorName>enisc</AuthorName>
+      </Revision>
+      <Revision>
+        <RevisionDate>2026-03-09T13:10:24.9743351+01:00</RevisionDate>
+        <NewVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_2_1@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricShortCircuitCurrentProspective</NewVersion>
+        <AuthorName>drath</AuthorName>
       </Revision>
     </AttributeType>
     <AttributeType Name="electricResidualCurrentRated" AttributeDataType="xs:double" Unit="A" ID="14d9459c-0ae4-473a-9dc6-62348cebe309" RefAttributeType="AutomationMLBasicPropertiesLibrariesAMLEd21_1_0@AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/current">
@@ -262,6 +401,11 @@ Wherever an attribute refines or contextualizes a domain-neutral electrical quan
         <OldVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_1_0@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricOperatingConditionContext/electricResidualCurrentRated</OldVersion>
         <AuthorName>enisc</AuthorName>
       </Revision>
+      <Revision>
+        <RevisionDate>2026-03-09T13:10:24.9879445+01:00</RevisionDate>
+        <NewVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_2_1@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricResidualCurrentRated</NewVersion>
+        <AuthorName>drath</AuthorName>
+      </Revision>
     </AttributeType>
     <AttributeType Name="electricTouchVoltagePermissible" AttributeDataType="xs:double" Unit="V" ID="680dacfb-d4b9-4044-b13c-8fc8d552b4f2" RefAttributeType="AutomationMLBasicPropertiesLibrariesAMLEd21_1_0@AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/voltage">
       <Description>Maximum permissible touch voltage under specified electrical fault conditions.
@@ -271,6 +415,11 @@ Wherever an attribute refines or contextualizes a domain-neutral electrical quan
         <RevisionDate>2026-03-02T16:13:50.5035535+01:00</RevisionDate>
         <OldVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_1_0@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricOperatingConditionContext/electricTouchVoltagePermissible</OldVersion>
         <AuthorName>enisc</AuthorName>
+      </Revision>
+      <Revision>
+        <RevisionDate>2026-03-09T13:10:24.9972312+01:00</RevisionDate>
+        <NewVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_2_1@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricTouchVoltagePermissible</NewVersion>
+        <AuthorName>drath</AuthorName>
       </Revision>
     </AttributeType>
     <AttributeType Name="electricProspectiveFaultPower" AttributeDataType="xs:double" Unit="kVA" ID="35684eeb-63d1-4ab8-bb1e-98b77e074cee" RefAttributeType="AutomationMLBasicPropertiesLibrariesAMLEd21_1_0@AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/power">
@@ -282,6 +431,11 @@ Wherever an attribute refines or contextualizes a domain-neutral electrical quan
         <OldVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_1_0@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricOperatingConditionContext/electricProspectiveFaultPower</OldVersion>
         <AuthorName>enisc</AuthorName>
       </Revision>
+      <Revision>
+        <RevisionDate>2026-03-09T13:10:25.0070518+01:00</RevisionDate>
+        <NewVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_2_1@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricProspectiveFaultPower</NewVersion>
+        <AuthorName>drath</AuthorName>
+      </Revision>
     </AttributeType>
     <AttributeType Name="electricClearanceDistance" AttributeDataType="xs:double" Unit="mm" ID="5f6b2d7a-b60c-406a-86e3-5488961c26ae" RefAttributeType="AutomationMLBasicPropertiesLibrariesAMLEd21_1_0@AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/distance">
       <Description>Minimum air clearance distance required between conductive parts to prevent electrical breakdown.
@@ -291,6 +445,11 @@ Wherever an attribute refines or contextualizes a domain-neutral electrical quan
         <RevisionDate>2026-03-02T16:13:50.5106279+01:00</RevisionDate>
         <OldVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_1_0@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricOperatingConditionContext/electricClearanceDistance</OldVersion>
         <AuthorName>enisc</AuthorName>
+      </Revision>
+      <Revision>
+        <RevisionDate>2026-03-09T13:10:25.0181512+01:00</RevisionDate>
+        <NewVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_2_1@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricClearanceDistance</NewVersion>
+        <AuthorName>drath</AuthorName>
       </Revision>
     </AttributeType>
     <AttributeType Name="electricCreepageDistance" AttributeDataType="xs:double" Unit="mm" ID="56eb98d8-d7d4-445e-82d9-e838df3ccdbc" RefAttributeType="AutomationMLBasicPropertiesLibrariesAMLEd21_1_0@AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/distance">
@@ -302,6 +461,11 @@ Wherever an attribute refines or contextualizes a domain-neutral electrical quan
         <OldVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_1_0@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricOperatingConditionContext/electricCreepageDistance</OldVersion>
         <AuthorName>enisc</AuthorName>
       </Revision>
+      <Revision>
+        <RevisionDate>2026-03-09T13:10:25.0265885+01:00</RevisionDate>
+        <NewVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_2_1@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricCreepageDistance</NewVersion>
+        <AuthorName>drath</AuthorName>
+      </Revision>
     </AttributeType>
     <AttributeType Name="electricPhaseCount" AttributeDataType="xs:integer" Unit="1" ID="d4ee0697-3e03-4166-9c81-510395ab78d6">
       <Description>Number of electrical phases used to supply the asset under the defined electrics context.</Description>
@@ -311,6 +475,11 @@ Wherever an attribute refines or contextualizes a domain-neutral electrical quan
         <OldVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_1_0@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricOperatingConditionContext/electricPhaseCount</OldVersion>
         <AuthorName>enisc</AuthorName>
       </Revision>
+      <Revision>
+        <RevisionDate>2026-03-09T13:10:25.0373281+01:00</RevisionDate>
+        <NewVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_2_1@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricPhaseCount</NewVersion>
+        <AuthorName>drath</AuthorName>
+      </Revision>
     </AttributeType>
     <AttributeType Name="electricAmbientTemperatureCategoryLowerIEC60068_1" AttributeDataType="xs:int" Unit="°C" RefAttributeType="AutomationMLBasicPropertiesLibrariesAMLEd21_1_0@AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/celsiusTemperature" ID="398c835f-2b30-453e-8398-a4640ee7db40">
       <Description>Lower category (ambient) temperature of the component according to IEC 60068-1</Description>
@@ -319,6 +488,11 @@ Wherever an attribute refines or contextualizes a domain-neutral electrical quan
         <RevisionDate>2026-03-02T16:13:50.5210631+01:00</RevisionDate>
         <OldVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_1_0@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricOperatingConditionContext/electricAmbientTemperatureCategoryLowerIEC60068_1</OldVersion>
         <AuthorName>enisc</AuthorName>
+      </Revision>
+      <Revision>
+        <RevisionDate>2026-03-09T13:10:25.0482993+01:00</RevisionDate>
+        <NewVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_2_1@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricAmbientTemperatureCategoryLowerIEC60068_1</NewVersion>
+        <AuthorName>drath</AuthorName>
       </Revision>
       <RefSemantic CorrespondingAttributePath="IRDI:0112/2///61360_4#AAH008#002" />
     </AttributeType>
@@ -330,6 +504,11 @@ Wherever an attribute refines or contextualizes a domain-neutral electrical quan
         <OldVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_1_0@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricOperatingConditionContext/electricAmbientTemperatureCategoryUpperIEC60068_1</OldVersion>
         <AuthorName>enisc</AuthorName>
       </Revision>
+      <Revision>
+        <RevisionDate>2026-03-09T13:10:25.0567414+01:00</RevisionDate>
+        <NewVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_2_1@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricAmbientTemperatureCategoryUpperIEC60068_1</NewVersion>
+        <AuthorName>drath</AuthorName>
+      </Revision>
       <RefSemantic CorrespondingAttributePath="IRDI:0112/2///61360_4#AAH007#002" />
     </AttributeType>
     <AttributeType Name="electricTestCondition" AttributeDataType="xs:string" ID="48a277e0-8177-4ce1-b0e7-c5f18167138c">
@@ -340,6 +519,11 @@ Wherever an attribute refines or contextualizes a domain-neutral electrical quan
         <OldVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_1_0@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricTestConditionContext/electricTestCondition</OldVersion>
         <AuthorName>enisc</AuthorName>
       </Revision>
+      <Revision>
+        <RevisionDate>2026-03-09T13:10:25.0672016+01:00</RevisionDate>
+        <NewVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_2_1@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricTestCondition</NewVersion>
+        <AuthorName>drath</AuthorName>
+      </Revision>
     </AttributeType>
     <AttributeType Name="electricInsulationResistance" AttributeDataType="xs:double" Unit="Ω" ID="6271f0ab-ec17-41df-b0e0-87beb0eedaa6" RefAttributeType="AutomationMLBasicPropertiesLibrariesAMLEd21_1_0@AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/electricResistance">
       <Description>Insulation resistance under the defined electrics test condition.</Description>
@@ -348,6 +532,11 @@ Wherever an attribute refines or contextualizes a domain-neutral electrical quan
         <RevisionDate>2026-03-02T16:13:50.5337537+01:00</RevisionDate>
         <OldVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_1_0@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricTestConditionContext/electricInsulationResistance</OldVersion>
         <AuthorName>enisc</AuthorName>
+      </Revision>
+      <Revision>
+        <RevisionDate>2026-03-09T13:10:25.076679+01:00</RevisionDate>
+        <NewVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_2_1@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricInsulationResistance</NewVersion>
+        <AuthorName>drath</AuthorName>
       </Revision>
     </AttributeType>
     <AttributeType Name="electricEarthContinuityResistance" AttributeDataType="xs:double" Unit="Ω" ID="25660a56-1670-42fd-ba4d-1a62f6b83af5" RefAttributeType="AutomationMLBasicPropertiesLibrariesAMLEd21_1_0@AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/electricResistance">
@@ -358,6 +547,11 @@ Wherever an attribute refines or contextualizes a domain-neutral electrical quan
         <OldVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_1_0@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricTestConditionContext/electricEarthContinuityResistance</OldVersion>
         <AuthorName>enisc</AuthorName>
       </Revision>
+      <Revision>
+        <RevisionDate>2026-03-09T13:10:25.0877883+01:00</RevisionDate>
+        <NewVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_2_1@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricEarthContinuityResistance</NewVersion>
+        <AuthorName>drath</AuthorName>
+      </Revision>
     </AttributeType>
     <AttributeType Name="electricProtectiveConductorResistance" AttributeDataType="xs:double" Unit="Ω" ID="b1988883-76b8-4c29-b8be-370363bcb9dc" RefAttributeType="AutomationMLBasicPropertiesLibrariesAMLEd21_1_0@AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/electricResistance">
       <Description>Resistance of the protective conductor path under the defined electrics test condition, used for verifying protective earthing continuity.</Description>
@@ -367,6 +561,11 @@ Wherever an attribute refines or contextualizes a domain-neutral electrical quan
         <OldVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_1_0@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricTestConditionContext/electricProtectiveConductorResistance</OldVersion>
         <AuthorName>enisc</AuthorName>
       </Revision>
+      <Revision>
+        <RevisionDate>2026-03-09T13:10:25.0982386+01:00</RevisionDate>
+        <NewVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_2_1@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricProtectiveConductorResistance</NewVersion>
+        <AuthorName>drath</AuthorName>
+      </Revision>
     </AttributeType>
     <AttributeType Name="electricDielectricStrength" AttributeDataType="xs:double" Unit="V/m" ID="3de36780-2899-40fe-b828-63690778c4a8">
       <Description>Dielectric strength of insulating material under the defined electrics test condition.</Description>
@@ -375,6 +574,11 @@ Wherever an attribute refines or contextualizes a domain-neutral electrical quan
         <RevisionDate>2026-03-02T16:13:50.5472105+01:00</RevisionDate>
         <OldVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_1_0@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricTestConditionContext/electricDielectricStrength</OldVersion>
         <AuthorName>enisc</AuthorName>
+      </Revision>
+      <Revision>
+        <RevisionDate>2026-03-09T13:10:25.1083936+01:00</RevisionDate>
+        <NewVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_2_1@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricDielectricStrength</NewVersion>
+        <AuthorName>drath</AuthorName>
       </Revision>
     </AttributeType>
     <AttributeType Name="electricTrippingTimeResidualCurrent" AttributeDataType="xs:double" Unit="ms" ID="1b31fa2c-27a7-43d7-a74f-1a3883b2010e" RefAttributeType="AutomationMLBasicPropertiesLibrariesAMLEd21_1_0@AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/timeDuration">
@@ -386,6 +590,11 @@ Wherever an attribute refines or contextualizes a domain-neutral electrical quan
         <OldVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_1_0@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricTestConditionContext/electricTrippingTimeResidualCurrent</OldVersion>
         <AuthorName>enisc</AuthorName>
       </Revision>
+      <Revision>
+        <RevisionDate>2026-03-09T13:10:25.1171811+01:00</RevisionDate>
+        <NewVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_2_1@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricTrippingTimeResidualCurrent</NewVersion>
+        <AuthorName>drath</AuthorName>
+      </Revision>
     </AttributeType>
     <AttributeType Name="electricCableNumberOfConductors" AttributeDataType="xs:int" ID="00ecd67d-1a1e-47e8-b97b-082e7e0ff81c" Unit="1">
       <Description>Number of insulated conductors or wires in a cable.</Description>
@@ -394,6 +603,11 @@ Wherever an attribute refines or contextualizes a domain-neutral electrical quan
         <RevisionDate>2026-03-02T16:13:50.5614927+01:00</RevisionDate>
         <OldVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_1_0@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricCableContext/electricCableNumberOfConductors</OldVersion>
         <AuthorName>enisc</AuthorName>
+      </Revision>
+      <Revision>
+        <RevisionDate>2026-03-09T13:10:25.129277+01:00</RevisionDate>
+        <NewVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_2_1@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricCableNumberOfConductors</NewVersion>
+        <AuthorName>drath</AuthorName>
       </Revision>
       <Value></Value>
       <RefSemantic CorrespondingAttributePath="IRDI:0112/2///61360_4#AAF255#001" />
@@ -406,6 +620,11 @@ Wherever an attribute refines or contextualizes a domain-neutral electrical quan
         <OldVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_1_0@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricCableContext/electricCableConductorMaterial</OldVersion>
         <AuthorName>enisc</AuthorName>
       </Revision>
+      <Revision>
+        <RevisionDate>2026-03-09T13:10:25.1397589+01:00</RevisionDate>
+        <NewVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_2_1@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricCableConductorMaterial</NewVersion>
+        <AuthorName>drath</AuthorName>
+      </Revision>
       <RefSemantic CorrespondingAttributePath="IRDI:0112/2///61360_4#AAF241#001" />
     </AttributeType>
     <AttributeType Name="electricCableInsulationMaterial" AttributeDataType="xs:string" ID="ba602e4d-e4ca-456a-ab29-96c06681f5e9">
@@ -415,6 +634,11 @@ Wherever an attribute refines or contextualizes a domain-neutral electrical quan
         <RevisionDate>2026-03-02T16:13:50.568953+01:00</RevisionDate>
         <OldVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_1_0@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricCableContext/electricCableInsulationMaterial</OldVersion>
         <AuthorName>enisc</AuthorName>
+      </Revision>
+      <Revision>
+        <RevisionDate>2026-03-09T13:10:25.1497865+01:00</RevisionDate>
+        <NewVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_2_1@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricCableInsulationMaterial</NewVersion>
+        <AuthorName>drath</AuthorName>
       </Revision>
       <RefSemantic CorrespondingAttributePath="IRDI:0112/2///61360_4#AAF248#001" />
     </AttributeType>
@@ -426,6 +650,11 @@ Wherever an attribute refines or contextualizes a domain-neutral electrical quan
         <OldVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_1_0@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricCableContext/electricCableSheathMaterial</OldVersion>
         <AuthorName>enisc</AuthorName>
       </Revision>
+      <Revision>
+        <RevisionDate>2026-03-09T13:10:25.1587293+01:00</RevisionDate>
+        <NewVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_2_1@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricCableSheathMaterial</NewVersion>
+        <AuthorName>drath</AuthorName>
+      </Revision>
       <RefSemantic CorrespondingAttributePath="IRDI:0112/2///62683#ACE859#001" />
     </AttributeType>
     <AttributeType Name="electricSheathColour" AttributeDataType="xs:string" ID="9a93173a-f33c-4ca8-8623-404eeffd194d">
@@ -435,6 +664,11 @@ Wherever an attribute refines or contextualizes a domain-neutral electrical quan
         <RevisionDate>2026-03-02T16:13:50.5773883+01:00</RevisionDate>
         <OldVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_1_0@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricCableContext/electricSheathColour</OldVersion>
         <AuthorName>enisc</AuthorName>
+      </Revision>
+      <Revision>
+        <RevisionDate>2026-03-09T13:10:25.1700226+01:00</RevisionDate>
+        <NewVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_2_1@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricSheathColour</NewVersion>
+        <AuthorName>drath</AuthorName>
       </Revision>
       <RefSemantic CorrespondingAttributePath="AMLID:daf161c4-35be-4d8e-9763-b3fc79bd3d12" />
     </AttributeType>
@@ -446,6 +680,11 @@ Wherever an attribute refines or contextualizes a domain-neutral electrical quan
         <OldVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_1_0@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricCableContext/electricCableShieldMaterial</OldVersion>
         <AuthorName>enisc</AuthorName>
       </Revision>
+      <Revision>
+        <RevisionDate>2026-03-09T13:10:25.1783142+01:00</RevisionDate>
+        <NewVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_2_1@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricCableShieldMaterial</NewVersion>
+        <AuthorName>drath</AuthorName>
+      </Revision>
     </AttributeType>
     <AttributeType Name="electricCableShieldCoverage" AttributeDataType="xs:int" Unit="%" ID="48e2b053-b4d2-48f1-8410-728aff868a59">
       <Description>Coverage of the shield in percent.</Description>
@@ -455,6 +694,11 @@ Wherever an attribute refines or contextualizes a domain-neutral electrical quan
         <OldVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_1_0@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricCableContext/electricCableShieldCoverage</OldVersion>
         <AuthorName>enisc</AuthorName>
       </Revision>
+      <Revision>
+        <RevisionDate>2026-03-09T13:10:25.1880897+01:00</RevisionDate>
+        <NewVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_2_1@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricCableShieldCoverage</NewVersion>
+        <AuthorName>drath</AuthorName>
+      </Revision>
     </AttributeType>
     <AttributeType Name="electricCableOutsideDiameter" AttributeDataType="xs:float" Unit="m" RefAttributeType="AutomationMLBasicPropertiesLibrariesAMLEd21_1_0@AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/outerDiameter" ID="9815b8ad-f59b-4c8b-b490-38af8db714e5">
       <Description>Value of the outside diameter of the cable.</Description>
@@ -463,6 +707,11 @@ Wherever an attribute refines or contextualizes a domain-neutral electrical quan
         <RevisionDate>2026-03-02T16:13:50.5881336+01:00</RevisionDate>
         <OldVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_1_0@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricCableContext/electricCableOutsideDiameter</OldVersion>
         <AuthorName>enisc</AuthorName>
+      </Revision>
+      <Revision>
+        <RevisionDate>2026-03-09T13:10:25.1965418+01:00</RevisionDate>
+        <NewVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_2_1@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricCableOutsideDiameter</NewVersion>
+        <AuthorName>drath</AuthorName>
       </Revision>
       <RefSemantic CorrespondingAttributePath="IRDI:0112/2///61360_4#AAE022#001" />
     </AttributeType>
@@ -474,6 +723,11 @@ Wherever an attribute refines or contextualizes a domain-neutral electrical quan
         <OldVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_1_0@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricCableContext/electricCableLength</OldVersion>
         <AuthorName>enisc</AuthorName>
       </Revision>
+      <Revision>
+        <RevisionDate>2026-03-09T13:10:25.2074655+01:00</RevisionDate>
+        <NewVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_2_1@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricCableLength</NewVersion>
+        <AuthorName>drath</AuthorName>
+      </Revision>
       <RefSemantic CorrespondingAttributePath="IRDI:0112/2///61360_4#AAE633#001" />
     </AttributeType>
     <AttributeType Name="electricCableResistance" AttributeDataType="xs:double" Unit="Ω/m" ID="d5eb7b6a-06d7-4c68-84b5-2c8b8fc02736">
@@ -483,6 +737,11 @@ Wherever an attribute refines or contextualizes a domain-neutral electrical quan
         <RevisionDate>2026-03-02T16:13:50.5955216+01:00</RevisionDate>
         <OldVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_1_0@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricCableContext/electricCableResistance</OldVersion>
         <AuthorName>enisc</AuthorName>
+      </Revision>
+      <Revision>
+        <RevisionDate>2026-03-09T13:10:25.2158076+01:00</RevisionDate>
+        <NewVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_2_1@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricCableResistance</NewVersion>
+        <AuthorName>drath</AuthorName>
       </Revision>
       <RefSemantic CorrespondingAttributePath="IRDI:0112/2///61360_4#AAF245#001" />
       <RefSemantic CorrespondingAttributePath="AMLID:c858c81f-f169-4521-989f-a5576b0d495e" />
@@ -495,6 +754,11 @@ Wherever an attribute refines or contextualizes a domain-neutral electrical quan
         <OldVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_1_0@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricCableContext/electricCableCapacitance</OldVersion>
         <AuthorName>enisc</AuthorName>
       </Revision>
+      <Revision>
+        <RevisionDate>2026-03-09T13:10:25.2256219+01:00</RevisionDate>
+        <NewVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_2_1@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricCableCapacitance</NewVersion>
+        <AuthorName>drath</AuthorName>
+      </Revision>
       <RefSemantic CorrespondingAttributePath="IRDI:0112/2///61360_4#AAF259#001" />
       <RefSemantic CorrespondingAttributePath="AMLID:30883e1c-3eb9-44be-9270-8e76a1c9d8c1" />
     </AttributeType>
@@ -506,6 +770,11 @@ Wherever an attribute refines or contextualizes a domain-neutral electrical quan
         <OldVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_1_0@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricContactContext</OldVersion>
         <AuthorName>enisc</AuthorName>
       </Revision>
+      <Revision>
+        <RevisionDate>2026-03-09T13:10:25.2353916+01:00</RevisionDate>
+        <NewVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_2_1@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricContactContext</NewVersion>
+        <AuthorName>drath</AuthorName>
+      </Revision>
     </AttributeType>
     <AttributeType Name="electricContactMaterial" AttributeDataType="xs:string" ID="80a446bb-b463-48c0-aaff-5b9f64e7c4c0">
       <Description>Code of the material of the body of the contacts of a connector, relay or switch.</Description>
@@ -514,6 +783,11 @@ Wherever an attribute refines or contextualizes a domain-neutral electrical quan
         <RevisionDate>2026-03-02T16:13:50.6052089+01:00</RevisionDate>
         <OldVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_1_0@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricContactContext/electricContactMaterial</OldVersion>
         <AuthorName>enisc</AuthorName>
+      </Revision>
+      <Revision>
+        <RevisionDate>2026-03-09T13:10:25.2455188+01:00</RevisionDate>
+        <NewVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_2_1@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricContactMaterial</NewVersion>
+        <AuthorName>drath</AuthorName>
       </Revision>
       <RefSemantic CorrespondingAttributePath="IRDI:0112/2///61360_4#AAE355#001" />
     </AttributeType>
@@ -525,6 +799,11 @@ Wherever an attribute refines or contextualizes a domain-neutral electrical quan
         <OldVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_1_0@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricContactContext/electricContactFinish</OldVersion>
         <AuthorName>enisc</AuthorName>
       </Revision>
+      <Revision>
+        <RevisionDate>2026-03-09T13:10:25.2541764+01:00</RevisionDate>
+        <NewVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_2_1@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricContactFinish</NewVersion>
+        <AuthorName>drath</AuthorName>
+      </Revision>
       <RefSemantic CorrespondingAttributePath="IRDI:0112/2///61360_4#AAE350#001" />
     </AttributeType>
     <AttributeType Name="electricContactCurrentMax" AttributeDataType="xs:float" Unit="A" RefAttributeType="AutomationMLBasicPropertiesLibrariesAMLEd21_1_0@AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/current" ID="e3ec9417-e808-4149-bf8b-7278c4d13aa3">
@@ -534,6 +813,11 @@ Wherever an attribute refines or contextualizes a domain-neutral electrical quan
         <RevisionDate>2026-03-02T16:13:50.6121054+01:00</RevisionDate>
         <OldVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_1_0@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricContactContext/electricContactCurrentMax</OldVersion>
         <AuthorName>enisc</AuthorName>
+      </Revision>
+      <Revision>
+        <RevisionDate>2026-03-09T13:10:25.2646092+01:00</RevisionDate>
+        <NewVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_2_1@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricContactCurrentMax</NewVersion>
+        <AuthorName>drath</AuthorName>
       </Revision>
       <RefSemantic CorrespondingAttributePath="IRDI:0112/2///61360_4#AAE358#001" />
     </AttributeType>
@@ -545,6 +829,11 @@ Wherever an attribute refines or contextualizes a domain-neutral electrical quan
         <OldVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_1_0@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricContactContext/electricContactFunctionType</OldVersion>
         <AuthorName>enisc</AuthorName>
       </Revision>
+      <Revision>
+        <RevisionDate>2026-03-09T13:10:25.275215+01:00</RevisionDate>
+        <NewVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_2_1@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricContactFunctionType</NewVersion>
+        <AuthorName>drath</AuthorName>
+      </Revision>
       <RefSemantic CorrespondingAttributePath="IRDI:0112/2///61987#ABA413#001" />
     </AttributeType>
     <AttributeType Name="electricContactMaxPlugCycles" AttributeDataType="xs:integer" ID="f04fe25f-582f-462b-8a11-c94cd7810c76" Unit="1">
@@ -554,6 +843,11 @@ Wherever an attribute refines or contextualizes a domain-neutral electrical quan
         <RevisionDate>2026-03-02T16:13:50.6194802+01:00</RevisionDate>
         <OldVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_1_0@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricContactContext/electricContactMaxPlugCycles</OldVersion>
         <AuthorName>enisc</AuthorName>
+      </Revision>
+      <Revision>
+        <RevisionDate>2026-03-09T13:10:25.289455+01:00</RevisionDate>
+        <NewVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_2_1@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricContactMaxPlugCycles</NewVersion>
+        <AuthorName>drath</AuthorName>
       </Revision>
       <RefSemantic CorrespondingAttributePath="IRDI:0112/2///61360_4#AAE361#001" />
     </AttributeType>
@@ -565,6 +859,11 @@ Wherever an attribute refines or contextualizes a domain-neutral electrical quan
         <OldVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_1_0@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricEnclosureContext</OldVersion>
         <AuthorName>enisc</AuthorName>
       </Revision>
+      <Revision>
+        <RevisionDate>2026-03-09T13:10:25.3020173+01:00</RevisionDate>
+        <NewVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_2_1@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricEnclosureContext</NewVersion>
+        <AuthorName>drath</AuthorName>
+      </Revision>
     </AttributeType>
     <AttributeType Name="electricEnclosureProtectionRating" ID="252d25b8-f355-4e8c-a763-ddf997072432" AttributeDataType="xs:string">
       <Description>Ingress protection rating of the enclosure.</Description>
@@ -573,6 +872,11 @@ Wherever an attribute refines or contextualizes a domain-neutral electrical quan
         <RevisionDate>2026-03-02T16:13:50.6295913+01:00</RevisionDate>
         <OldVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_1_0@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricEnclosureContext/electricEnclosureProtectionRating</OldVersion>
         <AuthorName>enisc</AuthorName>
+      </Revision>
+      <Revision>
+        <RevisionDate>2026-03-09T13:10:25.3130647+01:00</RevisionDate>
+        <NewVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_2_1@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricEnclosureProtectionRating</NewVersion>
+        <AuthorName>drath</AuthorName>
       </Revision>
     </AttributeType>
     <AttributeType Name="electricHousingMaterial" AttributeDataType="xs:string" ID="c479d5e6-3979-4256-9db4-6d44c5a22c81">
@@ -583,6 +887,11 @@ Wherever an attribute refines or contextualizes a domain-neutral electrical quan
         <OldVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_1_0@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricEnclosureContext/electricHousingMaterial</OldVersion>
         <AuthorName>enisc</AuthorName>
       </Revision>
+      <Revision>
+        <RevisionDate>2026-03-09T13:10:25.3242764+01:00</RevisionDate>
+        <NewVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_2_1@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricHousingMaterial</NewVersion>
+        <AuthorName>drath</AuthorName>
+      </Revision>
       <RefSemantic CorrespondingAttributePath="IRDI:0112/2///61360_4#AAE351#006" />
     </AttributeType>
     <AttributeType Name="electricTemperatureCategoryLowerIEC61076" AttributeDataType="xs:integer" Unit="°C" ID="dd435f43-6e4f-40f6-9be0-b6f983187c2a">
@@ -592,6 +901,11 @@ Wherever an attribute refines or contextualizes a domain-neutral electrical quan
         <RevisionDate>2026-03-02T16:13:50.63966+01:00</RevisionDate>
         <OldVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_1_0@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricConnectorContextIEC61076_2_111/electricTemperatureCategoryLower</OldVersion>
         <AuthorName>enisc</AuthorName>
+      </Revision>
+      <Revision>
+        <RevisionDate>2026-03-09T13:10:25.3352496+01:00</RevisionDate>
+        <NewVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_2_1@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricTemperatureCategoryLowerIEC61076</NewVersion>
+        <AuthorName>drath</AuthorName>
       </Revision>
       <DefaultValue>-25</DefaultValue>
       <RefSemantic CorrespondingAttributePath="IRDI:0112/2///61360_4#AAH008#002" />
@@ -605,6 +919,11 @@ Wherever an attribute refines or contextualizes a domain-neutral electrical quan
         <OldVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_1_0@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricConnectorContextIEC61076_2_111/electricTemperatureCategoryUpper</OldVersion>
         <AuthorName>enisc</AuthorName>
       </Revision>
+      <Revision>
+        <RevisionDate>2026-03-09T13:10:25.3434384+01:00</RevisionDate>
+        <NewVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_2_1@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricTemperatureCategoryUpperIEC61076</NewVersion>
+        <AuthorName>drath</AuthorName>
+      </Revision>
       <DefaultValue>85</DefaultValue>
       <RefSemantic CorrespondingAttributePath="IRDI:0112/2///61360_4#AAH007#002" />
       <RefSemantic CorrespondingAttributePath="IEC61076-2-111Ed1.0/6.3" />
@@ -617,6 +936,11 @@ Wherever an attribute refines or contextualizes a domain-neutral electrical quan
         <OldVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_1_0@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricConnectorContextIEC61076_2_111/electricRatedOperatingVoltage</OldVersion>
         <AuthorName>enisc</AuthorName>
       </Revision>
+      <Revision>
+        <RevisionDate>2026-03-09T13:10:25.3537804+01:00</RevisionDate>
+        <NewVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_2_1@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricRatedOperatingVoltageIEC61076</NewVersion>
+        <AuthorName>drath</AuthorName>
+      </Revision>
       <RefSemantic CorrespondingAttributePath="IRDI:0112/2///61360_4#AAH012#002" />
       <RefSemantic CorrespondingAttributePath="IEC61076-2-111Ed1.0/6.4.3" />
     </AttributeType>
@@ -627,6 +951,11 @@ Wherever an attribute refines or contextualizes a domain-neutral electrical quan
         <RevisionDate>2026-03-02T16:13:50.6508894+01:00</RevisionDate>
         <OldVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_1_0@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricConnectorContextIEC61076_2_111/electricRatedCurrent</OldVersion>
         <AuthorName>enisc</AuthorName>
+      </Revision>
+      <Revision>
+        <RevisionDate>2026-03-09T13:10:25.3636568+01:00</RevisionDate>
+        <NewVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_2_1@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricRatedCurrentIEC61076</NewVersion>
+        <AuthorName>drath</AuthorName>
       </Revision>
       <RefSemantic CorrespondingAttributePath="IRDI:0112/2///61360_4#AAH066#002" />
       <RefSemantic CorrespondingAttributePath="IEC61076-2-111Ed1.0/6.4.4" />
@@ -639,6 +968,11 @@ Wherever an attribute refines or contextualizes a domain-neutral electrical quan
         <OldVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_1_0@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricConnectorContextIEC61076_2_111/electricContactResistance</OldVersion>
         <AuthorName>enisc</AuthorName>
       </Revision>
+      <Revision>
+        <RevisionDate>2026-03-09T13:10:25.3735228+01:00</RevisionDate>
+        <NewVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_2_1@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricContactResistanceIEC61076</NewVersion>
+        <AuthorName>drath</AuthorName>
+      </Revision>
       <RefSemantic CorrespondingAttributePath="IRDI:0112/2///61360_4#AAE920#001" />
       <RefSemantic CorrespondingAttributePath="IEC61076-2-111Ed1.0/6.4.5" />
     </AttributeType>
@@ -649,6 +983,11 @@ Wherever an attribute refines or contextualizes a domain-neutral electrical quan
         <RevisionDate>2026-03-02T16:13:50.6584663+01:00</RevisionDate>
         <OldVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_1_0@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricConnectorContextIEC61076_2_111/electricInsulationResistance</OldVersion>
         <AuthorName>enisc</AuthorName>
+      </Revision>
+      <Revision>
+        <RevisionDate>2026-03-09T13:10:25.3819763+01:00</RevisionDate>
+        <NewVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_2_1@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricInsulationResistanceIEC61076</NewVersion>
+        <AuthorName>drath</AuthorName>
       </Revision>
       <RefSemantic CorrespondingAttributePath="IRDI:0112/2///61360_4#AAE155#001" />
       <RefSemantic CorrespondingAttributePath="IEC61076-2-111Ed1.0/6.4.6" />
@@ -661,6 +1000,11 @@ Wherever an attribute refines or contextualizes a domain-neutral electrical quan
         <OldVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_1_0@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricConnectorContextIEC61076_2_111/electricIPCode</OldVersion>
         <AuthorName>enisc</AuthorName>
       </Revision>
+      <Revision>
+        <RevisionDate>2026-03-09T13:10:25.392169+01:00</RevisionDate>
+        <NewVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_2_1@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricIPCodeIEC61076</NewVersion>
+        <AuthorName>drath</AuthorName>
+      </Revision>
       <RefSemantic CorrespondingAttributePath="IRDI:0112/2///61360_4#AAH011#002" />
       <RefSemantic CorrespondingAttributePath="IEC61076-2-111Ed1.0/6.6.3" />
     </AttributeType>
@@ -671,6 +1015,11 @@ Wherever an attribute refines or contextualizes a domain-neutral electrical quan
         <RevisionDate>2026-03-02T16:13:50.6664407+01:00</RevisionDate>
         <OldVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_1_0@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricConnectorContextIEC61076_2_111/electricInsertionForce</OldVersion>
         <AuthorName>enisc</AuthorName>
+      </Revision>
+      <Revision>
+        <RevisionDate>2026-03-09T13:10:25.4023209+01:00</RevisionDate>
+        <NewVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_2_1@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricInsertionForceIEC61076</NewVersion>
+        <AuthorName>drath</AuthorName>
       </Revision>
       <RefSemantic CorrespondingAttributePath="IRDI:0112/2///61360_4#AAH067#002" />
       <RefSemantic CorrespondingAttributePath="IEC61076-2-111Ed1.0/6.5.3" />
@@ -683,6 +1032,11 @@ Wherever an attribute refines or contextualizes a domain-neutral electrical quan
         <OldVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_1_0@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricConnectorContextIEC61076_2_111/electricWithdrawalForce</OldVersion>
         <AuthorName>enisc</AuthorName>
       </Revision>
+      <Revision>
+        <RevisionDate>2026-03-09T13:10:25.4128062+01:00</RevisionDate>
+        <NewVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_2_1@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricWithdrawalForceIEC61076</NewVersion>
+        <AuthorName>drath</AuthorName>
+      </Revision>
       <RefSemantic CorrespondingAttributePath="IRDI:0112/2///61360_4#AAH068#002" />
       <RefSemantic CorrespondingAttributePath="IEC61076-2-111Ed1.0/6.4.3" />
     </AttributeType>
@@ -693,6 +1047,11 @@ Wherever an attribute refines or contextualizes a domain-neutral electrical quan
         <RevisionDate>2026-03-02T16:13:50.6769939+01:00</RevisionDate>
         <OldVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_1_0@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricConnectorContextIEC61076_2_111/electricMechanicalOperations</OldVersion>
         <AuthorName>enisc</AuthorName>
+      </Revision>
+      <Revision>
+        <RevisionDate>2026-03-09T13:10:25.422829+01:00</RevisionDate>
+        <NewVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_2_1@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricMechanicalOperationsIEC61076</NewVersion>
+        <AuthorName>drath</AuthorName>
       </Revision>
       <RefSemantic CorrespondingAttributePath="IRDI:0112/2///61360_4#ADA109#001" />
       <RefSemantic CorrespondingAttributePath="IEC61076-2-111Ed1.0/6.5.1" />
@@ -705,6 +1064,11 @@ Wherever an attribute refines or contextualizes a domain-neutral electrical quan
         <OldVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_1_0@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricConnectorContextIEC61076_2_111/electricPollutionDegree</OldVersion>
         <AuthorName>enisc</AuthorName>
       </Revision>
+      <Revision>
+        <RevisionDate>2026-03-09T13:10:25.431815+01:00</RevisionDate>
+        <NewVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_2_1@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricPollutionDegreeIEC61076</NewVersion>
+        <AuthorName>drath</AuthorName>
+      </Revision>
       <RefSemantic CorrespondingAttributePath="IRDI:0112/2///61360_4#AAF967#001" />
       <RefSemantic CorrespondingAttributePath="IEC61076-2-111Ed1.0/6.4.3" />
     </AttributeType>
@@ -715,6 +1079,11 @@ Wherever an attribute refines or contextualizes a domain-neutral electrical quan
         <RevisionDate>2026-03-02T16:13:50.6884864+01:00</RevisionDate>
         <OldVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_1_0@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricConnectorContextIEC61076_2_111/electricRatedImpulseVoltage</OldVersion>
         <AuthorName>enisc</AuthorName>
+      </Revision>
+      <Revision>
+        <RevisionDate>2026-03-09T13:10:25.4427541+01:00</RevisionDate>
+        <NewVersion>AutomationMLDomainExtension.electricsAttributeTypeLibAMLEd21_2_1@AutomationML_DomainExtension.electrics_AttributeTypeLib/electricRatedImpulseVoltageIEC61076</NewVersion>
+        <AuthorName>drath</AuthorName>
       </Revision>
       <RefSemantic CorrespondingAttributePath="IRDI:0112/2///61360_4#AAR021#002" />
       <RefSemantic CorrespondingAttributePath="IEC61076-2-111Ed1.0/6.4.3" />
