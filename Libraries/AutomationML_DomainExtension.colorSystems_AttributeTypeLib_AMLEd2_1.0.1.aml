@@ -7,21 +7,12 @@
     <Description>VersionRef</Description>
     <Version>OldVersion</Version>
   </ExternalReference>
-  <ExternalReference Path="https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/AutomationML_DomainExtension.colorSystems_AttributeTypeLib_AMLEd2_1.0.2.aml" Alias="AutomationMLDomainExtension.colorSystemsAttributeTypeLibAMLEd21_0_2">
-    <Description>VersionRef</Description>
-    <Version>NewVersion</Version>
-  </ExternalReference>
   <AttributeTypeLib Name="AutomationML_DomainExtension.colorSystems_AttributeTypeLib" ID="9e5ea2bd-b658-4842-8064-12afd1e9653c">
     <Version>1.0.1</Version>
     <Revision>
       <RevisionDate>2026-02-22T23:17:10.0796604+01:00</RevisionDate>
       <OldVersion>AutomationMLDomainExtension.colorSystemsAttributeTypeLibAMLEd21_0_0@AutomationML_DomainExtension.colorSystems_AttributeTypeLib</OldVersion>
       <AuthorName>enisc</AuthorName>
-    </Revision>
-    <Revision>
-      <RevisionDate>2026-03-09T13:06:27.9526543+01:00</RevisionDate>
-      <NewVersion>AutomationMLDomainExtension.colorSystemsAttributeTypeLibAMLEd21_0_2@AutomationML_DomainExtension.colorSystems_AttributeTypeLib</NewVersion>
-      <AuthorName>drath</AuthorName>
     </Revision>
     <AttributeType Name="colorRGB" ID="00d363a8-1532-41c4-bd24-e063d350c2d5">
       <Description>
@@ -34,11 +25,6 @@ The interpretation depends on the referenced RGB color space.
         <RevisionDate>2026-02-22T23:17:10.0895786+01:00</RevisionDate>
         <OldVersion>AutomationMLDomainExtension.colorSystemsAttributeTypeLibAMLEd21_0_0@AutomationML_DomainExtension.colorSystems_AttributeTypeLib/colorRGB</OldVersion>
         <AuthorName>enisc</AuthorName>
-      </Revision>
-      <Revision>
-        <RevisionDate>2026-03-09T13:06:27.9798415+01:00</RevisionDate>
-        <NewVersion>AutomationMLDomainExtension.colorSystemsAttributeTypeLibAMLEd21_0_2@AutomationML_DomainExtension.colorSystems_AttributeTypeLib/colorRGB</NewVersion>
-        <AuthorName>drath</AuthorName>
       </Revision>
       <RefSemantic CorrespondingAttributePath="AMLID:daf161c4-35be-4d8e-9763-b3fc79bd3d12" />
       <Attribute Name="colorSpace" AttributeDataType="xs:string">
@@ -65,11 +51,6 @@ The value represents the red, green, and blue channels in hexadecimal notation.
         <OldVersion>AutomationMLDomainExtension.colorSystemsAttributeTypeLibAMLEd21_0_0@AutomationML_DomainExtension.colorSystems_AttributeTypeLib/colorHEX</OldVersion>
         <AuthorName>enisc</AuthorName>
       </Revision>
-      <Revision>
-        <RevisionDate>2026-03-09T13:06:27.9846893+01:00</RevisionDate>
-        <NewVersion>AutomationMLDomainExtension.colorSystemsAttributeTypeLibAMLEd21_0_2@AutomationML_DomainExtension.colorSystems_AttributeTypeLib/colorHEX</NewVersion>
-        <AuthorName>drath</AuthorName>
-      </Revision>
       <RefSemantic CorrespondingAttributePath="AMLID:daf161c4-35be-4d8e-9763-b3fc79bd3d12" />
       <Attribute Name="hexValue" AttributeDataType="xs:string">
         <Description>Hexadecimal color value, for example #FF0000.</Description>
@@ -85,11 +66,6 @@ Values are expressed as percentages.
         <RevisionDate>2026-02-22T23:17:10.2616135+01:00</RevisionDate>
         <OldVersion>AutomationMLDomainExtension.colorSystemsAttributeTypeLibAMLEd21_0_0@AutomationML_DomainExtension.colorSystems_AttributeTypeLib/colorCMYK</OldVersion>
         <AuthorName>enisc</AuthorName>
-      </Revision>
-      <Revision>
-        <RevisionDate>2026-03-09T13:06:27.9882329+01:00</RevisionDate>
-        <NewVersion>AutomationMLDomainExtension.colorSystemsAttributeTypeLibAMLEd21_0_2@AutomationML_DomainExtension.colorSystems_AttributeTypeLib/colorCMYK</NewVersion>
-        <AuthorName>drath</AuthorName>
       </Revision>
       <RefSemantic CorrespondingAttributePath="AMLID:daf161c4-35be-4d8e-9763-b3fc79bd3d12" />
       <Attribute Name="C" AttributeDataType="xs:double">
@@ -116,11 +92,6 @@ Interpretation depends on the reference white point and measurement conditions.
         <OldVersion>AutomationMLDomainExtension.colorSystemsAttributeTypeLibAMLEd21_0_0@AutomationML_DomainExtension.colorSystems_AttributeTypeLib/colorCIELAB</OldVersion>
         <AuthorName>enisc</AuthorName>
       </Revision>
-      <Revision>
-        <RevisionDate>2026-03-09T13:06:27.9916486+01:00</RevisionDate>
-        <NewVersion>AutomationMLDomainExtension.colorSystemsAttributeTypeLibAMLEd21_0_2@AutomationML_DomainExtension.colorSystems_AttributeTypeLib/colorCIELAB</NewVersion>
-        <AuthorName>drath</AuthorName>
-      </Revision>
       <RefSemantic CorrespondingAttributePath="AMLID:daf161c4-35be-4d8e-9763-b3fc79bd3d12" />
       <Attribute Name="LStar" AttributeDataType="xs:double">
         <Description>Lightness component L*.</Description>
@@ -146,11 +117,6 @@ The interpretation depends on the referenced RAL edition.
         <OldVersion>AutomationMLDomainExtension.colorSystemsAttributeTypeLibAMLEd21_0_0@AutomationML_DomainExtension.colorSystems_AttributeTypeLib/colorRAL</OldVersion>
         <AuthorName>enisc</AuthorName>
       </Revision>
-      <Revision>
-        <RevisionDate>2026-03-09T13:06:27.9948961+01:00</RevisionDate>
-        <NewVersion>AutomationMLDomainExtension.colorSystemsAttributeTypeLibAMLEd21_0_2@AutomationML_DomainExtension.colorSystems_AttributeTypeLib/colorRAL</NewVersion>
-        <AuthorName>drath</AuthorName>
-      </Revision>
       <RefSemantic CorrespondingAttributePath="AMLID:daf161c4-35be-4d8e-9763-b3fc79bd3d12" />
       <Attribute Name="ralCode" AttributeDataType="xs:string">
         <Description>RAL color code, for example RAL 3000.</Description>
@@ -162,22 +128,12 @@ The interpretation depends on the referenced RAL edition.
     <AttributeType Name="colorIEC" AttributeDataType="xs:string" ID="95514162-b88d-4ffb-8b35-8c41d4a3a2f2">
       <Description>Code according to IEC 60757 to describe the colour (BK, BN, BU, GD, GN, GNYE, GY, OG, PK, RD, SR, TQ, VT, WH, YE).</Description>
       <Version>1.0.0</Version>
-      <Revision>
-        <RevisionDate>2026-03-09T13:06:28.0025352+01:00</RevisionDate>
-        <NewVersion>AutomationMLDomainExtension.colorSystemsAttributeTypeLibAMLEd21_0_2@AutomationML_DomainExtension.colorSystems_AttributeTypeLib/colorIEC</NewVersion>
-        <AuthorName>drath</AuthorName>
-      </Revision>
       <RefSemantic CorrespondingAttributePath="IRDI:0112/2///61360_4#AAH065#002" />
       <RefSemantic CorrespondingAttributePath="AMLID:daf161c4-35be-4d8e-9763-b3fc79bd3d12" />
     </AttributeType>
     <AttributeType Name="colorUL" AttributeDataType="xs:string" ID="6f28c822-c3d5-4c67-ba87-60e720f69252">
       <Description>Code according to UL to describe the colour (BK, BN, BU, GD, GN, GNYE, GY, OG, PK, RD, SR, TQ, VT, WH, YE).</Description>
       <Version>1.0.0</Version>
-      <Revision>
-        <RevisionDate>2026-03-09T13:06:28.0068313+01:00</RevisionDate>
-        <NewVersion>AutomationMLDomainExtension.colorSystemsAttributeTypeLibAMLEd21_0_2@AutomationML_DomainExtension.colorSystems_AttributeTypeLib/colorUL</NewVersion>
-        <AuthorName>drath</AuthorName>
-      </Revision>
       <RefSemantic CorrespondingAttributePath="IRDI:0112/2///61360_4#AAH065#002" />
       <RefSemantic CorrespondingAttributePath="AMLID:daf161c4-35be-4d8e-9763-b3fc79bd3d12" />
     </AttributeType>
