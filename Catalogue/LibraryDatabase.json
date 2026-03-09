@@ -1922,8 +1922,30 @@
                   "https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/AutomationML_DomainExtension.colorSystems_AttributeTypeLib_AMLEd2_1.0.1.aml"
                 ],
                 "Signature": "MEYCIQDWGg6spuH1hIeCH9rWx8\u002BI08nJx33lJb8/yuzj9Gd1PwIhAN6V2skHMgk/FtQM7C8pEulGtk4f0fjkpSv42my0WnVR",
-                "Revision": null
+                "Revision": {
+                  "DownloadLink": null,
+                  "DownloadLinks": [
+                    "https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/AutomationML_DomainExtension.colorSystems_AttributeTypeLib_AMLEd2_1.0.1.aml"
+                  ],
+                  "Signature": "MEYCIQCWZvrkVTd9Sd2/Os8nrtT5JrvW2GTZvTe3RpB7XauhkgIhAIhWxwsC4d1YzKnqqS3plG7AxrMKZ3gzju84JY00qFze",
+                  "Revision": null
+                }
               }
+            },
+            {
+              "Version": "1.0.2",
+              "CAEXVersion": "3.0",
+              "AMLEdition": "AMLEd2",
+              "IsArchived": false,
+              "Description": null,
+              "DownloadLink": null,
+              "DownloadLinks": [
+                "https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/AutomationML_DomainExtension.colorSystems_AttributeTypeLib_AMLEd2_1.0.2.aml"
+              ],
+              "Sources": null,
+              "Signature": "MEUCID2NlKWEdMA\u002B9N43vL9QN36aQHFfqVkTw9Z41G9OBMneAiEAoym3tQfPtLE1E1rO39fq2eTxlAKakTI3ZkthzmE6hGg=",
+              "PublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEyk6uIUNugOojm3akdEAA4XoGGBEui0zPVhzkjR0RfprHFWrbPpFMfExaW2TaeChaegCmjE2boFph1aI1eNEPcQ==",
+              "Revision": null
             }
           ]
         },
