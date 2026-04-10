@@ -11338,5 +11338,59 @@
     "LibraryVersion": "1.1.0",
     "AMLEdition": "AMLEd2",
     "ID": "176281c1-7be7-413b-953c-077c6e0ac515"
+  },
+  {
+    "ClassName": "FPD_Bounds",
+    "CaexPath": "VDI_FPD.DI_AttributeTypeLib/FPD_Bounds",
+    "BasePath": null,
+    "LibraryName": "VDI_FPD.DI_AttributeTypeLib",
+    "LibraryVersion": "1.0.0",
+    "AMLEdition": "AMLEd2",
+    "ID": "c7845bef-1559-4c6c-825d-282213faf147"
+  },
+  {
+    "ClassName": "FPD_Waypoint",
+    "CaexPath": "VDI_FPD.DI_AttributeTypeLib/FPD_Waypoint",
+    "BasePath": null,
+    "LibraryName": "VDI_FPD.DI_AttributeTypeLib",
+    "LibraryVersion": "1.0.0",
+    "AMLEdition": "AMLEd2",
+    "ID": "47b67140-a7be-4222-b88f-ca25b559397c"
+  },
+  {
+    "ClassName": "FPD_Point",
+    "CaexPath": "VDI_FPD.DI_AttributeTypeLib/FPD_Point",
+    "BasePath": null,
+    "LibraryName": "VDI_FPD.DI_AttributeTypeLib",
+    "LibraryVersion": "1.0.0",
+    "AMLEdition": "AMLEd2",
+    "ID": "3d39e7ca-ae11-4856-84c0-aa790ad95afc"
+  },
+  {
+    "ClassName": "FPD_Identification",
+    "CaexPath": "VDI_FPD_AttributeTypeLib/FPD_Identification",
+    "BasePath": null,
+    "LibraryName": "VDI_FPD_AttributeTypeLib",
+    "LibraryVersion": "1.0.0",
+    "AMLEdition": "AMLEd2",
+    "ID": "9f5ed5eb-921e-4ea5-9b47-7baa38f45963"
+  },
+  {
+    "ClassName": "FPD_Characteristic",
+    "CaexPath": "VDI_FPD_AttributeTypeLib/FPD_Characteristic",
+    "BasePath": null,
+    "LibraryName": "VDI_FPD_AttributeTypeLib",
+    "LibraryVersion": "1.0.0",
+    "AMLEdition": "AMLEd2",
+    "ID": "44b60a1a-2c68-47de-b239-ee4c0e1706a4"
+  },
+  {
+    "ClassName": "refObj",
+    "CaexPath": "VDI_FPD_AttributeTypeLib/refObj",
+    "BasePath": null,
+    "LibraryName": "VDI_FPD_AttributeTypeLib",
+    "LibraryVersion": "1.0.0",
+    "AMLEdition": "AMLEd2",
+    "ID": "b6d568eb-5801-4f52-b6a3-09e3a6a905af"
   }
 ]
