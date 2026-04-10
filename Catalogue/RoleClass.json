@@ -1,1 +1,83 @@
-[]
+[
+  {
+    "ClassName": "FPD_Process",
+    "CaexPath": "VDI_FPD_RoleClassLib/FPD_Process",
+    "BasePath": "AutomationMLBaseLibrariesAMLEd22_11_0@AutomationMLBaseRoleClassLib/AutomationMLBaseRole/Structure",
+    "LibraryName": "VDI_FPD_RoleClassLib",
+    "LibraryVersion": "1.0.0",
+    "AMLEdition": "AMLEd2",
+    "ID": "62eb4afa-9b40-4056-9fe1-16ec5c11b8e1"
+  },
+  {
+    "ClassName": "FPD_Object",
+    "CaexPath": "VDI_FPD_RoleClassLib/FPD_Object",
+    "BasePath": "AutomationMLBaseLibrariesAMLEd22_11_0@AutomationMLBaseRoleClassLib/AutomationMLBaseRole",
+    "LibraryName": "VDI_FPD_RoleClassLib",
+    "LibraryVersion": "1.0.0",
+    "AMLEdition": "AMLEd2",
+    "ID": "971b164e-9e7a-45d3-b5a6-058ed3c64cfd"
+  },
+  {
+    "ClassName": "FPD_SystemLimit",
+    "CaexPath": "VDI_FPD_RoleClassLib/FPD_SystemLimit",
+    "BasePath": "VDI_FPD_RoleClassLib/FPD_Object",
+    "LibraryName": "VDI_FPD_RoleClassLib",
+    "LibraryVersion": "1.0.0",
+    "AMLEdition": "AMLEd2",
+    "ID": "c6912f27-6cd9-4f1b-bc62-a73172db628c"
+  },
+  {
+    "ClassName": "FPD_State",
+    "CaexPath": "VDI_FPD_RoleClassLib/FPD_State",
+    "BasePath": "VDI_FPD_RoleClassLib/FPD_Object",
+    "LibraryName": "VDI_FPD_RoleClassLib",
+    "LibraryVersion": "1.0.0",
+    "AMLEdition": "AMLEd2",
+    "ID": "3fe7995f-68fc-4439-a0c3-2bc08d8645e9"
+  },
+  {
+    "ClassName": "FPD_Product",
+    "CaexPath": "VDI_FPD_RoleClassLib/FPD_Product",
+    "BasePath": "VDI_FPD_RoleClassLib/FPD_State",
+    "LibraryName": "VDI_FPD_RoleClassLib",
+    "LibraryVersion": "1.0.0",
+    "AMLEdition": "AMLEd2",
+    "ID": "139978b2-96e4-4cfc-b841-fd21dccdf4e2"
+  },
+  {
+    "ClassName": "FPD_Energy",
+    "CaexPath": "VDI_FPD_RoleClassLib/FPD_Energy",
+    "BasePath": "VDI_FPD_RoleClassLib/FPD_State",
+    "LibraryName": "VDI_FPD_RoleClassLib",
+    "LibraryVersion": "1.0.0",
+    "AMLEdition": "AMLEd2",
+    "ID": "f4e92758-ba72-4221-a3f5-b66ef6ee6c23"
+  },
+  {
+    "ClassName": "FPD_Information",
+    "CaexPath": "VDI_FPD_RoleClassLib/FPD_Information",
+    "BasePath": "VDI_FPD_RoleClassLib/FPD_State",
+    "LibraryName": "VDI_FPD_RoleClassLib",
+    "LibraryVersion": "1.0.0",
+    "AMLEdition": "AMLEd2",
+    "ID": "eaf70433-f6fe-4e31-8e4b-f5ffd20ee125"
+  },
+  {
+    "ClassName": "FPD_ProcessOperator",
+    "CaexPath": "VDI_FPD_RoleClassLib/FPD_ProcessOperator",
+    "BasePath": "VDI_FPD_RoleClassLib/FPD_Object",
+    "LibraryName": "VDI_FPD_RoleClassLib",
+    "LibraryVersion": "1.0.0",
+    "AMLEdition": "AMLEd2",
+    "ID": "a8a2d11b-bcec-4dbf-b702-09c5c2c41956"
+  },
+  {
+    "ClassName": "FPD_TechnicalResource",
+    "CaexPath": "VDI_FPD_RoleClassLib/FPD_TechnicalResource",
+    "BasePath": "VDI_FPD_RoleClassLib/FPD_Object",
+    "LibraryName": "VDI_FPD_RoleClassLib",
+    "LibraryVersion": "1.0.0",
+    "AMLEdition": "AMLEd2",
+    "ID": "df6a14d8-616c-48b7-a609-19051a751e64"
+  }
+]
