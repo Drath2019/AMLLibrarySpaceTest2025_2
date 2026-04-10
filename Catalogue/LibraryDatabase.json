@@ -1891,6 +1891,121 @@
               }
             }
           ]
+        },
+        {
+          "Name": "VDI_FPD_AttributeTypeLib",
+          "Versions": [
+            {
+              "Version": "1.0.0",
+              "CAEXVersion": "3.0",
+              "AMLEdition": "AMLEd2",
+              "IsArchived": false,
+              "Description": null,
+              "DownloadLink": null,
+              "DownloadLinks": [
+                "https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/VDI_FPD_Libraries_AMLEd2_1.0.0.aml"
+              ],
+              "Sources": null,
+              "Signature": "MEUCIQD4xlNhoxZs6/4/qv8BFROfzm5EDkLfKWpOQEMNha3VvAIgecoyFsAIVwJLyqXB5OFjEpgNEvpSeZXOcDNsLo8SPNg=",
+              "PublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEyk6uIUNugOojm3akdEAA4XoGGBEui0zPVhzkjR0RfprHFWrbPpFMfExaW2TaeChaegCmjE2boFph1aI1eNEPcQ==",
+              "Revision": null
+            }
+          ]
+        },
+        {
+          "Name": "VDI_FPD.DI_AttributeTypeLib",
+          "Versions": [
+            {
+              "Version": "1.0.0",
+              "CAEXVersion": "3.0",
+              "AMLEdition": "AMLEd2",
+              "IsArchived": false,
+              "Description": "Diagram Interchange attributes, aligned with OMG DD/DI terminology (DC::Bounds, DC::Point, DI::Waypoint).",
+              "DownloadLink": null,
+              "DownloadLinks": [
+                "https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/VDI_FPD_Libraries_AMLEd2_1.0.0.aml"
+              ],
+              "Sources": null,
+              "Signature": "MEUCIQDZRyN2anAlsHrqA8oztQZpLJsqBWXxb1H/VOcxI9f16AIgKqURlUSEmGatpfeqHqHsHt3mkFVOkXJZCEG79vVD2Sc=",
+              "PublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEyk6uIUNugOojm3akdEAA4XoGGBEui0zPVhzkjR0RfprHFWrbPpFMfExaW2TaeChaegCmjE2boFph1aI1eNEPcQ==",
+              "Revision": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "CAEXType": "SystemUnitClassLib",
+      "Libraries": [
+        {
+          "Name": "VDI_FPD_SystemUnitClassLib",
+          "Versions": [
+            {
+              "Version": "1.0.0",
+              "CAEXVersion": "3.0",
+              "AMLEdition": "AMLEd2",
+              "IsArchived": false,
+              "Description": "Instantiation templates with mirrored attributes and SUC inheritance.",
+              "DownloadLink": null,
+              "DownloadLinks": [
+                "https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/VDI_FPD_Libraries_AMLEd2_1.0.0.aml"
+              ],
+              "Sources": null,
+              "Signature": "MEQCIFGhV2d9b\u002B6xB\u002B2rYh8f2Nd/u52eFrmk3OTYBZ4bn3cWAiBopy6HncSUFaVPjpIEKP3kTT9VTTErNQDJizALdkFrBA==",
+              "PublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEyk6uIUNugOojm3akdEAA4XoGGBEui0zPVhzkjR0RfprHFWrbPpFMfExaW2TaeChaegCmjE2boFph1aI1eNEPcQ==",
+              "Revision": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "CAEXType": "RoleClassLib",
+      "Libraries": [
+        {
+          "Name": "VDI_FPD_RoleClassLib",
+          "Versions": [
+            {
+              "Version": "1.0.0",
+              "CAEXVersion": "3.0",
+              "AMLEdition": "AMLEd2",
+              "IsArchived": false,
+              "Description": "Semantic model of the FPD per VDI/VDE 3682. Flat layout with explicit inheritance via RefBaseClassPath.",
+              "DownloadLink": null,
+              "DownloadLinks": [
+                "https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/VDI_FPD_Libraries_AMLEd2_1.0.0.aml"
+              ],
+              "Sources": null,
+              "Signature": "MEUCIDRKwjdmGKADort4DMY9Gc9FXfYP0dSHzbtZmh171uU\u002BAiEAu6\u002BcIRsloRLjjgT1At6ZwRwvmEoS2oE0Lzl/rljG2sI=",
+              "PublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEyk6uIUNugOojm3akdEAA4XoGGBEui0zPVhzkjR0RfprHFWrbPpFMfExaW2TaeChaegCmjE2boFph1aI1eNEPcQ==",
+              "Revision": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "CAEXType": "InterfaceClassLib",
+      "Libraries": [
+        {
+          "Name": "VDI_FPD_InterfaceClassLib",
+          "Versions": [
+            {
+              "Version": "1.0.0",
+              "CAEXVersion": "3.0",
+              "AMLEdition": "AMLEd2",
+              "IsArchived": false,
+              "Description": "Flow and usage port interfaces for the Formalized Process Description (FPD).",
+              "DownloadLink": null,
+              "DownloadLinks": [
+                "https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/VDI_FPD_Libraries_AMLEd2_1.0.0.aml"
+              ],
+              "Sources": null,
+              "Signature": "MEYCIQCFrZd7XdhPPLoP9kotrveHxsMhLX7njPZXYxCauRReHAIhAIyYCyhp6P0RTmb2R3jFm7usYdvceJA1cEa7gVdIAiSd",
+              "PublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEyk6uIUNugOojm3akdEAA4XoGGBEui0zPVhzkjR0RfprHFWrbPpFMfExaW2TaeChaegCmjE2boFph1aI1eNEPcQ==",
+              "Revision": null
+            }
+          ]
         }
       ]
     }
