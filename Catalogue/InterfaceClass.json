@@ -1,1 +1,74 @@
-[]
+[
+  {
+    "ClassName": "FPD_Port",
+    "CaexPath": "VDI_FPD_InterfaceClassLib/FPD_Port",
+    "BasePath": "AutomationMLBaseLibrariesAMLEd22_11_0@AutomationMLInterfaceClassLib/AutomationMLBaseInterface/Port",
+    "LibraryName": "VDI_FPD_InterfaceClassLib",
+    "LibraryVersion": "1.0.0",
+    "AMLEdition": "AMLEd2",
+    "ID": "9f10a505-f7a5-4668-b7e5-e338cd61bd16"
+  },
+  {
+    "ClassName": "FPD_FlowIn",
+    "CaexPath": "VDI_FPD_InterfaceClassLib/FPD_FlowIn",
+    "BasePath": "VDI_FPD_InterfaceClassLib/FPD_Port",
+    "LibraryName": "VDI_FPD_InterfaceClassLib",
+    "LibraryVersion": "1.0.0",
+    "AMLEdition": "AMLEd2",
+    "ID": "89a4d4f8-4d94-4d1a-b0c6-b51ca7c29f31"
+  },
+  {
+    "ClassName": "FPD_FlowOut",
+    "CaexPath": "VDI_FPD_InterfaceClassLib/FPD_FlowOut",
+    "BasePath": "VDI_FPD_InterfaceClassLib/FPD_Port",
+    "LibraryName": "VDI_FPD_InterfaceClassLib",
+    "LibraryVersion": "1.0.0",
+    "AMLEdition": "AMLEd2",
+    "ID": "fa395e7d-ec09-4b42-8d05-88b37358d791"
+  },
+  {
+    "ClassName": "FPD_Usage",
+    "CaexPath": "VDI_FPD_InterfaceClassLib/FPD_Usage",
+    "BasePath": "VDI_FPD_InterfaceClassLib/FPD_Port",
+    "LibraryName": "VDI_FPD_InterfaceClassLib",
+    "LibraryVersion": "1.0.0",
+    "AMLEdition": "AMLEd2",
+    "ID": "a6c3a983-3cff-4926-bf58-69f5d357f696"
+  },
+  {
+    "ClassName": "FPD_ParallelFlowIn",
+    "CaexPath": "VDI_FPD_InterfaceClassLib/FPD_ParallelFlowIn",
+    "BasePath": "VDI_FPD_InterfaceClassLib/FPD_Port",
+    "LibraryName": "VDI_FPD_InterfaceClassLib",
+    "LibraryVersion": "1.0.0",
+    "AMLEdition": "AMLEd2",
+    "ID": "ff1578c4-a27d-418a-81d9-12d179664b1a"
+  },
+  {
+    "ClassName": "FPD_ParallelFlowOut",
+    "CaexPath": "VDI_FPD_InterfaceClassLib/FPD_ParallelFlowOut",
+    "BasePath": "VDI_FPD_InterfaceClassLib/FPD_Port",
+    "LibraryName": "VDI_FPD_InterfaceClassLib",
+    "LibraryVersion": "1.0.0",
+    "AMLEdition": "AMLEd2",
+    "ID": "aed61c4e-ad91-417d-88c9-a25be90751f4"
+  },
+  {
+    "ClassName": "FPD_AlternativeFlowIn",
+    "CaexPath": "VDI_FPD_InterfaceClassLib/FPD_AlternativeFlowIn",
+    "BasePath": "VDI_FPD_InterfaceClassLib/FPD_Port",
+    "LibraryName": "VDI_FPD_InterfaceClassLib",
+    "LibraryVersion": "1.0.0",
+    "AMLEdition": "AMLEd2",
+    "ID": "cfc1e546-2e1e-4f18-bb04-5760ef828c27"
+  },
+  {
+    "ClassName": "FPD_AlternativeFlowOut",
+    "CaexPath": "VDI_FPD_InterfaceClassLib/FPD_AlternativeFlowOut",
+    "BasePath": "VDI_FPD_InterfaceClassLib/FPD_Port",
+    "LibraryName": "VDI_FPD_InterfaceClassLib",
+    "LibraryVersion": "1.0.0",
+    "AMLEdition": "AMLEd2",
+    "ID": "028c3859-c21e-498d-a5c3-8a9eba1c180c"
+  }
+]
