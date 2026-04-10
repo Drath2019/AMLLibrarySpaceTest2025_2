@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CAEXFile SchemaVersion="3.0" FileName="VDI_FPD_Libraries_AMLEd2_1.0.0.aml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.dke.de/CAEX" xsi:schemaLocation="http://www.dke.de/CAEX CAEX_ClassModel_V.3.0.xsd">
+  <SuperiorStandardVersion>AutomationML 2.1</SuperiorStandardVersion>
+  <SourceDocumentInformation OriginName="fpb-aml-mapper" OriginID="fpb-aml-mapper-1.0" OriginVersion="0.1.0" LastWritingDateTime="2026-03-07T17:33:22.9930897+00:00" />
+  <SourceDocumentInformation OriginName="FPD_Libraries" OriginID="74427e54-51be-4cc6-a703-922439b96608" OriginVersion="1.0.0" LastWritingDateTime="2026-04-10T13:35:48.503439+02:00" OriginProjectID="" OriginProjectTitle="" OriginRelease="1.0.0" OriginVendor="VDI" OriginVendorURL="VDI_FPD_Libraries_AMLEd2_1.0.0.aml" />
+  <ExternalReference Path="https://9t4kqL7NX8JsW6o@automationml.ovgu.de/public.php/webdav/AutomationML_Base_Libraries_AMLEd2_2.11.0.aml" Alias="AutomationMLBaseLibrariesAMLEd22_11_0" />
+  <InterfaceClassLib Name="VDI_FPD_InterfaceClassLib">
+    <Description>Flow and usage port interfaces for the Formalized Process Description (FPD).</Description>
+    <Version>1.0.0</Version>
+    <InterfaceClass Name="FPD_Port" RefBaseClassPath="AutomationMLBaseLibrariesAMLEd22_11_0@AutomationMLInterfaceClassLib/AutomationMLBaseInterface/Port">
+      <Description>Abstract base port for all FPD connections.</Description>
+      <Version>1.0.0</Version>
+      <Attribute Name="PortCoordinate" AttributeDataType="xs:string" RefAttributeType="VDI_FPD.DI_AttributeTypeLib/FPD_Point">
+        <Attribute Name="x" AttributeDataType="xs:double" />
+        <Attribute Name="y" AttributeDataType="xs:double" />
+      </Attribute>
+    </InterfaceClass>
+    <InterfaceClass Name="FPD_FlowIn" RefBaseClassPath="VDI_FPD_InterfaceClassLib/FPD_Port">
+      <Version>1.0.0</Version>
+    </InterfaceClass>
+    <InterfaceClass Name="FPD_FlowOut" RefBaseClassPath="VDI_FPD_InterfaceClassLib/FPD_Port">
+      <Version>1.0.0</Version>
+    </InterfaceClass>
+    <InterfaceClass Name="FPD_Usage" RefBaseClassPath="VDI_FPD_InterfaceClassLib/FPD_Port">
+      <Version>1.0.0</Version>
+    </InterfaceClass>
+    <InterfaceClass Name="FPD_ParallelFlowIn" RefBaseClassPath="VDI_FPD_InterfaceClassLib/FPD_Port">
+      <Version>1.0.0</Version>
+    </InterfaceClass>
+    <InterfaceClass Name="FPD_ParallelFlowOut" RefBaseClassPath="VDI_FPD_InterfaceClassLib/FPD_Port">
+      <Version>1.0.0</Version>
+    </InterfaceClass>
+    <InterfaceClass Name="FPD_AlternativeFlowIn" RefBaseClassPath="VDI_FPD_InterfaceClassLib/FPD_Port">
+      <Version>1.0.0</Version>
+    </InterfaceClass>
+    <InterfaceClass Name="FPD_AlternativeFlowOut" RefBaseClassPath="VDI_FPD_InterfaceClassLib/FPD_Port">
+      <Version>1.0.0</Version>
+    </InterfaceClass>
+  </InterfaceClassLib>
+  <RoleClassLib Name="VDI_FPD_RoleClassLib">
+    <Description>Semantic model of the FPD per VDI/VDE 3682. Flat layout with explicit inheritance via RefBaseClassPath.</Description>
+    <Version>1.0.0</Version>
+    <RoleClass Name="FPD_Process" RefBaseClassPath="AutomationMLBaseLibrariesAMLEd22_11_0@AutomationMLBaseRoleClassLib/AutomationMLBaseRole/Structure">
+      <Description>Process (Part 2, Fig. 2). Aggregates states (2..*), system limit (1), and process operators (1..*).</Description>
+      <Version>1.0.0</Version>
+      <Attribute Name="refObj" AttributeDataType="xs:string" RefAttributeType="VDI_FPD_AttributeTypeLib/refObj">
+        <Description>IDREF to the parent process operator whose decomposition this process represents.</Description>
+      </Attribute>
+    </RoleClass>
+    <RoleClass Name="FPD_Object" RefBaseClassPath="AutomationMLBaseLibrariesAMLEd22_11_0@AutomationMLBaseRoleClassLib/AutomationMLBaseRole">
+      <Description>Abstract base for all FPB objects (Part 1, p. 4: product, energy, information, process operator, technical resource).</Description>
+      <Version>1.0.0</Version>
+      <Attribute Name="Identification" AttributeDataType="xs:string" RefAttributeType="VDI_FPD_AttributeTypeLib/FPD_Identification">
+        <Attribute Name="uniqueIdent" AttributeDataType="xs:string" />
+        <Attribute Name="longName" AttributeDataType="xs:string" />
+        <Attribute Name="shortName" AttributeDataType="xs:string" />
+        <Attribute Name="versionNumber" AttributeDataType="xs:string" />
+        <Attribute Name="revisionNumber" AttributeDataType="xs:string" />
+      </Attribute>
+      <Attribute Name="Characteristics" AttributeDataType="xs:string">
+        <Description>Container for characteristics (Part 2, Fig. 3).</Description>
+      </Attribute>
+      <Attribute Name="ViewInformation" AttributeDataType="xs:string" RefAttributeType="VDI_FPD.DI_AttributeTypeLib/FPD_Bounds">
+        <Attribute Name="position" AttributeDataType="xs:string" RefAttributeType="VDI_FPD.DI_AttributeTypeLib/FPD_Point">
+          <Attribute Name="x" AttributeDataType="xs:double" />
+          <Attribute Name="y" AttributeDataType="xs:double" />
+        </Attribute>
+        <Attribute Name="width" AttributeDataType="xs:double" />
+        <Attribute Name="height" AttributeDataType="xs:double" />
+      </Attribute>
+    </RoleClass>
+    <RoleClass Name="FPD_SystemLimit" RefBaseClassPath="VDI_FPD_RoleClassLib/FPD_Object">
+      <Description>System limit (Part 1, p. 9). Peer aggregate of the process, not a container.</Description>
+      <Version>1.0.0</Version>
+    </RoleClass>
+    <RoleClass Name="FPD_State" RefBaseClassPath="VDI_FPD_RoleClassLib/FPD_Object">
+      <Description>Abstract state (Part 2, Fig. 2). Inherits Identification and Characteristics from FPD_Object.</Description>
+      <Version>1.0.0</Version>
+      <Attribute Name="refObj" AttributeDataType="xs:string" RefAttributeType="VDI_FPD_AttributeTypeLib/refObj">
+        <Description>IDREF to the original state instance that this boundary state represents. Always points to the top-level original, regardless of decomposition depth.</Description>
+      </Attribute>
+    </RoleClass>
+    <RoleClass Name="FPD_Product" RefBaseClassPath="VDI_FPD_RoleClassLib/FPD_State">
+      <Version>1.0.0</Version>
+    </RoleClass>
+    <RoleClass Name="FPD_Energy" RefBaseClassPath="VDI_FPD_RoleClassLib/FPD_State">
+      <Version>1.0.0</Version>
+    </RoleClass>
+    <RoleClass Name="FPD_Information" RefBaseClassPath="VDI_FPD_RoleClassLib/FPD_State">
+      <Version>1.0.0</Version>
+    </RoleClass>
+    <RoleClass Name="FPD_ProcessOperator" RefBaseClassPath="VDI_FPD_RoleClassLib/FPD_Object">
+      <Description>Process operator (Part 2, Fig. 2). Inherits Identification and Characteristics from FPD_Object.</Description>
+      <Version>1.0.0</Version>
+      <Attribute Name="refProcess" AttributeDataType="xs:string" RefAttributeType="VDI_FPD_AttributeTypeLib/refObj">
+        <Description>IDREF to the child process that decomposes this operator. Empty if the operator is not further decomposed.</Description>
+      </Attribute>
+    </RoleClass>
+    <RoleClass Name="FPD_TechnicalResource" RefBaseClassPath="VDI_FPD_RoleClassLib/FPD_Object">
+      <Description>Technical resource (Part 1, p. 9). Located outside the system limit, associated via usage.</Description>
+      <Version>1.0.0</Version>
+    </RoleClass>
+  </RoleClassLib>
+  <SystemUnitClassLib Name="VDI_FPD_SystemUnitClassLib">
+    <Description>Instantiation templates with mirrored attributes and SUC inheritance.</Description>
+    <Version>1.0.0</Version>
+    <SystemUnitClass Name="FPD_Process" ID="967002e1-c59a-478f-9702-76b67fccb952">
+      <Version>1.0.0</Version>
+      <Attribute Name="refObj" AttributeDataType="xs:string" RefAttributeType="VDI_FPD_AttributeTypeLib/refObj" />
+      <SupportedRoleClass RefRoleClassPath="VDI_FPD_RoleClassLib/FPD_Process" />
+      <SupportedRoleClass RefRoleClassPath="AutomationMLBaseLibrariesAMLEd22_11_0@AutomationMLBaseRoleClassLib/AutomationMLBaseRole/Structure" />
+    </SystemUnitClass>
+    <SystemUnitClass Name="FPD_SystemLimit" ID="e7a9d5c4-73ab-4937-a960-aae28cc59bd7">
+      <Version>1.0.0</Version>
+      <Attribute Name="Identification" AttributeDataType="xs:string" RefAttributeType="VDI_FPD_AttributeTypeLib/FPD_Identification">
+        <Attribute Name="uniqueIdent" AttributeDataType="xs:string" />
+        <Attribute Name="longName" AttributeDataType="xs:string" />
+        <Attribute Name="shortName" AttributeDataType="xs:string" />
+        <Attribute Name="versionNumber" AttributeDataType="xs:string" />
+        <Attribute Name="revisionNumber" AttributeDataType="xs:string" />
+      </Attribute>
+      <Attribute Name="ViewInformation" AttributeDataType="xs:string" RefAttributeType="VDI_FPD.DI_AttributeTypeLib/FPD_Bounds">
+        <Attribute Name="position" AttributeDataType="xs:string" RefAttributeType="VDI_FPD.DI_AttributeTypeLib/FPD_Point">
+          <Attribute Name="x" AttributeDataType="xs:double" />
+          <Attribute Name="y" AttributeDataType="xs:double" />
+        </Attribute>
+        <Attribute Name="width" AttributeDataType="xs:double" />
+        <Attribute Name="height" AttributeDataType="xs:double" />
+      </Attribute>
+      <SupportedRoleClass RefRoleClassPath="VDI_FPD_RoleClassLib/FPD_SystemLimit" />
+    </SystemUnitClass>
+    <SystemUnitClass Name="FPD_Object" ID="9416dbd4-8d6a-463d-ae69-af567c751fc4">
+      <Version>1.0.0</Version>
+      <Attribute Name="Identification" AttributeDataType="xs:string" RefAttributeType="VDI_FPD_AttributeTypeLib/FPD_Identification">
+        <Attribute Name="uniqueIdent" AttributeDataType="xs:string" />
+        <Attribute Name="longName" AttributeDataType="xs:string" />
+        <Attribute Name="shortName" AttributeDataType="xs:string" />
+        <Attribute Name="versionNumber" AttributeDataType="xs:string" />
+        <Attribute Name="revisionNumber" AttributeDataType="xs:string" />
+      </Attribute>
+      <Attribute Name="Characteristics" AttributeDataType="xs:string" />
+      <Attribute Name="ViewInformation" AttributeDataType="xs:string" RefAttributeType="VDI_FPD.DI_AttributeTypeLib/FPD_Bounds">
+        <Attribute Name="position" AttributeDataType="xs:string" RefAttributeType="VDI_FPD.DI_AttributeTypeLib/FPD_Point">
+          <Attribute Name="x" AttributeDataType="xs:double" />
+          <Attribute Name="y" AttributeDataType="xs:double" />
+        </Attribute>
+        <Attribute Name="width" AttributeDataType="xs:double" />
+        <Attribute Name="height" AttributeDataType="xs:double" />
+      </Attribute>
+      <SupportedRoleClass RefRoleClassPath="VDI_FPD_RoleClassLib/FPD_Object" />
+    </SystemUnitClass>
+    <SystemUnitClass Name="FPD_State" ID="9f711020-6535-41d2-a64f-311d5bfda1a8" RefBaseClassPath="VDI_FPD_SystemUnitClassLib/FPD_Object">
+      <Version>1.0.0</Version>
+      <Attribute Name="refObj" AttributeDataType="xs:string" RefAttributeType="VDI_FPD_AttributeTypeLib/refObj" />
+      <SupportedRoleClass RefRoleClassPath="VDI_FPD_RoleClassLib/FPD_State" />
+    </SystemUnitClass>
+    <SystemUnitClass Name="FPD_Product" ID="ba692351-81bc-4b2b-94b2-2ade4e595bee" RefBaseClassPath="VDI_FPD_SystemUnitClassLib/FPD_State">
+      <Version>1.0.0</Version>
+      <SupportedRoleClass RefRoleClassPath="VDI_FPD_RoleClassLib/FPD_Product" />
+      <SupportedRoleClass RefRoleClassPath="AutomationMLBaseLibrariesAMLEd22_11_0@AutomationMLBaseRoleClassLib/AutomationMLBaseRole/Product" />
+    </SystemUnitClass>
+    <SystemUnitClass Name="FPD_Energy" ID="c53f3448-e783-4693-a32b-9bc8f22a22fd" RefBaseClassPath="VDI_FPD_SystemUnitClassLib/FPD_State">
+      <Version>1.0.0</Version>
+      <SupportedRoleClass RefRoleClassPath="VDI_FPD_RoleClassLib/FPD_Energy" />
+    </SystemUnitClass>
+    <SystemUnitClass Name="FPD_Information" ID="80f54b2f-8cd0-47bf-ae92-b3df8b38ebd1" RefBaseClassPath="VDI_FPD_SystemUnitClassLib/FPD_State">
+      <Version>1.0.0</Version>
+      <SupportedRoleClass RefRoleClassPath="VDI_FPD_RoleClassLib/FPD_Information" />
+    </SystemUnitClass>
+    <SystemUnitClass Name="FPD_ProcessOperator" ID="60f8062e-6d8f-4a39-9f16-5f1415abef0b" RefBaseClassPath="VDI_FPD_SystemUnitClassLib/FPD_Object">
+      <Version>1.0.0</Version>
+      <Attribute Name="refObj" AttributeDataType="xs:string" RefAttributeType="VDI_FPD_AttributeTypeLib/refObj" />
+      <SupportedRoleClass RefRoleClassPath="VDI_FPD_RoleClassLib/FPD_ProcessOperator" />
+      <SupportedRoleClass RefRoleClassPath="AutomationMLBaseLibrariesAMLEd22_11_0@AutomationMLBaseRoleClassLib/AutomationMLBaseRole/Process" />
+    </SystemUnitClass>
+    <SystemUnitClass Name="FPD_TechnicalResource" ID="9a4f1a15-5a77-41ad-97ce-07adb7a2384d" RefBaseClassPath="VDI_FPD_SystemUnitClassLib/FPD_Object">
+      <Version>1.0.0</Version>
+      <SupportedRoleClass RefRoleClassPath="VDI_FPD_RoleClassLib/FPD_TechnicalResource" />
+      <SupportedRoleClass RefRoleClassPath="AutomationMLBaseLibrariesAMLEd22_11_0@AutomationMLBaseRoleClassLib/AutomationMLBaseRole/Resource" />
+    </SystemUnitClass>
+  </SystemUnitClassLib>
+  <AttributeTypeLib Name="VDI_FPD_AttributeTypeLib">
+    <Version>1.0.0</Version>
+    <AttributeType Name="FPD_Identification" AttributeDataType="xs:string" ID="9f5ed5eb-921e-4ea5-9b47-7baa38f45963">
+      <Version>1.0.0</Version>
+      <Attribute Name="uniqueIdent" AttributeDataType="xs:string" />
+      <Attribute Name="longName" AttributeDataType="xs:string" />
+      <Attribute Name="shortName" AttributeDataType="xs:string" />
+      <Attribute Name="versionNumber" AttributeDataType="xs:string" />
+      <Attribute Name="revisionNumber" AttributeDataType="xs:string" />
+    </AttributeType>
+    <AttributeType Name="FPD_Characteristic" AttributeDataType="xs:string" ID="44b60a1a-2c68-47de-b239-ee4c0e1706a4">
+      <Version>1.0.0</Version>
+      <Attribute Name="Category" AttributeDataType="xs:string" RefAttributeType="VDI_FPD_AttributeTypeLib/FPD_Identification">
+        <Attribute Name="uniqueIdent" AttributeDataType="xs:string" />
+        <Attribute Name="longName" AttributeDataType="xs:string" />
+        <Attribute Name="shortName" AttributeDataType="xs:string" />
+        <Attribute Name="versionNumber" AttributeDataType="xs:string" />
+        <Attribute Name="revisionNumber" AttributeDataType="xs:string" />
+      </Attribute>
+      <Attribute Name="DescriptiveElement" AttributeDataType="xs:string">
+        <Attribute Name="valueDeterminationProcess" AttributeDataType="xs:string" />
+        <Attribute Name="representivity" AttributeDataType="xs:string" />
+        <Attribute Name="setpointValue" AttributeDataType="xs:string" />
+        <Attribute Name="validityLimits" AttributeDataType="xs:string" />
+        <Attribute Name="actualValues" AttributeDataType="xs:string" />
+      </Attribute>
+      <Attribute Name="RelationalElement" AttributeDataType="xs:string">
+        <Attribute Name="view" AttributeDataType="xs:string" />
+        <Attribute Name="model" AttributeDataType="xs:string" />
+        <Attribute Name="regulationsForRelationalGeneration" AttributeDataType="xs:string" />
+      </Attribute>
+    </AttributeType>
+    <AttributeType Name="refObj" AttributeDataType="xs:string" ID="b6d568eb-5801-4f52-b6a3-09e3a6a905af">
+      <Description>Generic IDREF attribute. Semantics depend on the carrying element (see RoleClassLib descriptions).</Description>
+      <Version>1.0.0</Version>
+    </AttributeType>
+  </AttributeTypeLib>
+  <AttributeTypeLib Name="VDI_FPD.DI_AttributeTypeLib">
+    <Description>Diagram Interchange attributes, aligned with OMG DD/DI terminology (DC::Bounds, DC::Point, DI::Waypoint).</Description>
+    <Version>1.0.0</Version>
+    <AttributeType Name="FPD_Bounds" AttributeDataType="xs:string" ID="c7845bef-1559-4c6c-825d-282213faf147">
+      <Description>A rectangular area defined by a top-left (x, y) location and a size (width, height) along the x-y axes (cf. DC::Bounds).</Description>
+      <Version>1.0.0</Version>
+      <Attribute Name="position" AttributeDataType="xs:string" RefAttributeType="VDI_FPD.DI_AttributeTypeLib/FPD_Point">
+        <Attribute Name="x" AttributeDataType="xs:double" />
+        <Attribute Name="y" AttributeDataType="xs:double" />
+      </Attribute>
+      <Attribute Name="width" AttributeDataType="xs:double" />
+      <Attribute Name="height" AttributeDataType="xs:double" />
+    </AttributeType>
+    <AttributeType Name="FPD_Waypoint" AttributeDataType="xs:string" ID="47b67140-a7be-4222-b88f-ca25b559397c">
+      <Description>A routing point along a connection path (cf. DI::Waypoint).</Description>
+      <Version>1.0.0</Version>
+      <Attribute Name="position" AttributeDataType="xs:string" RefAttributeType="VDI_FPD.DI_AttributeTypeLib/FPD_Point">
+        <Attribute Name="x" AttributeDataType="xs:double" />
+        <Attribute Name="y" AttributeDataType="xs:double" />
+      </Attribute>
+    </AttributeType>
+    <AttributeType Name="FPD_Point" AttributeDataType="xs:string" ID="3d39e7ca-ae11-4856-84c0-aa790ad95afc">
+      <Description>A two-dimensional point in a coordinate system (cf. DC::Point).</Description>
+      <Version>1.0.0</Version>
+      <Attribute Name="x" AttributeDataType="xs:double" />
+      <Attribute Name="y" AttributeDataType="xs:double" />
+    </AttributeType>
+  </AttributeTypeLib>
+</CAEXFile>
