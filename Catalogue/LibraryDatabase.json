@@ -1796,6 +1796,21 @@
                   "Revision": null
                 }
               }
+            },
+            {
+              "Version": "1.2.2",
+              "CAEXVersion": "3.0",
+              "AMLEdition": "AMLEd2",
+              "IsArchived": false,
+              "Description": null,
+              "DownloadLink": null,
+              "DownloadLinks": [
+                "https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/AutomationML_DomainExtension.colorSystems_AttributeTypeLib_AMLEd2_1.2.2.aml"
+              ],
+              "Sources": null,
+              "Signature": "MEYCIQCTOmcKR63tSR8gx3KG1LSoPdiPbSZJdh4QdcymS/soAAIhAIEny1Nsxu8X4eWybS0fngPsd9Y0Hor25EM9gRN\u002BE/N6",
+              "PublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEyk6uIUNugOojm3akdEAA4XoGGBEui0zPVhzkjR0RfprHFWrbPpFMfExaW2TaeChaegCmjE2boFph1aI1eNEPcQ==",
+              "Revision": null
             }
           ]
         },
