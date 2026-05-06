@@ -1889,6 +1889,21 @@
                 "Signature": "MEUCIQC2ph1lrB/ddRWaPpFyLlvcUhvMkNUCIdphgcPg2Xj72QIgXzEpxwRpdrgmtzYIkwaBkxoab60pnEGd\u002Bf5pLtjHJjE=",
                 "Revision": null
               }
+            },
+            {
+              "Version": "1.2.2",
+              "CAEXVersion": "3.0",
+              "AMLEdition": "AMLEd2",
+              "IsArchived": false,
+              "Description": "This AttributeTypeLib defines electrics-domain-specific attributes for describing electrical supply configuration, operating conditions, test conditions, and limit values that require an explicit electrics context.\nThe attributes complement the domain-neutral Basic Properties by adding electrical application semantics such as load case referencing, rated and permissible limits, installation conditions, and verification parameters.\nWherever an attribute refines or contextualizes a domain-neutral electrical quantity, a semantic reference to the corresponding Basic Properties attribute is provided.",
+              "DownloadLink": null,
+              "DownloadLinks": [
+                "https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/AutomationML_DomainExtension.electrics_AttributeTypeLib_AMLEd2_1.2.2.aml"
+              ],
+              "Sources": null,
+              "Signature": "MEUCIQCmYusI63Nk6vXNZdq8K6M0IbycCol2tcUZT3FRCJfDHwIgXHDKro2Zmr8DrOoVDXHOMu2w5YB1R2rUAZrmlOFBIFU=",
+              "PublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEyk6uIUNugOojm3akdEAA4XoGGBEui0zPVhzkjR0RfprHFWrbPpFMfExaW2TaeChaegCmjE2boFph1aI1eNEPcQ==",
+              "Revision": null
             }
           ]
         },
