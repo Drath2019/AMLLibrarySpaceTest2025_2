@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CAEXFile SchemaVersion="3.0" FileName="AutomationML_CoreProperties.Commercial_AttributeTypeLib_AMLEd2_1.7.8.aml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.dke.de/CAEX" xsi:schemaLocation="http://www.dke.de/CAEX CAEX_ClassModel_V.3.0.xsd">
+  <Description>a data field used to track specific iterations, releases, or revisions of an asset, document, software build, or system configuration</Description>
+  <Version>1.7.8</Version>
+  <SuperiorStandardVersion>AutomationML 2.1</SuperiorStandardVersion>
+  <SourceDocumentInformation OriginName="CoreProperties.Commercial_AttributeTypeLib" OriginID="88889a26-e686-4d6f-9992-ab502e6e9378" OriginVersion="1.7.8" LastWritingDateTime="2026-06-24T21:52:19.4685799+02:00" OriginProjectID="" OriginProjectTitle="" OriginRelease="1.7.8" OriginVendor="AutomationML" OriginVendorURL="AutomationML_CoreProperties.Commercial_AttributeTypeLib_AMLEd2_1.7.8.aml" />
+  <ExternalReference Path="https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/AutomationML_CoreProperties.Time_AttributeTypeLib_AMLEd2_1.7.8.aml" Alias="AutomationMLCoreProperties.TimeAttributeTypeLibAMLEd2" />
+  <AttributeTypeLib Name="AutomationML_CoreProperties.CommercialProperties_AttributeTypeLib" ID="c7be1052-6e82-4fc9-ad44-fb7a10692bd7">
+    <Description>This AttributeTypeLib defines fundamental, domain-neutral commercial attributes used to identify and reference commercial and procurement-related aspects of an asset.
+The contained attributes describe factual commercial information such as prices, currencies, contractual references, and procurement identifiers without implying accounting rules, valuation logic, or organizational processes.
+All attributes are formulated independent of a specific industry, enterprise structure, financial system, or business workflow and serve as optional reference information across the asset lifecycle.
+  .</Description>
+    <Version>1.7.8</Version>
+    <AttributeType Name="commercialProperty" ID="31d0fade-2ae5-4a08-8c69-d293471aa303" AttributeDataType="xs:string">
+      <Description>commercialProperty is an abstract attribute that serves as a common semantic category for properties describing commercial, financial or procurement-related aspects.</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+    <AttributeType Name="price" AttributeDataType="xs:double" ID="b3a6a1d2-8c41-4e9a-bf47-6b1f4b3a9f01" RefAttributeType="AutomationML_CoreProperties.CommercialProperties_AttributeTypeLib/commercialProperty">
+      <Description>price is a commercial attribute that provides monetary amount representing a price value without specifying price type, valuation method, or commercial context. The interpretation of this value requires an associated currency and, if applicable, a validity reference.</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+    <AttributeType Name="purchasePrice" AttributeDataType="xs:double" ID="b9e09ee9-61b6-442d-b6e8-fd006e3cfc30" RefAttributeType="AutomationML_CoreProperties.CommercialProperties_AttributeTypeLib/price">
+      <Description>purchasePrice is a commercial attribute that provides price paid for acquiring the asset as a stated monetary amount.</Description>
+      <Version>1.7.8</Version>
+      <RefSemantic CorrespondingAttributePath="0173-1#02-AAQ214#003" />
+    </AttributeType>
+    <AttributeType Name="listPrice" AttributeDataType="xs:double" ID="aef03a10-ceba-4048-ac93-1bae113a198f" RefAttributeType="AutomationML_CoreProperties.CommercialProperties_AttributeTypeLib/price">
+      <Description>listPrice is a commercial attribute that provides list or catalogue price of the asset as stated by the manufacturer or supplier.</Description>
+      <Version>1.7.8</Version>
+      <RefSemantic CorrespondingAttributePath="0173-1#02-AAO739#003" />
+    </AttributeType>
+    <AttributeType Name="priceCurrency" AttributeDataType="xs:string" ID="f4d6a90c-9e9b-4b6e-bfa6-8c7e3a9f1d22" RefAttributeType="AutomationML_CoreProperties.CommercialProperties_AttributeTypeLib/commercialProperty">
+      <Description>priceCurrency is a commercial attribute that provides currency code in which the associated price value is expressed.</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+    <AttributeType Name="priceDate" AttributeDataType="xs:date" ID="068604f5-a108-4de5-9fc9-00ba5f7f3047" RefAttributeType="AutomationMLCoreProperties.TimeAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Time_AttributeTypeLib/date">
+      <Description>priceDate is a temporal attribute that represents date at which the referenced price information was valid.</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+    <AttributeType Name="deliveryDate" AttributeDataType="xs:date" ID="cc7e4e39-cad2-4d5b-a1eb-c33503eddb1c" RefAttributeType="AutomationMLCoreProperties.TimeAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Time_AttributeTypeLib/date">
+      <Description>deliveryDate is a temporal attribute that represents date on which the asset was delivered according to commercial documentation.</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+    <AttributeType Name="commercialRemark" AttributeDataType="xs:string" ID="024909e8-e29a-46aa-ab7d-0c97430524e1" RefAttributeType="AutomationML_CoreProperties.CommercialProperties_AttributeTypeLib/commercialProperty">
+      <Description>commercialRemark is a text attribute that provides free-text remark for additional commercial or procurement-related information.</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+    <AttributeType Name="leadTime" ID="23f050e7-775a-4b87-a675-4307b89edb5f" AttributeDataType="xs:double" Unit="d" RefAttributeType="AutomationMLCoreProperties.TimeAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Time_AttributeTypeLib/durationDays">
+      <Description>leadTime is a time quantity that expresses time between order placement and availability of the ordered item.</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+    <AttributeType Name="deliveryTime" ID="f6e14ada-c99d-43ca-8ae9-ee065f27aa32" AttributeDataType="xs:double" Unit="d" RefAttributeType="AutomationMLCoreProperties.TimeAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Time_AttributeTypeLib/durationDays">
+      <Description>deliveryTime is a time quantity that expresses time required to deliver an item from shipment to receipt.</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+    <AttributeType Name="orderQuantity" RefAttributeType="AutomationML_CoreProperties.CommercialProperties_AttributeTypeLib/commercialProperty" ID="7837ba9b-5488-4957-8f7e-f4d0a85ba77f" AttributeDataType="xs:integer">
+      <Description>orderQuantity is an abstract quantity attribute that serves as a common semantic category for number of units ordered in a procurement transaction.</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+  </AttributeTypeLib>
+</CAEXFile>
