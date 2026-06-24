@@ -12609,6 +12609,15 @@
     "ID": "724b40da-bc65-445c-86b2-8072be9d5c9c"
   },
   {
+    "ClassName": "recurrencePeriod",
+    "CaexPath": "AutomationML_CoreProperties.StatisticsAndDistribution_AttributeTypeLib/recurrencePeriod",
+    "BasePath": "AutomationMLCoreProperties.TimeAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Time_AttributeTypeLib/timeDuration",
+    "LibraryName": "AutomationML_CoreProperties.StatisticsAndDistribution_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "724b40da-bc65-445c-86b2-8072be9d5c9c"
+  },
+  {
     "ClassName": "timeOffset",
     "CaexPath": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/timeDuration/timeOffset",
     "BasePath": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/timeDuration",
@@ -16990,5 +16999,311 @@
     "LibraryVersion": "1.7.8",
     "AMLEdition": "AMLEd2",
     "ID": "99a89172-df9d-472c-8f93-582131ee130f"
+  },
+  {
+    "ClassName": "median",
+    "CaexPath": "AutomationML_CoreProperties.StatisticsAndDistribution_AttributeTypeLib/median",
+    "BasePath": "AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/physicalQuantity",
+    "LibraryName": "AutomationML_CoreProperties.StatisticsAndDistribution_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "71c4c30c-6909-4766-814f-314626396a26"
+  },
+  {
+    "ClassName": "mean",
+    "CaexPath": "AutomationML_CoreProperties.StatisticsAndDistribution_AttributeTypeLib/mean",
+    "BasePath": "AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/physicalQuantity",
+    "LibraryName": "AutomationML_CoreProperties.StatisticsAndDistribution_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "a8dba30e-4735-42bd-9308-f8d20c3fefd6"
+  },
+  {
+    "ClassName": "logMean",
+    "CaexPath": "AutomationML_CoreProperties.StatisticsAndDistribution_AttributeTypeLib/logMean",
+    "BasePath": "AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/physicalQuantity",
+    "LibraryName": "AutomationML_CoreProperties.StatisticsAndDistribution_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "36ea04a2-ad5f-4b75-8bc6-05465ff48809"
+  },
+  {
+    "ClassName": "standardDeviation",
+    "CaexPath": "AutomationML_CoreProperties.StatisticsAndDistribution_AttributeTypeLib/standardDeviation",
+    "BasePath": "AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/physicalQuantity",
+    "LibraryName": "AutomationML_CoreProperties.StatisticsAndDistribution_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "6c525389-0d49-49a2-8f3f-b81a710f18e2"
+  },
+  {
+    "ClassName": "logStandardDeviation",
+    "CaexPath": "AutomationML_CoreProperties.StatisticsAndDistribution_AttributeTypeLib/logStandardDeviation",
+    "BasePath": "AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/physicalQuantity",
+    "LibraryName": "AutomationML_CoreProperties.StatisticsAndDistribution_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "3e8086d5-74fe-4fd4-a9d2-27217a9bd349"
+  },
+  {
+    "ClassName": "empiricalStandardDeviation",
+    "CaexPath": "AutomationML_CoreProperties.StatisticsAndDistribution_AttributeTypeLib/empiricalStandardDeviation",
+    "BasePath": "AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/physicalQuantity",
+    "LibraryName": "AutomationML_CoreProperties.StatisticsAndDistribution_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "b481d0c9-7d2b-4516-bed8-628a2f8e8357"
+  },
+  {
+    "ClassName": "probability",
+    "CaexPath": "AutomationML_CoreProperties.StatisticsAndDistribution_AttributeTypeLib/probability",
+    "BasePath": "AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/physicalQuantity",
+    "LibraryName": "AutomationML_CoreProperties.StatisticsAndDistribution_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "59cdb998-9960-46c1-928a-c4ded7ab6c86"
+  },
+  {
+    "ClassName": "statisticalModel",
+    "CaexPath": "AutomationML_CoreProperties.StatisticsAndDistribution_AttributeTypeLib/statisticalModel",
+    "BasePath": null,
+    "LibraryName": "AutomationML_CoreProperties.StatisticsAndDistribution_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "43757819-02a6-4fac-9c1f-824145213a15"
+  },
+  {
+    "ClassName": "distribution",
+    "CaexPath": "AutomationML_CoreProperties.StatisticsAndDistribution_AttributeTypeLib/distribution",
+    "BasePath": "AutomationML_CoreProperties.StatisticsAndDistribution_AttributeTypeLib/statisticalModel",
+    "LibraryName": "AutomationML_CoreProperties.StatisticsAndDistribution_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "2665f439-1a5a-4df1-b962-28e675f721be"
+  },
+  {
+    "ClassName": "deterministicDistribution",
+    "CaexPath": "AutomationML_CoreProperties.StatisticsAndDistribution_AttributeTypeLib/deterministicDistribution",
+    "BasePath": "AutomationML_CoreProperties.StatisticsAndDistribution_AttributeTypeLib/distribution",
+    "LibraryName": "AutomationML_CoreProperties.StatisticsAndDistribution_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "4ee5b127-2eac-44cd-9cfe-8b5bf5c2b2e2"
+  },
+  {
+    "ClassName": "constantDistribution",
+    "CaexPath": "AutomationML_CoreProperties.StatisticsAndDistribution_AttributeTypeLib/constantDistribution",
+    "BasePath": "AutomationML_CoreProperties.StatisticsAndDistribution_AttributeTypeLib/deterministicDistribution",
+    "LibraryName": "AutomationML_CoreProperties.StatisticsAndDistribution_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "bd5a8dd0-328d-463e-be3e-7bfdbcbd4875"
+  },
+  {
+    "ClassName": "continuousDistribution",
+    "CaexPath": "AutomationML_CoreProperties.StatisticsAndDistribution_AttributeTypeLib/continuousDistribution",
+    "BasePath": "AutomationML_CoreProperties.StatisticsAndDistribution_AttributeTypeLib/distribution",
+    "LibraryName": "AutomationML_CoreProperties.StatisticsAndDistribution_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "60d5d4df-db30-45e6-9796-4342379a57fd"
+  },
+  {
+    "ClassName": "normalDistribution",
+    "CaexPath": "AutomationML_CoreProperties.StatisticsAndDistribution_AttributeTypeLib/normalDistribution",
+    "BasePath": "AutomationML_CoreProperties.StatisticsAndDistribution_AttributeTypeLib/continuousDistribution",
+    "LibraryName": "AutomationML_CoreProperties.StatisticsAndDistribution_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "013124b8-7c77-4bb9-9737-b50434abc635"
+  },
+  {
+    "ClassName": "continuousUniformDistribution",
+    "CaexPath": "AutomationML_CoreProperties.StatisticsAndDistribution_AttributeTypeLib/continuousUniformDistribution",
+    "BasePath": "AutomationML_CoreProperties.StatisticsAndDistribution_AttributeTypeLib/continuousDistribution",
+    "LibraryName": "AutomationML_CoreProperties.StatisticsAndDistribution_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "61342112-0628-443d-ab4b-20f20d755a10"
+  },
+  {
+    "ClassName": "exponentialDistribution",
+    "CaexPath": "AutomationML_CoreProperties.StatisticsAndDistribution_AttributeTypeLib/exponentialDistribution",
+    "BasePath": "AutomationML_CoreProperties.StatisticsAndDistribution_AttributeTypeLib/continuousDistribution",
+    "LibraryName": "AutomationML_CoreProperties.StatisticsAndDistribution_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "a2bf3b1f-fa67-4d8b-b8da-57f7a5f6b56d"
+  },
+  {
+    "ClassName": "logNormalDistribution",
+    "CaexPath": "AutomationML_CoreProperties.StatisticsAndDistribution_AttributeTypeLib/logNormalDistribution",
+    "BasePath": "AutomationML_CoreProperties.StatisticsAndDistribution_AttributeTypeLib/continuousDistribution",
+    "LibraryName": "AutomationML_CoreProperties.StatisticsAndDistribution_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "802e443a-c027-4b09-95f9-1121d3e1984d"
+  },
+  {
+    "ClassName": "weibullDistribution",
+    "CaexPath": "AutomationML_CoreProperties.StatisticsAndDistribution_AttributeTypeLib/weibullDistribution",
+    "BasePath": "AutomationML_CoreProperties.StatisticsAndDistribution_AttributeTypeLib/continuousDistribution",
+    "LibraryName": "AutomationML_CoreProperties.StatisticsAndDistribution_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "455c886d-8339-4dc0-a61c-f22972867984"
+  },
+  {
+    "ClassName": "triangularDistribution",
+    "CaexPath": "AutomationML_CoreProperties.StatisticsAndDistribution_AttributeTypeLib/triangularDistribution",
+    "BasePath": "AutomationML_CoreProperties.StatisticsAndDistribution_AttributeTypeLib/continuousDistribution",
+    "LibraryName": "AutomationML_CoreProperties.StatisticsAndDistribution_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "f100aa5e-9cc0-407c-ac5e-45904476e607"
+  },
+  {
+    "ClassName": "gammaDistribution",
+    "CaexPath": "AutomationML_CoreProperties.StatisticsAndDistribution_AttributeTypeLib/gammaDistribution",
+    "BasePath": "AutomationML_CoreProperties.StatisticsAndDistribution_AttributeTypeLib/continuousDistribution",
+    "LibraryName": "AutomationML_CoreProperties.StatisticsAndDistribution_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "6ef9105d-7340-4888-9fe3-b7ce9f6a3050"
+  },
+  {
+    "ClassName": "betaDistribution",
+    "CaexPath": "AutomationML_CoreProperties.StatisticsAndDistribution_AttributeTypeLib/betaDistribution",
+    "BasePath": "AutomationML_CoreProperties.StatisticsAndDistribution_AttributeTypeLib/continuousDistribution",
+    "LibraryName": "AutomationML_CoreProperties.StatisticsAndDistribution_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "526edcd1-c02c-4999-9656-39056524d638"
+  },
+  {
+    "ClassName": "studentsTDistribution",
+    "CaexPath": "AutomationML_CoreProperties.StatisticsAndDistribution_AttributeTypeLib/studentsTDistribution",
+    "BasePath": "AutomationML_CoreProperties.StatisticsAndDistribution_AttributeTypeLib/continuousDistribution",
+    "LibraryName": "AutomationML_CoreProperties.StatisticsAndDistribution_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "1aeaaabc-1202-4a1a-a33d-ee258e8e26c0"
+  },
+  {
+    "ClassName": "paretoDistribution",
+    "CaexPath": "AutomationML_CoreProperties.StatisticsAndDistribution_AttributeTypeLib/paretoDistribution",
+    "BasePath": "AutomationML_CoreProperties.StatisticsAndDistribution_AttributeTypeLib/continuousDistribution",
+    "LibraryName": "AutomationML_CoreProperties.StatisticsAndDistribution_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "781ce509-4ebe-401a-9c53-9327235e22b8"
+  },
+  {
+    "ClassName": "empiricalDistribution",
+    "CaexPath": "AutomationML_CoreProperties.StatisticsAndDistribution_AttributeTypeLib/empiricalDistribution",
+    "BasePath": "AutomationML_CoreProperties.StatisticsAndDistribution_AttributeTypeLib/continuousDistribution",
+    "LibraryName": "AutomationML_CoreProperties.StatisticsAndDistribution_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "638a770d-d3d7-4b6c-9200-e5fd15d576e3"
+  },
+  {
+    "ClassName": "erlangDistribution",
+    "CaexPath": "AutomationML_CoreProperties.StatisticsAndDistribution_AttributeTypeLib/erlangDistribution",
+    "BasePath": "AutomationML_CoreProperties.StatisticsAndDistribution_AttributeTypeLib/continuousDistribution",
+    "LibraryName": "AutomationML_CoreProperties.StatisticsAndDistribution_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "93993275-0119-4211-9a87-1834d566f3ae"
+  },
+  {
+    "ClassName": "discreteDistribution",
+    "CaexPath": "AutomationML_CoreProperties.StatisticsAndDistribution_AttributeTypeLib/discreteDistribution",
+    "BasePath": "AutomationML_CoreProperties.StatisticsAndDistribution_AttributeTypeLib/distribution",
+    "LibraryName": "AutomationML_CoreProperties.StatisticsAndDistribution_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "e2ab9a32-525b-41db-a0db-91a6c7ea93b1"
+  },
+  {
+    "ClassName": "binomialDistribution",
+    "CaexPath": "AutomationML_CoreProperties.StatisticsAndDistribution_AttributeTypeLib/binomialDistribution",
+    "BasePath": "AutomationML_CoreProperties.StatisticsAndDistribution_AttributeTypeLib/discreteDistribution",
+    "LibraryName": "AutomationML_CoreProperties.StatisticsAndDistribution_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "6483f7e3-4613-4ee8-acb7-d9f149cb00c6"
+  },
+  {
+    "ClassName": "poissonDistribution",
+    "CaexPath": "AutomationML_CoreProperties.StatisticsAndDistribution_AttributeTypeLib/poissonDistribution",
+    "BasePath": "AutomationML_CoreProperties.StatisticsAndDistribution_AttributeTypeLib/discreteDistribution",
+    "LibraryName": "AutomationML_CoreProperties.StatisticsAndDistribution_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "02693e9f-8a02-486b-b634-64003163c590"
+  },
+  {
+    "ClassName": "geometricDistribution",
+    "CaexPath": "AutomationML_CoreProperties.StatisticsAndDistribution_AttributeTypeLib/geometricDistribution",
+    "BasePath": "AutomationML_CoreProperties.StatisticsAndDistribution_AttributeTypeLib/discreteDistribution",
+    "LibraryName": "AutomationML_CoreProperties.StatisticsAndDistribution_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "f62de3ab-8803-488c-a0e0-9f393e663321"
+  },
+  {
+    "ClassName": "hypergeometricDistribution",
+    "CaexPath": "AutomationML_CoreProperties.StatisticsAndDistribution_AttributeTypeLib/hypergeometricDistribution",
+    "BasePath": "AutomationML_CoreProperties.StatisticsAndDistribution_AttributeTypeLib/discreteDistribution",
+    "LibraryName": "AutomationML_CoreProperties.StatisticsAndDistribution_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "cc12ab9f-ea76-4bc1-91ba-630c88be122d"
+  },
+  {
+    "ClassName": "negativeBinomialDistribution",
+    "CaexPath": "AutomationML_CoreProperties.StatisticsAndDistribution_AttributeTypeLib/negativeBinomialDistribution",
+    "BasePath": "AutomationML_CoreProperties.StatisticsAndDistribution_AttributeTypeLib/discreteDistribution",
+    "LibraryName": "AutomationML_CoreProperties.StatisticsAndDistribution_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "0aa74835-b12e-4618-a4a2-83164313b530"
+  },
+  {
+    "ClassName": "bernoulliDistribution",
+    "CaexPath": "AutomationML_CoreProperties.StatisticsAndDistribution_AttributeTypeLib/bernoulliDistribution",
+    "BasePath": "AutomationML_CoreProperties.StatisticsAndDistribution_AttributeTypeLib/discreteDistribution",
+    "LibraryName": "AutomationML_CoreProperties.StatisticsAndDistribution_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "834b4697-b6ad-456d-ab16-2aa18d66d595"
+  },
+  {
+    "ClassName": "discreteEmpiricalDistribution",
+    "CaexPath": "AutomationML_CoreProperties.StatisticsAndDistribution_AttributeTypeLib/discreteEmpiricalDistribution",
+    "BasePath": "AutomationML_CoreProperties.StatisticsAndDistribution_AttributeTypeLib/discreteDistribution",
+    "LibraryName": "AutomationML_CoreProperties.StatisticsAndDistribution_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "c9665e3d-4b99-4642-a649-443ac10237bb"
+  },
+  {
+    "ClassName": "listTypeModel",
+    "CaexPath": "AutomationML_CoreProperties.StatisticsAndDistribution_AttributeTypeLib/listTypeModel",
+    "BasePath": "AutomationML_CoreProperties.StatisticsAndDistribution_AttributeTypeLib/statisticalModel",
+    "LibraryName": "AutomationML_CoreProperties.StatisticsAndDistribution_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "49a46f41-e5f6-404b-acca-0c1dd4653ddf"
+  },
+  {
+    "ClassName": "formulaModel",
+    "CaexPath": "AutomationML_CoreProperties.StatisticsAndDistribution_AttributeTypeLib/formulaModel",
+    "BasePath": "AutomationML_CoreProperties.StatisticsAndDistribution_AttributeTypeLib/statisticalModel",
+    "LibraryName": "AutomationML_CoreProperties.StatisticsAndDistribution_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "fc8fedd7-2b19-41e0-a912-e70cdfa4b165"
   }
 ]
