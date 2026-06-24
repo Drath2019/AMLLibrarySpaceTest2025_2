@@ -1912,6 +1912,26 @@
               "Revision": null
             }
           ]
+        },
+        {
+          "Name": "AutomationML_CoreProperties.Electrical_AttributeTypeLib",
+          "Versions": [
+            {
+              "Version": "1.7.8",
+              "CAEXVersion": "3.0",
+              "AMLEdition": "AMLEd2",
+              "IsArchived": false,
+              "Description": "This AttributeTypeLib defines fundamental, domain-neutral electrical and energy-related properties of an asset. The contained attributes represent measurable electrical quantities (such as electric charge, electric potential difference, capacitance, resistance, conductance, magnetic flux, magnetic flux density, and inductance) as well as generic power demand and energy demand characteristics. All attributes are formulated independent of a specific engineering discipline, energy carrier, device class, control concept, or organizational context, and are intended to provide a common semantic basis for describing electrical behavior and consumption-related characteristics.",
+              "DownloadLink": null,
+              "DownloadLinks": [
+                "https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/AutomationML_CoreProperties.Electrical_AttributeTypeLib_AMLEd2_1.7.8.aml"
+              ],
+              "Sources": null,
+              "Signature": "MEQCID3mc8hvHyGfrt2efQEfevBT26Z2x8L//DLdIR5BmGbCAiAkJkHNb4JfIrE/1jaDrr7ag9XVV/D0rAhP3appEE8IMg==",
+              "PublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEyk6uIUNugOojm3akdEAA4XoGGBEui0zPVhzkjR0RfprHFWrbPpFMfExaW2TaeChaegCmjE2boFph1aI1eNEPcQ==",
+              "Revision": null
+            }
+          ]
         }
       ]
     },
