@@ -16180,5 +16180,113 @@
     "LibraryVersion": "1.7.8",
     "AMLEdition": "AMLEd2",
     "ID": "5edcad71-6d5e-4725-b884-5c4d97b6fe1d"
+  },
+  {
+    "ClassName": "cycleTime",
+    "CaexPath": "AutomationML_CoreProperties.Lifetime_AttributeTypeLib/cycleTime",
+    "BasePath": "AutomationMLCoreProperties.TimeAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Time_AttributeTypeLib/time",
+    "LibraryName": "AutomationML_CoreProperties.Lifetime_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "6637b83b-b87a-4bcd-94ee-ed09854c706b"
+  },
+  {
+    "ClassName": "setupTime",
+    "CaexPath": "AutomationML_CoreProperties.Lifetime_AttributeTypeLib/setupTime",
+    "BasePath": "AutomationMLCoreProperties.TimeAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Time_AttributeTypeLib/time",
+    "LibraryName": "AutomationML_CoreProperties.Lifetime_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "72b4126e-76a3-4f54-b1e5-09d6d642d8d2"
+  },
+  {
+    "ClassName": "serviceLife",
+    "CaexPath": "AutomationML_CoreProperties.Lifetime_AttributeTypeLib/serviceLife",
+    "BasePath": "AutomationMLCoreProperties.TimeAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Time_AttributeTypeLib/time",
+    "LibraryName": "AutomationML_CoreProperties.Lifetime_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "23b321ed-d1e3-42b4-908e-bab083fa15ac"
+  },
+  {
+    "ClassName": "designLife",
+    "CaexPath": "AutomationML_CoreProperties.Lifetime_AttributeTypeLib/designLife",
+    "BasePath": "AutomationMLCoreProperties.TimeAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Time_AttributeTypeLib/time",
+    "LibraryName": "AutomationML_CoreProperties.Lifetime_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "d0724da5-771e-45aa-aaad-77a31b502518"
+  },
+  {
+    "ClassName": "waitingTime",
+    "CaexPath": "AutomationML_CoreProperties.Lifetime_AttributeTypeLib/waitingTime",
+    "BasePath": "AutomationMLCoreProperties.TimeAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Time_AttributeTypeLib/time",
+    "LibraryName": "AutomationML_CoreProperties.Lifetime_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "ae64b93b-681f-4453-9c41-3445d8cfa8c4"
+  },
+  {
+    "ClassName": "lifeCycleStage",
+    "CaexPath": "AutomationML_CoreProperties.Lifetime_AttributeTypeLib/lifeCycleStage",
+    "BasePath": "AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/statusMetric",
+    "LibraryName": "AutomationML_CoreProperties.Lifetime_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "df472a35-17a1-49c7-bebd-c7bbceffebbc"
+  },
+  {
+    "ClassName": "assetState",
+    "CaexPath": "AutomationML_CoreProperties.Lifetime_AttributeTypeLib/assetState",
+    "BasePath": "AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/statusMetric",
+    "LibraryName": "AutomationML_CoreProperties.Lifetime_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "99c0378c-033d-49d2-a439-4e2092f14892"
+  },
+  {
+    "ClassName": "operationalState",
+    "CaexPath": "AutomationML_CoreProperties.Lifetime_AttributeTypeLib/operationalState",
+    "BasePath": "AutomationML_CoreProperties.Lifetime_AttributeTypeLib/assetState",
+    "LibraryName": "AutomationML_CoreProperties.Lifetime_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "bde87ac5-a640-4e02-a34f-05298a22412a"
+  },
+  {
+    "ClassName": "healthState",
+    "CaexPath": "AutomationML_CoreProperties.Lifetime_AttributeTypeLib/healthState",
+    "BasePath": "AutomationML_CoreProperties.Lifetime_AttributeTypeLib/assetState",
+    "LibraryName": "AutomationML_CoreProperties.Lifetime_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "24fc0c66-8704-4fad-8671-73e00d77e76e"
+  },
+  {
+    "ClassName": "availabilityState",
+    "CaexPath": "AutomationML_CoreProperties.Lifetime_AttributeTypeLib/availabilityState",
+    "BasePath": "AutomationML_CoreProperties.Lifetime_AttributeTypeLib/assetState",
+    "LibraryName": "AutomationML_CoreProperties.Lifetime_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "e4c24a93-e2e0-401c-8831-fd80cc466f08"
+  },
+  {
+    "ClassName": "isEnabled",
+    "CaexPath": "AutomationML_CoreProperties.Lifetime_AttributeTypeLib/isEnabled",
+    "BasePath": "AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/booleanProperty",
+    "LibraryName": "AutomationML_CoreProperties.Lifetime_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "6230e8b5-a752-4028-90e2-ee86973245cd"
+  },
+  {
+    "ClassName": "isReady",
+    "CaexPath": "AutomationML_CoreProperties.Lifetime_AttributeTypeLib/isReady",
+    "BasePath": "AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/booleanProperty",
+    "LibraryName": "AutomationML_CoreProperties.Lifetime_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "789cdd4e-70a1-4708-9d28-8789ce354daf"
   }
 ]
