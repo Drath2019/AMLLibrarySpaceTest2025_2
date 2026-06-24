@@ -2799,6 +2799,15 @@
     "ID": "5d973f74-2fb0-4b28-a517-b5bed8f77205"
   },
   {
+    "ClassName": "manufacturerName",
+    "CaexPath": "AutomationML_CoreProperties.Nameplate_AttributeTypeLib/manufacturerName",
+    "BasePath": "AutomationMLCoreProperties.IdentificationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib/identificationProperty",
+    "LibraryName": "AutomationML_CoreProperties.Nameplate_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "b7a58fb3-8afd-4dfe-843a-fa1299fc869a"
+  },
+  {
     "ClassName": "designLifetime",
     "CaexPath": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib/designLifetime",
     "BasePath": null,
@@ -3715,6 +3724,15 @@
     "LibraryVersion": "1.2.2",
     "AMLEdition": "AMLEd2",
     "ID": "81a61bac-b168-4a55-84c7-5251c2526611"
+  },
+  {
+    "ClassName": "manufacturerProductDesignation",
+    "CaexPath": "AutomationML_CoreProperties.Nameplate_AttributeTypeLib/manufacturerProductDesignation",
+    "BasePath": "AutomationMLCoreProperties.IdentificationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib/identificationProperty",
+    "LibraryName": "AutomationML_CoreProperties.Nameplate_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "6f6fdd85-6f03-469e-94bd-bdabd397f90c"
   },
   {
     "ClassName": "partNumber",
@@ -12627,11 +12645,29 @@
     "ID": "ddefa059-262f-4bea-857e-aff672d0b302"
   },
   {
+    "ClassName": "namePlateHeader",
+    "CaexPath": "AutomationML_CoreProperties.Nameplate_AttributeTypeLib/namePlateHeader",
+    "BasePath": null,
+    "LibraryName": "AutomationML_CoreProperties.Nameplate_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "ddefa059-262f-4bea-857e-aff672d0b302"
+  },
+  {
     "ClassName": "uriOfTheProduct",
     "CaexPath": "AutomationML_BasicProperties.Nameplate_AttributeTypeLib/uriOfTheProduct",
     "BasePath": "AutomationMLBase.GeometryLibrariesAMLEd22_12_0@AutomationMLBaseAttributeTypeLib/refURI",
     "LibraryName": "AutomationML_BasicProperties.Nameplate_AttributeTypeLib",
     "LibraryVersion": "1.2.2",
+    "AMLEdition": "AMLEd2",
+    "ID": "d4bbb6db-7391-4505-b4c0-cb7e21a69c1b"
+  },
+  {
+    "ClassName": "uriOfTheProduct",
+    "CaexPath": "AutomationML_CoreProperties.Nameplate_AttributeTypeLib/uriOfTheProduct",
+    "BasePath": "AutomationMLBase.GeometryLibrariesAMLEd22_12_0@AutomationMLBaseAttributeTypeLib/refURI",
+    "LibraryName": "AutomationML_CoreProperties.Nameplate_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
     "AMLEdition": "AMLEd2",
     "ID": "d4bbb6db-7391-4505-b4c0-cb7e21a69c1b"
   },
@@ -12717,11 +12753,29 @@
     "ID": "68cdc6ef-0283-47f9-870a-e53912b6dece"
   },
   {
+    "ClassName": "manufacturerProductRoot",
+    "CaexPath": "AutomationML_CoreProperties.Nameplate_AttributeTypeLib/manufacturerProductRoot",
+    "BasePath": "AutomationMLCoreProperties.IdentificationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib/identificationProperty",
+    "LibraryName": "AutomationML_CoreProperties.Nameplate_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "68cdc6ef-0283-47f9-870a-e53912b6dece"
+  },
+  {
     "ClassName": "manufacturerProductFamily",
     "CaexPath": "AutomationML_BasicProperties.Nameplate_AttributeTypeLib/manufacturerProductFamily",
     "BasePath": null,
     "LibraryName": "AutomationML_BasicProperties.Nameplate_AttributeTypeLib",
     "LibraryVersion": "1.2.2",
+    "AMLEdition": "AMLEd2",
+    "ID": "a5dae77b-326b-4e6b-b341-70e7dc6b6074"
+  },
+  {
+    "ClassName": "manufacturerProductFamily",
+    "CaexPath": "AutomationML_CoreProperties.Nameplate_AttributeTypeLib/manufacturerProductFamily",
+    "BasePath": "AutomationMLCoreProperties.IdentificationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib/identificationProperty",
+    "LibraryName": "AutomationML_CoreProperties.Nameplate_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
     "AMLEdition": "AMLEd2",
     "ID": "a5dae77b-326b-4e6b-b341-70e7dc6b6074"
   },
@@ -12735,11 +12789,29 @@
     "ID": "1b57ab39-2095-4596-a816-90afa7e15827"
   },
   {
+    "ClassName": "manufacturerProductType",
+    "CaexPath": "AutomationML_CoreProperties.Nameplate_AttributeTypeLib/manufacturerProductType",
+    "BasePath": "AutomationMLCoreProperties.IdentificationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib/identificationProperty",
+    "LibraryName": "AutomationML_CoreProperties.Nameplate_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "1b57ab39-2095-4596-a816-90afa7e15827"
+  },
+  {
     "ClassName": "orderCodeOfManufacturer",
     "CaexPath": "AutomationML_BasicProperties.Nameplate_AttributeTypeLib/orderCodeOfManufacturer",
     "BasePath": null,
     "LibraryName": "AutomationML_BasicProperties.Nameplate_AttributeTypeLib",
     "LibraryVersion": "1.2.2",
+    "AMLEdition": "AMLEd2",
+    "ID": "469515e7-20bb-412b-bb50-32c4b524cfc0"
+  },
+  {
+    "ClassName": "orderCodeOfManufacturer",
+    "CaexPath": "AutomationML_CoreProperties.Nameplate_AttributeTypeLib/orderCodeOfManufacturer",
+    "BasePath": "AutomationMLCoreProperties.IdentificationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib/identificationProperty",
+    "LibraryName": "AutomationML_CoreProperties.Nameplate_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
     "AMLEdition": "AMLEd2",
     "ID": "469515e7-20bb-412b-bb50-32c4b524cfc0"
   },
@@ -12861,11 +12933,29 @@
     "ID": "ff499271-87ba-4ed1-a10c-0db9ce7e48fd"
   },
   {
+    "ClassName": "productArticleNumberOfManufacturer",
+    "CaexPath": "AutomationML_CoreProperties.Nameplate_AttributeTypeLib/productArticleNumberOfManufacturer",
+    "BasePath": "AutomationMLCoreProperties.IdentificationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib/identificationProperty",
+    "LibraryName": "AutomationML_CoreProperties.Nameplate_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "ff499271-87ba-4ed1-a10c-0db9ce7e48fd"
+  },
+  {
     "ClassName": "yearOfConstruction",
     "CaexPath": "AutomationML_BasicProperties.Nameplate_AttributeTypeLib/yearOfConstruction",
     "BasePath": null,
     "LibraryName": "AutomationML_BasicProperties.Nameplate_AttributeTypeLib",
     "LibraryVersion": "1.2.2",
+    "AMLEdition": "AMLEd2",
+    "ID": "dcfd5051-641e-483d-8803-730719e4fd9a"
+  },
+  {
+    "ClassName": "yearOfConstruction",
+    "CaexPath": "AutomationML_CoreProperties.Nameplate_AttributeTypeLib/yearOfConstruction",
+    "BasePath": "AutomationMLCoreProperties.TimeAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Time_AttributeTypeLib/year",
+    "LibraryName": "AutomationML_CoreProperties.Nameplate_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
     "AMLEdition": "AMLEd2",
     "ID": "dcfd5051-641e-483d-8803-730719e4fd9a"
   },
@@ -12879,11 +12969,29 @@
     "ID": "5fa1d7dc-6899-4e83-8b44-d3c9450955f4"
   },
   {
+    "ClassName": "dateOfManufacture",
+    "CaexPath": "AutomationML_CoreProperties.Nameplate_AttributeTypeLib/dateOfManufacture",
+    "BasePath": "AutomationMLCoreProperties.TimeAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Time_AttributeTypeLib/date",
+    "LibraryName": "AutomationML_CoreProperties.Nameplate_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "5fa1d7dc-6899-4e83-8b44-d3c9450955f4"
+  },
+  {
     "ClassName": "hardwareVersion",
     "CaexPath": "AutomationML_BasicProperties.Nameplate_AttributeTypeLib/hardwareVersion",
     "BasePath": null,
     "LibraryName": "AutomationML_BasicProperties.Nameplate_AttributeTypeLib",
     "LibraryVersion": "1.2.2",
+    "AMLEdition": "AMLEd2",
+    "ID": "333c34de-6723-47f1-b575-8f2c7520c2fa"
+  },
+  {
+    "ClassName": "hardwareVersion",
+    "CaexPath": "AutomationML_CoreProperties.Nameplate_AttributeTypeLib/hardwareVersion",
+    "BasePath": "AutomationMLCoreProperties.IdentificationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib/versionNumber",
+    "LibraryName": "AutomationML_CoreProperties.Nameplate_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
     "AMLEdition": "AMLEd2",
     "ID": "333c34de-6723-47f1-b575-8f2c7520c2fa"
   },
@@ -13005,11 +13113,29 @@
     "ID": "15e35e20-9c1c-4350-9e6c-93a5f4e36ddf"
   },
   {
+    "ClassName": "firmwareVersion",
+    "CaexPath": "AutomationML_CoreProperties.Nameplate_AttributeTypeLib/firmwareVersion",
+    "BasePath": "AutomationMLCoreProperties.IdentificationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib/versionNumber",
+    "LibraryName": "AutomationML_CoreProperties.Nameplate_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "15e35e20-9c1c-4350-9e6c-93a5f4e36ddf"
+  },
+  {
     "ClassName": "softwareRevision",
     "CaexPath": "AutomationML_BasicProperties.Nameplate_AttributeTypeLib/softwareRevision",
     "BasePath": null,
     "LibraryName": "AutomationML_BasicProperties.Nameplate_AttributeTypeLib",
     "LibraryVersion": "1.2.2",
+    "AMLEdition": "AMLEd2",
+    "ID": "8a1ce7fa-56e8-4b9d-9927-31810897663c"
+  },
+  {
+    "ClassName": "softwareRevision",
+    "CaexPath": "AutomationML_CoreProperties.Nameplate_AttributeTypeLib/softwareRevision",
+    "BasePath": "AutomationMLCoreProperties.IdentificationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib/versionNumber",
+    "LibraryName": "AutomationML_CoreProperties.Nameplate_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
     "AMLEdition": "AMLEd2",
     "ID": "8a1ce7fa-56e8-4b9d-9927-31810897663c"
   },
@@ -13039,6 +13165,15 @@
     "LibraryVersion": "1.7.8",
     "AMLEdition": "AMLEd2",
     "ID": "62169871-2f2d-48fb-8a62-2b71fe6b39c6"
+  },
+  {
+    "ClassName": "title",
+    "CaexPath": "AutomationML_CoreProperties.Nameplate_AttributeTypeLib/title",
+    "BasePath": "AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/genericText",
+    "LibraryName": "AutomationML_CoreProperties.Nameplate_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "869b6f2a-ef6a-4127-8702-9ad665455161"
   },
   {
     "ClassName": "documentNumber",
@@ -13122,6 +13257,15 @@
     "ID": "eddb8d63-f4e3-483c-832d-896c17eac89c"
   },
   {
+    "ClassName": "nameplateVersion",
+    "CaexPath": "AutomationML_CoreProperties.Nameplate_AttributeTypeLib/nameplateVersion",
+    "BasePath": "AutomationMLCoreProperties.IdentificationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib/versionNumber",
+    "LibraryName": "AutomationML_CoreProperties.Nameplate_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "eddb8d63-f4e3-483c-832d-896c17eac89c"
+  },
+  {
     "ClassName": "url",
     "CaexPath": "AutomationML_BasicProperties.Nameplate_AttributeTypeLib/url",
     "BasePath": null,
@@ -13131,11 +13275,29 @@
     "ID": "a3dc48d0-0607-46e5-851d-083a625afba9"
   },
   {
+    "ClassName": "url",
+    "CaexPath": "AutomationML_CoreProperties.Nameplate_AttributeTypeLib/url",
+    "BasePath": "AutomationMLBase.GeometryLibrariesAMLEd22_12_0@AutomationMLBaseAttributeTypeLib/refURI",
+    "LibraryName": "AutomationML_CoreProperties.Nameplate_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "a3dc48d0-0607-46e5-851d-083a625afba9"
+  },
+  {
     "ClassName": "organisation",
     "CaexPath": "AutomationML_BasicProperties.Nameplate_AttributeTypeLib/organisation",
     "BasePath": null,
     "LibraryName": "AutomationML_BasicProperties.Nameplate_AttributeTypeLib",
     "LibraryVersion": "1.2.2",
+    "AMLEdition": "AMLEd2",
+    "ID": "f2c3e095-f422-4dcd-bf4e-f0df232a5282"
+  },
+  {
+    "ClassName": "organisation",
+    "CaexPath": "AutomationML_CoreProperties.Nameplate_AttributeTypeLib/organisation",
+    "BasePath": "AutomationMLCoreProperties.ContactAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Contact_AttributeTypeLib/economicEntity",
+    "LibraryName": "AutomationML_CoreProperties.Nameplate_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
     "AMLEdition": "AMLEd2",
     "ID": "f2c3e095-f422-4dcd-bf4e-f0df232a5282"
   },
@@ -13221,11 +13383,29 @@
     "ID": "e62d772f-6989-42c0-ae99-f24e11750c7f"
   },
   {
+    "ClassName": "markingName",
+    "CaexPath": "AutomationML_CoreProperties.Nameplate_AttributeTypeLib/markingName",
+    "BasePath": "AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/genericText",
+    "LibraryName": "AutomationML_CoreProperties.Nameplate_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "e62d772f-6989-42c0-ae99-f24e11750c7f"
+  },
+  {
     "ClassName": "designationOfCertificateOrApproval",
     "CaexPath": "AutomationML_BasicProperties.Nameplate_AttributeTypeLib/designationOfCertificateOrApproval",
     "BasePath": null,
     "LibraryName": "AutomationML_BasicProperties.Nameplate_AttributeTypeLib",
     "LibraryVersion": "1.2.2",
+    "AMLEdition": "AMLEd2",
+    "ID": "86353b84-5f99-4619-acb9-c0d8a6b16871"
+  },
+  {
+    "ClassName": "designationOfCertificateOrApproval",
+    "CaexPath": "AutomationML_CoreProperties.Nameplate_AttributeTypeLib/designationOfCertificateOrApproval",
+    "BasePath": "AutomationMLCoreProperties.IdentificationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib/identificationProperty",
+    "LibraryName": "AutomationML_CoreProperties.Nameplate_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
     "AMLEdition": "AMLEd2",
     "ID": "86353b84-5f99-4619-acb9-c0d8a6b16871"
   },
@@ -13293,6 +13473,15 @@
     "ID": "d9d037a8-0fdf-4581-ad14-19a274d093d2"
   },
   {
+    "ClassName": "issueDate",
+    "CaexPath": "AutomationML_CoreProperties.Nameplate_AttributeTypeLib/issueDate",
+    "BasePath": "AutomationMLCoreProperties.TimeAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Time_AttributeTypeLib/date",
+    "LibraryName": "AutomationML_CoreProperties.Nameplate_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "d9d037a8-0fdf-4581-ad14-19a274d093d2"
+  },
+  {
     "ClassName": "expireDate",
     "CaexPath": "AutomationML_BasicProperties.Nameplate_AttributeTypeLib/expireDate",
     "BasePath": "AutomationML_BasicProperties.Time_AttributeTypeLib/date",
@@ -13302,11 +13491,29 @@
     "ID": "ed36f769-7c17-48e5-a0dc-c92eae4435a4"
   },
   {
+    "ClassName": "expireDate",
+    "CaexPath": "AutomationML_CoreProperties.Nameplate_AttributeTypeLib/expireDate",
+    "BasePath": "AutomationMLCoreProperties.TimeAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Time_AttributeTypeLib/date",
+    "LibraryName": "AutomationML_CoreProperties.Nameplate_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "ed36f769-7c17-48e5-a0dc-c92eae4435a4"
+  },
+  {
     "ClassName": "markingAdditionalText",
     "CaexPath": "AutomationML_BasicProperties.Nameplate_AttributeTypeLib/markingAdditionalText",
     "BasePath": null,
     "LibraryName": "AutomationML_BasicProperties.Nameplate_AttributeTypeLib",
     "LibraryVersion": "1.2.2",
+    "AMLEdition": "AMLEd2",
+    "ID": "65db31f1-6d70-4e17-91cd-c1fe6b5ee271"
+  },
+  {
+    "ClassName": "markingAdditionalText",
+    "CaexPath": "AutomationML_CoreProperties.Nameplate_AttributeTypeLib/markingAdditionalText",
+    "BasePath": "AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/genericText",
+    "LibraryName": "AutomationML_CoreProperties.Nameplate_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
     "AMLEdition": "AMLEd2",
     "ID": "65db31f1-6d70-4e17-91cd-c1fe6b5ee271"
   },
@@ -13352,6 +13559,15 @@
     "BasePath": "AutomationML_BasicProperties.Contact_AttributeTypeLib/countryName",
     "LibraryName": "AutomationML_BasicProperties.Nameplate_AttributeTypeLib",
     "LibraryVersion": "1.2.2",
+    "AMLEdition": "AMLEd2",
+    "ID": "a9107382-0f2c-4255-a824-2baed3ba53bc"
+  },
+  {
+    "ClassName": "countryOfOrigin",
+    "CaexPath": "AutomationML_CoreProperties.Nameplate_AttributeTypeLib/countryOfOrigin",
+    "BasePath": "AutomationMLCoreProperties.ContactAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Contact_AttributeTypeLib/countryName",
+    "LibraryName": "AutomationML_CoreProperties.Nameplate_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
     "AMLEdition": "AMLEd2",
     "ID": "a9107382-0f2c-4255-a824-2baed3ba53bc"
   },
