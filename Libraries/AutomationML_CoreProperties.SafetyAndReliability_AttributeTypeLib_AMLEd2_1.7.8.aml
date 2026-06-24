@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CAEXFile SchemaVersion="3.0" FileName="AutomationML_CoreProperties.SafetyAndReliability_AttributeTypeLib_AMLEd2_1.7.8.aml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.dke.de/CAEX" xsi:schemaLocation="http://www.dke.de/CAEX CAEX_ClassModel_V.3.0.xsd">
+  <Description>a data field used to track specific iterations, releases, or revisions of an asset, document, software build, or system configuration</Description>
+  <Version>1.7.8</Version>
+  <SuperiorStandardVersion>AutomationML 2.1</SuperiorStandardVersion>
+  <SourceDocumentInformation OriginName="CoreProperties.SafetyAndReliability_AttributeTypeLib" OriginID="c16cd4d4-221f-4148-9945-fa02b9ac3ac0" OriginVersion="1.7.8" LastWritingDateTime="2026-06-24T18:23:22.5312987+02:00" OriginProjectID="" OriginProjectTitle="" OriginRelease="1.7.8" OriginVendor="AutomationML" OriginVendorURL="AutomationML_CoreProperties.SafetyAndReliability_AttributeTypeLib_AMLEd2_1.7.8.aml" />
+  <ExternalReference Path="https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/AutomationML_CoreProperties.Time_AttributeTypeLib_AMLEd2_1.7.8.aml" Alias="AutomationMLCoreProperties.TimeAttributeTypeLibAMLEd2" />
+  <ExternalReference Path="https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/AutomationML_CoreProperties.Foundation_AttributeTypeLib_AMLEd2_1.7.8.aml" Alias="AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2" />
+  <ExternalReference Path="https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/AutomationML_CoreProperties.StatisticsAndDistribution_AttributeTypeLib_AMLEd2_1.7.8.aml" Alias="AutomationMLCoreProperties.StatisticsAndDistributionAttributeTypeLibAMLEd2" />
+  <AttributeTypeLib Name="AutomationML_CoreProperties.SafetyAndReliability_AttributeTypeLib" ID="6bf51419-f295-4b03-a888-9aa02c7bb56f">
+    <Description>This AttributeTypeLib provides attribute types for characterizing the functional safety, reliability, and availability of assets and systems. It includes standardized classifications and metrics aligned with international standards such as IEC 61508 (Safety Integrity Levels) and ISO 13849 (Performance Levels). The library covers failure rates, diagnostic coverage, proof test intervals, mean times (MTBF, MTTR, MTTF), and redundancy architectures, enabling the normative description of risk reduction, system dependability, and lifecycle maintenance strategies.</Description>
+    <Version>1.7.8</Version>
+    <AttributeType Name="safetyQuantity" AttributeDataType="xs:string" ID="8ce98f2b-ec82-460e-bc44-01a72c33bde4">
+      <Description>safetyQuantity is an abstract safety attribute that serves as a common semantic category for safety-related properties used in risk reduction, functional safety, or machine safety contexts.</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+    <AttributeType Name="SIL" AttributeDataType="xs:string" RefAttributeType="AutomationML_CoreProperties.SafetyAndReliability_AttributeTypeLib/safetyQuantity" ID="ed8f3eda-2c89-42be-a560-50f3a1367477">
+      <Description>SIL denotes the Safety Integrity Level according to IEC 61508, required risk reduction level specifying the hardware and systematic safety-related requirements for a safety function.</Description>
+      <Version>1.7.8</Version>
+      <Constraint Name="Enum">
+        <NominalScaledType>
+          <RequiredValue>SIL1</RequiredValue>
+          <RequiredValue>SIL2</RequiredValue>
+          <RequiredValue>SIL3</RequiredValue>
+          <RequiredValue>SIL4</RequiredValue>
+        </NominalScaledType>
+      </Constraint>
+    </AttributeType>
+    <AttributeType Name="performanceLevel" AttributeDataType="xs:string" RefAttributeType="AutomationML_CoreProperties.SafetyAndReliability_AttributeTypeLib/safetyQuantity" ID="f755c07d-cedf-48a3-9772-9d519b3dab66">
+      <Description>performanceLevel is a safety classification that specifies a discrete level used to characterize the ability of safety-related parts of control systems to perform a safety function, as used in machine safety standards such as ISO 13849.</Description>
+      <Version>1.7.8</Version>
+      <Constraint Name="Enum">
+        <NominalScaledType>
+          <RequiredValue>PL a</RequiredValue>
+          <RequiredValue>PL b</RequiredValue>
+          <RequiredValue>PL c</RequiredValue>
+          <RequiredValue>PL d</RequiredValue>
+          <RequiredValue>PL e</RequiredValue>
+        </NominalScaledType>
+      </Constraint>
+    </AttributeType>
+    <AttributeType Name="riskClass" AttributeDataType="xs:string" RefAttributeType="AutomationML_CoreProperties.SafetyAndReliability_AttributeTypeLib/safetyQuantity" ID="02aed511-f52a-48ca-b9ef-dd6dc619fad3">
+      <Description>riskClass is a risk classification that categorizes a risk according to defined criteria such as severity, frequency, exposure, or probability of occurrence.</Description>
+      <Version>1.7.8</Version>
+      <Constraint Name="Enum">
+        <NominalScaledType>
+          <RequiredValue>low</RequiredValue>
+          <RequiredValue>medium</RequiredValue>
+          <RequiredValue>high</RequiredValue>
+          <RequiredValue>critical</RequiredValue>
+        </NominalScaledType>
+      </Constraint>
+    </AttributeType>
+    <AttributeType Name="IPCode" AttributeDataType="xs:string" RefAttributeType="AutomationML_CoreProperties.SafetyAndReliability_AttributeTypeLib/safetyQuantity" ID="8dd78d77-75d9-4f6e-bc1c-05af83eb1fe5">
+      <Description>IPCode is a classification that specifies the degree or method of protection provided against electric shock or external influences according to the applicable product standard.</Description>
+      <Version>1.7.8</Version>
+      <Constraint Name="Enum">
+        <NominalScaledType>
+          <RequiredValue>IP20</RequiredValue>
+          <RequiredValue>IP54</RequiredValue>
+          <RequiredValue>IP65</RequiredValue>
+          <RequiredValue>IP67</RequiredValue>
+        </NominalScaledType>
+      </Constraint>
+    </AttributeType>
+    <AttributeType Name="PTI" ID="bd7d86a7-b7ec-41fa-bdf2-6c61ceff0c3f" AttributeDataType="xs:double" Unit="h" RefAttributeType="AutomationMLCoreProperties.TimeAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Time_AttributeTypeLib/timeDuration">
+      <Description>PTI (Proof Test Interval) is the time between periodic manual or automated proof tests intended to detect hidden dangerous failures in Safety Instrumented Functions (SIFs) or components.</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+    <AttributeType Name="PST" ID="164558a7-3c85-4351-a950-894713a24566" AttributeDataType="xs:double" Unit="s" RefAttributeType="AutomationMLCoreProperties.TimeAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Time_AttributeTypeLib/timeDuration">
+      <Description>PST (Process Safety Time) is the time available from the moment of process deviation to the point where the process enters an unsafe state.</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+    <AttributeType Name="PFH" AttributeDataType="xs:double" RefAttributeType="AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/rate" ID="71417151-d177-45cb-b1b0-ac0f23923dc1" Unit="h^-1">
+      <Description>PFH (Probability of Failure per Hour) is the average frequency or probability of a dangerous failure of a safety function in high-demand or continuous mode.</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+    <AttributeType Name="PFD" AttributeDataType="xs:double" ID="1911675d-4323-49c7-9d04-9e89f1bac725" Unit="1" RefAttributeType="AutomationMLCoreProperties.StatisticsAndDistributionAttributeTypeLibAMLEd2@AutomationML_CoreProperties.StatisticsAndDistribution_AttributeTypeLib/probability">
+      <Description>PFD (Probability of Dangerous Failure) is a metric that expresses the probability that a safety-related system is in a dangerous failed state on demand at a specified time, expressed as a value between [0, 1].</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+    <AttributeType Name="PFDAvg" AttributeDataType="xs:double" ID="0335ae92-4c93-4d67-9e2e-e1d95259dda4" Unit="1" RefAttributeType="AutomationMLCoreProperties.StatisticsAndDistributionAttributeTypeLibAMLEd2@AutomationML_CoreProperties.StatisticsAndDistribution_AttributeTypeLib/probability">
+      <Description>PFDAvg (average PFD over mission/test time) is the average probability that a safety-related system will fail to perform the required safety function when demanded, expressed as a value between [0, 1], applicable to low-demand operations.</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+    <AttributeType Name="PTC" RefAttributeType="AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/ratioProperty" ID="756da36e-3a7a-4685-82a3-4410071fd307" AttributeDataType="xs:double" Unit="1">
+      <Description>PTC (proof test coverage) is the fraction of dangerous undetected failures that are revealed by a proof test, expressed as a value between [0, 1].</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+    <AttributeType Name="DC" AttributeDataType="xs:double" RefAttributeType="AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/ratioProperty" ID="5751be90-fb78-43f1-8cf9-37478a2d18bf" Unit="1">
+      <Description>DC (diagnostic coverage) is the fraction of dangerous failures detected by diagnostic measures, expressed as a value between [0, 1].</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+    <AttributeType Name="failureRate" AttributeDataType="xs:double" Unit="h^-1" ID="7812814a-f9ec-4cea-84a5-18a9a500363d" RefAttributeType="AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/rate">
+      <Description>failureRate is a reliability metric that expresses the expected number of failures per unit time under stated conditions.</Description>
+      <Version>1.7.8</Version>
+      <RefSemantic CorrespondingAttributePath="0173-1#02-ABA716#004" />
+    </AttributeType>
+    <AttributeType Name="lambda" AttributeDataType="xs:double" ID="d462a517-4d79-4504-8dc1-ccd5d42c4c6c" Unit="h^-1" RefAttributeType="AutomationML_CoreProperties.SafetyAndReliability_AttributeTypeLib/failureRate">
+      <Description>lambda is the total failure rate, the expected number of failures per unit time for a component or system (sum of dangerous and safe failure rates).</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+    <AttributeType Name="lambda_s" ID="569eb8e7-b801-46b6-a867-4d53c40e0f62" AttributeDataType="xs:double" Unit="h^-1" RefAttributeType="AutomationML_CoreProperties.SafetyAndReliability_AttributeTypeLib/failureRate">
+      <Description>lambda_s is the rate of failures that either do not affect the safety function or lead to a safe state.</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+    <AttributeType Name="lambda_d" ID="696b3838-841f-4ef6-8b4b-199677eee048" AttributeDataType="xs:double" Unit="h^-1" RefAttributeType="AutomationML_CoreProperties.SafetyAndReliability_AttributeTypeLib/failureRate">
+      <Description>lambda_d is the rate of dangerous failures that may prevent the safety function from being performed.</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+    <AttributeType Name="lambda_dd" ID="6a5d79bd-8532-4cba-bf49-94aefede59e4" AttributeDataType="xs:double" Unit="h^-1" RefAttributeType="AutomationML_CoreProperties.SafetyAndReliability_AttributeTypeLib/failureRate">
+      <Description>lambda_dd is the rate of dangerous failures detected by diagnostics before a demand occurs.</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+    <AttributeType Name="lambda_du" ID="2decac35-3e7a-49d2-be80-3f86b1e87ed1" AttributeDataType="xs:double" Unit="h^-1" RefAttributeType="AutomationML_CoreProperties.SafetyAndReliability_AttributeTypeLib/failureRate">
+      <Description>lambda_du is the rate of dangerous failures not detected by diagnostics.</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+    <AttributeType Name="SFF" AttributeDataType="xs:double" RefAttributeType="AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/ratioProperty" ID="22078533-8a0a-42de-9576-640d5af01e38" Unit="1">
+      <Description>SFF (Safety Failure Fraction) is the fraction of all failures that are either safe or detected dangerous failures, expressed as a value between [0, 1], which is used for architectural constraints.</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+    <AttributeType Name="HFT" ID="2569d4ba-e4db-44e5-b225-d13e58654ca6" AttributeDataType="xs:integer" RefAttributeType="AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/discreteQuantity">
+      <Description>HFT (Hardware Failure Tolerance) is the ability of a subsystem to continue performing the required safety function in the presence of one or more hardware faults. Defined as the number of faults that can be tolerated.</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+    <AttributeType Name="beta" ID="f5282091-fec6-46f1-bb97-f58799dd62d9" AttributeDataType="xs:double" Unit="1" RefAttributeType="AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/ratioProperty">
+      <Description>beta is the fraction of failures attributed to common-cause failures in redundant architectures, expressed as a value between [0, 1].</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+    <AttributeType Name="reliabilityMetric" ID="9b57b449-41c9-44ed-a82f-489ed4a44e60" AttributeDataType="xs:double">
+      <Description>reliabilityMetric is an abstract metric attribute that serves as a common semantic category for properties characterizing reliability, availability, maintainability, or lifetime.</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+    <AttributeType Name="designLifetime" AttributeDataType="xs:double" Unit="h" ID="47db6c63-eff5-41fe-a11e-5f014275eb5d" RefAttributeType="AutomationML_CoreProperties.SafetyAndReliability_AttributeTypeLib/reliabilityMetric">
+      <Description>designLifetime is a time quantity that expresses the intended lifetime defined for a specified set of conditions.</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+    <AttributeType Name="MTBF" AttributeDataType="xs:double" Unit="h" ID="ca31add5-ca43-4566-99d4-927fb5a426fe" RefAttributeType="AutomationML_CoreProperties.SafetyAndReliability_AttributeTypeLib/reliabilityMetric">
+      <Description>MTBF (Mean Time Between Failures) is the expected operating time between consecutive failures of a repairable item.</Description>
+      <Version>1.7.8</Version>
+      <RefSemantic CorrespondingAttributePath="0173-1#02-AAQ399#008" />
+    </AttributeType>
+    <AttributeType Name="MTTR" AttributeDataType="xs:double" Unit="h" ID="867a8d4f-a01c-4258-8fd3-6d2d838421ce" RefAttributeType="AutomationML_CoreProperties.SafetyAndReliability_AttributeTypeLib/reliabilityMetric">
+      <Description>MTTR (Mean Time To Repair) is the average time required to repair the safety function after a detected failure.</Description>
+      <Version>1.7.8</Version>
+      <RefSemantic CorrespondingAttributePath="0173-1#02-ABA720#004" />
+    </AttributeType>
+    <AttributeType Name="MTTF" AttributeDataType="xs:double" Unit="h" ID="f40fb24c-0c23-48cb-bed7-d3290bcff538" RefAttributeType="AutomationML_CoreProperties.SafetyAndReliability_AttributeTypeLib/reliabilityMetric">
+      <Description>MTTF (Mean Time To Failure) is the average time from start until the first failure of a system or component.</Description>
+      <Version>1.7.8</Version>
+      <RefSemantic CorrespondingAttributePath="0173-1#02-ABA720#004" />
+    </AttributeType>
+    <AttributeType Name="availability" AttributeDataType="xs:double" Unit="1" ID="2a3082df-f918-4ee7-bd9b-5507d3238825" RefAttributeType="AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/ratioProperty">
+      <Description>availability is a reliability metric that expresses the ability of an item to be in a state to perform a required function at a given instant or over a given time interval, expressed as a value between [0, 1].</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+    <AttributeType Name="reliability" AttributeDataType="xs:double" Unit="1" ID="17c0e861-8830-47f9-b6fa-eba01c712515" RefAttributeType="AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/ratioProperty">
+      <Description>reliability is a reliability metric that expresses the probability that an item performs a required function under stated conditions for a specified time interval, expressed as a value between [0, 1].</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+    <AttributeType Name="redundancyLevel" AttributeDataType="xs:integer" ID="8fb66270-4415-4df2-a417-c81fbdddb8d9" RefAttributeType="AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/discreteQuantity">
+      <Description>redundancyLevel is an attribute that represents the number of parallel or redundant elements present.</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+  </AttributeTypeLib>
+</CAEXFile>
