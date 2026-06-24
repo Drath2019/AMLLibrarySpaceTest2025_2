@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CAEXFile SchemaVersion="3.0" FileName="AutomationML_CoreProperties.Mechanical_AttributeTypeLib_AMLEd2_1.7.8.aml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.dke.de/CAEX" xsi:schemaLocation="http://www.dke.de/CAEX CAEX_ClassModel_V.3.0.xsd">
+  <Description>a data field used to track specific iterations, releases, or revisions of an asset, document, software build, or system configuration</Description>
+  <Version>1.7.8</Version>
+  <SuperiorStandardVersion>AutomationML 2.1</SuperiorStandardVersion>
+  <SourceDocumentInformation OriginName="CoreProperties.Mechanical_AttributeTypeLib" OriginID="ab787aac-d19b-4270-b7e6-a2e0af462ebc" OriginVersion="1.7.8" LastWritingDateTime="2026-06-24T15:20:43.3770117+02:00" OriginProjectID="" OriginProjectTitle="" OriginRelease="1.7.8" OriginVendor="AutomationML" OriginVendorURL="AutomationML_CoreProperties.Mechanical_AttributeTypeLib_AMLEd2_1.7.8.aml" />
+  <ExternalReference Path="https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/AutomationML_CoreProperties.Foundation_AttributeTypeLib_AMLEd2_1.7.8.aml" Alias="AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2" />
+  <ExternalReference Path="https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/AutomationML_CoreProperties.Performance_AttributeTypeLib_AMLEd2_1.7.8.aml" Alias="AutomationMLCoreProperties.PerformanceAttributeTypeLibAMLEd2" />
+  <ExternalReference Path="https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/AutomationML_CoreProperties.Physical_AttributeTypeLib_AMLEd2_1.7.8.aml" Alias="AutomationMLCoreProperties.PhysicalAttributeTypeLibAMLEd2" />
+  <AttributeTypeLib Name="AutomationML_CoreProperties.Mechanical_AttributeTypeLib" ID="fd39ea69-7182-4f4c-9c76-c17797d0f9e8">
+    <Description>This AttributeTypeLib defines fundamental mechanical and material property attribute types used to characterize the physical behavior of technical assets. It encompasses classical mechanics, solid mechanics (stress, strain, elasticity), fluid dynamics (viscosity, surface tension), and tribology (friction coefficients). All attributes are formulated in a domain-neutral manner to provide a standardized, normative semantic basis for mechanical engineering, structural analysis, and physical simulation.</Description>
+    <Version>1.7.8</Version>
+    <AttributeType Name="specificVolume" ID="027233a6-89e1-494e-949f-507d8cf969fd" AttributeDataType="xs:double" Unit="m^3/kg" RefAttributeType="AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/physicalQuantity">
+      <Description>specificVolume is the reciprocal of mass density.</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+    <AttributeType Name="relativeDensity" ID="001a68fa-12e6-4fda-a4de-97a410c79fad" AttributeDataType="xs:double" Unit="1" RefAttributeType="AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/physicalQuantity">
+      <Description>relativeDensity is the quotient of mass density of a substance and the mass density of a reference substance.</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+    <AttributeType Name="surfaceDensity" ID="556c4373-b262-4f19-97b9-c21e71283eba" AttributeDataType="xs:double" Unit="kg/m^2" RefAttributeType="AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/physicalQuantity">
+      <Description>surfaceDensity is a scalar physical quantity defined as the amount of mass distributed over a surface, expressed as the differential ratio of mass to unit area.</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+    <AttributeType Name="linearDensity" ID="e9a25dcf-12e1-4703-8db5-44263bf81d53" AttributeDataType="xs:double" Unit="kg/m" RefAttributeType="AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/physicalQuantity">
+      <Description>linearDensity represents the linear distribution of mass of a continuous material.</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+    <AttributeType Name="momentOfInertia" ID="eefcf57d-7cae-47c8-a026-e9cc6b5aed25" AttributeDataType="xs:double" Unit="kg*m^2" RefAttributeType="AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/physicalQuantity">
+      <Description>momentOfInertia is a mechanical property that expresses the resistance of a body to angular acceleration about a specified axis.</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+    <AttributeType Name="momentum" ID="b4a171f4-9435-4661-b09e-1795e6ee1d0a" AttributeDataType="xs:double" Unit="kg*m/s" RefAttributeType="AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/physicalQuantity">
+      <Description>momentum is a physical quantity that expresses the product of mass and velocity of a body.</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+    <AttributeType Name="force" AttributeDataType="xs:double" Unit="N" ID="d15491aa-f394-40c0-bf43-644d93049140" RefAttributeType="AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/physicalQuantity">
+      <Description>force is a physical quantity that expresses an interaction that changes or tends to change the motion or deformation of a body.</Description>
+      <Version>1.7.8</Version>
+      <SourceObjectInformation OriginID="INTERNATIONAL BUREAU OF WEIGHTS AND MEASURES (BIPM). The International System of Units (SI). 9th edition 2019" />
+    </AttributeType>
+    <AttributeType Name="weightForce" RefAttributeType="AutomationML_CoreProperties.Mechanical_AttributeTypeLib/force" ID="b639430b-2ee4-43dd-88c2-837ac708e860" AttributeDataType="xs:double" Unit="N">
+      <Description>weightForce is the force acting on a body in the gravitational field of Earth.</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+    <AttributeType Name="staticFriction" Unit="N" ID="dc94986d-8795-493e-a0e8-b58abbea69b9" AttributeDataType="xs:double" RefAttributeType="AutomationML_CoreProperties.Mechanical_AttributeTypeLib/force">
+      <Description>staticFriction is the force resisting the motion before a body starts to slide on a surface.</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+    <AttributeType Name="kineticFriction" Unit="N" ID="23d9d245-8190-4df9-a5e0-611a4c330739" AttributeDataType="xs:double" RefAttributeType="AutomationML_CoreProperties.Mechanical_AttributeTypeLib/force">
+      <Description>kineticFriction is a force resisting the motion when a body slides on a surface.</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+    <AttributeType Name="rollingResistance" Unit="N" ID="7e533b6d-3742-4f80-8150-9c4e871a7889" AttributeDataType="xs:double" RefAttributeType="AutomationML_CoreProperties.Mechanical_AttributeTypeLib/force">
+      <Description>rollingResistance is a force resisting the motion when a body rolls on a surface.</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+    <AttributeType Name="dragForce" Unit="N" ID="9662e29f-1935-48e5-9be9-346149c811f3" AttributeDataType="xs:double" RefAttributeType="AutomationML_CoreProperties.Mechanical_AttributeTypeLib/force">
+      <Description>dragForce is a force resisting the motion of a body in a fluid.</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+    <AttributeType Name="impulse" ID="021169c4-58ca-4500-a1f6-68a72a32dcee" AttributeDataType="xs:double" Unit="N*s" RefAttributeType="AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/physicalQuantity">
+      <Description>impulse is a physical quantity describing the integral of force over a time interval, representing the change in linear momentum.</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+    <AttributeType Name="angularMomentum" ID="d5d93eef-7569-413a-9d8e-0960519791c6" AttributeDataType="xs:double" Unit="kg*m^2/s" RefAttributeType="AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/physicalQuantity">
+      <Description>angularMomentum is a physical quantity that expresses the moment of linear momentum or rotational quantity conserved in rotational motion.</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+    <AttributeType Name="momentOfForce" ID="d3298ea5-3f57-4352-9749-b718cd8f9917" AttributeDataType="xs:double" Unit="N*m" RefAttributeType="AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/physicalQuantity">
+      <Description>momentOfForce is a vector quantity describing the rotational effect of a force about a specified point or axis.</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+    <AttributeType Name="torque" ID="b42a721d-f638-4337-9a39-c0f79d70bcce" AttributeDataType="xs:double" Unit="N*m" RefAttributeType="AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/physicalQuantity">
+      <Description>torque is a physical quantity that expresses the moment of a force with respect to an axis or point.</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+    <AttributeType Name="angularImpulse" ID="6d5b31db-83f9-4365-bdf6-ec5829ae472f" AttributeDataType="xs:double" Unit="N*m*s" RefAttributeType="AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/physicalQuantity">
+      <Description>angularImpulse is a quantity describing the effect of moment of force during a time interval.</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+    <AttributeType Name="pressure" AttributeDataType="xs:double" Unit="Pa" ID="af286a0e-b89e-44c6-8a2c-aeebea6f30f3" RefAttributeType="AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/physicalQuantity">
+      <Description>pressure is a physical quantity that expresses force divided by the area over which the force is applied.</Description>
+      <Version>1.7.8</Version>
+      <SourceObjectInformation OriginID="INTERNATIONAL BUREAU OF WEIGHTS AND MEASURES (BIPM). The International System of Units (SI). 9th edition 2019" />
+    </AttributeType>
+    <AttributeType Name="gaugePressure" RefAttributeType="AutomationML_CoreProperties.Mechanical_AttributeTypeLib/pressure" Unit="Pa" ID="2c6265e9-aac6-481d-b926-cbd69a7a7254" AttributeDataType="xs:double">
+      <Description>gaugePressure is the pressure difference between the absolute pressure and the local ambient pressure.</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+    <AttributeType Name="stress" Unit="Pa" ID="6afef613-5425-4339-885b-df0b19410e6a" AttributeDataType="xs:double" RefAttributeType="AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/physicalQuantity">
+      <Description>stress is a tensor quantity representing the state of internal forces within a material.</Description>
+      <Version>1.7.8</Version>
+      <Attribute Name="sigma_xx" AttributeDataType="xs:double" RefAttributeType="AutomationML_CoreProperties.Mechanical_AttributeTypeLib/normalStress" Unit="Pa">
+        <Description>normal stress in x-direction.</Description>
+      </Attribute>
+      <Attribute Name="sigma_yy" AttributeDataType="xs:double" RefAttributeType="AutomationML_CoreProperties.Mechanical_AttributeTypeLib/normalStress" Unit="Pa">
+        <Description>normal stress in y-direction.</Description>
+      </Attribute>
+      <Attribute Name="sigma_zz" AttributeDataType="xs:double" RefAttributeType="AutomationML_CoreProperties.Mechanical_AttributeTypeLib/normalStress" Unit="Pa">
+        <Description>normal stress in z direction.</Description>
+      </Attribute>
+      <Attribute Name="tau_xy" AttributeDataType="xs:double" RefAttributeType="AutomationML_CoreProperties.Mechanical_AttributeTypeLib/shearStress" Unit="Pa">
+        <Description>Shear stress (x on y-face).</Description>
+      </Attribute>
+      <Attribute Name="tau_xz" AttributeDataType="xs:double" RefAttributeType="AutomationML_CoreProperties.Mechanical_AttributeTypeLib/shearStress" Unit="Pa">
+        <Description>Shear stress (x on z-face).</Description>
+      </Attribute>
+      <Attribute Name="tau_yz" AttributeDataType="xs:double" RefAttributeType="AutomationML_CoreProperties.Mechanical_AttributeTypeLib/shearStress" Unit="Pa">
+        <Description>Shear stress (y on z-face).</Description>
+      </Attribute>
+    </AttributeType>
+    <AttributeType Name="normalStress" Unit="Pa" ID="8396eff7-1985-4762-b1c4-ea22f84fe232" AttributeDataType="xs:double" RefAttributeType="AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/physicalQuantity">
+      <Description>normalStress is stress acting perpendicular to a specified cross-sectional area within a material, resulting from axial loading and causing tensile or compressive deformation.</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+    <AttributeType Name="shearStress" Unit="Pa" ID="457546a6-9687-4e55-8bd9-61b139ab9a3b" AttributeDataType="xs:double" RefAttributeType="AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/physicalQuantity">
+      <Description>shearStress is an internal stress component acting tangentially to a material plane, defined as the force component parallel to the surface divided by the area over which it acts. It represents the intensity of internal forces resisting tangential deformation.</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+    <AttributeType Name="strain" ID="36a51b72-c623-4756-a4d2-bead77a3b833" AttributeDataType="xs:double" Unit="1" RefAttributeType="AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/physicalQuantity">
+      <Description>strain is a dimensionless tensor quantity representing the deformation of matter caused by stress, defined as the symmetric part of the displacement gradient tensor.</Description>
+      <Version>1.7.8</Version>
+      <Attribute Name="epsilon_xx" AttributeDataType="xs:double" RefAttributeType="AutomationML_CoreProperties.Mechanical_AttributeTypeLib/relativeLinearStrain" Unit="1">
+        <Description>epsilon_xx is the normal strain in x-direction.</Description>
+      </Attribute>
+      <Attribute Name="epsilon_yy" AttributeDataType="xs:double" RefAttributeType="AutomationML_CoreProperties.Mechanical_AttributeTypeLib/relativeLinearStrain" Unit="1">
+        <Description>epsilon_yy is the normal strain in y-direction.</Description>
+      </Attribute>
+      <Attribute Name="epsilon_zz" AttributeDataType="xs:double" RefAttributeType="AutomationML_CoreProperties.Mechanical_AttributeTypeLib/relativeLinearStrain" Unit="1">
+        <Description>epsilon_zz is the normal strain in z-direction.</Description>
+      </Attribute>
+      <Attribute Name="epsilon_xy" AttributeDataType="xs:double" RefAttributeType="AutomationML_CoreProperties.Mechanical_AttributeTypeLib/shearStrain" Unit="1">
+        <Description>epsilon_xy is the shear strain (xy-plane).</Description>
+      </Attribute>
+      <Attribute Name="epsilon_xz" AttributeDataType="xs:double" RefAttributeType="AutomationML_CoreProperties.Mechanical_AttributeTypeLib/shearStrain" Unit="1">
+        <Description>epsilon_xz is shear strain (xz-plane).</Description>
+      </Attribute>
+      <Attribute Name="epsilon_yz" AttributeDataType="xs:double" RefAttributeType="AutomationML_CoreProperties.Mechanical_AttributeTypeLib/shearStrain" Unit="1">
+        <Description>epsilon_yz is the shear strain (yz-plane).</Description>
+      </Attribute>
+    </AttributeType>
+    <AttributeType Name="relativeLinearStrain" ID="9fb35d0d-dc70-4be6-b163-320a5779cbef" AttributeDataType="xs:double" Unit="1" RefAttributeType="AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/physicalQuantity">
+      <Description>relativeLinearStrain is the quotient of change in length of an object and its length.</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+    <AttributeType Name="shearStrain" ID="7bc1b3a5-3296-4a3a-9aad-5dfbbaa4e57e" AttributeDataType="xs:double" Unit="1" RefAttributeType="AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/physicalQuantity">
+      <Description>shearStrain is the quotient of parallel displacement of two surfaces of a layer and the thickness d of the layer.</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+    <AttributeType Name="relativeVolumeStrain" ID="f0274d15-6cde-429e-988c-947a40ec34da" AttributeDataType="xs:double" Unit="1" RefAttributeType="AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/physicalQuantity">
+      <Description>relativeVolumeStrain is the quotient of change in volume of an object and its volume.</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+    <AttributeType Name="poissonsRatio" ID="09e4d750-29c4-4cf5-ba19-07d2c35e45da" AttributeDataType="xs:double" Unit="1" RefAttributeType="AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/physicalQuantity">
+      <Description>poissonsRatio is a dimensionless material constant describing the ratio of transverse contraction strain to longitudinal extension strain in the direction of stretching force.</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+    <AttributeType Name="youngsModulus" ID="bb427fbf-ed7d-479b-9715-39485c8ed326" AttributeDataType="xs:double" Unit="Pa" RefAttributeType="AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/physicalQuantity">
+      <Description>youngsModulus is a material property that expresses the ratio of normal stress to normal strain in the linear elastic range.</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+    <AttributeType Name="shearModulus" ID="8f1f519a-7d28-4a52-9b4c-0e4e5fddf796" AttributeDataType="xs:double" Unit="Pa" RefAttributeType="AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/physicalQuantity">
+      <Description>shearModulus is a material property that expresses the ratio of shear stress to shear strain in the linear elastic range.</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+    <AttributeType Name="bulkModulus" ID="b385aa9a-3f67-4324-a34e-c5ff6735e26a" AttributeDataType="xs:double" Unit="Pa" RefAttributeType="AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/physicalQuantity">
+      <Description>bulkModulus is a material property that expresses the resistance of a material to uniform compression. It is calculated as negative of the quotient of the pressure p and the relative volume strain.</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+    <AttributeType Name="compressibility" ID="0ed90ef9-d3ee-421d-998d-5c8ee22f7c09" AttributeDataType="xs:double" Unit="Pa^-1" RefAttributeType="AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/physicalQuantity">
+      <Description>compressibility is the negative relative change of volume V of an object under pressure p.</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+    <AttributeType Name="secondAxialMomentOfArea" ID="a55f1a93-dc1c-4dc1-ab34-ca18a5f6ce01" AttributeDataType="xs:double" Unit="m^4" RefAttributeType="AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/physicalQuantity">
+      <Description>secondAxialMomentOfArea is a geometric property of a cross-section defined as the integral of the squared distance of all differential area elements to a given axis. It quantifies the distribution of area relative to that axis and governs bending stiffness in beam theory.</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+    <AttributeType Name="secondPolarMomentOfArea" ID="b9f3e3d9-c3f5-45e1-ba2b-5d4f8f29ab55" AttributeDataType="xs:double" Unit="m^4" RefAttributeType="AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/physicalQuantity">
+      <Description>secondPolarMomentOfArea is a geometric property of a cross-section defined as the integral of the squared radial distance of all differential area elements from a reference point (typically the centroid). It quantifies resistance to torsional (twisting) deformation.</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+    <AttributeType Name="sectionModulus" ID="c663a7e4-adef-4646-bc76-d98814629e8f" AttributeDataType="xs:double" Unit="m^3" RefAttributeType="AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/physicalQuantity">
+      <Description>sectionModulus is a geometric property of a cross-section defined as the ratio of the second moment of area to the maximum distance from the neutral axis to the outermost fiber. It characterizes the bending strength of a cross-section.</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+    <AttributeType Name="staticFrictionCoefficient" ID="b3fb37fa-3572-4404-b095-9fe2509e14b2" AttributeDataType="xs:double" Unit="1" RefAttributeType="AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/physicalQuantity">
+      <Description>staticFrictionCoefficient is proportionality factor between the maximum magnitude of the tangential component of the static friction force and the magnitude of the normal component N of the contact force between two bodies at relative rest with respect to each other.</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+    <AttributeType Name="kineticFrictionCoefficient" ID="953eebb7-2c37-4b8c-bf1f-b5df9d6bf9c8" AttributeDataType="xs:double" Unit="1" RefAttributeType="AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/physicalQuantity">
+      <Description>kineticFrictionCoefficient is a proportionality factor between the magnitudes of the kinetic friction force and the normal component N of the contact force.</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+    <AttributeType Name="rollingResistanceFactor" ID="1963f262-c287-415c-8779-0ab6b4d026fe" AttributeDataType="xs:double" Unit="1" RefAttributeType="AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/physicalQuantity">
+      <Description>rollingResistanceFactor is a proportionality factor between the magnitude of the tangential component F and the magnitude of the normal component N of the force applied to a body rolling on a surface at constant speed.</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+    <AttributeType Name="dragCoefficient" ID="c2a5abfb-6502-4637-b059-e03ab549cdd9" AttributeDataType="xs:double" Unit="1" RefAttributeType="AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/physicalQuantity">
+      <Description>dragCoefficient is a factor proportional to magnitude of the drag force of a body moving in a fluid, dependent on the shape and speed of a body.</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+    <AttributeType Name="surfaceTension" ID="51bf5c11-0268-4a98-ae15-dd3b744f71e1" AttributeDataType="xs:double" Unit="N/m" RefAttributeType="AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/physicalQuantity">
+      <Description>surfaceTension is the magnitude of a force acting against the enlargement of area portion of a surface separating a liquid from its surrounding.</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+    <AttributeType Name="mechanicalPower" Unit="W" ID="bb57b680-3159-4f65-bdf0-da74ae5e25e0" AttributeDataType="xs:double" RefAttributeType="AutomationMLCoreProperties.PhysicalAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Physical_AttributeTypeLib/power">
+      <Description>mechanicalPower is the scalar product of force acting on a body and its velocity.</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+    <AttributeType Name="potentialEnergy" Unit="J" ID="41442222-85f7-47cc-95d4-24f8a25f73c6" AttributeDataType="xs:double" RefAttributeType="AutomationMLCoreProperties.PhysicalAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Physical_AttributeTypeLib/energy">
+      <Description>potentialEnergy represents the energy associated with a conservative force field, equal to the negative work done by the force field when moving a body from a reference position to its current position.</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+    <AttributeType Name="kineticEnergy" Unit="J" ID="16d48655-1290-4fde-a366-f96808e868b1" AttributeDataType="xs:double" RefAttributeType="AutomationMLCoreProperties.PhysicalAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Physical_AttributeTypeLib/energy">
+      <Description>kineticEnergy is a scalar quantity representing the energy associated with the motion of a mass.</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+    <AttributeType Name="mechanicalEnergy" Unit="J" ID="0737cbdf-ff12-4f10-9cfc-472401e499da" AttributeDataType="xs:double" RefAttributeType="AutomationMLCoreProperties.PhysicalAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Physical_AttributeTypeLib/energy">
+      <Description>mechanicalEnergy is the sum of kinetic energy and potential energy.</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+    <AttributeType Name="mechanicalWork" Unit="J" ID="1a105369-81d3-4173-a8f4-3d6f8e4f49a3" AttributeDataType="xs:double" RefAttributeType="AutomationMLCoreProperties.PhysicalAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Physical_AttributeTypeLib/work">
+      <Description>mechanicalWork is a scalar quantity equal to the integral of the force component acting along the direction of displacement over the path of motion.</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+    <AttributeType Name="mechanicalEfficiency" Unit="1" ID="5a0183dc-fa56-4671-b01f-e002a0c94dc6" AttributeDataType="xs:double" RefAttributeType="AutomationMLCoreProperties.PerformanceAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Performance_AttributeTypeLib/efficiency">
+      <Description>mechanicalEfficiency is the quotient of the output power from a system and input power to this system, expressed as a value between [0, 1].</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+    <AttributeType Name="massFlux" ID="2404c07e-f915-4761-8d9d-9e43f32a492b" AttributeDataType="xs:double" Unit="kg*m^-2*s^-1" RefAttributeType="AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/physicalQuantity">
+      <Description>massFlux describes the transport of mass through a cross-section in a given time period per unit area.</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+    <AttributeType Name="massChangeRate" ID="9e6e72d3-851b-4cb0-8920-35683a13aba7" AttributeDataType="xs:double" Unit="kg/s" RefAttributeType="AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/rate">
+      <Description>massChangeRate describes how quickly the mass of the system increases or decreases over time.</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+    <AttributeType Name="action" ID="729caf86-46f0-41f8-9106-273d55347fad" AttributeDataType="xs:double" Unit="J*s" RefAttributeType="AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/physicalQuantity">
+      <Description>action is the time integral of energy E over a time interval (t1, t2).</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+    <AttributeType Name="stiffness" ID="99a89172-df9d-472c-8f93-582131ee130f" AttributeDataType="xs:double" Unit="N/m" RefAttributeType="AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/physicalQuantity">
+      <Description>stiffness is a mechanical property that expresses the resistance of an element or structure to elastic deformation under load.</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+  </AttributeTypeLib>
+</CAEXFile>
