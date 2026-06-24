@@ -12906,6 +12906,15 @@
     "ID": "940d4e81-1b7b-4fc2-8d51-71512ec21d59"
   },
   {
+    "ClassName": "accuracyAbsolute",
+    "CaexPath": "AutomationML_CoreProperties.MeasurementQuality_AttributeTypeLib/accuracyAbsolute",
+    "BasePath": "AutomationML_CoreProperties.MeasurementQuality_AttributeTypeLib/qualityMetric",
+    "LibraryName": "AutomationML_CoreProperties.MeasurementQuality_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "940d4e81-1b7b-4fc2-8d51-71512ec21d59"
+  },
+  {
     "ClassName": "comment",
     "CaexPath": "AutomationML_BasicProperties.Identification_AttributeTypeLib/comment",
     "BasePath": null,
@@ -12949,6 +12958,15 @@
     "LibraryVersion": "1.2.2",
     "AMLEdition": "AMLEd2",
     "ID": "5b3998a9-a575-4e97-a0c5-692cebe68ff0"
+  },
+  {
+    "ClassName": "accuracyRelative",
+    "CaexPath": "AutomationML_CoreProperties.MeasurementQuality_AttributeTypeLib/accuracyRelative",
+    "BasePath": "AutomationML_CoreProperties.MeasurementQuality_AttributeTypeLib/qualityMetric",
+    "LibraryName": "AutomationML_CoreProperties.MeasurementQuality_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "9f534605-f4dc-4a5b-94fe-b92d4ddb5c35"
   },
   {
     "ClassName": "propability",
@@ -17953,5 +17971,140 @@
     "LibraryVersion": "1.0.0",
     "AMLEdition": "AMLEd2",
     "ID": "3d39e7ca-ae11-4856-84c0-aa790ad95afc"
+  },
+  {
+    "ClassName": "measurementProperty",
+    "CaexPath": "AutomationML_CoreProperties.MeasurementQuality_AttributeTypeLib/measurementProperty",
+    "BasePath": null,
+    "LibraryName": "AutomationML_CoreProperties.MeasurementQuality_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "907d1fc7-3670-46c5-9da8-3e83506750c0"
+  },
+  {
+    "ClassName": "measurementTime",
+    "CaexPath": "AutomationML_CoreProperties.MeasurementQuality_AttributeTypeLib/measurementTime",
+    "BasePath": "AutomationMLCoreProperties.TimeAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Time_AttributeTypeLib/dateTime",
+    "LibraryName": "AutomationML_CoreProperties.MeasurementQuality_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "76e9252e-0846-4ae9-95e1-d14bd882e3c7"
+  },
+  {
+    "ClassName": "relativeMeasurementError",
+    "CaexPath": "AutomationML_CoreProperties.MeasurementQuality_AttributeTypeLib/relativeMeasurementError",
+    "BasePath": "AutomationML_CoreProperties.MeasurementQuality_AttributeTypeLib/qualityMetric",
+    "LibraryName": "AutomationML_CoreProperties.MeasurementQuality_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "99f0997f-a53c-4e77-9f4b-79f779511b6b"
+  },
+  {
+    "ClassName": "qualityMetric",
+    "CaexPath": "AutomationML_CoreProperties.MeasurementQuality_AttributeTypeLib/qualityMetric",
+    "BasePath": "AutomationML_CoreProperties.MeasurementQuality_AttributeTypeLib/measurementProperty",
+    "LibraryName": "AutomationML_CoreProperties.MeasurementQuality_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "fd781347-808d-4577-980a-487ee5f5f015"
+  },
+  {
+    "ClassName": "measurementResolution",
+    "CaexPath": "AutomationML_CoreProperties.MeasurementQuality_AttributeTypeLib/measurementResolution",
+    "BasePath": "AutomationML_CoreProperties.MeasurementQuality_AttributeTypeLib/measurementProperty",
+    "LibraryName": "AutomationML_CoreProperties.MeasurementQuality_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "a86beb00-79ac-4465-b8fb-837935d3a914"
+  },
+  {
+    "ClassName": "tolerance",
+    "CaexPath": "AutomationML_CoreProperties.MeasurementQuality_AttributeTypeLib/tolerance",
+    "BasePath": "AutomationML_CoreProperties.MeasurementQuality_AttributeTypeLib/qualityMetric",
+    "LibraryName": "AutomationML_CoreProperties.MeasurementQuality_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "56a992b6-a4da-4b56-8175-f977f41d208d"
+  },
+  {
+    "ClassName": "upperTolerance",
+    "CaexPath": "AutomationML_CoreProperties.MeasurementQuality_AttributeTypeLib/upperTolerance",
+    "BasePath": "AutomationML_CoreProperties.MeasurementQuality_AttributeTypeLib/tolerance",
+    "LibraryName": "AutomationML_CoreProperties.MeasurementQuality_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "df7bcf0d-0bc9-4bf5-9d1d-2a770f638ad7"
+  },
+  {
+    "ClassName": "lowerTolerance",
+    "CaexPath": "AutomationML_CoreProperties.MeasurementQuality_AttributeTypeLib/lowerTolerance",
+    "BasePath": "AutomationML_CoreProperties.MeasurementQuality_AttributeTypeLib/tolerance",
+    "LibraryName": "AutomationML_CoreProperties.MeasurementQuality_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "16ec569e-2edd-438b-b48d-d76b6dafb15f"
+  },
+  {
+    "ClassName": "relativePrecision",
+    "CaexPath": "AutomationML_CoreProperties.MeasurementQuality_AttributeTypeLib/relativePrecision",
+    "BasePath": "AutomationML_CoreProperties.MeasurementQuality_AttributeTypeLib/qualityMetric",
+    "LibraryName": "AutomationML_CoreProperties.MeasurementQuality_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "c41a54af-86a7-43e2-95b5-b7f745b90523"
+  },
+  {
+    "ClassName": "measurementUncertainty",
+    "CaexPath": "AutomationML_CoreProperties.MeasurementQuality_AttributeTypeLib/measurementUncertainty",
+    "BasePath": "AutomationML_CoreProperties.MeasurementQuality_AttributeTypeLib/qualityMetric",
+    "LibraryName": "AutomationML_CoreProperties.MeasurementQuality_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "64261580-a8d8-43a9-b9b8-f49cf2013d57"
+  },
+  {
+    "ClassName": "standardUncertainty",
+    "CaexPath": "AutomationML_CoreProperties.MeasurementQuality_AttributeTypeLib/standardUncertainty",
+    "BasePath": "AutomationML_CoreProperties.MeasurementQuality_AttributeTypeLib/measurementUncertainty",
+    "LibraryName": "AutomationML_CoreProperties.MeasurementQuality_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "c75ae31f-76b7-4ab0-a651-3471fedfd973"
+  },
+  {
+    "ClassName": "expandedUncertainty",
+    "CaexPath": "AutomationML_CoreProperties.MeasurementQuality_AttributeTypeLib/expandedUncertainty",
+    "BasePath": "AutomationML_CoreProperties.MeasurementQuality_AttributeTypeLib/measurementUncertainty",
+    "LibraryName": "AutomationML_CoreProperties.MeasurementQuality_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "c4de4abf-b0e2-4c5d-bd7c-9c34867809f0"
+  },
+  {
+    "ClassName": "coverageFactor",
+    "CaexPath": "AutomationML_CoreProperties.MeasurementQuality_AttributeTypeLib/coverageFactor",
+    "BasePath": "AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/ratioProperty",
+    "LibraryName": "AutomationML_CoreProperties.MeasurementQuality_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "b9af0af8-d20f-4166-a5b3-88dd3e071751"
+  },
+  {
+    "ClassName": "coverageProbability",
+    "CaexPath": "AutomationML_CoreProperties.MeasurementQuality_AttributeTypeLib/coverageProbability",
+    "BasePath": "AutomationMLCoreProperties.StatisticsAndDistributionAttributeTypeLibAMLEd21_7_8@AutomationML_CoreProperties.StatisticsAndDistribution_AttributeTypeLib/probability",
+    "LibraryName": "AutomationML_CoreProperties.MeasurementQuality_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "4fe027b5-a759-4be4-ad2d-86270175af20"
+  },
+  {
+    "ClassName": "absoluteMeasurementError",
+    "CaexPath": "AutomationML_CoreProperties.MeasurementQuality_AttributeTypeLib/absoluteMeasurementError",
+    "BasePath": "AutomationML_CoreProperties.MeasurementQuality_AttributeTypeLib/measurementProperty",
+    "LibraryName": "AutomationML_CoreProperties.MeasurementQuality_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "df093cdb-60bc-4c4d-8e96-250d9e78712f"
   }
 ]
