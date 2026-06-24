@@ -16117,5 +16117,68 @@
     "LibraryVersion": "1.7.8",
     "AMLEdition": "AMLEd2",
     "ID": "2f83a7b9-0ad8-4b8c-b029-81cbfe3fcd87"
+  },
+  {
+    "ClassName": "performanceRate",
+    "CaexPath": "AutomationML_CoreProperties.Performance_AttributeTypeLib/performanceRate",
+    "BasePath": "AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/rate",
+    "LibraryName": "AutomationML_CoreProperties.Performance_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "8fc8b601-9c5b-46aa-93a9-66183632beca"
+  },
+  {
+    "ClassName": "throughput",
+    "CaexPath": "AutomationML_CoreProperties.Performance_AttributeTypeLib/throughput",
+    "BasePath": "AutomationML_CoreProperties.Performance_AttributeTypeLib/performanceRate",
+    "LibraryName": "AutomationML_CoreProperties.Performance_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "f201722d-2397-4539-b1f5-45e729cb09c2"
+  },
+  {
+    "ClassName": "performanceRatioMetric",
+    "CaexPath": "AutomationML_CoreProperties.Performance_AttributeTypeLib/performanceRatioMetric",
+    "BasePath": "AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/ratioProperty",
+    "LibraryName": "AutomationML_CoreProperties.Performance_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "48409b44-9849-4153-8fe9-93e2904547a3"
+  },
+  {
+    "ClassName": "utilization",
+    "CaexPath": "AutomationML_CoreProperties.Performance_AttributeTypeLib/utilization",
+    "BasePath": "AutomationML_CoreProperties.Performance_AttributeTypeLib/performanceRatioMetric",
+    "LibraryName": "AutomationML_CoreProperties.Performance_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "62cf29b9-f84d-4d65-aac9-2e8e84a38b4f"
+  },
+  {
+    "ClassName": "efficiency",
+    "CaexPath": "AutomationML_CoreProperties.Performance_AttributeTypeLib/efficiency",
+    "BasePath": "AutomationML_CoreProperties.Performance_AttributeTypeLib/performanceRatioMetric",
+    "LibraryName": "AutomationML_CoreProperties.Performance_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "4f59092a-9eee-4cae-8c10-935df81b5cf7"
+  },
+  {
+    "ClassName": "qualityRate",
+    "CaexPath": "AutomationML_CoreProperties.Performance_AttributeTypeLib/qualityRate",
+    "BasePath": "AutomationML_CoreProperties.Performance_AttributeTypeLib/performanceRatioMetric",
+    "LibraryName": "AutomationML_CoreProperties.Performance_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "0f749bdf-9995-4a81-888f-3ef8d3f37a7c"
+  },
+  {
+    "ClassName": "powerFactor",
+    "CaexPath": "AutomationML_CoreProperties.Performance_AttributeTypeLib/powerFactor",
+    "BasePath": "AutomationML_CoreProperties.Performance_AttributeTypeLib/performanceRatioMetric",
+    "LibraryName": "AutomationML_CoreProperties.Performance_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "5edcad71-6d5e-4725-b884-5c4d97b6fe1d"
   }
 ]
