@@ -1974,26 +1974,6 @@
           ]
         },
         {
-          "Name": "AutomationML_CoreProperties.SafetyAndReliability_AttributeTypeLib",
-          "Versions": [
-            {
-              "Version": "1.7.8",
-              "CAEXVersion": "3.0",
-              "AMLEdition": "AMLEd2",
-              "IsArchived": false,
-              "Description": "This AttributeTypeLib provides attribute types for characterizing the functional safety, reliability, and availability of assets and systems. It includes standardized classifications and metrics aligned with international standards such as IEC 61508 (Safety Integrity Levels) and ISO 13849 (Performance Levels). The library covers failure rates, diagnostic coverage, proof test intervals, mean times (MTBF, MTTR, MTTF), and redundancy architectures, enabling the normative description of risk reduction, system dependability, and lifecycle maintenance strategies.",
-              "DownloadLink": null,
-              "DownloadLinks": [
-                "https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/AutomationML_CoreProperties.SafetyAndReliability_AttributeTypeLib_AMLEd2_1.7.8.aml"
-              ],
-              "Sources": null,
-              "Signature": "MEUCIQD9LKWbIOvq\u002BDG5X9IhffYuDQGIfCPrAlf0U4ZSAbLGRAIgWDwzGI8AM/7xbqUyQTwJ9/JYs0t/IZviWZyw6KsziAI=",
-              "PublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEyk6uIUNugOojm3akdEAA4XoGGBEui0zPVhzkjR0RfprHFWrbPpFMfExaW2TaeChaegCmjE2boFph1aI1eNEPcQ==",
-              "Revision": null
-            }
-          ]
-        },
-        {
           "Name": "AutomationML_CoreProperties.MeasurementQuality_AttributeTypeLib",
           "Versions": [
             {
