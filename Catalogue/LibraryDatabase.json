@@ -2401,6 +2401,26 @@
               "Revision": null
             }
           ]
+        },
+        {
+          "Name": "AutomationML_CoreProperties.Mechanical_AttributeTypeLib",
+          "Versions": [
+            {
+              "Version": "1.7.8",
+              "CAEXVersion": "3.0",
+              "AMLEdition": "AMLEd2",
+              "IsArchived": false,
+              "Description": "This AttributeTypeLib defines fundamental mechanical and material property attribute types used to characterize the physical behavior of technical assets. It encompasses classical mechanics, solid mechanics (stress, strain, elasticity), fluid dynamics (viscosity, surface tension), and tribology (friction coefficients). All attributes are formulated in a domain-neutral manner to provide a standardized, normative semantic basis for mechanical engineering, structural analysis, and physical simulation.",
+              "DownloadLink": null,
+              "DownloadLinks": [
+                "https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/AutomationML_CoreProperties.Mechanical_AttributeTypeLib_AMLEd2_1.7.8.aml"
+              ],
+              "Sources": null,
+              "Signature": "MEQCIDyzbyJElQ1zLAnJ28IvgLrzg8gvnkxld38t1lk9at4EAiAxQk4hJYfOpWWvcWWukhu18rbCkrI8ojqa1jCAD\u002BgDRw==",
+              "PublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEyk6uIUNugOojm3akdEAA4XoGGBEui0zPVhzkjR0RfprHFWrbPpFMfExaW2TaeChaegCmjE2boFph1aI1eNEPcQ==",
+              "Revision": null
+            }
+          ]
         }
       ]
     },
