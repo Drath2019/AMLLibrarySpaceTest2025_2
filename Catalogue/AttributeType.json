@@ -4248,6 +4248,15 @@
     "ID": "3476c4ca-8f54-4ac1-8861-1d4eb403677a"
   },
   {
+    "ClassName": "hyperfineTransitionFrequencyOfCs",
+    "CaexPath": "AutomationML_CoreProperties.Physical.Constants_AttributeTypeLib/hyperfineTransitionFrequencyOfCs",
+    "BasePath": "AutomationMLCoreProperties.PhysicalAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Physical_AttributeTypeLib/frequency",
+    "LibraryName": "AutomationML_CoreProperties.Physical.Constants_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "3476c4ca-8f54-4ac1-8861-1d4eb403677a"
+  },
+  {
     "ClassName": "speedOfLightInVacuum",
     "CaexPath": "AutomationML_BasicProperties.constants_AttributeTypeLib/speedOfLightInVacuum",
     "BasePath": null,
@@ -4325,6 +4334,15 @@
     "BasePath": null,
     "LibraryName": "AutomationML_BasicProperties.Physical.Constants_AttributeTypeLib",
     "LibraryVersion": "1.2.2",
+    "AMLEdition": "AMLEd2",
+    "ID": "174c0c1c-71bf-44f4-879a-b0e60ea3d66b"
+  },
+  {
+    "ClassName": "speedOfLightInVacuum",
+    "CaexPath": "AutomationML_CoreProperties.Physical.Constants_AttributeTypeLib/speedOfLightInVacuum",
+    "BasePath": "AutomationMLCoreProperties.KinematicsAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Kinematics_AttributeTypeLib/speed",
+    "LibraryName": "AutomationML_CoreProperties.Physical.Constants_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
     "AMLEdition": "AMLEd2",
     "ID": "174c0c1c-71bf-44f4-879a-b0e60ea3d66b"
   },
@@ -4437,6 +4455,15 @@
     "ID": "1285d346-932e-4430-9aa5-06af61d02275"
   },
   {
+    "ClassName": "planckConstant",
+    "CaexPath": "AutomationML_CoreProperties.Physical.Constants_AttributeTypeLib/planckConstant",
+    "BasePath": "AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/physicalConstant",
+    "LibraryName": "AutomationML_CoreProperties.Physical.Constants_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "1285d346-932e-4430-9aa5-06af61d02275"
+  },
+  {
     "ClassName": "elementaryCharge",
     "CaexPath": "AutomationML_BasicProperties.constants_AttributeTypeLib/elementaryCharge",
     "BasePath": null,
@@ -4514,6 +4541,15 @@
     "BasePath": null,
     "LibraryName": "AutomationML_BasicProperties.Physical.Constants_AttributeTypeLib",
     "LibraryVersion": "1.2.2",
+    "AMLEdition": "AMLEd2",
+    "ID": "cfea7ee3-4a5a-423f-b7aa-129b6456e523"
+  },
+  {
+    "ClassName": "elementaryCharge",
+    "CaexPath": "AutomationML_CoreProperties.Physical.Constants_AttributeTypeLib/elementaryCharge",
+    "BasePath": "AutomationMLCoreProperties.ElectricalAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Electrical_AttributeTypeLib/electricCharge",
+    "LibraryName": "AutomationML_CoreProperties.Physical.Constants_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
     "AMLEdition": "AMLEd2",
     "ID": "cfea7ee3-4a5a-423f-b7aa-129b6456e523"
   },
@@ -4599,6 +4635,15 @@
     "ID": "3e20af3a-49b0-4049-8e4c-b3f8c8cce818"
   },
   {
+    "ClassName": "boltzmannConstant",
+    "CaexPath": "AutomationML_CoreProperties.Physical.Constants_AttributeTypeLib/boltzmannConstant",
+    "BasePath": "AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/physicalConstant",
+    "LibraryName": "AutomationML_CoreProperties.Physical.Constants_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "3e20af3a-49b0-4049-8e4c-b3f8c8cce818"
+  },
+  {
     "ClassName": "avogadroConstant",
     "CaexPath": "AutomationML_BasicProperties.constants_AttributeTypeLib/avogadroConstant",
     "BasePath": null,
@@ -4676,6 +4721,15 @@
     "BasePath": null,
     "LibraryName": "AutomationML_BasicProperties.Physical.Constants_AttributeTypeLib",
     "LibraryVersion": "1.2.2",
+    "AMLEdition": "AMLEd2",
+    "ID": "d193f26c-3eab-46bf-8e73-4692d09608b9"
+  },
+  {
+    "ClassName": "avogadroConstant",
+    "CaexPath": "AutomationML_CoreProperties.Physical.Constants_AttributeTypeLib/avogadroConstant",
+    "BasePath": "AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/physicalConstant",
+    "LibraryName": "AutomationML_CoreProperties.Physical.Constants_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
     "AMLEdition": "AMLEd2",
     "ID": "d193f26c-3eab-46bf-8e73-4692d09608b9"
   },
@@ -4761,6 +4815,15 @@
     "ID": "986fe702-1571-4f08-9199-4f19bb835995"
   },
   {
+    "ClassName": "luminousEfficacy",
+    "CaexPath": "AutomationML_CoreProperties.Physical.Constants_AttributeTypeLib/luminousEfficacy",
+    "BasePath": "AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/physicalConstant",
+    "LibraryName": "AutomationML_CoreProperties.Physical.Constants_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "986fe702-1571-4f08-9199-4f19bb835995"
+  },
+  {
     "ClassName": "gravitationalConstant",
     "CaexPath": "AutomationML_BasicProperties.constants_AttributeTypeLib/gravitationalConstant",
     "BasePath": null,
@@ -4838,6 +4901,15 @@
     "BasePath": null,
     "LibraryName": "AutomationML_BasicProperties.Physical.Constants_AttributeTypeLib",
     "LibraryVersion": "1.2.2",
+    "AMLEdition": "AMLEd2",
+    "ID": "d3f52e67-72b3-4549-9cdd-dbf836a7b04c"
+  },
+  {
+    "ClassName": "gravitationalConstant",
+    "CaexPath": "AutomationML_CoreProperties.Physical.Constants_AttributeTypeLib/gravitationalConstant",
+    "BasePath": "AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/physicalConstant",
+    "LibraryName": "AutomationML_CoreProperties.Physical.Constants_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
     "AMLEdition": "AMLEd2",
     "ID": "d3f52e67-72b3-4549-9cdd-dbf836a7b04c"
   },
@@ -6215,6 +6287,15 @@
     "BasePath": null,
     "LibraryName": "AutomationML_BasicProperties.Physical.Constants_AttributeTypeLib",
     "LibraryVersion": "1.2.2",
+    "AMLEdition": "AMLEd2",
+    "ID": "7c0cefa6-34e4-4b25-8532-5c5fc59fc060"
+  },
+  {
+    "ClassName": "standardGravity",
+    "CaexPath": "AutomationML_CoreProperties.Physical.Constants_AttributeTypeLib/standardGravity",
+    "BasePath": "AutomationMLCoreProperties.KinematicsAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Kinematics_AttributeTypeLib/acceleration",
+    "LibraryName": "AutomationML_CoreProperties.Physical.Constants_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
     "AMLEdition": "AMLEd2",
     "ID": "7c0cefa6-34e4-4b25-8532-5c5fc59fc060"
   },
@@ -17638,5 +17719,32 @@
     "LibraryVersion": "1.7.8",
     "AMLEdition": "AMLEd2",
     "ID": "99a89172-df9d-472c-8f93-582131ee130f"
+  },
+  {
+    "ClassName": "vacuumPermittivity",
+    "CaexPath": "AutomationML_CoreProperties.Physical.Constants_AttributeTypeLib/vacuumPermittivity",
+    "BasePath": "AutomationMLCoreProperties.ElectricalAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Electrical_AttributeTypeLib/permittivity",
+    "LibraryName": "AutomationML_CoreProperties.Physical.Constants_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "b0f4af8f-e09f-4748-b097-426e7ca0d012"
+  },
+  {
+    "ClassName": "vacuumPermeability",
+    "CaexPath": "AutomationML_CoreProperties.Physical.Constants_AttributeTypeLib/vacuumPermeability",
+    "BasePath": "AutomationMLCoreProperties.ElectricalAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Electrical_AttributeTypeLib/permeability",
+    "LibraryName": "AutomationML_CoreProperties.Physical.Constants_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "487f99e5-4a4f-4ead-ae06-aedfa477f8e7"
+  },
+  {
+    "ClassName": "characteristicImpedanceOfVacuum",
+    "CaexPath": "AutomationML_CoreProperties.Physical.Constants_AttributeTypeLib/characteristicImpedanceOfVacuum",
+    "BasePath": "AutomationMLCoreProperties.ElectricalAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Electrical_AttributeTypeLib/electricQuantity",
+    "LibraryName": "AutomationML_CoreProperties.Physical.Constants_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "4353abc5-7605-4126-97d2-5ceaf1ec1bb7"
   }
 ]
