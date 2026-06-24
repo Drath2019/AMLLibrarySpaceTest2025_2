@@ -12375,11 +12375,29 @@
     "ID": "4149467e-bb1a-4465-ab35-09a51535af63"
   },
   {
+    "ClassName": "economicEntity",
+    "CaexPath": "AutomationML_CoreProperties.Contact_AttributeTypeLib/economicEntity",
+    "BasePath": "AutomationML_CoreProperties.Contact_AttributeTypeLib/structuredContactInformation",
+    "LibraryName": "AutomationML_CoreProperties.Contact_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "4149467e-bb1a-4465-ab35-09a51535af63"
+  },
+  {
     "ClassName": "commItem",
     "CaexPath": "AutomationML_BasicProperties.Contact_AttributeTypeLib/commItem",
     "BasePath": null,
     "LibraryName": "AutomationML_BasicProperties.Contact_AttributeTypeLib",
     "LibraryVersion": "1.2.2",
+    "AMLEdition": "AMLEd2",
+    "ID": "36949fe2-3c09-4be0-86cb-9ba77ee8dce7"
+  },
+  {
+    "ClassName": "commItem",
+    "CaexPath": "AutomationML_CoreProperties.Contact_AttributeTypeLib/commItem",
+    "BasePath": "AutomationML_CoreProperties.Contact_AttributeTypeLib/simpleContactProperty",
+    "LibraryName": "AutomationML_CoreProperties.Contact_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
     "AMLEdition": "AMLEd2",
     "ID": "36949fe2-3c09-4be0-86cb-9ba77ee8dce7"
   },
@@ -12393,11 +12411,29 @@
     "ID": "8104501b-7823-4880-a996-9dd1cf0e18d6"
   },
   {
+    "ClassName": "phone",
+    "CaexPath": "AutomationML_CoreProperties.Contact_AttributeTypeLib/phone",
+    "BasePath": "AutomationML_CoreProperties.Contact_AttributeTypeLib/structuredContactInformation",
+    "LibraryName": "AutomationML_CoreProperties.Contact_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "8104501b-7823-4880-a996-9dd1cf0e18d6"
+  },
+  {
     "ClassName": "fax",
     "CaexPath": "AutomationML_BasicProperties.Contact_AttributeTypeLib/commItem/fax",
     "BasePath": "AutomationML_BasicProperties.Contact_AttributeTypeLib/commItem",
     "LibraryName": "AutomationML_BasicProperties.Contact_AttributeTypeLib",
     "LibraryVersion": "1.2.2",
+    "AMLEdition": "AMLEd2",
+    "ID": "94854f6b-7c6d-4fe9-9e4f-7a8af438b5ea"
+  },
+  {
+    "ClassName": "fax",
+    "CaexPath": "AutomationML_CoreProperties.Contact_AttributeTypeLib/fax",
+    "BasePath": "AutomationML_CoreProperties.Contact_AttributeTypeLib/commItem",
+    "LibraryName": "AutomationML_CoreProperties.Contact_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
     "AMLEdition": "AMLEd2",
     "ID": "94854f6b-7c6d-4fe9-9e4f-7a8af438b5ea"
   },
@@ -12411,11 +12447,29 @@
     "ID": "08f40bb4-5894-4a57-a1d4-8dedc7f4e6da"
   },
   {
+    "ClassName": "email",
+    "CaexPath": "AutomationML_CoreProperties.Contact_AttributeTypeLib/email",
+    "BasePath": "AutomationML_CoreProperties.Contact_AttributeTypeLib/structuredContactInformation",
+    "LibraryName": "AutomationML_CoreProperties.Contact_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "08f40bb4-5894-4a57-a1d4-8dedc7f4e6da"
+  },
+  {
     "ClassName": "commList",
     "CaexPath": "AutomationML_BasicProperties.Contact_AttributeTypeLib/commList",
     "BasePath": "AutomationMLBase.GeometryLibrariesAMLEd22_12_0@AutomationMLBaseAttributeTypeLib/ListType",
     "LibraryName": "AutomationML_BasicProperties.Contact_AttributeTypeLib",
     "LibraryVersion": "1.2.2",
+    "AMLEdition": "AMLEd2",
+    "ID": "fde29d13-82e6-44f2-b641-36afc70c0f41"
+  },
+  {
+    "ClassName": "commList",
+    "CaexPath": "AutomationML_CoreProperties.Contact_AttributeTypeLib/commList",
+    "BasePath": "AutomationMLBase.GeometryLibrariesAMLEd22_12_0@AutomationMLBaseAttributeTypeLib/ListType",
+    "LibraryName": "AutomationML_CoreProperties.Contact_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
     "AMLEdition": "AMLEd2",
     "ID": "fde29d13-82e6-44f2-b641-36afc70c0f41"
   },
@@ -12429,11 +12483,29 @@
     "ID": "70a06a89-3fd1-4158-a120-b7316900a306"
   },
   {
+    "ClassName": "legalName",
+    "CaexPath": "AutomationML_CoreProperties.Contact_AttributeTypeLib/legalName",
+    "BasePath": "AutomationML_CoreProperties.Contact_AttributeTypeLib/simpleContactProperty",
+    "LibraryName": "AutomationML_CoreProperties.Contact_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "70a06a89-3fd1-4158-a120-b7316900a306"
+  },
+  {
     "ClassName": "additionalName",
     "CaexPath": "AutomationML_BasicProperties.Contact_AttributeTypeLib/additionalName",
     "BasePath": null,
     "LibraryName": "AutomationML_BasicProperties.Contact_AttributeTypeLib",
     "LibraryVersion": "1.2.2",
+    "AMLEdition": "AMLEd2",
+    "ID": "fd0e3de8-a94b-4cf4-befa-abe90510c960"
+  },
+  {
+    "ClassName": "additionalName",
+    "CaexPath": "AutomationML_CoreProperties.Contact_AttributeTypeLib/additionalName",
+    "BasePath": "AutomationML_CoreProperties.Contact_AttributeTypeLib/simpleContactProperty",
+    "LibraryName": "AutomationML_CoreProperties.Contact_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
     "AMLEdition": "AMLEd2",
     "ID": "fd0e3de8-a94b-4cf4-befa-abe90510c960"
   },
@@ -12447,11 +12519,29 @@
     "ID": "d8ee1803-c7de-4f62-a610-d9957968a1be"
   },
   {
+    "ClassName": "shortName",
+    "CaexPath": "AutomationML_CoreProperties.Contact_AttributeTypeLib/shortName",
+    "BasePath": "AutomationML_CoreProperties.Contact_AttributeTypeLib/simpleContactProperty",
+    "LibraryName": "AutomationML_CoreProperties.Contact_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "d8ee1803-c7de-4f62-a610-d9957968a1be"
+  },
+  {
     "ClassName": "department",
     "CaexPath": "AutomationML_BasicProperties.Contact_AttributeTypeLib/department",
     "BasePath": null,
     "LibraryName": "AutomationML_BasicProperties.Contact_AttributeTypeLib",
     "LibraryVersion": "1.2.2",
+    "AMLEdition": "AMLEd2",
+    "ID": "67efec2c-f619-46bf-9bc2-fc98af9ca476"
+  },
+  {
+    "ClassName": "department",
+    "CaexPath": "AutomationML_CoreProperties.Contact_AttributeTypeLib/department",
+    "BasePath": "AutomationML_CoreProperties.Contact_AttributeTypeLib/simpleContactProperty",
+    "LibraryName": "AutomationML_CoreProperties.Contact_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
     "AMLEdition": "AMLEd2",
     "ID": "67efec2c-f619-46bf-9bc2-fc98af9ca476"
   },
@@ -12483,6 +12573,15 @@
     "ID": "3a9775d0-f7e8-47b8-8bfe-adfc5aad5ce4"
   },
   {
+    "ClassName": "phoneNr",
+    "CaexPath": "AutomationML_CoreProperties.Contact_AttributeTypeLib/phoneNr",
+    "BasePath": "AutomationML_CoreProperties.Contact_AttributeTypeLib/simpleContactProperty",
+    "LibraryName": "AutomationML_CoreProperties.Contact_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "3a9775d0-f7e8-47b8-8bfe-adfc5aad5ce4"
+  },
+  {
     "ClassName": "phoneType",
     "CaexPath": "AutomationML_BasicProperties.Contact_AttributeTypeLib/phoneType",
     "BasePath": null,
@@ -12492,11 +12591,29 @@
     "ID": "8deb0b12-83c6-4aaf-92fa-a27172e1dcb0"
   },
   {
+    "ClassName": "phoneType",
+    "CaexPath": "AutomationML_CoreProperties.Contact_AttributeTypeLib/phoneType",
+    "BasePath": "AutomationML_CoreProperties.Contact_AttributeTypeLib/simpleContactProperty",
+    "LibraryName": "AutomationML_CoreProperties.Contact_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "8deb0b12-83c6-4aaf-92fa-a27172e1dcb0"
+  },
+  {
     "ClassName": "faxNr",
     "CaexPath": "AutomationML_BasicProperties.Contact_AttributeTypeLib/faxNr",
     "BasePath": null,
     "LibraryName": "AutomationML_BasicProperties.Contact_AttributeTypeLib",
     "LibraryVersion": "1.2.2",
+    "AMLEdition": "AMLEd2",
+    "ID": "735fbbd3-cef5-41c4-b42b-73fd22b18521"
+  },
+  {
+    "ClassName": "faxNr",
+    "CaexPath": "AutomationML_CoreProperties.Contact_AttributeTypeLib/faxNr",
+    "BasePath": "AutomationML_CoreProperties.Contact_AttributeTypeLib/simpleContactProperty",
+    "LibraryName": "AutomationML_CoreProperties.Contact_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
     "AMLEdition": "AMLEd2",
     "ID": "735fbbd3-cef5-41c4-b42b-73fd22b18521"
   },
@@ -12528,11 +12645,29 @@
     "ID": "fbe455d9-0e31-4209-8ac6-50135c5d0481"
   },
   {
+    "ClassName": "faxType",
+    "CaexPath": "AutomationML_CoreProperties.Contact_AttributeTypeLib/faxType",
+    "BasePath": "AutomationML_CoreProperties.Contact_AttributeTypeLib/simpleContactProperty",
+    "LibraryName": "AutomationML_CoreProperties.Contact_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "fbe455d9-0e31-4209-8ac6-50135c5d0481"
+  },
+  {
     "ClassName": "emailAddress",
     "CaexPath": "AutomationML_BasicProperties.Contact_AttributeTypeLib/emailAddress",
     "BasePath": null,
     "LibraryName": "AutomationML_BasicProperties.Contact_AttributeTypeLib",
     "LibraryVersion": "1.2.2",
+    "AMLEdition": "AMLEd2",
+    "ID": "60b36f82-fc40-4fb9-9f6f-0c97feabdc79"
+  },
+  {
+    "ClassName": "emailAddress",
+    "CaexPath": "AutomationML_CoreProperties.Contact_AttributeTypeLib/emailAddress",
+    "BasePath": "AutomationML_CoreProperties.Contact_AttributeTypeLib/simpleContactProperty",
+    "LibraryName": "AutomationML_CoreProperties.Contact_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
     "AMLEdition": "AMLEd2",
     "ID": "60b36f82-fc40-4fb9-9f6f-0c97feabdc79"
   },
@@ -12636,6 +12771,15 @@
     "ID": "91c8bb93-6ba2-47f1-8878-550b7674d693"
   },
   {
+    "ClassName": "emailType",
+    "CaexPath": "AutomationML_CoreProperties.Contact_AttributeTypeLib/emailType",
+    "BasePath": "AutomationML_CoreProperties.Contact_AttributeTypeLib/simpleContactProperty",
+    "LibraryName": "AutomationML_CoreProperties.Contact_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "91c8bb93-6ba2-47f1-8878-550b7674d693"
+  },
+  {
     "ClassName": "publicKey",
     "CaexPath": "AutomationML_BasicProperties.Contact_AttributeTypeLib/publicKey",
     "BasePath": null,
@@ -12645,11 +12789,29 @@
     "ID": "7bf7a9d7-57ae-445b-a2c3-c028fdd04639"
   },
   {
+    "ClassName": "publicKey",
+    "CaexPath": "AutomationML_CoreProperties.Contact_AttributeTypeLib/publicKey",
+    "BasePath": "AutomationML_CoreProperties.Contact_AttributeTypeLib/simpleContactProperty",
+    "LibraryName": "AutomationML_CoreProperties.Contact_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "7bf7a9d7-57ae-445b-a2c3-c028fdd04639"
+  },
+  {
     "ClassName": "publicKeyType",
     "CaexPath": "AutomationML_BasicProperties.Contact_AttributeTypeLib/publicKeyType",
     "BasePath": null,
     "LibraryName": "AutomationML_BasicProperties.Contact_AttributeTypeLib",
     "LibraryVersion": "1.2.2",
+    "AMLEdition": "AMLEd2",
+    "ID": "8e05e265-cff1-4b56-9938-21a92656ba85"
+  },
+  {
+    "ClassName": "publicKeyType",
+    "CaexPath": "AutomationML_CoreProperties.Contact_AttributeTypeLib/publicKeyType",
+    "BasePath": "AutomationML_CoreProperties.Contact_AttributeTypeLib/simpleContactProperty",
+    "LibraryName": "AutomationML_CoreProperties.Contact_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
     "AMLEdition": "AMLEd2",
     "ID": "8e05e265-cff1-4b56-9938-21a92656ba85"
   },
@@ -12677,6 +12839,15 @@
     "BasePath": null,
     "LibraryName": "AutomationML_BasicProperties.Contact_AttributeTypeLib",
     "LibraryVersion": "1.2.2",
+    "AMLEdition": "AMLEd2",
+    "ID": "86e3ae33-6e5a-4048-8d0a-3c8f67e93bcc"
+  },
+  {
+    "ClassName": "VAT",
+    "CaexPath": "AutomationML_CoreProperties.Contact_AttributeTypeLib/VAT",
+    "BasePath": "AutomationML_CoreProperties.Contact_AttributeTypeLib/simpleContactProperty",
+    "LibraryName": "AutomationML_CoreProperties.Contact_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
     "AMLEdition": "AMLEd2",
     "ID": "86e3ae33-6e5a-4048-8d0a-3c8f67e93bcc"
   },
@@ -12861,6 +13032,15 @@
     "ID": "62169871-2f2d-48fb-8a62-2b71fe6b39c6"
   },
   {
+    "ClassName": "title",
+    "CaexPath": "AutomationML_CoreProperties.Contact_AttributeTypeLib/title",
+    "BasePath": "AutomationML_CoreProperties.Contact_AttributeTypeLib/simpleContactProperty",
+    "LibraryName": "AutomationML_CoreProperties.Contact_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "62169871-2f2d-48fb-8a62-2b71fe6b39c6"
+  },
+  {
     "ClassName": "documentNumber",
     "CaexPath": "AutomationML_BasicProperties.Identification_AttributeTypeLib/documentNumber",
     "BasePath": "AutomationML_BasicProperties.Identification_AttributeTypeLib/number",
@@ -12906,11 +13086,29 @@
     "ID": "4d5e16c2-c688-470e-aa16-a2fdaf2b5ebb"
   },
   {
+    "ClassName": "DUNS",
+    "CaexPath": "AutomationML_CoreProperties.Contact_AttributeTypeLib/DUNS",
+    "BasePath": "AutomationML_CoreProperties.Contact_AttributeTypeLib/simpleContactProperty",
+    "LibraryName": "AutomationML_CoreProperties.Contact_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "4d5e16c2-c688-470e-aa16-a2fdaf2b5ebb"
+  },
+  {
     "ClassName": "GLN",
     "CaexPath": "AutomationML_BasicProperties.Contact_AttributeTypeLib/GLN",
     "BasePath": null,
     "LibraryName": "AutomationML_BasicProperties.Contact_AttributeTypeLib",
     "LibraryVersion": "1.2.2",
+    "AMLEdition": "AMLEd2",
+    "ID": "8a6fbf37-e4c4-430b-9d8e-bd299c32a23c"
+  },
+  {
+    "ClassName": "GLN",
+    "CaexPath": "AutomationML_CoreProperties.Contact_AttributeTypeLib/GLN",
+    "BasePath": "AutomationML_CoreProperties.Contact_AttributeTypeLib/simpleContactProperty",
+    "LibraryName": "AutomationML_CoreProperties.Contact_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
     "AMLEdition": "AMLEd2",
     "ID": "8a6fbf37-e4c4-430b-9d8e-bd299c32a23c"
   },
@@ -12951,11 +13149,29 @@
     "ID": "59319e07-e24c-4475-81ab-c63bcb568322"
   },
   {
+    "ClassName": "postalAddress",
+    "CaexPath": "AutomationML_CoreProperties.Contact_AttributeTypeLib/postalAddress",
+    "BasePath": "AutomationML_CoreProperties.Contact_AttributeTypeLib/structuredContactInformation",
+    "LibraryName": "AutomationML_CoreProperties.Contact_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "59319e07-e24c-4475-81ab-c63bcb568322"
+  },
+  {
     "ClassName": "cityName",
     "CaexPath": "AutomationML_BasicProperties.Contact_AttributeTypeLib/cityName",
     "BasePath": null,
     "LibraryName": "AutomationML_BasicProperties.Contact_AttributeTypeLib",
     "LibraryVersion": "1.2.2",
+    "AMLEdition": "AMLEd2",
+    "ID": "05e52a88-9ef5-44ad-b579-071d42a9f08a"
+  },
+  {
+    "ClassName": "cityName",
+    "CaexPath": "AutomationML_CoreProperties.Contact_AttributeTypeLib/cityName",
+    "BasePath": "AutomationML_CoreProperties.Contact_AttributeTypeLib/simpleContactProperty",
+    "LibraryName": "AutomationML_CoreProperties.Contact_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
     "AMLEdition": "AMLEd2",
     "ID": "05e52a88-9ef5-44ad-b579-071d42a9f08a"
   },
@@ -12967,6 +13183,15 @@
     "LibraryVersion": "1.2.2",
     "AMLEdition": "AMLEd2",
     "ID": "036c4431-520a-4951-98db-c3fcae73ce4f"
+  },
+  {
+    "ClassName": "postalCode",
+    "CaexPath": "AutomationML_CoreProperties.Contact_AttributeTypeLib/postalCode",
+    "BasePath": "AutomationML_CoreProperties.Contact_AttributeTypeLib/simpleContactProperty",
+    "LibraryName": "AutomationML_CoreProperties.Contact_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "0bb6d540-d009-4136-92f3-ade4280bbc26"
   },
   {
     "ClassName": "displayName",
@@ -13014,11 +13239,29 @@
     "ID": "3aca91bc-37f6-4441-aa67-0166e5892a8a"
   },
   {
+    "ClassName": "countryCode",
+    "CaexPath": "AutomationML_CoreProperties.Contact_AttributeTypeLib/countryCode",
+    "BasePath": "AutomationML_CoreProperties.Contact_AttributeTypeLib/simpleContactProperty",
+    "LibraryName": "AutomationML_CoreProperties.Contact_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "3aca91bc-37f6-4441-aa67-0166e5892a8a"
+  },
+  {
     "ClassName": "countryName",
     "CaexPath": "AutomationML_BasicProperties.Contact_AttributeTypeLib/countryName",
     "BasePath": null,
     "LibraryName": "AutomationML_BasicProperties.Contact_AttributeTypeLib",
     "LibraryVersion": "1.2.2",
+    "AMLEdition": "AMLEd2",
+    "ID": "b1cf5770-a598-4976-bef1-c131375105be"
+  },
+  {
+    "ClassName": "countryName",
+    "CaexPath": "AutomationML_CoreProperties.Contact_AttributeTypeLib/countryName",
+    "BasePath": "AutomationML_CoreProperties.Contact_AttributeTypeLib/simpleContactProperty",
+    "LibraryName": "AutomationML_CoreProperties.Contact_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
     "AMLEdition": "AMLEd2",
     "ID": "b1cf5770-a598-4976-bef1-c131375105be"
   },
@@ -13077,11 +13320,29 @@
     "ID": "0a38d1d1-79dd-4e5e-a5ad-198255f892d6"
   },
   {
+    "ClassName": "addressRemarks",
+    "CaexPath": "AutomationML_CoreProperties.Contact_AttributeTypeLib/addressRemarks",
+    "BasePath": "AutomationML_CoreProperties.Contact_AttributeTypeLib/simpleContactProperty",
+    "LibraryName": "AutomationML_CoreProperties.Contact_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "0a38d1d1-79dd-4e5e-a5ad-198255f892d6"
+  },
+  {
     "ClassName": "addressURL",
     "CaexPath": "AutomationML_BasicProperties.Contact_AttributeTypeLib/addressURL",
     "BasePath": null,
     "LibraryName": "AutomationML_BasicProperties.Contact_AttributeTypeLib",
     "LibraryVersion": "1.2.2",
+    "AMLEdition": "AMLEd2",
+    "ID": "680f9f08-a23c-438e-a789-557d6a342f21"
+  },
+  {
+    "ClassName": "addressURL",
+    "CaexPath": "AutomationML_CoreProperties.Contact_AttributeTypeLib/addressURL",
+    "BasePath": "AutomationML_CoreProperties.Contact_AttributeTypeLib/simpleContactProperty",
+    "LibraryName": "AutomationML_CoreProperties.Contact_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
     "AMLEdition": "AMLEd2",
     "ID": "680f9f08-a23c-438e-a789-557d6a342f21"
   },
@@ -13104,11 +13365,29 @@
     "ID": "b83e1318-f629-4648-8ee6-ce299523e55f"
   },
   {
+    "ClassName": "street",
+    "CaexPath": "AutomationML_CoreProperties.Contact_AttributeTypeLib/street",
+    "BasePath": "AutomationML_CoreProperties.Contact_AttributeTypeLib/simpleContactProperty",
+    "LibraryName": "AutomationML_CoreProperties.Contact_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "b83e1318-f629-4648-8ee6-ce299523e55f"
+  },
+  {
     "ClassName": "POBox",
     "CaexPath": "AutomationML_BasicProperties.Contact_AttributeTypeLib/POBox",
     "BasePath": null,
     "LibraryName": "AutomationML_BasicProperties.Contact_AttributeTypeLib",
     "LibraryVersion": "1.2.2",
+    "AMLEdition": "AMLEd2",
+    "ID": "b1330528-bd0d-4efd-8911-024f58fd0f47"
+  },
+  {
+    "ClassName": "POBox",
+    "CaexPath": "AutomationML_CoreProperties.Contact_AttributeTypeLib/POBox",
+    "BasePath": "AutomationML_CoreProperties.Contact_AttributeTypeLib/simpleContactProperty",
+    "LibraryName": "AutomationML_CoreProperties.Contact_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
     "AMLEdition": "AMLEd2",
     "ID": "b1330528-bd0d-4efd-8911-024f58fd0f47"
   },
@@ -13136,6 +13415,15 @@
     "BasePath": null,
     "LibraryName": "AutomationML_BasicProperties.Contact_AttributeTypeLib",
     "LibraryVersion": "1.2.2",
+    "AMLEdition": "AMLEd2",
+    "ID": "1b39bc7f-92ca-4920-8b25-000e3f345125"
+  },
+  {
+    "ClassName": "nameOfContact",
+    "CaexPath": "AutomationML_CoreProperties.Contact_AttributeTypeLib/nameOfContact",
+    "BasePath": "AutomationML_CoreProperties.Contact_AttributeTypeLib/simpleContactProperty",
+    "LibraryName": "AutomationML_CoreProperties.Contact_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
     "AMLEdition": "AMLEd2",
     "ID": "1b39bc7f-92ca-4920-8b25-000e3f345125"
   },
@@ -13203,11 +13491,29 @@
     "ID": "ce436aac-8fb8-4f14-9400-2271e3e32132"
   },
   {
+    "ClassName": "firstName",
+    "CaexPath": "AutomationML_CoreProperties.Contact_AttributeTypeLib/firstName",
+    "BasePath": "AutomationML_CoreProperties.Contact_AttributeTypeLib/simpleContactProperty",
+    "LibraryName": "AutomationML_CoreProperties.Contact_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "ce436aac-8fb8-4f14-9400-2271e3e32132"
+  },
+  {
     "ClassName": "middleNames",
     "CaexPath": "AutomationML_BasicProperties.Contact_AttributeTypeLib/middleNames",
     "BasePath": null,
     "LibraryName": "AutomationML_BasicProperties.Contact_AttributeTypeLib",
     "LibraryVersion": "1.2.2",
+    "AMLEdition": "AMLEd2",
+    "ID": "679933a7-9872-4399-b5e7-9fc23ba91975"
+  },
+  {
+    "ClassName": "middleNames",
+    "CaexPath": "AutomationML_CoreProperties.Contact_AttributeTypeLib/middleNames",
+    "BasePath": "AutomationML_CoreProperties.Contact_AttributeTypeLib/simpleContactProperty",
+    "LibraryName": "AutomationML_CoreProperties.Contact_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
     "AMLEdition": "AMLEd2",
     "ID": "679933a7-9872-4399-b5e7-9fc23ba91975"
   },
@@ -13248,6 +13554,15 @@
     "ID": "4328f8a1-89bc-41d4-ad03-89c39920b356"
   },
   {
+    "ClassName": "academicTitle",
+    "CaexPath": "AutomationML_CoreProperties.Contact_AttributeTypeLib/academicTitle",
+    "BasePath": "AutomationML_CoreProperties.Contact_AttributeTypeLib/simpleContactProperty",
+    "LibraryName": "AutomationML_CoreProperties.Contact_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "4328f8a1-89bc-41d4-ad03-89c39920b356"
+  },
+  {
     "ClassName": "nationalCode",
     "CaexPath": "AutomationML_BasicProperties.Contact_AttributeTypeLib/nationalCode",
     "BasePath": null,
@@ -13266,11 +13581,29 @@
     "ID": "a83964a5-8f7a-4067-8d79-8c9b06f66afb"
   },
   {
+    "ClassName": "language",
+    "CaexPath": "AutomationML_CoreProperties.Contact_AttributeTypeLib/language",
+    "BasePath": "AutomationML_CoreProperties.Contact_AttributeTypeLib/simpleContactProperty",
+    "LibraryName": "AutomationML_CoreProperties.Contact_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "a83964a5-8f7a-4067-8d79-8c9b06f66afb"
+  },
+  {
     "ClassName": "roleOfContactPerson",
     "CaexPath": "AutomationML_BasicProperties.Contact_AttributeTypeLib/roleOfContactPerson",
     "BasePath": null,
     "LibraryName": "AutomationML_BasicProperties.Contact_AttributeTypeLib",
     "LibraryVersion": "1.2.2",
+    "AMLEdition": "AMLEd2",
+    "ID": "4b5fc7ec-6da0-4838-b886-e089474e6309"
+  },
+  {
+    "ClassName": "roleOfContactPerson",
+    "CaexPath": "AutomationML_CoreProperties.Contact_AttributeTypeLib/roleOfContactPerson",
+    "BasePath": "AutomationML_CoreProperties.Contact_AttributeTypeLib/simpleContactProperty",
+    "LibraryName": "AutomationML_CoreProperties.Contact_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
     "AMLEdition": "AMLEd2",
     "ID": "4b5fc7ec-6da0-4838-b886-e089474e6309"
   },
@@ -18691,5 +19024,59 @@
     "LibraryVersion": "1.7.8",
     "AMLEdition": "AMLEd2",
     "ID": "7837ba9b-5488-4957-8f7e-f4d0a85ba77f"
+  },
+  {
+    "ClassName": "contactProperty",
+    "CaexPath": "AutomationML_CoreProperties.Contact_AttributeTypeLib/contactProperty",
+    "BasePath": null,
+    "LibraryName": "AutomationML_CoreProperties.Contact_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "5c34c964-90e6-4377-8d39-7441cd5f5ae1"
+  },
+  {
+    "ClassName": "simpleContactProperty",
+    "CaexPath": "AutomationML_CoreProperties.Contact_AttributeTypeLib/simpleContactProperty",
+    "BasePath": "AutomationML_CoreProperties.Contact_AttributeTypeLib/contactProperty",
+    "LibraryName": "AutomationML_CoreProperties.Contact_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "51a88dda-2cf5-47ba-88cf-7cd27c886c17"
+  },
+  {
+    "ClassName": "GTIN",
+    "CaexPath": "AutomationML_CoreProperties.Contact_AttributeTypeLib/GTIN",
+    "BasePath": "AutomationML_CoreProperties.Contact_AttributeTypeLib/simpleContactProperty",
+    "LibraryName": "AutomationML_CoreProperties.Contact_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "5f5f2b8f-8e38-4092-8b25-9c6f0a5fa414"
+  },
+  {
+    "ClassName": "postalCodeOfPOBox",
+    "CaexPath": "AutomationML_CoreProperties.Contact_AttributeTypeLib/postalCodeOfPOBox",
+    "BasePath": "AutomationML_CoreProperties.Contact_AttributeTypeLib/simpleContactProperty",
+    "LibraryName": "AutomationML_CoreProperties.Contact_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "c8621335-ae13-4f49-b1b3-d31e651af1e5"
+  },
+  {
+    "ClassName": "stateOrProvince",
+    "CaexPath": "AutomationML_CoreProperties.Contact_AttributeTypeLib/stateOrProvince",
+    "BasePath": "AutomationML_CoreProperties.Contact_AttributeTypeLib/simpleContactProperty",
+    "LibraryName": "AutomationML_CoreProperties.Contact_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "ef94b3f9-9145-443c-8b92-a223f79045d0"
+  },
+  {
+    "ClassName": "structuredContactInformation",
+    "CaexPath": "AutomationML_CoreProperties.Contact_AttributeTypeLib/structuredContactInformation",
+    "BasePath": "AutomationML_CoreProperties.Contact_AttributeTypeLib/contactProperty",
+    "LibraryName": "AutomationML_CoreProperties.Contact_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "e89a1c36-4b17-4c38-a13d-82cae594f14d"
   }
 ]
