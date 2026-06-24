@@ -2880,6 +2880,15 @@
     "ID": "47db6c63-eff5-41fe-a11e-5f014275eb5d"
   },
   {
+    "ClassName": "designLifetime",
+    "CaexPath": "AutomationML_CoreProperties.SafetyAndReliability_AttributeTypeLib/designLifetime",
+    "BasePath": "AutomationML_CoreProperties.SafetyAndReliability_AttributeTypeLib/reliabilityMetric",
+    "LibraryName": "AutomationML_CoreProperties.SafetyAndReliability_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "47db6c63-eff5-41fe-a11e-5f014275eb5d"
+  },
+  {
     "ClassName": "meanTimeBetweenFailures",
     "CaexPath": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib/meanTimeBetweenFailures",
     "BasePath": null,
@@ -5202,6 +5211,15 @@
     "ID": "e25a8bb5-fdfd-4f2a-949b-40c7c4b3eff9"
   },
   {
+    "ClassName": "failureRate",
+    "CaexPath": "AutomationML_CoreProperties.SafetyAndReliability_AttributeTypeLib/failureRate",
+    "BasePath": "AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/rate",
+    "LibraryName": "AutomationML_CoreProperties.SafetyAndReliability_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "7812814a-f9ec-4cea-84a5-18a9a500363d"
+  },
+  {
     "ClassName": "availability",
     "CaexPath": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib/availability",
     "BasePath": null,
@@ -5279,6 +5297,15 @@
     "BasePath": null,
     "LibraryName": "AutomationML_BasicProperties.ReliabilityAndLifetime_AttributeTypeLib",
     "LibraryVersion": "1.2.2",
+    "AMLEdition": "AMLEd2",
+    "ID": "2a3082df-f918-4ee7-bd9b-5507d3238825"
+  },
+  {
+    "ClassName": "availability",
+    "CaexPath": "AutomationML_CoreProperties.SafetyAndReliability_AttributeTypeLib/availability",
+    "BasePath": "AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/ratioProperty",
+    "LibraryName": "AutomationML_CoreProperties.SafetyAndReliability_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
     "AMLEdition": "AMLEd2",
     "ID": "2a3082df-f918-4ee7-bd9b-5507d3238825"
   },
@@ -6057,6 +6084,15 @@
     "ID": "17c0e861-8830-47f9-b6fa-eba01c712515"
   },
   {
+    "ClassName": "reliability",
+    "CaexPath": "AutomationML_CoreProperties.SafetyAndReliability_AttributeTypeLib/reliability",
+    "BasePath": "AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/ratioProperty",
+    "LibraryName": "AutomationML_CoreProperties.SafetyAndReliability_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "17c0e861-8830-47f9-b6fa-eba01c712515"
+  },
+  {
     "ClassName": "redundancyLevel",
     "CaexPath": "AutomationML_BasicProperties.reliabilityAndLifetime_AttributeTypeLib/redundancyLevel",
     "BasePath": null,
@@ -6134,6 +6170,15 @@
     "BasePath": null,
     "LibraryName": "AutomationML_BasicProperties.ReliabilityAndLifetime_AttributeTypeLib",
     "LibraryVersion": "1.2.2",
+    "AMLEdition": "AMLEd2",
+    "ID": "8fb66270-4415-4df2-a417-c81fbdddb8d9"
+  },
+  {
+    "ClassName": "redundancyLevel",
+    "CaexPath": "AutomationML_CoreProperties.SafetyAndReliability_AttributeTypeLib/redundancyLevel",
+    "BasePath": "AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/discreteQuantity",
+    "LibraryName": "AutomationML_CoreProperties.SafetyAndReliability_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
     "AMLEdition": "AMLEd2",
     "ID": "8fb66270-4415-4df2-a417-c81fbdddb8d9"
   },
@@ -18106,5 +18151,221 @@
     "LibraryVersion": "1.7.8",
     "AMLEdition": "AMLEd2",
     "ID": "df093cdb-60bc-4c4d-8e96-250d9e78712f"
+  },
+  {
+    "ClassName": "safetyQuantity",
+    "CaexPath": "AutomationML_CoreProperties.SafetyAndReliability_AttributeTypeLib/safetyQuantity",
+    "BasePath": null,
+    "LibraryName": "AutomationML_CoreProperties.SafetyAndReliability_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "8ce98f2b-ec82-460e-bc44-01a72c33bde4"
+  },
+  {
+    "ClassName": "SIL",
+    "CaexPath": "AutomationML_CoreProperties.SafetyAndReliability_AttributeTypeLib/SIL",
+    "BasePath": "AutomationML_CoreProperties.SafetyAndReliability_AttributeTypeLib/safetyQuantity",
+    "LibraryName": "AutomationML_CoreProperties.SafetyAndReliability_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "ed8f3eda-2c89-42be-a560-50f3a1367477"
+  },
+  {
+    "ClassName": "performanceLevel",
+    "CaexPath": "AutomationML_CoreProperties.SafetyAndReliability_AttributeTypeLib/performanceLevel",
+    "BasePath": "AutomationML_CoreProperties.SafetyAndReliability_AttributeTypeLib/safetyQuantity",
+    "LibraryName": "AutomationML_CoreProperties.SafetyAndReliability_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "f755c07d-cedf-48a3-9772-9d519b3dab66"
+  },
+  {
+    "ClassName": "riskClass",
+    "CaexPath": "AutomationML_CoreProperties.SafetyAndReliability_AttributeTypeLib/riskClass",
+    "BasePath": "AutomationML_CoreProperties.SafetyAndReliability_AttributeTypeLib/safetyQuantity",
+    "LibraryName": "AutomationML_CoreProperties.SafetyAndReliability_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "02aed511-f52a-48ca-b9ef-dd6dc619fad3"
+  },
+  {
+    "ClassName": "IPCode",
+    "CaexPath": "AutomationML_CoreProperties.SafetyAndReliability_AttributeTypeLib/IPCode",
+    "BasePath": "AutomationML_CoreProperties.SafetyAndReliability_AttributeTypeLib/safetyQuantity",
+    "LibraryName": "AutomationML_CoreProperties.SafetyAndReliability_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "8dd78d77-75d9-4f6e-bc1c-05af83eb1fe5"
+  },
+  {
+    "ClassName": "PTI",
+    "CaexPath": "AutomationML_CoreProperties.SafetyAndReliability_AttributeTypeLib/PTI",
+    "BasePath": "AutomationMLCoreProperties.TimeAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Time_AttributeTypeLib/timeDuration",
+    "LibraryName": "AutomationML_CoreProperties.SafetyAndReliability_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "bd7d86a7-b7ec-41fa-bdf2-6c61ceff0c3f"
+  },
+  {
+    "ClassName": "PST",
+    "CaexPath": "AutomationML_CoreProperties.SafetyAndReliability_AttributeTypeLib/PST",
+    "BasePath": "AutomationMLCoreProperties.TimeAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Time_AttributeTypeLib/timeDuration",
+    "LibraryName": "AutomationML_CoreProperties.SafetyAndReliability_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "164558a7-3c85-4351-a950-894713a24566"
+  },
+  {
+    "ClassName": "PFH",
+    "CaexPath": "AutomationML_CoreProperties.SafetyAndReliability_AttributeTypeLib/PFH",
+    "BasePath": "AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/rate",
+    "LibraryName": "AutomationML_CoreProperties.SafetyAndReliability_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "71417151-d177-45cb-b1b0-ac0f23923dc1"
+  },
+  {
+    "ClassName": "PFD",
+    "CaexPath": "AutomationML_CoreProperties.SafetyAndReliability_AttributeTypeLib/PFD",
+    "BasePath": "AutomationMLCoreProperties.StatisticsAndDistributionAttributeTypeLibAMLEd2@AutomationML_CoreProperties.StatisticsAndDistribution_AttributeTypeLib/probability",
+    "LibraryName": "AutomationML_CoreProperties.SafetyAndReliability_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "1911675d-4323-49c7-9d04-9e89f1bac725"
+  },
+  {
+    "ClassName": "PFDAvg",
+    "CaexPath": "AutomationML_CoreProperties.SafetyAndReliability_AttributeTypeLib/PFDAvg",
+    "BasePath": "AutomationMLCoreProperties.StatisticsAndDistributionAttributeTypeLibAMLEd2@AutomationML_CoreProperties.StatisticsAndDistribution_AttributeTypeLib/probability",
+    "LibraryName": "AutomationML_CoreProperties.SafetyAndReliability_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "0335ae92-4c93-4d67-9e2e-e1d95259dda4"
+  },
+  {
+    "ClassName": "PTC",
+    "CaexPath": "AutomationML_CoreProperties.SafetyAndReliability_AttributeTypeLib/PTC",
+    "BasePath": "AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/ratioProperty",
+    "LibraryName": "AutomationML_CoreProperties.SafetyAndReliability_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "756da36e-3a7a-4685-82a3-4410071fd307"
+  },
+  {
+    "ClassName": "DC",
+    "CaexPath": "AutomationML_CoreProperties.SafetyAndReliability_AttributeTypeLib/DC",
+    "BasePath": "AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/ratioProperty",
+    "LibraryName": "AutomationML_CoreProperties.SafetyAndReliability_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "5751be90-fb78-43f1-8cf9-37478a2d18bf"
+  },
+  {
+    "ClassName": "lambda",
+    "CaexPath": "AutomationML_CoreProperties.SafetyAndReliability_AttributeTypeLib/lambda",
+    "BasePath": "AutomationML_CoreProperties.SafetyAndReliability_AttributeTypeLib/failureRate",
+    "LibraryName": "AutomationML_CoreProperties.SafetyAndReliability_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "d462a517-4d79-4504-8dc1-ccd5d42c4c6c"
+  },
+  {
+    "ClassName": "lambda_s",
+    "CaexPath": "AutomationML_CoreProperties.SafetyAndReliability_AttributeTypeLib/lambda_s",
+    "BasePath": "AutomationML_CoreProperties.SafetyAndReliability_AttributeTypeLib/failureRate",
+    "LibraryName": "AutomationML_CoreProperties.SafetyAndReliability_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "569eb8e7-b801-46b6-a867-4d53c40e0f62"
+  },
+  {
+    "ClassName": "lambda_d",
+    "CaexPath": "AutomationML_CoreProperties.SafetyAndReliability_AttributeTypeLib/lambda_d",
+    "BasePath": "AutomationML_CoreProperties.SafetyAndReliability_AttributeTypeLib/failureRate",
+    "LibraryName": "AutomationML_CoreProperties.SafetyAndReliability_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "696b3838-841f-4ef6-8b4b-199677eee048"
+  },
+  {
+    "ClassName": "lambda_dd",
+    "CaexPath": "AutomationML_CoreProperties.SafetyAndReliability_AttributeTypeLib/lambda_dd",
+    "BasePath": "AutomationML_CoreProperties.SafetyAndReliability_AttributeTypeLib/failureRate",
+    "LibraryName": "AutomationML_CoreProperties.SafetyAndReliability_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "6a5d79bd-8532-4cba-bf49-94aefede59e4"
+  },
+  {
+    "ClassName": "lambda_du",
+    "CaexPath": "AutomationML_CoreProperties.SafetyAndReliability_AttributeTypeLib/lambda_du",
+    "BasePath": "AutomationML_CoreProperties.SafetyAndReliability_AttributeTypeLib/failureRate",
+    "LibraryName": "AutomationML_CoreProperties.SafetyAndReliability_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "2decac35-3e7a-49d2-be80-3f86b1e87ed1"
+  },
+  {
+    "ClassName": "SFF",
+    "CaexPath": "AutomationML_CoreProperties.SafetyAndReliability_AttributeTypeLib/SFF",
+    "BasePath": "AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/ratioProperty",
+    "LibraryName": "AutomationML_CoreProperties.SafetyAndReliability_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "22078533-8a0a-42de-9576-640d5af01e38"
+  },
+  {
+    "ClassName": "HFT",
+    "CaexPath": "AutomationML_CoreProperties.SafetyAndReliability_AttributeTypeLib/HFT",
+    "BasePath": "AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/discreteQuantity",
+    "LibraryName": "AutomationML_CoreProperties.SafetyAndReliability_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "2569d4ba-e4db-44e5-b225-d13e58654ca6"
+  },
+  {
+    "ClassName": "beta",
+    "CaexPath": "AutomationML_CoreProperties.SafetyAndReliability_AttributeTypeLib/beta",
+    "BasePath": "AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/ratioProperty",
+    "LibraryName": "AutomationML_CoreProperties.SafetyAndReliability_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "f5282091-fec6-46f1-bb97-f58799dd62d9"
+  },
+  {
+    "ClassName": "reliabilityMetric",
+    "CaexPath": "AutomationML_CoreProperties.SafetyAndReliability_AttributeTypeLib/reliabilityMetric",
+    "BasePath": null,
+    "LibraryName": "AutomationML_CoreProperties.SafetyAndReliability_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "9b57b449-41c9-44ed-a82f-489ed4a44e60"
+  },
+  {
+    "ClassName": "MTBF",
+    "CaexPath": "AutomationML_CoreProperties.SafetyAndReliability_AttributeTypeLib/MTBF",
+    "BasePath": "AutomationML_CoreProperties.SafetyAndReliability_AttributeTypeLib/reliabilityMetric",
+    "LibraryName": "AutomationML_CoreProperties.SafetyAndReliability_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "ca31add5-ca43-4566-99d4-927fb5a426fe"
+  },
+  {
+    "ClassName": "MTTR",
+    "CaexPath": "AutomationML_CoreProperties.SafetyAndReliability_AttributeTypeLib/MTTR",
+    "BasePath": "AutomationML_CoreProperties.SafetyAndReliability_AttributeTypeLib/reliabilityMetric",
+    "LibraryName": "AutomationML_CoreProperties.SafetyAndReliability_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "867a8d4f-a01c-4258-8fd3-6d2d838421ce"
+  },
+  {
+    "ClassName": "MTTF",
+    "CaexPath": "AutomationML_CoreProperties.SafetyAndReliability_AttributeTypeLib/MTTF",
+    "BasePath": "AutomationML_CoreProperties.SafetyAndReliability_AttributeTypeLib/reliabilityMetric",
+    "LibraryName": "AutomationML_CoreProperties.SafetyAndReliability_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "f40fb24c-0c23-48cb-bed7-d3290bcff538"
   }
 ]
