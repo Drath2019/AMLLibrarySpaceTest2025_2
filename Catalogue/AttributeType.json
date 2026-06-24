@@ -10287,6 +10287,15 @@
     "ID": "NEW_GUID_5"
   },
   {
+    "ClassName": "relativeHumidityMinimum",
+    "CaexPath": "AutomationML_CoreProperties.EnvironmentalConditions_AttributeTypeLib/relativeHumidityMinimum",
+    "BasePath": "AutomationML_CoreProperties.EnvironmentalConditions_AttributeTypeLib/humidity",
+    "LibraryName": "AutomationML_CoreProperties.EnvironmentalConditions_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "dc8119a7-f88a-44b3-a2c2-449d3a079ae7"
+  },
+  {
     "ClassName": "relativeHumidityMaximum",
     "CaexPath": "AutomationML_BasicProperties.environmentalConditions_AttributeTypeLib/relativeHumidityMaximum",
     "BasePath": null,
@@ -10330,6 +10339,15 @@
     "LibraryVersion": "1.2.2",
     "AMLEdition": "AMLEd2",
     "ID": "NEW_GUID_6"
+  },
+  {
+    "ClassName": "relativeHumidityMaximum",
+    "CaexPath": "AutomationML_CoreProperties.EnvironmentalConditions_AttributeTypeLib/relativeHumidityMaximum",
+    "BasePath": "AutomationML_CoreProperties.EnvironmentalConditions_AttributeTypeLib/humidity",
+    "LibraryName": "AutomationML_CoreProperties.EnvironmentalConditions_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "214585df-3cf2-4b82-8738-c09b239997b1"
   },
   {
     "ClassName": "operatingTemperatureMinimum",
@@ -10377,6 +10395,15 @@
     "ID": "NEW_GUID_1"
   },
   {
+    "ClassName": "operatingTemperatureMinimum",
+    "CaexPath": "AutomationML_CoreProperties.EnvironmentalConditions_AttributeTypeLib/operatingTemperatureMinimum",
+    "BasePath": "AutomationMLCoreProperties.PhysicalAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Physical_AttributeTypeLib/temperatureCelsius",
+    "LibraryName": "AutomationML_CoreProperties.EnvironmentalConditions_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "3e9ed7bd-743b-4b51-a154-6d944a14ed10"
+  },
+  {
     "ClassName": "operatingTemperatureMaximum",
     "CaexPath": "AutomationML_BasicProperties.environmentalConditions_AttributeTypeLib/operatingTemperatureMaximum",
     "BasePath": null,
@@ -10420,6 +10447,15 @@
     "LibraryVersion": "1.2.2",
     "AMLEdition": "AMLEd2",
     "ID": "NEW_GUID_2"
+  },
+  {
+    "ClassName": "operatingTemperatureMaximum",
+    "CaexPath": "AutomationML_CoreProperties.EnvironmentalConditions_AttributeTypeLib/operatingTemperatureMaximum",
+    "BasePath": "AutomationMLCoreProperties.PhysicalAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Physical_AttributeTypeLib/temperatureCelsius",
+    "LibraryName": "AutomationML_CoreProperties.EnvironmentalConditions_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "98b7ba0b-0084-438d-86ca-6309d6f29ec9"
   },
   {
     "ClassName": "storageTemperatureMinimum",
@@ -10467,6 +10503,15 @@
     "ID": "NEW_GUID_3"
   },
   {
+    "ClassName": "storageTemperatureMinimum",
+    "CaexPath": "AutomationML_CoreProperties.EnvironmentalConditions_AttributeTypeLib/storageTemperatureMinimum",
+    "BasePath": "AutomationMLCoreProperties.PhysicalAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Physical_AttributeTypeLib/temperatureCelsius",
+    "LibraryName": "AutomationML_CoreProperties.EnvironmentalConditions_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "0812d7e3-3bc0-4313-8690-9dfd74c9ac52"
+  },
+  {
     "ClassName": "storageTemperatureMaximum",
     "CaexPath": "AutomationML_BasicProperties.environmentalConditions_AttributeTypeLib/storageTemperatureMaximum",
     "BasePath": null,
@@ -10510,6 +10555,15 @@
     "LibraryVersion": "1.2.2",
     "AMLEdition": "AMLEd2",
     "ID": "NEW_GUID_4"
+  },
+  {
+    "ClassName": "storageTemperatureMaximum",
+    "CaexPath": "AutomationML_CoreProperties.EnvironmentalConditions_AttributeTypeLib/storageTemperatureMaximum",
+    "BasePath": "AutomationMLCoreProperties.PhysicalAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Physical_AttributeTypeLib/temperatureCelsius",
+    "LibraryName": "AutomationML_CoreProperties.EnvironmentalConditions_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "de644261-623d-40d2-be60-c4a74aa6678f"
   },
   {
     "ClassName": "depth",
@@ -11124,6 +11178,15 @@
     "ID": "941334b2-cf92-4ea5-b95f-26dd15d1b9c6"
   },
   {
+    "ClassName": "operatingAmbientTemperature",
+    "CaexPath": "AutomationML_CoreProperties.EnvironmentalConditions_AttributeTypeLib/operatingAmbientTemperature",
+    "BasePath": "AutomationMLCoreProperties.PhysicalAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Physical_AttributeTypeLib/temperatureCelsius",
+    "LibraryName": "AutomationML_CoreProperties.EnvironmentalConditions_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "941334b2-cf92-4ea5-b95f-26dd15d1b9c6"
+  },
+  {
     "ClassName": "startDateTime",
     "CaexPath": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/timeInterval/startDateTime",
     "BasePath": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/timePoint",
@@ -11590,6 +11653,15 @@
     "LibraryVersion": "1.2.2",
     "AMLEdition": "AMLEd2",
     "ID": "7d05deb7-a648-4730-ad92-acd6577dde95"
+  },
+  {
+    "ClassName": "storageAmbientTemperature",
+    "CaexPath": "AutomationML_CoreProperties.EnvironmentalConditions_AttributeTypeLib/storageAmbientTemperature",
+    "BasePath": "AutomationMLCoreProperties.PhysicalAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Physical_AttributeTypeLib/temperatureCelsius",
+    "LibraryName": "AutomationML_CoreProperties.EnvironmentalConditions_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "365e27f2-b21b-48df-95d4-08c714a5f491"
   },
   {
     "ClassName": "month",
@@ -17746,5 +17818,50 @@
     "LibraryVersion": "1.7.8",
     "AMLEdition": "AMLEd2",
     "ID": "4353abc5-7605-4126-97d2-5ceaf1ec1bb7"
+  },
+  {
+    "ClassName": "environmentalQuantity",
+    "CaexPath": "AutomationML_CoreProperties.EnvironmentalConditions_AttributeTypeLib/environmentalQuantity",
+    "BasePath": "AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/physicalQuantity",
+    "LibraryName": "AutomationML_CoreProperties.EnvironmentalConditions_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "e75be0a7-3819-44f7-84b1-84882e31a260"
+  },
+  {
+    "ClassName": "humidity",
+    "CaexPath": "AutomationML_CoreProperties.EnvironmentalConditions_AttributeTypeLib/humidity",
+    "BasePath": "AutomationML_CoreProperties.EnvironmentalConditions_AttributeTypeLib/environmentalQuantity",
+    "LibraryName": "AutomationML_CoreProperties.EnvironmentalConditions_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "429a7184-7da4-4f0d-86cd-0f8cddb411be"
+  },
+  {
+    "ClassName": "ambientTemperature",
+    "CaexPath": "AutomationML_CoreProperties.EnvironmentalConditions_AttributeTypeLib/ambientTemperature",
+    "BasePath": "AutomationMLCoreProperties.PhysicalAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Physical_AttributeTypeLib/temperatureCelsius",
+    "LibraryName": "AutomationML_CoreProperties.EnvironmentalConditions_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "17ba5bc6-2039-494d-a071-908ae664f468"
+  },
+  {
+    "ClassName": "vibrationLevel",
+    "CaexPath": "AutomationML_CoreProperties.EnvironmentalConditions_AttributeTypeLib/vibrationLevel",
+    "BasePath": "AutomationML_CoreProperties.EnvironmentalConditions_AttributeTypeLib/environmentalQuantity",
+    "LibraryName": "AutomationML_CoreProperties.EnvironmentalConditions_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "3db899b1-46a9-405c-ad8c-3c40a9041356"
+  },
+  {
+    "ClassName": "illumination",
+    "CaexPath": "AutomationML_CoreProperties.EnvironmentalConditions_AttributeTypeLib/illumination",
+    "BasePath": "AutomationMLCoreProperties.PhysicalAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Physical_AttributeTypeLib/illuminance",
+    "LibraryName": "AutomationML_CoreProperties.EnvironmentalConditions_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "d90660db-9367-4b27-bbac-a65e4d387666"
   }
 ]
