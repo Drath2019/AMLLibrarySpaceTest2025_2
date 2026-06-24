@@ -152,6 +152,26 @@
               "Revision": null
             }
           ]
+        },
+        {
+          "Name": "AutomationML_CoreProperties.Foundation_AttributeTypeLib",
+          "Versions": [
+            {
+              "Version": "1.7.8",
+              "CAEXVersion": "3.0",
+              "AMLEdition": "AMLEd2",
+              "IsArchived": false,
+              "Description": "This AttributeTypeLib defines the fundamental, domain-independent base attribute types and semantic root categories for the AutomationML Core Properties. It provides universally applicable abstractions for physical and discrete quantities, complex numbers, vectors, ratios, and structured collections. These attributes establish the foundational data model, independent of specific organizational, system, or process contexts, ensuring consistent semantic inheritance across all specialized domain libraries.",
+              "DownloadLink": null,
+              "DownloadLinks": [
+                "https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/AutomationML_CoreProperties.Foundation_AttributeTypeLib_AMLEd2_1.7.8-beta.aml"
+              ],
+              "Sources": null,
+              "Signature": "MEUCIQDwEnjd7gNgKl8fgi5HFZ2Z2qWu105NeXsRrP5behGmrAIgK3fCDnL5D73ejSFie5G3aczp2D4V7zOSQDmfD9qAzhM=",
+              "PublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEyk6uIUNugOojm3akdEAA4XoGGBEui0zPVhzkjR0RfprHFWrbPpFMfExaW2TaeChaegCmjE2boFph1aI1eNEPcQ==",
+              "Revision": null
+            }
+          ]
         }
       ]
     },
