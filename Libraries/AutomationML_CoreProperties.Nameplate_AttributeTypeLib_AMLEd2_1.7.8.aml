@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CAEXFile SchemaVersion="3.0" FileName="AutomationML_CoreProperties.Nameplate_AttributeTypeLib_AMLEd2_1.7.8.aml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.dke.de/CAEX" xsi:schemaLocation="http://www.dke.de/CAEX CAEX_ClassModel_V.3.0.xsd">
+  <Description>a data field used to track specific iterations, releases, or revisions of an asset, document, software build, or system configuration</Description>
+  <Version>1.7.8</Version>
+  <SuperiorStandardVersion>AutomationML 2.1</SuperiorStandardVersion>
+  <SourceDocumentInformation OriginName="CoreProperties.Nameplate_AttributeTypeLib" OriginID="0585b9d5-a9a2-422e-9dab-d9bfebfde9c8" OriginVersion="1.7.8" LastWritingDateTime="2026-06-24T22:04:53.7753743+02:00" OriginProjectID="" OriginProjectTitle="" OriginRelease="1.7.8" OriginVendor="AutomationML" OriginVendorURL="AutomationML_CoreProperties.Nameplate_AttributeTypeLib_AMLEd2_1.7.8.aml" />
+  <ExternalReference Path="https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/AutomationML_CoreProperties.Time_AttributeTypeLib_AMLEd2_1.7.8.aml" Alias="AutomationMLCoreProperties.TimeAttributeTypeLibAMLEd2" />
+  <ExternalReference Path="https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/AutomationML_CoreProperties.Foundation_AttributeTypeLib_AMLEd2_1.7.8.aml" Alias="AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2" />
+  <ExternalReference Path="https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/AutomationML_CoreProperties.Identification_AttributeTypeLib_AMLEd2_1.7.8.aml" Alias="AutomationMLCoreProperties.IdentificationAttributeTypeLibAMLEd2" />
+  <ExternalReference Path="https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/AutomationML_CoreProperties.Contact_AttributeTypeLib_AMLEd2_1.7.8.aml" Alias="AutomationMLCoreProperties.ContactAttributeTypeLibAMLEd2" />
+  <ExternalReference Path="https://9t4kqL7NX8JsW6o@automationml.ovgu.de/public.php/webdav/AutomationML_Base.Geometry_Libraries_AMLEd2_2.12.0.aml" Alias="AutomationMLBase.GeometryLibrariesAMLEd22_12_0" />
+  <AttributeTypeLib Name="AutomationML_CoreProperties.Nameplate_AttributeTypeLib" ID="bb0ec55a-f9f0-465e-8b9a-6afe5249786f">
+    <Description>This AttributeTypeLib provides attributes to define contact nameplate information.</Description>
+    <Version>1.7.8</Version>
+    <AttributeType Name="namePlateHeader" AttributeDataType="xs:string" ID="ddefa059-262f-4bea-857e-aff672d0b302">
+      <Description>namePlateHeader is a nameplate attribute that defines the header section of a technical or commercial nameplate, containing title and version information.</Description>
+      <Version>1.7.8</Version>
+      <Attribute Name="title" AttributeDataType="xs:string" RefAttributeType="AutomationML_CoreProperties.Nameplate_AttributeTypeLib/title" />
+      <Attribute Name="version" AttributeDataType="xs:string" RefAttributeType="AutomationML_CoreProperties.Nameplate_AttributeTypeLib/nameplateVersion" />
+      <Attribute Name="URL" AttributeDataType="xs:string" RefAttributeType="AutomationML_CoreProperties.Nameplate_AttributeTypeLib/url" />
+      <Attribute Name="organisation" AttributeDataType="xs:string" RefAttributeType="AutomationML_CoreProperties.Nameplate_AttributeTypeLib/organisation" />
+    </AttributeType>
+    <AttributeType Name="uriOfTheProduct" AttributeDataType="xs:string" ID="d4bbb6db-7391-4505-b4c0-cb7e21a69c1b" RefAttributeType="AutomationMLBase.GeometryLibrariesAMLEd22_12_0@AutomationMLBaseAttributeTypeLib/refURI">
+      <Description>uriOfTheProduct is a nameplate attribute that specifies the Uniform Resource Identifier pointing to the official product information or data sheet.</Description>
+      <Version>1.7.8</Version>
+      <RefSemantic CorrespondingAttributePath="IRDI:0112/2///61987#ABN590#002" />
+      <RefSemantic CorrespondingAttributePath="IRDI:0173-1#02-ABH173#003" />
+    </AttributeType>
+    <AttributeType Name="manufacturerName" AttributeDataType="xs:string" ID="b7a58fb3-8afd-4dfe-843a-fa1299fc869a" RefAttributeType="AutomationMLCoreProperties.IdentificationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib/identificationProperty">
+      <Description>manufacturerName is a nameplate attribute that specifies the legally responsible entity for the design, production, packaging, and market release of a product.</Description>
+      <Version>1.7.8</Version>
+      <RefSemantic CorrespondingAttributePath="IRDI:0173-1#02-AAO677#002" />
+      <RefSemantic CorrespondingAttributePath="IRDI:0112/2///61987#ABA565#009" />
+    </AttributeType>
+    <AttributeType Name="manufacturerProductDesignation" AttributeDataType="xs:string" ID="6f6fdd85-6f03-469e-94bd-bdabd397f90c" RefAttributeType="AutomationMLCoreProperties.IdentificationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib/identificationProperty">
+      <Description>manufacturerProductDesignation is a nameplate attribute that provides a concise textual description or model name of the product.</Description>
+      <Version>1.7.8</Version>
+      <RefSemantic CorrespondingAttributePath="IRDI:0173-1#02-AAW338#003" />
+      <RefSemantic CorrespondingAttributePath="IRDI:0112/2///61987#ABA567#009" />
+    </AttributeType>
+    <AttributeType Name="manufacturerProductRoot" AttributeDataType="xs:string" ID="68cdc6ef-0283-47f9-870a-e53912b6dece" RefAttributeType="AutomationMLCoreProperties.IdentificationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib/identificationProperty">
+      <Description>manufacturerProductRoot is a nameplate attribute that specifies the highest-level category in a manufacturer's three-tier product classification system.</Description>
+      <Version>1.7.8</Version>
+      <RefSemantic CorrespondingAttributePath="IRDI:0173-1#02-AAU732#001" />
+      <RefSemantic CorrespondingAttributePath="IRDI:0112/2///61360_7#AAS011#001" />
+    </AttributeType>
+    <AttributeType Name="manufacturerProductFamily" AttributeDataType="xs:string" ID="a5dae77b-326b-4e6b-b341-70e7dc6b6074" RefAttributeType="AutomationMLCoreProperties.IdentificationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib/identificationProperty">
+      <Description>manufacturerProductFamily is a nameplate attribute that specifies the second-level category within a manufacturer's product classification hierarchy.</Description>
+      <Version>1.7.8</Version>
+      <RefSemantic CorrespondingAttributePath="IRDI:0173-1#02-AAU731#001" />
+      <RefSemantic CorrespondingAttributePath="IRDI:0112/2///61987#ABP464#002" />
+    </AttributeType>
+    <AttributeType Name="manufacturerProductType" AttributeDataType="xs:string" ID="1b57ab39-2095-4596-a816-90afa7e15827" RefAttributeType="AutomationMLCoreProperties.IdentificationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib/identificationProperty">
+      <Description>manufacturerProductType is a nameplate attribute that specifies the specific type or variant distinguishing a product within a family.</Description>
+      <Version>1.7.8</Version>
+      <RefSemantic CorrespondingAttributePath="IRDI:0112/2///61987#ABA300#008" />
+      <RefSemantic CorrespondingAttributePath="IRDI:0173-1#02-AAO057#004" />
+    </AttributeType>
+    <AttributeType Name="orderCodeOfManufacturer" AttributeDataType="xs:string" ID="469515e7-20bb-412b-bb50-32c4b524cfc0" RefAttributeType="AutomationMLCoreProperties.IdentificationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib/identificationProperty">
+      <Description>orderCodeOfManufacturer is a nameplate attribute that specifies the unique alphanumeric code issued by the manufacturer for procurement and ordering purposes.</Description>
+      <Version>1.7.8</Version>
+      <RefSemantic CorrespondingAttributePath="IRDI:0112/2///61987#ABA950#008" />
+      <RefSemantic CorrespondingAttributePath="IRDI:0173-1#02-AAO227#004" />
+    </AttributeType>
+    <AttributeType Name="productArticleNumberOfManufacturer" AttributeDataType="xs:string" ID="ff499271-87ba-4ed1-a10c-0db9ce7e48fd" RefAttributeType="AutomationMLCoreProperties.IdentificationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib/identificationProperty">
+      <Description>productArticleNumberOfManufacturer is a nameplate attribute that represents the unique article number assigned by the manufacturer to a specific product variant.</Description>
+      <Version>1.7.8</Version>
+      <RefSemantic CorrespondingAttributePath="IRDI:0173-1#02-AAO676#003" />
+      <RefSemantic CorrespondingAttributePath="IRDI:0112/2///61987#ABA581#007" />
+    </AttributeType>
+    <AttributeType Name="yearOfConstruction" AttributeDataType="xs:gYear" ID="dcfd5051-641e-483d-8803-730719e4fd9a" RefAttributeType="AutomationMLCoreProperties.TimeAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Time_AttributeTypeLib/year">
+      <Description>yearOfConstruction is a temporal nameplate attribute that specifies the calendar year in which the manufacturing or assembly of an object was completed.</Description>
+      <Version>1.7.8</Version>
+      <RefSemantic CorrespondingAttributePath="IRDI:0173-1#02-AAP906#001" />
+      <RefSemantic CorrespondingAttributePath="IRDI:0112/2///61987#ABP000#002" />
+    </AttributeType>
+    <AttributeType Name="dateOfManufacture" AttributeDataType="xs:date" ID="5fa1d7dc-6899-4e83-8b44-d3c9450955f4" RefAttributeType="AutomationMLCoreProperties.TimeAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Time_AttributeTypeLib/date">
+      <Description>dateOfManufacture is a temporal nameplate attribute that specifies the exact calendar date when production or development was completed.</Description>
+      <Version>1.7.8</Version>
+      <RefSemantic CorrespondingAttributePath="IRDI:0173-1#02-AAR972#002" />
+      <RefSemantic CorrespondingAttributePath="IRDI:0112/2///61987#ABB757#007" />
+    </AttributeType>
+    <AttributeType Name="hardwareVersion" AttributeDataType="xs:string" ID="333c34de-6723-47f1-b575-8f2c7520c2fa" RefAttributeType="AutomationMLCoreProperties.IdentificationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib/versionNumber">
+      <Description>hardwareVersion is a nameplate attribute that specifies the version number or revision level of the physical hardware components of a device.</Description>
+      <Version>1.7.8</Version>
+      <Value>Version of the hardware supplied with the device</Value>
+      <RefSemantic CorrespondingAttributePath="IRDI:0173-1#02-AAN270#002" />
+      <RefSemantic CorrespondingAttributePath="IRDI:0112/2///61987#ABA926#008" />
+    </AttributeType>
+    <AttributeType Name="firmwareVersion" AttributeDataType="xs:string" ID="15e35e20-9c1c-4350-9e6c-93a5f4e36ddf" RefAttributeType="AutomationMLCoreProperties.IdentificationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib/versionNumber">
+      <Description>firmwareVersion is a nameplate attribute that specifies the version number of the embedded software or firmware pre-installed on a device.</Description>
+      <Version>1.7.8</Version>
+      <RefSemantic CorrespondingAttributePath="IRDI:0173-1#02-AAM985#002" />
+      <RefSemantic CorrespondingAttributePath="IRDI:0112/2///61987#ABA302#006" />
+    </AttributeType>
+    <AttributeType Name="softwareRevision" AttributeDataType="xs:string" ID="8a1ce7fa-56e8-4b9d-9927-31810897663c" RefAttributeType="AutomationMLCoreProperties.IdentificationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib/versionNumber">
+      <Description>softwareRevision is a nameplate attribute that specifies the version or build number of the operating system or application software used by a device.</Description>
+      <Version>1.7.8</Version>
+      <RefSemantic CorrespondingAttributePath="IRDI:0173-1#02-AAM737#002" />
+      <RefSemantic CorrespondingAttributePath="IRDI:0112/2///61987#ABA601#008" />
+    </AttributeType>
+    <AttributeType Name="title" AttributeDataType="xs:string" ID="869b6f2a-ef6a-4127-8702-9ad665455161" RefAttributeType="AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/genericText">
+      <Description>title is a nameplate attribute that specifies the official heading or descriptive label of a nameplate or technical document.</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+    <AttributeType Name="nameplateVersion" AttributeDataType="xs:string" ID="eddb8d63-f4e3-483c-832d-896c17eac89c" RefAttributeType="AutomationMLCoreProperties.IdentificationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib/versionNumber">
+      <Description>nameplateVersion is a nameplate attribute that specifies the revision or version number of the nameplate standard or template used.</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+    <AttributeType Name="url" AttributeDataType="xs:string" ID="a3dc48d0-0607-46e5-851d-083a625afba9" RefAttributeType="AutomationMLBase.GeometryLibrariesAMLEd22_12_0@AutomationMLBaseAttributeTypeLib/refURI">
+      <Description>url is a nameplate attribute that specifies the web address where the official nameplate definition, standard, or technical documentation can be accessed.</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+    <AttributeType Name="organisation" AttributeDataType="xs:string" ID="f2c3e095-f422-4dcd-bf4e-f0df232a5282" RefAttributeType="AutomationMLCoreProperties.ContactAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Contact_AttributeTypeLib/economicEntity">
+      <Description>organisation is a nameplate attribute that specifies the regulatory body, standards organization, or entity responsible for defining the nameplate format.</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+    <AttributeType Name="markingName" AttributeDataType="xs:string" ID="e62d772f-6989-42c0-ae99-f24e11750c7f" RefAttributeType="AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/genericText">
+      <Description>markingName is a nameplate attribute that specifies the standard or common name of a regulatory, safety, or technical marking applied to an asset.</Description>
+      <Version>1.7.8</Version>
+      <RefSemantic CorrespondingAttributePath="IRDI:0112/2///61987#ABA231#009" />
+      <RefSemantic CorrespondingAttributePath="IRDI:0173-1#02-ABI190#003" />
+    </AttributeType>
+    <AttributeType Name="designationOfCertificateOrApproval" AttributeDataType="xs:string" ID="86353b84-5f99-4619-acb9-c0d8a6b16871" RefAttributeType="AutomationMLCoreProperties.IdentificationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib/identificationProperty">
+      <Description>designationOfCertificateOrApproval is a nameplate attribute that specifies the official alphanumeric code or reference number of a regulatory certificate or approval.</Description>
+      <Version>1.7.8</Version>
+      <RefSemantic CorrespondingAttributePath="IRDI:0112/2///61987#ABH783#001" />
+      <RefSemantic CorrespondingAttributePath="IRDI:0173-1#02-ABI975#002" />
+    </AttributeType>
+    <AttributeType Name="issueDate" AttributeDataType="xs:date" ID="d9d037a8-0fdf-4581-ad14-19a274d093d2" RefAttributeType="AutomationMLCoreProperties.TimeAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Time_AttributeTypeLib/date">
+      <Description>issueDate is a temporal nameplate attribute that specifies the calendar date on which a regulatory certificate or approval was officially issued.</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+    <AttributeType Name="expireDate" AttributeDataType="xs:date" ID="ed36f769-7c17-48e5-a0dc-c92eae4435a4" RefAttributeType="AutomationMLCoreProperties.TimeAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Time_AttributeTypeLib/date">
+      <Description>expireDate is a temporal nameplate attribute that specifies the calendar date on which a regulatory certificate or approval officially expires.</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+    <AttributeType Name="markingAdditionalText" AttributeDataType="xs:string" ID="65db31f1-6d70-4e17-91cd-c1fe6b5ee271" RefAttributeType="AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/genericText">
+      <Description>markingAdditionalText is a nameplate attribute that provides supplementary plain-text information regarding a regulatory marking, such as notified body identification.</Description>
+      <Version>1.7.8</Version>
+      <RefSemantic CorrespondingAttributePath="IRDI:0173-1#02-AAM954#002" />
+    </AttributeType>
+    <AttributeType Name="countryOfOrigin" ID="a9107382-0f2c-4255-a824-2baed3ba53bc" AttributeDataType="xs:string" RefAttributeType="AutomationMLCoreProperties.ContactAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Contact_AttributeTypeLib/countryName">
+      <Description>countryOfOrigin is a nameplate attribute that specifies the country where the final manufacturing or substantial transformation of a product occurred.</Description>
+      <Version>1.7.8</Version>
+      <RefSemantic CorrespondingAttributePath="IRDI:0112/2///61987#ABP462#001" />
+      <RefSemantic CorrespondingAttributePath="IRDI:0173-1#02-AAO259#007" />
+    </AttributeType>
+  </AttributeTypeLib>
+</CAEXFile>
