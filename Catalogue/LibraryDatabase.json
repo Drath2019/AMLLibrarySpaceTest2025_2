@@ -2112,26 +2112,6 @@
               "Revision": null
             }
           ]
-        },
-        {
-          "Name": "AutomationML_CoreProperties.Appearance_AttributeTypeLib",
-          "Versions": [
-            {
-              "Version": "1.7.8",
-              "CAEXVersion": "3.0",
-              "AMLEdition": "AMLEd2",
-              "IsArchived": false,
-              "Description": "This AttributeTypeLib defines appearance-related attributes that describe the visual and externally perceivable properties of an asset, such as color, finish, markings, and variants. The attributes are descriptive, domain-neutral, and independent of functional or technical behavior.",
-              "DownloadLink": null,
-              "DownloadLinks": [
-                "https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/AutomationML_CoreProperties.Appearance_AttributeTypeLib_AMLEd2_1.7.8.aml"
-              ],
-              "Sources": null,
-              "Signature": "MEQCIEvVhsnfDpj1s32K5M6OWuzMYTY7oB2S4KI2TiBSQd6FAiAeCA/Pl8XlhhUY9zMuaA601k9oSolDSvbu4G2qB3Y1/g==",
-              "PublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEyk6uIUNugOojm3akdEAA4XoGGBEui0zPVhzkjR0RfprHFWrbPpFMfExaW2TaeChaegCmjE2boFph1aI1eNEPcQ==",
-              "Revision": null
-            }
-          ]
         }
       ]
     },
