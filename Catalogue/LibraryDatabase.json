@@ -2421,6 +2421,26 @@
               "Revision": null
             }
           ]
+        },
+        {
+          "Name": "AutomationML_CoreProperties.StatisticsAndDistribution_AttributeTypeLib",
+          "Versions": [
+            {
+              "Version": "1.7.8",
+              "CAEXVersion": "3.0",
+              "AMLEdition": "AMLEd2",
+              "IsArchived": false,
+              "Description": "This AttributeTypeLib defines attribute types for statistical modeling, probability distributions, and stochastic data analysis. It provides a comprehensive set of continuous, discrete, and deterministic distribution models (e.g., Normal, Weibull, Poisson, Empirical), along with statistical parameters such as mean, standard deviation, and recurrence periods. The library serves as a standardized semantic basis for discrete event simulation, reliability analysis, and probabilistic engineering calculations.",
+              "DownloadLink": null,
+              "DownloadLinks": [
+                "https://9t4kqL7NX8JsW6o@automationml.ovgu.de/public.php/webdav/AutomationML_CoreProperties.StatisticsAndDistribution_AttributeTypeLib_AMLEd2_1.7.8.aml"
+              ],
+              "Sources": null,
+              "Signature": "MEUCIQDxCCRMRxUP5IsBK4D2ZnOQ8fVfwp2OtsRJWhGR6dUUzQIgIm/PZWwnFgd3ira/MAal\u002Bv2a79GvaqfniXyEY1IhmY4=",
+              "PublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEyk6uIUNugOojm3akdEAA4XoGGBEui0zPVhzkjR0RfprHFWrbPpFMfExaW2TaeChaegCmjE2boFph1aI1eNEPcQ==",
+              "Revision": null
+            }
+          ]
         }
       ]
     },
