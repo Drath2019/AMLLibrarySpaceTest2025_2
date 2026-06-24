@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CAEXFile SchemaVersion="3.0" FileName="AutomationML_CoreProperties.Electrical_AttributeTypeLib_AMLEd2_1.7.8.aml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.dke.de/CAEX" xsi:schemaLocation="http://www.dke.de/CAEX CAEX_ClassModel_V.3.0.xsd">
+  <Description>a data field used to track specific iterations, releases, or revisions of an asset, document, software build, or system configuration</Description>
+  <Version>1.7.8</Version>
+  <SuperiorStandardVersion>AutomationML 2.1</SuperiorStandardVersion>
+  <SourceDocumentInformation OriginName="CoreProperties.Electrical_AttributeTypeLib" OriginID="c650b752-65ee-4020-a948-4bf5646dfc3b" OriginVersion="1.7.8" LastWritingDateTime="2026-06-24T15:16:04.306329+02:00" OriginProjectID="" OriginProjectTitle="" OriginRelease="1.7.8" OriginVendor="AutomationML" OriginVendorURL="AutomationML_CoreProperties.Electrical_AttributeTypeLib_AMLEd2_1.7.8.aml" />
+  <ExternalReference Path="https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/AutomationML_CoreProperties.Foundation_AttributeTypeLib_AMLEd2_1.7.8.aml" Alias="AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2" />
+  <ExternalReference Path="https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/AutomationML_CoreProperties.Physical_AttributeTypeLib_AMLEd2_1.7.8.aml" Alias="AutomationMLCoreProperties.PhysicalAttributeTypeLibAMLEd2" />
+  <AttributeTypeLib Name="AutomationML_CoreProperties.Electrical_AttributeTypeLib" ID="946c2b0c-0498-4766-86e4-ea2d9900c9fe">
+    <Description>This AttributeTypeLib defines fundamental, domain-neutral electrical and energy-related properties of an asset. The contained attributes represent measurable electrical quantities (such as electric charge, electric potential difference, capacitance, resistance, conductance, magnetic flux, magnetic flux density, and inductance) as well as generic power demand and energy demand characteristics. All attributes are formulated independent of a specific engineering discipline, energy carrier, device class, control concept, or organizational context, and are intended to provide a common semantic basis for describing electrical behavior and consumption-related characteristics.</Description>
+    <Version>1.7.8</Version>
+    <AttributeType Name="electricQuantity" ID="0d4e627e-3303-41ec-9fd0-d9891c816c6d" AttributeDataType="xs:double" RefAttributeType="AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/physicalQuantity">
+      <Description>electricQuantity is an abstract quantity attribute that serves as a common semantic category for measurable electrical properties expressed as a numerical value and a unit.</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+    <AttributeType Name="complexElectricQuantity" ID="d4b30952-34e6-4420-9a32-c11938d7c9d4" AttributeDataType="xs:double" RefAttributeType="AutomationML_CoreProperties.Electrical_AttributeTypeLib/electricQuantity">
+      <Description>complexElectricQuantity is an abstract electrical quantity represented by a complex number Y = a + j * b. The magnitude of Y is represented by the value of the complexElectricQuantity. The elements a, b are modelled individually in instances of the abstract attribute.</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+    <AttributeType Name="current" ID="5d8eba78-b0f5-4d29-a610-1e06dcb71f39" AttributeDataType="xs:double" Unit="A" RefAttributeType="AutomationML_CoreProperties.Electrical_AttributeTypeLib/electricQuantity">
+      <Description>current is a physical quantity that expresses the rate of flow of electric charge.</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+    <AttributeType Name="electricCharge" AttributeDataType="xs:double" Unit="C" ID="8ea8be25-e050-4823-bc7c-f8b21063eae8" RefAttributeType="AutomationML_CoreProperties.Electrical_AttributeTypeLib/electricQuantity">
+      <Description>electricCharge is an electrical quantity that expresses electric charge associated with an object.</Description>
+      <Version>1.7.8</Version>
+      <SourceObjectInformation OriginID="INTERNATIONAL BUREAU OF WEIGHTS AND MEASURES (BIPM). The International System of Units (SI). 9th edition 2019" />
+    </AttributeType>
+    <AttributeType Name="voltage" ID="379fb214-3454-49ab-9635-d1cb46534c57" AttributeDataType="xs:double" Unit="V" RefAttributeType="AutomationML_CoreProperties.Electrical_AttributeTypeLib/electricQuantity">
+      <Description>voltage is an electrical quantity that expresses electric potential difference between two points.</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+    <AttributeType Name="electricFieldStrength" ID="ce01373d-a7c7-45b6-b406-a8d6eef144ec" AttributeDataType="xs:double" Unit="V/m" RefAttributeType="AutomationML_CoreProperties.Electrical_AttributeTypeLib/electricQuantity">
+      <Description>electricFieldStrength is an electrical quantity that expresses the magnitude of the electric field vector at a point.</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+    <AttributeType Name="electricFluxDensity" ID="d5805bb0-af61-4799-b528-c7a5a0f9cc75" AttributeDataType="xs:double" Unit="C/m^2" RefAttributeType="AutomationML_CoreProperties.Electrical_AttributeTypeLib/electricQuantity">
+      <Description>electricFluxDensity is a scalar electrical quantity that expresses the magnitude of the electric flux density vector field in a medium, related to free charge.</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+    <AttributeType Name="electricFlux" AttributeDataType="xs:double" Unit="C" ID="644910d0-20ac-4aa2-9e04-febaec22b96d" RefAttributeType="AutomationML_CoreProperties.Electrical_AttributeTypeLib/electricQuantity">
+      <Description>electricFlux is the surface integral of the electric displacement field over a surface.</Description>
+      <Version>1.7.8</Version>
+      <SourceObjectInformation OriginID="INTERNATIONAL BUREAU OF WEIGHTS AND MEASURES (BIPM). The International System of Units (SI). 9th edition 2019" />
+    </AttributeType>
+    <AttributeType Name="capacitance" AttributeDataType="xs:double" Unit="F" ID="30883e1c-3eb9-44be-9270-8e76a1c9d8c1" RefAttributeType="AutomationML_CoreProperties.Electrical_AttributeTypeLib/electricQuantity">
+      <Description>capacitance is an electrical quantity that expresses electrical capacitance of an object or a defined component.</Description>
+      <Version>1.7.8</Version>
+      <SourceObjectInformation OriginID="INTERNATIONAL BUREAU OF WEIGHTS AND MEASURES (BIPM). The International System of Units (SI). 9th edition 2019" />
+    </AttributeType>
+    <AttributeType Name="resistance" AttributeDataType="xs:double" Unit="Ω" ID="c858c81f-f169-4521-989f-a5576b0d495e" RefAttributeType="AutomationML_CoreProperties.Electrical_AttributeTypeLib/electricQuantity">
+      <Description>resistance is an electrical quantity that expresses measure of the opposition to the flow of electric current in a circuit.</Description>
+      <Version>1.7.8</Version>
+      <SourceObjectInformation OriginID="INTERNATIONAL BUREAU OF WEIGHTS AND MEASURES (BIPM). The International System of Units (SI). 9th edition 2019" />
+    </AttributeType>
+    <AttributeType Name="conductance" AttributeDataType="xs:double" Unit="S" ID="2910e227-3d0a-4a6f-96ad-c585db44e749" RefAttributeType="AutomationML_CoreProperties.Electrical_AttributeTypeLib/electricQuantity">
+      <Description>conductance is the reciprocal of electrical resistance, measuring how easily an electric current flows through a material.</Description>
+      <Version>1.7.8</Version>
+      <SourceObjectInformation OriginID="INTERNATIONAL BUREAU OF WEIGHTS AND MEASURES (BIPM). The International System of Units (SI). 9th edition 2019" />
+    </AttributeType>
+    <AttributeType Name="resistivity" ID="1fb17572-4a4f-4b35-8f01-732c89230fd4" AttributeDataType="xs:double" Unit="Ω*m" RefAttributeType="AutomationML_CoreProperties.Electrical_AttributeTypeLib/electricQuantity">
+      <Description>resistivity is an electrical quantity that expresses material property describing opposition to electric current flow, normalized by geometry.</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+    <AttributeType Name="conductivity" ID="8b8cdd04-aab6-4b17-b300-bfd1e83be307" AttributeDataType="xs:double" Unit="S/m" RefAttributeType="AutomationML_CoreProperties.Electrical_AttributeTypeLib/electricQuantity">
+      <Description>conductivity is an electrical quantity that expresses the intrinsic property of a material that measures its inherent ability to conduct an electric current.</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+    <AttributeType Name="magneticFluxDensity" AttributeDataType="xs:double" Unit="T" ID="ab65f835-28a8-402f-8c6e-3a65cc72dafd" RefAttributeType="AutomationML_CoreProperties.Electrical_AttributeTypeLib/electricQuantity">
+      <Description>magneticFluxDensity is a scalar electrical quantity that expresses the magnitude of the magnetic flux density vector associated with an object or a defined region.</Description>
+      <Version>1.7.8</Version>
+      <SourceObjectInformation OriginID="INTERNATIONAL BUREAU OF WEIGHTS AND MEASURES (BIPM). The International System of Units (SI). 9th edition 2019" />
+    </AttributeType>
+    <AttributeType Name="magneticFlux" AttributeDataType="xs:double" Unit="Wb" ID="48c0890a-1e98-45db-9a05-fabf75ba1c07" RefAttributeType="AutomationML_CoreProperties.Electrical_AttributeTypeLib/electricQuantity">
+      <Description>magneticFlux is an electrical quantity that expresses a measure of the total magnetic field passing through a given surface area. It represents the total number of magnetic field lines piercing a surface.</Description>
+      <Version>1.7.8</Version>
+      <SourceObjectInformation OriginID="INTERNATIONAL BUREAU OF WEIGHTS AND MEASURES (BIPM). The International System of Units (SI). 9th edition 2019" />
+    </AttributeType>
+    <AttributeType Name="magneticFieldStrength" ID="a0cf1a7e-1b18-4a11-b297-15507215aa37" AttributeDataType="xs:double" Unit="A/m" RefAttributeType="AutomationML_CoreProperties.Electrical_AttributeTypeLib/electricQuantity">
+      <Description>magneticFieldStrength is an electrical quantity that expresses the magnitude of the magnetic field vector at a point.</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+    <AttributeType Name="inductance" AttributeDataType="xs:double" Unit="H" ID="5ec36a29-70e1-41c8-9a9d-4ef02ae85e7e" RefAttributeType="AutomationML_CoreProperties.Electrical_AttributeTypeLib/electricQuantity">
+      <Description>inductance is an electrical quantity that expresses electrical inductance of an object or a defined inductive component.</Description>
+      <Version>1.7.8</Version>
+      <SourceObjectInformation OriginID="INTERNATIONAL BUREAU OF WEIGHTS AND MEASURES (BIPM). The International System of Units (SI). 9th edition 2019" />
+    </AttributeType>
+    <AttributeType Name="permittivity" ID="f3ee6725-e1df-45fe-9678-7777da694a62" AttributeDataType="xs:double" Unit="F/m" RefAttributeType="AutomationML_CoreProperties.Electrical_AttributeTypeLib/electricQuantity">
+      <Description>permittivity is the ratio of electric displacement field to electric field strength in a medium.</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+    <AttributeType Name="permeability" ID="37b0529e-4a56-4a7f-8144-df863c7f5e0b" AttributeDataType="xs:double" Unit="H/m" RefAttributeType="AutomationML_CoreProperties.Electrical_AttributeTypeLib/electricQuantity">
+      <Description>permeability is the ratio of magnetic flux density to magnetic field strength in a medium.</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+    <AttributeType Name="impedance" ID="d872f745-5b07-40d8-a58b-2dbc4999b1b8" AttributeDataType="xs:double" Unit="Ω" RefAttributeType="AutomationML_CoreProperties.Electrical_AttributeTypeLib/complexElectricQuantity">
+      <Description>impedance is the magnitude of the ratio of voltage to current in an AC circuit. It is a complex number Z = R + j * X. </Description>
+      <Version>1.7.8</Version>
+      <Attribute Name="R" RefAttributeType="AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/realPart" AttributeDataType="xs:double" Unit="Ω">
+        <Description>R is the resistance, the real part of a complex impedance.</Description>
+      </Attribute>
+      <Attribute Name="X" RefAttributeType="AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/imaginaryPart" AttributeDataType="xs:double" Unit="Ω">
+        <Description>X is the reactance, the imaginary part of a complex impedance.</Description>
+      </Attribute>
+    </AttributeType>
+    <AttributeType Name="admittance" ID="6879ce89-b96c-4141-b599-4ec47c744a27" AttributeDataType="xs:double" Unit="S" RefAttributeType="AutomationML_CoreProperties.Electrical_AttributeTypeLib/complexElectricQuantity">
+      <Description>admittance is the reciprocal of impedance, measuring how easily AC current flows. It is a complex number Y = G + j * B. The value represents the magnitude of Y, G and B are expressed by sub attributes.</Description>
+      <Version>1.7.8</Version>
+      <Attribute Name="G" RefAttributeType="AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/realPart" AttributeDataType="xs:double" Unit="S">
+        <Description>G is the conductance, the real part of a complex admittance.</Description>
+      </Attribute>
+      <Attribute Name="B" RefAttributeType="AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/imaginaryPart" AttributeDataType="xs:double" Unit="S">
+        <Description>B is the susceptance, the imaginary part of a complex admittance.</Description>
+      </Attribute>
+    </AttributeType>
+    <AttributeType Name="reactance" ID="144ec604-631c-4384-9179-da40a1e452a4" AttributeDataType="xs:double" Unit="Ω" RefAttributeType="AutomationML_CoreProperties.Electrical_AttributeTypeLib/electricQuantity">
+      <Description>reactance is the imaginary part of impedance, the opposition to current change due to capacitance or inductance.</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+    <AttributeType Name="susceptance" ID="4bdba746-68bc-4e3c-acd8-b3589f648021" AttributeDataType="xs:double" Unit="S" RefAttributeType="AutomationML_CoreProperties.Electrical_AttributeTypeLib/electricQuantity">
+      <Description>susceptance is the imaginary part of admittance.</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+    <AttributeType Name="electricalFrequency" RefAttributeType="AutomationMLCoreProperties.PhysicalAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Physical_AttributeTypeLib/frequency" ID="98936f91-8645-4251-ad1b-88d159fb3200" AttributeDataType="xs:double" Unit="Hz">
+      <Description>electricalFrequency is a physical quantity that expresses the frequency of an alternating electrical signal.</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+    <AttributeType Name="electricalEnergy" ID="9dfcdf25-6cf9-42b6-8424-41ee79187253" AttributeDataType="xs:double" Unit="J" RefAttributeType="AutomationMLCoreProperties.PhysicalAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Physical_AttributeTypeLib/energy">
+      <Description>electricalEnergy is an electrical quantity that expresses energy stored or transferred by electric processes.</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+    <AttributeType Name="electricalPower" ID="d69a3345-f10a-426f-95c0-f7a8423d0c32" AttributeDataType="xs:double" Unit="W" RefAttributeType="AutomationMLCoreProperties.PhysicalAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Physical_AttributeTypeLib/power">
+      <Description>electricalPower is an electrical quantity that expresses the rate at which electrical energy is transferred, converted, or used per unit of time.</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+    <AttributeType Name="apparentPower" RefAttributeType="AutomationMLCoreProperties.PhysicalAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Physical_AttributeTypeLib/power" ID="946a1da5-08ac-4c01-8655-796cadaa2078" AttributeDataType="xs:double" Unit="VA">
+      <Description>apparentPower is a physical quantity that expresses the product of RMS voltage and current in AC systems.</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+    <AttributeType Name="reactivePower" RefAttributeType="AutomationMLCoreProperties.PhysicalAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Physical_AttributeTypeLib/power" ID="b9917fb2-dcc1-41a1-9da3-77d6327a6116" AttributeDataType="xs:double" Unit="var">
+      <Description>reactivePower is a physical quantity that expresses power exchanged between source and reactive components.</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+    <AttributeType Name="electricalWork" ID="dc1760a7-68a0-4a76-966f-2e7cd85fe40b" AttributeDataType="xs:double" Unit="J" RefAttributeType="AutomationML_CoreProperties.Electrical_AttributeTypeLib/electricalEnergy">
+      <Description>electricalWork is an electrical quantity that expresses work done by or on an electric field.</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+  </AttributeTypeLib>
+</CAEXFile>
