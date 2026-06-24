@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CAEXFile SchemaVersion="3.0" FileName="AutomationML_CoreProperties.EnvironmentalConditions_AttributeTypeLib_AMLEd2_1.7.8.aml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.dke.de/CAEX" xsi:schemaLocation="http://www.dke.de/CAEX CAEX_ClassModel_V.3.0.xsd">
+  <Description>a data field used to track specific iterations, releases, or revisions of an asset, document, software build, or system configuration</Description>
+  <Version>1.7.8</Version>
+  <SuperiorStandardVersion>AutomationML 2.1</SuperiorStandardVersion>
+  <SourceDocumentInformation OriginName="CoreProperties.EnvironmentalConditions_AttributeTypeLib" OriginID="4a5a0169-d7ae-40aa-a03b-8482e3411261" OriginVersion="1.7.8" LastWritingDateTime="2026-06-24T15:56:27.2732943+02:00" OriginProjectID="" OriginProjectTitle="" OriginRelease="1.7.8" OriginVendor="AutomationML" OriginVendorURL="AutomationML_CoreProperties.EnvironmentalConditions_AttributeTypeLib_AMLEd2_1.7.8.aml" />
+  <ExternalReference Path="https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/AutomationML_CoreProperties.Foundation_AttributeTypeLib_AMLEd2_1.7.8.aml" Alias="AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2" />
+  <ExternalReference Path="https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/AutomationML_CoreProperties.Physical_AttributeTypeLib_AMLEd2_1.7.8.aml" Alias="AutomationMLCoreProperties.PhysicalAttributeTypeLibAMLEd2" />
+  <AttributeTypeLib Name="AutomationML_CoreProperties.EnvironmentalConditions_AttributeTypeLib" ID="06f4930e-5650-4d3d-9594-bce2beabbea4">
+    <Description>This AttributeTypeLib contains basic environmental boundary conditions that define the general permissible operating and storage environment of an asset. The attributes are limited to universally relevant environmental constraints and exclude domain-specific, normative, or application-dependent environmental requirements.</Description>
+    <Version>1.7.8</Version>
+    <AttributeType Name="environmentalQuantity" ID="e75be0a7-3819-44f7-84b1-84882e31a260" AttributeDataType="xs:double" RefAttributeType="AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/physicalQuantity">
+      <Description>environmentalQuantity is an abstract quantity attribute that serves as a common semantic category for describing environmental or ambient conditions.</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+    <AttributeType Name="humidity" ID="429a7184-7da4-4f0d-86cd-0f8cddb411be" AttributeDataType="xs:double" Unit="1" RefAttributeType="AutomationML_CoreProperties.EnvironmentalConditions_AttributeTypeLib/environmentalQuantity">
+      <Description>humidity is a dimensionless environmental quantity that expresses the water-vapour content of the air, usually as relative humidity unless otherwise specified.</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+    <AttributeType Name="relativeHumidityMinimum" AttributeDataType="xs:double" RefAttributeType="AutomationML_CoreProperties.EnvironmentalConditions_AttributeTypeLib/humidity" Unit="1" ID="dc8119a7-f88a-44b3-a2c2-449d3a079ae7">
+      <Description>relativeHumidityMinimum is the dimensionless minimum permissible relative humidity of the surrounding environment for the asset under specified conditions.</Description>
+      <Version>1.7.8</Version>
+      <RefSemantic CorrespondingAttributePath="0173-1#02-AAW976#005" />
+    </AttributeType>
+    <AttributeType Name="relativeHumidityMaximum" AttributeDataType="xs:double" RefAttributeType="AutomationML_CoreProperties.EnvironmentalConditions_AttributeTypeLib/humidity" Unit="1" ID="214585df-3cf2-4b82-8738-c09b239997b1">
+      <Description>relativeHumidityMaximum is the dimensionless maximum permissible relative humidity of the surrounding environment for the asset under specified conditions.</Description>
+      <Version>1.7.8</Version>
+      <RefSemantic CorrespondingAttributePath="0173-1#02-AAN102#006" />
+    </AttributeType>
+    <AttributeType Name="ambientTemperature" ID="17ba5bc6-2039-494d-a071-908ae664f468" AttributeDataType="xs:double" RefAttributeType="AutomationMLCoreProperties.PhysicalAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Physical_AttributeTypeLib/temperatureCelsius" Unit="°C">
+      <Description>ambientTemperature is an environmental quantity that expresses temperature of the surrounding environment.</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+    <AttributeType Name="operatingTemperatureMinimum" AttributeDataType="xs:double" Unit="°C" ID="3e9ed7bd-743b-4b51-a154-6d944a14ed10" RefAttributeType="AutomationMLCoreProperties.PhysicalAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Physical_AttributeTypeLib/temperatureCelsius">
+      <Description>operatingTemperatureMinimum is an environmental quantity that expresses minimum permissible ambient temperature for operating the asset under specified conditions.</Description>
+      <Version>1.7.8</Version>
+      <RefSemantic CorrespondingAttributePath="0173-1#02-AAW301#005" />
+    </AttributeType>
+    <AttributeType Name="operatingTemperatureMaximum" AttributeDataType="xs:double" Unit="°C" ID="98b7ba0b-0084-438d-86ca-6309d6f29ec9" RefAttributeType="AutomationMLCoreProperties.PhysicalAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Physical_AttributeTypeLib/temperatureCelsius">
+      <Description>operatingTemperatureMaximum is an environmental quantity that expresses maximum permissible ambient temperature for operating the asset under specified conditions.</Description>
+      <Version>1.7.8</Version>
+      <RefSemantic CorrespondingAttributePath="0173-1#02-AAW302#005" />
+    </AttributeType>
+    <AttributeType Name="operatingAmbientTemperature" ID="941334b2-cf92-4ea5-b95f-26dd15d1b9c6" AttributeDataType="xs:double" RefAttributeType="AutomationMLCoreProperties.PhysicalAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Physical_AttributeTypeLib/temperatureCelsius" Unit="°C">
+      <Description>operatingAmbientTemperature is an environmental quantity that expresses ambient temperature associated with operating conditions of the asset.</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+    <AttributeType Name="storageTemperatureMinimum" AttributeDataType="xs:double" RefAttributeType="AutomationMLCoreProperties.PhysicalAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Physical_AttributeTypeLib/temperatureCelsius" Unit="°C" ID="0812d7e3-3bc0-4313-8690-9dfd74c9ac52">
+      <Description>storageTemperatureMinimum is an environmental quantity that expresses minimum permissible ambient temperature for storing the asset under specified conditions.</Description>
+      <Version>1.7.8</Version>
+      <RefSemantic CorrespondingAttributePath="0173-1#02-AAQ342#008" />
+    </AttributeType>
+    <AttributeType Name="storageTemperatureMaximum" AttributeDataType="xs:double" RefAttributeType="AutomationMLCoreProperties.PhysicalAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Physical_AttributeTypeLib/temperatureCelsius" Unit="°C" ID="de644261-623d-40d2-be60-c4a74aa6678f">
+      <Description>storageTemperatureMaximum is an environmental quantity that expresses maximum permissible ambient temperature for storing the asset under specified conditions.</Description>
+      <Version>1.7.8</Version>
+      <RefSemantic CorrespondingAttributePath="0173-1#02-AAQ341#008" />
+    </AttributeType>
+    <AttributeType Name="storageAmbientTemperature" ID="365e27f2-b21b-48df-95d4-08c714a5f491" AttributeDataType="xs:double" RefAttributeType="AutomationMLCoreProperties.PhysicalAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Physical_AttributeTypeLib/temperatureCelsius" Unit="°C">
+      <Description>storageAmbientTemperature is an environmental quantity that expresses ambient temperature associated with storage conditions of the asset.</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+    <AttributeType Name="vibrationLevel" ID="3db899b1-46a9-405c-ad8c-3c40a9041356" AttributeDataType="xs:double" Unit="mm/s" RefAttributeType="AutomationML_CoreProperties.EnvironmentalConditions_AttributeTypeLib/environmentalQuantity">
+      <Description>vibrationLevel represents the RMS velocity of mechanical vibration measured at a specified location or frequency range. Note: Industrial standards (e.g., ISO 20816) typically use mm/s.</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+    <AttributeType Name="illumination" ID="d90660db-9367-4b27-bbac-a65e4d387666" AttributeDataType="xs:double" Unit="lx" RefAttributeType="AutomationMLCoreProperties.PhysicalAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Physical_AttributeTypeLib/illuminance">
+      <Description>illumination is an environmental quantity that expresses the amount of luminous flux incident on a surface per unit area.</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+  </AttributeTypeLib>
+</CAEXFile>
