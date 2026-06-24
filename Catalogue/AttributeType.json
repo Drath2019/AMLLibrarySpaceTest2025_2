@@ -3672,6 +3672,15 @@
     "ID": "7abe1b56-40c9-4295-b8d8-798dcf490200"
   },
   {
+    "ClassName": "time",
+    "CaexPath": "AutomationML_CoreProperties.Time_AttributeTypeLib/time",
+    "BasePath": "AutomationML_CoreProperties.Time_AttributeTypeLib/timeMeasure",
+    "LibraryName": "AutomationML_CoreProperties.Time_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "f6ecfd04-081f-445f-ade5-79d7ecb39236"
+  },
+  {
     "ClassName": "surfaceArea",
     "CaexPath": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/surfaceArea",
     "BasePath": null,
@@ -12258,6 +12267,15 @@
     "ID": "883edae1-e454-477a-b614-1f4f4e27bce8"
   },
   {
+    "ClassName": "timeDuration",
+    "CaexPath": "AutomationML_CoreProperties.Time_AttributeTypeLib/timeDuration",
+    "BasePath": "AutomationML_CoreProperties.Time_AttributeTypeLib/time",
+    "LibraryName": "AutomationML_CoreProperties.Time_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "883edae1-e454-477a-b614-1f4f4e27bce8"
+  },
+  {
     "ClassName": "recurrencePeriod",
     "CaexPath": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/timeDuration/recurrencePeriod",
     "BasePath": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/timeDuration",
@@ -12330,6 +12348,15 @@
     "ID": "37ba1350-b7e7-46b6-aa86-f8c52a8737e6"
   },
   {
+    "ClassName": "timeOffset",
+    "CaexPath": "AutomationML_CoreProperties.Time_AttributeTypeLib/timeOffset",
+    "BasePath": "AutomationML_CoreProperties.Time_AttributeTypeLib/timeDuration",
+    "LibraryName": "AutomationML_CoreProperties.Time_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "37ba1350-b7e7-46b6-aa86-f8c52a8737e6"
+  },
+  {
     "ClassName": "durationSeconds",
     "CaexPath": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/timeDuration/durationSeconds",
     "BasePath": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/timeDuration",
@@ -12366,6 +12393,15 @@
     "ID": "638841fc-85d0-48d4-8f3d-5c3308b37b08"
   },
   {
+    "ClassName": "durationSeconds",
+    "CaexPath": "AutomationML_CoreProperties.Time_AttributeTypeLib/durationSeconds",
+    "BasePath": "AutomationML_CoreProperties.Time_AttributeTypeLib/timeDuration",
+    "LibraryName": "AutomationML_CoreProperties.Time_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "638841fc-85d0-48d4-8f3d-5c3308b37b08"
+  },
+  {
     "ClassName": "durationMinutes",
     "CaexPath": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/timeDuration/durationMinutes",
     "BasePath": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/timeDuration",
@@ -12398,6 +12434,15 @@
     "BasePath": "AutomationML_BasicProperties.Time_AttributeTypeLib/timeDuration",
     "LibraryName": "AutomationML_BasicProperties.Time_AttributeTypeLib",
     "LibraryVersion": "1.2.2",
+    "AMLEdition": "AMLEd2",
+    "ID": "f318eb6f-42fc-4745-a8d1-44ac5424e75b"
+  },
+  {
+    "ClassName": "durationMinutes",
+    "CaexPath": "AutomationML_CoreProperties.Time_AttributeTypeLib/durationMinutes",
+    "BasePath": "AutomationML_CoreProperties.Time_AttributeTypeLib/timeDuration",
+    "LibraryName": "AutomationML_CoreProperties.Time_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
     "AMLEdition": "AMLEd2",
     "ID": "f318eb6f-42fc-4745-a8d1-44ac5424e75b"
   },
@@ -12474,6 +12519,15 @@
     "ID": "c2e1d7e1-c8df-47da-9dc6-84a688896d12"
   },
   {
+    "ClassName": "startDateTime",
+    "CaexPath": "AutomationML_CoreProperties.Time_AttributeTypeLib/startDateTime",
+    "BasePath": "AutomationML_CoreProperties.Time_AttributeTypeLib/dateTime",
+    "LibraryName": "AutomationML_CoreProperties.Time_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "c2e1d7e1-c8df-47da-9dc6-84a688896d12"
+  },
+  {
     "ClassName": "operatingAmbientTemperature",
     "CaexPath": "AutomationML_BasicProperties.environmentalConditions_AttributeTypeLib/operatingAmbientTemperature",
     "BasePath": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/thermodynamicTemperature",
@@ -12546,6 +12600,15 @@
     "ID": "27523302-c273-4447-8903-34b09f08281f"
   },
   {
+    "ClassName": "endDateTime",
+    "CaexPath": "AutomationML_CoreProperties.Time_AttributeTypeLib/endDateTime",
+    "BasePath": "AutomationML_CoreProperties.Time_AttributeTypeLib/dateTime",
+    "LibraryName": "AutomationML_CoreProperties.Time_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "27523302-c273-4447-8903-34b09f08281f"
+  },
+  {
     "ClassName": "startDate",
     "CaexPath": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/timeInterval/startDate",
     "BasePath": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/timePoint",
@@ -12582,6 +12645,15 @@
     "ID": "28d44676-9a72-44ee-8905-4443eccf97f1"
   },
   {
+    "ClassName": "startDate",
+    "CaexPath": "AutomationML_CoreProperties.Time_AttributeTypeLib/startDate",
+    "BasePath": "AutomationML_CoreProperties.Time_AttributeTypeLib/date",
+    "LibraryName": "AutomationML_CoreProperties.Time_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "28d44676-9a72-44ee-8905-4443eccf97f1"
+  },
+  {
     "ClassName": "endDate",
     "CaexPath": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/timeInterval/endDate",
     "BasePath": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/timePoint",
@@ -12614,6 +12686,15 @@
     "BasePath": "AutomationML_BasicProperties.Time_AttributeTypeLib/date",
     "LibraryName": "AutomationML_BasicProperties.Time_AttributeTypeLib",
     "LibraryVersion": "1.2.2",
+    "AMLEdition": "AMLEd2",
+    "ID": "c2fde734-0ccd-462f-a29d-1080bad3017c"
+  },
+  {
+    "ClassName": "endDate",
+    "CaexPath": "AutomationML_CoreProperties.Time_AttributeTypeLib/endDate",
+    "BasePath": "AutomationML_CoreProperties.Time_AttributeTypeLib/date",
+    "LibraryName": "AutomationML_CoreProperties.Time_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
     "AMLEdition": "AMLEd2",
     "ID": "c2fde734-0ccd-462f-a29d-1080bad3017c"
   },
@@ -12681,6 +12762,15 @@
     "ID": "014c51fb-22ef-4066-9313-888411176a40"
   },
   {
+    "ClassName": "timeOfDay",
+    "CaexPath": "AutomationML_CoreProperties.Time_AttributeTypeLib/timeOfDay",
+    "BasePath": "AutomationML_CoreProperties.Time_AttributeTypeLib/timeMeasure",
+    "LibraryName": "AutomationML_CoreProperties.Time_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "014c51fb-22ef-4066-9313-888411176a40"
+  },
+  {
     "ClassName": "date",
     "CaexPath": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/timePoint/date",
     "BasePath": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/timePoint",
@@ -12713,6 +12803,15 @@
     "BasePath": null,
     "LibraryName": "AutomationML_BasicProperties.Time_AttributeTypeLib",
     "LibraryVersion": "1.2.2",
+    "AMLEdition": "AMLEd2",
+    "ID": "50485e42-feaa-4d23-ba13-955bf11cc186"
+  },
+  {
+    "ClassName": "date",
+    "CaexPath": "AutomationML_CoreProperties.Time_AttributeTypeLib/date",
+    "BasePath": "AutomationML_CoreProperties.Time_AttributeTypeLib/timeMeasure",
+    "LibraryName": "AutomationML_CoreProperties.Time_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
     "AMLEdition": "AMLEd2",
     "ID": "50485e42-feaa-4d23-ba13-955bf11cc186"
   },
@@ -12753,6 +12852,15 @@
     "ID": "14768994-0775-4323-a688-48c91116e06a"
   },
   {
+    "ClassName": "dateTime",
+    "CaexPath": "AutomationML_CoreProperties.Time_AttributeTypeLib/dateTime",
+    "BasePath": "AutomationML_CoreProperties.Time_AttributeTypeLib/timeMeasure",
+    "LibraryName": "AutomationML_CoreProperties.Time_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "14768994-0775-4323-a688-48c91116e06a"
+  },
+  {
     "ClassName": "yearMonth",
     "CaexPath": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/timePoint/yearMonth",
     "BasePath": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/timePoint",
@@ -12785,6 +12893,15 @@
     "BasePath": null,
     "LibraryName": "AutomationML_BasicProperties.Time_AttributeTypeLib",
     "LibraryVersion": "1.2.2",
+    "AMLEdition": "AMLEd2",
+    "ID": "b3934f6d-79d8-41b8-bdea-e7633467fd4f"
+  },
+  {
+    "ClassName": "yearMonth",
+    "CaexPath": "AutomationML_CoreProperties.Time_AttributeTypeLib/yearMonth",
+    "BasePath": "AutomationML_CoreProperties.Time_AttributeTypeLib/timeMeasure",
+    "LibraryName": "AutomationML_CoreProperties.Time_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
     "AMLEdition": "AMLEd2",
     "ID": "b3934f6d-79d8-41b8-bdea-e7633467fd4f"
   },
@@ -12825,6 +12942,15 @@
     "ID": "c8d4506c-a7b3-4877-8cc6-ee77c234dfc8"
   },
   {
+    "ClassName": "year",
+    "CaexPath": "AutomationML_CoreProperties.Time_AttributeTypeLib/year",
+    "BasePath": "AutomationML_CoreProperties.Time_AttributeTypeLib/timeMeasure",
+    "LibraryName": "AutomationML_CoreProperties.Time_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "c8d4506c-a7b3-4877-8cc6-ee77c234dfc8"
+  },
+  {
     "ClassName": "month",
     "CaexPath": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/timePoint/month",
     "BasePath": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/timePoint",
@@ -12861,6 +12987,15 @@
     "ID": "2f1284df-891f-43d4-a1a2-71078bdc876f"
   },
   {
+    "ClassName": "month",
+    "CaexPath": "AutomationML_CoreProperties.Time_AttributeTypeLib/month",
+    "BasePath": "AutomationML_CoreProperties.Time_AttributeTypeLib/timeMeasure",
+    "LibraryName": "AutomationML_CoreProperties.Time_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "2f1284df-891f-43d4-a1a2-71078bdc876f"
+  },
+  {
     "ClassName": "day",
     "CaexPath": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/timePoint/day",
     "BasePath": "AutomationML_BasicProperties.physicalProperties_AttributeTypeLib/timePoint",
@@ -12893,6 +13028,15 @@
     "BasePath": null,
     "LibraryName": "AutomationML_BasicProperties.Time_AttributeTypeLib",
     "LibraryVersion": "1.2.2",
+    "AMLEdition": "AMLEd2",
+    "ID": "f8cb7bbc-c710-45e1-b5dc-a5b36977bb8f"
+  },
+  {
+    "ClassName": "day",
+    "CaexPath": "AutomationML_CoreProperties.Time_AttributeTypeLib/day",
+    "BasePath": "AutomationML_CoreProperties.Time_AttributeTypeLib/timeMeasure",
+    "LibraryName": "AutomationML_CoreProperties.Time_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
     "AMLEdition": "AMLEd2",
     "ID": "f8cb7bbc-c710-45e1-b5dc-a5b36977bb8f"
   },
@@ -14571,6 +14715,15 @@
     "ID": "dab06352-9f00-4699-99ef-a604347c27c9"
   },
   {
+    "ClassName": "durationHours",
+    "CaexPath": "AutomationML_CoreProperties.Time_AttributeTypeLib/durationHours",
+    "BasePath": "AutomationML_CoreProperties.Time_AttributeTypeLib/timeDuration",
+    "LibraryName": "AutomationML_CoreProperties.Time_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "dab06352-9f00-4699-99ef-a604347c27c9"
+  },
+  {
     "ClassName": "orientation",
     "CaexPath": "AutomationML_BasicProperties.Geometry_AttributeTypeLib/orientation",
     "BasePath": "AutomationML_BasicProperties.Geometry_AttributeTypeLib/point",
@@ -15370,5 +15523,50 @@
     "LibraryVersion": "1.7.8",
     "AMLEdition": "AMLEd2",
     "ID": "d8a2fca5-2774-4174-8e56-09b613671543"
+  },
+  {
+    "ClassName": "timeMeasure",
+    "CaexPath": "AutomationML_CoreProperties.Time_AttributeTypeLib/timeMeasure",
+    "BasePath": "AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/physicalQuantity",
+    "LibraryName": "AutomationML_CoreProperties.Time_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "9048d270-3190-4eb8-97fb-e355a8192212"
+  },
+  {
+    "ClassName": "period",
+    "CaexPath": "AutomationML_CoreProperties.Time_AttributeTypeLib/period",
+    "BasePath": "AutomationML_CoreProperties.Time_AttributeTypeLib/timeDuration",
+    "LibraryName": "AutomationML_CoreProperties.Time_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "6011436f-3897-48be-acc9-1d08bffa8138"
+  },
+  {
+    "ClassName": "durationDays",
+    "CaexPath": "AutomationML_CoreProperties.Time_AttributeTypeLib/durationDays",
+    "BasePath": "AutomationML_CoreProperties.Time_AttributeTypeLib/timeDuration",
+    "LibraryName": "AutomationML_CoreProperties.Time_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "cd0d8757-0a5c-4e7f-b84d-84a31c76bfd1"
+  },
+  {
+    "ClassName": "timestamp",
+    "CaexPath": "AutomationML_CoreProperties.Time_AttributeTypeLib/timestamp",
+    "BasePath": "AutomationML_CoreProperties.Time_AttributeTypeLib/dateTime",
+    "LibraryName": "AutomationML_CoreProperties.Time_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "01f08746-91aa-48c6-8a2c-7d0007b7d620"
+  },
+  {
+    "ClassName": "validityDuration",
+    "CaexPath": "AutomationML_CoreProperties.Time_AttributeTypeLib/validityDuration",
+    "BasePath": "AutomationML_CoreProperties.Time_AttributeTypeLib/timeDuration",
+    "LibraryName": "AutomationML_CoreProperties.Time_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "0b80500c-abf8-4552-ba4c-276a289ee6ab"
   }
 ]
