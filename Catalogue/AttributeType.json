@@ -234,15 +234,6 @@
     "ID": "daf161c4-35be-4d8e-9763-b3fc79bd3d12"
   },
   {
-    "ClassName": "color",
-    "CaexPath": "AutomationML_CoreProperties.Appearance_AttributeTypeLib/color",
-    "BasePath": null,
-    "LibraryName": "AutomationML_CoreProperties.Appearance_AttributeTypeLib",
-    "LibraryVersion": "1.7.8",
-    "AMLEdition": "AMLEd2",
-    "ID": "daf161c4-35be-4d8e-9763-b3fc79bd3d12"
-  },
-  {
     "ClassName": "RAL",
     "CaexPath": "AutomationML_BasicProperties.Color_AttributeTypeLib/RAL",
     "BasePath": "AutomationML_BasicProperties.Color_AttributeTypeLib/color",
@@ -3303,15 +3294,6 @@
     "ID": "35194361-91a4-4c07-8482-5f4c1dd7b715"
   },
   {
-    "ClassName": "secondaryColor",
-    "CaexPath": "AutomationML_CoreProperties.Appearance_AttributeTypeLib/secondaryColor",
-    "BasePath": "AutomationML_CoreProperties.Appearance_AttributeTypeLib/color",
-    "LibraryName": "AutomationML_CoreProperties.Appearance_AttributeTypeLib",
-    "LibraryVersion": "1.7.8",
-    "AMLEdition": "AMLEd2",
-    "ID": "35194361-91a4-4c07-8482-5f4c1dd7b715"
-  },
-  {
     "ClassName": "surfaceFinish",
     "CaexPath": "AutomationML_BasicProperties.appearance_AttributeTypeLib/surfaceFinish",
     "BasePath": null,
@@ -3393,15 +3375,6 @@
     "ID": "e091b64d-0071-4900-9edf-b3d32942310b"
   },
   {
-    "ClassName": "surfaceFinish",
-    "CaexPath": "AutomationML_CoreProperties.Appearance_AttributeTypeLib/surfaceFinish",
-    "BasePath": "AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/genericText",
-    "LibraryName": "AutomationML_CoreProperties.Appearance_AttributeTypeLib",
-    "LibraryVersion": "1.7.8",
-    "AMLEdition": "AMLEd2",
-    "ID": "e091b64d-0071-4900-9edf-b3d32942310b"
-  },
-  {
     "ClassName": "surfaceTexture",
     "CaexPath": "AutomationML_BasicProperties.appearance_AttributeTypeLib/surfaceTexture",
     "BasePath": null,
@@ -3479,15 +3452,6 @@
     "BasePath": null,
     "LibraryName": "AutomationML_BasicProperties.Appearance_AttributeTypeLib",
     "LibraryVersion": "1.2.2",
-    "AMLEdition": "AMLEd2",
-    "ID": "886a7ffe-36b1-48c3-b54c-ba957e54babc"
-  },
-  {
-    "ClassName": "surfaceTexture",
-    "CaexPath": "AutomationML_CoreProperties.Appearance_AttributeTypeLib/surfaceTexture",
-    "BasePath": "AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/genericText",
-    "LibraryName": "AutomationML_CoreProperties.Appearance_AttributeTypeLib",
-    "LibraryVersion": "1.7.8",
     "AMLEdition": "AMLEd2",
     "ID": "886a7ffe-36b1-48c3-b54c-ba957e54babc"
   },
@@ -5085,15 +5049,6 @@
     "ID": "4858c504-2da5-41ae-af52-ca08e29e548b"
   },
   {
-    "ClassName": "materialAppearance",
-    "CaexPath": "AutomationML_CoreProperties.Appearance_AttributeTypeLib/materialAppearance",
-    "BasePath": "AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/genericText",
-    "LibraryName": "AutomationML_CoreProperties.Appearance_AttributeTypeLib",
-    "LibraryVersion": "1.7.8",
-    "AMLEdition": "AMLEd2",
-    "ID": "4858c504-2da5-41ae-af52-ca08e29e548b"
-  },
-  {
     "ClassName": "coatingType",
     "CaexPath": "AutomationML_BasicProperties.appearance_AttributeTypeLib/coatingType",
     "BasePath": null,
@@ -5171,15 +5126,6 @@
     "BasePath": null,
     "LibraryName": "AutomationML_BasicProperties.Appearance_AttributeTypeLib",
     "LibraryVersion": "1.2.2",
-    "AMLEdition": "AMLEd2",
-    "ID": "efad251b-6f6c-40ac-9b99-443e1fb05398"
-  },
-  {
-    "ClassName": "coatingType",
-    "CaexPath": "AutomationML_CoreProperties.Appearance_AttributeTypeLib/coatingType",
-    "BasePath": null,
-    "LibraryName": "AutomationML_CoreProperties.Appearance_AttributeTypeLib",
-    "LibraryVersion": "1.7.8",
     "AMLEdition": "AMLEd2",
     "ID": "efad251b-6f6c-40ac-9b99-443e1fb05398"
   },
@@ -6066,15 +6012,6 @@
     "ID": "778bc2b8-40dc-4a65-bb65-ba01f3433ae9"
   },
   {
-    "ClassName": "labeling",
-    "CaexPath": "AutomationML_CoreProperties.Appearance_AttributeTypeLib/labeling",
-    "BasePath": "AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/genericText",
-    "LibraryName": "AutomationML_CoreProperties.Appearance_AttributeTypeLib",
-    "LibraryVersion": "1.7.8",
-    "AMLEdition": "AMLEd2",
-    "ID": "778bc2b8-40dc-4a65-bb65-ba01f3433ae9"
-  },
-  {
     "ClassName": "branding",
     "CaexPath": "AutomationML_BasicProperties.appearance_AttributeTypeLib/branding",
     "BasePath": null,
@@ -6152,15 +6089,6 @@
     "BasePath": null,
     "LibraryName": "AutomationML_BasicProperties.Appearance_AttributeTypeLib",
     "LibraryVersion": "1.2.2",
-    "AMLEdition": "AMLEd2",
-    "ID": "d97848e4-82b6-4209-85bb-f55e5da2374a"
-  },
-  {
-    "ClassName": "branding",
-    "CaexPath": "AutomationML_CoreProperties.Appearance_AttributeTypeLib/branding",
-    "BasePath": "AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/genericText",
-    "LibraryName": "AutomationML_CoreProperties.Appearance_AttributeTypeLib",
-    "LibraryVersion": "1.7.8",
     "AMLEdition": "AMLEd2",
     "ID": "d97848e4-82b6-4209-85bb-f55e5da2374a"
   },
@@ -6741,15 +6669,6 @@
     "ID": "3f6bab5e-4aad-48f0-a6f3-eae231e606cc"
   },
   {
-    "ClassName": "symbolMarking",
-    "CaexPath": "AutomationML_CoreProperties.Appearance_AttributeTypeLib/symbolMarking",
-    "BasePath": "AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/genericText",
-    "LibraryName": "AutomationML_CoreProperties.Appearance_AttributeTypeLib",
-    "LibraryVersion": "1.7.8",
-    "AMLEdition": "AMLEd2",
-    "ID": "3f6bab5e-4aad-48f0-a6f3-eae231e606cc"
-  },
-  {
     "ClassName": "illuminationColor",
     "CaexPath": "AutomationML_BasicProperties.appearance_AttributeTypeLib/illuminationColor",
     "BasePath": null,
@@ -6831,15 +6750,6 @@
     "ID": "cd181b18-8bc9-4142-80ae-36363a9e4452"
   },
   {
-    "ClassName": "illuminationColor",
-    "CaexPath": "AutomationML_CoreProperties.Appearance_AttributeTypeLib/illuminationColor",
-    "BasePath": "AutomationML_CoreProperties.Appearance_AttributeTypeLib/color",
-    "LibraryName": "AutomationML_CoreProperties.Appearance_AttributeTypeLib",
-    "LibraryVersion": "1.7.8",
-    "AMLEdition": "AMLEd2",
-    "ID": "cd181b18-8bc9-4142-80ae-36363a9e4452"
-  },
-  {
     "ClassName": "appearanceVariant",
     "CaexPath": "AutomationML_BasicProperties.appearance_AttributeTypeLib/appearanceVariant",
     "BasePath": null,
@@ -6917,15 +6827,6 @@
     "BasePath": null,
     "LibraryName": "AutomationML_BasicProperties.Appearance_AttributeTypeLib",
     "LibraryVersion": "1.2.2",
-    "AMLEdition": "AMLEd2",
-    "ID": "95cce0cd-fbb6-480b-8a45-9ad08e18c828"
-  },
-  {
-    "ClassName": "appearanceVariant",
-    "CaexPath": "AutomationML_CoreProperties.Appearance_AttributeTypeLib/appearanceVariant",
-    "BasePath": "AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/genericText",
-    "LibraryName": "AutomationML_CoreProperties.Appearance_AttributeTypeLib",
-    "LibraryVersion": "1.7.8",
     "AMLEdition": "AMLEd2",
     "ID": "95cce0cd-fbb6-480b-8a45-9ad08e18c828"
   },
