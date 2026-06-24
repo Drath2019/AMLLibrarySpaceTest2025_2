@@ -1701,15 +1701,6 @@
     "ID": "3358e218-b893-4ba7-aafc-fb7b5e493acb"
   },
   {
-    "ClassName": "id",
-    "CaexPath": "AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib/id",
-    "BasePath": "AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib/identificationProperty",
-    "LibraryName": "AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib",
-    "LibraryVersion": "1.7.8",
-    "AMLEdition": "AMLEd2",
-    "ID": "3358e218-b893-4ba7-aafc-fb7b5e493acb"
-  },
-  {
     "ClassName": "idShort",
     "CaexPath": "AutomationML_BasicProperties.identification_AttributeTypeLib/idShort",
     "BasePath": null,
@@ -1787,15 +1778,6 @@
     "BasePath": "AutomationML_BasicProperties.Identification_AttributeTypeLib/id",
     "LibraryName": "AutomationML_BasicProperties.Identification_AttributeTypeLib",
     "LibraryVersion": "1.2.2",
-    "AMLEdition": "AMLEd2",
-    "ID": "8defc9da-86a1-48a9-a139-d49ea42aaa80"
-  },
-  {
-    "ClassName": "idShort",
-    "CaexPath": "AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib/idShort",
-    "BasePath": "AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib/id",
-    "LibraryName": "AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib",
-    "LibraryVersion": "1.7.8",
     "AMLEdition": "AMLEd2",
     "ID": "8defc9da-86a1-48a9-a139-d49ea42aaa80"
   },
@@ -1985,15 +1967,6 @@
     "BasePath": null,
     "LibraryName": "AutomationML_BasicProperties.Identification_AttributeTypeLib",
     "LibraryVersion": "1.2.2",
-    "AMLEdition": "AMLEd2",
-    "ID": "3804f0c7-f80c-461f-930e-5d519f385ec5"
-  },
-  {
-    "ClassName": "semanticId",
-    "CaexPath": "AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib/semanticId",
-    "BasePath": "AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib/id",
-    "LibraryName": "AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib",
-    "LibraryVersion": "1.7.8",
     "AMLEdition": "AMLEd2",
     "ID": "3804f0c7-f80c-461f-930e-5d519f385ec5"
   },
@@ -2399,15 +2372,6 @@
     "BasePath": "AutomationML_BasicProperties.Identification_AttributeTypeLib/id",
     "LibraryName": "AutomationML_BasicProperties.Identification_AttributeTypeLib",
     "LibraryVersion": "1.2.2",
-    "AMLEdition": "AMLEd2",
-    "ID": "f7932ea2-b7ee-427c-8848-3deb1a156f87"
-  },
-  {
-    "ClassName": "globalAssetId",
-    "CaexPath": "AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib/globalAssetId",
-    "BasePath": "AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib/id",
-    "LibraryName": "AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib",
-    "LibraryVersion": "1.7.8",
     "AMLEdition": "AMLEd2",
     "ID": "f7932ea2-b7ee-427c-8848-3deb1a156f87"
   },
@@ -3447,15 +3411,6 @@
     "ID": "4778e1b2-d9ec-4945-b5ed-4abd807e2d7e"
   },
   {
-    "ClassName": "partNumber",
-    "CaexPath": "AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib/partNumber",
-    "BasePath": "AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib/id",
-    "LibraryName": "AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib",
-    "LibraryVersion": "1.7.8",
-    "AMLEdition": "AMLEd2",
-    "ID": "4778e1b2-d9ec-4945-b5ed-4abd807e2d7e"
-  },
-  {
     "ClassName": "serialNumber",
     "CaexPath": "AutomationML_BasicProperties.identification_AttributeTypeLib/serialNumber",
     "BasePath": null,
@@ -3544,15 +3499,6 @@
     "LibraryVersion": "1.2.2",
     "AMLEdition": "AMLEd2",
     "ID": "2f7703eb-948a-4f21-b4b0-729970cedf2a"
-  },
-  {
-    "ClassName": "serialNumber",
-    "CaexPath": "AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib/serialNumber",
-    "BasePath": "AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib/id",
-    "LibraryName": "AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib",
-    "LibraryVersion": "1.7.8",
-    "AMLEdition": "AMLEd2",
-    "ID": "81d2caa2-36ca-40f2-bc19-a266f691bf33"
   },
   {
     "ClassName": "meanTimeToRepair",
@@ -7569,15 +7515,6 @@
     "ID": "0e86de95-264f-47b5-8cf4-768fb63b5b32"
   },
   {
-    "ClassName": "assetName",
-    "CaexPath": "AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib/assetName",
-    "BasePath": "AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib/identificationProperty",
-    "LibraryName": "AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib",
-    "LibraryVersion": "1.7.8",
-    "AMLEdition": "AMLEd2",
-    "ID": "0e86de95-264f-47b5-8cf4-768fb63b5b32"
-  },
-  {
     "ClassName": "assetDescription",
     "CaexPath": "AutomationML_BasicProperties.identification_AttributeTypeLib/assetDescription",
     "BasePath": null,
@@ -7646,15 +7583,6 @@
     "BasePath": null,
     "LibraryName": "AutomationML_BasicProperties.Identification_AttributeTypeLib",
     "LibraryVersion": "1.2.2",
-    "AMLEdition": "AMLEd2",
-    "ID": "a27318ed-7cfa-4200-af27-dc8780c79a17"
-  },
-  {
-    "ClassName": "assetDescription",
-    "CaexPath": "AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib/assetDescription",
-    "BasePath": "AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/genericText",
-    "LibraryName": "AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib",
-    "LibraryVersion": "1.7.8",
     "AMLEdition": "AMLEd2",
     "ID": "a27318ed-7cfa-4200-af27-dc8780c79a17"
   },
@@ -7731,15 +7659,6 @@
     "ID": "f91ad2f6-80fe-42b7-a06a-88904d57e1ae"
   },
   {
-    "ClassName": "assetTag",
-    "CaexPath": "AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib/assetTag",
-    "BasePath": "AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib/id",
-    "LibraryName": "AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib",
-    "LibraryVersion": "1.7.8",
-    "AMLEdition": "AMLEd2",
-    "ID": "f91ad2f6-80fe-42b7-a06a-88904d57e1ae"
-  },
-  {
     "ClassName": "inventoryNumber",
     "CaexPath": "AutomationML_BasicProperties.identification_AttributeTypeLib/inventoryNumber",
     "BasePath": null,
@@ -7808,15 +7727,6 @@
     "BasePath": "AutomationML_BasicProperties.Identification_AttributeTypeLib/id",
     "LibraryName": "AutomationML_BasicProperties.Identification_AttributeTypeLib",
     "LibraryVersion": "1.2.2",
-    "AMLEdition": "AMLEd2",
-    "ID": "d70da3d9-f7b0-4b10-ab05-656508d7acdd"
-  },
-  {
-    "ClassName": "inventoryNumber",
-    "CaexPath": "AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib/inventoryNumber",
-    "BasePath": "AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib/id",
-    "LibraryName": "AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib",
-    "LibraryVersion": "1.7.8",
     "AMLEdition": "AMLEd2",
     "ID": "d70da3d9-f7b0-4b10-ab05-656508d7acdd"
   },
@@ -7893,15 +7803,6 @@
     "ID": "6c173289-65ec-48f0-8da5-460fa0d80eae"
   },
   {
-    "ClassName": "batchNumber",
-    "CaexPath": "AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib/batchNumber",
-    "BasePath": "AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib/id",
-    "LibraryName": "AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib",
-    "LibraryVersion": "1.7.8",
-    "AMLEdition": "AMLEd2",
-    "ID": "6c173289-65ec-48f0-8da5-460fa0d80eae"
-  },
-  {
     "ClassName": "productionOrderId",
     "CaexPath": "AutomationML_BasicProperties.identification_AttributeTypeLib/productionOrderId",
     "BasePath": null,
@@ -7970,15 +7871,6 @@
     "BasePath": "AutomationML_BasicProperties.Identification_AttributeTypeLib/id",
     "LibraryName": "AutomationML_BasicProperties.Identification_AttributeTypeLib",
     "LibraryVersion": "1.2.2",
-    "AMLEdition": "AMLEd2",
-    "ID": "cb3756da-c6c3-43b2-8e3b-269f79ebf663"
-  },
-  {
-    "ClassName": "productionOrderId",
-    "CaexPath": "AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib/productionOrderId",
-    "BasePath": "AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib/id",
-    "LibraryName": "AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib",
-    "LibraryVersion": "1.7.8",
     "AMLEdition": "AMLEd2",
     "ID": "cb3756da-c6c3-43b2-8e3b-269f79ebf663"
   },
@@ -8055,15 +7947,6 @@
     "ID": "dd9c7427-f756-4500-9bcf-ca3323661cda"
   },
   {
-    "ClassName": "supplierName",
-    "CaexPath": "AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib/supplierName",
-    "BasePath": "AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib/identificationProperty",
-    "LibraryName": "AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib",
-    "LibraryVersion": "1.7.8",
-    "AMLEdition": "AMLEd2",
-    "ID": "dd9c7427-f756-4500-9bcf-ca3323661cda"
-  },
-  {
     "ClassName": "supplierId",
     "CaexPath": "AutomationML_BasicProperties.identification_AttributeTypeLib/supplierId",
     "BasePath": null,
@@ -8132,15 +8015,6 @@
     "BasePath": "AutomationML_BasicProperties.Identification_AttributeTypeLib/id",
     "LibraryName": "AutomationML_BasicProperties.Identification_AttributeTypeLib",
     "LibraryVersion": "1.2.2",
-    "AMLEdition": "AMLEd2",
-    "ID": "cc61aca4-4851-4474-a1a0-c533cf89cbc1"
-  },
-  {
-    "ClassName": "supplierId",
-    "CaexPath": "AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib/supplierId",
-    "BasePath": "AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib/id",
-    "LibraryName": "AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib",
-    "LibraryVersion": "1.7.8",
     "AMLEdition": "AMLEd2",
     "ID": "cc61aca4-4851-4474-a1a0-c533cf89cbc1"
   },
@@ -8217,15 +8091,6 @@
     "ID": "309a7aba-f330-4096-b140-a14023898fbc"
   },
   {
-    "ClassName": "referenceDesignation",
-    "CaexPath": "AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib/referenceDesignation",
-    "BasePath": "AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib/identificationProperty",
-    "LibraryName": "AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib",
-    "LibraryVersion": "1.7.8",
-    "AMLEdition": "AMLEd2",
-    "ID": "309a7aba-f330-4096-b140-a14023898fbc"
-  },
-  {
     "ClassName": "externalReferenceId",
     "CaexPath": "AutomationML_BasicProperties.identification_AttributeTypeLib/externalReferenceId",
     "BasePath": null,
@@ -8294,15 +8159,6 @@
     "BasePath": "AutomationML_BasicProperties.Identification_AttributeTypeLib/id",
     "LibraryName": "AutomationML_BasicProperties.Identification_AttributeTypeLib",
     "LibraryVersion": "1.2.2",
-    "AMLEdition": "AMLEd2",
-    "ID": "662b6b1b-53ca-49d4-8833-58d83b478cc7"
-  },
-  {
-    "ClassName": "externalReferenceId",
-    "CaexPath": "AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib/externalReferenceId",
-    "BasePath": "AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib/id",
-    "LibraryName": "AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib",
-    "LibraryVersion": "1.7.8",
     "AMLEdition": "AMLEd2",
     "ID": "662b6b1b-53ca-49d4-8833-58d83b478cc7"
   },
@@ -8379,15 +8235,6 @@
     "ID": "8b0ea124-c5cf-4c24-8b9d-564915298e08"
   },
   {
-    "ClassName": "assetCategory",
-    "CaexPath": "AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib/assetCategory",
-    "BasePath": "AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/classificationProperty",
-    "LibraryName": "AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib",
-    "LibraryVersion": "1.7.8",
-    "AMLEdition": "AMLEd2",
-    "ID": "8b0ea124-c5cf-4c24-8b9d-564915298e08"
-  },
-  {
     "ClassName": "assetTypeCode",
     "CaexPath": "AutomationML_BasicProperties.identification_AttributeTypeLib/assetTypeCode",
     "BasePath": null,
@@ -8456,15 +8303,6 @@
     "BasePath": null,
     "LibraryName": "AutomationML_BasicProperties.Identification_AttributeTypeLib",
     "LibraryVersion": "1.2.2",
-    "AMLEdition": "AMLEd2",
-    "ID": "438d4304-584f-4051-b9e1-6736baaf0b63"
-  },
-  {
-    "ClassName": "assetTypeCode",
-    "CaexPath": "AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib/assetTypeCode",
-    "BasePath": "AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/classificationProperty",
-    "LibraryName": "AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib",
-    "LibraryVersion": "1.7.8",
     "AMLEdition": "AMLEd2",
     "ID": "438d4304-584f-4051-b9e1-6736baaf0b63"
   },
@@ -8541,15 +8379,6 @@
     "ID": "f00e5cb4-3057-4e9a-8b00-b78adfb2a02e"
   },
   {
-    "ClassName": "modelIdentifier",
-    "CaexPath": "AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib/modelIdentifier",
-    "BasePath": "AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib/id",
-    "LibraryName": "AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib",
-    "LibraryVersion": "1.7.8",
-    "AMLEdition": "AMLEd2",
-    "ID": "f00e5cb4-3057-4e9a-8b00-b78adfb2a02e"
-  },
-  {
     "ClassName": "variantIdentifier",
     "CaexPath": "AutomationML_BasicProperties.identification_AttributeTypeLib/variantIdentifier",
     "BasePath": null,
@@ -8618,15 +8447,6 @@
     "BasePath": "AutomationML_BasicProperties.Identification_AttributeTypeLib/id",
     "LibraryName": "AutomationML_BasicProperties.Identification_AttributeTypeLib",
     "LibraryVersion": "1.2.2",
-    "AMLEdition": "AMLEd2",
-    "ID": "a26f5ba6-d614-40ea-9958-869c6c0346aa"
-  },
-  {
-    "ClassName": "variantIdentifier",
-    "CaexPath": "AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib/variantIdentifier",
-    "BasePath": "AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib/id",
-    "LibraryName": "AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib",
-    "LibraryVersion": "1.7.8",
     "AMLEdition": "AMLEd2",
     "ID": "a26f5ba6-d614-40ea-9958-869c6c0346aa"
   },
@@ -8703,15 +8523,6 @@
     "ID": "e290a6f3-30a2-41af-9fe7-45ece4f89fb2"
   },
   {
-    "ClassName": "configurationIdentifier",
-    "CaexPath": "AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib/configurationIdentifier",
-    "BasePath": "AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib/id",
-    "LibraryName": "AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib",
-    "LibraryVersion": "1.7.8",
-    "AMLEdition": "AMLEd2",
-    "ID": "e290a6f3-30a2-41af-9fe7-45ece4f89fb2"
-  },
-  {
     "ClassName": "drawingNumber",
     "CaexPath": "AutomationML_BasicProperties.identification_AttributeTypeLib/drawingNumber",
     "BasePath": null,
@@ -8780,15 +8591,6 @@
     "BasePath": "AutomationML_BasicProperties.Identification_AttributeTypeLib/number",
     "LibraryName": "AutomationML_BasicProperties.Identification_AttributeTypeLib",
     "LibraryVersion": "1.2.2",
-    "AMLEdition": "AMLEd2",
-    "ID": "452c5730-a517-4120-bc5f-da1415d90928"
-  },
-  {
-    "ClassName": "drawingNumber",
-    "CaexPath": "AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib/drawingNumber",
-    "BasePath": "AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib/number",
-    "LibraryName": "AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib",
-    "LibraryVersion": "1.7.8",
     "AMLEdition": "AMLEd2",
     "ID": "452c5730-a517-4120-bc5f-da1415d90928"
   },
@@ -8865,15 +8667,6 @@
     "ID": "3e54eb0b-4e76-41f6-91e2-844a7803dfa1"
   },
   {
-    "ClassName": "catalogueNumber",
-    "CaexPath": "AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib/catalogueNumber",
-    "BasePath": "AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib/number",
-    "LibraryName": "AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib",
-    "LibraryVersion": "1.7.8",
-    "AMLEdition": "AMLEd2",
-    "ID": "3e54eb0b-4e76-41f6-91e2-844a7803dfa1"
-  },
-  {
     "ClassName": "labelText",
     "CaexPath": "AutomationML_BasicProperties.identification_AttributeTypeLib/labelText",
     "BasePath": null,
@@ -8942,15 +8735,6 @@
     "BasePath": null,
     "LibraryName": "AutomationML_BasicProperties.Identification_AttributeTypeLib",
     "LibraryVersion": "1.2.2",
-    "AMLEdition": "AMLEd2",
-    "ID": "9f4c8ef4-1255-4dc9-93f0-21365276a5d7"
-  },
-  {
-    "ClassName": "labelText",
-    "CaexPath": "AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib/labelText",
-    "BasePath": "AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/genericText",
-    "LibraryName": "AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib",
-    "LibraryVersion": "1.7.8",
     "AMLEdition": "AMLEd2",
     "ID": "9f4c8ef4-1255-4dc9-93f0-21365276a5d7"
   },
@@ -9027,15 +8811,6 @@
     "ID": "fe128c2d-549f-4b24-8021-7d7ade3fbd92"
   },
   {
-    "ClassName": "QRCodeReference",
-    "CaexPath": "AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib/QRCodeReference",
-    "BasePath": "AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib/id",
-    "LibraryName": "AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib",
-    "LibraryVersion": "1.7.8",
-    "AMLEdition": "AMLEd2",
-    "ID": "fe128c2d-549f-4b24-8021-7d7ade3fbd92"
-  },
-  {
     "ClassName": "rfidIdentifier",
     "CaexPath": "AutomationML_BasicProperties.identification_AttributeTypeLib/rfidIdentifier",
     "BasePath": null,
@@ -9104,15 +8879,6 @@
     "BasePath": "AutomationML_BasicProperties.Identification_AttributeTypeLib/id",
     "LibraryName": "AutomationML_BasicProperties.Identification_AttributeTypeLib",
     "LibraryVersion": "1.2.2",
-    "AMLEdition": "AMLEd2",
-    "ID": "26f40b42-6a05-4f2a-853c-f9216f8d95d0"
-  },
-  {
-    "ClassName": "RFIDIdentifier",
-    "CaexPath": "AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib/RFIDIdentifier",
-    "BasePath": "AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib/id",
-    "LibraryName": "AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib",
-    "LibraryVersion": "1.7.8",
     "AMLEdition": "AMLEd2",
     "ID": "26f40b42-6a05-4f2a-853c-f9216f8d95d0"
   },
@@ -11655,15 +11421,6 @@
     "ID": "bf2a78f8-764a-444a-9eb0-ec5b1bf8864c"
   },
   {
-    "ClassName": "number",
-    "CaexPath": "AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib/number",
-    "BasePath": "AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib/documentProperty",
-    "LibraryName": "AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib",
-    "LibraryVersion": "1.7.8",
-    "AMLEdition": "AMLEd2",
-    "ID": "bf2a78f8-764a-444a-9eb0-ec5b1bf8864c"
-  },
-  {
     "ClassName": "tilt",
     "CaexPath": "AutomationML_BasicProperties.Kinematics_AttributeTypeLib/tilt",
     "BasePath": "AutomationML_BasicProperties.Geometry_AttributeTypeLib/planeAngle",
@@ -11754,29 +11511,11 @@
     "ID": "f642a718-4251-4a69-a223-cf18c7c40653"
   },
   {
-    "ClassName": "documentNumber",
-    "CaexPath": "AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib/documentNumber",
-    "BasePath": "AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib/number",
-    "LibraryName": "AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib",
-    "LibraryVersion": "1.7.8",
-    "AMLEdition": "AMLEd2",
-    "ID": "f642a718-4251-4a69-a223-cf18c7c40653"
-  },
-  {
     "ClassName": "pageNumber",
     "CaexPath": "AutomationML_BasicProperties.Identification_AttributeTypeLib/pageNumber",
     "BasePath": "AutomationML_BasicProperties.Identification_AttributeTypeLib/number",
     "LibraryName": "AutomationML_BasicProperties.Identification_AttributeTypeLib",
     "LibraryVersion": "1.2.2",
-    "AMLEdition": "AMLEd2",
-    "ID": "12fd0f35-e9dc-4f80-84df-58af887459b3"
-  },
-  {
-    "ClassName": "pageNumber",
-    "CaexPath": "AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib/pageNumber",
-    "BasePath": "AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib/number",
-    "LibraryName": "AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib",
-    "LibraryVersion": "1.7.8",
     "AMLEdition": "AMLEd2",
     "ID": "12fd0f35-e9dc-4f80-84df-58af887459b3"
   },
@@ -11858,15 +11597,6 @@
     "BasePath": null,
     "LibraryName": "AutomationML_BasicProperties.Identification_AttributeTypeLib",
     "LibraryVersion": "1.2.2",
-    "AMLEdition": "AMLEd2",
-    "ID": "437fcce8-02ac-43c3-a847-343b88176202"
-  },
-  {
-    "ClassName": "displayName",
-    "CaexPath": "AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib/displayName",
-    "BasePath": "AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/genericText",
-    "LibraryName": "AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib",
-    "LibraryVersion": "1.7.8",
     "AMLEdition": "AMLEd2",
     "ID": "437fcce8-02ac-43c3-a847-343b88176202"
   },
@@ -12047,15 +11777,6 @@
     "BasePath": null,
     "LibraryName": "AutomationML_BasicProperties.Identification_AttributeTypeLib",
     "LibraryVersion": "1.2.2",
-    "AMLEdition": "AMLEd2",
-    "ID": "20c37cd7-8c53-49e5-9958-11ed89309a14"
-  },
-  {
-    "ClassName": "comment",
-    "CaexPath": "AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib/comment",
-    "BasePath": "AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/genericText",
-    "LibraryName": "AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib",
-    "LibraryVersion": "1.7.8",
     "AMLEdition": "AMLEd2",
     "ID": "20c37cd7-8c53-49e5-9958-11ed89309a14"
   },
@@ -12283,123 +12004,6 @@
     "LibraryVersion": "1.7.8",
     "AMLEdition": "AMLEd2",
     "ID": "da9a65f1-ec45-4f86-96f6-be657180ddfe"
-  },
-  {
-    "ClassName": "assetOwner",
-    "CaexPath": "AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib/assetOwner",
-    "BasePath": "AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib/identificationProperty",
-    "LibraryName": "AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib",
-    "LibraryVersion": "1.7.8",
-    "AMLEdition": "AMLEd2",
-    "ID": "9dbdeb6b-a362-4e67-aad5-5b3753eb51ae"
-  },
-  {
-    "ClassName": "classificationSystem",
-    "CaexPath": "AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib/classificationSystem",
-    "BasePath": "AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/classificationProperty",
-    "LibraryName": "AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib",
-    "LibraryVersion": "1.7.8",
-    "AMLEdition": "AMLEd2",
-    "ID": "943abecf-8e54-48eb-a3e7-93f4f58266f0"
-  },
-  {
-    "ClassName": "assetClass",
-    "CaexPath": "AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib/assetClass",
-    "BasePath": "AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/classificationProperty",
-    "LibraryName": "AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib",
-    "LibraryVersion": "1.7.8",
-    "AMLEdition": "AMLEd2",
-    "ID": "cc6c5d41-4637-4eb2-9e54-3f16b57e1c7b"
-  },
-  {
-    "ClassName": "assetSubClass",
-    "CaexPath": "AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib/assetSubClass",
-    "BasePath": "AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/classificationProperty",
-    "LibraryName": "AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib",
-    "LibraryVersion": "1.7.8",
-    "AMLEdition": "AMLEd2",
-    "ID": "fe702573-6d6d-4bba-8214-0801e93f0605"
-  },
-  {
-    "ClassName": "industrySector",
-    "CaexPath": "AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib/industrySector",
-    "BasePath": "AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/classificationProperty",
-    "LibraryName": "AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib",
-    "LibraryVersion": "1.7.8",
-    "AMLEdition": "AMLEd2",
-    "ID": "0601a592-ce55-49db-995c-0ad6eadc2640"
-  },
-  {
-    "ClassName": "applicationArea",
-    "CaexPath": "AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib/applicationArea",
-    "BasePath": "AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/classificationProperty",
-    "LibraryName": "AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib",
-    "LibraryVersion": "1.7.8",
-    "AMLEdition": "AMLEd2",
-    "ID": "c22e5def-37e9-4e23-977f-1cd799d32306"
-  },
-  {
-    "ClassName": "versionNumber",
-    "CaexPath": "AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib/versionNumber",
-    "BasePath": "AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib/id",
-    "LibraryName": "AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib",
-    "LibraryVersion": "1.7.8",
-    "AMLEdition": "AMLEd2",
-    "ID": "2d24270f-20eb-46c9-a4c3-7eb74f055765"
-  },
-  {
-    "ClassName": "identificationProperty",
-    "CaexPath": "AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib/identificationProperty",
-    "BasePath": null,
-    "LibraryName": "AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib",
-    "LibraryVersion": "1.7.8",
-    "AMLEdition": "AMLEd2",
-    "ID": "89fee549-e5a2-485b-88c5-061a93c134e9"
-  },
-  {
-    "ClassName": "documentProperty",
-    "CaexPath": "AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib/documentProperty",
-    "BasePath": "AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib/identificationProperty",
-    "LibraryName": "AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib",
-    "LibraryVersion": "1.7.8",
-    "AMLEdition": "AMLEd2",
-    "ID": "aa6196ad-5ffa-429c-a93b-8692ac922ef6"
-  },
-  {
-    "ClassName": "revisionID",
-    "CaexPath": "AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib/revisionID",
-    "BasePath": "AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib/documentProperty",
-    "LibraryName": "AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib",
-    "LibraryVersion": "1.7.8",
-    "AMLEdition": "AMLEd2",
-    "ID": "179faa4a-4cd4-4d19-87da-876dad916c16"
-  },
-  {
-    "ClassName": "documentVersion",
-    "CaexPath": "AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib/documentVersion",
-    "BasePath": "AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib/documentProperty",
-    "LibraryName": "AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib",
-    "LibraryVersion": "1.7.8",
-    "AMLEdition": "AMLEd2",
-    "ID": "525594cd-d37a-475d-a7b7-4426ce8178b5"
-  },
-  {
-    "ClassName": "approvalStatus",
-    "CaexPath": "AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib/approvalStatus",
-    "BasePath": "AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib/documentProperty",
-    "LibraryName": "AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib",
-    "LibraryVersion": "1.7.8",
-    "AMLEdition": "AMLEd2",
-    "ID": "1e20e716-9cb4-451c-a6eb-45387df46c31"
-  },
-  {
-    "ClassName": "authorRole",
-    "CaexPath": "AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib/authorRole",
-    "BasePath": "AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib/documentProperty",
-    "LibraryName": "AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib",
-    "LibraryVersion": "1.7.8",
-    "AMLEdition": "AMLEd2",
-    "ID": "6865623f-c1f4-4572-9d12-e6726a177ba3"
   },
   {
     "ClassName": "colorRGB",
