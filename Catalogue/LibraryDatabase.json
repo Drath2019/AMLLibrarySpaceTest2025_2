@@ -2012,6 +2012,26 @@
               "Revision": null
             }
           ]
+        },
+        {
+          "Name": "AutomationML_CoreProperties.MeasurementQuality_AttributeTypeLib",
+          "Versions": [
+            {
+              "Version": "1.7.8",
+              "CAEXVersion": "3.0",
+              "AMLEdition": "AMLEd2",
+              "IsArchived": false,
+              "Description": "This AttributeTypeLib defines domain-neutral attribute types for characterizing the metrological quality, context, and performance of measurement results. Aligning with the International Vocabulary of Metrology (VIM), it provides the standardized metadata necessary to evaluate, qualify, and trust a measurement within a digital twin or automation system. Rather than defining the physical properties themselves (which are modeled as typed quantities in the Core and Domain libraries), it encompasses attributes for measurement uncertainty, accuracy, precision, tolerance, measurement error, resolution, and temporal context. It serves as the normative basis for annotating physical quantities with their associated measurement quality, sensor performance, and evaluation metrics.",
+              "DownloadLink": null,
+              "DownloadLinks": [
+                "https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/AutomationML_CoreProperties.MeasurementQuality_AttributeTypeLib_AMLEd2_1.7.8.aml"
+              ],
+              "Sources": null,
+              "Signature": "MEQCIExqu80RLTrWNbUCw5VSclr4VSCIC5qWF/Ps5WS6KGiDAiBEniuiQzB3t0iT1PZWRMrsC/GtHdvG8GJPH2e2BeJc2g==",
+              "PublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEyk6uIUNugOojm3akdEAA4XoGGBEui0zPVhzkjR0RfprHFWrbPpFMfExaW2TaeChaegCmjE2boFph1aI1eNEPcQ==",
+              "Revision": null
+            }
+          ]
         }
       ]
     },
