@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CAEXFile SchemaVersion="3.0" FileName="AutomationML_CoreProperties.Lifetime_AttributeTypeLib_AMLEd2_1.7.8.aml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.dke.de/CAEX" xsi:schemaLocation="http://www.dke.de/CAEX CAEX_ClassModel_V.3.0.xsd">
+  <Description>a data field used to track specific iterations, releases, or revisions of an asset, document, software build, or system configuration</Description>
+  <Version>1.7.8</Version>
+  <SuperiorStandardVersion>AutomationML 2.1</SuperiorStandardVersion>
+  <SourceDocumentInformation OriginName="CoreProperties.Lifetime_AttributeTypeLib" OriginID="a0918ffd-fcbd-498a-96ee-f79ae34f3473" OriginVersion="1.7.8" LastWritingDateTime="2026-06-24T15:09:37.4737827+02:00" OriginProjectID="" OriginProjectTitle="" OriginRelease="1.7.8" OriginVendor="AutomationML" OriginVendorURL="AutomationML_CoreProperties.Lifetime_AttributeTypeLib_AMLEd2_1.7.8.aml" />
+  <ExternalReference Path="https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/AutomationML_CoreProperties.Time_AttributeTypeLib_AMLEd2_1.7.8.aml" Alias="AutomationMLCoreProperties.TimeAttributeTypeLibAMLEd2" />
+  <ExternalReference Path="https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/AutomationML_CoreProperties.Foundation_AttributeTypeLib_AMLEd2_1.7.8.aml" Alias="AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2" />
+  <AttributeTypeLib Name="AutomationML_CoreProperties.Lifetime_AttributeTypeLib" ID="2b1ba376-74dc-44cd-aa7c-60813d11b4d9">
+    <Description>This AttributeTypeLib defines attributes related to reliability, availability, and expected lifetime characteristics of an asset. The attributes describe statistical properties and time-based expectations of asset behavior under defined conditions. They are formulated in a domain-neutral manner and do not assume a specific engineering discipline, organizational structure, or maintenance implementation. The contained attributes provide a generic semantic basis for expressing reliability- and lifetime-related information. Domain-specific interpretations, operational contexts, or maintenance concepts may be introduced by referencing or extending these attributes in dedicated Domain Extension Libraries.</Description>
+    <Version>1.7.8</Version>
+    <AttributeType Name="cycleTime" Unit="s" ID="6637b83b-b87a-4bcd-94ee-ed09854c706b" AttributeDataType="xs:double" RefAttributeType="AutomationMLCoreProperties.TimeAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Time_AttributeTypeLib/time">
+      <Description>cycleTime is a time quantity that expresses time required to complete one cycle of a process or operation.</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+    <AttributeType Name="setupTime" ID="72b4126e-76a3-4f54-b1e5-09d6d642d8d2" AttributeDataType="xs:double" Unit="s" RefAttributeType="AutomationMLCoreProperties.TimeAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Time_AttributeTypeLib/time">
+      <Description>setupTime is a time quantity that expresses time required to prepare a system or process for operation.</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+    <AttributeType Name="serviceLife" Unit="s" ID="23b321ed-d1e3-42b4-908e-bab083fa15ac" AttributeDataType="xs:double" RefAttributeType="AutomationMLCoreProperties.TimeAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Time_AttributeTypeLib/time">
+      <Description>serviceLife is an attribute that represents expected period during which an item remains functional under specified operating conditions.</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+    <AttributeType Name="designLife" Unit="s" ID="d0724da5-771e-45aa-aaad-77a31b502518" AttributeDataType="xs:double" RefAttributeType="AutomationMLCoreProperties.TimeAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Time_AttributeTypeLib/time">
+      <Description>designLife is an attribute that represents intended operational lifetime for which an item is designed.</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+    <AttributeType Name="waitingTime" ID="ae64b93b-681f-4453-9c41-3445d8cfa8c4" AttributeDataType="xs:double" Unit="s" RefAttributeType="AutomationMLCoreProperties.TimeAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Time_AttributeTypeLib/time">
+      <Description>waitingTime is a time quantity that expresses time during which an item, resource, or process remains idle before further processing.</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+    <AttributeType Name="lifeCycleStage" ID="df472a35-17a1-49c7-bebd-c7bbceffebbc" AttributeDataType="xs:string" RefAttributeType="AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/statusMetric">
+      <Description>lifeCycleStage is an identifier that models the current lifecycle phase of the asset.</Description>
+      <Version>1.7.8</Version>
+      <Constraint Name="Constraints">
+        <NominalScaledType>
+          <RequiredValue>design</RequiredValue>
+          <RequiredValue>manufacturing</RequiredValue>
+          <RequiredValue>commissioning</RequiredValue>
+          <RequiredValue>operation</RequiredValue>
+          <RequiredValue>maintenance</RequiredValue>
+          <RequiredValue>repair</RequiredValue>
+          <RequiredValue>update</RequiredValue>
+          <RequiredValue>decommissioning</RequiredValue>
+        </NominalScaledType>
+      </Constraint>
+    </AttributeType>
+    <AttributeType Name="assetState" AttributeDataType="xs:string" ID="99c0378c-033d-49d2-a439-4e2092f14892" RefAttributeType="AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/statusMetric">
+      <Description>assetState is a state attribute that provides aggregated state describing the overall condition of an asset.</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+    <AttributeType Name="operationalState" AttributeDataType="xs:string" ID="bde87ac5-a640-4e02-a34f-05298a22412a" RefAttributeType="AutomationML_CoreProperties.Lifetime_AttributeTypeLib/assetState">
+      <Description>operationalState is a state attribute that indicates the current operational mode of an asset during runtime.</Description>
+      <Version>1.7.8</Version>
+      <Constraint Name="Enum">
+        <NominalScaledType>
+          <RequiredValue>stopped</RequiredValue>
+          <RequiredValue>starting</RequiredValue>
+          <RequiredValue>running</RequiredValue>
+          <RequiredValue>paused</RequiredValue>
+          <RequiredValue>stopping</RequiredValue>
+          <RequiredValue>standby</RequiredValue>
+          <RequiredValue>error</RequiredValue>
+        </NominalScaledType>
+      </Constraint>
+    </AttributeType>
+    <AttributeType Name="healthState" AttributeDataType="xs:string" ID="24fc0c66-8704-4fad-8671-73e00d77e76e" RefAttributeType="AutomationML_CoreProperties.Lifetime_AttributeTypeLib/assetState">
+      <Description>healthState is a state attribute that indicates the diagnostic or condition-monitoring assessment of the health of an asset.</Description>
+      <Version>1.7.8</Version>
+      <Constraint Name="Enum">
+        <NominalScaledType>
+          <RequiredValue>good</RequiredValue>
+          <RequiredValue>degraded</RequiredValue>
+          <RequiredValue>warning</RequiredValue>
+          <RequiredValue>critical</RequiredValue>
+          <RequiredValue>failed</RequiredValue>
+        </NominalScaledType>
+      </Constraint>
+    </AttributeType>
+    <AttributeType Name="availabilityState" AttributeDataType="xs:string" ID="e4c24a93-e2e0-401c-8831-fd80cc466f08" RefAttributeType="AutomationML_CoreProperties.Lifetime_AttributeTypeLib/assetState">
+      <Description>availabilityState is a state attribute that indicates whether an asset is available for operation or use.</Description>
+      <Version>1.7.8</Version>
+      <Constraint Name="Enum">
+        <NominalScaledType>
+          <RequiredValue>available</RequiredValue>
+          <RequiredValue>unavailable</RequiredValue>
+        </NominalScaledType>
+      </Constraint>
+    </AttributeType>
+    <AttributeType Name="isEnabled" ID="6230e8b5-a752-4028-90e2-ee86973245cd" AttributeDataType="xs:boolean" RefAttributeType="AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/booleanProperty">
+      <Description>isEnabled is a state attribute that provides functional capability state indicating if the component or specific sub-routine is active and allowed to execute (True) or bypassed/disabled (False).</Description>
+      <Version>1.7.8</Version>
+      <Value>true</Value>
+    </AttributeType>
+    <AttributeType Name="isReady" ID="789cdd4e-70a1-4708-9d28-8789ce354daf" AttributeDataType="xs:boolean" RefAttributeType="AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/booleanProperty">
+      <Description>isReady is a state attribute that provides operational runtime state indicating whether the component has cleared all internal interlocks and is ready to process a command or product (True) or is currently un-ready (False).</Description>
+      <Version>1.7.8</Version>
+      <Value>false</Value>
+    </AttributeType>
+  </AttributeTypeLib>
+</CAEXFile>
