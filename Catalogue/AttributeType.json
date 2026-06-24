@@ -9774,6 +9774,15 @@
     "ID": "b9e09ee9-61b6-442d-b6e8-fd006e3cfc30"
   },
   {
+    "ClassName": "purchasePrice",
+    "CaexPath": "AutomationML_CoreProperties.CommercialProperties_AttributeTypeLib/purchasePrice",
+    "BasePath": "AutomationML_CoreProperties.CommercialProperties_AttributeTypeLib/price",
+    "LibraryName": "AutomationML_CoreProperties.CommercialProperties_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "b9e09ee9-61b6-442d-b6e8-fd006e3cfc30"
+  },
+  {
     "ClassName": "purchaseCurrency",
     "CaexPath": "AutomationML_BasicProperties.commercialProperties_AttributeTypeLib/purchaseCurrency",
     "BasePath": null,
@@ -9855,6 +9864,15 @@
     "ID": "aef03a10-ceba-4048-ac93-1bae113a198f"
   },
   {
+    "ClassName": "listPrice",
+    "CaexPath": "AutomationML_CoreProperties.CommercialProperties_AttributeTypeLib/listPrice",
+    "BasePath": "AutomationML_CoreProperties.CommercialProperties_AttributeTypeLib/price",
+    "LibraryName": "AutomationML_CoreProperties.CommercialProperties_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "aef03a10-ceba-4048-ac93-1bae113a198f"
+  },
+  {
     "ClassName": "priceDate",
     "CaexPath": "AutomationML_BasicProperties.commercialProperties_AttributeTypeLib/priceDate",
     "BasePath": null,
@@ -9914,6 +9932,15 @@
     "BasePath": "AutomationML_BasicProperties.Time_AttributeTypeLib/date",
     "LibraryName": "AutomationML_BasicProperties.CommercialProperties_AttributeTypeLib",
     "LibraryVersion": "1.2.2",
+    "AMLEdition": "AMLEd2",
+    "ID": "068604f5-a108-4de5-9fc9-00ba5f7f3047"
+  },
+  {
+    "ClassName": "priceDate",
+    "CaexPath": "AutomationML_CoreProperties.CommercialProperties_AttributeTypeLib/priceDate",
+    "BasePath": "AutomationMLCoreProperties.TimeAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Time_AttributeTypeLib/date",
+    "LibraryName": "AutomationML_CoreProperties.CommercialProperties_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
     "AMLEdition": "AMLEd2",
     "ID": "068604f5-a108-4de5-9fc9-00ba5f7f3047"
   },
@@ -10026,6 +10053,15 @@
     "ID": "cc7e4e39-cad2-4d5b-a1eb-c33503eddb1c"
   },
   {
+    "ClassName": "deliveryDate",
+    "CaexPath": "AutomationML_CoreProperties.CommercialProperties_AttributeTypeLib/deliveryDate",
+    "BasePath": "AutomationMLCoreProperties.TimeAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Time_AttributeTypeLib/date",
+    "LibraryName": "AutomationML_CoreProperties.CommercialProperties_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "cc7e4e39-cad2-4d5b-a1eb-c33503eddb1c"
+  },
+  {
     "ClassName": "warrantyReference",
     "CaexPath": "AutomationML_BasicProperties.commercialProperties_AttributeTypeLib/warrantyReference",
     "BasePath": null,
@@ -10094,6 +10130,15 @@
     "BasePath": null,
     "LibraryName": "AutomationML_BasicProperties.CommercialProperties_AttributeTypeLib",
     "LibraryVersion": "1.2.2",
+    "AMLEdition": "AMLEd2",
+    "ID": "024909e8-e29a-46aa-ab7d-0c97430524e1"
+  },
+  {
+    "ClassName": "commercialRemark",
+    "CaexPath": "AutomationML_CoreProperties.CommercialProperties_AttributeTypeLib/commercialRemark",
+    "BasePath": "AutomationML_CoreProperties.CommercialProperties_AttributeTypeLib/commercialProperty",
+    "LibraryName": "AutomationML_CoreProperties.CommercialProperties_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
     "AMLEdition": "AMLEd2",
     "ID": "024909e8-e29a-46aa-ab7d-0c97430524e1"
   },
@@ -10242,6 +10287,15 @@
     "ID": "b3a6a1d2-8c41-4e9a-bf47-6b1f4b3a9f01"
   },
   {
+    "ClassName": "price",
+    "CaexPath": "AutomationML_CoreProperties.CommercialProperties_AttributeTypeLib/price",
+    "BasePath": "AutomationML_CoreProperties.CommercialProperties_AttributeTypeLib/commercialProperty",
+    "LibraryName": "AutomationML_CoreProperties.CommercialProperties_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "b3a6a1d2-8c41-4e9a-bf47-6b1f4b3a9f01"
+  },
+  {
     "ClassName": "priceCurrency",
     "CaexPath": "AutomationML_BasicProperties.commercialProperties_AttributeTypeLib/priceCurrency",
     "BasePath": null,
@@ -10283,6 +10337,15 @@
     "BasePath": null,
     "LibraryName": "AutomationML_BasicProperties.CommercialProperties_AttributeTypeLib",
     "LibraryVersion": "1.2.2",
+    "AMLEdition": "AMLEd2",
+    "ID": "f4d6a90c-9e9b-4b6e-bfa6-8c7e3a9f1d22"
+  },
+  {
+    "ClassName": "priceCurrency",
+    "CaexPath": "AutomationML_CoreProperties.CommercialProperties_AttributeTypeLib/priceCurrency",
+    "BasePath": "AutomationML_CoreProperties.CommercialProperties_AttributeTypeLib/commercialProperty",
+    "LibraryName": "AutomationML_CoreProperties.CommercialProperties_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
     "AMLEdition": "AMLEd2",
     "ID": "f4d6a90c-9e9b-4b6e-bfa6-8c7e3a9f1d22"
   },
@@ -18592,5 +18655,41 @@
     "LibraryVersion": "1.7.8",
     "AMLEdition": "AMLEd2",
     "ID": "f40fb24c-0c23-48cb-bed7-d3290bcff538"
+  },
+  {
+    "ClassName": "commercialProperty",
+    "CaexPath": "AutomationML_CoreProperties.CommercialProperties_AttributeTypeLib/commercialProperty",
+    "BasePath": null,
+    "LibraryName": "AutomationML_CoreProperties.CommercialProperties_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "31d0fade-2ae5-4a08-8c69-d293471aa303"
+  },
+  {
+    "ClassName": "leadTime",
+    "CaexPath": "AutomationML_CoreProperties.CommercialProperties_AttributeTypeLib/leadTime",
+    "BasePath": "AutomationMLCoreProperties.TimeAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Time_AttributeTypeLib/durationDays",
+    "LibraryName": "AutomationML_CoreProperties.CommercialProperties_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "23f050e7-775a-4b87-a675-4307b89edb5f"
+  },
+  {
+    "ClassName": "deliveryTime",
+    "CaexPath": "AutomationML_CoreProperties.CommercialProperties_AttributeTypeLib/deliveryTime",
+    "BasePath": "AutomationMLCoreProperties.TimeAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Time_AttributeTypeLib/durationDays",
+    "LibraryName": "AutomationML_CoreProperties.CommercialProperties_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "f6e14ada-c99d-43ca-8ae9-ee065f27aa32"
+  },
+  {
+    "ClassName": "orderQuantity",
+    "CaexPath": "AutomationML_CoreProperties.CommercialProperties_AttributeTypeLib/orderQuantity",
+    "BasePath": "AutomationML_CoreProperties.CommercialProperties_AttributeTypeLib/commercialProperty",
+    "LibraryName": "AutomationML_CoreProperties.CommercialProperties_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "7837ba9b-5488-4957-8f7e-f4d0a85ba77f"
   }
 ]
