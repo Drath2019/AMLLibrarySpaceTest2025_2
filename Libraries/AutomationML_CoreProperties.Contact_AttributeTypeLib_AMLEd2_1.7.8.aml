@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CAEXFile SchemaVersion="3.0" FileName="AutomationML_CoreProperties.Contact_AttributeTypeLib_AMLEd2_1.7.8.aml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.dke.de/CAEX" xsi:schemaLocation="http://www.dke.de/CAEX CAEX_ClassModel_V.3.0.xsd">
+  <Description>a data field used to track specific iterations, releases, or revisions of an asset, document, software build, or system configuration</Description>
+  <Version>1.7.8</Version>
+  <SuperiorStandardVersion>AutomationML 2.1</SuperiorStandardVersion>
+  <SourceDocumentInformation OriginName="CoreProperties.Contact_AttributeTypeLib" OriginID="dfded0e1-25cc-4256-a602-c04a19b32981" OriginVersion="1.7.8" LastWritingDateTime="2026-06-24T21:55:56.473637+02:00" OriginProjectID="" OriginProjectTitle="" OriginRelease="1.7.8" OriginVendor="AutomationML" OriginVendorURL="AutomationML_CoreProperties.Contact_AttributeTypeLib_AMLEd2_1.7.8.aml" />
+  <ExternalReference Path="https://9t4kqL7NX8JsW6o@automationml.ovgu.de/public.php/webdav/AutomationML_Base.Geometry_Libraries_AMLEd2_2.12.0.aml" Alias="AutomationMLBase.GeometryLibrariesAMLEd22_12_0" />
+  <AttributeTypeLib Name="AutomationML_CoreProperties.Contact_AttributeTypeLib" ID="b702a912-ca66-4623-9aff-882fe923c8b1">
+    <Description>This AttributeTypeLib defines structured and simple attribute types for managing contact, administrative, and business partner information. It encompasses personal and organizational details, postal and electronic addresses, communication channels, and cryptographic identifiers (e.g., public keys). The library supports the normative exchange of master data, procurement contacts, and economic entity information, ensuring consistent identification and communication routing across the asset lifecycle.</Description>
+    <Version>1.7.8</Version>
+    <AttributeType Name="contactProperty" ID="5c34c964-90e6-4377-8d39-7441cd5f5ae1" AttributeDataType="xs:string">
+      <Description>contactProperty is an abstract attribute representing a common semantic category for properties that provide, describe, or manage contact-related simple or compound information associated with a person, organization, or other identifiable entity.</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+    <AttributeType Name="simpleContactProperty" ID="51a88dda-2cf5-47ba-88cf-7cd27c886c17" AttributeDataType="xs:string" RefAttributeType="AutomationML_CoreProperties.Contact_AttributeTypeLib/contactProperty">
+      <Description>simpleContactProperty is an abstract attribute representing a common semantic category for properties that convey a single, indivisible item of contact information associated with an entity.</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+    <AttributeType Name="title" ID="62169871-2f2d-48fb-8a62-2b71fe6b39c6" AttributeDataType="xs:string" RefAttributeType="AutomationML_CoreProperties.Contact_AttributeTypeLib/simpleContactProperty">
+      <Description>title is a contact attribute expressing the common, formal, religious, or other title preceding a contact person's name.</Description>
+      <Version>1.7.8</Version>
+      <RefSemantic CorrespondingAttributePath="IRDI:0173-1#02-AAO208#003" />
+    </AttributeType>
+    <AttributeType Name="academicTitle" ID="4328f8a1-89bc-41d4-ad03-89c39920b356" AttributeDataType="xs:string" RefAttributeType="AutomationML_CoreProperties.Contact_AttributeTypeLib/simpleContactProperty">
+      <Description>academicTitle is a contact attribute expressing the academic title preceding a contact person's name.</Description>
+      <Version>1.7.8</Version>
+      <RefSemantic CorrespondingAttributePath="IRDI:0173-1#02-AAO209#003" />
+    </AttributeType>
+    <AttributeType Name="firstName" ID="ce436aac-8fb8-4f14-9400-2271e3e32132" AttributeDataType="xs:string" RefAttributeType="AutomationML_CoreProperties.Contact_AttributeTypeLib/simpleContactProperty">
+      <Description>firstName is a contact attribute expressing the first name of a contact person.</Description>
+      <Version>1.7.8</Version>
+      <RefSemantic CorrespondingAttributePath="IRDI:0173-1#02-AAO206#002" />
+    </AttributeType>
+    <AttributeType Name="middleNames" ID="679933a7-9872-4399-b5e7-9fc23ba91975" AttributeDataType="xs:string" RefAttributeType="AutomationML_CoreProperties.Contact_AttributeTypeLib/simpleContactProperty">
+      <Description>middleNames is a contact attribute expressing the middle names of contact person.</Description>
+      <Version>1.7.8</Version>
+      <RefSemantic CorrespondingAttributePath="IRDI:0173-1#02-AAO207#002" />
+    </AttributeType>
+    <AttributeType Name="nameOfContact" ID="1b39bc7f-92ca-4920-8b25-000e3f345125" AttributeDataType="xs:string" RefAttributeType="AutomationML_CoreProperties.Contact_AttributeTypeLib/simpleContactProperty">
+      <Description>nameOfContact is a contact attribute expressing the surname of a contact person.</Description>
+      <Version>1.7.8</Version>
+      <RefSemantic CorrespondingAttributePath="IRDI:0173-1#02-AAO205#002" />
+    </AttributeType>
+    <AttributeType Name="legalName" AttributeDataType="xs:string" ID="70a06a89-3fd1-4158-a120-b7316900a306" RefAttributeType="AutomationML_CoreProperties.Contact_AttributeTypeLib/simpleContactProperty">
+      <Description>legalName is a contact attribute representing the full name of a natural person or legal entity (organisation, company, etc). For a natural person the format should be: 'last name, first names'.</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+    <AttributeType Name="additionalName" AttributeDataType="xs:string" ID="fd0e3de8-a94b-4cf4-befa-abe90510c960" RefAttributeType="AutomationML_CoreProperties.Contact_AttributeTypeLib/simpleContactProperty">
+      <Description>additionalName is a contact attribute expressing additional information of the organizational unit.</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+    <AttributeType Name="shortName" AttributeDataType="xs:string" ID="d8ee1803-c7de-4f62-a610-d9957968a1be" RefAttributeType="AutomationML_CoreProperties.Contact_AttributeTypeLib/simpleContactProperty">
+      <Description>shortName is a contact attribute expressing the short name of the legal entity.</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+    <AttributeType Name="roleOfContactPerson" ID="4b5fc7ec-6da0-4838-b886-e089474e6309" AttributeDataType="xs:string" RefAttributeType="AutomationML_CoreProperties.Contact_AttributeTypeLib/simpleContactProperty">
+      <Description>function of a contact person in a process.</Description>
+      <Version>1.7.8</Version>
+      <RefSemantic CorrespondingAttributePath="IRDI:0173-1#02-AAO204#003" />
+    </AttributeType>
+    <AttributeType Name="department" AttributeDataType="xs:string" ID="67efec2c-f619-46bf-9bc2-fc98af9ca476" RefAttributeType="AutomationML_CoreProperties.Contact_AttributeTypeLib/simpleContactProperty">
+      <Description>administrative section within an organisation where a business partner is located.</Description>
+      <Version>1.7.8</Version>
+      <RefSemantic CorrespondingAttributePath="IRDI:0173-1#02-AAO127#003" />
+    </AttributeType>
+    <AttributeType Name="phoneNr" AttributeDataType="xs:string" ID="3a9775d0-f7e8-47b8-8bfe-adfc5aad5ce4" RefAttributeType="AutomationML_CoreProperties.Contact_AttributeTypeLib/simpleContactProperty">
+      <Description>phoneNr is a contact attribute expressing the complete telephone number to be called to reach a business partner.</Description>
+      <Version>1.7.8</Version>
+      <RefSemantic CorrespondingAttributePath="IRDI:0173-1#02-AAO136#002" />
+    </AttributeType>
+    <AttributeType Name="phoneType" AttributeDataType="xs:string" ID="8deb0b12-83c6-4aaf-92fa-a27172e1dcb0" RefAttributeType="AutomationML_CoreProperties.Contact_AttributeTypeLib/simpleContactProperty">
+      <Description>phoneType  is a contact attribute expressing the telephone type according to its location or usage.</Description>
+      <Version>1.7.8</Version>
+      <RefSemantic CorrespondingAttributePath="IRDI:0173-1#02-AAO137#003" />
+    </AttributeType>
+    <AttributeType Name="faxNr" AttributeDataType="xs:string" ID="735fbbd3-cef5-41c4-b42b-73fd22b18521" RefAttributeType="AutomationML_CoreProperties.Contact_AttributeTypeLib/simpleContactProperty">
+      <Description>faxNr  is a contact attribute expressing the complete telephone number to be called to reach a business partner's fax machine.</Description>
+      <Version>1.7.8</Version>
+      <RefSemantic CorrespondingAttributePath="IRDI:0173-1#02-AAQ834#005" />
+    </AttributeType>
+    <AttributeType Name="faxType" AttributeDataType="xs:string" ID="fbe455d9-0e31-4209-8ac6-50135c5d0481" RefAttributeType="AutomationML_CoreProperties.Contact_AttributeTypeLib/simpleContactProperty">
+      <Description>faxType is a contact property characterizing the type of the fax according to its location or usage.</Description>
+      <Version>1.7.8</Version>
+      <RefSemantic CorrespondingAttributePath="IRDI:0173-1#02-AAO196#003" />
+    </AttributeType>
+    <AttributeType Name="emailAddress" AttributeDataType="xs:string" ID="60b36f82-fc40-4fb9-9f6f-0c97feabdc79" RefAttributeType="AutomationML_CoreProperties.Contact_AttributeTypeLib/simpleContactProperty">
+      <Description>emailAddress is a contact attribute expressing the electronic mail address of a business partner.</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+    <AttributeType Name="emailType" AttributeDataType="xs:string" ID="91c8bb93-6ba2-47f1-8878-550b7674d693" RefAttributeType="AutomationML_CoreProperties.Contact_AttributeTypeLib/simpleContactProperty">
+      <Description>emailType is a contact property expressing the e-mail address according to its location or usage.</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+    <AttributeType Name="publicKey" AttributeDataType="xs:string" ID="7bf7a9d7-57ae-445b-a2c3-c028fdd04639" RefAttributeType="AutomationML_CoreProperties.Contact_AttributeTypeLib/simpleContactProperty">
+      <Description>publicKey is a contact property expressing the public part of an unsymmetrical key pair to sign or encrypt text or messages.</Description>
+      <Version>1.7.8</Version>
+      <RefSemantic CorrespondingAttributePath="IRDI:0173-1#02-AAO200#002" />
+    </AttributeType>
+    <AttributeType Name="publicKeyType" AttributeDataType="xs:string" ID="8e05e265-cff1-4b56-9938-21a92656ba85" RefAttributeType="AutomationML_CoreProperties.Contact_AttributeTypeLib/simpleContactProperty">
+      <Description>publicKeyType  is a contact attribute expressing the characterization of a public key according to its encryption process.</Description>
+      <Version>1.7.8</Version>
+      <RefSemantic CorrespondingAttributePath="IRDI:0173-1#02-AAO201#002" />
+    </AttributeType>
+    <AttributeType Name="VAT" AttributeDataType="xs:string" ID="86e3ae33-6e5a-4048-8d0a-3c8f67e93bcc" RefAttributeType="AutomationML_CoreProperties.Contact_AttributeTypeLib/simpleContactProperty">
+      <Description>VAT  is a contact attribute expressing the VAT identification number.</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+    <AttributeType Name="DUNS" AttributeDataType="xs:string" ID="4d5e16c2-c688-470e-aa16-a2fdaf2b5ebb" RefAttributeType="AutomationML_CoreProperties.Contact_AttributeTypeLib/simpleContactProperty">
+      <Description>DUNS (Data Universal Numbering System) is a unique nine-digit identifier for individual business locations.</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+    <AttributeType Name="GTIN" AttributeDataType="xs:string" ID="5f5f2b8f-8e38-4092-8b25-9c6f0a5fa414" RefAttributeType="AutomationML_CoreProperties.Contact_AttributeTypeLib/simpleContactProperty">
+      <Description>GTIN (Global Trade Item Number, international standard) is a 13-digit number located below the barcode, it allows any item, product or product variant to be identified worldwide.</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+    <AttributeType Name="GLN" AttributeDataType="xs:string" ID="8a6fbf37-e4c4-430b-9d8e-bd299c32a23c" RefAttributeType="AutomationML_CoreProperties.Contact_AttributeTypeLib/simpleContactProperty">
+      <Description>GLN (Global Location Number, international standard) is a 13-digit number, it identifies physical locations or legal entities.</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+    <AttributeType Name="cityName" AttributeDataType="xs:string" ID="05e52a88-9ef5-44ad-b579-071d42a9f08a" RefAttributeType="AutomationML_CoreProperties.Contact_AttributeTypeLib/simpleContactProperty">
+      <Description> cityName is a contact attribute expressing the name of a town or city.</Description>
+      <Version>1.7.8</Version>
+      <RefSemantic CorrespondingAttributePath="IRDI:0173-1#02-AAO132#002" />
+    </AttributeType>
+    <AttributeType Name="countryCode" AttributeDataType="xs:string" ID="3aca91bc-37f6-4441-aa67-0166e5892a8a" RefAttributeType="AutomationML_CoreProperties.Contact_AttributeTypeLib/simpleContactProperty">
+      <Description>countryCode is a contact attribute expressing the code of a country.</Description>
+      <Version>1.7.8</Version>
+      <RefSemantic CorrespondingAttributePath="IRDI:0173-1#02-AAO134#002" />
+    </AttributeType>
+    <AttributeType Name="countryName" AttributeDataType="xs:string" ID="b1cf5770-a598-4976-bef1-c131375105be" RefAttributeType="AutomationML_CoreProperties.Contact_AttributeTypeLib/simpleContactProperty">
+      <Description>countryName is a contact attribute expressing the name of a country.</Description>
+      <Version>1.7.8</Version>
+      <RefSemantic CorrespondingAttributePath="IRDI:0173-1#02-AAK314#003" />
+    </AttributeType>
+    <AttributeType Name="addressRemarks" AttributeDataType="xs:string" ID="0a38d1d1-79dd-4e5e-a5ad-198255f892d6" RefAttributeType="AutomationML_CoreProperties.Contact_AttributeTypeLib/simpleContactProperty">
+      <Description>addressRemarks is a contact attribute expressing a plain text characterizing address information for which there is no property.</Description>
+      <Version>1.7.8</Version>
+      <RefSemantic CorrespondingAttributePath="IRDI:0173-1#02-AAO202#003" />
+    </AttributeType>
+    <AttributeType Name="addressURL" AttributeDataType="xs:string" ID="680f9f08-a23c-438e-a789-557d6a342f21" RefAttributeType="AutomationML_CoreProperties.Contact_AttributeTypeLib/simpleContactProperty">
+      <Description>addressURL  is a contact attribute expressing the web site address where information about the product or contact is given.</Description>
+      <Version>1.7.8</Version>
+      <RefSemantic CorrespondingAttributePath="IRDI:0173-1#02-AAQ326#002" />
+    </AttributeType>
+    <AttributeType Name="street" AttributeDataType="xs:string" ID="b83e1318-f629-4648-8ee6-ce299523e55f" RefAttributeType="AutomationML_CoreProperties.Contact_AttributeTypeLib/simpleContactProperty">
+      <Description>street  is a contact attribute expressing the street name and house number.</Description>
+      <Version>1.7.8</Version>
+      <RefSemantic CorrespondingAttributePath="IRDI:0173-1#02-AAO128#002" />
+    </AttributeType>
+    <AttributeType Name="POBox" ID="b1330528-bd0d-4efd-8911-024f58fd0f47" AttributeDataType="xs:string" RefAttributeType="AutomationML_CoreProperties.Contact_AttributeTypeLib/simpleContactProperty">
+      <Description>POBox is a contact attribute expressing the P.O. box number.</Description>
+      <Version>1.7.8</Version>
+      <RefSemantic CorrespondingAttributePath="IRDI:0173-1#02-AAO130#002" />
+    </AttributeType>
+    <AttributeType Name="postalCodeOfPOBox" ID="c8621335-ae13-4f49-b1b3-d31e651af1e5" AttributeDataType="xs:string" RefAttributeType="AutomationML_CoreProperties.Contact_AttributeTypeLib/simpleContactProperty">
+      <Description>postalCodeOfPOBox is a contact attribute expressing the postal code of P.O. box address.</Description>
+      <Version>1.7.8</Version>
+      <RefSemantic CorrespondingAttributePath="IRDI:0173-1#02-AAO131#002" />
+    </AttributeType>
+    <AttributeType Name="stateOrProvince" ID="ef94b3f9-9145-443c-8b92-a223f79045d0" AttributeDataType="xs:string" RefAttributeType="AutomationML_CoreProperties.Contact_AttributeTypeLib/simpleContactProperty">
+      <Description>stateOrProvince is a contact attribute expressing the federal state or the part of a state.</Description>
+      <Version>1.7.8</Version>
+      <RefSemantic CorrespondingAttributePath="IRDI:0173-1#02-AAO133#002" />
+    </AttributeType>
+    <AttributeType Name="language" ID="a83964a5-8f7a-4067-8d79-8c9b06f66afb" AttributeDataType="xs:string" RefAttributeType="AutomationML_CoreProperties.Contact_AttributeTypeLib/simpleContactProperty">
+      <Description>language is a contact attribute expressing the available language.</Description>
+      <Version>1.7.8</Version>
+      <RefSemantic CorrespondingAttributePath="IRDI:0173-1#02-AAO895#003" />
+    </AttributeType>
+    <AttributeType Name="postalCode" ID="0bb6d540-d009-4136-92f3-ade4280bbc26" AttributeDataType="xs:string" RefAttributeType="AutomationML_CoreProperties.Contact_AttributeTypeLib/simpleContactProperty">
+      <Description>postalCode is a contact attribute expressing the postal code of address.</Description>
+      <Version>1.7.8</Version>
+      <RefSemantic CorrespondingAttributePath="IRDI:0173-1#02-AAO129#002" />
+    </AttributeType>
+    <AttributeType Name="commItem" ID="36949fe2-3c09-4be0-86cb-9ba77ee8dce7" AttributeDataType="xs:string" RefAttributeType="AutomationML_CoreProperties.Contact_AttributeTypeLib/simpleContactProperty">
+      <Description>commItem is a contact attribute expressing a communication item.</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+    <AttributeType Name="commList" ID="fde29d13-82e6-44f2-b641-36afc70c0f41" RefAttributeType="AutomationMLBase.GeometryLibrariesAMLEd22_12_0@AutomationMLBaseAttributeTypeLib/ListType">
+      <Description>commList  is a contact attribute providing a list of communication items of type commItem.</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+    <AttributeType Name="structuredContactInformation" ID="e89a1c36-4b17-4c38-a13d-82cae594f14d" AttributeDataType="xs:string" RefAttributeType="AutomationML_CoreProperties.Contact_AttributeTypeLib/contactProperty">
+      <Description>structuredContactInformation is an abstract attribute representing the semantic category of properties that consist of multiple related contact information elements organized as a structured set and collectively used to identify, describe, or manage contact information associated with an entity.</Description>
+      <Version>1.7.8</Version>
+    </AttributeType>
+    <AttributeType Name="postalAddress" ID="59319e07-e24c-4475-81ab-c63bcb568322" AttributeDataType="xs:string" RefAttributeType="AutomationML_CoreProperties.Contact_AttributeTypeLib/structuredContactInformation">
+      <Description>postalAddress is a structured contact attribute expressing the address information of a business partner.</Description>
+      <Version>1.7.8</Version>
+      <RefSemantic CorrespondingAttributePath="IRDI:0173-1#02-AAQ832#005" />
+      <Attribute Name="street" AttributeDataType="xs:string" RefAttributeType="AutomationML_CoreProperties.Contact_AttributeTypeLib/street">
+        <RefSemantic CorrespondingAttributePath="IRDI:0173-1#02-AAO128#002" />
+      </Attribute>
+      <Attribute Name="cityName" AttributeDataType="xs:string" RefAttributeType="AutomationML_CoreProperties.Contact_AttributeTypeLib/cityName">
+        <RefSemantic CorrespondingAttributePath="IRDI:0173-1#02-AAO132#002" />
+      </Attribute>
+      <Attribute Name="countryCode" AttributeDataType="xs:string" RefAttributeType="AutomationML_CoreProperties.Contact_AttributeTypeLib/countryCode">
+        <RefSemantic CorrespondingAttributePath="IRDI:0173-1#02-AAO134#002" />
+      </Attribute>
+      <Attribute Name="addressRemarks" AttributeDataType="xs:string" RefAttributeType="AutomationML_CoreProperties.Contact_AttributeTypeLib/addressRemarks">
+        <RefSemantic CorrespondingAttributePath="IRDI:0173-1#02-AAO202#003" />
+      </Attribute>
+      <Attribute Name="addressURL" AttributeDataType="xs:string" RefAttributeType="AutomationML_CoreProperties.Contact_AttributeTypeLib/addressURL">
+        <RefSemantic CorrespondingAttributePath="IRDI:0173-1#02-AAQ326#002" />
+      </Attribute>
+      <Attribute Name="postalCode" AttributeDataType="xs:string" RefAttributeType="AutomationML_CoreProperties.Contact_AttributeTypeLib/postalCode">
+        <RefSemantic CorrespondingAttributePath="IRDI:0173-1#02-AAO129#002" />
+      </Attribute>
+      <Attribute Name="POBox" AttributeDataType="xs:string" RefAttributeType="AutomationML_CoreProperties.Contact_AttributeTypeLib/POBox">
+        <RefSemantic CorrespondingAttributePath="IRDI:0173-1#02-AAO130#002" />
+      </Attribute>
+      <Attribute Name="postalCodeOfPOBox" AttributeDataType="xs:string" RefAttributeType="AutomationML_CoreProperties.Contact_AttributeTypeLib/postalCodeOfPOBox">
+        <RefSemantic CorrespondingAttributePath="IRDI:0173-1#02-AAO131#002" />
+      </Attribute>
+      <Attribute Name="stateOrProvince" AttributeDataType="xs:string" RefAttributeType="AutomationML_CoreProperties.Contact_AttributeTypeLib/stateOrProvince">
+        <RefSemantic CorrespondingAttributePath="IRDI:0173-1#02-AAO133#002" />
+      </Attribute>
+      <Attribute Name="nameOfContact" AttributeDataType="xs:string" RefAttributeType="AutomationML_CoreProperties.Contact_AttributeTypeLib/nameOfContact">
+        <RefSemantic CorrespondingAttributePath="IRDI:0173-1#02-AAO205#002" />
+      </Attribute>
+      <Attribute Name="firstName" AttributeDataType="xs:string" RefAttributeType="AutomationML_CoreProperties.Contact_AttributeTypeLib/firstName">
+        <RefSemantic CorrespondingAttributePath="IRDI:0173-1#02-AAO206#002" />
+      </Attribute>
+      <Attribute Name="middleNames" AttributeDataType="xs:string" RefAttributeType="AutomationML_CoreProperties.Contact_AttributeTypeLib/middleNames">
+        <RefSemantic CorrespondingAttributePath="IRDI:0173-1#02-AAO207#002" />
+      </Attribute>
+      <Attribute Name="title" AttributeDataType="xs:string" RefAttributeType="AutomationML_CoreProperties.Contact_AttributeTypeLib/title">
+        <RefSemantic CorrespondingAttributePath="IRDI:0173-1#02-AAO208#003" />
+      </Attribute>
+      <Attribute Name="academicTitle" AttributeDataType="xs:string" RefAttributeType="AutomationML_CoreProperties.Contact_AttributeTypeLib/academicTitle">
+        <RefSemantic CorrespondingAttributePath="IRDI:0173-1#02-AAO209#003" />
+      </Attribute>
+    </AttributeType>
+    <AttributeType Name="phone" ID="8104501b-7823-4880-a996-9dd1cf0e18d6" AttributeDataType="xs:string" RefAttributeType="AutomationML_CoreProperties.Contact_AttributeTypeLib/structuredContactInformation">
+      <Description>phone is a structured contact attribute expressing the phone number including type.</Description>
+      <Version>1.7.8</Version>
+      <Attribute Name="phoneNr" RefAttributeType="AutomationML_CoreProperties.Contact_AttributeTypeLib/phoneNr">
+        <Description>phone number including type.</Description>
+      </Attribute>
+      <Attribute Name="phoneType" RefAttributeType="AutomationML_CoreProperties.Contact_AttributeTypeLib/phoneType">
+        <Description>characterization of a telephone according to its location or usage.</Description>
+      </Attribute>
+    </AttributeType>
+    <AttributeType Name="fax" RefAttributeType="AutomationML_CoreProperties.Contact_AttributeTypeLib/commItem" ID="94854f6b-7c6d-4fe9-9e4f-7a8af438b5ea" AttributeDataType="xs:string">
+      <Description>fax is a structured contact attribute expressing the fax number including type.</Description>
+      <Version>1.7.8</Version>
+      <RefSemantic CorrespondingAttributePath="IRDI:0173-1#02-AAQ834#005" />
+      <Attribute Name="faxNr" RefAttributeType="AutomationML_CoreProperties.Contact_AttributeTypeLib/faxNr">
+        <Description>fax number including type.</Description>
+      </Attribute>
+      <Attribute Name="faxType" RefAttributeType="AutomationML_CoreProperties.Contact_AttributeTypeLib/faxType">
+        <Description>characterization of the fax according its location or usage.</Description>
+      </Attribute>
+    </AttributeType>
+    <AttributeType Name="email" RefAttributeType="AutomationML_CoreProperties.Contact_AttributeTypeLib/structuredContactInformation" ID="08f40bb4-5894-4a57-a1d4-8dedc7f4e6da" AttributeDataType="xs:string">
+      <Description>email  is a structured contact attribute expressing the e-mail address and encryption method.</Description>
+      <Version>1.7.8</Version>
+      <RefSemantic CorrespondingAttributePath="IRDI:0173-1#02-AAQ836#005" />
+      <Attribute Name="emailAddress" RefAttributeType="AutomationML_CoreProperties.Contact_AttributeTypeLib/emailAddress">
+        <Description>electronic mail address of a business partner.</Description>
+      </Attribute>
+      <Attribute Name="emailType" RefAttributeType="AutomationML_CoreProperties.Contact_AttributeTypeLib/emailType">
+        <Description>characterization of an e-mail address according to its location or usage.</Description>
+      </Attribute>
+      <Attribute Name="publicKey" RefAttributeType="AutomationML_CoreProperties.Contact_AttributeTypeLib/publicKey">
+        <Description>public part of an unsymmetrical key pair to sign or encrypt text or messages.</Description>
+      </Attribute>
+      <Attribute Name="publicKeyType" RefAttributeType="AutomationML_CoreProperties.Contact_AttributeTypeLib/publicKeyType">
+        <Description>characterization of a public key according to its encryption process.</Description>
+      </Attribute>
+    </AttributeType>
+    <AttributeType Name="economicEntity" ID="4149467e-bb1a-4465-ab35-09a51535af63" AttributeDataType="xs:string" RefAttributeType="AutomationML_CoreProperties.Contact_AttributeTypeLib/structuredContactInformation">
+      <Description>economicEntity is a structured contact attribute expressing the information describing a complete economic entity (e.g. company, organization, legal entity).</Description>
+      <Version>1.7.8</Version>
+      <Attribute Name="legalName" AttributeDataType="xs:string" RefAttributeType="AutomationML_CoreProperties.Contact_AttributeTypeLib/legalName" />
+      <Attribute Name="additionalName" AttributeDataType="xs:string" RefAttributeType="AutomationML_CoreProperties.Contact_AttributeTypeLib/additionalName" />
+      <Attribute Name="shortName" AttributeDataType="xs:string" RefAttributeType="AutomationML_CoreProperties.Contact_AttributeTypeLib/shortName" />
+      <Attribute Name="department" AttributeDataType="xs:string" RefAttributeType="AutomationML_CoreProperties.Contact_AttributeTypeLib/department">
+        <RefSemantic CorrespondingAttributePath="IRDI:0173-1#02-AAO127#003" />
+      </Attribute>
+      <Attribute Name="address" RefAttributeType="AutomationML_CoreProperties.Contact_AttributeTypeLib/postalAddress">
+        <RefSemantic CorrespondingAttributePath="IRDI:0173-1#02-AAQ832#005" />
+        <Attribute Name="street" AttributeDataType="xs:string" RefAttributeType="AutomationML_CoreProperties.Contact_AttributeTypeLib/street">
+          <RefSemantic CorrespondingAttributePath="IRDI:0173-1#02-AAO128#002" />
+        </Attribute>
+        <Attribute Name="cityName" AttributeDataType="xs:string" RefAttributeType="AutomationML_CoreProperties.Contact_AttributeTypeLib/cityName">
+          <RefSemantic CorrespondingAttributePath="IRDI:0173-1#02-AAO132#002" />
+        </Attribute>
+        <Attribute Name="countryCode" AttributeDataType="xs:string" RefAttributeType="AutomationML_CoreProperties.Contact_AttributeTypeLib/countryCode">
+          <RefSemantic CorrespondingAttributePath="IRDI:0173-1#02-AAO134#002" />
+        </Attribute>
+        <Attribute Name="countryName" AttributeDataType="xs:string" RefAttributeType="AutomationML_CoreProperties.Contact_AttributeTypeLib/countryName">
+          <RefSemantic CorrespondingAttributePath="IRDI:0173-1#02-AAO134#002" />
+        </Attribute>
+        <Attribute Name="postalCode" AttributeDataType="xs:string" RefAttributeType="AutomationML_CoreProperties.Contact_AttributeTypeLib/postalCode">
+          <RefSemantic CorrespondingAttributePath="IRDI:0173-1#02-AAO129#002" />
+        </Attribute>
+        <Attribute Name="addressRemarks" AttributeDataType="xs:string" RefAttributeType="AutomationML_CoreProperties.Contact_AttributeTypeLib/addressRemarks">
+          <RefSemantic CorrespondingAttributePath="IRDI:0173-1#02-AAO202#003" />
+        </Attribute>
+        <Attribute Name="addressURL" AttributeDataType="xs:string" RefAttributeType="AutomationML_CoreProperties.Contact_AttributeTypeLib/addressURL">
+          <RefSemantic CorrespondingAttributePath="IRDI:0173-1#02-AAQ326#002" />
+        </Attribute>
+        <Attribute Name="POBox" AttributeDataType="xs:string" RefAttributeType="AutomationML_CoreProperties.Contact_AttributeTypeLib/POBox">
+          <RefSemantic CorrespondingAttributePath="IRDI:0173-1#02-AAO130#002" />
+        </Attribute>
+        <Attribute Name="postalCodeOfPOBox" AttributeDataType="xs:string" RefAttributeType="AutomationML_CoreProperties.Contact_AttributeTypeLib/postalCodeOfPOBox">
+          <RefSemantic CorrespondingAttributePath="IRDI:0173-1#02-AAO131#002" />
+        </Attribute>
+        <Attribute Name="stateOrProvince" AttributeDataType="xs:string" RefAttributeType="AutomationML_CoreProperties.Contact_AttributeTypeLib/stateOrProvince">
+          <RefSemantic CorrespondingAttributePath="IRDI:0173-1#02-AAO133#002" />
+        </Attribute>
+        <Attribute Name="nameOfContact" AttributeDataType="xs:string" RefAttributeType="AutomationML_CoreProperties.Contact_AttributeTypeLib/nameOfContact">
+          <RefSemantic CorrespondingAttributePath="IRDI:0173-1#02-AAO205#002" />
+        </Attribute>
+        <Attribute Name="firstName" AttributeDataType="xs:string" RefAttributeType="AutomationML_CoreProperties.Contact_AttributeTypeLib/firstName">
+          <RefSemantic CorrespondingAttributePath="IRDI:0173-1#02-AAO206#002" />
+        </Attribute>
+        <Attribute Name="middleNames" AttributeDataType="xs:string" RefAttributeType="AutomationML_CoreProperties.Contact_AttributeTypeLib/middleNames">
+          <RefSemantic CorrespondingAttributePath="IRDI:0173-1#02-AAO207#002" />
+        </Attribute>
+        <Attribute Name="title" AttributeDataType="xs:string" RefAttributeType="AutomationML_CoreProperties.Contact_AttributeTypeLib/title">
+          <RefSemantic CorrespondingAttributePath="IRDI:0173-1#02-AAO208#003" />
+        </Attribute>
+        <Attribute Name="academicTitle" AttributeDataType="xs:string" RefAttributeType="AutomationML_CoreProperties.Contact_AttributeTypeLib/academicTitle">
+          <RefSemantic CorrespondingAttributePath="IRDI:0173-1#02-AAO209#003" />
+        </Attribute>
+      </Attribute>
+      <Attribute Name="commList" RefAttributeType="AutomationML_CoreProperties.Contact_AttributeTypeLib/commList">
+        <Description>list of communication items.</Description>
+      </Attribute>
+      <Attribute Name="VAT" AttributeDataType="xs:string" RefAttributeType="AutomationML_CoreProperties.Contact_AttributeTypeLib/VAT" />
+      <Attribute Name="DUNS" AttributeDataType="xs:string" RefAttributeType="AutomationML_CoreProperties.Contact_AttributeTypeLib/DUNS" />
+      <Attribute Name="GTIN" AttributeDataType="xs:string" RefAttributeType="AutomationML_CoreProperties.Contact_AttributeTypeLib/GTIN" />
+    </AttributeType>
+  </AttributeTypeLib>
+</CAEXFile>
