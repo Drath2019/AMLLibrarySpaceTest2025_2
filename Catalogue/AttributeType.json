@@ -790,5 +790,491 @@
     "LibraryVersion": "1.7.8",
     "AMLEdition": "AMLEd2",
     "ID": "3e54eb0b-4e76-41f6-91e2-844a7803dfa1"
+  },
+  {
+    "ClassName": "geometricQuantity",
+    "CaexPath": "AutomationML_CoreProperties.Geometry_AttributeTypeLib/geometricQuantity",
+    "BasePath": null,
+    "LibraryName": "AutomationML_CoreProperties.Geometry_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "27e24f2d-d283-4385-8968-ad66fafedd88"
+  },
+  {
+    "ClassName": "dimension",
+    "CaexPath": "AutomationML_CoreProperties.Geometry_AttributeTypeLib/dimension",
+    "BasePath": "AutomationML_CoreProperties.Geometry_AttributeTypeLib/geometricQuantity",
+    "LibraryName": "AutomationML_CoreProperties.Geometry_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "e5a2e7af-84fa-41de-b381-29ff75955cca"
+  },
+  {
+    "ClassName": "linearMeasure",
+    "CaexPath": "AutomationML_CoreProperties.Geometry_AttributeTypeLib/linearMeasure",
+    "BasePath": "AutomationML_CoreProperties.Geometry_AttributeTypeLib/dimension",
+    "LibraryName": "AutomationML_CoreProperties.Geometry_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "abedb9af-7d51-4b2b-92ad-f45fbd008f32"
+  },
+  {
+    "ClassName": "length",
+    "CaexPath": "AutomationML_CoreProperties.Geometry_AttributeTypeLib/length",
+    "BasePath": "AutomationML_CoreProperties.Geometry_AttributeTypeLib/linearMeasure",
+    "LibraryName": "AutomationML_CoreProperties.Geometry_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "95f3f256-aa3b-4e9b-8a27-bc12d3b785a2"
+  },
+  {
+    "ClassName": "overallLength",
+    "CaexPath": "AutomationML_CoreProperties.Geometry_AttributeTypeLib/overallLength",
+    "BasePath": "AutomationML_CoreProperties.Geometry_AttributeTypeLib/length",
+    "LibraryName": "AutomationML_CoreProperties.Geometry_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "c9b5f584-853d-4d16-a46d-7ae7a9b620d7"
+  },
+  {
+    "ClassName": "width",
+    "CaexPath": "AutomationML_CoreProperties.Geometry_AttributeTypeLib/width",
+    "BasePath": "AutomationML_CoreProperties.Geometry_AttributeTypeLib/length",
+    "LibraryName": "AutomationML_CoreProperties.Geometry_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "86ca8705-696f-4cd6-99f4-393195318605"
+  },
+  {
+    "ClassName": "overallWidth",
+    "CaexPath": "AutomationML_CoreProperties.Geometry_AttributeTypeLib/overallWidth",
+    "BasePath": "AutomationML_CoreProperties.Geometry_AttributeTypeLib/length",
+    "LibraryName": "AutomationML_CoreProperties.Geometry_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "9d6e3b8d-e2ba-4087-a7d3-18e026badbaf"
+  },
+  {
+    "ClassName": "height",
+    "CaexPath": "AutomationML_CoreProperties.Geometry_AttributeTypeLib/height",
+    "BasePath": "AutomationML_CoreProperties.Geometry_AttributeTypeLib/length",
+    "LibraryName": "AutomationML_CoreProperties.Geometry_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "d34804ac-c514-4f77-9af8-0de4b0ccfb32"
+  },
+  {
+    "ClassName": "overallHeight",
+    "CaexPath": "AutomationML_CoreProperties.Geometry_AttributeTypeLib/overallHeight",
+    "BasePath": "AutomationML_CoreProperties.Geometry_AttributeTypeLib/length",
+    "LibraryName": "AutomationML_CoreProperties.Geometry_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "7666ff96-b787-488f-9287-7913a6271bcf"
+  },
+  {
+    "ClassName": "depth",
+    "CaexPath": "AutomationML_CoreProperties.Geometry_AttributeTypeLib/depth",
+    "BasePath": "AutomationML_CoreProperties.Geometry_AttributeTypeLib/length",
+    "LibraryName": "AutomationML_CoreProperties.Geometry_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "4a3cf3d4-6555-4ec8-a355-f7edcca1cd2c"
+  },
+  {
+    "ClassName": "overallDepth",
+    "CaexPath": "AutomationML_CoreProperties.Geometry_AttributeTypeLib/overallDepth",
+    "BasePath": "AutomationML_CoreProperties.Geometry_AttributeTypeLib/length",
+    "LibraryName": "AutomationML_CoreProperties.Geometry_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "c7a25e6f-35d7-4fb9-99d4-dd48b790a6ac"
+  },
+  {
+    "ClassName": "thickness",
+    "CaexPath": "AutomationML_CoreProperties.Geometry_AttributeTypeLib/thickness",
+    "BasePath": "AutomationML_CoreProperties.Geometry_AttributeTypeLib/length",
+    "LibraryName": "AutomationML_CoreProperties.Geometry_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "5c81bc79-5a08-4e5a-bce5-5b35ceca332b"
+  },
+  {
+    "ClassName": "diameter",
+    "CaexPath": "AutomationML_CoreProperties.Geometry_AttributeTypeLib/diameter",
+    "BasePath": "AutomationML_CoreProperties.Geometry_AttributeTypeLib/length",
+    "LibraryName": "AutomationML_CoreProperties.Geometry_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "0b293d7d-aed3-4635-8a98-aafae9c73c2b"
+  },
+  {
+    "ClassName": "innerDiameter",
+    "CaexPath": "AutomationML_CoreProperties.Geometry_AttributeTypeLib/innerDiameter",
+    "BasePath": "AutomationML_CoreProperties.Geometry_AttributeTypeLib/diameter",
+    "LibraryName": "AutomationML_CoreProperties.Geometry_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "2f1acfdf-0fa3-47ae-9593-a6d99b373f36"
+  },
+  {
+    "ClassName": "outerDiameter",
+    "CaexPath": "AutomationML_CoreProperties.Geometry_AttributeTypeLib/outerDiameter",
+    "BasePath": "AutomationML_CoreProperties.Geometry_AttributeTypeLib/diameter",
+    "LibraryName": "AutomationML_CoreProperties.Geometry_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "49e0c1a0-15cc-48b8-a7a5-327462f3f6f4"
+  },
+  {
+    "ClassName": "radius",
+    "CaexPath": "AutomationML_CoreProperties.Geometry_AttributeTypeLib/radius",
+    "BasePath": "AutomationML_CoreProperties.Geometry_AttributeTypeLib/linearMeasure",
+    "LibraryName": "AutomationML_CoreProperties.Geometry_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "d0ff58a6-986a-4e1f-8100-e6004ca95942"
+  },
+  {
+    "ClassName": "pathLength",
+    "CaexPath": "AutomationML_CoreProperties.Geometry_AttributeTypeLib/pathLength",
+    "BasePath": "AutomationML_CoreProperties.Geometry_AttributeTypeLib/length",
+    "LibraryName": "AutomationML_CoreProperties.Geometry_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "81296974-8853-48d1-8cac-b172d9945b4a"
+  },
+  {
+    "ClassName": "distance",
+    "CaexPath": "AutomationML_CoreProperties.Geometry_AttributeTypeLib/distance",
+    "BasePath": "AutomationML_CoreProperties.Geometry_AttributeTypeLib/length",
+    "LibraryName": "AutomationML_CoreProperties.Geometry_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "bcb08b65-3bc5-4fe3-a21a-758d9a4128ce"
+  },
+  {
+    "ClassName": "radialDistance",
+    "CaexPath": "AutomationML_CoreProperties.Geometry_AttributeTypeLib/radialDistance",
+    "BasePath": "AutomationML_CoreProperties.Geometry_AttributeTypeLib/length",
+    "LibraryName": "AutomationML_CoreProperties.Geometry_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "99bc1d24-adc0-401d-b084-7229ba6fe4c6"
+  },
+  {
+    "ClassName": "2DVector",
+    "CaexPath": "AutomationML_CoreProperties.Geometry_AttributeTypeLib/2DVector",
+    "BasePath": "AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/vector",
+    "LibraryName": "AutomationML_CoreProperties.Geometry_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "feb08305-6bd0-4d76-9af9-1d26c999bc48"
+  },
+  {
+    "ClassName": "3DVector",
+    "CaexPath": "AutomationML_CoreProperties.Geometry_AttributeTypeLib/3DVector",
+    "BasePath": "AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/vector",
+    "LibraryName": "AutomationML_CoreProperties.Geometry_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "ff510bc0-d194-40e4-897c-60255ce92316"
+  },
+  {
+    "ClassName": "displacement",
+    "CaexPath": "AutomationML_CoreProperties.Geometry_AttributeTypeLib/displacement",
+    "BasePath": "AutomationML_CoreProperties.Geometry_AttributeTypeLib/3DVector",
+    "LibraryName": "AutomationML_CoreProperties.Geometry_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "0cdaf33d-4001-48e8-8c80-4135cf63c9e5"
+  },
+  {
+    "ClassName": "radiusOfCurvature",
+    "CaexPath": "AutomationML_CoreProperties.Geometry_AttributeTypeLib/radiusOfCurvature",
+    "BasePath": "AutomationML_CoreProperties.Geometry_AttributeTypeLib/radius",
+    "LibraryName": "AutomationML_CoreProperties.Geometry_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "d9b45e9e-8a7d-4608-afc8-42462231204a"
+  },
+  {
+    "ClassName": "curvature",
+    "CaexPath": "AutomationML_CoreProperties.Geometry_AttributeTypeLib/curvature",
+    "BasePath": "AutomationML_CoreProperties.Geometry_AttributeTypeLib/geometricQuantity",
+    "LibraryName": "AutomationML_CoreProperties.Geometry_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "348598f4-c8c1-4852-85df-a2af9d817175"
+  },
+  {
+    "ClassName": "perimeter",
+    "CaexPath": "AutomationML_CoreProperties.Geometry_AttributeTypeLib/perimeter",
+    "BasePath": "AutomationML_CoreProperties.Geometry_AttributeTypeLib/linearMeasure",
+    "LibraryName": "AutomationML_CoreProperties.Geometry_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "cfb27332-ed23-4aa3-a9cd-69f1957ab81e"
+  },
+  {
+    "ClassName": "innerPerimeter",
+    "CaexPath": "AutomationML_CoreProperties.Geometry_AttributeTypeLib/innerPerimeter",
+    "BasePath": "AutomationML_CoreProperties.Geometry_AttributeTypeLib/perimeter",
+    "LibraryName": "AutomationML_CoreProperties.Geometry_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "328369fe-6568-4ce8-8193-190592c1906a"
+  },
+  {
+    "ClassName": "outerPerimeter",
+    "CaexPath": "AutomationML_CoreProperties.Geometry_AttributeTypeLib/outerPerimeter",
+    "BasePath": "AutomationML_CoreProperties.Geometry_AttributeTypeLib/perimeter",
+    "LibraryName": "AutomationML_CoreProperties.Geometry_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "1b316d8e-6b3d-4a6a-a3f5-19ce420d416a"
+  },
+  {
+    "ClassName": "meanPerimeter",
+    "CaexPath": "AutomationML_CoreProperties.Geometry_AttributeTypeLib/meanPerimeter",
+    "BasePath": "AutomationML_CoreProperties.Geometry_AttributeTypeLib/perimeter",
+    "LibraryName": "AutomationML_CoreProperties.Geometry_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "62f14b67-1232-4497-9087-a996d0b2855d"
+  },
+  {
+    "ClassName": "areaMeasure",
+    "CaexPath": "AutomationML_CoreProperties.Geometry_AttributeTypeLib/areaMeasure",
+    "BasePath": "AutomationML_CoreProperties.Geometry_AttributeTypeLib/geometricQuantity",
+    "LibraryName": "AutomationML_CoreProperties.Geometry_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "2593a669-6913-4ca1-8dd5-073905a4596a"
+  },
+  {
+    "ClassName": "area",
+    "CaexPath": "AutomationML_CoreProperties.Geometry_AttributeTypeLib/area",
+    "BasePath": "AutomationML_CoreProperties.Geometry_AttributeTypeLib/areaMeasure",
+    "LibraryName": "AutomationML_CoreProperties.Geometry_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "34e6e91c-54d8-4be7-8672-8cabc3a1aa03"
+  },
+  {
+    "ClassName": "crossSectionArea",
+    "CaexPath": "AutomationML_CoreProperties.Geometry_AttributeTypeLib/crossSectionArea",
+    "BasePath": "AutomationML_CoreProperties.Geometry_AttributeTypeLib/area",
+    "LibraryName": "AutomationML_CoreProperties.Geometry_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "24b3e8ed-d8a6-4fd0-a9b6-092944a87328"
+  },
+  {
+    "ClassName": "surfaceArea",
+    "CaexPath": "AutomationML_CoreProperties.Geometry_AttributeTypeLib/surfaceArea",
+    "BasePath": "AutomationML_CoreProperties.Geometry_AttributeTypeLib/area",
+    "LibraryName": "AutomationML_CoreProperties.Geometry_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "2c01e769-a595-4700-a8dd-b61b4b8c48ec"
+  },
+  {
+    "ClassName": "projectedArea",
+    "CaexPath": "AutomationML_CoreProperties.Geometry_AttributeTypeLib/projectedArea",
+    "BasePath": "AutomationML_CoreProperties.Geometry_AttributeTypeLib/area",
+    "LibraryName": "AutomationML_CoreProperties.Geometry_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "6f28ed96-e342-4199-83d9-87e0255faea8"
+  },
+  {
+    "ClassName": "footprintArea",
+    "CaexPath": "AutomationML_CoreProperties.Geometry_AttributeTypeLib/footprintArea",
+    "BasePath": "AutomationML_CoreProperties.Geometry_AttributeTypeLib/area",
+    "LibraryName": "AutomationML_CoreProperties.Geometry_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "b54c2d82-51f2-4fda-824c-f38dbd9c218e"
+  },
+  {
+    "ClassName": "volumeMeasure",
+    "CaexPath": "AutomationML_CoreProperties.Geometry_AttributeTypeLib/volumeMeasure",
+    "BasePath": "AutomationML_CoreProperties.Geometry_AttributeTypeLib/geometricQuantity",
+    "LibraryName": "AutomationML_CoreProperties.Geometry_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "792e5c24-4b14-4132-95d5-5e21287bd1cf"
+  },
+  {
+    "ClassName": "volume",
+    "CaexPath": "AutomationML_CoreProperties.Geometry_AttributeTypeLib/volume",
+    "BasePath": "AutomationML_CoreProperties.Geometry_AttributeTypeLib/volumeMeasure",
+    "LibraryName": "AutomationML_CoreProperties.Geometry_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "356837dc-1773-492c-bbb6-edd14fcc1133"
+  },
+  {
+    "ClassName": "volumetricCapacity",
+    "CaexPath": "AutomationML_CoreProperties.Geometry_AttributeTypeLib/volumetricCapacity",
+    "BasePath": "AutomationML_CoreProperties.Geometry_AttributeTypeLib/volume",
+    "LibraryName": "AutomationML_CoreProperties.Geometry_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "97f3be2a-ed2c-4826-9691-19bbff87dfab"
+  },
+  {
+    "ClassName": "angularMeasure",
+    "CaexPath": "AutomationML_CoreProperties.Geometry_AttributeTypeLib/angularMeasure",
+    "BasePath": "AutomationML_CoreProperties.Geometry_AttributeTypeLib/geometricQuantity",
+    "LibraryName": "AutomationML_CoreProperties.Geometry_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "9dc4c3f3-915b-4f0f-9968-c4b774502c8b"
+  },
+  {
+    "ClassName": "planeAngle",
+    "CaexPath": "AutomationML_CoreProperties.Geometry_AttributeTypeLib/planeAngle",
+    "BasePath": "AutomationML_CoreProperties.Geometry_AttributeTypeLib/angularMeasure",
+    "LibraryName": "AutomationML_CoreProperties.Geometry_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "8f086845-4b14-4201-9138-32c94e3cac85"
+  },
+  {
+    "ClassName": "rotationalDisplacement",
+    "CaexPath": "AutomationML_CoreProperties.Geometry_AttributeTypeLib/rotationalDisplacement",
+    "BasePath": "AutomationML_CoreProperties.Geometry_AttributeTypeLib/planeAngle",
+    "LibraryName": "AutomationML_CoreProperties.Geometry_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "b6f9eefb-a03d-4d3e-b848-a4ccf38cf435"
+  },
+  {
+    "ClassName": "phaseAngle",
+    "CaexPath": "AutomationML_CoreProperties.Geometry_AttributeTypeLib/phaseAngle",
+    "BasePath": "AutomationML_CoreProperties.Geometry_AttributeTypeLib/angularMeasure",
+    "LibraryName": "AutomationML_CoreProperties.Geometry_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "3236800b-962a-4802-a291-3f2ea71a4def"
+  },
+  {
+    "ClassName": "solidAngle",
+    "CaexPath": "AutomationML_CoreProperties.Geometry_AttributeTypeLib/solidAngle",
+    "BasePath": "AutomationML_CoreProperties.Geometry_AttributeTypeLib/angularMeasure",
+    "LibraryName": "AutomationML_CoreProperties.Geometry_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "34c946e3-6bb5-4dea-b696-747655114e83"
+  },
+  {
+    "ClassName": "rotationAngle",
+    "CaexPath": "AutomationML_CoreProperties.Geometry_AttributeTypeLib/rotationAngle",
+    "BasePath": "AutomationML_CoreProperties.Geometry_AttributeTypeLib/planeAngle",
+    "LibraryName": "AutomationML_CoreProperties.Geometry_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "5aaeeded-4a37-45b5-abff-9ec74c8f39bf"
+  },
+  {
+    "ClassName": "roll",
+    "CaexPath": "AutomationML_CoreProperties.Geometry_AttributeTypeLib/roll",
+    "BasePath": "AutomationML_CoreProperties.Geometry_AttributeTypeLib/planeAngle",
+    "LibraryName": "AutomationML_CoreProperties.Geometry_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "84624126-77a0-4a33-9c58-190ca33975b4"
+  },
+  {
+    "ClassName": "pitch",
+    "CaexPath": "AutomationML_CoreProperties.Geometry_AttributeTypeLib/pitch",
+    "BasePath": "AutomationML_CoreProperties.Geometry_AttributeTypeLib/planeAngle",
+    "LibraryName": "AutomationML_CoreProperties.Geometry_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "85564f46-2a02-4fcf-8a6f-544aa40d8e42"
+  },
+  {
+    "ClassName": "yaw",
+    "CaexPath": "AutomationML_CoreProperties.Geometry_AttributeTypeLib/yaw",
+    "BasePath": "AutomationML_CoreProperties.Geometry_AttributeTypeLib/planeAngle",
+    "LibraryName": "AutomationML_CoreProperties.Geometry_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "7538ae95-f212-447c-9d59-1f77153b83b9"
+  },
+  {
+    "ClassName": "point",
+    "CaexPath": "AutomationML_CoreProperties.Geometry_AttributeTypeLib/point",
+    "BasePath": "AutomationML_CoreProperties.Geometry_AttributeTypeLib/3DVector",
+    "LibraryName": "AutomationML_CoreProperties.Geometry_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "21ec65d6-3116-4032-b717-89cafba51506"
+  },
+  {
+    "ClassName": "orientation",
+    "CaexPath": "AutomationML_CoreProperties.Geometry_AttributeTypeLib/orientation",
+    "BasePath": "AutomationML_CoreProperties.Geometry_AttributeTypeLib/geometricQuantity",
+    "LibraryName": "AutomationML_CoreProperties.Geometry_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "77f4ac59-10b0-4272-af20-91636d869498"
+  },
+  {
+    "ClassName": "rotationMatrix",
+    "CaexPath": "AutomationML_CoreProperties.Geometry_AttributeTypeLib/rotationMatrix",
+    "BasePath": "AutomationML_CoreProperties.Geometry_AttributeTypeLib/orientation",
+    "LibraryName": "AutomationML_CoreProperties.Geometry_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "419230b3-9bfe-4267-8891-74faabb00fc8"
+  },
+  {
+    "ClassName": "quaternion",
+    "CaexPath": "AutomationML_CoreProperties.Geometry_AttributeTypeLib/quaternion",
+    "BasePath": "AutomationML_CoreProperties.Geometry_AttributeTypeLib/orientation",
+    "LibraryName": "AutomationML_CoreProperties.Geometry_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "3dfe5290-6e4d-4fba-b0a7-35a636d3ed5f"
+  },
+  {
+    "ClassName": "eulerAngles",
+    "CaexPath": "AutomationML_CoreProperties.Geometry_AttributeTypeLib/eulerAngles",
+    "BasePath": "AutomationML_CoreProperties.Geometry_AttributeTypeLib/orientation",
+    "LibraryName": "AutomationML_CoreProperties.Geometry_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "6f4604be-bcce-4dcc-b3d1-9384bd3b02d5"
+  },
+  {
+    "ClassName": "axisAngle",
+    "CaexPath": "AutomationML_CoreProperties.Geometry_AttributeTypeLib/axisAngle",
+    "BasePath": "AutomationML_CoreProperties.Geometry_AttributeTypeLib/orientation",
+    "LibraryName": "AutomationML_CoreProperties.Geometry_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "d616aa4b-82fe-430b-bf7a-debd31a6b0b9"
+  },
+  {
+    "ClassName": "centerOfGravity",
+    "CaexPath": "AutomationML_CoreProperties.Geometry_AttributeTypeLib/centerOfGravity",
+    "BasePath": "AutomationML_CoreProperties.Geometry_AttributeTypeLib/point",
+    "LibraryName": "AutomationML_CoreProperties.Geometry_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "d8a2fca5-2774-4174-8e56-09b613671543"
+  },
+  {
+    "ClassName": "tilt",
+    "CaexPath": "AutomationML_CoreProperties.Geometry_AttributeTypeLib/tilt",
+    "BasePath": "AutomationML_CoreProperties.Geometry_AttributeTypeLib/planeAngle",
+    "LibraryName": "AutomationML_CoreProperties.Geometry_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "14d94971-a994-4fb5-9a48-5ff916c2b544"
   }
 ]
