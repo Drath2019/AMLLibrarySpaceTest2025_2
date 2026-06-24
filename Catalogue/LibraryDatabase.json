@@ -1459,26 +1459,6 @@
           ]
         },
         {
-          "Name": "AutomationML_CoreProperties.Geometry_AttributeTypeLib",
-          "Versions": [
-            {
-              "Version": "1.7.8",
-              "CAEXVersion": "3.0",
-              "AMLEdition": "AMLEd2",
-              "IsArchived": false,
-              "Description": "This AttributeTypeLib defines fundamental, domain-neutral physical and geometric properties that are generally applicable to technical assets. The contained attributes represent basic quantities such as mass, geometry, and selected fundamental physical quantities, without assuming any specific engineering domain or application context.",
-              "DownloadLink": null,
-              "DownloadLinks": [
-                "https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/AutomationML_CoreProperties.Geometry_AttributeTypeLib_AMLEd2_1.7.8.aml"
-              ],
-              "Sources": null,
-              "Signature": "MEUCIQDgeIn1XIpXOO1jIjQtHAK85Dw4s0x0YC6l8NNl4bZb1AIgOJ17QfzyrAtYULxy66VpvmupGK5j945j13jzu62zrEg=",
-              "PublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEyk6uIUNugOojm3akdEAA4XoGGBEui0zPVhzkjR0RfprHFWrbPpFMfExaW2TaeChaegCmjE2boFph1aI1eNEPcQ==",
-              "Revision": null
-            }
-          ]
-        },
-        {
           "Name": "AutomationML_CoreProperties.IdentificationAndClassification_AttributeTypeLib",
           "Versions": [
             {
