@@ -1892,6 +1892,26 @@
               "Revision": null
             }
           ]
+        },
+        {
+          "Name": "AutomationML_CoreProperties.Lifetime_AttributeTypeLib",
+          "Versions": [
+            {
+              "Version": "1.7.8",
+              "CAEXVersion": "3.0",
+              "AMLEdition": "AMLEd2",
+              "IsArchived": false,
+              "Description": "This AttributeTypeLib defines attributes related to reliability, availability, and expected lifetime characteristics of an asset. The attributes describe statistical properties and time-based expectations of asset behavior under defined conditions. They are formulated in a domain-neutral manner and do not assume a specific engineering discipline, organizational structure, or maintenance implementation. The contained attributes provide a generic semantic basis for expressing reliability- and lifetime-related information. Domain-specific interpretations, operational contexts, or maintenance concepts may be introduced by referencing or extending these attributes in dedicated Domain Extension Libraries.",
+              "DownloadLink": null,
+              "DownloadLinks": [
+                "https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/AutomationML_CoreProperties.Lifetime_AttributeTypeLib_AMLEd2_1.7.8.aml"
+              ],
+              "Sources": null,
+              "Signature": "MEQCIBhybnusNeo1iyIze5brH5g/LzwqTbC\u002BonMjEcxX/tOkAiADU\u002B3ZAx\u002BoLXf3RMrug42uI96RbTVCMEbAYCwcPGQxRw==",
+              "PublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEyk6uIUNugOojm3akdEAA4XoGGBEui0zPVhzkjR0RfprHFWrbPpFMfExaW2TaeChaegCmjE2boFph1aI1eNEPcQ==",
+              "Revision": null
+            }
+          ]
         }
       ]
     },
