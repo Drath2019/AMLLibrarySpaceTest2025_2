@@ -14344,5 +14344,149 @@
     "LibraryVersion": "1.2.2",
     "AMLEdition": "AMLEd2",
     "ID": "176281c1-7be7-413b-953c-077c6e0ac515"
+  },
+  {
+    "ClassName": "booleanProperty",
+    "CaexPath": "AutomationML_CoreProperties.Foundation_AttributeTypeLib/booleanProperty",
+    "BasePath": null,
+    "LibraryName": "AutomationML_CoreProperties.Foundation_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "92ec8ce2-14d0-4f61-80c6-b9375d9652fc"
+  },
+  {
+    "ClassName": "vector",
+    "CaexPath": "AutomationML_CoreProperties.Foundation_AttributeTypeLib/vector",
+    "BasePath": null,
+    "LibraryName": "AutomationML_CoreProperties.Foundation_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "753ff26c-ec81-4d40-96e8-095890355f79"
+  },
+  {
+    "ClassName": "physicalQuantity",
+    "CaexPath": "AutomationML_CoreProperties.Foundation_AttributeTypeLib/physicalQuantity",
+    "BasePath": null,
+    "LibraryName": "AutomationML_CoreProperties.Foundation_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "d9076c78-428e-4193-afa0-21b5af433d2c"
+  },
+  {
+    "ClassName": "discreteQuantity",
+    "CaexPath": "AutomationML_CoreProperties.Foundation_AttributeTypeLib/discreteQuantity",
+    "BasePath": "AutomationML_CoreProperties.Foundation_AttributeTypeLib/physicalQuantity",
+    "LibraryName": "AutomationML_CoreProperties.Foundation_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "d37ed641-a550-4734-9676-b3e2f930fe26"
+  },
+  {
+    "ClassName": "complexPhysicalQuantity",
+    "CaexPath": "AutomationML_CoreProperties.Foundation_AttributeTypeLib/complexPhysicalQuantity",
+    "BasePath": "AutomationML_CoreProperties.Foundation_AttributeTypeLib/vector",
+    "LibraryName": "AutomationML_CoreProperties.Foundation_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "ea354977-4063-4653-9923-30992c3a8a05"
+  },
+  {
+    "ClassName": "genericText",
+    "CaexPath": "AutomationML_CoreProperties.Foundation_AttributeTypeLib/genericText",
+    "BasePath": null,
+    "LibraryName": "AutomationML_CoreProperties.Foundation_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "64ffca32-320b-4977-b7cb-6719c82a49f0"
+  },
+  {
+    "ClassName": "classificationProperty",
+    "CaexPath": "AutomationML_CoreProperties.Foundation_AttributeTypeLib/classificationProperty",
+    "BasePath": null,
+    "LibraryName": "AutomationML_CoreProperties.Foundation_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "61854542-bf70-42e8-8526-53019b5d0554"
+  },
+  {
+    "ClassName": "physicalConstant",
+    "CaexPath": "AutomationML_CoreProperties.Foundation_AttributeTypeLib/physicalConstant",
+    "BasePath": "AutomationML_CoreProperties.Foundation_AttributeTypeLib/physicalQuantity",
+    "LibraryName": "AutomationML_CoreProperties.Foundation_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "087044b1-70a9-40a5-95bc-cdf67e069b80"
+  },
+  {
+    "ClassName": "listProperty",
+    "CaexPath": "AutomationML_CoreProperties.Foundation_AttributeTypeLib/listProperty",
+    "BasePath": "AutomationMLBase.GeometryLibrariesAMLEd22_12_0@AutomationMLBaseAttributeTypeLib/ListType",
+    "LibraryName": "AutomationML_CoreProperties.Foundation_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "2912bc96-6584-4828-99bd-82698d19c741"
+  },
+  {
+    "ClassName": "stringList",
+    "CaexPath": "AutomationML_CoreProperties.Foundation_AttributeTypeLib/stringList",
+    "BasePath": "AutomationML_CoreProperties.Foundation_AttributeTypeLib/listProperty",
+    "LibraryName": "AutomationML_CoreProperties.Foundation_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "1ffd5016-8d2d-452c-bfcb-978327d0e456"
+  },
+  {
+    "ClassName": "realPart",
+    "CaexPath": "AutomationML_CoreProperties.Foundation_AttributeTypeLib/realPart",
+    "BasePath": "AutomationML_CoreProperties.Foundation_AttributeTypeLib/physicalQuantity",
+    "LibraryName": "AutomationML_CoreProperties.Foundation_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "b821eb89-9851-44b9-b83e-841abb2bfe29"
+  },
+  {
+    "ClassName": "imaginaryPart",
+    "CaexPath": "AutomationML_CoreProperties.Foundation_AttributeTypeLib/imaginaryPart",
+    "BasePath": "AutomationML_CoreProperties.Foundation_AttributeTypeLib/physicalQuantity",
+    "LibraryName": "AutomationML_CoreProperties.Foundation_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "e307e6d6-cfa5-4720-8840-b03687614f58"
+  },
+  {
+    "ClassName": "statusMetric",
+    "CaexPath": "AutomationML_CoreProperties.Foundation_AttributeTypeLib/statusMetric",
+    "BasePath": null,
+    "LibraryName": "AutomationML_CoreProperties.Foundation_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "11477cee-9198-4ca5-a907-658e5a1033de"
+  },
+  {
+    "ClassName": "ratioProperty",
+    "CaexPath": "AutomationML_CoreProperties.Foundation_AttributeTypeLib/ratioProperty",
+    "BasePath": null,
+    "LibraryName": "AutomationML_CoreProperties.Foundation_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "1a3a4dab-8e54-4baf-b8e1-8bcfa43aa900"
+  },
+  {
+    "ClassName": "compoundProperty",
+    "CaexPath": "AutomationML_CoreProperties.Foundation_AttributeTypeLib/compoundProperty",
+    "BasePath": null,
+    "LibraryName": "AutomationML_CoreProperties.Foundation_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "d5933df9-79fc-42c9-80ce-c523322e120b"
+  },
+  {
+    "ClassName": "rate",
+    "CaexPath": "AutomationML_CoreProperties.Foundation_AttributeTypeLib/rate",
+    "BasePath": "AutomationML_CoreProperties.Foundation_AttributeTypeLib/physicalQuantity",
+    "LibraryName": "AutomationML_CoreProperties.Foundation_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "da9a65f1-ec45-4f86-96f6-be657180ddfe"
   }
 ]
