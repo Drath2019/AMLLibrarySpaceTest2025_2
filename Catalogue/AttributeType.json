@@ -1035,6 +1035,15 @@
     "ID": "379fb214-3454-49ab-9635-d1cb46534c57"
   },
   {
+    "ClassName": "voltage",
+    "CaexPath": "AutomationML_CoreProperties.Electrical_AttributeTypeLib/voltage",
+    "BasePath": "AutomationML_CoreProperties.Electrical_AttributeTypeLib/electricQuantity",
+    "LibraryName": "AutomationML_CoreProperties.Electrical_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "379fb214-3454-49ab-9635-d1cb46534c57"
+  },
+  {
     "ClassName": "resistance",
     "CaexPath": "AutomationML_BasicProperties.Electrics_AttributeTypeLib/resistance",
     "BasePath": null,
@@ -1042,6 +1051,15 @@
     "LibraryVersion": "0.0.5",
     "AMLEdition": "AMLEd2",
     "ID": "1c770ac0-9256-4ac9-a365-b47c94f43634"
+  },
+  {
+    "ClassName": "resistance",
+    "CaexPath": "AutomationML_CoreProperties.Electrical_AttributeTypeLib/resistance",
+    "BasePath": "AutomationML_CoreProperties.Electrical_AttributeTypeLib/electricQuantity",
+    "LibraryName": "AutomationML_CoreProperties.Electrical_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "c858c81f-f169-4521-989f-a5576b0d495e"
   },
   {
     "ClassName": "capacity",
@@ -1080,6 +1098,15 @@
     "ID": "a0cf1a7e-1b18-4a11-b297-15507215aa37"
   },
   {
+    "ClassName": "magneticFieldStrength",
+    "CaexPath": "AutomationML_CoreProperties.Electrical_AttributeTypeLib/magneticFieldStrength",
+    "BasePath": "AutomationML_CoreProperties.Electrical_AttributeTypeLib/electricQuantity",
+    "LibraryName": "AutomationML_CoreProperties.Electrical_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "a0cf1a7e-1b18-4a11-b297-15507215aa37"
+  },
+  {
     "ClassName": "electricFieldStrength",
     "CaexPath": "AutomationML_BasicProperties.Electrics_AttributeTypeLib/electricFieldStrength",
     "BasePath": null,
@@ -1094,6 +1121,15 @@
     "BasePath": null,
     "LibraryName": "AutomationML_BasicProperties.Electrical_AttributeTypeLib",
     "LibraryVersion": "1.2.2",
+    "AMLEdition": "AMLEd2",
+    "ID": "ce01373d-a7c7-45b6-b406-a8d6eef144ec"
+  },
+  {
+    "ClassName": "electricFieldStrength",
+    "CaexPath": "AutomationML_CoreProperties.Electrical_AttributeTypeLib/electricFieldStrength",
+    "BasePath": "AutomationML_CoreProperties.Electrical_AttributeTypeLib/electricQuantity",
+    "LibraryName": "AutomationML_CoreProperties.Electrical_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
     "AMLEdition": "AMLEd2",
     "ID": "ce01373d-a7c7-45b6-b406-a8d6eef144ec"
   },
@@ -4392,6 +4428,15 @@
     "ID": "8ea8be25-e050-4823-bc7c-f8b21063eae8"
   },
   {
+    "ClassName": "electricCharge",
+    "CaexPath": "AutomationML_CoreProperties.Electrical_AttributeTypeLib/electricCharge",
+    "BasePath": "AutomationML_CoreProperties.Electrical_AttributeTypeLib/electricQuantity",
+    "LibraryName": "AutomationML_CoreProperties.Electrical_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "8ea8be25-e050-4823-bc7c-f8b21063eae8"
+  },
+  {
     "ClassName": "electricPotentialDifference",
     "CaexPath": "AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/electricPotentialDifference",
     "BasePath": null,
@@ -7452,6 +7497,15 @@
     "ID": "30883e1c-3eb9-44be-9270-8e76a1c9d8c1"
   },
   {
+    "ClassName": "capacitance",
+    "CaexPath": "AutomationML_CoreProperties.Electrical_AttributeTypeLib/capacitance",
+    "BasePath": "AutomationML_CoreProperties.Electrical_AttributeTypeLib/electricQuantity",
+    "LibraryName": "AutomationML_CoreProperties.Electrical_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "30883e1c-3eb9-44be-9270-8e76a1c9d8c1"
+  },
+  {
     "ClassName": "electricResistance",
     "CaexPath": "AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/electricResistance",
     "BasePath": null,
@@ -7695,6 +7749,15 @@
     "ID": "48c0890a-1e98-45db-9a05-fabf75ba1c07"
   },
   {
+    "ClassName": "magneticFlux",
+    "CaexPath": "AutomationML_CoreProperties.Electrical_AttributeTypeLib/magneticFlux",
+    "BasePath": "AutomationML_CoreProperties.Electrical_AttributeTypeLib/electricQuantity",
+    "LibraryName": "AutomationML_CoreProperties.Electrical_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "48c0890a-1e98-45db-9a05-fabf75ba1c07"
+  },
+  {
     "ClassName": "magneticFluxDensity",
     "CaexPath": "AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/magneticFluxDensity",
     "BasePath": null,
@@ -7776,6 +7839,15 @@
     "ID": "ab65f835-28a8-402f-8c6e-3a65cc72dafd"
   },
   {
+    "ClassName": "magneticFluxDensity",
+    "CaexPath": "AutomationML_CoreProperties.Electrical_AttributeTypeLib/magneticFluxDensity",
+    "BasePath": "AutomationML_CoreProperties.Electrical_AttributeTypeLib/electricQuantity",
+    "LibraryName": "AutomationML_CoreProperties.Electrical_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "ab65f835-28a8-402f-8c6e-3a65cc72dafd"
+  },
+  {
     "ClassName": "inductance",
     "CaexPath": "AutomationML_BasicProperties.electricalProperties_AttributeTypeLib/inductance",
     "BasePath": null,
@@ -7853,6 +7925,15 @@
     "BasePath": null,
     "LibraryName": "AutomationML_BasicProperties.Electrical_AttributeTypeLib",
     "LibraryVersion": "1.2.2",
+    "AMLEdition": "AMLEd2",
+    "ID": "5ec36a29-70e1-41c8-9a9d-4ef02ae85e7e"
+  },
+  {
+    "ClassName": "inductance",
+    "CaexPath": "AutomationML_CoreProperties.Electrical_AttributeTypeLib/inductance",
+    "BasePath": "AutomationML_CoreProperties.Electrical_AttributeTypeLib/electricQuantity",
+    "LibraryName": "AutomationML_CoreProperties.Electrical_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
     "AMLEdition": "AMLEd2",
     "ID": "5ec36a29-70e1-41c8-9a9d-4ef02ae85e7e"
   },
@@ -9950,6 +10031,15 @@
     "BasePath": null,
     "LibraryName": "AutomationML_BasicProperties.Electrical_AttributeTypeLib",
     "LibraryVersion": "1.2.2",
+    "AMLEdition": "AMLEd2",
+    "ID": "5d8eba78-b0f5-4d29-a610-1e06dcb71f39"
+  },
+  {
+    "ClassName": "current",
+    "CaexPath": "AutomationML_CoreProperties.Electrical_AttributeTypeLib/current",
+    "BasePath": "AutomationML_CoreProperties.Electrical_AttributeTypeLib/electricQuantity",
+    "LibraryName": "AutomationML_CoreProperties.Electrical_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
     "AMLEdition": "AMLEd2",
     "ID": "5d8eba78-b0f5-4d29-a610-1e06dcb71f39"
   },
@@ -14400,11 +14490,29 @@
     "ID": "9dfcdf25-6cf9-42b6-8424-41ee79187253"
   },
   {
+    "ClassName": "electricalEnergy",
+    "CaexPath": "AutomationML_CoreProperties.Electrical_AttributeTypeLib/electricalEnergy",
+    "BasePath": "AutomationMLCoreProperties.PhysicalAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Physical_AttributeTypeLib/energy",
+    "LibraryName": "AutomationML_CoreProperties.Electrical_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "9dfcdf25-6cf9-42b6-8424-41ee79187253"
+  },
+  {
     "ClassName": "electricalWork",
     "CaexPath": "AutomationML_BasicProperties.Electrical_AttributeTypeLib/electricalWork",
     "BasePath": null,
     "LibraryName": "AutomationML_BasicProperties.Electrical_AttributeTypeLib",
     "LibraryVersion": "1.2.2",
+    "AMLEdition": "AMLEd2",
+    "ID": "dc1760a7-68a0-4a76-966f-2e7cd85fe40b"
+  },
+  {
+    "ClassName": "electricalWork",
+    "CaexPath": "AutomationML_CoreProperties.Electrical_AttributeTypeLib/electricalWork",
+    "BasePath": "AutomationML_CoreProperties.Electrical_AttributeTypeLib/electricalEnergy",
+    "LibraryName": "AutomationML_CoreProperties.Electrical_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
     "AMLEdition": "AMLEd2",
     "ID": "dc1760a7-68a0-4a76-966f-2e7cd85fe40b"
   },
@@ -16288,5 +16396,158 @@
     "LibraryVersion": "1.7.8",
     "AMLEdition": "AMLEd2",
     "ID": "789cdd4e-70a1-4708-9d28-8789ce354daf"
+  },
+  {
+    "ClassName": "electricQuantity",
+    "CaexPath": "AutomationML_CoreProperties.Electrical_AttributeTypeLib/electricQuantity",
+    "BasePath": "AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/physicalQuantity",
+    "LibraryName": "AutomationML_CoreProperties.Electrical_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "0d4e627e-3303-41ec-9fd0-d9891c816c6d"
+  },
+  {
+    "ClassName": "complexElectricQuantity",
+    "CaexPath": "AutomationML_CoreProperties.Electrical_AttributeTypeLib/complexElectricQuantity",
+    "BasePath": "AutomationML_CoreProperties.Electrical_AttributeTypeLib/electricQuantity",
+    "LibraryName": "AutomationML_CoreProperties.Electrical_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "d4b30952-34e6-4420-9a32-c11938d7c9d4"
+  },
+  {
+    "ClassName": "electricFluxDensity",
+    "CaexPath": "AutomationML_CoreProperties.Electrical_AttributeTypeLib/electricFluxDensity",
+    "BasePath": "AutomationML_CoreProperties.Electrical_AttributeTypeLib/electricQuantity",
+    "LibraryName": "AutomationML_CoreProperties.Electrical_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "d5805bb0-af61-4799-b528-c7a5a0f9cc75"
+  },
+  {
+    "ClassName": "electricFlux",
+    "CaexPath": "AutomationML_CoreProperties.Electrical_AttributeTypeLib/electricFlux",
+    "BasePath": "AutomationML_CoreProperties.Electrical_AttributeTypeLib/electricQuantity",
+    "LibraryName": "AutomationML_CoreProperties.Electrical_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "644910d0-20ac-4aa2-9e04-febaec22b96d"
+  },
+  {
+    "ClassName": "conductance",
+    "CaexPath": "AutomationML_CoreProperties.Electrical_AttributeTypeLib/conductance",
+    "BasePath": "AutomationML_CoreProperties.Electrical_AttributeTypeLib/electricQuantity",
+    "LibraryName": "AutomationML_CoreProperties.Electrical_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "2910e227-3d0a-4a6f-96ad-c585db44e749"
+  },
+  {
+    "ClassName": "resistivity",
+    "CaexPath": "AutomationML_CoreProperties.Electrical_AttributeTypeLib/resistivity",
+    "BasePath": "AutomationML_CoreProperties.Electrical_AttributeTypeLib/electricQuantity",
+    "LibraryName": "AutomationML_CoreProperties.Electrical_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "1fb17572-4a4f-4b35-8f01-732c89230fd4"
+  },
+  {
+    "ClassName": "conductivity",
+    "CaexPath": "AutomationML_CoreProperties.Electrical_AttributeTypeLib/conductivity",
+    "BasePath": "AutomationML_CoreProperties.Electrical_AttributeTypeLib/electricQuantity",
+    "LibraryName": "AutomationML_CoreProperties.Electrical_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "8b8cdd04-aab6-4b17-b300-bfd1e83be307"
+  },
+  {
+    "ClassName": "permittivity",
+    "CaexPath": "AutomationML_CoreProperties.Electrical_AttributeTypeLib/permittivity",
+    "BasePath": "AutomationML_CoreProperties.Electrical_AttributeTypeLib/electricQuantity",
+    "LibraryName": "AutomationML_CoreProperties.Electrical_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "f3ee6725-e1df-45fe-9678-7777da694a62"
+  },
+  {
+    "ClassName": "permeability",
+    "CaexPath": "AutomationML_CoreProperties.Electrical_AttributeTypeLib/permeability",
+    "BasePath": "AutomationML_CoreProperties.Electrical_AttributeTypeLib/electricQuantity",
+    "LibraryName": "AutomationML_CoreProperties.Electrical_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "37b0529e-4a56-4a7f-8144-df863c7f5e0b"
+  },
+  {
+    "ClassName": "impedance",
+    "CaexPath": "AutomationML_CoreProperties.Electrical_AttributeTypeLib/impedance",
+    "BasePath": "AutomationML_CoreProperties.Electrical_AttributeTypeLib/complexElectricQuantity",
+    "LibraryName": "AutomationML_CoreProperties.Electrical_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "d872f745-5b07-40d8-a58b-2dbc4999b1b8"
+  },
+  {
+    "ClassName": "admittance",
+    "CaexPath": "AutomationML_CoreProperties.Electrical_AttributeTypeLib/admittance",
+    "BasePath": "AutomationML_CoreProperties.Electrical_AttributeTypeLib/complexElectricQuantity",
+    "LibraryName": "AutomationML_CoreProperties.Electrical_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "6879ce89-b96c-4141-b599-4ec47c744a27"
+  },
+  {
+    "ClassName": "reactance",
+    "CaexPath": "AutomationML_CoreProperties.Electrical_AttributeTypeLib/reactance",
+    "BasePath": "AutomationML_CoreProperties.Electrical_AttributeTypeLib/electricQuantity",
+    "LibraryName": "AutomationML_CoreProperties.Electrical_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "144ec604-631c-4384-9179-da40a1e452a4"
+  },
+  {
+    "ClassName": "susceptance",
+    "CaexPath": "AutomationML_CoreProperties.Electrical_AttributeTypeLib/susceptance",
+    "BasePath": "AutomationML_CoreProperties.Electrical_AttributeTypeLib/electricQuantity",
+    "LibraryName": "AutomationML_CoreProperties.Electrical_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "4bdba746-68bc-4e3c-acd8-b3589f648021"
+  },
+  {
+    "ClassName": "electricalFrequency",
+    "CaexPath": "AutomationML_CoreProperties.Electrical_AttributeTypeLib/electricalFrequency",
+    "BasePath": "AutomationMLCoreProperties.PhysicalAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Physical_AttributeTypeLib/frequency",
+    "LibraryName": "AutomationML_CoreProperties.Electrical_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "98936f91-8645-4251-ad1b-88d159fb3200"
+  },
+  {
+    "ClassName": "electricalPower",
+    "CaexPath": "AutomationML_CoreProperties.Electrical_AttributeTypeLib/electricalPower",
+    "BasePath": "AutomationMLCoreProperties.PhysicalAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Physical_AttributeTypeLib/power",
+    "LibraryName": "AutomationML_CoreProperties.Electrical_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "d69a3345-f10a-426f-95c0-f7a8423d0c32"
+  },
+  {
+    "ClassName": "apparentPower",
+    "CaexPath": "AutomationML_CoreProperties.Electrical_AttributeTypeLib/apparentPower",
+    "BasePath": "AutomationMLCoreProperties.PhysicalAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Physical_AttributeTypeLib/power",
+    "LibraryName": "AutomationML_CoreProperties.Electrical_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "946a1da5-08ac-4c01-8655-796cadaa2078"
+  },
+  {
+    "ClassName": "reactivePower",
+    "CaexPath": "AutomationML_CoreProperties.Electrical_AttributeTypeLib/reactivePower",
+    "BasePath": "AutomationMLCoreProperties.PhysicalAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Physical_AttributeTypeLib/power",
+    "LibraryName": "AutomationML_CoreProperties.Electrical_AttributeTypeLib",
+    "LibraryVersion": "1.7.8",
+    "AMLEdition": "AMLEd2",
+    "ID": "b9917fb2-dcc1-41a1-9da3-77d6327a6116"
   }
 ]
