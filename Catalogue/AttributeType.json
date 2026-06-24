@@ -18,15 +18,6 @@
     "ID": "582220ba-f765-455d-a2f8-4135f5e46a51"
   },
   {
-    "ClassName": "speed",
-    "CaexPath": "AutomationML_CoreProperties.Kinematics_AttributeTypeLib/speed",
-    "BasePath": "AutomationML_CoreProperties.Kinematics_AttributeTypeLib/kinematicQuantity",
-    "LibraryName": "AutomationML_CoreProperties.Kinematics_AttributeTypeLib",
-    "LibraryVersion": "1.7.8",
-    "AMLEdition": "AMLEd2",
-    "ID": "582220ba-f765-455d-a2f8-4135f5e46a51"
-  },
-  {
     "ClassName": "electricCurrent",
     "CaexPath": "AutomationML_BasicProperties.Electrics_AttributeTypeLib/electricCurrent",
     "BasePath": null,
@@ -410,15 +401,6 @@
     "BasePath": "AutomationML_BasicProperties.Kinematics_AttributeTypeLib/speed",
     "LibraryName": "AutomationML_BasicProperties.Kinematics_AttributeTypeLib",
     "LibraryVersion": "1.2.2",
-    "AMLEdition": "AMLEd2",
-    "ID": "d927617c-3e4f-4dd7-8ecd-ceb5a190b570"
-  },
-  {
-    "ClassName": "velocity",
-    "CaexPath": "AutomationML_CoreProperties.Kinematics_AttributeTypeLib/velocity",
-    "BasePath": "AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/vector",
-    "LibraryName": "AutomationML_CoreProperties.Kinematics_AttributeTypeLib",
-    "LibraryVersion": "1.7.8",
     "AMLEdition": "AMLEd2",
     "ID": "d927617c-3e4f-4dd7-8ecd-ceb5a190b570"
   },
@@ -1602,15 +1584,6 @@
     "ID": "49f7a4fc-5143-431e-b5f4-fb7cbe00c08e"
   },
   {
-    "ClassName": "angularVelocity",
-    "CaexPath": "AutomationML_CoreProperties.Kinematics_AttributeTypeLib/angularVelocity",
-    "BasePath": "AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/vector",
-    "LibraryName": "AutomationML_CoreProperties.Kinematics_AttributeTypeLib",
-    "LibraryVersion": "1.7.8",
-    "AMLEdition": "AMLEd2",
-    "ID": "49f7a4fc-5143-431e-b5f4-fb7cbe00c08e"
-  },
-  {
     "ClassName": "density",
     "CaexPath": "AutomationML_BasicProperties.Physics_AttributeTypeLib/density",
     "BasePath": null,
@@ -1724,15 +1697,6 @@
     "BasePath": null,
     "LibraryName": "AutomationML_BasicProperties.Kinematics_AttributeTypeLib",
     "LibraryVersion": "1.2.2",
-    "AMLEdition": "AMLEd2",
-    "ID": "05b38039-b095-468f-bf3f-0f6137b66ed9"
-  },
-  {
-    "ClassName": "acceleration",
-    "CaexPath": "AutomationML_CoreProperties.Kinematics_AttributeTypeLib/acceleration",
-    "BasePath": "AutomationML_CoreProperties.Kinematics_AttributeTypeLib/kinematicQuantity",
-    "LibraryName": "AutomationML_CoreProperties.Kinematics_AttributeTypeLib",
-    "LibraryVersion": "1.7.8",
     "AMLEdition": "AMLEd2",
     "ID": "05b38039-b095-468f-bf3f-0f6137b66ed9"
   },
@@ -2385,15 +2349,6 @@
     "ID": "7b1f7180-532f-4c94-85cb-a38ec867f81c"
   },
   {
-    "ClassName": "linearVelocity",
-    "CaexPath": "AutomationML_CoreProperties.Kinematics_AttributeTypeLib/linearVelocity",
-    "BasePath": "AutomationML_CoreProperties.Kinematics_AttributeTypeLib/velocity",
-    "LibraryName": "AutomationML_CoreProperties.Kinematics_AttributeTypeLib",
-    "LibraryVersion": "1.7.8",
-    "AMLEdition": "AMLEd2",
-    "ID": "7b1f7180-532f-4c94-85cb-a38ec867f81c"
-  },
-  {
     "ClassName": "linearAcceleration",
     "CaexPath": "AutomationML_BasicProperties.kinematics_AttributeTypeLib/linearAcceleration",
     "BasePath": null,
@@ -2471,15 +2426,6 @@
     "BasePath": "AutomationML_BasicProperties.Kinematics_AttributeTypeLib/acceleration",
     "LibraryName": "AutomationML_BasicProperties.Kinematics_AttributeTypeLib",
     "LibraryVersion": "1.2.2",
-    "AMLEdition": "AMLEd2",
-    "ID": "2a91335c-8247-4079-ae2b-f34cae236310"
-  },
-  {
-    "ClassName": "linearAcceleration",
-    "CaexPath": "AutomationML_CoreProperties.Kinematics_AttributeTypeLib/linearAcceleration",
-    "BasePath": "AutomationML_CoreProperties.Kinematics_AttributeTypeLib/acceleration",
-    "LibraryName": "AutomationML_CoreProperties.Kinematics_AttributeTypeLib",
-    "LibraryVersion": "1.7.8",
     "AMLEdition": "AMLEd2",
     "ID": "2a91335c-8247-4079-ae2b-f34cae236310"
   },
@@ -3380,15 +3326,6 @@
     "BasePath": "AutomationML_BasicProperties.Kinematics_AttributeTypeLib/acceleration",
     "LibraryName": "AutomationML_BasicProperties.Kinematics_AttributeTypeLib",
     "LibraryVersion": "1.2.2",
-    "AMLEdition": "AMLEd2",
-    "ID": "707e9380-cdd1-4d35-aa2f-8485b9ac198c"
-  },
-  {
-    "ClassName": "angularAcceleration",
-    "CaexPath": "AutomationML_CoreProperties.Kinematics_AttributeTypeLib/angularAcceleration",
-    "BasePath": "AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/vector",
-    "LibraryName": "AutomationML_CoreProperties.Kinematics_AttributeTypeLib",
-    "LibraryVersion": "1.7.8",
     "AMLEdition": "AMLEd2",
     "ID": "707e9380-cdd1-4d35-aa2f-8485b9ac198c"
   },
@@ -12114,15 +12051,6 @@
     "ID": "4a1b8c33-13b8-4fb0-93df-53696518d218"
   },
   {
-    "ClassName": "jerk",
-    "CaexPath": "AutomationML_CoreProperties.Kinematics_AttributeTypeLib/jerk",
-    "BasePath": "AutomationML_CoreProperties.Kinematics_AttributeTypeLib/kinematicQuantity",
-    "LibraryName": "AutomationML_CoreProperties.Kinematics_AttributeTypeLib",
-    "LibraryVersion": "1.7.8",
-    "AMLEdition": "AMLEd2",
-    "ID": "4a1b8c33-13b8-4fb0-93df-53696518d218"
-  },
-  {
     "ClassName": "VAT",
     "CaexPath": "AutomationML_BasicProperties.Contact_AttributeTypeLib/VAT",
     "BasePath": null,
@@ -12249,29 +12177,11 @@
     "ID": "78726275-df44-4aab-b51f-08f5d0b4f893"
   },
   {
-    "ClassName": "rangeAngular",
-    "CaexPath": "AutomationML_CoreProperties.Kinematics_AttributeTypeLib/rangeAngular",
-    "BasePath": "AutomationMLCoreProperties.GeometryAttributeTypeLibAMLEd21_7_8@AutomationML_CoreProperties.Geometry_AttributeTypeLib/planeAngle",
-    "LibraryName": "AutomationML_CoreProperties.Kinematics_AttributeTypeLib",
-    "LibraryVersion": "1.7.8",
-    "AMLEdition": "AMLEd2",
-    "ID": "78726275-df44-4aab-b51f-08f5d0b4f893"
-  },
-  {
     "ClassName": "rangeLinear",
     "CaexPath": "AutomationML_BasicProperties.Kinematics_AttributeTypeLib/rangeLinear",
     "BasePath": "AutomationML_BasicProperties.Geometry_AttributeTypeLib/linearMeasure",
     "LibraryName": "AutomationML_BasicProperties.Kinematics_AttributeTypeLib",
     "LibraryVersion": "1.2.2",
-    "AMLEdition": "AMLEd2",
-    "ID": "51285a61-0d65-4235-b112-22b339841270"
-  },
-  {
-    "ClassName": "rangeLinear",
-    "CaexPath": "AutomationML_CoreProperties.Kinematics_AttributeTypeLib/rangeLinear",
-    "BasePath": "AutomationMLCoreProperties.GeometryAttributeTypeLibAMLEd21_7_8@AutomationML_CoreProperties.Geometry_AttributeTypeLib/linearMeasure",
-    "LibraryName": "AutomationML_CoreProperties.Kinematics_AttributeTypeLib",
-    "LibraryVersion": "1.7.8",
     "AMLEdition": "AMLEd2",
     "ID": "51285a61-0d65-4235-b112-22b339841270"
   },
@@ -13129,96 +13039,6 @@
     "LibraryVersion": "1.7.8",
     "AMLEdition": "AMLEd2",
     "ID": "6865623f-c1f4-4572-9d12-e6726a177ba3"
-  },
-  {
-    "ClassName": "kinematicQuantity",
-    "CaexPath": "AutomationML_CoreProperties.Kinematics_AttributeTypeLib/kinematicQuantity",
-    "BasePath": "AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/physicalQuantity",
-    "LibraryName": "AutomationML_CoreProperties.Kinematics_AttributeTypeLib",
-    "LibraryVersion": "1.7.8",
-    "AMLEdition": "AMLEd2",
-    "ID": "0bb94de6-aeaa-4bf4-afd7-e22fdbf4959e"
-  },
-  {
-    "ClassName": "accelerationVector",
-    "CaexPath": "AutomationML_CoreProperties.Kinematics_AttributeTypeLib/accelerationVector",
-    "BasePath": "AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/vector",
-    "LibraryName": "AutomationML_CoreProperties.Kinematics_AttributeTypeLib",
-    "LibraryVersion": "1.7.8",
-    "AMLEdition": "AMLEd2",
-    "ID": "f274ab28-13f8-4110-af28-7d538b8b9417"
-  },
-  {
-    "ClassName": "angularSpeed",
-    "CaexPath": "AutomationML_CoreProperties.Kinematics_AttributeTypeLib/angularSpeed",
-    "BasePath": "AutomationML_CoreProperties.Kinematics_AttributeTypeLib/kinematicQuantity",
-    "LibraryName": "AutomationML_CoreProperties.Kinematics_AttributeTypeLib",
-    "LibraryVersion": "1.7.8",
-    "AMLEdition": "AMLEd2",
-    "ID": "224dcebd-d2f0-476a-81f7-a87a14263724"
-  },
-  {
-    "ClassName": "rotationalSpeed",
-    "CaexPath": "AutomationML_CoreProperties.Kinematics_AttributeTypeLib/rotationalSpeed",
-    "BasePath": "AutomationML_CoreProperties.Kinematics_AttributeTypeLib/kinematicQuantity",
-    "LibraryName": "AutomationML_CoreProperties.Kinematics_AttributeTypeLib",
-    "LibraryVersion": "1.7.8",
-    "AMLEdition": "AMLEd2",
-    "ID": "a6041288-6e11-4010-bb5f-48b67848a7fb"
-  },
-  {
-    "ClassName": "phaseVelocity",
-    "CaexPath": "AutomationML_CoreProperties.Kinematics_AttributeTypeLib/phaseVelocity",
-    "BasePath": "AutomationML_CoreProperties.Kinematics_AttributeTypeLib/speed",
-    "LibraryName": "AutomationML_CoreProperties.Kinematics_AttributeTypeLib",
-    "LibraryVersion": "1.7.8",
-    "AMLEdition": "AMLEd2",
-    "ID": "851b9295-902c-4899-9712-92f0a00efd03"
-  },
-  {
-    "ClassName": "groupVelocity",
-    "CaexPath": "AutomationML_CoreProperties.Kinematics_AttributeTypeLib/groupVelocity",
-    "BasePath": "AutomationML_CoreProperties.Kinematics_AttributeTypeLib/speed",
-    "LibraryName": "AutomationML_CoreProperties.Kinematics_AttributeTypeLib",
-    "LibraryVersion": "1.7.8",
-    "AMLEdition": "AMLEd2",
-    "ID": "ac2dba9a-3b32-4cfd-ab42-86bfc39cf593"
-  },
-  {
-    "ClassName": "linearDisplacement",
-    "CaexPath": "AutomationML_CoreProperties.Kinematics_AttributeTypeLib/linearDisplacement",
-    "BasePath": "AutomationMLCoreProperties.GeometryAttributeTypeLibAMLEd21_7_8@AutomationML_CoreProperties.Geometry_AttributeTypeLib/linearMeasure",
-    "LibraryName": "AutomationML_CoreProperties.Kinematics_AttributeTypeLib",
-    "LibraryVersion": "1.7.8",
-    "AMLEdition": "AMLEd2",
-    "ID": "596ae1ed-78d3-43a8-a1b5-f9020f6b0afd"
-  },
-  {
-    "ClassName": "angularJerk",
-    "CaexPath": "AutomationML_CoreProperties.Kinematics_AttributeTypeLib/angularJerk",
-    "BasePath": "AutomationML_CoreProperties.Kinematics_AttributeTypeLib/kinematicQuantity",
-    "LibraryName": "AutomationML_CoreProperties.Kinematics_AttributeTypeLib",
-    "LibraryVersion": "1.7.8",
-    "AMLEdition": "AMLEd2",
-    "ID": "1590c31f-43fb-4c69-8a2d-4f751f67c818"
-  },
-  {
-    "ClassName": "rotation",
-    "CaexPath": "AutomationML_CoreProperties.Kinematics_AttributeTypeLib/rotation",
-    "BasePath": "AutomationML_CoreProperties.Kinematics_AttributeTypeLib/kinematicQuantity",
-    "LibraryName": "AutomationML_CoreProperties.Kinematics_AttributeTypeLib",
-    "LibraryVersion": "1.7.8",
-    "AMLEdition": "AMLEd2",
-    "ID": "c80b1986-0fbb-4f1d-a31c-5afc06d958ac"
-  },
-  {
-    "ClassName": "propagationCoefficient",
-    "CaexPath": "AutomationML_CoreProperties.Kinematics_AttributeTypeLib/propagationCoefficient",
-    "BasePath": "AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/complexPhysicalQuantity",
-    "LibraryName": "AutomationML_CoreProperties.Kinematics_AttributeTypeLib",
-    "LibraryVersion": "1.7.8",
-    "AMLEdition": "AMLEd2",
-    "ID": "3e4515e4-9372-408c-b787-c3cd6b1a5712"
   },
   {
     "ClassName": "timeMeasure",
