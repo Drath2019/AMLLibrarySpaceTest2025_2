@@ -212,6 +212,26 @@
               "Revision": null
             }
           ]
+        },
+        {
+          "Name": "AutomationML_CoreProperties.Time_AttributeTypeLib",
+          "Versions": [
+            {
+              "Version": "1.7.8",
+              "CAEXVersion": "3.0",
+              "AMLEdition": "AMLEd2",
+              "IsArchived": false,
+              "Description": "This AttributeTypeLib defines fundamental, domain-neutral physical and geometric properties that are generally applicable to technical assets. The contained attributes represent basic quantities such as mass, geometry, and selected fundamental physical quantities, without assuming any specific engineering domain or application context.",
+              "DownloadLink": null,
+              "DownloadLinks": [
+                "https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/AutomationML_CoreProperties.Time_AttributeTypeLib_AMLEd2_1.7.8-beta.aml"
+              ],
+              "Sources": null,
+              "Signature": "MEYCIQDHY2Hm08RdMNnYRwdW0g9PCsPmtW3eyRFUd78QmBMxgAIhAOPDaNbXPnbii604Ky2WZTDdaKmvQzuXWfxnAMx0BpDu",
+              "PublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEyk6uIUNugOojm3akdEAA4XoGGBEui0zPVhzkjR0RfprHFWrbPpFMfExaW2TaeChaegCmjE2boFph1aI1eNEPcQ==",
+              "Revision": null
+            }
+          ]
         }
       ]
     },
