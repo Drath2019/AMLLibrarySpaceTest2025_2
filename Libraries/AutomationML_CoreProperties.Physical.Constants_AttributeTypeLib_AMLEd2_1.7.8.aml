@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CAEXFile SchemaVersion="3.0" FileName="AutomationML_CoreProperties.Physical.Constants_AttributeTypeLib_AMLEd2_1.7.8.aml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.dke.de/CAEX" xsi:schemaLocation="http://www.dke.de/CAEX CAEX_ClassModel_V.3.0.xsd">
+  <Description>a data field used to track specific iterations, releases, or revisions of an asset, document, software build, or system configuration</Description>
+  <Version>1.7.8</Version>
+  <SuperiorStandardVersion>AutomationML 2.1</SuperiorStandardVersion>
+  <SourceDocumentInformation OriginName="CoreProperties.Physical.Constants_AttributeTypeLib" OriginID="830ee3b1-2d02-4174-b5bd-24921dcf3a5f" OriginVersion="1.7.8" LastWritingDateTime="2026-06-24T15:49:36.0113381+02:00" OriginProjectID="" OriginProjectTitle="" OriginRelease="1.7.8" OriginVendor="AutomationML" OriginVendorURL="AutomationML_CoreProperties.Physical.Constants_AttributeTypeLib_AMLEd2_1.7.8.aml" />
+  <ExternalReference Path="https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/AutomationML_CoreProperties.Foundation_AttributeTypeLib_AMLEd2_1.7.8.aml" Alias="AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2" />
+  <ExternalReference Path="https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/AutomationML_CoreProperties.Physical_AttributeTypeLib_AMLEd2_1.7.8.aml" Alias="AutomationMLCoreProperties.PhysicalAttributeTypeLibAMLEd2" />
+  <ExternalReference Path="https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/AutomationML_CoreProperties.Kinematics_AttributeTypeLib_AMLEd2_1.7.8.aml" Alias="AutomationMLCoreProperties.KinematicsAttributeTypeLibAMLEd2" />
+  <ExternalReference Path="https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/AutomationML_CoreProperties.Electrical_AttributeTypeLib_AMLEd2_1.7.8.aml" Alias="AutomationMLCoreProperties.ElectricalAttributeTypeLibAMLEd2" />
+  <AttributeTypeLib Name="AutomationML_CoreProperties.Physical.Constants_AttributeTypeLib" ID="1867cd46-2379-4048-8a24-6a8e2777b63b">
+    <Description>This AttributeTypeLib contains fundamental physical constants and conventional reference values used in science and engineering.
+The attributes represent fixed numerical values that are independent of a specific asset instance and are typically defined by international metrology (for example as SI defining constants) or widely accepted conventions.
+The contained constants are domain-neutral and may be referenced to support consistent calculations, unit realizations, and documentation across models and lifecycle phases without introducing application-specific semantics.</Description>
+    <Version>1.7.8</Version>
+    <AttributeType Name="hyperfineTransitionFrequencyOfCs" AttributeDataType="xs:double" Unit="Hz" ID="3476c4ca-8f54-4ac1-8861-1d4eb403677a" RefAttributeType="AutomationMLCoreProperties.PhysicalAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Physical_AttributeTypeLib/frequency">
+      <Description>hyperfineTransitionFrequencyOfCs is an SI defining constant that defines the second by fixing the unperturbed ground-state hyperfine transition frequency of the caesium-133 atom at exactly 9 192 631 770 hertz.</Description>
+      <Version>1.7.8</Version>
+      <SourceObjectInformation OriginID="INTERNATIONAL BUREAU OF WEIGHTS AND MEASURES (BIPM). The International System of Units (SI). 9th edition 2019" />
+      <Value>9192631770</Value>
+    </AttributeType>
+    <AttributeType Name="speedOfLightInVacuum" AttributeDataType="xs:double" Unit="m/s" ID="174c0c1c-71bf-44f4-879a-b0e60ea3d66b" RefAttributeType="AutomationMLCoreProperties.KinematicsAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Kinematics_AttributeTypeLib/speed">
+      <Description>speedOfLightInVacuum is an SI defining constant that defines the metre by fixing the speed of light in vacuum at exactly 299 792 458 metres per second.</Description>
+      <Version>1.7.8</Version>
+      <SourceObjectInformation OriginID="INTERNATIONAL BUREAU OF WEIGHTS AND MEASURES (BIPM). The International System of Units (SI). 9th edition 2019" />
+      <Value>299792458</Value>
+    </AttributeType>
+    <AttributeType Name="planckConstant" AttributeDataType="xs:double" Unit="J*s" ID="1285d346-932e-4430-9aa5-06af61d02275" RefAttributeType="AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/physicalConstant">
+      <Description>planckConstant is an SI defining constant that defines the kilogram in the SI by fixing the Planck constant at exactly 6.626 070 15 x 10^-34 joule seconds.</Description>
+      <Version>1.7.8</Version>
+      <SourceObjectInformation OriginID="INTERNATIONAL BUREAU OF WEIGHTS AND MEASURES (BIPM). The International System of Units (SI). 9th edition 2019" />
+      <Value>6.62607015e-34</Value>
+    </AttributeType>
+    <AttributeType Name="elementaryCharge" AttributeDataType="xs:double" Unit="C" ID="cfea7ee3-4a5a-423f-b7aa-129b6456e523" RefAttributeType="AutomationMLCoreProperties.ElectricalAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Electrical_AttributeTypeLib/electricCharge">
+      <Description>elementaryCharge is an SI defining constant that defines the ampere in the SI by fixing the elementary charge at exactly 1.602 176 634 x 10^-19 coulombs.</Description>
+      <Version>1.7.8</Version>
+      <SourceObjectInformation OriginID="INTERNATIONAL BUREAU OF WEIGHTS AND MEASURES (BIPM). The International System of Units (SI). 9th edition 2019" />
+      <Value>1.602176634e-19</Value>
+    </AttributeType>
+    <AttributeType Name="boltzmannConstant" AttributeDataType="xs:double" Unit="J/K" ID="3e20af3a-49b0-4049-8e4c-b3f8c8cce818" RefAttributeType="AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/physicalConstant">
+      <Description>boltzmannConstant is an SI defining constant that defines the kelvin in the SI by fixing the Boltzmann constant at exactly 1.380 649 x 10^-23 joules per kelvin.</Description>
+      <Version>1.7.8</Version>
+      <SourceObjectInformation OriginID="INTERNATIONAL BUREAU OF WEIGHTS AND MEASURES (BIPM). The International System of Units (SI). 9th edition 2019" />
+      <Value>1.380649e-23</Value>
+    </AttributeType>
+    <AttributeType Name="avogadroConstant" AttributeDataType="xs:double" Unit="mol^-1" ID="d193f26c-3eab-46bf-8e73-4692d09608b9" RefAttributeType="AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/physicalConstant">
+      <Description>avogadroConstant is an SI defining constant that defines the mole in the SI by fixing the Avogadro constant at exactly 6.022 140 76 x 10^23 reciprocal moles.</Description>
+      <Version>1.7.8</Version>
+      <SourceObjectInformation OriginID="INTERNATIONAL BUREAU OF WEIGHTS AND MEASURES (BIPM). The International System of Units (SI). 9th edition 2019" />
+      <Value>6.02214076e23</Value>
+    </AttributeType>
+    <AttributeType Name="luminousEfficacy" AttributeDataType="xs:double" Unit="lm/W" ID="986fe702-1571-4f08-9199-4f19bb835995" RefAttributeType="AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/physicalConstant">
+      <Description>luminousEfficacy is an SI defining constant that defines the candela in the SI by fixing the luminous efficacy of monochromatic radiation of frequency 540 terahertz at exactly 683 lumens per watt.</Description>
+      <Version>1.7.8</Version>
+      <SourceObjectInformation OriginID="INTERNATIONAL BUREAU OF WEIGHTS AND MEASURES (BIPM). The International System of Units (SI). 9th edition 2019" />
+      <Value>683</Value>
+    </AttributeType>
+    <AttributeType Name="gravitationalConstant" AttributeDataType="xs:double" Unit="m^3*kg^-1*s^-2" ID="d3f52e67-72b3-4549-9cdd-dbf836a7b04c" RefAttributeType="AutomationMLCoreProperties.FoundationAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Foundation_AttributeTypeLib/physicalConstant">
+      <Description>gravitationalConstant is a physical constant that characterizes the strength of gravitation in Newton's law of universal gravitation and has an experimentally determined value.</Description>
+      <Version>1.7.8</Version>
+      <SourceObjectInformation OriginID="CODATA 2018, NIST — Recommended Values of the Fundamental Physical Constants. https://physics.nist.gov/constants" />
+      <Value>6.67430e-11</Value>
+    </AttributeType>
+    <AttributeType Name="standardGravity" AttributeDataType="xs:double" Unit="m*s^-2" ID="7c0cefa6-34e4-4b25-8532-5c5fc59fc060" RefAttributeType="AutomationMLCoreProperties.KinematicsAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Kinematics_AttributeTypeLib/acceleration">
+      <Description>standardGravity is a conventional reference quantity that specifies the conventional standard acceleration due to gravity as a reference value for metrology and engineering.</Description>
+      <Version>1.7.8</Version>
+      <SourceObjectInformation OriginID="CODATA 2018, NIST — Recommended Values of the Fundamental Physical Constants. https://physics.nist.gov/constants" />
+      <Value>9.80665</Value>
+    </AttributeType>
+    <AttributeType Name="vacuumPermittivity" ID="b0f4af8f-e09f-4748-b097-426e7ca0d012" AttributeDataType="xs:double" RefAttributeType="AutomationMLCoreProperties.ElectricalAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Electrical_AttributeTypeLib/permittivity" Unit="F/m">
+      <Description>vacuumPermittivity is a physical constant that relates electric field to electric displacement in vacuum.</Description>
+      <Version>1.7.8</Version>
+      <Value>8.8541878128E-12</Value>
+    </AttributeType>
+    <AttributeType Name="vacuumPermeability" ID="487f99e5-4a4f-4ead-ae06-aedfa477f8e7" AttributeDataType="xs:double" RefAttributeType="AutomationMLCoreProperties.ElectricalAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Electrical_AttributeTypeLib/permeability" Unit="H/m">
+      <Description>vacuumPermeability is a physical constant that relates magnetic field strength to flux density in vacuum.</Description>
+      <Version>1.7.8</Version>
+      <Value>1.256637062E-06</Value>
+    </AttributeType>
+    <AttributeType Name="characteristicImpedanceOfVacuum" ID="4353abc5-7605-4126-97d2-5ceaf1ec1bb7" AttributeDataType="xs:double" Unit="Ω" RefAttributeType="AutomationMLCoreProperties.ElectricalAttributeTypeLibAMLEd2@AutomationML_CoreProperties.Electrical_AttributeTypeLib/electricQuantity">
+      <Description>characteristicImpedanceOfVacuum is a physical constant describing the ratio of the electric field strength to the magnetic field strength of a plane electromagnetic wave propagating in vacuum.</Description>
+      <Version>1.7.8</Version>
+      <Value>376.7303137</Value>
+    </AttributeType>
+  </AttributeTypeLib>
+</CAEXFile>
