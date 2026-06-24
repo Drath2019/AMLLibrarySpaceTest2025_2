@@ -2072,6 +2072,26 @@
               "Revision": null
             }
           ]
+        },
+        {
+          "Name": "AutomationML_CoreProperties.Contact_AttributeTypeLib",
+          "Versions": [
+            {
+              "Version": "1.7.8",
+              "CAEXVersion": "3.0",
+              "AMLEdition": "AMLEd2",
+              "IsArchived": false,
+              "Description": "This AttributeTypeLib defines structured and simple attribute types for managing contact, administrative, and business partner information. It encompasses personal and organizational details, postal and electronic addresses, communication channels, and cryptographic identifiers (e.g., public keys). The library supports the normative exchange of master data, procurement contacts, and economic entity information, ensuring consistent identification and communication routing across the asset lifecycle.",
+              "DownloadLink": null,
+              "DownloadLinks": [
+                "https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/AutomationML_CoreProperties.Contact_AttributeTypeLib_AMLEd2_1.7.8.aml"
+              ],
+              "Sources": null,
+              "Signature": "MEYCIQCB21BBf/Ec9796sX9t7GwczA6fIXX\u002BTBICZP8gyTDc0QIhAOUVPp9FiGGqtbZnN6XjQQERMOF6GPl2\u002B/otn/ISk5av",
+              "PublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEyk6uIUNugOojm3akdEAA4XoGGBEui0zPVhzkjR0RfprHFWrbPpFMfExaW2TaeChaegCmjE2boFph1aI1eNEPcQ==",
+              "Revision": null
+            }
+          ]
         }
       ]
     },
